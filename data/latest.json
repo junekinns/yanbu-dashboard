@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-16T09:57:14Z",
+ "generated_at": "2026-09-16T09:58:12Z",
  "attention": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T09:57:14Z",
+  "fetched_at": "2026-09-16T09:58:12Z",
   "articles": [
    {
     "key": "yanbu",
@@ -272,7 +272,7 @@
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T09:57:15Z",
+  "fetched_at": "2026-09-16T09:58:12Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -1333,7 +1333,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T09:57:22Z",
+  "fetched_at": "2026-09-16T09:58:14Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -1426,8 +1426,15 @@
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T09:57:26Z",
+  "fetched_at": "2026-09-16T09:58:32Z",
   "kr": [
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T08:11:10+00:00",
+    "source": "연합뉴스",
+    "title": "후티 압박에 에너지 위기…사우디 빈살만 리더십 '최대 시험대'",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RdIBYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RQ?oc=5"
+   },
    {
     "date": "2026-09-15",
     "published": "2026-09-15T22:03:00+00:00",
@@ -1455,13 +1462,6 @@
     "source": "연합뉴스",
     "title": "사우디-후티 교전 속 성지 메카·한인 거주 제다에 ’위협 경보’",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yWEM0QjYwRE9WZWJiR1I1RWlJRVdTRk1ydzdaUEdKMnFzRGRnOVkwUFhNdVpPSmhfNjdSRVA0LTMxLU85bnVHZUVwYTJGV2xZRnhNOXVCNnJPVWxkLTMxQmFhcVAwdVE?oc=5"
-   },
-   {
-    "date": "2026-09-15",
-    "published": "2026-09-15T10:41:00+00:00",
-    "source": "한겨레",
-    "title": "기름줄 끊긴 ‘중동의 맹주’…사우디, 이란·후티 공세에 ‘사면초가’",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOHh4V1Bja0s4LTRGUnR2Ry1fcUlMTFVHMDF6MklkNnY1cHlfU1dLcEdCbVZpRUNmMTBuaVRlcFVmX3A2NHRDai1BUEU5aDJDQlFocjFpY3kwamNXYVFEYkdvRWVmQzVZSmxQUTdnNWswb3dHYWxNYlhXSUw0NUVMNUNB?oc=5"
    }
   ],
   "en": [
@@ -1505,7 +1505,7 @@
  "maritime": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T09:57:28Z",
+  "fetched_at": "2026-09-16T09:58:33Z",
   "series": {
    "yanbu_port": {
     "name": "얀부항(King Fahd)",
