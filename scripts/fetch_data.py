@@ -5,6 +5,7 @@
   attention  영어 위키피디아 Yanbu/Jeddah 일일 조회수 ÷ 평시 중앙값
   firms      NASA FIRMS VIIRS 위성 열 감지 (서부 사우디, 최근 7일)
   mofa       외교부 해외안전여행 사우디 경보 단계 + 안전공지 주간 건수
+  news       Google News RSS에서 공신력 있는 국내·해외 매체만 골라 최근 5건씩
 
 모두 무료·무키. 실패한 소스는 이전 성공 데이터를 유지하고 stale=true 로 표시.
 """
@@ -19,6 +20,8 @@ import sys
 import time
 from collections import Counter
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from urllib.parse import quote
 
 import requests
 
@@ -40,6 +43,23 @@ MOFA_COUNTRY_URL = f"{MOFA_BASE}/ntnSafetyInfo/107/detail"
 MOFA_NOTICE_URL = f"{MOFA_BASE}/bbs/safetyNtc/list?ntnCd=107&pageSize=50"
 FIRMS_URL = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv"
 WIKI_URL = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/{title}/daily/{start}/{end}"
+
+GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
+NEWS_FEEDS = {
+    "kr": {
+        "query": "사우디 (후티 OR 공격 OR 드론 OR 미사일 OR 교민 OR 송유관 OR 얀부 OR 제다) when:7d",
+        "locale": {"hl": "ko", "gl": "KR", "ceid": "KR:ko"},
+        "sources": ["연합뉴스", "KBS", "MBC", "SBS", "JTBC", "YTN", "조선일보", "중앙일보", "동아일보",
+                    "한국일보", "한겨레", "경향신문", "뉴스1", "뉴시스", "채널A", "MBN", "국민일보", "서울신문"],
+    },
+    "en": {
+        "query": "Saudi (Houthi OR Yanbu OR Jeddah OR pipeline OR drone OR missile) when:7d",
+        "locale": {"hl": "en-US", "gl": "US", "ceid": "US:en"},
+        "sources": ["Reuters", "AP News", "Bloomberg", "BBC", "Al Jazeera", "Financial Times", "The Guardian",
+                    "The New York Times", "The Washington Post", "Wall Street Journal", "CNN", "NBC News", "CBS News",
+                    "ABC News", "PBS", "NPR", "CNBC", "Arab News", "Saudi Gazette", "The National", "DW", "France 24", "Euronews"],
+    },
+}
 
 # 외교부 단계. 특별여행주의보는 2단계 이상·3단계 이하로 운용되므로 2.5.
 LEVELS = {"여행유의": 1, "여행자제": 2, "특별여행주의보": 2.5, "출국권고": 3, "여행금지": 4}
@@ -117,24 +137,38 @@ def fetch_firms(previous_history):
             hotspots.append({"lat": lat, "lon": lon, "frp": float(row["frp"]), "date": row["acq_date"],
                              "time": row["acq_time"], "confidence": row["confidence"]})
 
+    # 정유공장 가스 플레어는 매일 같은 자리에서 잡힌다. 7일 중 4일 이상 같은
+    # ~3km 격자에 나타난 열원은 '상시'로 분류해 이상 화점 집계에서 뺀다.
+    cell_of = lambda h: (round(h["lat"] / 0.03), round(h["lon"] / 0.03))
+    cell_days = {}
+    for h in hotspots:
+        cell_days.setdefault(cell_of(h), set()).add(h["date"])
+    persistent = {c for c, ds in cell_days.items() if len(ds) >= 4}
+    for h in hotspots:
+        h["persistent"] = cell_of(h) in persistent
+    anomalous = [h for h in hotspots if not h["persistent"]]
+
     # 오늘은 위성 패스가 다 안 들어왔으므로 일별 집계·이력은 어제까지만 쓴다.
     yesterday = (TODAY - timedelta(days=1)).isoformat()
     days = [(TODAY - timedelta(days=i)).isoformat() for i in range(7, 0, -1)]
-    per_day = Counter(h["date"] for h in hotspots)
+    per_day = Counter(h["date"] for h in anomalous)
+    per_day_flare = Counter(h["date"] for h in hotspots if h["persistent"])
     history = dict(sorted({**previous_history, **{d: per_day[d] for d in days}}.items())[-90:])
     older = [c for d, c in history.items() if d < days[0]]
     baseline = statistics.median(older) if len(older) >= 7 else None
 
     regions = {}
     for region in REGIONS:
-        inside = [h for h in hotspots if in_box(h["lat"], h["lon"], region["box"])]
+        inside = [h for h in anomalous if in_box(h["lat"], h["lon"], region["box"])]
         regions[region["key"]] = {"h24": sum(1 for h in inside if h["date"] >= yesterday), "d7": len(inside)}
 
     result.update({
         "ok": True,
         "hotspots": sorted(hotspots, key=lambda h: h["date"])[-300:],
-        "daily_counts": [{"date": d, "count": per_day[d]} for d in days],
-        "last24h": sum(1 for h in hotspots if h["date"] >= yesterday),
+        "flare_sites": [{"lat": round(c[0] * 0.03, 3), "lon": round(c[1] * 0.03, 3), "days": len(cell_days[c])} for c in sorted(persistent)],
+        "daily_counts": [{"date": d, "count": per_day[d], "flares": per_day_flare[d]} for d in days],
+        "last24h": sum(1 for h in anomalous if h["date"] >= yesterday),
+        "flares24h": sum(1 for h in hotspots if h["persistent"] and h["date"] >= yesterday),
         "baseline": baseline,
         "history": history,
         "regions": regions,
@@ -226,6 +260,55 @@ def fetch_mofa():
     return result
 
 
+# ------------------------------------------------------------ news
+
+def parse_feed(xml, allowed):
+    items = []
+    seen = set()
+    for item in re.findall(r"<item>(.*?)</item>", xml, re.S):
+        title = strip_html(re.search(r"<title>(.*?)</title>", item, re.S).group(1))
+        source_tag = re.search(r"<source[^>]*>(.*?)</source>", item, re.S)
+        raw_source = strip_html(source_tag.group(1)) if source_tag else ""
+        source = next((a for a in allowed if a.lower() in raw_source.lower()), None)
+        if not source:
+            continue
+        title = re.sub(rf"\s*-\s*{re.escape(raw_source)}\s*$", "", title)  # 구글뉴스는 제목 끝에 " - 매체명"을 붙임
+        key = re.sub(r"[^\w가-힣]", "", title.lower())[:40]
+        if key in seen:
+            continue
+        seen.add(key)
+        published = parsedate_to_datetime(re.search(r"<pubDate>(.*?)</pubDate>", item).group(1))
+        items.append({
+            "date": published.strftime("%Y-%m-%d"),
+            "published": published.isoformat(),
+            "source": source,
+            "title": title,
+            "url": htmllib.unescape(re.search(r"<link>(.*?)</link>|<link/>(.*?)<", item, re.S).group(1) or ""),
+        })
+    items.sort(key=lambda i: i["published"], reverse=True)
+    picked, per_source = [], Counter()
+    for i in items:  # 한 매체가 비슷한 기사로 다 채우지 않게 매체당 2건까지
+        if per_source[i["source"]] < 2:
+            picked.append(i)
+            per_source[i["source"]] += 1
+        if len(picked) == 5:
+            break
+    return picked
+
+
+def fetch_news():
+    result = {"ok": False, "error": None, "fetched_at": now_iso()}
+    try:
+        for key, feed in NEWS_FEEDS.items():
+            url = GOOGLE_NEWS_URL.format(q=quote(feed["query"]), **feed["locale"])
+            result[key] = parse_feed(get(url).text, feed["sources"])
+    except (requests.RequestException, AttributeError, ValueError) as exc:
+        result["error"] = str(exc)
+        return result
+    result["ok"] = True
+    return result
+
+
 # ------------------------------------------------------------ main
 
 def carry_over(current, previous):
@@ -242,11 +325,12 @@ def main():
         "attention": carry_over(fetch_attention(), previous.get("attention", {})),
         "firms": carry_over(fetch_firms(previous.get("firms", {}).get("history", {})), previous.get("firms", {})),
         "mofa": carry_over(fetch_mofa(), previous.get("mofa", {})),
+        "news": carry_over(fetch_news(), previous.get("news", {})),
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa", "news")))
     return 0
 
 

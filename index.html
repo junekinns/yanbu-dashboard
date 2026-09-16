@@ -30,7 +30,7 @@
         <div class="big"><span class="value">–</span><span class="unit">건 / 24시간</span></div>
         <p class="sub"></p>
         <canvas height="60"></canvas>
-        <p class="muted small">NASA FIRMS VIIRS 위성이 서부 사우디(제다~얀부~메디나주 송유관 회랑)에서 감지한 화점. 공습·폭발 화재가 그대로 찍힙니다.</p>
+        <p class="muted small">NASA FIRMS VIIRS 위성이 서부 사우디(제다~얀부~메디나주 송유관 회랑)에서 감지한 화점 중, 정유 플레어처럼 매일 같은 자리에 있는 상시 열원을 뺀 것. 큰 인프라 화재만 잡히고, 위성은 하루 두 번만 지나갑니다.</p>
       </article>
 
       <article class="card tile" id="tile-mofa">
@@ -43,7 +43,7 @@
     </section>
 
     <section class="card">
-      <h2>열 감지 지도 <span class="muted small">최근 7일 · 점 크기 = 화력(FRP) · 옅을수록 오래된 것</span></h2>
+      <h2>열 감지 지도 <span class="muted small">최근 7일 · 점 크기 = 화력(FRP) · 옅을수록 오래된 것 · 회색 = 상시 플레어</span></h2>
       <div id="map"></div>
       <ul class="legend" id="legend"></ul>
     </section>
@@ -52,10 +52,18 @@
       <h2>외교부 최근 공지</h2>
       <ul id="notice-list" class="notice-list"></ul>
     </section>
+
+    <section class="card">
+      <h2>언론 보도 <span class="muted small">최근 7일 · 주요 매체만</span></h2>
+      <div class="news-columns">
+        <div><h3>국내</h3><ul id="news-kr" class="news-list"></ul></div>
+        <div><h3>해외</h3><ul id="news-en" class="news-list"></ul></div>
+      </div>
+    </section>
   </main>
 
   <footer class="muted small">
-    <p>출처: <a href="https://wikimedia.org/api/rest_v1/" target="_blank" rel="noopener">Wikimedia Pageviews</a> · <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a></p>
+    <p>출처: <a href="https://wikimedia.org/api/rest_v1/" target="_blank" rel="noopener">Wikimedia Pageviews</a> · <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a> · Google News RSS</p>
     <p id="last-updated"></p>
     <p>비공식 개인 프로젝트. 간접 신호는 힌트일 뿐이며, 판단은 대사관 공지를 기준으로 하세요.</p>
   </footer>

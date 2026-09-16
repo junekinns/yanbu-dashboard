@@ -54,7 +54,7 @@ function renderFirms(firms) {
   fillTile("tile-firms", {
     value: String(firms.last24h),
     ratio,
-    sub: `얀부 ${firms.regions.yanbu.h24}건 · 제다 ${firms.regions.jeddah.h24}건 · ${base}${staleTag(firms)}`,
+    sub: `얀부 ${firms.regions.yanbu.h24}건 · 제다 ${firms.regions.jeddah.h24}건 · 상시 플레어 ${firms.flares24h ?? 0}건 제외 · ${base}${staleTag(firms)}`,
     labels: firms.daily_counts.map((d) => d.date),
     values: firms.daily_counts.map((d) => d.count),
     type: "bar",
@@ -101,18 +101,34 @@ function renderMap(data) {
 
   const hotspots = data.firms?.hotspots || [];
   const newest = hotspots.at(-1)?.date;
-  hotspots.forEach((h) => {
+  hotspots.filter((h) => !h.persistent).forEach((h) => {
     const ageDays = newest ? (new Date(newest) - new Date(h.date)) / 864e5 : 0;
     L.circleMarker([h.lat, h.lon], {
       radius: 3 + Math.sqrt(h.frp),
       color: "#ff7a1a", fillColor: "#ff4d1a", weight: 1,
       fillOpacity: Math.max(0.15, 0.85 - ageDays * 0.12), opacity: Math.max(0.3, 1 - ageDays * 0.1),
-    }).addTo(map).bindTooltip(`${h.date} ${h.time.padStart(4, "0")} UTC · FRP ${h.frp}`);
+    }).addTo(map).bindTooltip(`${h.date} ${h.time.padStart(4, "0")} UTC · FRP ${h.frp} · ${h.confidence}`);
+  });
+  (data.firms?.flare_sites || []).forEach((f) => {
+    L.circleMarker([f.lat, f.lon], { radius: 6, color: "#8a97a8", fillColor: "#8a97a8", weight: 1, fillOpacity: 0.5 })
+      .addTo(map).bindTooltip(`상시 열원 (7일 중 ${f.days}일 감지) · 정유 플레어 추정`);
   });
 
   document.getElementById("legend").innerHTML =
-    `<li><span class="dot" style="background:#ff4d1a"></span>위성 열 감지점</li>` +
+    `<li><span class="dot" style="background:#ff4d1a"></span>이상 화점 (평소엔 없던 불)</li>` +
+    `<li><span class="dot" style="background:#8a97a8"></span>상시 열원 (정유 플레어 추정)</li>` +
     Object.values(LEVEL_STYLE).map((s) => `<li><span class="dot ${s.cls}"></span>${s.label}</li>`).join("");
+}
+
+function renderNews(news) {
+  for (const key of ["kr", "en"]) {
+    const list = document.getElementById(`news-${key}`);
+    const items = news[key] || [];
+    list.innerHTML = items.map((n) => `
+      <li><div class="notice-date">${n.date} · ${n.source}</div>
+        <a href="${n.url}" target="_blank" rel="noopener">${n.title}</a></li>`).join("")
+      || `<li class="muted">${news.error ? "수집 실패" : "해당 없음"}</li>`;
+  }
 }
 
 async function main() {
@@ -123,6 +139,7 @@ async function main() {
     renderAttention(data.attention || {});
     renderFirms(data.firms || {});
     renderMofa(data.mofa || {});
+    renderNews(data.news || {});
     renderMap(data);
     document.getElementById("last-updated").textContent =
       `마지막 업데이트: ${new Date(data.generated_at).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" })}`;
