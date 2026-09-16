@@ -6,6 +6,7 @@
   firms      NASA FIRMS VIIRS 위성 열 감지 (서부 사우디, 최근 7일)
   mofa       외교부 해외안전여행 사우디 경보 단계 + 안전공지 주간 건수
   news       Google News RSS에서 공신력 있는 국내·해외 매체만 골라 최근 5건씩
+  maritime   IMF PortWatch(AIS 집계) 얀부항·제다항 일일 입항 수, 밥엘만데브 통과 수
 
 모두 무료·무키. 실패한 소스는 이전 성공 데이터를 유지하고 stale=true 로 표시.
 """
@@ -60,6 +61,13 @@ NEWS_FEEDS = {
                     "ABC News", "PBS", "NPR", "CNBC", "Arab News", "Saudi Gazette", "The National", "DW", "France 24", "Euronews"],
     },
 }
+
+PORTWATCH_BASE = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services"
+PORTWATCH_SERIES = [
+    {"key": "yanbu_port", "name": "얀부항(King Fahd)", "service": "Daily_Ports_Data", "where": "portid='port570'", "field": "portcalls"},
+    {"key": "jeddah_port", "name": "제다항", "service": "Daily_Ports_Data", "where": "portid='port518'", "field": "portcalls"},
+    {"key": "bab_el_mandeb", "name": "밥엘만데브 해협", "service": "Daily_Chokepoints_Data", "where": "portid='chokepoint4'", "field": "n_total"},
+]
 
 # 외교부 단계. 특별여행주의보는 2단계 이상·3단계 이하로 운용되므로 2.5.
 LEVELS = {"여행유의": 1, "여행자제": 2, "특별여행주의보": 2.5, "출국권고": 3, "여행금지": 4}
@@ -309,6 +317,44 @@ def fetch_news():
     return result
 
 
+# ------------------------------------------------------------ maritime
+
+def portwatch_rows(spec):
+    params = {"where": spec["where"], "outFields": f"date,{spec['field']}", "orderByFields": "date DESC",
+              "resultRecordCount": 1000, "returnGeometry": "false", "f": "json"}
+    data = get(f"{PORTWATCH_BASE}/{spec['service']}/FeatureServer/0/query?" + "&".join(f"{k}={quote(str(v))}" for k, v in params.items())).json()
+    if "error" in data:
+        raise ValueError(f"PortWatch {spec['key']}: {data['error'].get('message')}")
+    rows = []
+    for f in data["features"]:
+        ts = f["attributes"]["date"]
+        day = datetime.fromtimestamp(ts / 1000, tz=timezone.utc).date().isoformat() if isinstance(ts, (int, float)) else str(ts)[:10]
+        rows.append((day, f["attributes"][spec["field"]] or 0))
+    return sorted(rows)
+
+
+def fetch_maritime():
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "series": {}}
+    try:
+        for spec in PORTWATCH_SERIES:
+            rows = portwatch_rows(spec)
+            values = [v for _, v in rows]
+            rolling7 = [sum(values[i - 6:i + 1]) for i in range(6, len(values))]
+            last7 = rolling7[-1]
+            # 최근 2주를 뺀 지난 1년의 7일 합 중앙값을 평시로 본다.
+            baseline = statistics.median(rolling7[-379:-14]) if len(rolling7) > 60 else None
+            result["series"][spec["key"]] = {
+                "name": spec["name"], "last_date": rows[-1][0], "last7": last7,
+                "baseline7": baseline, "ratio": ratio(last7, baseline),
+                "spark": [{"date": rows[i][0], "value": rolling7[i - 6]} for i in range(len(rows) - 90, len(rows))],
+            }
+    except (requests.RequestException, ValueError, KeyError) as exc:
+        result["error"] = str(exc)
+        return result
+    result["ok"] = True
+    return result
+
+
 # ------------------------------------------------------------ main
 
 def carry_over(current, previous):
@@ -326,11 +372,12 @@ def main():
         "firms": carry_over(fetch_firms(previous.get("firms", {}).get("history", {})), previous.get("firms", {})),
         "mofa": carry_over(fetch_mofa(), previous.get("mofa", {})),
         "news": carry_over(fetch_news(), previous.get("news", {})),
+        "maritime": carry_over(fetch_maritime(), previous.get("maritime", {})),
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa", "news")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa", "news", "maritime")))
     return 0
 
 

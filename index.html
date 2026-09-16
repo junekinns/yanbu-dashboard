@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>얀부 지수</title>
+<title>Red Sea Watch · 얀부·제다</title>
 <meta name="description" content="위키피디아 관심도, NASA 위성 열 감지, 외교부 공지 템포 세 가지 간접 신호로 사우디 얀부·제다 상황을 읽는 비공식 대시보드" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>얀부 지수</h1>
-    <p class="subtitle">공식 발표가 말하지 않는 것을 세 가지 간접 신호로 읽습니다. 6시간마다 자동 갱신.</p>
+    <h1>Red Sea Watch <span class="h1-sub">얀부 · 제다</span></h1>
+    <p class="subtitle">공식 발표가 말하지 않는 것을 간접 신호로 읽는 모니터. 6시간마다 자동 갱신.</p>
     <p id="mofa-line" class="official"></p>
   </header>
 
@@ -40,6 +40,14 @@
         <canvas height="60"></canvas>
         <p class="muted small">외교부가 사우디아라비아에 낸 안전공지 주간 건수. 대사관이 바빠지면 상황이 급박한 것.</p>
       </article>
+
+      <article class="card tile" id="tile-maritime">
+        <h2>해상 교통</h2>
+        <div class="big"><span class="value">–</span><span class="unit">평시 대비 · 얀부항 입항</span></div>
+        <p class="sub"></p>
+        <canvas height="60"></canvas>
+        <p class="muted small">IMF PortWatch가 AIS로 집계한 얀부 King Fahd 항(송유관 수출 터미널) 7일 입항 선박 수 ÷ 지난 1년 평시. 배가 안 오면 터미널이 멈춘 것. 이 지표만 <strong>낮을수록 위험</strong>.</p>
+      </article>
     </section>
 
     <section class="card">
@@ -63,7 +71,7 @@
   </main>
 
   <footer class="muted small">
-    <p>출처: <a href="https://wikimedia.org/api/rest_v1/" target="_blank" rel="noopener">Wikimedia Pageviews</a> · <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a> · Google News RSS</p>
+    <p>출처: <a href="https://wikimedia.org/api/rest_v1/" target="_blank" rel="noopener">Wikimedia Pageviews</a> · <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a> · <a href="https://portwatch.imf.org/" target="_blank" rel="noopener">IMF PortWatch</a> · Google News RSS</p>
     <p id="last-updated"></p>
     <p>비공식 개인 프로젝트. 간접 신호는 힌트일 뿐이며, 판단은 대사관 공지를 기준으로 하세요.</p>
   </footer>

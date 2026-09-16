@@ -23,14 +23,33 @@ function sparkline(canvas, labels, values, type, color) {
   });
 }
 
-function fillTile(id, { value, ratio, sub, labels, values, type }) {
+function fillTile(id, { value, ratio, sev, sub, labels, values, type }) {
   const tile = document.getElementById(id);
   tile.querySelector(".value").textContent = value;
   tile.querySelector(".sub").textContent = sub;
   tile.classList.remove("hot", "warm", "calm");
-  if (severity(ratio)) tile.classList.add(severity(ratio));
-  const color = { hot: "#e5533d", warm: "#e0b83a", calm: "#3fa66b", "": "#8a97a8" }[severity(ratio)];
+  const level = sev ?? severity(ratio);
+  if (level) tile.classList.add(level);
+  const color = { hot: "#e5533d", warm: "#e0b83a", calm: "#3fa66b", "": "#8a97a8" }[level];
   sparkline(tile.querySelector("canvas"), labels, values, type, color);
+}
+
+// 해상 교통은 낮을수록 위험: 평시의 1/3 이하면 hot, 2/3 이하면 warm
+const dropSeverity = (ratio) => (ratio == null ? "" : ratio <= 0.34 ? "hot" : ratio <= 0.67 ? "warm" : "calm");
+
+function renderMaritime(m) {
+  const s = m.series || {};
+  const y = s.yanbu_port;
+  if (!y) return fillTile("tile-maritime", { value: "–", sub: `수집 실패: ${m.error || ""}`, labels: [], values: [], type: "line" });
+  const pct = (x) => (x?.ratio != null ? `${Math.round(x.ratio * 100)}%` : "–");
+  fillTile("tile-maritime", {
+    value: pct(y),
+    sev: dropSeverity(y.ratio),
+    sub: `7일 ${y.last7}척 (평시 ${Math.round(y.baseline7)}) · 제다항 ${pct(s.jeddah_port)} · 밥엘만데브 ${pct(s.bab_el_mandeb)} · ${y.last_date} 기준${staleTag(m)}`,
+    labels: y.spark.map((p) => p.date),
+    values: y.spark.map((p) => p.value),
+    type: "line",
+  });
 }
 
 function renderAttention(att) {
@@ -140,6 +159,7 @@ async function main() {
     renderFirms(data.firms || {});
     renderMofa(data.mofa || {});
     renderNews(data.news || {});
+    renderMaritime(data.maritime || {});
     renderMap(data);
     document.getElementById("last-updated").textContent =
       `마지막 업데이트: ${new Date(data.generated_at).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" })}`;
