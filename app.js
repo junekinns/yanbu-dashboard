@@ -150,6 +150,25 @@ function renderNews(news) {
   }
 }
 
+const TYPE_CLASS = { 경보: "t-alert", 요격: "t-intercept", 피격: "t-hit", 공습: "t-airstrike" };
+
+function renderEvents(ev) {
+  const log = document.getElementById("event-log");
+  const events = ev.events || [];
+  log.innerHTML = events.map((e) => `
+    <li class="${e.local ? "local" : ""}">
+      <span class="ev-time">${e.date.slice(5)} ${e.time}</span>
+      <span class="ev-city">${e.city}</span>
+      <span class="ev-type ${TYPE_CLASS[e.type] || ""}">${e.type}</span>
+      <a href="${e.url}" target="_blank" rel="noopener">${e.title}</a>
+      <span class="ev-meta">${e.source}${e.outlets > 1 ? ` 외 ${e.outlets - 1}` : ""}</span>
+    </li>`).join("") || `<li class="muted">${ev.error ? "수집 실패" : "최근 72시간 해당 보도 없음"}</li>`;
+
+  const houthi = ev.houthi || [];
+  document.getElementById("houthi-list").innerHTML = houthi.map((h) =>
+    `<li><a href="${h.url}" target="_blank" rel="noopener">${h.title}</a></li>`).join("") || '<li class="muted">없음</li>';
+}
+
 async function main() {
   try {
     const res = await fetch("data/latest.json", { cache: "no-store" });
@@ -160,6 +179,7 @@ async function main() {
     renderMofa(data.mofa || {});
     renderNews(data.news || {});
     renderMaritime(data.maritime || {});
+    renderEvents(data.events || {});
     renderMap(data);
     document.getElementById("last-updated").textContent =
       `마지막 업데이트: ${new Date(data.generated_at).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" })}`;

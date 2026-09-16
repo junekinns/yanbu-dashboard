@@ -7,6 +7,7 @@
   mofa       외교부 해외안전여행 사우디 경보 단계 + 안전공지 주간 건수
   news       Google News RSS에서 공신력 있는 국내·해외 매체만 골라 최근 5건씩
   maritime   IMF PortWatch(AIS 집계) 얀부항·제다항 일일 입항 수, 밥엘만데브 통과 수
+  events     공격·요격·경보 보도를 (날짜·도시·유형)으로 묶은 이벤트 로그 + 후티 측 SABA 성명
 
 모두 무료·무키. 실패한 소스는 이전 성공 데이터를 유지하고 stale=true 로 표시.
 """
@@ -61,6 +62,33 @@ NEWS_FEEDS = {
                     "ABC News", "PBS", "NPR", "CNBC", "Arab News", "Saudi Gazette", "The National", "DW", "France 24", "Euronews"],
     },
 }
+
+EVENT_QUERIES = {
+    "en": ('(intercepted OR intercepts OR "shot down" OR destroyed OR strikes OR struck OR attack OR airstrike OR alert OR siren) '
+           '(Houthi OR coalition OR Saudi) (Yanbu OR Jeddah OR Medina OR Mecca OR Taif OR Jazan OR Abha OR "Khamis Mushait" '
+           'OR Najran OR Riyadh OR pipeline OR Rabigh) when:3d'),
+    "kr": "(후티 OR 사우디) (요격 OR 격추 OR 공격 OR 피격 OR 공습 OR 경보 OR 타격) (메카 OR 메디나 OR 제다 OR 얀부 OR 타이프 OR 지잔 OR 자잔 OR 아브하 OR 나즈란 OR 리야드 OR 송유관) when:3d",
+}
+EVENT_EXTRA_SOURCES = ["Middle East Eye", "The Times of Israel", "Al Arabiya", "Arab News", "The National", "Anadolu"]
+CITY_PATTERNS = [  # (표시명, 정규식, 우리 지역 여부)
+    ("얀부", r"\bYanbu\b|얀부", True), ("제다", r"\bJeddah\b|제다|젯다", True), ("메디나", r"\bMedina\b|메디나", True),
+    ("라비그", r"\bRabigh\b|라비그", True), ("송유관", r"pipeline|송유관", True),
+    ("메카", r"\bMecca\b|\bMakkah\b|메카", False), ("타이프", r"\bTaif\b|타이프", False),
+    ("지잔", r"\bJazan\b|\bJizan\b|지잔|자잔", False), ("아브하", r"\bAbha\b|아브하", False),
+    ("카미스무샤이트", r"Khamis Mushait|카미스", False), ("나즈란", r"\bNajran\b|나즈란", False),
+    ("리야드", r"\bRiyadh\b|리야드", False), ("라스타누라", r"Ras Tanura|라스타누라", False),
+]
+TYPE_PATTERNS = [
+    ("경보", r"air raid|alert|siren|civil defen[cs]e|경보|사이렌|민방위"),
+    ("요격", r"intercept|shot down|shoots? down|downed|destroy|요격|격추"),
+    ("공습", r"airstrike|air strike|공습"),
+    ("피격", r"\bhit\b|struck|attack|strike|explosion|blast|fire|damage|suspend|shut|공격|피격|타격|폭발|화재|피해|중단|폐쇄"),
+]
+# 사건 자체가 아닌 기사(부인·분석·반응·후속 경제기사)는 로그에서 뺀다.
+EVENT_SKIP = (r"den(y|ies|ied)|analysis|explainer|opinion|what (it|the|this)|why |pact|agreement|vow|promise|warns?|threat"
+              r"|calls? (for|on)|condemn|slam|react|response|price|market|repair|insurance|shipping rate|weeks|route|reroute"
+              r"|부인|분석|해설|전망|왜 |경고|촉구|규탄|다짐|유가|증시|복구|대란|항로|우회|보험|운임|주간|가동 중단될")
+SABA_URL = "https://www.saba.ye/en"
 
 PORTWATCH_BASE = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services"
 PORTWATCH_SERIES = [
@@ -270,9 +298,8 @@ def fetch_mofa():
 
 # ------------------------------------------------------------ news
 
-def parse_feed(xml, allowed):
-    items = []
-    seen = set()
+def feed_items(xml, allowed):
+    """구글뉴스 RSS item → dict. 허용 매체가 아니면 버린다."""
     for item in re.findall(r"<item>(.*?)</item>", xml, re.S):
         title = strip_html(re.search(r"<title>(.*?)</title>", item, re.S).group(1))
         source_tag = re.search(r"<source[^>]*>(.*?)</source>", item, re.S)
@@ -280,19 +307,28 @@ def parse_feed(xml, allowed):
         source = next((a for a in allowed if a.lower() in raw_source.lower()), None)
         if not source:
             continue
-        title = re.sub(rf"\s*-\s*{re.escape(raw_source)}\s*$", "", title)  # 구글뉴스는 제목 끝에 " - 매체명"을 붙임
-        key = re.sub(r"[^\w가-힣]", "", title.lower())[:40]
-        if key in seen:
-            continue
-        seen.add(key)
         published = parsedate_to_datetime(re.search(r"<pubDate>(.*?)</pubDate>", item).group(1))
-        items.append({
+        yield {
             "date": published.strftime("%Y-%m-%d"),
             "published": published.isoformat(),
             "source": source,
-            "title": title,
+            "title": re.sub(rf"\s*-\s*{re.escape(raw_source)}\s*$", "", title),  # 제목 끝의 " - 매체명" 제거
             "url": htmllib.unescape(re.search(r"<link>(.*?)</link>|<link/>(.*?)<", item, re.S).group(1) or ""),
-        })
+        }
+
+
+def google_news(query, locale, allowed):
+    return list(feed_items(get(GOOGLE_NEWS_URL.format(q=quote(query), **locale)).text, allowed))
+
+
+def parse_feed(xml, allowed):
+    items = []
+    seen = set()
+    for it in feed_items(xml, allowed):
+        key = re.sub(r"[^\w가-힣]", "", it["title"].lower())[:40]
+        if key not in seen:
+            seen.add(key)
+            items.append(it)
     items.sort(key=lambda i: i["published"], reverse=True)
     picked, per_source = [], Counter()
     for i in items:  # 한 매체가 비슷한 기사로 다 채우지 않게 매체당 2건까지
@@ -313,6 +349,65 @@ def fetch_news():
     except (requests.RequestException, AttributeError, ValueError) as exc:
         result["error"] = str(exc)
         return result
+    result["ok"] = True
+    return result
+
+
+# ------------------------------------------------------------ events
+
+def classify(title):
+    if re.search(EVENT_SKIP, title, re.I):
+        return None
+    city = next(((name, local) for name, rx, local in CITY_PATTERNS if re.search(rx, title, re.I)), None)
+    kind = next((name for name, rx in TYPE_PATTERNS if re.search(rx, title, re.I)), None)
+    return (city, kind) if city and kind else None
+
+
+def fetch_events():
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "events": [], "houthi": []}
+    clusters = {}
+    try:
+        items = google_news(EVENT_QUERIES["en"], NEWS_FEEDS["en"]["locale"], NEWS_FEEDS["en"]["sources"] + EVENT_EXTRA_SOURCES)
+        items += google_news(EVENT_QUERIES["kr"], NEWS_FEEDS["kr"]["locale"], NEWS_FEEDS["kr"]["sources"])
+    except requests.RequestException as exc:
+        result["error"] = str(exc)
+        return result
+
+    for it in items:
+        hit = classify(it["title"])
+        if not hit:
+            continue
+        (city, local), kind = hit
+        when = datetime.fromisoformat(it["published"]).astimezone(timezone(timedelta(hours=3)))  # 사우디 현지시각
+        it["local_time"] = when.strftime("%Y-%m-%d %H:%M")
+        it["korean"] = bool(re.search(r"[가-힣]", it["title"]))
+        clusters.setdefault((when.strftime("%Y-%m-%d"), city, kind), []).append((it, local))
+
+    for (day, city, kind), members in clusters.items():
+        # 같은 사건을 다룬 기사 묶음: 가장 이른 보도 시각, 한국어 제목 우선, 매체 수
+        members.sort(key=lambda m: m[0]["published"])
+        lead = next((m[0] for m in members if m[0]["korean"]), members[0][0])
+        result["events"].append({
+            "date": day, "time": members[0][0]["local_time"][11:], "city": city, "type": kind,
+            "local": members[0][1], "title": lead["title"], "url": lead["url"], "source": lead["source"],
+            "outlets": len({m[0]["source"] for m in members}),
+        })
+    result["events"].sort(key=lambda e: (e["date"], e["time"]), reverse=True)
+    result["events"] = result["events"][:15]
+
+    try:  # 후티 측 성명은 부수 정보 — 실패해도 이벤트 로그는 살린다
+        page = get(SABA_URL, BROWSER_HEADERS).text
+        seen = set()
+        for href, inner in re.findall(r'<a[^>]*href="(/en/news\d+\.htm)"[^>]*>(.*?)</a>', page, re.S):
+            title = strip_html(inner)
+            if len(title) > 20 and title not in seen and re.search(r"Saudi|Saree|Armed Forces|Statement", title, re.I):
+                seen.add(title)
+                result["houthi"].append({"title": title, "url": "https://www.saba.ye" + href})
+            if len(result["houthi"]) == 3:
+                break
+    except requests.RequestException:
+        pass
+
     result["ok"] = True
     return result
 
@@ -373,11 +468,12 @@ def main():
         "mofa": carry_over(fetch_mofa(), previous.get("mofa", {})),
         "news": carry_over(fetch_news(), previous.get("news", {})),
         "maritime": carry_over(fetch_maritime(), previous.get("maritime", {})),
+        "events": carry_over(fetch_events(), previous.get("events", {})),
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa", "news", "maritime")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa", "news", "maritime", "events")))
     return 0
 
 
