@@ -20,38 +20,35 @@
 
   <main>
     <section class="tiles">
-      <article class="card tile" id="tile-attention">
-        <h2>관심도</h2>
-        <div class="big"><span class="value">–</span><span class="unit">평시 대비</span></div>
-        <p class="sub"></p>
-        <canvas height="60"></canvas>
-        <p class="muted small desc"></p>
-      </article>
-
       <article class="card tile" id="tile-firms">
         <h2>위성 열 감지</h2>
-        <div class="big"><span class="value">–</span><span class="unit">건 / 24시간</span></div>
+        <div class="badge" id="badge-firms">–</div>
         <p class="sub"></p>
-        <canvas height="60"></canvas>
-        <p class="muted small">NASA FIRMS VIIRS 위성이 이 권역에서 감지한 화점 중, 정유 플레어처럼 매일 같은 자리에 있는 상시 열원을 뺀 것. 큰 인프라 화재만 잡히고 위성은 하루 두 번 지나갑니다.</p>
+        <canvas height="48"></canvas>
       </article>
 
       <article class="card tile" id="tile-mofa">
         <h2>공지 템포</h2>
-        <div class="big"><span class="value">–</span><span class="unit">건 / 최근 7일</span></div>
+        <div class="badge" id="badge-mofa">–</div>
         <p class="sub"></p>
-        <canvas height="60"></canvas>
-        <p class="muted small">외교부가 사우디아라비아에 낸 안전공지 주간 건수(전국). 대사관이 바빠지면 상황이 급박한 것.</p>
+        <canvas height="48"></canvas>
       </article>
 
       <article class="card tile" id="tile-maritime">
         <h2>해상 교통</h2>
-        <div class="big"><span class="value">–</span><span class="unit">평시 대비</span></div>
+        <div class="badge" id="badge-maritime">–</div>
         <p class="sub"></p>
-        <canvas height="60"></canvas>
-        <p class="muted small desc"></p>
+        <canvas height="48"></canvas>
       </article>
     </section>
+    <details class="card tiles-help">
+      <summary>이 세 지표는 어떻게 계산되나요?</summary>
+      <ul>
+        <li><b>위성 열 감지</b> — NASA FIRMS 위성이 이 권역에서 감지한 화점 중 정유 플레어처럼 매일 같은 자리에 있는 상시 열원을 뺀 것. 24시간 건수를 평시(최근 기록의 중앙값)와 비교. 큰 인프라 화재만 잡히고 위성은 하루 두 번만 지나갑니다.</li>
+        <li><b>공지 템포</b> — 외교부가 사우디아라비아 전체에 낸 안전공지의 최근 7일 건수를 평시와 비교. 대사관이 바빠지면 상황이 급박한 것.</li>
+        <li><b>해상 교통</b> — IMF PortWatch가 AIS로 집계한 주요 항구(또는 해협)의 최근 7일 입항·통과 선박 수를 평시와 비교. 배가 끊기면 터미널이 멈춘 것 — 유일하게 <b>낮을수록 위험</b>.</li>
+      </ul>
+    </details>
 
     <section class="card">
       <div class="card-head">

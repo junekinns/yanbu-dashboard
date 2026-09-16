@@ -2,7 +2,6 @@
 """
 Red Sea Watch 데이터 수집. 세 권역(서부·중부·동부)별 간접 지표를 만든다.
 
-  attention  영어 위키피디아 도시 문서 일일 조회수 ÷ 평시 중앙값
   firms      NASA FIRMS VIIRS 위성 열 감지 — 권역별 이상 화점(상시 플레어 제외)
   mofa       외교부 해외안전여행 사우디 경보 단계(지점별) + 안전공지 템포
   maritime   IMF PortWatch(AIS 집계) 항구별 입항 수, 밥엘만데브·호르무즈 통과 수
@@ -35,15 +34,29 @@ BROWSER_HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7
 TODAY = datetime.now(timezone.utc).date()
 AST = timezone(timedelta(hours=3))  # 사우디 현지시각
 
-# 권역. box는 위성 화점 집계 범위, wiki는 관심도 문서(첫 항목이 대표), primary_port는 해상 타일 대표 항.
+# 권역. box는 위성 화점 집계 범위, primary_port는 해상 타일 대표 항.
 REGIONS = [
     {"key": "west", "name": "서부", "label": "얀부 · 제다", "box": (20.0, 26.5, 37.0, 42.0),
-     "wiki": ["Yanbu", "Jeddah"], "primary_port": "port570", "chokepoint": "chokepoint4", "center": [23.0, 39.3], "zoom": 6},
+     "primary_port": "port570", "chokepoint": "chokepoint4", "center": [23.0, 39.3], "zoom": 6},
     {"key": "central", "name": "중부", "label": "리야드", "box": (23.3, 26.2, 45.3, 48.2),
-     "wiki": ["Riyadh"], "primary_port": None, "chokepoint": "chokepoint6", "center": [24.5, 46.9], "zoom": 7},
+     "primary_port": None, "chokepoint": "chokepoint6", "center": [24.5, 46.9], "zoom": 7},
     {"key": "east", "name": "동부", "label": "담맘 · 다란 · 주베일", "box": (25.3, 28.6, 48.3, 50.9),
-     "wiki": ["Dhahran", "Ras_Tanura"], "primary_port": "port526", "chokepoint": "chokepoint6", "center": [26.4, 49.8], "zoom": 7},
+     "primary_port": "port526", "chokepoint": "chokepoint6", "center": [26.4, 49.8], "zoom": 7},
 ]
+
+# 세 지표는 "몇 배"가 아니라 3단계 배지로 단순화해 보여준다.
+def tier_up(value, hi=3, mid=1.5, labels=("위험", "주의", "평시")):
+    """높을수록 위험한 지표(위성 열 감지·공지 템포)."""
+    if value is None or value < mid:
+        return labels[2]
+    return labels[0] if value >= hi else labels[1]
+
+
+def tier_down(value, lo=0.34, mid=0.67, labels=("끊김", "감소", "정상")):
+    """낮을수록 위험한 지표(해상 교통)."""
+    if value is None or value > mid:
+        return labels[2]
+    return labels[0] if value <= lo else labels[1]
 
 # 지도·로그·텔레그램 지명 매칭용 지점. aliases는 한/영, ar은 아랍어. port는 PortWatch id.
 PLACES = [
@@ -75,7 +88,6 @@ MOFA_BASE = "https://www.0404.go.kr"
 MOFA_COUNTRY_URL = f"{MOFA_BASE}/ntnSafetyInfo/107/detail"
 MOFA_NOTICE_URL = f"{MOFA_BASE}/bbs/safetyNtc/list?ntnCd=107&pageSize=50"
 FIRMS_URL = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv"
-WIKI_URL = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/{title}/daily/{start}/{end}"
 GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
 TELEGRAM_URL = "https://t.me/s/army21ye"  # 예멘군(후티) 대변인 야히야 사리 공식 채널
 PORTWATCH_BASE = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services"
@@ -164,28 +176,6 @@ def carry_over(current, previous):
     return {**kept, **current, "stale": True}
 
 
-# ------------------------------------------------------------ attention
-
-def fetch_attention():
-    result = {"ok": False, "error": None, "fetched_at": now_iso(), "articles": {}}
-    start, end = (TODAY - timedelta(days=60)).strftime("%Y%m%d"), TODAY.strftime("%Y%m%d")
-    try:
-        for title in {t for r in REGIONS for t in r["wiki"]}:
-            items = get(WIKI_URL.format(title=title, start=start, end=end)).json()["items"]
-            series = [{"date": f"{i['timestamp'][:4]}-{i['timestamp'][4:6]}-{i['timestamp'][6:8]}", "views": i["views"]} for i in items]
-            baseline = statistics.median(s["views"] for s in series[:-14]) if len(series) > 20 else None
-            result["articles"][title] = {
-                "title": title, "label": title.replace("_", " "), "baseline": baseline,
-                "latest": series[-1]["views"], "latest_date": series[-1]["date"],
-                "ratio": ratio(series[-1]["views"], baseline), "series": series[-30:],
-            }
-    except (requests.RequestException, KeyError, ValueError) as exc:
-        result["error"] = str(exc)
-        return result
-    result["ok"] = True
-    return result
-
-
 # ------------------------------------------------------------ firms
 
 def fetch_firms(previous):
@@ -222,11 +212,14 @@ def fetch_firms(previous):
         prev_hist = previous.get("regions", {}).get(region["key"], {}).get("history", {})
         history = dict(sorted({**prev_hist, **{d: per_day[d] for d in days}}.items())[-90:])
         older = [c for d, c in history.items() if d < days[0]]
+        last24h = sum(1 for h in inside if h["date"] >= yesterday)
+        baseline = statistics.median(older) if len(older) >= 7 else None
         result["regions"][region["key"]] = {
-            "last24h": sum(1 for h in inside if h["date"] >= yesterday),
+            "last24h": last24h,
             "flares24h": flares,
             "daily_counts": [{"date": d, "count": per_day[d]} for d in days],
-            "baseline": statistics.median(older) if len(older) >= 7 else None,
+            "baseline": baseline,
+            "tier": tier_up(ratio(last24h, baseline)),
             "history": history,
             "hotspots": sorted(inside, key=lambda h: h["date"])[-300:],
         }
@@ -311,6 +304,7 @@ def fetch_mofa():
         "last7d": counts[-1],
         "baseline": baseline,
         "ratio": ratio(counts[-1], baseline),
+        "tier": tier_up(ratio(counts[-1], baseline), labels=("급증", "증가", "평시")),
     })
     return result
 
@@ -472,9 +466,10 @@ def fetch_maritime():
             rolling7 = [sum(values[i - 6:i + 1]) for i in range(6, len(values))]
             # 최근 2주를 뺀 지난 1년의 7일 합 중앙값을 평시로 본다.
             baseline = statistics.median(rolling7[-379:-14]) if len(rolling7) > 60 else None
+            r = ratio(rolling7[-1], baseline)
             result["series"][key] = {
                 "name": name, "last_date": rows[-1][0], "last7": rolling7[-1], "baseline7": baseline,
-                "ratio": ratio(rolling7[-1], baseline),
+                "ratio": r, "tier": tier_down(r),
                 "spark": [{"date": rows[i][0], "value": rolling7[i - 6]} for i in range(len(rows) - 90, len(rows))],
             }
     except (requests.RequestException, ValueError, KeyError) as exc:
@@ -490,8 +485,7 @@ def main():
     previous = load_previous()
     output = {
         "generated_at": now_iso(),
-        "regions": [{k: r[k] for k in ("key", "name", "label", "wiki", "primary_port", "chokepoint", "center", "zoom", "box")} for r in REGIONS],
-        "attention": carry_over(fetch_attention(), previous.get("attention", {})),
+        "regions": [{k: r[k] for k in ("key", "name", "label", "primary_port", "chokepoint", "center", "zoom", "box")} for r in REGIONS],
         "firms": carry_over(fetch_firms(previous.get("firms", {})), previous.get("firms", {})),
         "mofa": carry_over(fetch_mofa(), previous.get("mofa", {})),
         "news": carry_over(fetch_news(), previous.get("news", {})),
@@ -502,7 +496,7 @@ def main():
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa", "news", "events", "telegram", "maritime")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("firms", "mofa", "news", "events", "telegram", "maritime")))
     return 0
 
 

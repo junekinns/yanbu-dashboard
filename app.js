@@ -13,10 +13,13 @@ const TYPE_STYLE = {
   피격: { cls: "t-hit", color: "#b8442f" },
   공습: { cls: "t-airstrike", color: "#6b4fbf" },
 };
-const severity = (r) => (r == null ? "" : r >= 3 ? "hot" : r >= 1.5 ? "warm" : "calm");
-// 해상 교통은 낮을수록 위험: 평시의 1/3 이하면 hot, 2/3 이하면 warm
-const dropSeverity = (r) => (r == null ? "" : r <= 0.34 ? "hot" : r <= 0.67 ? "warm" : "calm");
-const SEV_COLOR = { hot: "#e5533d", warm: "#e0b83a", calm: "#3fa66b", "": "#8a97a8" };
+// 서버가 계산해 보내는 3단계 배지 라벨 → 색
+const TIER_COLOR = {
+  위험: "#e5533d", 급증: "#e5533d", 끊김: "#e5533d",
+  주의: "#e0b83a", 증가: "#e0b83a", 감소: "#e0b83a",
+  평시: "#3fa66b", 정상: "#3fa66b",
+};
+const tierClass = (label) => ({ 위험: "hot", 급증: "hot", 끊김: "hot", 주의: "warm", 증가: "warm", 감소: "warm", 평시: "calm", 정상: "calm" }[label] || "");
 const staleTag = (src) => (src?.stale ? " (이전 값)" : "");
 const pct = (x) => (x?.ratio != null ? `${Math.round(x.ratio * 100)}%` : "–");
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -40,66 +43,40 @@ function sparkline(tile, labels, values, type, color) {
   });
 }
 
-function fillTile(id, { value, unit, ratio, sev, sub, desc, labels = [], values = [], type = "line" }) {
+function fillTile(id, { tier, sub, labels = [], values = [], type = "line" }) {
   const tile = document.getElementById(id);
-  tile.querySelector(".value").textContent = value;
-  if (unit) tile.querySelector(".unit").textContent = unit;
+  const badge = document.getElementById(`badge-${id.replace("tile-", "")}`);
+  badge.textContent = tier || "–";
   tile.querySelector(".sub").textContent = sub;
-  if (desc != null) tile.querySelector(".desc").textContent = desc;
   tile.classList.remove("hot", "warm", "calm");
-  const level = sev ?? severity(ratio);
-  if (level) tile.classList.add(level);
-  sparkline(tile, labels, values, type, SEV_COLOR[level]);
+  const cls = tierClass(tier);
+  if (cls) tile.classList.add(cls);
+  sparkline(tile, labels, values, type, TIER_COLOR[tier] || "#8a97a8");
 }
 
 function renderTiles() {
-  const d = state.data, r = currentRegion();
-
-  const att = d.attention || {}, arts = att.articles || {};
-  const main = arts[r.wiki[0]], sec = arts[r.wiki[1]];
-  fillTile("tile-attention", main ? {
-    value: main.ratio != null ? `${main.ratio.toFixed(1)}×` : "–", ratio: main.ratio,
-    sub: `${main.label} ${main.latest}회 (평시 ${Math.round(main.baseline)})${sec ? ` · ${sec.label} ${sec.ratio?.toFixed(1) ?? "–"}×` : ""} · ${main.latest_date}${staleTag(att)}`,
-    desc: `영어 위키피디아 “${main.label}” 문서 일일 조회수 ÷ 최근 60일 중앙값. 세상이 갑자기 이 도시를 찾아보면 뭔가 일어난 것.`,
-    labels: main.series.map((s) => s.date), values: main.series.map((s) => s.views),
-  } : { value: "–", sub: `수집 실패: ${att.error || ""}`, desc: "" });
+  const d = state.data, r = currentRegion(), m = d.mofa || {};
 
   const fr = (d.firms?.regions || {})[r.key];
   fillTile("tile-firms", fr ? {
-    value: String(fr.last24h), ratio: fr.baseline ? fr.last24h / fr.baseline : null,
-    sub: `${r.name} 권역 · 상시 플레어 ${fr.flares24h}건 제외 · ${fr.baseline != null ? `평시 ${fr.baseline}건/일` : "평시 기준선 수집 중"}${staleTag(d.firms)}`,
+    tier: fr.tier,
+    sub: `${r.name} 권역 최근 24h ${fr.last24h}건 (평시 ${fr.baseline ?? "수집 중"}건) · 상시 플레어 ${fr.flares24h}건 제외${staleTag(d.firms)}`,
     labels: fr.daily_counts.map((x) => x.date), values: fr.daily_counts.map((x) => x.count), type: "bar",
-  } : { value: "–", sub: `수집 실패: ${d.firms?.error || ""}` });
+  } : { sub: `수집 실패: ${d.firms?.error || ""}` });
 
-  const m = d.mofa || {};
   fillTile("tile-mofa", m.weekly_counts ? {
-    value: String(m.last7d), ratio: m.ratio,
-    sub: `평시 ${m.baseline}건/주 · 7일 창 8개${staleTag(m)}`,
+    tier: m.tier,
+    sub: `전국 최근 7일 ${m.last7d}건 (평시 ${m.baseline}건)${staleTag(m)}`,
     labels: m.weekly_counts.map((w) => w.week), values: m.weekly_counts.map((w) => w.count), type: "bar",
-  } : { value: "–", sub: `수집 실패: ${m.error || ""}` });
+  } : { sub: `수집 실패: ${m.error || ""}` });
 
   const series = d.maritime?.series || {};
-  const port = r.primary_port && series[r.primary_port];
-  const strait = series[r.chokepoint];
-  const others = (m.places || []).filter((p) => p.region === r.key && p.port && p.port !== r.primary_port && series[p.port])
-    .map((p) => `${p.name} ${pct(series[p.port])}`).join(" · ");
-  if (port) {
-    fillTile("tile-maritime", {
-      value: pct(port), unit: `평시 대비 · ${port.name} 입항`, sev: dropSeverity(port.ratio),
-      sub: `7일 ${port.last7}척 (평시 ${Math.round(port.baseline7)})${others ? ` · ${others}` : ""} · ${strait?.name} ${pct(strait)} · ${port.last_date} 기준${staleTag(d.maritime)}`,
-      desc: `IMF PortWatch가 AIS로 집계한 ${port.name} 7일 입항 선박 수 ÷ 지난 1년 평시. 배가 안 오면 터미널이 멈춘 것. 이 지표만 낮을수록 위험.`,
-      labels: port.spark.map((p) => p.date), values: port.spark.map((p) => p.value),
-    });
-  } else if (strait) {
-    fillTile("tile-maritime", {
-      value: pct(strait), unit: `평시 대비 · ${strait.name} 통과`, sev: dropSeverity(strait.ratio),
-      sub: `7일 ${strait.last7}척 (평시 ${Math.round(strait.baseline7)}) · 내륙 권역이라 인근 해협 기준 · ${strait.last_date}${staleTag(d.maritime)}`,
-      desc: "IMF PortWatch가 AIS로 집계한 해협 일일 통과 선박 수. 사우디 원유 수출의 목줄. 이 지표만 낮을수록 위험.",
-      labels: strait.spark.map((p) => p.date), values: strait.spark.map((p) => p.value),
-    });
-  } else {
-    fillTile("tile-maritime", { value: "–", sub: `수집 실패: ${d.maritime?.error || ""}`, desc: "" });
-  }
+  const port = (r.primary_port && series[r.primary_port]) || series[r.chokepoint];
+  fillTile("tile-maritime", port ? {
+    tier: port.tier,
+    sub: `${port.name} 최근 7일 ${port.last7}척 (평시 ${Math.round(port.baseline7)}척, ${pct(port)}) · ${port.last_date} 기준${staleTag(d.maritime)}`,
+    labels: port.spark.map((p) => p.date), values: port.spark.map((p) => p.value),
+  } : { sub: `수집 실패: ${d.maritime?.error || ""}` });
 }
 
 // ---------------------------------------------------------------- header / lists
