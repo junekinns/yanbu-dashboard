@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:45:15Z",
+  "generated_at": "2026-09-16T08:46:05Z",
   "overall": {
     "level": 3,
     "level_name": "출국권고",
@@ -8,7 +8,7 @@
   "mofa": {
     "ok": true,
     "error": null,
-    "fetched_at": "2026-09-16T08:45:05Z",
+    "fetched_at": "2026-09-16T08:45:32Z",
     "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
     "notice_list_url": "https://www.0404.go.kr/bbs/safetyNtc/list?ntnCd=107&pageSize=50",
     "advisories": [
@@ -127,7 +127,7 @@
   "fcdo": {
     "ok": true,
     "error": null,
-    "fetched_at": "2026-09-16T08:45:14Z",
+    "fetched_at": "2026-09-16T08:46:04Z",
     "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
     "text": "일부 지역 전체 여행 금지 권고 (advises against all travel)"
   }
