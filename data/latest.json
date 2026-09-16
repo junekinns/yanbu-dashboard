@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T13:28:31Z",
+ "generated_at": "2026-09-16T13:29:58Z",
  "regions": [
   {
    "key": "west",
@@ -59,7 +59,7 @@
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:28:31Z",
+  "fetched_at": "2026-09-16T13:29:58Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "regions": {
    "west": {
@@ -1504,7 +1504,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:28:39Z",
+  "fetched_at": "2026-09-16T13:30:01Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -1762,7 +1762,7 @@
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:28:43Z",
+  "fetched_at": "2026-09-16T13:30:16Z",
   "kr": [
    {
     "date": "2026-09-16",
@@ -1770,13 +1770,6 @@
     "source": "연합뉴스",
     "title": "예멘 후티반군 \"사우디 얀부 석유시설·공군기지 타격\"",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NdnNtdnotRFdtZmxEdExiZmNpVW1yYXV2NlZhdHNUTGtmaTR5NkhxTWtDWWZCWXR5U2ViS3l4dFI2Q29DbEdOSS1xWnVEQXg1RjFQcHNsOGFSNjlPS1J2SDNLeFBHcnM?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T08:11:10+00:00",
-    "source": "연합뉴스",
-    "title": "후티 압박에 에너지 위기…사우디 빈살만 리더십 '최대 시험대'",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RdIBYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RQ?oc=5"
    },
    {
     "date": "2026-09-16",
@@ -1798,6 +1791,13 @@
     "source": "YTN",
     "title": "이집트 달려간 사우디 빈 살만...후티 \"봉쇄 중단할 때까지 공격 계속\"",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fMk0tdEJCTGd4NFc2d2lDbUN3dmh3TFZYTWVEaUlxUll1dEpjZkQ3UFZkNGFnLXhmUHk2RWxEOFlmSkJfQnJOUW1WRXZ4QndtZGhhNmVHczB4QUhnUGc?oc=5"
+   },
+   {
+    "date": "2026-09-15",
+    "published": "2026-09-15T11:25:39+00:00",
+    "source": "MBC",
+    "title": "사우디-후티 교전 격화‥성지 메카에도 첫 위협 경보",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFSzF2dnM2N0hGRGpkTURBOHp6MDZZWERqLWk5c0FiTzBVQWhsZ1pYT1doNm85T0ppNndTMjRac1c5Mi0tLVBCOTZzSVkwVzg2ZmNZTEg1ZUtMR0JacS1WT0s1YkIySzlJU1FTLVo2dTJaWS1X0gF0QVVfeXFMTXZZdHNpX3Z6c0VKNWt0UkNySkhRRUM5MHUwb1lwZHJsU0FNa3pLbnR0WWxPQlRwQVpEaExOdXgwZTdSMm5QVVJPeHVZZzk5WmxRTVo5Wkt2U1NhQms1eWNmakdxaDJRZFkwNkUxVGQ5RWd1UFY?oc=5"
    }
   ],
   "en": [
@@ -1841,7 +1841,7 @@
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:28:44Z",
+  "fetched_at": "2026-09-16T13:30:17Z",
   "events": [
    {
     "date": "2026-09-16",
@@ -1887,16 +1887,16 @@
    },
    {
     "date": "2026-09-16",
-    "time": "04:18",
-    "iso": "2026-09-16T04:18:53+03:00",
+    "time": "04:40",
+    "iso": "2026-09-16T04:40:00+03:00",
     "city": "메카",
     "region": "west",
     "type": "요격",
     "lat": 21.39,
     "lon": 39.86,
     "title": "사우디 \"성지 메카로 발사된 후티 드론 격추\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90Y1dWRUtXUVdZZFVpMlNsbklxaV9yaU9aNXR3RHhKZFFIMWJXWV9WMHdQci00bmhKemxOUlJ1NFl3bHBPeW5hWFV1QmkyaUtObEpodExrSzNvb03SAWBBVV95cUxPTGdUMnI1TEoweVo5M2QzUVNWUEZUSldPdGYzYTZGenRiT3ZUeHBiUzdodTZqRE43RzNnYkM0RjI2cW1kYlVpNGRBTDNueXVhTTd2Y3FfXzN4MmsxLWpaY0M?oc=5",
-    "source": "연합뉴스",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wdmRqVUhxdjhNTDlIb1ZDdi03b1U3dk9JOVBlak9QWW5neHFxTVdhazh4OE9IWm1Fa2ZJcHB5WUdIVk9GQVh5Q211UU9pRlZ6cVJmc21xcmNMOHlqNGszUGRoeEtwdlotX1ROdGVqbXpjWE1Z0gF0QVVfeXFMT3B2ZGpVSHF2OE1MOUhvVkN2LTdvVTd2T0k5UGVqT1BZbmd4cXFNV2FrOHg4T0habUVrZklwcHlZR0hWT0ZBWHlDbXVRT2lGVnpxUmZzbXFyY0w4eWo0azNQZGh4S3B2Wi1fVE50ZWptemNYTVk?oc=5",
+    "source": "MBC",
     "outlets": 9
    },
    {
@@ -1909,14 +1909,28 @@
     "lat": 21.39,
     "lon": 39.86,
     "title": "중동전 발발 이후 초유의 상황…이슬람 성지 메카에 '위협경보' [지금이뉴스]",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ONEJFNXV1bmVieHRRZkEzZDZyaUx6d3FLTHZoeWRHd0FQQ0QwV2RRWnhDMU9Nd19WazNKZjM0UVpRMEJZLWxETUxoVFZaN3Ytbi1tOEtkZzdBZWFWZ2VGU2JDTjhnN3RrSzNaTVhlYm1XVk9WZFE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uVU5nT1Z6b0JJdlg3ekcyd2lqdUtIbHAzeTFTM3lhVlJJOHFjcGlLV2hrS21EZGhxMHB1UUt4cnBLbU92YWw0T1IzRUNtakstU3hYRDNIeUh2enFRQ1Ew?oc=5",
     "source": "YTN",
     "outlets": 2
    },
    {
     "date": "2026-09-15",
-    "time": "14:13",
-    "iso": "2026-09-15T14:13:00+03:00",
+    "time": "14:25",
+    "iso": "2026-09-15T14:25:39+03:00",
+    "city": "메카",
+    "region": "west",
+    "type": "경보",
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "사우디-후티 교전 격화‥성지 메카에도 첫 위협 경보",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFSzF2dnM2N0hGRGpkTURBOHp6MDZZWERqLWk5c0FiTzBVQWhsZ1pYT1doNm85T0ppNndTMjRac1c5Mi0tLVBCOTZzSVkwVzg2ZmNZTEg1ZUtMR0JacS1WT0s1YkIySzlJU1FTLVo2dTJaWS1X0gF0QVVfeXFMTXZZdHNpX3Z6c0VKNWt0UkNySkhRRUM5MHUwb1lwZHJsU0FNa3pLbnR0WWxPQlRwQVpEaExOdXgwZTdSMm5QVVJPeHVZZzk5WmxRTVo5Wkt2U1NhQms1eWNmakdxaDJRZFkwNkUxVGQ5RWd1UFY?oc=5",
+    "source": "MBC",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-15",
+    "time": "12:41",
+    "iso": "2026-09-15T12:41:46+03:00",
     "city": "제다",
     "region": "west",
     "type": "경보",
@@ -1925,35 +1939,21 @@
     "title": "사우디-후티 교전 속 성지 메카·한인 거주 제다에 ’위협 경보’",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yWEM0QjYwRE9WZWJiR1I1RWlJRVdTRk1ydzdaUEdKMnFzRGRnOVkwUFhNdVpPSmhfNjdSRVA0LTMxLU85bnVHZUVwYTJGV2xZRnhNOXVCNnJPVWxkLTMxQmFhcVAwdVE?oc=5",
     "source": "연합뉴스",
-    "outlets": 1
-   },
-   {
-    "date": "2026-09-15",
-    "time": "14:03",
-    "iso": "2026-09-15T14:03:46+03:00",
-    "city": "메카",
-    "region": "west",
-    "type": "경보",
-    "lat": 21.39,
-    "lon": 39.86,
-    "title": "사우디-후티 교전 격화…성지 메카에도 첫 위협경보",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NNW5rVUZrOVN5Vm1FMmlaMXdBeE5rczc0LXQ3V0RMZnJyaFZKb0lBVkV3VUdJUkZfZTlybC0wNW5vV1pLRl9HTFRNTkZHbGNpSUI3aWp5N0habzTSAWBBVV95cUxPZXdJcHAtazdWNmFJQjN5WTh6V09FZUMyeERHMkhKS21SVGZXRm5IY3h0bXl6MThvU29fV2xYNS1UUWVmSmRpdm5RVkFKTktSVUJMaDlabUc0MmVmQUE5MFU?oc=5",
-    "source": "연합뉴스",
     "outlets": 2
    },
    {
     "date": "2026-09-15",
-    "time": "04:53",
-    "iso": "2026-09-15T04:53:39+03:00",
+    "time": "06:07",
+    "iso": "2026-09-15T06:07:57+03:00",
     "city": "송유관",
     "region": null,
     "type": "피격",
     "lat": null,
     "lon": null,
-    "title": "사우디 송유관 피격에 11월 이후 국내 원유 수급 '빨간불'",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TcEpmbC1SdV8yci1SSEFaUEVhSjJ3Y2ZNYmJXNUZLSHUzR2ZyVUpfbkFXVUNTd1Y3NEctSF85aDk2V0pJSXNQOVRCTmlnakpjNzFscFN2cDdCR1HSAWBBVV95cUxOV1JCZjdaTmVXdndmdUtidjRkdWN3NlZKcUtxWGQ4MFFNalA4WWhpbVpFcGZDSWpoQzl3dDFqM2pjYTh5SzhWcm1oVklwSkxDVmVHSkZ6X0ZTRXRPLThhaUM?oc=5",
-    "source": "연합뉴스",
-    "outlets": 4
+    "title": "사우디 송유관 피격에 11월 국내 원유 수급 ‘빨간불’",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qZTVwc1ZEaWZ2bnlUV1hQdzBOOEJyR09XMnlJbmp0c2pZdHFvZEdDdlgtTlI3X2pvU0ZtWXNtb0o1VlJDZnkxQjVJWUZjNUEtUE4ybGZn?oc=5",
+    "source": "중앙일보",
+    "outlets": 2
    },
    {
     "date": "2026-09-12",
@@ -1974,7 +1974,7 @@
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:28:46Z",
+  "fetched_at": "2026-09-16T13:30:18Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2046,7 +2046,7 @@
  "maritime": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:29:00Z",
+  "fetched_at": "2026-09-16T13:30:29Z",
   "series": {
    "port570": {
     "name": "얀부항",
