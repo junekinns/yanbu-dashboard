@@ -19,8 +19,9 @@ def ts(h): return dt.datetime.strptime(f"{h['date']} {h['time'].zfill(4)}", "%Y-
 for k, r in d["firms"]["regions"].items():
     within = sum(1 for h in r["hotspots"] if ts(h) >= now - dt.timedelta(hours=24))
     assert r["last24h"] <= within, (k, r["last24h"], within)
-    # FR-002: 평시 하한 — 값이 6건 이상이면 평시가 0이어도 '평시'일 수 없다
-    if r["last24h"] >= 6: assert r["tier"] != "평시", (k, r)
+    # FR-002: 평시 하한 — 평시가 있고(수집 완료) 값이 6건 이상이면 평시가 0이어도 '평시'일 수 없다
+    if r["baseline"] is not None and r["last24h"] >= 6: assert r["tier"] != "평시", (k, r)
+    if r["baseline"] is None: assert r["tier"] == "평시", (k, r)  # 수집 중엔 판단하지 않는다
 
 # FR-002 공지 템포
 m = d["mofa"]

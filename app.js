@@ -20,7 +20,14 @@ const TIER_COLOR = {
   평시: "#3fa66b", 정상: "#3fa66b",
 };
 const tierClass = (label) => ({ 위험: "hot", 급증: "hot", 끊김: "hot", 주의: "warm", 증가: "warm", 감소: "warm", 평시: "calm", 정상: "calm" }[label] || "");
-const staleTag = (src) => (src?.stale ? " (이전 값)" : "");
+const staleTag = (src) => {
+  if (!src?.stale) return "";
+  if (!src.last_ok_at) return " (이전 값)";
+  const hours = (Date.now() - Date.parse(src.last_ok_at)) / 3600e3;
+  if (hours < 1) return " (1시간 이내 값)";
+  return hours < 48 ? ` (${Math.round(hours)}시간 전 값)` : ` (${Math.round(hours / 24)}일 전 값)`;
+};
+const failed = (src) => ({ sub: "수집 실패 — 다음 갱신 때 재시도", title: src?.error || "" });
 const pct = (x) => (x?.ratio != null ? `${Math.round(x.ratio * 100)}%` : "–");
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -46,11 +53,12 @@ function sparkline(tile, labels, values, type, color) {
   });
 }
 
-function fillTile(id, { tier, sub, labels = [], values = [], type = "line" }) {
+function fillTile(id, { tier, sub, title = "", labels = [], values = [], type = "line" }) {
   const tile = document.getElementById(id);
   const badge = document.getElementById(`badge-${id.replace("tile-", "")}`);
   badge.textContent = tier || "–";
   tile.querySelector(".sub").textContent = sub;
+  tile.title = title;
   tile.classList.remove("hot", "warm", "calm");
   const cls = tierClass(tier);
   if (cls) tile.classList.add(cls);
@@ -63,17 +71,18 @@ function renderMofaTile() {
     tier: m.tier,
     sub: `전국 최근 7일 ${m.last7d}건 (평시 ${m.baseline}건)${staleTag(m)}`,
     labels: m.weekly_counts.map((w) => w.week), values: m.weekly_counts.map((w) => w.count), type: "bar",
-  } : { sub: `수집 실패: ${m.error || ""}` });
+  } : failed(m));
 }
 
 function renderFlightsTile() {
   const fl = state.data.flights || {};
   const hist = Object.entries(fl.history || {}).sort(([a], [b]) => a.localeCompare(b));
+  const baseline = fl.baseline != null ? `평시 ${fl.baseline}대` : `같은 시각 기록 ${fl.baseline_n ?? 0}/3 수집 중`;
   fillTile("tile-flights", fl.count != null ? {
     tier: fl.tier,
-    sub: `홍해 회랑 상공 현재 ${fl.count}대 (평시 ${fl.baseline ?? "수집 중"}대)${staleTag(fl)}`,
+    sub: `홍해 회랑 상공 현재 ${fl.count}대 (${baseline})${staleTag(fl)}`,
     labels: hist.map(([k]) => k.slice(5)), values: hist.map(([, v]) => v),
-  } : { sub: `수집 실패: ${fl.error || ""}` });
+  } : failed(fl));
 }
 
 function renderRegionTiles() {
@@ -90,7 +99,7 @@ function renderRegionTiles() {
           <canvas height="48"></canvas>
         </article>
         <article class="card tile" id="tile-maritime-${r.key}">
-          <h3>해상 교통</h3>
+          <h3>${r.primary_port ? "해상 교통" : "해상 교통 · 호르무즈(전국 수출 회랑)"}</h3>
           <div class="badge" id="badge-maritime-${r.key}">–</div>
           <p class="sub"></p>
           <canvas height="48"></canvas>
@@ -102,9 +111,9 @@ function renderRegionTiles() {
     const fr = (d.firms?.regions || {})[r.key];
     fillTile(`tile-firms-${r.key}`, fr ? {
       tier: fr.tier,
-      sub: `최근 24h ${fr.last24h}건 (평시 ${fr.baseline ?? "수집 중"}건) · 상시 플레어 ${fr.flares24h}건 제외${staleTag(d.firms)}`,
+      sub: `최근 24h ${fr.last24h}건 (${fr.baseline != null ? `평시 ${fr.baseline}건` : "평시 수집 중"}) · 상시 플레어 ${fr.flares24h}건 제외${staleTag(d.firms)}`,
       labels: fr.daily_counts.map((x) => x.date), values: fr.daily_counts.map((x) => x.count), type: "bar",
-    } : { sub: `수집 실패: ${d.firms?.error || ""}` });
+    } : failed(d.firms));
 
     const series = d.maritime?.series || {};
     const port = (r.primary_port && series[r.primary_port]) || series[r.chokepoint];
@@ -112,49 +121,51 @@ function renderRegionTiles() {
       tier: port.tier,
       sub: `${port.name} 최근 7일 ${port.last7}척 (평시 ${Math.round(port.baseline7)}척, ${pct(port)}) · ${port.last_date} 기준${staleTag(d.maritime)}`,
       labels: port.spark.map((p) => p.date), values: port.spark.map((p) => p.value),
-    } : { sub: `수집 실패: ${d.maritime?.error || ""}` });
+    } : failed(d.maritime));
   });
 }
 
 // ---------------------------------------------------------------- header / lists
 
-function regionGroupSummary(label, places) {
-  if (!places.length) return "";
-  const high = places.filter((p) => p.level >= 3), rest = places.filter((p) => !(p.level >= 3));
-  const restLevel = rest.length ? styleOf(rest[0].level) : null;
-  return `<span class="mofa-region"><b>${esc(label)}</b> ` +
-    high.map((p) => `<span class="dot ${styleOf(p.level).cls}"></span>${esc(p.name)} <strong>${styleOf(p.level).label}</strong>`).join(" · ") +
-    (restLevel ? `${high.length ? " · " : ""}<span class="dot ${restLevel.cls}"></span>나머지 <strong>${restLevel.label}</strong>` : "") +
-    `</span>`;
-}
+const levelDot = (p) => `<span class="dot ${styleOf(p.level).cls}"></span>${esc(p.name)} <strong>${styleOf(p.level).label}</strong>`;
 
 function renderHeader() {
   const m = state.data.mofa || {};
   const line = document.getElementById("mofa-line");
   const places = m.places || [];
-  if (!places.length) { line.textContent = "외교부 데이터 수집 실패"; return; }
-  const groups = state.data.regions
-    .map((r) => regionGroupSummary(r.name, places.filter((p) => p.region === r.key)))
-    .concat(regionGroupSummary("기타 접경지역", places.filter((p) => !p.region)))
-    .filter(Boolean);
-  line.innerHTML = "외교부 경보 · " + groups.join(" · ") + staleTag(m);
+  if (!places.length) {
+    line.textContent = "외교부 데이터 수집 실패";
+  } else {
+    // 3단계(출국권고) 이상만 권역별로 나열하고, 그 외 지역의 기본 단계는 전국 최빈값 하나로 한 번만.
+    const high = places.filter((p) => p.level >= 3);
+    const groups = [...state.data.regions.map((r) => r.key), null]
+      .map((key) => ({ key, items: high.filter((p) => (p.region || null) === key) }))
+      .filter((g) => g.items.length)
+      .map((g) => `${regionBadge(g.key)} ${g.items.map(levelDot).join(" · ")}`);
+    const counts = {};
+    places.filter((p) => !(p.level >= 3) && p.level).forEach((p) => { counts[p.level] = (counts[p.level] || 0) + 1; });
+    const mode = Object.keys(counts).sort((a, b) => counts[b] - counts[a])[0];
+    const rest = mode ? `<span class="dot ${styleOf(mode).cls}"></span>그 외 전 지역 <strong>${styleOf(mode).label}</strong>` : "";
+    line.innerHTML = "외교부 경보 · " + [...groups, rest].filter(Boolean).join(" · ") + staleTag(m);
+  }
 
   document.getElementById("notice-list").innerHTML = (m.notices || []).map((n) => `
     <li><div class="notice-date">${n.date}</div>
-      <a href="${n.url}" target="_blank" rel="noopener">${esc(n.title)}</a>
+      <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
       ${n.summary ? `<p class="summary">${esc(n.summary)}</p>` : ""}</li>`).join("") || '<li class="muted">공지 없음</li>';
 }
 
 function renderEvents() {
   const ev = state.data.events || {};
-  const events = ev.events || [];
+  const since = Date.now() - 72 * 3600e3;
+  const events = (ev.events || []).filter((e) => new Date(e.iso) >= since);
   document.getElementById("event-log").innerHTML = events.map((e) => `
     <li>
       <span class="ev-time">${e.date.slice(5)} ${e.time}</span>
       ${regionBadge(e.region)}
       <span class="ev-city">${esc(e.city)}</span>
       <span class="ev-type ${TYPE_STYLE[e.type]?.cls || ""}">${e.type}</span>
-      <a href="${e.url}" target="_blank" rel="noopener">${esc(e.title)}</a>
+      <a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>
       <span class="ev-meta">${esc(e.source)}${e.outlets > 1 ? ` 외 ${e.outlets - 1}` : ""}</span>
     </li>`).join("") || `<li class="muted">${ev.error ? "수집 실패" : "최근 72시간 해당 보도 없음"}</li>`;
 }
@@ -170,7 +181,7 @@ function renderTelegram() {
       <div class="tg-head"><span class="ev-time">${msg.time}</span>
         ${regions.map(regionBadge).join("")}
         ${msg.places.map((p) => `<span class="place-badge">${esc(p)}</span>`).join("")}
-        <a class="tg-link" href="${msg.url}" target="_blank" rel="noopener">채널에서 보기</a></div>
+        <a class="tg-link" href="${esc(msg.url)}" target="_blank" rel="noopener">채널에서 보기</a></div>
       <p class="tg-text">${msg.text_ko ? esc(msg.text_ko) : '<span class="muted">번역 실패 — 아래 원문 참고</span>'}</p>
       <details class="tg-original">
         <summary>아랍어 원문${msg.text_ko ? "" : " (번역 없음)"}</summary>
@@ -185,17 +196,18 @@ function renderNews() {
   for (const key of ["kr", "en"]) {
     document.getElementById(`news-${key}`).innerHTML = (news[key] || []).map((n) => `
       <li><div class="notice-date">${n.date} · ${esc(n.source)}</div>
-        <a href="${n.url}" target="_blank" rel="noopener">${esc(n.title)}</a></li>`).join("")
+        <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></li>`).join("")
       || `<li class="muted">${news.error ? "수집 실패" : "해당 없음"}</li>`;
   }
 }
 
 // ---------------------------------------------------------------- map
 
-function combinedBounds(regions) {
-  const souths = regions.map((r) => r.box[0]), norths = regions.map((r) => r.box[1]);
-  const wests = regions.map((r) => r.box[2]), easts = regions.map((r) => r.box[3]);
-  return L.latLngBounds([Math.min(...souths), Math.min(...wests)], [Math.max(...norths), Math.max(...easts)]);
+function combinedBounds(regions, places) {
+  const bounds = L.latLngBounds();
+  regions.forEach((r) => { bounds.extend([r.box[0], r.box[2]]); bounds.extend([r.box[1], r.box[3]]); });
+  places.forEach((p) => { if (p.lat != null && p.lon != null) bounds.extend([p.lat, p.lon]); });
+  return bounds;
 }
 
 function renderMap() {
@@ -206,7 +218,7 @@ function renderMap() {
       { attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 11 }).addTo(state.map);
     state.baseLayers.sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
       { attribution: "Esri World Imagery", maxZoom: 18 });
-    state.map.fitBounds(combinedBounds(d.regions), { padding: [16, 16] });
+    state.map.fitBounds(combinedBounds(d.regions, d.mofa?.places || []), { padding: [16, 16] });
   }
   state.layer?.remove();
   state.layer = L.layerGroup().addTo(state.map);
@@ -249,7 +261,7 @@ function renderMap() {
       className: isRecent ? "pulse-marker" : "",
     })
       .bindPopup(`<span class="ev-type ${ts.cls || ""}">${e.type}</span> <b>${esc(e.city)}</b> · ${e.date} ${e.time}<br>` +
-        `<a href="${e.url}" target="_blank" rel="noopener">${esc(e.title)}</a><br><small>${esc(e.source)}${e.outlets > 1 ? ` 외 ${e.outlets - 1}개 매체` : ""}</small>`)
+        `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><br><small>${esc(e.source)}${e.outlets > 1 ? ` 외 ${e.outlets - 1}개 매체` : ""}</small>`)
       .addTo(state.layer);
   });
 
@@ -296,8 +308,7 @@ refreshBtn.addEventListener("click", async () => {
     state.data = fresh;
     renderAll();
     renderNews();
-    document.getElementById("last-updated").textContent =
-      `마지막 업데이트: ${new Date(fresh.generated_at).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" })}`;
+    setLastUpdated(fresh.generated_at);
     status.textContent = changed ? "새 데이터로 갱신했습니다" : "이미 최신입니다 (다음 자동 수집까지 대기)";
   } catch {
     status.textContent = "새로고침 실패 — 잠시 후 다시 시도";
@@ -307,6 +318,12 @@ refreshBtn.addEventListener("click", async () => {
   }
 });
 
+function setLastUpdated(iso) {
+  // 사건·채널 시각이 사우디 현지라 여기도 맞춘다. 한국 가족의 브라우저에서도 같은 값이 보이도록 시간대를 고정.
+  document.getElementById("last-updated").textContent =
+    `마지막 업데이트: ${new Date(iso).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Riyadh" })} (사우디 현지)`;
+}
+
 async function main() {
   try {
     const res = await fetch("data/latest.json", { cache: "no-store" });
@@ -314,8 +331,7 @@ async function main() {
     state.data = await res.json();
     renderAll();
     renderNews();
-    document.getElementById("last-updated").textContent =
-      `마지막 업데이트: ${new Date(state.data.generated_at).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" })}`;
+    setLastUpdated(state.data.generated_at);
   } catch (err) {
     document.getElementById("mofa-line").textContent = "데이터 로드 실패";
     console.error(err);

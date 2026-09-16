@@ -12,6 +12,7 @@ Red Sea Watch 데이터 수집. 세 권역(서부·중부·동부)별 간접 지
 모두 무료·무키. 실패한 소스는 이전 성공 데이터를 유지하고 stale=true 로 표시.
 """
 import csv
+import hashlib
 import html as htmllib
 import io
 import json
@@ -23,7 +24,7 @@ import time
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 
 import requests
 
@@ -86,7 +87,7 @@ PLACE_BY_NAME = {p["name"]: p for p in PLACES}
 
 MOFA_BASE = "https://www.0404.go.kr"
 MOFA_COUNTRY_URL = f"{MOFA_BASE}/ntnSafetyInfo/107/detail"
-MOFA_NOTICE_URL = f"{MOFA_BASE}/bbs/safetyNtc/list?ntnCd=107&pageSize=50"
+MOFA_NOTICE_URL = f"{MOFA_BASE}/bbs/safetyNtc/list?ntnCd=107&pageSize=100"  # 8주 창이 50건을 넘는 시기가 있다
 FIRMS_URL = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv"
 GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
 TELEGRAM_URL = "https://t.me/s/army21ye"  # 예멘군(후티) 대변인 야히야 사리 공식 채널
@@ -95,7 +96,7 @@ SAUDI_BOX = (16.0, 32.5, 34.0, 56.0)
 # 밥엘만데브~제다 사이 홍해 회랑. FlightRadar24 bounds 포맷은 "북,남,서,동".
 FLIGHTS_URL = "https://data-cloud.flightradar24.com/zones/fcgi/feed.js"
 FLIGHTS_PARAMS = {"bounds": "24,12,35,44", "faa": 1, "satellite": 1, "mlat": 1, "flarm": 1,
-                  "adsb": 1, "gnd": 0, "air": 1, "vehicles": 0, "estimated": 1, "maxage": 14400, "gliders": 0, "stats": 0}
+                  "adsb": 1, "gnd": 0, "air": 1, "vehicles": 0, "estimated": 1, "maxage": 900, "gliders": 0, "stats": 0}
 
 NEWS_FEEDS = {
     "kr": {
@@ -206,24 +207,27 @@ def fetch_firms(previous):
     persistent = {c for c, ds in cell_days.items() if len(ds) >= 4}
     anomalous = [h for h in hotspots if cell_of(h) not in persistent]
 
-    # 오늘은 위성 패스가 다 안 들어왔으므로 일별 집계·이력은 어제까지만 쓴다.
-    yesterday = (TODAY - timedelta(days=1)).isoformat()
+    # "최근 24h"는 지금 기준 롤링 24시간(acq_date+acq_time UTC). 일별 집계·이력·평시는
+    # 오늘 패스가 다 안 들어왔으므로 어제까지의 일별 값으로 잡는다.
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    hot_ts = lambda h: datetime.strptime(f"{h['date']} {h['time'].zfill(4)}", "%Y-%m-%d %H%M").replace(tzinfo=timezone.utc)
     days = [(TODAY - timedelta(days=i)).isoformat() for i in range(7, 0, -1)]
     for region in REGIONS:
         inside = [h for h in anomalous if in_box(h["lat"], h["lon"], region["box"])]
-        flares = sum(1 for h in hotspots if cell_of(h) in persistent and in_box(h["lat"], h["lon"], region["box"]) and h["date"] >= yesterday)
+        flares = sum(1 for h in hotspots if cell_of(h) in persistent and in_box(h["lat"], h["lon"], region["box"]) and hot_ts(h) >= cutoff)
         per_day = Counter(h["date"] for h in inside)
         prev_hist = previous.get("regions", {}).get(region["key"], {}).get("history", {})
         history = dict(sorted({**prev_hist, **{d: per_day[d] for d in days}}.items())[-90:])
         older = [c for d, c in history.items() if d < days[0]]
-        last24h = sum(1 for h in inside if h["date"] >= yesterday)
+        last24h = sum(1 for h in inside if hot_ts(h) >= cutoff)
         baseline = statistics.median(older) if len(older) >= 7 else None
         result["regions"][region["key"]] = {
             "last24h": last24h,
             "flares24h": flares,
             "daily_counts": [{"date": d, "count": per_day[d]} for d in days],
             "baseline": baseline,
-            "tier": tier_up(ratio(last24h, baseline)),
+            # 평시가 0~1이면 화점 2건에도 '주의'가 깜빡이므로 비율 계산에만 하한 2를 둔다. 평시가 아직 없으면(수집 중) 평시.
+            "tier": tier_up(ratio(last24h, max(baseline, 2)) if baseline is not None else None),
             "history": history,
             "hotspots": sorted(inside, key=lambda h: h["date"])[-300:],
         }
@@ -308,7 +312,8 @@ def fetch_mofa():
         "last7d": counts[-1],
         "baseline": baseline,
         "ratio": ratio(counts[-1], baseline),
-        "tier": tier_up(ratio(counts[-1], baseline), labels=("급증", "증가", "평시")),
+        # 조용한 6주 뒤 첫 급증에서 평시 0 → '평시'가 되지 않게 하한 1.
+        "tier": tier_up(ratio(counts[-1], max(baseline, 1)), labels=("급증", "증가", "평시")),
     })
     return result
 
@@ -426,7 +431,7 @@ def translate_ar_ko(text):
         return None
 
 
-def fetch_telegram():
+def fetch_telegram(previous):
     """후티 군 대변인 채널의 최근 메시지 중 사우디·사우디 지명 언급만 남기고 한국어로 번역한다."""
     result = {"ok": False, "error": None, "fetched_at": now_iso(), "channel": TELEGRAM_URL, "messages": []}
     try:
@@ -458,7 +463,13 @@ def fetch_telegram():
     result["messages"] = sorted(result["messages"], key=lambda m: m["iso"], reverse=True)[:6]
     for m in result["messages"]:
         del m["_key"]
+    # 매시간 같은 메시지를 다시 번역하면 MyMemory 무료 일일 한도를 금방 쓴다. (url, 원문 해시)가 같으면 재사용.
+    cache_key = lambda m: (m["url"], hashlib.sha1(m["text_ar"].encode()).hexdigest())
+    cache = {cache_key(m): m["text_ko"] for m in previous.get("messages", []) if m.get("text_ko")}
     for m in result["messages"]:
+        if cache_key(m) in cache:
+            m["text_ko"] = cache[cache_key(m)]
+            continue
         m["text_ko"] = translate_ar_ko(m["text_ar"][:480])  # MyMemory 무료 한도는 요청당 500자
         time.sleep(0.3)
     result["ok"] = True
@@ -518,22 +529,22 @@ def fetch_maritime():
 def fetch_flights(previous):
     result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": FLIGHTS_URL}
     try:
-        resp = requests.get(FLIGHTS_URL, params=FLIGHTS_PARAMS, headers=BROWSER_HEADERS, timeout=20)
-        resp.raise_for_status()
-        data = resp.json()
+        data = get(f"{FLIGHTS_URL}?{urlencode(FLIGHTS_PARAMS)}", BROWSER_HEADERS, timeout=20).json()
         count = sum(1 for k, v in data.items() if k not in ("full_count", "version", "stats") and isinstance(v, list))
     except (requests.RequestException, ValueError) as exc:
         result["error"] = str(exc)
         return result
 
+    # 매시간 스냅샷. 항공편 수는 밤낮 차이가 커서 같은 UTC 시각의 과거 값끼리만 비교한다(14일 보관).
     now_key = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H")
-    history = dict(sorted({**previous.get("history", {}), now_key: count}.items())[-120:])
-    older = [c for k, c in history.items() if k != now_key]
-    baseline = statistics.median(older) if len(older) >= 7 else None
+    history = dict(sorted({**previous.get("history", {}), now_key: count}.items())[-336:])
+    same_hour = [c for k, c in history.items() if k != now_key and k[-2:] == now_key[-2:]]
+    baseline = statistics.median(same_hour) if len(same_hour) >= 3 else None
     result.update({
         "ok": True,
         "count": count,
         "baseline": baseline,
+        "baseline_n": len(same_hour),
         "tier": tier_down(ratio(count, baseline)),
         "history": history,
     })
@@ -548,23 +559,42 @@ def fetch_flights(previous):
 # (Cloudflare/DataDome/Anubis)에 막혀 무료·무키로는 안정적인 대안이
 # 없었다. 자세한 내용은 README "시도했지만 버린 것" 참고.
 
+def safe(fetch, previous):
+    # 예상 밖 예외(RSS item에 <title>이 없어 AttributeError, PortWatch 7행 미만에 IndexError 등)
+    # 하나가 그 시간의 전 소스 갱신을 막지 않게 한다. 함수 안의 세밀한 except는 더 좋은 메시지를 위해 그대로.
+    try:
+        result = fetch(previous)
+    except Exception as exc:
+        return {"ok": False, "error": f"{type(exc).__name__}: {exc}", "fetched_at": now_iso()}
+    if result["ok"]:
+        result["last_ok_at"] = result["fetched_at"]
+    return result
+
+
+FETCHERS = {
+    "firms": fetch_firms,
+    "mofa": lambda previous: fetch_mofa(),
+    "news": lambda previous: fetch_news(),
+    "events": lambda previous: fetch_events(),
+    "telegram": fetch_telegram,
+    "maritime": lambda previous: fetch_maritime(),
+    "flights": fetch_flights,
+}
+
+
 def main():
     previous = load_previous()
     output = {
         "generated_at": now_iso(),
         "regions": [{k: r[k] for k in ("key", "name", "label", "primary_port", "chokepoint", "center", "zoom", "box")} for r in REGIONS],
-        "firms": carry_over(fetch_firms(previous.get("firms", {})), previous.get("firms", {})),
-        "mofa": carry_over(fetch_mofa(), previous.get("mofa", {})),
-        "news": carry_over(fetch_news(), previous.get("news", {})),
-        "events": carry_over(fetch_events(), previous.get("events", {})),
-        "telegram": carry_over(fetch_telegram(), previous.get("telegram", {})),
-        "maritime": carry_over(fetch_maritime(), previous.get("maritime", {})),
-        "flights": carry_over(fetch_flights(previous.get("flights", {})), previous.get("flights", {})),
     }
+    for key, fetch in FETCHERS.items():
+        prev = previous.get(key, {})
+        output[key] = carry_over(safe(fetch, prev), prev)
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("firms", "mofa", "news", "events", "telegram", "maritime", "flights")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in FETCHERS))
     return 0
 
 
