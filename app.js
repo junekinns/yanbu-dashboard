@@ -77,13 +77,6 @@ function renderTiles() {
     sub: `${port.name} 최근 7일 ${port.last7}척 (평시 ${Math.round(port.baseline7)}척, ${pct(port)}) · ${port.last_date} 기준${staleTag(d.maritime)}`,
     labels: port.spark.map((p) => p.date), values: port.spark.map((p) => p.value),
   } : { sub: `수집 실패: ${d.maritime?.error || ""}` });
-
-  const mkt = (d.market?.series || {})["2222.SR"], tasi = (d.market?.series || {})["%5ETASI.SR"];
-  fillTile("tile-market", mkt ? {
-    tier: mkt.tier,
-    sub: `아람코 ${mkt.latest} SAR (평시 ${mkt.baseline}, ${pct(mkt)}) · 타다울 ${tasi ? pct(tasi) : "–"}${staleTag(d.market)}`,
-    labels: mkt.spark.map((_, i) => i), values: mkt.spark,
-  } : { sub: `수집 실패: ${d.market?.error || ""}` });
 }
 
 // ---------------------------------------------------------------- header / lists

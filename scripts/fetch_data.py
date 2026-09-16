@@ -501,38 +501,13 @@ def fetch_maritime():
     return result
 
 
-# ------------------------------------------------------------ market
-# 시장은 뉴스가 나기 전에 위험을 가격에 반영한다(피자지수와 같은 발상).
-# 야후 파이낸스 비공식 차트 API는 무료·무키.
-
-YAHOO_CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=3mo&interval=1d"
-MARKET_SYMBOLS = [("2222.SR", "아람코 주가"), ("%5ETASI.SR", "타다울 지수")]
-
-
-def fetch_market():
-    result = {"ok": False, "error": None, "fetched_at": now_iso(), "series": {}}
-    try:
-        for symbol, name in MARKET_SYMBOLS:
-            data = get(YAHOO_CHART_URL.format(symbol=symbol), BROWSER_HEADERS).json()["chart"]["result"][0]
-            closes = [c for c in data["indicators"]["quote"][0]["close"] if c is not None]
-            if len(closes) < 10:
-                raise ValueError(f"{name}: 데이터 부족")
-            latest = closes[-1]
-            baseline = statistics.median(closes[-23:-3])  # 최근 3일 뺀 20거래일 중앙값
-            r = ratio(latest, baseline)
-            result["series"][symbol] = {
-                "name": name, "latest": round(latest, 2), "baseline": round(baseline, 2),
-                "ratio": r, "tier": tier_down(r, lo=0.95, mid=0.98, labels=("급락", "하락", "보통")),
-                "spark": [round(c, 2) for c in closes[-30:]],
-            }
-    except (requests.RequestException, KeyError, IndexError, ValueError) as exc:
-        result["error"] = str(exc)
-        return result
-    result["ok"] = True
-    return result
-
-
 # ------------------------------------------------------------ main
+#
+# "시장 반응"(아람코 주가·타다울 지수) 지표는 시도했다가 뺐다: 야후
+# 파이낸스 비공식 API가 GitHub Actions IP를 지속적으로 차단(429)했고,
+# Stooq·MarketWatch·WSJ·사우디거래소 공식 사이트도 전부 봇 차단
+# (Cloudflare/DataDome/Anubis)에 막혀 무료·무키로는 안정적인 대안이
+# 없었다. 자세한 내용은 README "시도했지만 버린 것" 참고.
 
 def main():
     previous = load_previous()
@@ -545,12 +520,11 @@ def main():
         "events": carry_over(fetch_events(), previous.get("events", {})),
         "telegram": carry_over(fetch_telegram(), previous.get("telegram", {})),
         "maritime": carry_over(fetch_maritime(), previous.get("maritime", {})),
-        "market": carry_over(fetch_market(), previous.get("market", {})),
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("firms", "mofa", "news", "events", "telegram", "maritime", "market")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("firms", "mofa", "news", "events", "telegram", "maritime")))
     return 0
 
 

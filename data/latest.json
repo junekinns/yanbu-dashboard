@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T13:23:49Z",
+ "generated_at": "2026-09-16T13:28:31Z",
  "regions": [
   {
    "key": "west",
@@ -59,7 +59,7 @@
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:23:49Z",
+  "fetched_at": "2026-09-16T13:28:31Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "regions": {
    "west": {
@@ -1504,7 +1504,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:23:51Z",
+  "fetched_at": "2026-09-16T13:28:39Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -1762,7 +1762,7 @@
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:24:10Z",
+  "fetched_at": "2026-09-16T13:28:43Z",
   "kr": [
    {
     "date": "2026-09-16",
@@ -1773,10 +1773,10 @@
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T12:28:12+00:00",
+    "published": "2026-09-16T08:11:10+00:00",
     "source": "연합뉴스",
-    "title": "후티 반군 \"홍해 사우디 얀부 석유시설·공군기지 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBybTJtN2NIcnFIYzBDekdqRzlraTlGRzlfY0E0eWZXRjJrMXNPMFBfV291bXlCYkNLLUZUVlpEZkV3dFFhbnJJSlVyZk9BdVh5ZmJXSWtIN01FNUpiNFQzd9IBYEFVX3lxTFBybTJtN2NIcnFIYzBDekdqRzlraTlGRzlfY0E0eWZXRjJrMXNPMFBfV291bXlCYkNLLUZUVlpEZkV3dFFhbnJJSlVyZk9BdVh5ZmJXSWtIN01FNUpiNFQzdw?oc=5"
+    "title": "후티 압박에 에너지 위기…사우디 빈살만 리더십 '최대 시험대'",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RdIBYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RQ?oc=5"
    },
    {
     "date": "2026-09-16",
@@ -1841,7 +1841,7 @@
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:24:11Z",
+  "fetched_at": "2026-09-16T13:28:44Z",
   "events": [
    {
     "date": "2026-09-16",
@@ -1887,8 +1887,8 @@
    },
    {
     "date": "2026-09-16",
-    "time": "03:29",
-    "iso": "2026-09-16T03:29:00+03:00",
+    "time": "04:18",
+    "iso": "2026-09-16T04:18:53+03:00",
     "city": "메카",
     "region": "west",
     "type": "요격",
@@ -1974,7 +1974,7 @@
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:24:12Z",
+  "fetched_at": "2026-09-16T13:28:46Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2046,7 +2046,7 @@
  "maritime": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:24:23Z",
+  "fetched_at": "2026-09-16T13:29:00Z",
   "series": {
    "port570": {
     "name": "얀부항",
@@ -6119,11 +6119,5 @@
     ]
    }
   }
- },
- "market": {
-  "ok": false,
-  "error": "429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8/finance/chart/2222.SR?range=3mo&interval=1d",
-  "fetched_at": "2026-09-16T13:24:24Z",
-  "series": {}
  }
 }
