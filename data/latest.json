@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-16T10:21:48Z",
+ "generated_at": "2026-09-16T10:22:25Z",
  "attention": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:21:48Z",
+  "fetched_at": "2026-09-16T10:22:25Z",
   "articles": [
    {
     "key": "yanbu",
@@ -272,7 +272,7 @@
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:21:49Z",
+  "fetched_at": "2026-09-16T10:22:25Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -7659,9 +7659,6 @@
   }
  },
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-16T10:21:56Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -7904,12 +7901,16 @@
   ],
   "last7d": 6,
   "baseline": 1.5,
-  "ratio": 4.0
+  "ratio": 4.0,
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f82ffeefb30>, 'Connection to www.0404.go.kr timed out. (connect timeout=60)'))",
+  "fetched_at": "2026-09-16T10:22:29Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:22:00Z",
+  "fetched_at": "2026-09-16T10:23:29Z",
   "kr": [
    {
     "date": "2026-09-16",
@@ -7917,6 +7918,20 @@
     "source": "연합뉴스",
     "title": "후티 압박에 에너지 위기…사우디 빈살만 리더십 '최대 시험대'",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RdIBYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RQ?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T08:05:00+00:00",
+    "source": "연합뉴스",
+    "title": "예멘 후티반군 \"사우디 F-15 전투기 격추\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83RUNick9lTUxPc3VIWkdMdktEWU9PNklLem5fVmpJR08xc28tMFlvSmRacUdpVHMxcmFCQUo0eGNlUk5OOUdFT2JkNVVLWXdtaWJoVllPSnJzaVlkYzZXZEN6YmxPUlE?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T07:44:05+00:00",
+    "source": "MBC",
+    "title": "후티 반군 \"자체 지대공 미사일로 사우디 F-15 격추\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkWC1jZTFXRTZ2bjB2aFJwWE1zNjZMTU9vNW81VVhpdDZsVzVuSTFhbkJTLTBJZ2o0Z25tTm02aVF2MGZSaWY3a0FNQ1RPS1ZfS2lmMVVxdDlxXzBUM1hiT2JpV1dYdjNmbVVuOTJ1bXJja1l10gF0QVVfeXFMT2piZm45TXpGWllYaWNlcVhjZzZYZHJtSWRSMXFQVkFuNkNDc2t2czhPYzJIb1VBamJxcTBqZGZaMExxeWtjMEc1T1k4NnlkRXVmdFB6bnM1WkR5MktZOG9JeXloVUFNakNsT3pWZzJFaHFtQUQ?oc=5"
    },
    {
     "date": "2026-09-15",
@@ -7931,20 +7946,6 @@
     "source": "YTN",
     "title": "이집트 달려간 사우디 빈 살만...후티 \"봉쇄 중단할 때까지 공격 계속\"",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fMk0tdEJCTGd4NFc2d2lDbUN3dmh3TFZYTWVEaUlxUll1dEpjZkQ3UFZkNGFnLXhmUHk2RWxEOFlmSkJfQnJOUW1WRXZ4QndtZGhhNmVHczB4QUhnUGc?oc=5"
-   },
-   {
-    "date": "2026-09-15",
-    "published": "2026-09-15T11:25:39+00:00",
-    "source": "MBC",
-    "title": "사우디-후티 교전 격화‥성지 메카에도 첫 위협 경보",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFSzF2dnM2N0hGRGpkTURBOHp6MDZZWERqLWk5c0FiTzBVQWhsZ1pYT1doNm85T0ppNndTMjRac1c5Mi0tLVBCOTZzSVkwVzg2ZmNZTEg1ZUtMR0JacS1WT0s1YkIySzlJU1FTLVo2dTJaWS1X0gF0QVVfeXFMTXZZdHNpX3Z6c0VKNWt0UkNySkhRRUM5MHUwb1lwZHJsU0FNa3pLbnR0WWxPQlRwQVpEaExOdXgwZTdSMm5QVVJPeHVZZzk5WmxRTVo5Wkt2U1NhQms1eWNmakdxaDJRZFkwNkUxVGQ5RWd1UFY?oc=5"
-   },
-   {
-    "date": "2026-09-15",
-    "published": "2026-09-15T11:13:00+00:00",
-    "source": "연합뉴스",
-    "title": "사우디-후티 교전 속 성지 메카·한인 거주 제다에 ’위협 경보’",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yWEM0QjYwRE9WZWJiR1I1RWlJRVdTRk1ydzdaUEdKMnFzRGRnOVkwUFhNdVpPSmhfNjdSRVA0LTMxLU85bnVHZUVwYTJGV2xZRnhNOXVCNnJPVWxkLTMxQmFhcVAwdVE?oc=5"
    }
   ],
   "en": [
@@ -7988,7 +7989,7 @@
  "maritime": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:22:01Z",
+  "fetched_at": "2026-09-16T10:23:30Z",
   "series": {
    "yanbu_port": {
     "name": "얀부항(King Fahd)",
@@ -9150,7 +9151,7 @@
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:22:06Z",
+  "fetched_at": "2026-09-16T10:23:33Z",
   "events": [
    {
     "date": "2026-09-16",
@@ -9163,7 +9164,7 @@
     "title": "성지 메카도 드론 피격…미 정부, 사우디 여행 재고 권고",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tczRBNUtZN0x6TjFfX2ZwM2dwVzdGMF8zWFJ4Sk51ZGNpcldOc1FMY2tRNkdvT1JwdUJzZkhpT0xVd0h2eXZOSHJaMVFNbTlyOXpTSnhVYWxGOFU?oc=5",
     "source": "KBS",
-    "outlets": 2
+    "outlets": 3
    },
    {
     "date": "2026-09-16",
@@ -9189,7 +9190,7 @@
     "title": "사우디 \"성지 메카로 발사된 후티 드론 격추\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wdmRqVUhxdjhNTDlIb1ZDdi03b1U3dk9JOVBlak9QWW5neHFxTVdhazh4OE9IWm1Fa2ZJcHB5WUdIVk9GQVh5Q211UU9pRlZ6cVJmc21xcmNMOHlqNGszUGRoeEtwdlotX1ROdGVqbXpjWE1Z0gF0QVVfeXFMT3B2ZGpVSHF2OE1MOUhvVkN2LTdvVTd2T0k5UGVqT1BZbmd4cXFNV2FrOHg4T0habUVrZklwcHlZR0hWT0ZBWHlDbXVRT2lGVnpxUmZzbXFyY0w4eWo0azNQZGh4S3B2Wi1fVE50ZWptemNYTVk?oc=5",
     "source": "MBC",
-    "outlets": 11
+    "outlets": 10
    },
    {
     "date": "2026-09-16",
@@ -9202,7 +9203,7 @@
     "title": "중동전 발발 이후 초유의 상황…이슬람 성지 메카에 '위협경보' [지금이뉴스]",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ONEJFNXV1bmVieHRRZkEzZDZyaUx6d3FLTHZoeWRHd0FQQ0QwV2RRWnhDMU9Nd19WazNKZjM0UVpRMEJZLWxETUxoVFZaN3Ytbi1tOEtkZzdBZWFWZ2VGU2JDTjhnN3RrSzNaTVhlYm1XVk9WZFE?oc=5",
     "source": "YTN",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-09-15",
@@ -9254,7 +9255,7 @@
     "title": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHNsQUZkVHd5TE45cmc4cFN6NkJjd0xjbGNPY1d6YmY1bGgyWnVrTjlaNmNzUEl3MzFsSGs4WGdIM2JjSDk3NHR6RzdSV0ZmVzZmZ3BoVnBUc3JKYWoycHRkMTU0eDlmRHJSM1dSYUE3eWFrU0VBdURrMnFVNm95cXBJNlZXaVplcFdJX1lXRTJuM19fV1N5bHIza0VkdlBRM0FHRmdSNHVhOTFnT05J0gG0AUFVX3lxTE9DU3l0RkdjTnVMZmdYY1B0MExabUVfTnpkSmRNWkxBc3B3bzJNelEyUThkck9hSTlCT21lbGRaM09ZRXA1ZWFEUmxERHZTS2kyYTJtX0dlc2VHbzBPQTlQNTNfeFIyNmtLaWpoQ3NoekZLQ0VLT1ZtM25yczhZc3pfNlZzRjZFU2JKcnlVSlA5RGFsS1VhRDVKdlgyVGpHeDBXVnZpRFU0N2N0bklJUkJsdm5UUA?oc=5",
     "source": "Al Jazeera",
-    "outlets": 3
+    "outlets": 2
    }
   ],
   "houthi": [
