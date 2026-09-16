@@ -17,9 +17,12 @@ function renderSummary(data) {
   badge.textContent = `${risk.emoji} ${data.risk_label_ko || "확인 불가"}`;
 
   const news = data.news || {};
-  document.getElementById("news-count").textContent = news.ok || news.stale
-    ? `${news.count_recent ?? 0}건${news.stale ? " (이전 값)" : ""}`
-    : "수집 실패";
+  const newsCountEl = document.getElementById("news-count-inline");
+  if (newsCountEl) {
+    newsCountEl.textContent = news.ok || news.stale
+      ? `(${news.count_recent ?? 0}건${news.stale ? ", 이전 값" : ""})`
+      : "(수집 실패)";
+  }
 
   const advisory = data.advisory || {};
   document.getElementById("advisory-level").textContent = advisory.text

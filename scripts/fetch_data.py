@@ -37,8 +37,9 @@ REGIONS = [
 ]
 
 GDELT_QUERY = (
-    '(Yanbu OR Jeddah OR Luberef OR "Yanbu refinery") '
-    '(attack OR strike OR missile OR drone OR explosion OR shutdown)'
+    '(Yanbu OR Jeddah OR Luberef) '
+    '("Houthi attack" OR "drone attack" OR "missile strike" OR "Houthi strike" '
+    'OR "pipeline explosion" OR "Red Sea attack" OR "oil pipeline" OR "under attack")'
 )
 NEWS_LOOKBACK_DAYS = 7
 
@@ -213,19 +214,18 @@ def fetch_travel_advisory():
     return result
 
 
-def compute_risk(news, advisory):
-    """위험도 배지는 신뢰도가 검증된 여행경보 등급을 기준으로만 판단한다.
+def compute_risk(advisory):
+    """위험도 배지는 신뢰도가 검증된 여행경보 등급만으로 산정한다.
 
-    GDELT 뉴스 언급량은 노이즈가 많아(콘텐츠 파밍, 무관한 지역 기사 혼입)
-    배지 산정에는 쓰지 않고 참고 정보로만 별도 표시한다. 단, 얀부/제다에
-    특정된 관련 뉴스가 뚜렷하게 늘면(>=3건) '주의'까지는 반영한다.
+    GDELT 뉴스 언급량은 테스트 결과 키워드 조합만으로는 무관한 기사가
+    다수 섞여(예: F1 사우디 GP 기사가 'Jeddah'로 매칭) 배지 산정에
+    쓰기엔 신뢰도가 부족함을 확인함. 그래서 배지에는 반영하지 않고
+    화면 하단에 원문 그대로(참고용, 직접 판단 필요)만 노출한다.
     """
-    recent = news.get("count_recent") or 0
     level = advisory.get("level") or 2
-
     if level >= 4:
         return "alert", "경계"
-    if level == 3 or recent >= 3:
+    if level == 3:
         return "caution", "주의"
     return "calm", "평온"
 
@@ -248,7 +248,7 @@ def main():
         advisory["text"] = previous["advisory"]["text"]
         advisory["stale"] = True
 
-    risk_level, risk_label_ko = compute_risk(news, advisory)
+    risk_level, risk_label_ko = compute_risk(advisory)
 
     output = {
         "generated_at": now_iso(),
