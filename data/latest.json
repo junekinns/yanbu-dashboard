@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:29:54Z",
+  "generated_at": "2026-09-16T08:33:19Z",
   "risk_level": "caution",
   "risk_label_ko": "주의",
   "advisory": {
@@ -7,60 +7,12 @@
     "text": "Level 3: Reconsider Travel (샘플)",
     "source": "US Department of State",
     "ok": false,
-    "fetched_at": "2026-09-16T08:29:54Z",
+    "fetched_at": "2026-09-16T08:33:19Z",
     "error": "fetch 실패: 403 Client Error: Forbidden for url: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html",
     "stale": true
   },
   "news": {
     "events": [
-      {
-        "date": "2026-09-13 09:00 UTC",
-        "title": "Canada oil windfall may yet wipe out its losses from tariffs",
-        "domain": "cbc.ca",
-        "url": "https://www.cbc.ca/news/politics/canada-oil-prices-trump-iran-trade-war-tariffs-9.7341298"
-      },
-      {
-        "date": "2026-09-13 08:00 UTC",
-        "title": "Война в Йемене 2026 : что значит захват побережья Красного моря и удар по Саудовской Аравии ?",
-        "domain": "vestikavkaza.ru",
-        "url": "https://vestikavkaza.ru/analytics/vojna-v-jemene-2026-cto-znacit-zahvat-pobereza-krasnogo-mora-i-udar-po-saudovskoj-aravii.html"
-      },
-      {
-        "date": "2026-09-13 07:45 UTC",
-        "title": "Саудовская Аравия перекрыла ключевой нефтепровод из - за беспилотников",
-        "domain": "mk.ru",
-        "url": "https://www.mk.ru/politics/2026/09/13/saudovskaya-araviya-perekryla-klyuchevoy-nefteprovod-izza-bespilotnikov.html"
-      },
-      {
-        "date": "2026-09-13 07:15 UTC",
-        "title": "Хуситы атакуют Саудовскую Аравию и закрепляются у Баб - эль - Мандеба",
-        "domain": "news.israelinfo.co.il",
-        "url": "https://news.israelinfo.co.il/147861"
-      },
-      {
-        "date": "2026-09-13 07:00 UTC",
-        "title": "Cyprus Business Now : weekly wrap - up",
-        "domain": "cyprus-mail.com",
-        "url": "https://cyprus-mail.com/2026/09/13/cyprus-business-now-weekly-wrap-up-178"
-      },
-      {
-        "date": "2026-09-13 04:15 UTC",
-        "title": "Iran Says Oman Hormuz Route Deal Comes Monday as Bahrain Base Damaged",
-        "domain": "hngn.com",
-        "url": "https://www.hngn.com/articles/273170/20260912/oil-tops-100-iran-widens-hormuz-zone-iaea-refers-tehran-un.htm"
-      },
-      {
-        "date": "2026-09-13 02:15 UTC",
-        "title": "Saturday Press Conference | Grandprix . com",
-        "domain": "grandprix.com",
-        "url": "https://www.grandprix.com/races/spanish-gp-2026-saturday-press-conference.html"
-      },
-      {
-        "date": "2026-09-12 18:30 UTC",
-        "title": "Iraq finds drone launchers near Iran border : security sources",
-        "domain": "jordantimes.com",
-        "url": "https://jordantimes.com/news/region/iraq-finds-drone-launchers-near-iran-border-security-sources"
-      },
       {
         "date": "2026-09-12 18:30 UTC",
         "title": "Pakistan condemns drone attack on Saudi oil pipeline",
@@ -81,28 +33,76 @@
       },
       {
         "date": "2026-09-12 18:15 UTC",
-        "title": "Саудовская Аравия перекрыла ключевой нефтепровод из - за угрозы новой атаки дронов",
-        "domain": "lenta.ru",
-        "url": "https://lenta.ru/news/2026/09/12/saudovskaya-araviya-perekryla-klyuchevoy-nefteprovod-iz-za-ugrozy-novoy-ataki-dronov/"
+        "title": "Trump says Iran likely responsible for attack that shut vital Saudi oil pipeline",
+        "domain": "channel3000.com",
+        "url": "https://www.channel3000.com/news/trump-says-iran-likely-responsible-for-attack-that-shut-vital-saudi-oil-pipeline/article_4e0e3c38-e94b-5952-b725-d3001c2fc05a.html"
+      },
+      {
+        "date": "2026-09-12 16:15 UTC",
+        "title": "Saudi Arabia shuts down key oil pipeline , blaming drones from Iraq",
+        "domain": "aol.co.uk",
+        "url": "https://www.aol.co.uk/articles/saudi-arabia-shuts-down-key-153512000.html"
+      },
+      {
+        "date": "2026-09-12 16:00 UTC",
+        "title": "Iraqi PM orders probe after attacks on Saudi Arabia",
+        "domain": "azernews.az",
+        "url": "https://www.azernews.az/region/263780.html"
+      },
+      {
+        "date": "2026-09-12 15:30 UTC",
+        "title": "Trump says Iran likely responsible for attack on vital Saudi oil pipeline",
+        "domain": "egyptindependent.com",
+        "url": "https://www.egyptindependent.com/trump-says-iran-likely-responsible-for-attack-on-vital-saudi-oil-pipeline/"
+      },
+      {
+        "date": "2026-09-12 15:30 UTC",
+        "title": "Saudi oil pipeline shut down after attack triggers fires",
+        "domain": "egyptindependent.com",
+        "url": "https://www.egyptindependent.com/saudi-oil-pipeline-shut-down-after-attack-triggers-fires/"
+      },
+      {
+        "date": "2026-09-12 15:30 UTC",
+        "title": "Trump says Houthis  dont want to fight u after Saudi pipeline shutdown",
+        "domain": "washingtonexaminer.com",
+        "url": "http://www.washingtonexaminer.com/news/world/4724791/trump-houthi-dont-want-fight/"
+      },
+      {
+        "date": "2026-09-12 15:15 UTC",
+        "title": "Iraqi resistance denies involvement in attacks on Saudi oil infrastructure",
+        "domain": "presstv.co.uk",
+        "url": "https://www.presstv.co.uk/Detail/2026/09/12/776155/Iraqi-resistance-denies-involvement-attacks-Saudi-oil-infrastructure"
+      },
+      {
+        "date": "2026-09-12 15:15 UTC",
+        "title": "Iran scores major victory as Saudi Arabia shuts East - West pipeline cutting 5 million barrels",
+        "domain": "bankingnews.gr",
+        "url": "https://www.bankingnews.gr/diethni/articles/898963/iran-scores-major-victory-as-saudi-arabia-shuts-east-west-pipeline-cutting-5-million-barrels%20title="
+      },
+      {
+        "date": "2026-09-12 14:15 UTC",
+        "title": "Drone attacks shut down key Saudi oil pipeline ( SATELLITE PHOTOS )",
+        "domain": "middleeaststar.com",
+        "url": "http://www.middleeaststar.com/news/279302339/drone-attacks-shut-down-key-saudi-oil-pipeline-satellite-photos"
       }
     ],
-    "count_recent": 64,
+    "count_recent": 58,
     "daily_counts": [
       {
         "date": "2026-09-10",
-        "count": 0
+        "count": 4
       },
       {
         "date": "2026-09-11",
-        "count": 2
+        "count": 23
       },
       {
         "date": "2026-09-12",
-        "count": 66
+        "count": 41
       },
       {
         "date": "2026-09-13",
-        "count": 7
+        "count": 0
       },
       {
         "date": "2026-09-14",
@@ -118,7 +118,7 @@
       }
     ],
     "ok": true,
-    "fetched_at": "2026-09-16T08:29:40Z",
+    "fetched_at": "2026-09-16T08:33:06Z",
     "error": null
   },
   "external_links": [
