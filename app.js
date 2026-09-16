@@ -16,14 +16,13 @@ function renderSummary(data) {
   badge.className = `risk-badge ${risk.class}`;
   badge.textContent = `${risk.emoji} ${data.risk_label_ko || "확인 불가"}`;
 
-  document.getElementById("acled-count").textContent = `${data.acled?.count_7d ?? "-"}건`;
+  const news = data.news || {};
+  document.getElementById("news-count").textContent = news.ok || news.stale
+    ? `${news.count_recent ?? 0}건${news.stale ? " (이전 값)" : ""}`
+    : "수집 실패";
 
-  const ukmtoCount = data.ukmto?.count_7d ?? 0;
-  document.getElementById("ukmto-count").textContent =
-    data.ukmto?.ok || data.ukmto?.stale ? `${ukmtoCount}건${data.ukmto?.stale ? " (이전 값)" : ""}` : "수집 실패";
-
-  const advisory = data.advisory;
-  document.getElementById("advisory-level").textContent = advisory?.text
+  const advisory = data.advisory || {};
+  document.getElementById("advisory-level").textContent = advisory.text
     ? `${advisory.text}${advisory.stale ? " (이전 값)" : ""}`
     : "수집 실패";
 
@@ -42,38 +41,24 @@ function renderMap(data) {
       radius: region.radius_km * 1000,
       color: "#8a97a8",
       weight: 1,
-      fillOpacity: 0.03,
-    }).addTo(map).bindTooltip(region.name, { permanent: false });
-  });
-
-  const acledEvents = data.acled?.events || [];
-  acledEvents.forEach((e) => {
-    L.circleMarker([e.lat, e.lon], {
-      radius: 6,
-      color: "#d9534f",
-      fillColor: "#d9534f",
-      fillOpacity: 0.8,
+      fillOpacity: 0.05,
     })
       .addTo(map)
-      .bindPopup(`<strong>${e.type || "사건"}</strong><br>${e.date}<br>${e.region}<br>${e.notes || ""}`);
+      .bindTooltip(region.name, { permanent: true, direction: "center", className: "region-label" });
   });
-
-  if (acledEvents.length === 0) {
-    // 표시할 사건이 없으면 지역 원만 보여줌
-  }
 }
 
 function renderChart(data) {
-  const weekly = data.acled?.count_90d_weekly || [];
+  const daily = data.news?.daily_counts || [];
   const ctx = document.getElementById("trend-chart");
   new Chart(ctx, {
     type: "bar",
     data: {
-      labels: weekly.map((w) => w.week),
+      labels: daily.map((d) => d.date.slice(5)), // MM-DD
       datasets: [
         {
-          label: "ACLED 사건 수 (주간)",
-          data: weekly.map((w) => w.count),
+          label: "관련 뉴스 기사 수 (일별)",
+          data: daily.map((d) => d.count),
           backgroundColor: "#d9534f",
         },
       ],
@@ -89,6 +74,70 @@ function renderChart(data) {
   });
 }
 
+function renderNewsList(data) {
+  const list = document.getElementById("news-list");
+  const events = data.news?.events || [];
+  list.innerHTML = "";
+
+  if (events.length === 0) {
+    const li = document.createElement("li");
+    li.className = "muted";
+    li.textContent = "최근 7일간 관련 뉴스가 확인되지 않았습니다.";
+    list.appendChild(li);
+    return;
+  }
+
+  events.forEach((e) => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = e.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = e.title;
+    const meta = document.createElement("div");
+    meta.className = "muted small";
+    meta.textContent = `${e.date} · ${e.domain || ""}`;
+    li.appendChild(a);
+    li.appendChild(meta);
+    list.appendChild(li);
+  });
+}
+
+function renderLinks(data) {
+  const container = document.getElementById("links-groups");
+  const links = data.external_links || [];
+  const groups = {};
+  links.forEach((link) => {
+    if (!groups[link.group]) groups[link.group] = [];
+    groups[link.group].push(link);
+  });
+
+  container.innerHTML = "";
+  Object.entries(groups).forEach(([groupName, items]) => {
+    const h3 = document.createElement("h3");
+    h3.textContent = groupName;
+    container.appendChild(h3);
+
+    const ul = document.createElement("ul");
+    ul.className = "link-list";
+    items.forEach((item) => {
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      a.href = item.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = item.name;
+      const desc = document.createElement("div");
+      desc.className = "muted small";
+      desc.textContent = item.description;
+      li.appendChild(a);
+      li.appendChild(desc);
+      ul.appendChild(li);
+    });
+    container.appendChild(ul);
+  });
+}
+
 async function main() {
   try {
     const res = await fetch("data/latest.json", { cache: "no-store" });
@@ -97,6 +146,8 @@ async function main() {
     renderSummary(data);
     renderMap(data);
     renderChart(data);
+    renderNewsList(data);
+    renderLinks(data);
   } catch (err) {
     document.getElementById("risk-badge").textContent = "데이터 로드 실패";
     console.error(err);

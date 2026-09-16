@@ -18,32 +18,34 @@
     <section id="risk-summary" class="card">
       <div id="risk-badge" class="risk-badge risk-unknown">확인 중...</div>
       <dl class="risk-detail">
-        <div><dt>최근 7일 사건(ACLED)</dt><dd id="acled-count">-</dd></div>
-        <div><dt>최근 7일 해상 사고(UKMTO)</dt><dd id="ukmto-count">-</dd></div>
         <div><dt>미 국무부 여행경보</dt><dd id="advisory-level">-</dd></div>
+        <div><dt>최근 7일 관련 뉴스 (참고용)</dt><dd id="news-count">-</dd></div>
       </dl>
+      <p class="muted small">위험도 배지는 신뢰도 높은 여행경보 등급을 기준으로 산정합니다. 뉴스 언급량은 노이즈가 많아 참고 정보로만 제공하며 배지 산정에 직접 반영하지 않습니다(3건 이상이면 '주의'까지만 보조 반영).</p>
       <p id="last-updated" class="muted">마지막 업데이트: -</p>
     </section>
 
     <section class="card">
-      <h2>사건 지도</h2>
+      <h2>위치</h2>
       <div id="map"></div>
-      <p class="muted small">최근 90일 내 얀부·제다 반경 80km 이내 사건. 마커를 클릭하면 상세 정보를 볼 수 있습니다.</p>
+      <p class="muted small">정확한 사건 좌표는 제공하지 않습니다. 아래 "바로가기" 원본 지도(ACLED, UKMTO)에서 확인하세요.</p>
     </section>
 
     <section class="card">
-      <h2>주간 사건 추이 (최근 13주)</h2>
+      <h2>최근 7일 관련 뉴스 언급량</h2>
       <canvas id="trend-chart" height="120"></canvas>
+      <p class="muted small">"Yanbu/Jeddah/Red Sea/Houthi" + "attack/strike/missile/drone" 키워드가 포함된 전세계 뉴스 기사 수(GDELT). 보도량이지 검증된 사건 수가 아닙니다.</p>
     </section>
 
-    <section class="card sources">
-      <h2>데이터 출처</h2>
-      <ul>
-        <li>ACLED (Armed Conflict Location & Event Data) — 분쟁 이벤트</li>
-        <li>UKMTO (UK Maritime Trade Operations) — 홍해·아덴만 해상 보안 속보</li>
-        <li>미국무부(travel.state.gov) — 사우디아라비아 여행경보 등급</li>
-      </ul>
-      <p class="muted small">각 소스는 원 발행처의 신뢰도를 따릅니다. 이 사이트는 취합·시각화만 수행하며 자체 검증을 하지 않습니다.</p>
+    <section class="card">
+      <h2>최근 관련 뉴스 헤드라인</h2>
+      <ul id="news-list" class="news-list"><li class="muted">불러오는 중...</li></ul>
+      <p class="muted small">같은 제목이 낯선 도메인 여러 곳에 동시에 올라오는 경우 콘텐츠 파밍/역정보일 수 있습니다. 출처 신뢰도를 직접 판단하세요.</p>
+    </section>
+
+    <section class="card" id="links-section">
+      <h2>바로가기</h2>
+      <div id="links-groups"></div>
     </section>
   </main>
 

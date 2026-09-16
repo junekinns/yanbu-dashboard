@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:57:19Z",
+  "generated_at": "2026-09-16T08:27:47Z",
   "risk_level": "caution",
   "risk_label_ko": "주의",
   "advisory": {
@@ -7,98 +7,165 @@
     "text": "Level 3: Reconsider Travel (샘플)",
     "source": "US Department of State",
     "ok": false,
-    "fetched_at": "2026-09-16T07:57:19Z",
+    "fetched_at": "2026-09-16T08:27:47Z",
     "error": "fetch 실패: 403 Client Error: Forbidden for url: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html",
     "stale": true
   },
-  "acled": {
+  "news": {
     "events": [
       {
-        "date": "2026-09-13",
-        "lat": 24.05,
-        "lon": 38.1,
-        "region": "얀부",
-        "type": "Explosions/Remote violence (예시)",
-        "notes": "샘플 데이터입니다. 실제 fetch_data.py 실행 전 목업.",
-        "source": "ACLED"
+        "date": "2026-09-13 09:15 UTC",
+        "title": "Ce datorie karmică ai în această viață , în funcție de ultima cifră a zilei tale de naștere",
+        "domain": "ziarulprofit.ro",
+        "url": "https://www.ziarulprofit.ro/ce-datorie-karmica-ai-in-aceasta-viata-in-functie-de-ultima-cifra-a-zilei-tale-de-nastere/"
       },
       {
-        "date": "2026-08-27",
-        "lat": 21.5,
-        "lon": 39.2,
-        "region": "제다",
-        "type": "Protests (예시)",
-        "notes": "샘플 데이터입니다.",
-        "source": "ACLED"
+        "date": "2026-09-13 09:15 UTC",
+        "title": "Călin Georgescu merge să caute producători locali în târgul de vechituri din Bihor : „ Bolojan nu uita , Oradea nu e a ta",
+        "domain": "ziarulprofit.ro",
+        "url": "https://www.ziarulprofit.ro/calin-georgescu-merge-sa-caute-producatori-locali-in-targul-de-vechituri-din-bihor-bolojan-nu-uita-oradea-nu-e-a-ta/"
+      },
+      {
+        "date": "2026-09-13 09:15 UTC",
+        "title": "An Iranian commercial ship is struck near Strait of Hormuz with 1 dead , Iranian media say",
+        "domain": "stardem.com",
+        "url": "http://www.stardem.com/ap/world/an-iranian-commercial-ship-is-struck-near-strait-of-hormuz-with-1-dead-iranian-media/article_7b7994df-d263-5fa0-ba4d-eb8d6ea21f22.html"
+      },
+      {
+        "date": "2026-09-13 09:15 UTC",
+        "title": "Houthis continue strike at Saudi Arabian border , tighten grip on oil route",
+        "domain": "afghanistansun.com",
+        "url": "http://www.afghanistansun.com/news/279304011/houthis-continue-strike-at-saudi-arabian-border-tighten-grip-on-oil-route"
+      },
+      {
+        "date": "2026-09-13 09:15 UTC",
+        "title": "Iran authorities say one dead after ship struck in Hormuz",
+        "domain": "rte.ie",
+        "url": "https://www.rte.ie/news/2026/0913/1591336-iran-war/"
+      },
+      {
+        "date": "2026-09-13 09:15 UTC",
+        "title": "Iranian media say 1 killed in ship strike on the Strait of Hormuz , and other Mideast developments",
+        "domain": "dailygazette.com",
+        "url": "https://www.dailygazette.com/the_recorder/ap/national/iranian-media-say-1-killed-in-ship-strike-on-the-strait-of-hormuz-and-other/article_9ce92b35-ac4f-5948-8935-e7261851539c.html"
+      },
+      {
+        "date": "2026-09-13 09:15 UTC",
+        "title": "Daniel Buzdugan , în doliu după pierderea mamei sale . Mesajul emoționant al prezentatorului : „ Ne - am luat rămas - bun de cinci , de șase ori …",
+        "domain": "ziarulprofit.ro",
+        "url": "https://www.ziarulprofit.ro/daniel-buzdugan-in-doliu-dupa-pierderea-mamei-sale-mesajul-emotionant-al-prezentatorului-ne-am-luat-ramas-bun-de-cinci-de-sase-ori/"
+      },
+      {
+        "date": "2026-09-13 09:00 UTC",
+        "title": "World braces for Big Jump in Oil Prices after Saudi Pipeline Shutdown due to Houthi Threats",
+        "domain": "en.dailypakistan.com.pk",
+        "url": "https://en.dailypakistan.com.pk/13-Sep-2026/world-braces-for-big-jump-in-oil-prices-after-saudi-pipeline-shutdown-due-to-houthi-threats"
+      },
+      {
+        "date": "2026-09-13 09:00 UTC",
+        "title": "Canada oil windfall may yet wipe out its losses from tariffs",
+        "domain": "cbc.ca",
+        "url": "https://www.cbc.ca/news/politics/canada-oil-prices-trump-iran-trade-war-tariffs-9.7341298"
+      },
+      {
+        "date": "2026-09-13 09:00 UTC",
+        "title": "AP News Summary at 12 : 56 a . m . EDT",
+        "domain": "ktvo.com",
+        "url": "https://www.ktvo.com/news/nation-world/ap-news-summary-at-12-56-a-m-edt/article_91c0a554-be0e-5fa8-83ed-1bb12be0e6a8.html"
+      },
+      {
+        "date": "2026-09-13 09:00 UTC",
+        "title": "نحو قوة ردع للسلم الإقليمي",
+        "domain": "alanbatnews.net",
+        "url": "https://alanbatnews.net/article/483137"
+      },
+      {
+        "date": "2026-09-13 08:45 UTC",
+        "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
+        "domain": "iranherald.com",
+        "url": "http://www.iranherald.com/news/279304105/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace"
       }
     ],
-    "count_7d": 1,
-    "count_90d_weekly": [
+    "count_recent": 49,
+    "daily_counts": [
       {
-        "week": "2026-06-22",
+        "date": "2026-09-10",
         "count": 0
       },
       {
-        "week": "2026-06-29",
+        "date": "2026-09-11",
         "count": 0
       },
       {
-        "week": "2026-07-06",
+        "date": "2026-09-12",
         "count": 0
       },
       {
-        "week": "2026-07-13",
+        "date": "2026-09-13",
+        "count": 75
+      },
+      {
+        "date": "2026-09-14",
         "count": 0
       },
       {
-        "week": "2026-07-20",
+        "date": "2026-09-15",
         "count": 0
       },
       {
-        "week": "2026-07-27",
+        "date": "2026-09-16",
         "count": 0
-      },
-      {
-        "week": "2026-08-03",
-        "count": 0
-      },
-      {
-        "week": "2026-08-10",
-        "count": 0
-      },
-      {
-        "week": "2026-08-17",
-        "count": 0
-      },
-      {
-        "week": "2026-08-24",
-        "count": 0
-      },
-      {
-        "week": "2026-08-31",
-        "count": 1
-      },
-      {
-        "week": "2026-09-07",
-        "count": 0
-      },
-      {
-        "week": "2026-09-14",
-        "count": 1
       }
     ],
     "ok": false,
-    "fetched_at": "2026-09-16T07:57:16Z",
-    "error": "403 Client Error: Forbidden for url: https://acleddata.com/api/acled/read?country=Saudi+Arabia&event_date=2026-06-18%7C2026-09-16&event_date_where=BETWEEN&limit=0",
+    "fetched_at": "2026-09-16T08:26:59Z",
+    "error": "rate limited (429)",
     "stale": true
   },
-  "ukmto": {
-    "events": [],
-    "count_7d": 0,
-    "ok": false,
-    "fetched_at": "2026-09-16T07:57:18Z",
-    "error": "fetch 실패(차단 가능성): 404 Client Error: Not Found for url: https://www.ukmto.org/indian-ocean/reports"
-  },
+  "external_links": [
+    {
+      "group": "국제 공식/전문 소스",
+      "name": "ACLED Yemen Conflict Monitor (홍해 공격 지도 포함)",
+      "url": "https://acleddata.com/monitor/yemen-conflict-monitor",
+      "description": "ACLED가 직접 운영하는 예멘/홍해 분쟁 전용 대시보드. 주간 갱신, 홍해 공격 전용 지도 별도 제공."
+    },
+    {
+      "group": "국제 공식/전문 소스",
+      "name": "UKMTO 홍해·아덴만 해상 보안 속보",
+      "url": "https://www.ukmto.org/",
+      "description": "영국 해군 해상무역작전실의 실시간 해상 사고 속보. 자동 수집은 차단되어 직접 확인 필요."
+    },
+    {
+      "group": "국제 공식/전문 소스",
+      "name": "미국무부 사우디아라비아 여행경보 (원문)",
+      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html",
+      "description": "이 대시보드의 여행경보 등급 출처 원문."
+    },
+    {
+      "group": "국제 공식/전문 소스",
+      "name": "영국 FCDO 사우디아라비아 여행 정보",
+      "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+      "description": "영국 외무부의 사우디아라비아 여행 권고."
+    },
+    {
+      "group": "대한민국 관련",
+      "name": "외교부 해외안전여행 (국가별 정보)",
+      "url": "https://www.0404.go.kr",
+      "description": "사우디아라비아 검색 시 대한민국 정부의 공식 여행경보 단계와 공지를 확인할 수 있음."
+    },
+    {
+      "group": "대한민국 관련",
+      "name": "주사우디아라비아 대한민국대사관",
+      "url": "https://overseas.mofa.go.kr/sa-ko/index.do",
+      "description": "공지사항/안전공지 게시판에서 현지 대사관의 공식 안내를 확인."
+    },
+    {
+      "group": "Luberef(얀부 아람코 계열)",
+      "name": "Luberef 공식 뉴스/공시 (사건·안전 정보 아님, 참고용)",
+      "url": "https://luberef.com/en/news",
+      "description": "일반 기업 홍보·공시 페이지일 뿐 안전/사고 관련 실시간 채널이 아닙니다. 사기업 특성상 사건 관련 정보는 공개적으로 얻기 어려워, 위 뉴스 언급량 검색어에 'Luberef/refinery' 키워드를 포함해 대신 감시합니다."
+    }
+  ],
   "regions": [
     {
       "name": "얀부",
