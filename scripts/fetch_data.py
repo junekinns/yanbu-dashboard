@@ -143,9 +143,11 @@ def now_iso():
 
 def get(url, headers=HEADERS, timeout=60):
     # 정부 사이트가 해외 IP에 간헐적으로 연결 타임아웃을 내서 몇 번 다시 시도한다.
+    # 연결은 10초면 충분하고, 긴 timeout은 큰 파일(FIRMS 44MB) 읽기용 — 연결 자체가 안 되는데
+    # 180초×3회를 기다리면 GitHub Actions 한 번이 10분을 넘긴다.
     for attempt in (1, 2, 3):
         try:
-            resp = requests.get(url, headers=headers, timeout=timeout)
+            resp = requests.get(url, headers=headers, timeout=(10, timeout))
             resp.raise_for_status()
             return resp
         except (requests.ConnectionError, requests.Timeout):
@@ -177,8 +179,10 @@ def load_previous():
 def carry_over(current, previous):
     if current["ok"] or not (previous.get("ok") or previous.get("stale")):
         return current
+    # 실패한 결과의 빈 컨테이너("regions": {}, "events": [] 등)가 이전 값을 덮어쓰지 않게
+    # 상태 필드만 가져온다. 특히 firms.history(평시 계산용 90일 이력)가 한 번의 실패로 날아가면 안 된다.
     kept = {k: v for k, v in previous.items() if k not in ("ok", "error", "fetched_at")}
-    return {**kept, **current, "stale": True}
+    return {**kept, "ok": False, "error": current.get("error"), "fetched_at": current["fetched_at"], "stale": True}
 
 
 # ------------------------------------------------------------ firms
@@ -275,7 +279,8 @@ def parse_notices(page):
 
 def fetch_summary(url):
     try:
-        body = re.search(r'<textarea id="textCnHtml"[^>]*>(.*?)</textarea>', get(url, BROWSER_HEADERS).text, re.S)
+        # 요약은 있으면 좋은 정도라 짧게. 정부 사이트가 해외 IP에 느릴 때 3건×재시도로 몇 분을 잡아먹지 않게.
+        body = re.search(r'<textarea id="textCnHtml"[^>]*>(.*?)</textarea>', get(url, BROWSER_HEADERS, timeout=15).text, re.S)
     except requests.RequestException:
         return None
     if not body:
@@ -590,7 +595,10 @@ def main():
     }
     for key, fetch in FETCHERS.items():
         prev = previous.get(key, {})
+        started = time.monotonic()
         output[key] = carry_over(safe(fetch, prev), prev)
+        # Actions 로그에서 어느 소스가 느린지/막혔는지 바로 보이게.
+        print(f"{key}: ok={output[key]['ok']} {time.monotonic() - started:.1f}s" + (f" error={output[key]['error']}" if output[key].get("error") else ""), flush=True)
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)

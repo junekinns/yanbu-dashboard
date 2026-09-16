@@ -89,6 +89,32 @@
 - README 61행 "항공기 추적(OpenSky·…) — 수신기 거의 없음", 70행 "FlightRadar24는 봇 차단" ↔ 현재 FR24를 실험 중. 모순. "실험 중" 섹션 신설, 70행은 "공항 운항정보 페이지"로 한정해 재서술.
 - `specs/001-*/plan.md:19` "6시간 cron" — 이력 문서라 그대로 둔다.
 
+## F. 배포 후 첫 Actions 실행(2026-09-16 15:59Z, run 35118969381)에서 드러난 것
+
+감사 단계에서 놓쳤거나, 로컬에서는 재현되지 않고 GitHub 러너에서만 나타난 결함. 전부 같은 커밋에서 고쳤다.
+
+### F1. `carry_over`가 실패 결과의 빈 컨테이너로 이전 값을 덮어쓴다 (감사에서 "Good"이라고 잘못 판단)
+
+- **증거**: `fetch_firms`는 시도 전에 `result = {..., "regions": {}}`를 만들고, 실패하면 그대로 반환. `carry_over`의 `{**kept, **current}`에서 `current["regions"] = {}`가 `kept["regions"]`(hotspots·**90일 history**)를 덮어씀. 러너에서 FIRMS 연결 실패 → 봇 커밋 `8e807ad`가 `latest.json`에서 1,493줄 삭제, 배포된 `firms.regions == {}`. `fetch_events`(`"events": []`), `fetch_telegram`(`"messages": []`), `fetch_maritime`(`"series": {}`)도 같은 구조 → 이 넷은 "그레이스풀 디그레이드"가 애초에 동작한 적이 없다. mofa만 실패 시 `places` 키가 없어 우연히 보존됨.
+- **영향**: 위성 열 감지 평시 이력이 실패 한 번에 리셋 → 2주간 "수집 중". 사용자가 보는 화면은 "수집 실패"(이전 값 아님).
+- **Decision**: `carry_over`가 실패 시 `ok/error/fetched_at`만 current에서 가져오고 나머지는 전부 previous를 유지. 배포 데이터는 로컬(`9722a01` 시점 history 보유)에서 재실행해 복구 후 push.
+
+### F2. 러너→NASA FIRMS / 0404.go.kr 연결 타임아웃이 실행 시간을 11분으로
+
+- **증거**: 두 소스 모두 `ConnectTimeoutError`. 13:29Z 실행에서는 둘 다 성공 → 러너(Azure) IP의 간헐적 연결 문제. `get()`이 `timeout=180`을 연결·읽기 공용으로 써서 FIRMS만 180s×3 + 30s 대기 ≈ 9.5분. 새 `timeout-minutes: 15`가 없었다면 다음 시간 실행이 `concurrency`에 걸려 밀렸을 것.
+- **Decision**: `requests` timeout을 `(10, timeout)` 튜플로 — 연결 10초, 읽기는 기존 값(큰 파일용). 죽은 호스트는 소스당 ~1분 안에 포기. 공지 요약(선택적 데이터)은 15초.
+- **Alternatives**: FIRMS 지역별 CSV(더 작음)로 전환 — 문제가 다운로드 크기가 아니라 연결이라 의미 없음. 보류.
+
+### F3. 스크립트가 끝날 때까지 아무것도 출력하지 않아 어느 소스가 막혔는지 로그로 알 수 없었다
+
+- **Decision**: `main()` 루프에서 소스별 `ok`·소요 시간·오류를 한 줄씩 `flush=True`로 출력.
+
+### F4. 매시간 cron이 한 번도 실행되지 않았다 (코드 밖, 미해결)
+
+- **증거**: 15회 실행 전부 `workflow_dispatch`. `schedule` 이벤트 0회. 저장소는 오늘(2026-09-16) 생성, `7 * * * *`로 바꾼 뒤(4331bf2) 14:07·15:07·16:07Z 슬롯 모두 미실행. 워크플로우 파일 자체는 유효(수동 실행 성공).
+- **판단**: GitHub 스케줄러는 새 저장소·새 스케줄에서 첫 실행이 수 시간 지연되는 일이 흔하고, 부하 시 슬롯을 건너뛴다. 코드로 고칠 수 없다. 하루 뒤 `gh run list --workflow=update.yml --json event`에서 `schedule`이 보이는지 확인. 계속 0이면 워크플로우를 한 번 비활성화/활성화(`gh workflow disable/enable`)하거나 파일을 수정 커밋해 재등록.
+- **영향**: 그때까지 "매시간 자동 갱신"은 사실이 아니며, flights 지표의 같은-시각 평시도 쌓이지 않는다.
+
 ## E. 검토했지만 하지 않기로 한 것
 
 | 항목 | 이유 |

@@ -100,7 +100,7 @@ description: "Task list for 서비스 품질 감사 — 정확성·견고성·�
 
 ## Phase 7: Polish
 
-- [ ] T024 최종 확인: `python3 scripts/fetch_data.py` 정상 실행 → `node --check app.js` → quickstart §1·§3 재실행 → 커밋 → `git pull --rebase && git push` → Actions 1회 녹색(특히 FR24가 Actions IP에서 200인지 로그 확인; 막히면 research.md A5 원칙대로 flights 제거를 별도 커밋으로) → Pages에서 §3 반복.
+- [X] T024 최종 확인: `python3 scripts/fetch_data.py` 정상 실행 → `node --check app.js` → quickstart §1·§3 재실행 → 커밋 → `git pull --rebase && git push` → Actions 1회 녹색(특히 FR24가 Actions IP에서 200인지 로그 확인; 막히면 research.md A5 원칙대로 flights 제거를 별도 커밋으로) → Pages에서 §3 반복. — 1차 실행(run 35118969381) 성공·FR24 200. 다만 이 실행에서 research.md §F의 결함 4건(carry_over 빈 컨테이너 덮어쓰기로 FIRMS 이력 소실, 연결 타임아웃 11분, 무출력, cron 미실행)이 드러나 F1~F3을 추가 수정하고 데이터를 복구해 2차 배포. F4(cron)는 GitHub 스케줄러 문제로 코드 밖 — 하루 뒤 재확인 필요.
 
 ---
 
