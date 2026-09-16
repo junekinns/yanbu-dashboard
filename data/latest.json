@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-09-16T07:16:55Z",
+  "generated_at": "2026-09-16T07:57:19Z",
   "risk_level": "caution",
   "risk_label_ko": "주의",
   "advisory": {
     "level": 3,
     "text": "Level 3: Reconsider Travel (샘플)",
     "source": "US Department of State",
-    "ok": true,
-    "fetched_at": "2026-09-16T07:16:55Z",
-    "error": null
+    "ok": false,
+    "fetched_at": "2026-09-16T07:57:19Z",
+    "error": "fetch 실패: 403 Client Error: Forbidden for url: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html",
+    "stale": true
   },
   "acled": {
     "events": [
@@ -86,16 +87,17 @@
         "count": 1
       }
     ],
-    "ok": true,
-    "fetched_at": "2026-09-16T07:16:55Z",
-    "error": null
+    "ok": false,
+    "fetched_at": "2026-09-16T07:57:16Z",
+    "error": "403 Client Error: Forbidden for url: https://acleddata.com/api/acled/read?country=Saudi+Arabia&event_date=2026-06-18%7C2026-09-16&event_date_where=BETWEEN&limit=0",
+    "stale": true
   },
   "ukmto": {
     "events": [],
     "count_7d": 0,
     "ok": false,
-    "fetched_at": "2026-09-16T07:16:55Z",
-    "error": "sample placeholder - fetch_data.py 미실행"
+    "fetched_at": "2026-09-16T07:57:18Z",
+    "error": "fetch 실패(차단 가능성): 404 Client Error: Not Found for url: https://www.ukmto.org/indian-ocean/reports"
   },
   "regions": [
     {
