@@ -129,9 +129,16 @@ def now_iso():
 
 
 def get(url, headers=HEADERS, timeout=60):
-    resp = requests.get(url, headers=headers, timeout=timeout)
-    resp.raise_for_status()
-    return resp
+    # 정부 사이트가 해외 IP에 간헐적으로 연결 타임아웃을 내서 한 번은 다시 시도한다.
+    for attempt in (1, 2):
+        try:
+            resp = requests.get(url, headers=headers, timeout=timeout)
+            resp.raise_for_status()
+            return resp
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == 2:
+                raise
+            time.sleep(5)
 
 
 def strip_html(fragment):
