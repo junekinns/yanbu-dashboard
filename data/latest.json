@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:27:47Z",
+  "generated_at": "2026-09-16T08:29:54Z",
   "risk_level": "caution",
   "risk_label_ko": "주의",
   "advisory": {
@@ -7,60 +7,12 @@
     "text": "Level 3: Reconsider Travel (샘플)",
     "source": "US Department of State",
     "ok": false,
-    "fetched_at": "2026-09-16T08:27:47Z",
+    "fetched_at": "2026-09-16T08:29:54Z",
     "error": "fetch 실패: 403 Client Error: Forbidden for url: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html",
     "stale": true
   },
   "news": {
     "events": [
-      {
-        "date": "2026-09-13 09:15 UTC",
-        "title": "Ce datorie karmică ai în această viață , în funcție de ultima cifră a zilei tale de naștere",
-        "domain": "ziarulprofit.ro",
-        "url": "https://www.ziarulprofit.ro/ce-datorie-karmica-ai-in-aceasta-viata-in-functie-de-ultima-cifra-a-zilei-tale-de-nastere/"
-      },
-      {
-        "date": "2026-09-13 09:15 UTC",
-        "title": "Călin Georgescu merge să caute producători locali în târgul de vechituri din Bihor : „ Bolojan nu uita , Oradea nu e a ta",
-        "domain": "ziarulprofit.ro",
-        "url": "https://www.ziarulprofit.ro/calin-georgescu-merge-sa-caute-producatori-locali-in-targul-de-vechituri-din-bihor-bolojan-nu-uita-oradea-nu-e-a-ta/"
-      },
-      {
-        "date": "2026-09-13 09:15 UTC",
-        "title": "An Iranian commercial ship is struck near Strait of Hormuz with 1 dead , Iranian media say",
-        "domain": "stardem.com",
-        "url": "http://www.stardem.com/ap/world/an-iranian-commercial-ship-is-struck-near-strait-of-hormuz-with-1-dead-iranian-media/article_7b7994df-d263-5fa0-ba4d-eb8d6ea21f22.html"
-      },
-      {
-        "date": "2026-09-13 09:15 UTC",
-        "title": "Houthis continue strike at Saudi Arabian border , tighten grip on oil route",
-        "domain": "afghanistansun.com",
-        "url": "http://www.afghanistansun.com/news/279304011/houthis-continue-strike-at-saudi-arabian-border-tighten-grip-on-oil-route"
-      },
-      {
-        "date": "2026-09-13 09:15 UTC",
-        "title": "Iran authorities say one dead after ship struck in Hormuz",
-        "domain": "rte.ie",
-        "url": "https://www.rte.ie/news/2026/0913/1591336-iran-war/"
-      },
-      {
-        "date": "2026-09-13 09:15 UTC",
-        "title": "Iranian media say 1 killed in ship strike on the Strait of Hormuz , and other Mideast developments",
-        "domain": "dailygazette.com",
-        "url": "https://www.dailygazette.com/the_recorder/ap/national/iranian-media-say-1-killed-in-ship-strike-on-the-strait-of-hormuz-and-other/article_9ce92b35-ac4f-5948-8935-e7261851539c.html"
-      },
-      {
-        "date": "2026-09-13 09:15 UTC",
-        "title": "Daniel Buzdugan , în doliu după pierderea mamei sale . Mesajul emoționant al prezentatorului : „ Ne - am luat rămas - bun de cinci , de șase ori …",
-        "domain": "ziarulprofit.ro",
-        "url": "https://www.ziarulprofit.ro/daniel-buzdugan-in-doliu-dupa-pierderea-mamei-sale-mesajul-emotionant-al-prezentatorului-ne-am-luat-ramas-bun-de-cinci-de-sase-ori/"
-      },
-      {
-        "date": "2026-09-13 09:00 UTC",
-        "title": "World braces for Big Jump in Oil Prices after Saudi Pipeline Shutdown due to Houthi Threats",
-        "domain": "en.dailypakistan.com.pk",
-        "url": "https://en.dailypakistan.com.pk/13-Sep-2026/world-braces-for-big-jump-in-oil-prices-after-saudi-pipeline-shutdown-due-to-houthi-threats"
-      },
       {
         "date": "2026-09-13 09:00 UTC",
         "title": "Canada oil windfall may yet wipe out its losses from tariffs",
@@ -68,25 +20,73 @@
         "url": "https://www.cbc.ca/news/politics/canada-oil-prices-trump-iran-trade-war-tariffs-9.7341298"
       },
       {
-        "date": "2026-09-13 09:00 UTC",
-        "title": "AP News Summary at 12 : 56 a . m . EDT",
-        "domain": "ktvo.com",
-        "url": "https://www.ktvo.com/news/nation-world/ap-news-summary-at-12-56-a-m-edt/article_91c0a554-be0e-5fa8-83ed-1bb12be0e6a8.html"
+        "date": "2026-09-13 08:00 UTC",
+        "title": "Война в Йемене 2026 : что значит захват побережья Красного моря и удар по Саудовской Аравии ?",
+        "domain": "vestikavkaza.ru",
+        "url": "https://vestikavkaza.ru/analytics/vojna-v-jemene-2026-cto-znacit-zahvat-pobereza-krasnogo-mora-i-udar-po-saudovskoj-aravii.html"
       },
       {
-        "date": "2026-09-13 09:00 UTC",
-        "title": "نحو قوة ردع للسلم الإقليمي",
-        "domain": "alanbatnews.net",
-        "url": "https://alanbatnews.net/article/483137"
+        "date": "2026-09-13 07:45 UTC",
+        "title": "Саудовская Аравия перекрыла ключевой нефтепровод из - за беспилотников",
+        "domain": "mk.ru",
+        "url": "https://www.mk.ru/politics/2026/09/13/saudovskaya-araviya-perekryla-klyuchevoy-nefteprovod-izza-bespilotnikov.html"
       },
       {
-        "date": "2026-09-13 08:45 UTC",
-        "title": "Fresh strike on vessel in Hormuz , Houthi takeover of Bab el - Mandeb Strait sees West Asia simmer as BRICS calls for peace",
-        "domain": "iranherald.com",
-        "url": "http://www.iranherald.com/news/279304105/fresh-strike-on-vessel-in-hormuz-houthi-takeover-of-bab-el-mandeb-strait-sees-west-asia-simmer-as-brics-calls-for-peace"
+        "date": "2026-09-13 07:15 UTC",
+        "title": "Хуситы атакуют Саудовскую Аравию и закрепляются у Баб - эль - Мандеба",
+        "domain": "news.israelinfo.co.il",
+        "url": "https://news.israelinfo.co.il/147861"
+      },
+      {
+        "date": "2026-09-13 07:00 UTC",
+        "title": "Cyprus Business Now : weekly wrap - up",
+        "domain": "cyprus-mail.com",
+        "url": "https://cyprus-mail.com/2026/09/13/cyprus-business-now-weekly-wrap-up-178"
+      },
+      {
+        "date": "2026-09-13 04:15 UTC",
+        "title": "Iran Says Oman Hormuz Route Deal Comes Monday as Bahrain Base Damaged",
+        "domain": "hngn.com",
+        "url": "https://www.hngn.com/articles/273170/20260912/oil-tops-100-iran-widens-hormuz-zone-iaea-refers-tehran-un.htm"
+      },
+      {
+        "date": "2026-09-13 02:15 UTC",
+        "title": "Saturday Press Conference | Grandprix . com",
+        "domain": "grandprix.com",
+        "url": "https://www.grandprix.com/races/spanish-gp-2026-saturday-press-conference.html"
+      },
+      {
+        "date": "2026-09-12 18:30 UTC",
+        "title": "Iraq finds drone launchers near Iran border : security sources",
+        "domain": "jordantimes.com",
+        "url": "https://jordantimes.com/news/region/iraq-finds-drone-launchers-near-iran-border-security-sources"
+      },
+      {
+        "date": "2026-09-12 18:30 UTC",
+        "title": "Pakistan condemns drone attack on Saudi oil pipeline",
+        "domain": "pakistantoday.com.pk",
+        "url": "https://www.pakistantoday.com.pk/2026/09/12/pakistan-condemns-drone-attack-on-saudi-oil-pipeline"
+      },
+      {
+        "date": "2026-09-12 18:30 UTC",
+        "title": "New : Key Saudi Oil Lifeline to Red Sea Shut After Drone Strikes",
+        "domain": "redstate.com",
+        "url": "https://redstate.com/wardclark/2026/09/12/new-key-saudi-oil-lifeline-to-red-sea-shut-after-drone-strikes-n2206837"
+      },
+      {
+        "date": "2026-09-12 18:30 UTC",
+        "title": "Houthis Rally , Seize Mocha As Yemen Coalition Splits and Trump Declines Saudi Strike Plea",
+        "domain": "redstate.com",
+        "url": "https://redstate.com/streiff/2026/09/12/yemeni-offensive-ends-in-recriminations-n2206830"
+      },
+      {
+        "date": "2026-09-12 18:15 UTC",
+        "title": "Саудовская Аравия перекрыла ключевой нефтепровод из - за угрозы новой атаки дронов",
+        "domain": "lenta.ru",
+        "url": "https://lenta.ru/news/2026/09/12/saudovskaya-araviya-perekryla-klyuchevoy-nefteprovod-iz-za-ugrozy-novoy-ataki-dronov/"
       }
     ],
-    "count_recent": 49,
+    "count_recent": 64,
     "daily_counts": [
       {
         "date": "2026-09-10",
@@ -94,15 +94,15 @@
       },
       {
         "date": "2026-09-11",
-        "count": 0
+        "count": 2
       },
       {
         "date": "2026-09-12",
-        "count": 0
+        "count": 66
       },
       {
         "date": "2026-09-13",
-        "count": 75
+        "count": 7
       },
       {
         "date": "2026-09-14",
@@ -117,10 +117,9 @@
         "count": 0
       }
     ],
-    "ok": false,
-    "fetched_at": "2026-09-16T08:26:59Z",
-    "error": "rate limited (429)",
-    "stale": true
+    "ok": true,
+    "fetched_at": "2026-09-16T08:29:40Z",
+    "error": null
   },
   "external_links": [
     {
