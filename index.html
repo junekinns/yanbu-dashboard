@@ -4,52 +4,45 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>얀부·제다 상황판</title>
-<meta name="description" content="사우디아라비아 얀부·제다 지역 안전 상황을 간접 신호로 요약하는 비공식 대시보드" />
+<meta name="description" content="외교부 해외안전여행 데이터로 사우디아라비아 얀부·제다의 여행경보 단계와 안전공지를 한눈에 보는 비공식 대시보드" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>얀부·제다 상황판</h1>
-    <p class="subtitle">공개된 간접 신호를 모아 보여주는 비공식 대시보드입니다. 정식 뉴스·대사관 공지를 대체하지 않습니다.</p>
+    <p class="subtitle">외교부 해외안전여행 공식 데이터를 6시간마다 자동 수집해 보여주는 비공식 대시보드입니다.</p>
   </header>
 
   <main>
-    <section id="risk-summary" class="card">
-      <div id="risk-badge" class="risk-badge risk-unknown">확인 중...</div>
-      <dl class="risk-detail">
-        <div><dt>미 국무부 여행경보</dt><dd id="advisory-level">-</dd></div>
-      </dl>
-      <p class="muted small">위험도 배지는 신뢰도 높은 여행경보 등급만으로 산정합니다. 아래 "최근 관련 뉴스"는 키워드 자동 검색 결과라 무관한 기사가 섞일 수 있어 배지 산정에는 쓰지 않습니다.</p>
-      <p id="last-updated" class="muted">마지막 업데이트: -</p>
+    <section class="card">
+      <div id="overall-badge" class="badge level-unknown">확인 중...</div>
+      <ul id="region-levels" class="region-levels"></ul>
+      <p id="fcdo-line" class="muted small"></p>
+      <p id="last-updated" class="muted small"></p>
     </section>
 
     <section class="card">
-      <h2>위치</h2>
+      <h2>지역별 경보 지도</h2>
       <div id="map"></div>
-      <p class="muted small">정확한 사건 좌표는 제공하지 않습니다. 아래 "바로가기" 원본 지도(ACLED, UKMTO)에서 확인하세요.</p>
+      <ul class="legend" id="legend"></ul>
     </section>
 
     <section class="card">
-      <h2>최근 7일 관련 뉴스 언급량 (참고용, 검증 안 됨) <span id="news-count-inline" class="muted"></span></h2>
-      <canvas id="trend-chart" height="120"></canvas>
-      <p class="muted small">"Yanbu/Jeddah/Luberef" + "Houthi attack/drone attack/missile strike" 등 키워드 조합이 포함된 전세계 뉴스 기사 수(GDELT, 자동 수집). 키워드만으로 매칭해서 무관한 기사가 섞일 수 있습니다 — 보도량 참고용이지 검증된 사건 수가 아닙니다.</p>
+      <h2>외교부 사우디 안전공지</h2>
+      <ul id="notice-list" class="notice-list"><li class="muted">불러오는 중...</li></ul>
     </section>
 
     <section class="card">
-      <h2>최근 관련 뉴스 헤드라인</h2>
-      <ul id="news-list" class="news-list"><li class="muted">불러오는 중...</li></ul>
-      <p class="muted small">자동 키워드 검색 결과이며 사람이 검수하지 않았습니다. 같은 제목이 낯선 도메인 여러 곳에 동시에 올라오는 경우 콘텐츠 파밍/역정보일 수 있고, 무관한 기사가 섞여 있을 수 있습니다. 출처 신뢰도를 직접 판단하세요.</p>
-    </section>
-
-    <section class="card" id="links-section">
-      <h2>바로가기</h2>
-      <div id="links-groups"></div>
+      <h2>주간 안전공지 건수 (최근 8주)</h2>
+      <canvas id="trend-chart" height="110"></canvas>
+      <p class="muted small">외교부가 사우디아라비아에 대해 발령한 안전공지 수. 공지가 잦아지면 상황이 급박해지고 있다는 신호입니다.</p>
     </section>
   </main>
 
-  <footer>
-    <p class="muted small">비공식 개인 프로젝트입니다. 응급 상황에는 반드시 현지 대사관/영사관 공지를 확인하세요.</p>
+  <footer class="muted small">
+    <p>출처: <a id="src-mofa" href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행 · 사우디아라비아</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디아라비아 대한민국대사관</a> · <a id="src-fcdo" href="https://www.gov.uk/foreign-travel-advice/saudi-arabia" target="_blank" rel="noopener">UK FCDO</a></p>
+    <p>비공식 개인 프로젝트입니다. 응급 상황에는 반드시 대사관 공지를 확인하세요.</p>
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

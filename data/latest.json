@@ -1,182 +1,134 @@
 {
-  "generated_at": "2026-09-16T08:33:19Z",
-  "risk_level": "caution",
-  "risk_label_ko": "주의",
-  "advisory": {
+  "generated_at": "2026-09-16T08:45:15Z",
+  "overall": {
     "level": 3,
-    "text": "Level 3: Reconsider Travel (샘플)",
-    "source": "US Department of State",
-    "ok": false,
-    "fetched_at": "2026-09-16T08:33:19Z",
-    "error": "fetch 실패: 403 Client Error: Forbidden for url: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html",
-    "stale": true
+    "level_name": "출국권고",
+    "region": "얀부"
   },
-  "news": {
-    "events": [
+  "mofa": {
+    "ok": true,
+    "error": null,
+    "fetched_at": "2026-09-16T08:45:05Z",
+    "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
+    "notice_list_url": "https://www.0404.go.kr/bbs/safetyNtc/list?ntnCd=107&pageSize=50",
+    "advisories": [
       {
-        "date": "2026-09-12 18:30 UTC",
-        "title": "Pakistan condemns drone attack on Saudi oil pipeline",
-        "domain": "pakistantoday.com.pk",
-        "url": "https://www.pakistantoday.com.pk/2026/09/12/pakistan-condemns-drone-attack-on-saudi-oil-pipeline"
+        "level_name": "출국권고",
+        "level": 3,
+        "regions": "사우디-예멘 국경 인근 180km 지역(지잔 주, 아브하(Abha), 카미스 무샤이트(Khamis Mushait)시 포함),샤이바 유전,프린스술탄 공군기지,라스 타누라,얀부, 주베일"
       },
       {
-        "date": "2026-09-12 18:30 UTC",
-        "title": "New : Key Saudi Oil Lifeline to Red Sea Shut After Drone Strikes",
-        "domain": "redstate.com",
-        "url": "https://redstate.com/wardclark/2026/09/12/new-key-saudi-oil-lifeline-to-red-sea-shut-after-drone-strikes-n2206837"
-      },
-      {
-        "date": "2026-09-12 18:30 UTC",
-        "title": "Houthis Rally , Seize Mocha As Yemen Coalition Splits and Trump Declines Saudi Strike Plea",
-        "domain": "redstate.com",
-        "url": "https://redstate.com/streiff/2026/09/12/yemeni-offensive-ends-in-recriminations-n2206830"
-      },
-      {
-        "date": "2026-09-12 18:15 UTC",
-        "title": "Trump says Iran likely responsible for attack that shut vital Saudi oil pipeline",
-        "domain": "channel3000.com",
-        "url": "https://www.channel3000.com/news/trump-says-iran-likely-responsible-for-attack-that-shut-vital-saudi-oil-pipeline/article_4e0e3c38-e94b-5952-b725-d3001c2fc05a.html"
-      },
-      {
-        "date": "2026-09-12 16:15 UTC",
-        "title": "Saudi Arabia shuts down key oil pipeline , blaming drones from Iraq",
-        "domain": "aol.co.uk",
-        "url": "https://www.aol.co.uk/articles/saudi-arabia-shuts-down-key-153512000.html"
-      },
-      {
-        "date": "2026-09-12 16:00 UTC",
-        "title": "Iraqi PM orders probe after attacks on Saudi Arabia",
-        "domain": "azernews.az",
-        "url": "https://www.azernews.az/region/263780.html"
-      },
-      {
-        "date": "2026-09-12 15:30 UTC",
-        "title": "Trump says Iran likely responsible for attack on vital Saudi oil pipeline",
-        "domain": "egyptindependent.com",
-        "url": "https://www.egyptindependent.com/trump-says-iran-likely-responsible-for-attack-on-vital-saudi-oil-pipeline/"
-      },
-      {
-        "date": "2026-09-12 15:30 UTC",
-        "title": "Saudi oil pipeline shut down after attack triggers fires",
-        "domain": "egyptindependent.com",
-        "url": "https://www.egyptindependent.com/saudi-oil-pipeline-shut-down-after-attack-triggers-fires/"
-      },
-      {
-        "date": "2026-09-12 15:30 UTC",
-        "title": "Trump says Houthis  dont want to fight u after Saudi pipeline shutdown",
-        "domain": "washingtonexaminer.com",
-        "url": "http://www.washingtonexaminer.com/news/world/4724791/trump-houthi-dont-want-fight/"
-      },
-      {
-        "date": "2026-09-12 15:15 UTC",
-        "title": "Iraqi resistance denies involvement in attacks on Saudi oil infrastructure",
-        "domain": "presstv.co.uk",
-        "url": "https://www.presstv.co.uk/Detail/2026/09/12/776155/Iraqi-resistance-denies-involvement-attacks-Saudi-oil-infrastructure"
-      },
-      {
-        "date": "2026-09-12 15:15 UTC",
-        "title": "Iran scores major victory as Saudi Arabia shuts East - West pipeline cutting 5 million barrels",
-        "domain": "bankingnews.gr",
-        "url": "https://www.bankingnews.gr/diethni/articles/898963/iran-scores-major-victory-as-saudi-arabia-shuts-east-west-pipeline-cutting-5-million-barrels%20title="
-      },
-      {
-        "date": "2026-09-12 14:15 UTC",
-        "title": "Drone attacks shut down key Saudi oil pipeline ( SATELLITE PHOTOS )",
-        "domain": "middleeaststar.com",
-        "url": "http://www.middleeaststar.com/news/279302339/drone-attacks-shut-down-key-saudi-oil-pipeline-satellite-photos"
+        "level_name": "특별여행주의보",
+        "level": 2.5,
+        "regions": "3단계 지정 지역을 제외한 지역"
       }
     ],
-    "count_recent": 58,
-    "daily_counts": [
+    "regions": [
       {
-        "date": "2026-09-10",
-        "count": 4
+        "name": "얀부",
+        "lat": 24.0895,
+        "lon": 38.0618,
+        "level_name": "출국권고",
+        "level": 3
       },
       {
-        "date": "2026-09-11",
-        "count": 23
-      },
+        "name": "제다",
+        "lat": 21.4858,
+        "lon": 39.1925,
+        "level_name": "특별여행주의보",
+        "level": 2.5
+      }
+    ],
+    "notices": [
       {
-        "date": "2026-09-12",
-        "count": 41
+        "date": "2026-09-15",
+        "title": "후티 반군의 공격에 따른 인명피해 발생 관련 신변 유의",
+        "url": "https://www.0404.go.kr/bbs/safetyNtc/1321107/detail2?ntnCd=107",
+        "summary": "ㅇ 사우디 주도 아랍연합군은 9.14.(월) 후티 반군이 아브하, 카미스 무샤이트, 타이프에 대한 미사일, 드론 공격을 실시하여 민간인 13명이 부상을 입고 주택 7채, 차량 2대가 파손되었다고 발표하였습니다. ㅇ 앞서 9.12(토)에도 후티 반군의 공격으로 민간인 인명피해와 시설물 피해가 발생하는 등 민간의 피해가 이어지고 는 상황입니다. ㅇ 또한, 사우디 정부는 9.15(월) 자잔, 아브…"
       },
       {
         "date": "2026-09-13",
-        "count": 0
+        "title": "사우디-예멘 국경지대 인명피해 발생 관련 신변 유의",
+        "url": "https://www.0404.go.kr/bbs/safetyNtc/1321106/detail2?ntnCd=107",
+        "summary": "ㅇ 사우디 방위군은 9.12(토) 예멘에 인접한 국경지대 Al-Tuwal 지역에 후티 반군의 발사체가 낙하하여 2명이 부상을 입고 시설물과 재산 피해가 발생했다고 발표하였습니다. ㅇ 현재 예멘 국경 인근 180km 지역(자잔, 아브하, 카미스 무샤이트, 나즈란 등)과 얀부 지역은 외교부 지정 여행 철수 권고 지역(여행금지 바로 직전단계)입니다. ㅇ 해당 지역에 체류 또는 여행 계획이 있는 우…"
       },
       {
-        "date": "2026-09-14",
-        "count": 0
+        "date": "2026-09-11",
+        "title": "메디나주 남동부 송유관 피해 관련 신변 유의",
+        "url": "https://www.0404.go.kr/bbs/safetyNtc/1321105/detail2?ntnCd=107",
+        "summary": "ㅇ 걸프 뉴스, 로이터 등 외신은 9.10(목) 메디나주 남동부를 지나는 사우디 동서 파이프라인에서 연기가 치솟는 장면이 포착되었다고 보도했습니다. ㅇ 금번 피해가 외부의 공격으로 인한 것인지 여부는 아직 공식적으로 밝혀지지 않았으나, 최근 후티 반군은 사우디 본토의 중요 경제, 군사 인프라에 대한 공격을 지속하고 있는 상황입니다. ㅇ 현재 예멘 국경 인근 180km 지역(자잔, 아브하, 카…"
       },
       {
-        "date": "2026-09-15",
-        "count": 0
+        "date": "2026-09-10",
+        "title": "주의 중동지역 정세 악화에 따른 출국 및 여행 취소·연기 권고",
+        "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048640/detail",
+        "summary": "중동전쟁으로 이란, 쿠웨이트, 바레인, 아랍에미리트(UAE), 카타르 등 중동 지역 대부분의 국가에 3단계(출국권고) 또는 4단계(여행금지) 여행경보가 발령되어 있습니다. 역내 안보 상황이 사전 예고 없이 급격하게 악화될 수 있고 이 경우 지난 3월과 같이 영공 폐쇄나 항공편 취소 등으로 발이 묶일 수 있으니, 현지에 체류 중인 우리 국민들께서는 긴급한 용무가 아닌 한 조속히 출국해 주시고,…"
       },
       {
-        "date": "2026-09-16",
-        "count": 0
+        "date": "2026-09-10",
+        "title": "주의 최근 중동지역 군사적 긴장 고조 관련 안전 유의",
+        "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048639/detail",
+        "summary": "(작성자: 주아랍에미리트대사관 / 작성일: 2026-09-09) 최근 미국·이란 간 군사적 충돌이 아랍만 및 오만만 등 해역으로 확대되고, 예멘 후티 반군과 사우디아라비아 간 무력충돌도 이어지는 등 역내 긴장이 고조되고 있습니다. 이와 관련, UAE에 체류 중인 우리 국민께서는 아래 사항에 유의하여 주시기 바랍니다. 1. 최근 역내 동향 ㅇ 아랍만 및 오만만 일대에서 이란·미국 간 군사적 충…"
+      },
+      {
+        "date": "2026-09-10",
+        "title": "사우디아라비아-후티 무력분쟁 관련 안전공지(9.10.)",
+        "url": "https://www.0404.go.kr/bbs/safetyNtc/1321104/detail2?ntnCd=107",
+        "summary": "최근 사우디아라비아 남서부(아브하, 나지란, 자잔, 카미스 무샤이트 등)를 중심으로 예멘 후티 반군의 미사일·무인기 공격이 이어지고 있습니다. 사우디 주도 연합군 역시 예멘 알자우프州 등 후티 반군 관할 지역을 공습하였고, 9.10. 오전에도 남서부 지역에 사우디 민방위총국의 조기경보가 발령되었습니다. 해당 지역에 체류 또는 여행 계획이 있는 우리 국민은 긴급한 용무가 아닌 한 방문을 자제하…"
+      },
+      {
+        "date": "2026-09-08",
+        "title": "후티 반군의 사우디 남부 공격(73명 부상)에 따른 신변 유의",
+        "url": "https://www.0404.go.kr/bbs/safetyNtc/1321103/detail2?ntnCd=107",
+        "summary": "ㅇ 사우디 주도 아랍연합군의 9.8.(화) 발표에 따르면, 후티 반군이 사우디 남부의 자잔, 아브하, 카미스 무샤이트, 나즈란을 공격하여 73명이 부상을 입는 사건이 발생했습니다. ㅇ 관련하여 후티측 매체는 자잔 석유시설, 아브하 공항 및 석유시설, 카미스 무샤이트 공군기지 등을 겨냥하여 공격을 실시했다고 보도하였습니다. ㅇ 현재 예멘 국경 인근 180km 지역(자잔, 아브하, 카미스 무샤이…"
+      },
+      {
+        "date": "2026-09-07",
+        "title": "지잔 겨냥 공격 빈발에 따른 신변 유의",
+        "url": "https://www.0404.go.kr/bbs/safetyNtc/1321102/detail2?ntnCd=107",
+        "summary": "ㅇ 파이낸셜 타임즈 등 외신은 9.7(월) 지잔 소재 아람코 정유시설이 피격되었다고 보도하였습니다. ㅇ 후티측은 지난 7.25(토), 8.9(일), 8.13(목), 8.18(화) 동 시설을 공격했다고 주장한바 있으며, 현재 지잔을 포함한 예멘 국경 인근 180km 지역(아브하, 카미스 무샤이트, 나즈란 등)과 얀부 지역은 외교부 지정 여행 철수 권고 지역(여행금지 바로 직전단계)입니다. ㅇ …"
       }
     ],
-    "ok": true,
-    "fetched_at": "2026-09-16T08:33:06Z",
-    "error": null
+    "weekly_counts": [
+      {
+        "week": "2026-07-27",
+        "count": 0
+      },
+      {
+        "week": "2026-08-03",
+        "count": 1
+      },
+      {
+        "week": "2026-08-10",
+        "count": 1
+      },
+      {
+        "week": "2026-08-17",
+        "count": 1
+      },
+      {
+        "week": "2026-08-24",
+        "count": 1
+      },
+      {
+        "week": "2026-08-31",
+        "count": 2
+      },
+      {
+        "week": "2026-09-07",
+        "count": 7
+      },
+      {
+        "week": "2026-09-14",
+        "count": 1
+      }
+    ]
   },
-  "external_links": [
-    {
-      "group": "국제 공식/전문 소스",
-      "name": "ACLED Yemen Conflict Monitor (홍해 공격 지도 포함)",
-      "url": "https://acleddata.com/monitor/yemen-conflict-monitor",
-      "description": "ACLED가 직접 운영하는 예멘/홍해 분쟁 전용 대시보드. 주간 갱신, 홍해 공격 전용 지도 별도 제공."
-    },
-    {
-      "group": "국제 공식/전문 소스",
-      "name": "UKMTO 홍해·아덴만 해상 보안 속보",
-      "url": "https://www.ukmto.org/",
-      "description": "영국 해군 해상무역작전실의 실시간 해상 사고 속보. 자동 수집은 차단되어 직접 확인 필요."
-    },
-    {
-      "group": "국제 공식/전문 소스",
-      "name": "미국무부 사우디아라비아 여행경보 (원문)",
-      "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/saudi-arabia-travel-advisory.html",
-      "description": "이 대시보드의 여행경보 등급 출처 원문."
-    },
-    {
-      "group": "국제 공식/전문 소스",
-      "name": "영국 FCDO 사우디아라비아 여행 정보",
-      "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-      "description": "영국 외무부의 사우디아라비아 여행 권고."
-    },
-    {
-      "group": "대한민국 관련",
-      "name": "외교부 해외안전여행 (국가별 정보)",
-      "url": "https://www.0404.go.kr",
-      "description": "사우디아라비아 검색 시 대한민국 정부의 공식 여행경보 단계와 공지를 확인할 수 있음."
-    },
-    {
-      "group": "대한민국 관련",
-      "name": "주사우디아라비아 대한민국대사관",
-      "url": "https://overseas.mofa.go.kr/sa-ko/index.do",
-      "description": "공지사항/안전공지 게시판에서 현지 대사관의 공식 안내를 확인."
-    },
-    {
-      "group": "Luberef(얀부 아람코 계열)",
-      "name": "Luberef 공식 뉴스/공시 (사건·안전 정보 아님, 참고용)",
-      "url": "https://luberef.com/en/news",
-      "description": "일반 기업 홍보·공시 페이지일 뿐 안전/사고 관련 실시간 채널이 아닙니다. 사기업 특성상 사건 관련 정보는 공개적으로 얻기 어려워, 위 뉴스 언급량 검색어에 'Luberef/refinery' 키워드를 포함해 대신 감시합니다."
-    }
-  ],
-  "regions": [
-    {
-      "name": "얀부",
-      "lat": 24.0895,
-      "lon": 38.0618,
-      "radius_km": 80
-    },
-    {
-      "name": "제다",
-      "lat": 21.4858,
-      "lon": 39.1925,
-      "radius_km": 80
-    }
-  ]
+  "fcdo": {
+    "ok": true,
+    "error": null,
+    "fetched_at": "2026-09-16T08:45:14Z",
+    "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+    "text": "일부 지역 전체 여행 금지 권고 (advises against all travel)"
+  }
 }
