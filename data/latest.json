@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-16T07:16:55Z",
+  "risk_level": "caution",
+  "risk_label_ko": "주의",
+  "advisory": {
+    "level": 3,
+    "text": "Level 3: Reconsider Travel (샘플)",
+    "source": "US Department of State",
+    "ok": true,
+    "fetched_at": "2026-09-16T07:16:55Z",
+    "error": null
+  },
+  "acled": {
+    "events": [
+      {
+        "date": "2026-09-13",
+        "lat": 24.05,
+        "lon": 38.1,
+        "region": "얀부",
+        "type": "Explosions/Remote violence (예시)",
+        "notes": "샘플 데이터입니다. 실제 fetch_data.py 실행 전 목업.",
+        "source": "ACLED"
+      },
+      {
+        "date": "2026-08-27",
+        "lat": 21.5,
+        "lon": 39.2,
+        "region": "제다",
+        "type": "Protests (예시)",
+        "notes": "샘플 데이터입니다.",
+        "source": "ACLED"
+      }
+    ],
+    "count_7d": 1,
+    "count_90d_weekly": [
+      {
+        "week": "2026-06-22",
+        "count": 0
+      },
+      {
+        "week": "2026-06-29",
+        "count": 0
+      },
+      {
+        "week": "2026-07-06",
+        "count": 0
+      },
+      {
+        "week": "2026-07-13",
+        "count": 0
+      },
+      {
+        "week": "2026-07-20",
+        "count": 0
+      },
+      {
+        "week": "2026-07-27",
+        "count": 0
+      },
+      {
+        "week": "2026-08-03",
+        "count": 0
+      },
+      {
+        "week": "2026-08-10",
+        "count": 0
+      },
+      {
+        "week": "2026-08-17",
+        "count": 0
+      },
+      {
+        "week": "2026-08-24",
+        "count": 0
+      },
+      {
+        "week": "2026-08-31",
+        "count": 1
+      },
+      {
+        "week": "2026-09-07",
+        "count": 0
+      },
+      {
+        "week": "2026-09-14",
+        "count": 1
+      }
+    ],
+    "ok": true,
+    "fetched_at": "2026-09-16T07:16:55Z",
+    "error": null
+  },
+  "ukmto": {
+    "events": [],
+    "count_7d": 0,
+    "ok": false,
+    "fetched_at": "2026-09-16T07:16:55Z",
+    "error": "sample placeholder - fetch_data.py 미실행"
+  },
+  "regions": [
+    {
+      "name": "얀부",
+      "lat": 24.0895,
+      "lon": 38.0618,
+      "radius_km": 80
+    },
+    {
+      "name": "제다",
+      "lat": 21.4858,
+      "lon": 39.1925,
+      "radius_km": 80
+    }
+  ]
+}

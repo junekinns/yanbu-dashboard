@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>얀부·제다 상황판</title>
+<meta name="description" content="사우디아라비아 얀부·제다 지역 안전 상황을 간접 신호로 요약하는 비공식 대시보드" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>얀부·제다 상황판</h1>
+    <p class="subtitle">공개된 간접 신호를 모아 보여주는 비공식 대시보드입니다. 정식 뉴스·대사관 공지를 대체하지 않습니다.</p>
+  </header>
+
+  <main>
+    <section id="risk-summary" class="card">
+      <div id="risk-badge" class="risk-badge risk-unknown">확인 중...</div>
+      <dl class="risk-detail">
+        <div><dt>최근 7일 사건(ACLED)</dt><dd id="acled-count">-</dd></div>
+        <div><dt>최근 7일 해상 사고(UKMTO)</dt><dd id="ukmto-count">-</dd></div>
+        <div><dt>미 국무부 여행경보</dt><dd id="advisory-level">-</dd></div>
+      </dl>
+      <p id="last-updated" class="muted">마지막 업데이트: -</p>
+    </section>
+
+    <section class="card">
+      <h2>사건 지도</h2>
+      <div id="map"></div>
+      <p class="muted small">최근 90일 내 얀부·제다 반경 80km 이내 사건. 마커를 클릭하면 상세 정보를 볼 수 있습니다.</p>
+    </section>
+
+    <section class="card">
+      <h2>주간 사건 추이 (최근 13주)</h2>
+      <canvas id="trend-chart" height="120"></canvas>
+    </section>
+
+    <section class="card sources">
+      <h2>데이터 출처</h2>
+      <ul>
+        <li>ACLED (Armed Conflict Location & Event Data) — 분쟁 이벤트</li>
+        <li>UKMTO (UK Maritime Trade Operations) — 홍해·아덴만 해상 보안 속보</li>
+        <li>미국무부(travel.state.gov) — 사우디아라비아 여행경보 등급</li>
+      </ul>
+      <p class="muted small">각 소스는 원 발행처의 신뢰도를 따릅니다. 이 사이트는 취합·시각화만 수행하며 자체 검증을 하지 않습니다.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted small">비공식 개인 프로젝트입니다. 응급 상황에는 반드시 현지 대사관/영사관 공지를 확인하세요.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
