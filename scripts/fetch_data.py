@@ -92,6 +92,10 @@ GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid
 TELEGRAM_URL = "https://t.me/s/army21ye"  # 예멘군(후티) 대변인 야히야 사리 공식 채널
 PORTWATCH_BASE = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services"
 SAUDI_BOX = (16.0, 32.5, 34.0, 56.0)
+# 밥엘만데브~제다 사이 홍해 회랑. FlightRadar24 bounds 포맷은 "북,남,서,동".
+FLIGHTS_URL = "https://data-cloud.flightradar24.com/zones/fcgi/feed.js"
+FLIGHTS_PARAMS = {"bounds": "24,12,35,44", "faa": 1, "satellite": 1, "mlat": 1, "flarm": 1,
+                  "adsb": 1, "gnd": 0, "air": 1, "vehicles": 0, "estimated": 1, "maxage": 14400, "gliders": 0, "stats": 0}
 
 NEWS_FEEDS = {
     "kr": {
@@ -501,6 +505,41 @@ def fetch_maritime():
     return result
 
 
+# ------------------------------------------------------------ flights (실험적)
+#
+# 항공사가 위협을 인지하면 공식 경보보다 먼저 조용히 항로를 우회하는 경향이 있다는
+# 가설로 시도해보는 실험적 지표. OpenSky Network(공식 무료 API)를 먼저 테스트했으나
+# 사우디·홍해 상공에 자원봉사자 지상 수신기가 거의 없어(제다·리야드 공항 반경도
+# 실시간 조회 0건) 기각. FlightRadar24는 위성 ADS-B(Aireon)까지 합쳐 같은 박스에서
+# 실제로 수십 대가 잡혀 채택했지만, 이건 공식 API가 아니라 지도 페이지가 자체적으로
+# 쓰는 비공식 엔드포인트라 야후 파이낸스 때처럼 GitHub Actions IP가 언제든 차단될
+# 수 있다(그레이스풀 디그레이드로 이전 값 유지, 막히면 조용히 뺄 것).
+
+def fetch_flights(previous):
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": FLIGHTS_URL}
+    try:
+        resp = requests.get(FLIGHTS_URL, params=FLIGHTS_PARAMS, headers=BROWSER_HEADERS, timeout=20)
+        resp.raise_for_status()
+        data = resp.json()
+        count = sum(1 for k, v in data.items() if k not in ("full_count", "version", "stats") and isinstance(v, list))
+    except (requests.RequestException, ValueError) as exc:
+        result["error"] = str(exc)
+        return result
+
+    now_key = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H")
+    history = dict(sorted({**previous.get("history", {}), now_key: count}.items())[-120:])
+    older = [c for k, c in history.items() if k != now_key]
+    baseline = statistics.median(older) if len(older) >= 7 else None
+    result.update({
+        "ok": True,
+        "count": count,
+        "baseline": baseline,
+        "tier": tier_down(ratio(count, baseline)),
+        "history": history,
+    })
+    return result
+
+
 # ------------------------------------------------------------ main
 #
 # "시장 반응"(아람코 주가·타다울 지수) 지표는 시도했다가 뺐다: 야후
@@ -520,11 +559,12 @@ def main():
         "events": carry_over(fetch_events(), previous.get("events", {})),
         "telegram": carry_over(fetch_telegram(), previous.get("telegram", {})),
         "maritime": carry_over(fetch_maritime(), previous.get("maritime", {})),
+        "flights": carry_over(fetch_flights(previous.get("flights", {})), previous.get("flights", {})),
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("firms", "mofa", "news", "events", "telegram", "maritime")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("firms", "mofa", "news", "events", "telegram", "maritime", "flights")))
     return 0
 
 

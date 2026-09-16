@@ -12,7 +12,6 @@
   <header>
     <div class="head-row">
       <h1>Red Sea Watch <span class="h1-sub">사우디</span></h1>
-      <nav id="region-tabs" class="tabs" aria-label="권역 선택"></nav>
     </div>
     <p class="subtitle">공식 발표가 말하지 않는 것을 간접 신호로 읽는 모니터. 매시간 자동 갱신.</p>
     <p id="mofa-line" class="official"></p>
@@ -25,33 +24,30 @@
 
   <main>
     <section class="tiles">
-      <article class="card tile" id="tile-firms">
-        <h2>위성 열 감지</h2>
-        <div class="badge" id="badge-firms">–</div>
-        <p class="sub"></p>
-        <canvas height="48"></canvas>
-      </article>
-
       <article class="card tile" id="tile-mofa">
-        <h2>공지 템포</h2>
+        <h2>공지 템포 <span class="muted small">전국</span></h2>
         <div class="badge" id="badge-mofa">–</div>
         <p class="sub"></p>
         <canvas height="48"></canvas>
       </article>
 
-      <article class="card tile" id="tile-maritime">
-        <h2>해상 교통</h2>
-        <div class="badge" id="badge-maritime">–</div>
+      <article class="card tile experimental" id="tile-flights">
+        <h2>홍해 상공 회피 <span class="exp-badge">실험적</span></h2>
+        <div class="badge" id="badge-flights">–</div>
         <p class="sub"></p>
         <canvas height="48"></canvas>
       </article>
     </section>
+
+    <section class="region-tiles" id="region-tiles" aria-label="권역별 지표"></section>
+
     <details class="card tiles-help">
       <summary>이 세 지표는 어떻게 계산되나요?</summary>
       <ul>
         <li><b>위성 열 감지</b> — NASA FIRMS 위성이 이 권역에서 감지한 화점 중 정유 플레어처럼 매일 같은 자리에 있는 상시 열원을 뺀 것. 24시간 건수를 평시(최근 기록의 중앙값)와 비교. 큰 인프라 화재만 잡히고 위성은 하루 두 번만 지나갑니다.</li>
         <li><b>공지 템포</b> — 외교부가 사우디아라비아 전체에 낸 안전공지의 최근 7일 건수를 평시와 비교. 대사관이 바빠지면 상황이 급박한 것. 다만 이미 벌어진 일에 대한 사후 대응이라 선행성은 약함.</li>
         <li><b>해상 교통</b> — IMF PortWatch가 AIS로 집계한 주요 항구(또는 해협)의 최근 7일 입항·통과 선박 수를 평시와 비교. 배가 끊기면 터미널이 멈춘 것 — <b>낮을수록 위험</b>.</li>
+        <li><b>홍해 상공 회피 (실험적)</b> — 밥엘만데브~제다 사이 상공의 실시간 상업 항공편 수를 평시와 비교. 항공사가 위협을 인지하면 공식 발표보다 먼저 조용히 항로를 바꾸는 경향을 노려본 지표 — <b>낮을수록 위험</b>. 공식 API가 아닌 비공식 엔드포인트를 쓰기 때문에 예고 없이 막힐 수 있고, 기준선이 쌓이기 전(약 이틀)에는 "정상"으로만 표시됩니다.</li>
       </ul>
     </details>
 
@@ -71,7 +67,7 @@
 
     <section class="card">
       <div class="card-head">
-        <h2 id="map-title">권역 지도</h2>
+        <h2>서부·중부·동부 통합 지도</h2>
         <div class="map-controls">
           <div class="range" id="basemap-tabs" role="group" aria-label="바탕지도">
             <button data-base="dark" class="on">지도</button>
@@ -103,7 +99,7 @@
   </main>
 
   <footer class="muted small">
-    <p>출처: <a href="https://wikimedia.org/api/rest_v1/" target="_blank" rel="noopener">Wikimedia Pageviews</a> · <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a> · <a href="https://portwatch.imf.org/" target="_blank" rel="noopener">IMF PortWatch</a> · Google News RSS · <a href="https://t.me/s/army21ye" target="_blank" rel="noopener">Telegram @army21ye</a></p>
+    <p>출처: <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a> · <a href="https://portwatch.imf.org/" target="_blank" rel="noopener">IMF PortWatch</a> · Google News RSS · <a href="https://t.me/s/army21ye" target="_blank" rel="noopener">Telegram @army21ye</a> · <a href="https://www.flightradar24.com/" target="_blank" rel="noopener">FlightRadar24</a>(비공식, 실험적)</p>
     <p id="last-updated"></p>
     <p>비공식 개인 프로젝트. 간접 신호는 힌트일 뿐이며, 판단은 대사관 공지를 기준으로 하세요.</p>
   </footer>

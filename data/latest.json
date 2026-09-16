@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T13:29:58Z",
+ "generated_at": "2026-09-16T15:17:13Z",
  "regions": [
   {
    "key": "west",
@@ -59,12 +59,12 @@
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:29:58Z",
+  "fetched_at": "2026-09-16T15:17:13Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "regions": {
    "west": {
     "last24h": 7,
-    "flares24h": 4,
+    "flares24h": 7,
     "daily_counts": [
      {
       "date": "2026-09-09",
@@ -1504,7 +1504,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:30:01Z",
+  "fetched_at": "2026-09-16T15:17:21Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -1762,8 +1762,22 @@
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:30:16Z",
+  "fetched_at": "2026-09-16T15:17:25Z",
   "kr": [
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T13:14:00+00:00",
+    "source": "한겨레",
+    "title": "후티, 사우디 공세 강화…메카 공격 부인하고 “석유시설 타격” 주장",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tc0RlUjUySzBtYzRfZ182dDFucjRfcmVlUjNNSXBpT3VVdzhuX1I1d0NYTmRNMDF4b0NpWHJEUnNfYTRQMlZLQXhvVlF2ZlI5ZzA4ODZOMlhLNWxNTGFYc3VSOUY5Y25obk9HM09VWWo4ME0?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T12:47:55+00:00",
+    "source": "MBC",
+    "title": "후티 반군 \"홍해 사우디 얀부 석유 시설·공군 기지 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Ea3c0SXBvQktNOW9BV0Z6MFRmVW1xbm1uQVh3UUdMZ1dCRmQ5RUtvV3lpSDYzVTVtMFJaa3p5dURSQktfUE5NNm1UV2s1ckw4NmQtcGxORDZ3SmtVZHFvbHJOM1FDSkJUSG8xU3VZR2Q5eENR0gF0QVVfeXFMT0RrdzRJcG9CS005b0FXRnowVGZVbXFubW5BWHdRR0xnV0JGZDlFS29XeWlINjNVNW0wUlprenl1RFJCS19QTk02bVRXazVyTDg2ZC1wbE5ENndKa1VkcW9sck4zUUNKQlRIbzFTdVlHZDl4Q1E?oc=5"
+   },
    {
     "date": "2026-09-16",
     "published": "2026-09-16T12:32:00+00:00",
@@ -1773,10 +1787,10 @@
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T07:44:05+00:00",
-    "source": "MBC",
-    "title": "후티 반군 \"자체 지대공 미사일로 사우디 F-15 격추\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkWC1jZTFXRTZ2bjB2aFJwWE1zNjZMTU9vNW81VVhpdDZsVzVuSTFhbkJTLTBJZ2o0Z25tTm02aVF2MGZSaWY3a0FNQ1RPS1ZfS2lmMVVxdDlxXzBUM1hiT2JpV1dYdjNmbVVuOTJ1bXJja1l10gF0QVVfeXFMT2piZm45TXpGWllYaWNlcVhjZzZYZHJtSWRSMXFQVkFuNkNDc2t2czhPYzJIb1VBamJxcTBqZGZaMExxeWtjMEc1T1k4NnlkRXVmdFB6bnM1WkR5MktZOG9JeXloVUFNakNsT3pWZzJFaHFtQUQ?oc=5"
+    "published": "2026-09-16T08:11:10+00:00",
+    "source": "연합뉴스",
+    "title": "후티 압박에 에너지 위기…사우디 빈살만 리더십 '최대 시험대'",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RdIBYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RQ?oc=5"
    },
    {
     "date": "2026-09-15",
@@ -1784,36 +1798,22 @@
     "source": "YTN",
     "title": "사우디·이집트 \"홍해 공동 대응\"...후티 \"홍해에서 군사 작전 계속\"",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fY2EzQlVDS1I3VEZ3ektrR3NFajBWcXpaY3huZUlmbWk1WkxINkF6cDYwSHhCZmhCSVFZTTIwQWluM3lJY0t2R0t1dDhDMnFSWnNoTm15R011dFZadkE?oc=5"
-   },
-   {
-    "date": "2026-09-15",
-    "published": "2026-09-15T21:01:00+00:00",
-    "source": "YTN",
-    "title": "이집트 달려간 사우디 빈 살만...후티 \"봉쇄 중단할 때까지 공격 계속\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fMk0tdEJCTGd4NFc2d2lDbUN3dmh3TFZYTWVEaUlxUll1dEpjZkQ3UFZkNGFnLXhmUHk2RWxEOFlmSkJfQnJOUW1WRXZ4QndtZGhhNmVHczB4QUhnUGc?oc=5"
-   },
-   {
-    "date": "2026-09-15",
-    "published": "2026-09-15T11:25:39+00:00",
-    "source": "MBC",
-    "title": "사우디-후티 교전 격화‥성지 메카에도 첫 위협 경보",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFSzF2dnM2N0hGRGpkTURBOHp6MDZZWERqLWk5c0FiTzBVQWhsZ1pYT1doNm85T0ppNndTMjRac1c5Mi0tLVBCOTZzSVkwVzg2ZmNZTEg1ZUtMR0JacS1WT0s1YkIySzlJU1FTLVo2dTJaWS1X0gF0QVVfeXFMTXZZdHNpX3Z6c0VKNWt0UkNySkhRRUM5MHUwb1lwZHJsU0FNa3pLbnR0WWxPQlRwQVpEaExOdXgwZTdSMm5QVVJPeHVZZzk5WmxRTVo5Wkt2U1NhQms1eWNmakdxaDJRZFkwNkUxVGQ5RWd1UFY?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T11:23:13+00:00",
-    "source": "DW",
-    "title": "Saudi Arabia says Houthis target Mecca, warns of 'red line'",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGtZcjdDM1pxZTFtZWRuMVZyZzNhM2hzNjVCY0lrczk3SWl5bWt5ZnY0c3J0cEZnM1BCOXVvRDVoeXAxd0o1VElkV1NpZ1QxTkhQdFdZcnlzZnhpZ21GUWphZjF2d1QwbnBQcmg0YVJ1M2ltdzdJQ2lIMFpPb3Rya0dUQzFQZ3VPNVNwRlUxZUYwd1XSAZMBQVVfeXFMTUxfT25ueThTV0FDcWlXQnlqQ3JYcloyMC1RbkRtNUkxQXJUMWRlTjBjcjM0d0kzLXo4dzZ4Y0FhaTZ3SXJIRTJScUY0bmx0MERpN3lVV1V3bzhxV2lDSzlQNFJqOF9xNHFsZU51OXBxT3lCRWlxTzNhMER3eWg2eTdYX2xnMWVXOUd3RnRBNnp1Sjg4?oc=5"
+    "published": "2026-09-16T13:54:53+00:00",
+    "source": "Reuters",
+    "title": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5"
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T11:01:44+00:00",
-    "source": "The New York Times",
-    "title": "Global Oil Prices Could Hit Highest Levels in Months After Saudi Pipeline Attacks",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTzVjMkh4M1lsaEJyZkV0a3lzMlhVNHVsZVNoV1A4d0VkTjluTFgwc0JXTHpPNWRFMjlfdThqMmxlLTI4dGRaalR4SnBEZmZ6aDBxTGNRNzZMX0VzVk9tcmIyR1pvS0l4ZlNBbjctU0hWWUJIYXRIdTFNc1NhVFRnLUVwY2E?oc=5"
+    "published": "2026-09-16T10:57:15+00:00",
+    "source": "DW",
+    "title": "Saudi Arabia says Houthis target Mecca, warns of 'red line'",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGtZcjdDM1pxZTFtZWRuMVZyZzNhM2hzNjVCY0lrczk3SWl5bWt5ZnY0c3J0cEZnM1BCOXVvRDVoeXAxd0o1VElkV1NpZ1QxTkhQdFdZcnlzZnhpZ21GUWphZjF2d1QwbnBQcmg0YVJ1M2ltdzdJQ2lIMFpPb3Rya0dUQzFQZ3VPNVNwRlUxZUYwd1XSAZMBQVVfeXFMTUxfT25ueThTV0FDcWlXQnlqQ3JYcloyMC1RbkRtNUkxQXJUMWRlTjBjcjM0d0kzLXo4dzZ4Y0FhaTZ3SXJIRTJScUY0bmx0MERpN3lVV1V3bzhxV2lDSzlQNFJqOF9xNHFsZU51OXBxT3lCRWlxTzNhMER3eWg2eTdYX2xnMWVXOUd3RnRBNnp1Sjg4?oc=5"
    },
    {
     "date": "2026-09-16",
@@ -1824,10 +1824,10 @@
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T09:18:37+00:00",
-    "source": "ABC News",
-    "title": "Saudi crown prince goes to Egypt for support against Houthi strikes, and other Mideast developments",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVEJzT2tvVm9EemJDVkxBa1BYRWNpWGdLcHZ5TnJaQXdjZ3hwdWkzTmUxWFVNWUdGd0hhQzlpenNXSmlLY1l0TlUwV3FEVUp3Tjd0OWhFX0NYRHQ2NEhMRk9PZjJWUjdPeW9uNEFWN25ldFE1Zk1Uam8tTlNRNjcxblNPbEpnemlIaVhLWnpMQm1fRkk4b3YxQlMxSEk4WFY1X3VxUGVUVmpVd1HSAbABQVVfeXFMUEViOUdBeFlLcDgzTGQzVkdROExzV2ctQ2h5UkhaMXlzV1dVSmhZamxvWF94MUQyZVhXRWZRTHU2NThtYXNudEo1Z0V4UUVFN0NHdGVva0RQdDFNOFpoc0NGQ0gybjU1TG5ibmY0WVZFd3hTeU5ESnd5aHIwVHBaQVoxOUhlNWVTZzUyQnN2Ri1wSl80X1luc0JLR24zemtzeXZyRFFJMWREN3ZjSUJqTjE?oc=5"
+    "published": "2026-09-16T09:04:31+00:00",
+    "source": "The New York Times",
+    "title": "Saudi Pipeline Attack Risks ‘Disastrous’ Loss of Millions of Barrels of Oil",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTzVjMkh4M1lsaEJyZkV0a3lzMlhVNHVsZVNoV1A4d0VkTjluTFgwc0JXTHpPNWRFMjlfdThqMmxlLTI4dGRaalR4SnBEZmZ6aDBxTGNRNzZMX0VzVk9tcmIyR1pvS0l4ZlNBbjctU0hWWUJIYXRIdTFNc1NhVFRnLUVwY2E?oc=5"
    },
    {
     "date": "2026-09-16",
@@ -1841,26 +1841,26 @@
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:30:17Z",
+  "fetched_at": "2026-09-16T15:17:27Z",
   "events": [
    {
     "date": "2026-09-16",
-    "time": "15:32",
-    "iso": "2026-09-16T15:32:00+03:00",
+    "time": "15:28",
+    "iso": "2026-09-16T15:28:12+03:00",
     "city": "얀부",
     "region": "west",
     "type": "피격",
     "lat": 24.09,
     "lon": 38.06,
-    "title": "예멘 후티반군 \"사우디 얀부 석유시설·공군기지 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NdnNtdnotRFdtZmxEdExiZmNpVW1yYXV2NlZhdHNUTGtmaTR5NkhxTWtDWWZCWXR5U2ViS3l4dFI2Q29DbEdOSS1xWnVEQXg1RjFQcHNsOGFSNjlPS1J2SDNLeFBHcnM?oc=5",
+    "title": "후티 반군 \"홍해 사우디 얀부 석유시설·공군기지 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBybTJtN2NIcnFIYzBDekdqRzlraTlGRzlfY0E0eWZXRjJrMXNPMFBfV291bXlCYkNLLUZUVlpEZkV3dFFhbnJJSlVyZk9BdVh5ZmJXSWtIN01FNUpiNFQzd9IBYEFVX3lxTFBybTJtN2NIcnFIYzBDekdqRzlraTlGRzlfY0E0eWZXRjJrMXNPMFBfV291bXlCYkNLLUZUVlpEZkV3dFFhbnJJSlVyZk9BdVh5ZmJXSWtIN01FNUpiNFQzdw?oc=5",
     "source": "연합뉴스",
-    "outlets": 2
+    "outlets": 3
    },
    {
     "date": "2026-09-16",
-    "time": "06:54",
-    "iso": "2026-09-16T06:54:00+03:00",
+    "time": "09:58",
+    "iso": "2026-09-16T09:58:00+03:00",
     "city": "메카",
     "region": "west",
     "type": "피격",
@@ -1869,7 +1869,7 @@
     "title": "성지 메카도 드론 피격…미 정부, 사우디 여행 재고 권고",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tczRBNUtZN0x6TjFfX2ZwM2dwVzdGMF8zWFJ4Sk51ZGNpcldOc1FMY2tRNkdvT1JwdUJzZkhpT0xVd0h2eXZOSHJaMVFNbTlyOXpTSnhVYWxGOFU?oc=5",
     "source": "KBS",
-    "outlets": 3
+    "outlets": 2
    },
    {
     "date": "2026-09-16",
@@ -1895,9 +1895,9 @@
     "lat": 21.39,
     "lon": 39.86,
     "title": "사우디 \"성지 메카로 발사된 후티 드론 격추\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wdmRqVUhxdjhNTDlIb1ZDdi03b1U3dk9JOVBlak9QWW5neHFxTVdhazh4OE9IWm1Fa2ZJcHB5WUdIVk9GQVh5Q211UU9pRlZ6cVJmc21xcmNMOHlqNGszUGRoeEtwdlotX1ROdGVqbXpjWE1Z0gF0QVVfeXFMT3B2ZGpVSHF2OE1MOUhvVkN2LTdvVTd2T0k5UGVqT1BZbmd4cXFNV2FrOHg4T0habUVrZklwcHlZR0hWT0ZBWHlDbXVRT2lGVnpxUmZzbXFyY0w4eWo0azNQZGh4S3B2Wi1fVE50ZWptemNYTVk?oc=5",
-    "source": "MBC",
-    "outlets": 9
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90Y1dWRUtXUVdZZFVpMlNsbklxaV9yaU9aNXR3RHhKZFFIMWJXWV9WMHdQci00bmhKemxOUlJ1NFl3bHBPeW5hWFV1QmkyaUtObEpodExrSzNvb03SAWBBVV95cUxPTGdUMnI1TEoweVo5M2QzUVNWUEZUSldPdGYzYTZGenRiT3ZUeHBiUzdodTZqRE43RzNnYkM0RjI2cW1kYlVpNGRBTDNueXVhTTd2Y3FfXzN4MmsxLWpaY0M?oc=5",
+    "source": "연합뉴스",
+    "outlets": 8
    },
    {
     "date": "2026-09-16",
@@ -1974,9 +1974,17 @@
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:30:18Z",
+  "fetched_at": "2026-09-16T15:17:29Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-16 17:27",
+    "iso": "2026-09-16T17:27:14+03:00",
+    "places": [],
+    "text_ar": "بعون الله وتوفيقه تمكنت القوات المسلحة اليمنية قبل قليل من إسقاط طائرة استطلاع مسلح نوع \"وينق لونق2\" تابعة للعدو السعودي المجرم أثناء قيامها بأعمال عدائية في أجواء محافظة مأرب وذلك بسلاح مناسب. http://t.me/army21ye",
+    "text_ko": "알라의 도움과 성공으로 예멘 군대는 얼마 전 마리브 주 영공에서 적절한 무기로 적대 행위를 수행하면서 범죄 사우디 적의 무장 정찰기 \"Wing Long 2\" 를 격추시킬 수있었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3729"
+   },
    {
     "time": "2026-09-16 14:40",
     "iso": "2026-09-16T14:40:15+03:00",
@@ -2028,25 +2036,13 @@
     "text_ar": "بيانٌ صادرٌ عنِ القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: { یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ إِن تَنصُرُوا۟ ٱللَّهَ یَنصُرۡكُمۡ وَیُثَبِّتۡ أَقۡدَامَكُمۡ } صدقَ اللهُ العظيم شنَّ الطيرانُ الحربيُّ السعوديُّ خلالَ هذا الأسبوعِ أكثرَ من 450 غارةٍ جويةٍ من خلالِ طائراتِ \"F15\" و \"تايفون\" أقلعتْ من قاعدتيْ خميسِ مشيطٍ والطائفِ استهدفتْ محافظاتِ تعزَ ولحجَ والجوفِ وحجةَ ومأربَ …",
     "text_ko": "전능하신 알라, 자비로우시고 자애로우신 알라의 이름으로 예멘군이 발표한 성명서에서 그는 다음과 같이 말했습니다. {전능하신 알라는 사우디의 전투기가 이번 주 동안 카미스 무샤이트와 타이프 기지에서 이륙한 \"F15\" 와 \"타이푼\" 항공기를 통해 450회 이상의 공습을 시작했음을 확인했습니다.",
     "url": "https://t.me/army21ye/3716"
-   },
-   {
-    "time": "2026-09-16 08:32",
-    "iso": "2026-09-16T08:32:49+03:00",
-    "places": [
-     "메카",
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text_ar": "This week, Saudi warplanes launched more than 450 airstrikes using F-15 and Typhoon fighter jets, which took off from Khamis Mushait and Taif airbases, these airstrikes targeted the governorates of Taiz, Lahj, Al-Jawf, Hajjah, Ma'rib, Sa'dah, and Al-Bayda, resulting in martyrs and wounded of civilian casualties In the face of this brutal aggression against our country and people, the Yemeni Armed …",
-    "text_ko": "이번 주 사우디아라비아 전투기는 카미스 무샤이트와 타이프 공군 기지에서 이륙한 F-15와 타이푼 전투기를 사용하여 450회 이상의 공습을 시작했으며, 이 공습은 타이즈, 라흐즈, 알자우프, 하지야, 마립, 사다, 알바이다의 주지사를 겨냥하여 순교자와 민간인 사상자를 발생시켰습니다. 우리나라와 국민에 대한 잔인한 침략에 맞서 예멘 무장…",
-    "url": "https://t.me/army21ye/3717"
    }
   ]
  },
  "maritime": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T13:30:29Z",
+  "fetched_at": "2026-09-16T15:17:42Z",
   "series": {
    "port570": {
     "name": "얀부항",
@@ -6118,6 +6114,18 @@
      }
     ]
    }
+  }
+ },
+ "flights": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-16T15:17:49Z",
+  "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
+  "count": 41,
+  "baseline": null,
+  "tier": "정상",
+  "history": {
+   "2026-09-16T15": 41
   }
  }
 }

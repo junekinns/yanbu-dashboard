@@ -25,13 +25,12 @@ header { padding-top: 24px; }
 h1 { margin: 0 0 4px; font-size: 1.6rem; letter-spacing: -0.01em; }
 .h1-sub { font-size: 1rem; font-weight: 500; color: var(--muted); margin-left: 8px; }
 
-.tabs, .range { display: inline-flex; gap: 4px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 4px; }
-.tabs button, .range button {
+.range { display: inline-flex; gap: 4px; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 4px; }
+.range button {
   background: transparent; color: var(--muted); border: 0; border-radius: 7px;
   padding: 6px 12px; font: inherit; font-size: 0.9rem; cursor: pointer;
 }
-.tabs button small { display: block; font-size: 0.7rem; opacity: 0.8; }
-.tabs button.on, .range button.on { background: #263140; color: var(--text); font-weight: 600; }
+.range button.on { background: #263140; color: var(--text); font-weight: 600; }
 .range button { padding: 4px 10px; font-size: 0.8rem; }
 .card-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
 .card-head h2 { margin: 0; }
@@ -60,8 +59,24 @@ main { display: flex; flex-direction: column; gap: 16px; padding-bottom: 24px; }
 }
 .card h2 { margin: 0 0 12px; font-size: 1.05rem; }
 
-.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
 @media (max-width: 700px) { .tiles { grid-template-columns: 1fr; } }
+
+.tile.experimental { border-top-style: dashed; }
+.exp-badge { font-size: 0.65rem; font-weight: 600; padding: 1px 6px; border-radius: 4px; background: #3a4452; color: var(--muted); vertical-align: middle; margin-left: 4px; }
+
+.region-tiles { display: flex; flex-direction: column; gap: 20px; }
+.region-heading { margin: 0 0 10px; font-size: 1.05rem; }
+.region-heading small { margin-left: 6px; font-weight: 400; color: var(--muted); }
+.region-tile-row { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 700px) { .region-tile-row { grid-template-columns: 1fr; } }
+.tile h3 { margin: 0 0 12px; font-size: 1.05rem; }
+
+.region-badge { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 1px 6px; border-radius: 4px; color: #0f1720; }
+.region-badge.region-west { background: #7fd0ff; }
+.region-badge.region-central { background: #c9a6ff; }
+.region-badge.region-east { background: #ffcf7f; }
+.region-badge.region-other { background: #8a97a8; }
 
 .tile { border-top: 4px solid var(--border); }
 .tile.hot { border-top-color: var(--hot); }
@@ -131,16 +146,14 @@ main { display: flex; flex-direction: column; gap: 16px; padding-bottom: 24px; }
 .event-log { list-style: none; margin: 0; padding: 0; }
 .event-log li {
   display: grid;
-  grid-template-columns: 5.5rem 5rem 3rem 1fr auto;
+  grid-template-columns: 5.5rem 3.5rem 5rem 3rem 1fr auto;
   gap: 8px;
   align-items: baseline;
   padding: 7px 8px;
   border-top: 1px solid var(--border);
-  border-left: 3px solid transparent;
   font-size: 0.9rem;
 }
 .event-log li:first-child { border-top: none; }
-.event-log li.local { border-left-color: var(--hot); background: rgba(229, 83, 61, 0.06); }
 .ev-time { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 0.8rem; }
 .ev-city { font-weight: 600; }
 .ev-type { font-size: 0.75rem; padding: 1px 6px; border-radius: 4px; text-align: center; color: #fff; background: #3a4452; }
@@ -156,9 +169,8 @@ main { display: flex; flex-direction: column; gap: 16px; padding-bottom: 24px; }
   .event-log a { grid-column: 1 / -1; }
 }
 .tg-list { list-style: none; margin: 0; padding: 0; }
-.tg-list li { padding: 10px 8px; border-top: 1px solid var(--border); border-left: 3px solid transparent; }
+.tg-list li { padding: 10px 8px; border-top: 1px solid var(--border); }
 .tg-list li:first-child { border-top: none; }
-.tg-list li.local { border-left-color: var(--hot); background: rgba(229, 83, 61, 0.06); }
 .tg-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 4px; }
 .place-badge { font-size: 0.75rem; padding: 1px 6px; border-radius: 4px; background: #3a4452; color: var(--text); }
 .tg-link { font-size: 0.75rem; color: #9cc3ff; text-decoration: none; margin-left: 4px; }
