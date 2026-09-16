@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T11:08:12Z",
+ "generated_at": "2026-09-16T13:22:17Z",
  "regions": [
   {
    "key": "west",
@@ -59,12 +59,12 @@
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T11:08:12Z",
+  "fetched_at": "2026-09-16T13:22:17Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "regions": {
    "west": {
-    "last24h": 6,
-    "flares24h": 1,
+    "last24h": 7,
+    "flares24h": 4,
     "daily_counts": [
      {
       "date": "2026-09-09",
@@ -72,15 +72,15 @@
      },
      {
       "date": "2026-09-10",
-      "count": 30
+      "count": 29
      },
      {
       "date": "2026-09-11",
-      "count": 10
+      "count": 9
      },
      {
       "date": "2026-09-12",
-      "count": 9
+      "count": 7
      },
      {
       "date": "2026-09-13",
@@ -99,9 +99,9 @@
     "tier": "평시",
     "history": {
      "2026-09-09": 0,
-     "2026-09-10": 30,
-     "2026-09-11": 10,
-     "2026-09-12": 9,
+     "2026-09-10": 29,
+     "2026-09-11": 9,
+     "2026-09-12": 7,
      "2026-09-13": 9,
      "2026-09-14": 7,
      "2026-09-15": 6
@@ -324,14 +324,6 @@
       "confidence": "nominal"
      },
      {
-      "lat": 23.95145,
-      "lon": 38.26427,
-      "frp": 10.54,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "high"
-     },
-     {
       "lat": 21.24665,
       "lon": 39.17929,
       "frp": 0.45,
@@ -404,14 +396,6 @@
       "confidence": "nominal"
      },
      {
-      "lat": 23.9484,
-      "lon": 38.26488,
-      "frp": 11.25,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "nominal"
-     },
-     {
       "lat": 24.04435,
       "lon": 40.69825,
       "frp": 15.47,
@@ -444,14 +428,6 @@
       "confidence": "low"
      },
      {
-      "lat": 23.9479,
-      "lon": 38.26479,
-      "frp": 20.48,
-      "date": "2026-09-12",
-      "time": "1110",
-      "confidence": "low"
-     },
-     {
       "lat": 24.60575,
       "lon": 39.64143,
       "frp": 4.08,
@@ -471,14 +447,6 @@
       "lat": 24.02845,
       "lon": 40.48133,
       "frp": 1.93,
-      "date": "2026-09-12",
-      "time": "2337",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.95008,
-      "lon": 38.26379,
-      "frp": 9.95,
       "date": "2026-09-12",
       "time": "2337",
       "confidence": "nominal"
@@ -674,12 +642,20 @@
       "date": "2026-09-15",
       "time": "2242",
       "confidence": "nominal"
+     },
+     {
+      "lat": 21.09983,
+      "lon": 39.22263,
+      "frp": 3.91,
+      "date": "2026-09-16",
+      "time": "0954",
+      "confidence": "nominal"
      }
     ]
    },
    "central": {
     "last24h": 9,
-    "flares24h": 30,
+    "flares24h": 31,
     "daily_counts": [
      {
       "date": "2026-09-09",
@@ -1526,6 +1502,9 @@
   }
  },
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-16T13:22:24Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -1778,17 +1757,20 @@
   "last7d": 7,
   "baseline": 1.5,
   "ratio": 4.67,
-  "tier": "급증",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f4b6bccb5f0>, 'Connection to www.0404.go.kr timed out. (connect timeout=60)'))",
-  "fetched_at": "2026-09-16T11:08:15Z",
-  "stale": true
+  "tier": "급증"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T11:11:46Z",
+  "fetched_at": "2026-09-16T13:22:28Z",
   "kr": [
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T12:32:00+00:00",
+    "source": "연합뉴스",
+    "title": "예멘 후티반군 \"사우디 얀부 석유시설·공군기지 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NdnNtdnotRFdtZmxEdExiZmNpVW1yYXV2NlZhdHNUTGtmaTR5NkhxTWtDWWZCWXR5U2ViS3l4dFI2Q29DbEdOSS1xWnVEQXg1RjFQcHNsOGFSNjlPS1J2SDNLeFBHcnM?oc=5"
+   },
    {
     "date": "2026-09-16",
     "published": "2026-09-16T08:11:10+00:00",
@@ -1798,10 +1780,10 @@
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T07:52:58+00:00",
-    "source": "연합뉴스",
-    "title": "예멘 후티 반군 \"사우디 F-15 전투기 격추\" 주장",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXbmExaDdSSGx6V3k3aExIMF9Gd3RZSDhuZ1h4RS1vWHo2TVBkRnVyaFE5dWdhOWNsSlFIV0Y4TlhxSHkzZjBCMGFmUk1DMG15UVE2Y1I5RWdvWWfSAWBBVV95cUxNcGM4SWw5dnpyQXBEbHJlb3ZmRkxpcFVab0FyaE5mdHZ4OFJFdFJwUkx0MlVUX3ZyVFEtWEhKYVFVYTBUR1JZY2ZFbzBTQXpvS3llRHZzdFJ0NlJuNUJoNW4?oc=5"
+    "published": "2026-09-16T07:44:05+00:00",
+    "source": "MBC",
+    "title": "후티 반군 \"자체 지대공 미사일로 사우디 F-15 격추\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkWC1jZTFXRTZ2bjB2aFJwWE1zNjZMTU9vNW81VVhpdDZsVzVuSTFhbkJTLTBJZ2o0Z25tTm02aVF2MGZSaWY3a0FNQ1RPS1ZfS2lmMVVxdDlxXzBUM1hiT2JpV1dYdjNmbVVuOTJ1bXJja1l10gF0QVVfeXFMT2piZm45TXpGWllYaWNlcVhjZzZYZHJtSWRSMXFQVkFuNkNDc2t2czhPYzJIb1VBamJxcTBqZGZaMExxeWtjMEc1T1k4NnlkRXVmdFB6bnM1WkR5MktZOG9JeXloVUFNakNsT3pWZzJFaHFtQUQ?oc=5"
    },
    {
     "date": "2026-09-15",
@@ -1816,16 +1798,30 @@
     "source": "YTN",
     "title": "이집트 달려간 사우디 빈 살만...후티 \"봉쇄 중단할 때까지 공격 계속\"",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fMk0tdEJCTGd4NFc2d2lDbUN3dmh3TFZYTWVEaUlxUll1dEpjZkQ3UFZkNGFnLXhmUHk2RWxEOFlmSkJfQnJOUW1WRXZ4QndtZGhhNmVHczB4QUhnUGc?oc=5"
-   },
-   {
-    "date": "2026-09-15",
-    "published": "2026-09-15T11:25:39+00:00",
-    "source": "MBC",
-    "title": "사우디-후티 교전 격화‥성지 메카에도 첫 위협 경보",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFSzF2dnM2N0hGRGpkTURBOHp6MDZZWERqLWk5c0FiTzBVQWhsZ1pYT1doNm85T0ppNndTMjRac1c5Mi0tLVBCOTZzSVkwVzg2ZmNZTEg1ZUtMR0JacS1WT0s1YkIySzlJU1FTLVo2dTJaWS1X0gF0QVVfeXFMTXZZdHNpX3Z6c0VKNWt0UkNySkhRRUM5MHUwb1lwZHJsU0FNa3pLbnR0WWxPQlRwQVpEaExOdXgwZTdSMm5QVVJPeHVZZzk5WmxRTVo5Wkt2U1NhQms1eWNmakdxaDJRZFkwNkUxVGQ5RWd1UFY?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T11:23:13+00:00",
+    "source": "DW",
+    "title": "Saudi Arabia says Houthis target Mecca, warns of 'red line'",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGtZcjdDM1pxZTFtZWRuMVZyZzNhM2hzNjVCY0lrczk3SWl5bWt5ZnY0c3J0cEZnM1BCOXVvRDVoeXAxd0o1VElkV1NpZ1QxTkhQdFdZcnlzZnhpZ21GUWphZjF2d1QwbnBQcmg0YVJ1M2ltdzdJQ2lIMFpPb3Rya0dUQzFQZ3VPNVNwRlUxZUYwd1XSAZMBQVVfeXFMTUxfT25ueThTV0FDcWlXQnlqQ3JYcloyMC1RbkRtNUkxQXJUMWRlTjBjcjM0d0kzLXo4dzZ4Y0FhaTZ3SXJIRTJScUY0bmx0MERpN3lVV1V3bzhxV2lDSzlQNFJqOF9xNHFsZU51OXBxT3lCRWlxTzNhMER3eWg2eTdYX2xnMWVXOUd3RnRBNnp1Sjg4?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T11:01:44+00:00",
+    "source": "The New York Times",
+    "title": "Global Oil Prices Could Hit Highest Levels in Months After Saudi Pipeline Attacks",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTzVjMkh4M1lsaEJyZkV0a3lzMlhVNHVsZVNoV1A4d0VkTjluTFgwc0JXTHpPNWRFMjlfdThqMmxlLTI4dGRaalR4SnBEZmZ6aDBxTGNRNzZMX0VzVk9tcmIyR1pvS0l4ZlNBbjctU0hWWUJIYXRIdTFNc1NhVFRnLUVwY2E?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T10:41:21+00:00",
+    "source": "NBC News",
+    "title": "Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2pLVUdEbDUtZmVUNXBKNlVkTkY0c25fN1ltQUw4YUxPbEdEMzBXOHY4MGE4dVdzLVlsZE5wcndULWFjN2l1Um16N1FNNGRPUzkzZnJRMHNsbU9vQnNiYURXNmVDRWlOcG9tX3VlSjVydHVPZnh2T1FOMFZxNmxMMmY3SHZobkxZNFp1NDZ3MWpFWDBwM3Q4QUMtYnQteHFHQUNUZzNXWXM5c25neEZiQkxjMWd3Zw?oc=5"
+   },
    {
     "date": "2026-09-16",
     "published": "2026-09-16T09:18:37+00:00",
@@ -1835,39 +1831,32 @@
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T09:04:31+00:00",
-    "source": "The New York Times",
-    "title": "Saudi Pipeline Attack Risks ‘Disastrous’ Loss of Millions of Barrels of Oil",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTzVjMkh4M1lsaEJyZkV0a3lzMlhVNHVsZVNoV1A4d0VkTjluTFgwc0JXTHpPNWRFMjlfdThqMmxlLTI4dGRaalR4SnBEZmZ6aDBxTGNRNzZMX0VzVk9tcmIyR1pvS0l4ZlNBbjctU0hWWUJIYXRIdTFNc1NhVFRnLUVwY2E?oc=5"
-   },
-   {
-    "date": "2026-09-16",
     "published": "2026-09-16T09:04:27+00:00",
     "source": "NPR",
     "title": "Saudi Arabia calls an attempted Mecca attack a 'red line' as Houthis deny they did it",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObGNUalU2dmp3SUZWMUw3d0lSRDRMNFVhRURZcFJBT3AySk1DbVpPbzJzZUFnak9obmJnajJPR1p1S0ZVRm1ndmFzOWs0cndScTB4U05MTTlaMXIycXBXQ3FqRjByWldlVTdCRkVRU2t5bzdEdVd4TXRPeENvVENsVXUxZHA?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T08:36:17+00:00",
-    "source": "BBC",
-    "title": "Saudi Arabia says it shot down Houthi drone south of Mecca",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yOEdaeTY5RFU4dk5LR2FpVTBIZ0VpazdFYkVXaHJ4X3hzRHkzWWRrUTdHeXFfS0RZQ3hTN0J4VU92ZnJkQ3hkMGJCR3c2ZndhMms4OTdaNVJ3NzA?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T08:28:13+00:00",
-    "source": "DW",
-    "title": "Saudi Arabia says Houthis target Mecca, warns of 'red line'",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGtZcjdDM1pxZTFtZWRuMVZyZzNhM2hzNjVCY0lrczk3SWl5bWt5ZnY0c3J0cEZnM1BCOXVvRDVoeXAxd0o1VElkV1NpZ1QxTkhQdFdZcnlzZnhpZ21GUWphZjF2d1QwbnBQcmg0YVJ1M2ltdzdJQ2lIMFpPb3Rya0dUQzFQZ3VPNVNwRlUxZUYwd1XSAZMBQVVfeXFMTUxfT25ueThTV0FDcWlXQnlqQ3JYcloyMC1RbkRtNUkxQXJUMWRlTjBjcjM0d0kzLXo4dzZ4Y0FhaTZ3SXJIRTJScUY0bmx0MERpN3lVV1V3bzhxV2lDSzlQNFJqOF9xNHFsZU51OXBxT3lCRWlxTzNhMER3eWg2eTdYX2xnMWVXOUd3RnRBNnp1Sjg4?oc=5"
    }
   ]
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T11:11:47Z",
+  "fetched_at": "2026-09-16T13:22:29Z",
   "events": [
+   {
+    "date": "2026-09-16",
+    "time": "15:32",
+    "iso": "2026-09-16T15:32:00+03:00",
+    "city": "얀부",
+    "region": "west",
+    "type": "피격",
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "예멘 후티반군 \"사우디 얀부 석유시설·공군기지 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NdnNtdnotRFdtZmxEdExiZmNpVW1yYXV2NlZhdHNUTGtmaTR5NkhxTWtDWWZCWXR5U2ViS3l4dFI2Q29DbEdOSS1xWnVEQXg1RjFQcHNsOGFSNjlPS1J2SDNLeFBHcnM?oc=5",
+    "source": "연합뉴스",
+    "outlets": 2
+   },
    {
     "date": "2026-09-16",
     "time": "06:54",
@@ -1898,17 +1887,17 @@
    },
    {
     "date": "2026-09-16",
-    "time": "03:14",
-    "iso": "2026-09-16T03:14:00+03:00",
+    "time": "04:18",
+    "iso": "2026-09-16T04:18:53+03:00",
     "city": "메카",
     "region": "west",
     "type": "요격",
     "lat": 21.39,
     "lon": 39.86,
     "title": "사우디 \"성지 메카로 발사된 후티 드론 격추\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wdmRqVUhxdjhNTDlIb1ZDdi03b1U3dk9JOVBlak9QWW5neHFxTVdhazh4OE9IWm1Fa2ZJcHB5WUdIVk9GQVh5Q211UU9pRlZ6cVJmc21xcmNMOHlqNGszUGRoeEtwdlotX1ROdGVqbXpjWE1Z0gF0QVVfeXFMT3B2ZGpVSHF2OE1MOUhvVkN2LTdvVTd2T0k5UGVqT1BZbmd4cXFNV2FrOHg4T0habUVrZklwcHlZR0hWT0ZBWHlDbXVRT2lGVnpxUmZzbXFyY0w4eWo0azNQZGh4S3B2Wi1fVE50ZWptemNYTVk?oc=5",
-    "source": "MBC",
-    "outlets": 10
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90Y1dWRUtXUVdZZFVpMlNsbklxaV9yaU9aNXR3RHhKZFFIMWJXWV9WMHdQci00bmhKemxOUlJ1NFl3bHBPeW5hWFV1QmkyaUtObEpodExrSzNvb03SAWBBVV95cUxPTGdUMnI1TEoweVo5M2QzUVNWUEZUSldPdGYzYTZGenRiT3ZUeHBiUzdodTZqRE43RzNnYkM0RjI2cW1kYlVpNGRBTDNueXVhTTd2Y3FfXzN4MmsxLWpaY0M?oc=5",
+    "source": "연합뉴스",
+    "outlets": 9
    },
    {
     "date": "2026-09-16",
@@ -1920,9 +1909,23 @@
     "lat": 21.39,
     "lon": 39.86,
     "title": "중동전 발발 이후 초유의 상황…이슬람 성지 메카에 '위협경보' [지금이뉴스]",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ONEJFNXV1bmVieHRRZkEzZDZyaUx6d3FLTHZoeWRHd0FQQ0QwV2RRWnhDMU9Nd19WazNKZjM0UVpRMEJZLWxETUxoVFZaN3Ytbi1tOEtkZzdBZWFWZ2VGU2JDTjhnN3RrSzNaTVhlYm1XVk9WZFE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uVU5nT1Z6b0JJdlg3ekcyd2lqdUtIbHAzeTFTM3lhVlJJOHFjcGlLV2hrS21EZGhxMHB1UUt4cnBLbU92YWw0T1IzRUNtakstU3hYRDNIeUh2enFRQ1Ew?oc=5",
     "source": "YTN",
     "outlets": 2
+   },
+   {
+    "date": "2026-09-15",
+    "time": "14:13",
+    "iso": "2026-09-15T14:13:00+03:00",
+    "city": "제다",
+    "region": "west",
+    "type": "경보",
+    "lat": 21.49,
+    "lon": 39.19,
+    "title": "사우디-후티 교전 속 성지 메카·한인 거주 제다에 ’위협 경보’",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yWEM0QjYwRE9WZWJiR1I1RWlJRVdTRk1ydzdaUEdKMnFzRGRnOVkwUFhNdVpPSmhfNjdSRVA0LTMxLU85bnVHZUVwYTJGV2xZRnhNOXVCNnJPVWxkLTMxQmFhcVAwdVE?oc=5",
+    "source": "연합뉴스",
+    "outlets": 1
    },
    {
     "date": "2026-09-15",
@@ -1940,20 +1943,6 @@
    },
    {
     "date": "2026-09-15",
-    "time": "12:41",
-    "iso": "2026-09-15T12:41:46+03:00",
-    "city": "제다",
-    "region": "west",
-    "type": "경보",
-    "lat": 21.49,
-    "lon": 39.19,
-    "title": "사우디-후티 교전 속 성지 메카·한인 거주 제다에 ’위협 경보’",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yWEM0QjYwRE9WZWJiR1I1RWlJRVdTRk1ydzdaUEdKMnFzRGRnOVkwUFhNdVpPSmhfNjdSRVA0LTMxLU85bnVHZUVwYTJGV2xZRnhNOXVCNnJPVWxkLTMxQmFhcVAwdVE?oc=5",
-    "source": "연합뉴스",
-    "outlets": 2
-   },
-   {
-    "date": "2026-09-15",
     "time": "04:53",
     "iso": "2026-09-15T04:53:39+03:00",
     "city": "송유관",
@@ -1965,20 +1954,6 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TcEpmbC1SdV8yci1SSEFaUEVhSjJ3Y2ZNYmJXNUZLSHUzR2ZyVUpfbkFXVUNTd1Y3NEctSF85aDk2V0pJSXNQOVRCTmlnakpjNzFscFN2cDdCR1HSAWBBVV95cUxOV1JCZjdaTmVXdndmdUtidjRkdWN3NlZKcUtxWGQ4MFFNalA4WWhpbVpFcGZDSWpoQzl3dDFqM2pjYTh5SzhWcm1oVklwSkxDVmVHSkZ6X0ZTRXRPLThhaUM?oc=5",
     "source": "연합뉴스",
     "outlets": 4
-   },
-   {
-    "date": "2026-09-14",
-    "time": "05:10",
-    "iso": "2026-09-14T05:10:26+03:00",
-    "city": "송유관",
-    "region": null,
-    "type": "피격",
-    "lat": null,
-    "lon": null,
-    "title": "9∼10월 원유 90% 이상 확보…\"사우디 송유관 폐쇄 영향 제한적\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kN2pBakc5Y3RXZWNkUW1EWFVVaUtjX2U5Rm1Za01FeFkxb0xHTUVFM085bXhaUE9fdXM5S2hWNmRMazZlS3dmUVZjaWx4YjdUa2VQX01DQmplRE3SAWBBVV95cUxNRkdlVnZHMzlNdU5lekpYYlEwV1VmTlBZV2xZbVpHNVJyY3ROSzJ3Sk81VzNYMGowOXR4SFZ2UmY3R0QwYmpBSUtZVFpnVzFHV0lYTEV5dFpFa3p5STZGbTA?oc=5",
-    "source": "연합뉴스",
-    "outlets": 1
    },
    {
     "date": "2026-09-12",
@@ -1999,16 +1974,48 @@
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T11:11:48Z",
+  "fetched_at": "2026-09-16T13:22:32Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-16 14:40",
+    "iso": "2026-09-16T14:40:15+03:00",
+    "places": [
+     "얀부",
+     "카미스무샤이트"
+    ],
+    "text_ar": "The criminal Saudi enemy continues its unjust aggression and oppressive siege against our country and our people for twelve years, and has escalated its aggression this week by launching more than 450 airstrikes targeting most Yemeni governorates. In response to this brutal aggression against our country and people, the Yemeni Armed Forces, with Allah's help, carried out two qualitative military o…",
+    "text_ko": "범죄자인 사우디아라비아의 적은 12년 동안 우리나라와 국민에 대한 부당한 침략과 억압적인 포위 공격을 계속하고 있으며, 이번 주에는 대부분의 예멘 총독부를 겨냥한 450회 이상의 공습을 감행하여 침략을 확대했다. 우리 나라와 국민에 대한 이러한 잔인한 침략에 대응하여 예멘군은 알라의 도움으로 두 가지 질적인 군대를 수행했습니다...",
+    "url": "https://t.me/army21ye/3722"
+   },
+   {
+    "time": "2026-09-16 14:40",
+    "iso": "2026-09-16T14:40:15+03:00",
+    "places": [
+     "얀부",
+     "카미스무샤이트"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عمليتين عسكريتين أولاهما استهدفت شركة أرامكو في ينبع بعشرات الصواريخ الباليستية والطائرات المسيرة، والأخرى استهدفت قاعدة خميس مشيط الجوية بعدد من الصواريخ الباليستية. جودة متوسطة http://t.me/army21ye",
+    "text_ko": "두 가지 군사 작전의 시행에 대한 예멘 군의 성명서. 첫 번째는 수십 개의 탄도 미사일과 드론으로 얀부의 아람코를 표적으로 삼았고 다른 하나는 여러 개의 탄도 미사일로 카미스 무샤이트 공군 기지를 표적으로 삼았습니다. medium quality http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3723"
+   },
+   {
+    "time": "2026-09-16 14:40",
+    "iso": "2026-09-16T14:40:14+03:00",
+    "places": [
+     "카미스무샤이트"
+    ],
+    "text_ar": "بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيمُ يواصلُ العدوُّ السعوديُّ المجرمُ عدوانَـهُ الظالمَ وحصارَـهُ الغاشمَ على بلدِنا وشعبِنا منذُ اثْنَيْ عشرَ عامًا، وصعَّدَ مِنْ عدوانِـهِ خلالَ هذا الأسبوعِ بشنِّـهِ لأكثرَ مِنْ 450 غارةً جويةً مستهدفًا بها معظمَ المحافظاتِ اليمنيةِ. ورَدًّا على هذا العدوانِ ال…",
+    "text_ko": "전능하신 알라의 이름으로, 자비로우시고 자비로우신 알라의 이름으로 말씀하시길: {누구든지 당신을 공격한 다음, 이전과는 달리 그를 공격했습니다.} 알라의 위대한 진실은 사우디의 적인 범죄자가 12년 전 우리나라와 우리 국민에 대한 부당한 침략과 잔인한 포위 공격을 계속하고 있으며, 이번 주에 대부분의 예멘 총독부를 겨냥한 450회 이상의 공습을 감행함으로써 그의 침략을 확대시켰다는 것입니다. 이 공격에 대한 대응으로...",
+    "url": "https://t.me/army21ye/3721"
+   },
    {
     "time": "2026-09-16 13:01",
     "iso": "2026-09-16T13:01:53+03:00",
     "places": [],
-    "text": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية في العمق السعودي في تمام الساعة 2:40 عصراً. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3720",
-    "translate": "https://translate.google.com/?sl=auto&tl=ko&op=translate&text=%D8%A8%D9%8A%D8%A7%D9%86%20%D9%85%D9%87%D9%85%20%D9%84%D9%84%D9%82%D9%88%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9%20%D9%84%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86%20%D8%B9%D9%86%20%D8%B9%D8%AF%D8%AF%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B9%D9%85%D9%82%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%20%D9%81%D9%8A%20%D8%AA%D9%85%D8%A7%D9%85%20%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9%202%3A40%20%D8%B9%D8%B5%D8%B1%D8%A7%D9%8B.%20http%3A//t.me/army21ye"
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية في العمق السعودي في تمام الساعة 2:40 عصراً. http://t.me/army21ye",
+    "text_ko": "사우디아라비아에서 오후 2시 40분에 여러 군사 작전을 발표하겠다는 예멘 군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3720"
    },
    {
     "time": "2026-09-16 08:32",
@@ -2018,9 +2025,9 @@
      "타이프",
      "카미스무샤이트"
     ],
-    "text": "بيانٌ صادرٌ عنِ القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: { یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ إِن تَنصُرُوا۟ ٱللَّهَ یَنصُرۡكُمۡ وَیُثَبِّتۡ أَقۡدَامَكُمۡ } صدقَ اللهُ العظيم شنَّ الطيرانُ الحربيُّ السعوديُّ خلالَ هذا الأسبوعِ أكثرَ من…",
-    "url": "https://t.me/army21ye/3716",
-    "translate": "https://translate.google.com/?sl=auto&tl=ko&op=translate&text=%D8%A8%D9%8A%D8%A7%D9%86%D9%8C%20%D8%B5%D8%A7%D8%AF%D8%B1%D9%8C%20%D8%B9%D9%86%D9%90%20%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA%D9%90%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9%D9%90%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9%D9%90%20%D8%A8%D8%B3%D9%85%D9%90%20%D8%A7%D9%84%D9%84%D9%87%D9%90%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%D9%90%20%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85%D9%90%20%D9%82%D8%A7%D9%84%D9%8E%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%3A%20%7B%20%DB%8C%D9%8E%D9%80%D9%B0%DB%A4%D8%A3%D9%8E%DB%8C%D9%91%D9%8F%D9%87%D9%8E%D8%A7%20%D9%B1%D9%84%D9%91%D9%8E%D8%B0%D9%90%DB%8C%D9%86%D9%8E%20%D8%A1%D9%8E%D8%A7%D9%85%D9%8E%D9%86%D9%8F%D9%88%DB%A4%D8%A7%DB%9F%20%D8%A5%D9%90%D9%86%20%D8%AA%D9%8E%D9%86%D8%B5%D9%8F%D8%B1%D9%8F%D9%88%D8%A7%DB%9F%20%D9%B1%D9%84%D9%84%D9%91%D9%8E%D9%87%D9%8E%20%DB%8C%D9%8E%D9%86%D8%B5%D9%8F%D8%B1%DB%A1%D9%83%D9%8F%D9%85%DB%A1%20%D9%88%D9%8E%DB%8C%D9%8F%D8%AB%D9%8E%D8%A8%D9%91%D9%90%D8%AA%DB%A1%20%D8%A3%D9%8E%D9%82%DB%A1%D8%AF%D9%8E%D8%A7%D9%85%D9%8E%D9%83%D9%8F%D9%85%DB%A1%20%7D%20%D8%B5%D8%AF%D9%82%D9%8E%20%D8%A7%D9%84%D9%84%D9%87%D9%8F%20%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85%20%D8%B4%D9%86%D9%91%D9%8E%20%D8%A7%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86%D9%8F%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A%D9%91%D9%8F%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%91%D9%8F%20%D8%AE%D9%84%D8%A7%D9%84%D9%8E%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%90%20%D8%A3%D9%83%D8%AB%D8%B1%D9%8E%20%D9%85%D9%86%20450%20%D8%BA%D8%A7%D8%B1%D8%A9%D9%8D%20%D8%AC%D9%88%D9%8A%D8%A9%D9%8D%20%D9%85%D9%86%20%D8%AE%D9%84%D8%A7%D9%84%D9%90%20%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA%D9%90%20%22F15%22%20%D9%88%20%22%D8%AA%D8%A7%D9%8A%D9%81%D9%88%D9%86%22%20%D8%A3%D9%82%D9%84%D8%B9%D8%AA%D9%92%20%D9%85%D9%86%20%D9%82%D8%A7%D8%B9%D8%AF%D8%AA%D9%8A%D9%92%20%D8%AE%D9%85%D9%8A%D8%B3%D9%90%20%D9%85%D8%B4%D9%8A%D8%B7%D9%8D%20%D9%88%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81%D9%90%20%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%AA%D9%92%20%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA%D9%90%20%D8%AA%D8%B9%D8%B2%D9%8E%20%D9%88%D9%84%D8%AD%D8%AC%D9%8E%20%D9%88%D8%A7%D9%84%D8%AC%D9%88%D9%81%D9%90%20%D9%88%D8%AD%D8%AC%D8%A9%D9%8E%20%D9%88%D9%85%D8%A3%D8%B1%D8%A8%D9%8E%20%D9%88%D8%B5%D8%B9%D8%AF%D8%A9%D9%8E%20%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1%D9%90%20%D9%85%D8%AE%D9%84%D9%81%D8%A9%D9%8B%20%D8%B4%D9%87%D8%AF%D8%A7%D8%A1%D9%8E%20%D9%88%D8%AC%D8%B1%D8%AD%D9%89%20%D9%81%D9%8A%20%D8%B5%D9%81%D9%88%D9%81%D9%90%20%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86.%20%D9%88%D9%81%D9%8A%20%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9%D9%90%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D8%B9%D8%AF%D9%88%D8%A7%D9%86%D9%90%20%D8%A7%D9%84%D8%BA%D8%A7%D8%B4%D9%85%D9%90%20%D8%B9%D9%84%D9%89%20%D8%A8%D9%84%D8%AF%D9%90%D9%86%D8%A7%20%D9%88%D8%B4%D8%B9%D8%A8%D9%90%D9%86%D8%A7%20%D9%81%D9%82%D8%AF%D9%92%20%D8%AA%D9%85%D9%83%D9%86%D8%AA%D9%90%20%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA%D9%8F%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9%D9%8F%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9%D9%8F%20%D8%A8%D8%B9%D9%88%D9%86%D9%90%20%D8%A7%D9%84%D9%84%D9%87%D9%90%20%D9%88%D9%81%D8%B6%D9%84%D9%90%D9%87%D9%90%20%D9%85%D9%86%20%D8%A5%D8%B3%D9%82%D8%A7%D8%B7%D9%90%20%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9%D9%8D%20%D8%AD%D8%B1%D8%A8%D9%8A%D8%A9%D9%8D%20%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9%D9%8D%20%D9%86%D9%88%D8%B9%D9%90%20%22F15%22%20%D8%A3%D8%AB%D9%86%D8%A7%D8%A1%D9%8E%20%D9%82%D9%8A%D8%A7%D9%85%D9%90%D9%87%D8%A7%20%D8%A8%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%8D%20%D8%B9%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9%D9%8D%20%D8%AF%D8%B9%D9%85%D8%A7%D9%8B%20%D9%84%D8%AA%D8%AD%D8%B4%D9%8A%D8%AF%D8%A7%D8%AA%D9%87%D8%A7%20%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%AA%D8%B9%D8%B2%20%D9%88%D9%85%D8%A3%D8%B1%D8%A8%D8%8C%20%D9%88%D9%82%D8%AF%20%D8%AA%D9%85%20%D8%A5%D8%B3%D9%82%D8%A7%D8%B7%D9%87%D8%A7%20%D8%A8%D9%81%D8%B6%D9%84%20%D8%A7%D9%84%D9%84%D9%87%20%D9%81%D9%8A%20%D8%A3%D8%AC%D9%88%D8%A7%D8%A1%D9%90%20%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9%D9%90%20%D9%85%D8%A3%D8%B1%D8%A8%D9%8E%20%D9%88%D8%B0%D9%84%D9%83%D9%8E%20%D8%A8%D8%B5%D8%A7%D8%B1%D9%88%D8%AE%D9%90%20%D8%A3%D8%B1%D8%B6%D9%8D%20%D8%AC%D9%88%D9%91%D9%8D%20%D9%85%D8%AD%D9%84%D9%8A%D9%91%D9%90%20%D8%A7%D9%84%D8%B5%D9%86%D8%B9%D9%90.%20%D9%88%D9%81%D9%8A%20%D8%B3%D9%8A%D8%A7%D9%82%D9%8D%20%D9%85%D8%AA%D8%B5%D9%84%D9%8D%20%D9%86%D9%81%D8%B0%D8%AA%D9%90%20%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA%D9%8F%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9%D9%8F%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9%D9%8F%20%D8%A8%D8%B9%D9%88%D9%86%D9%90%20%D8%A7%D9%84%D9%84%D9%87%D9%90%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%D8%B9%D9%85%D9%84%D9%8A%D8%A9%D9%8E%20%D8%AA%D8%B5%D8%AF%D9%8D%20%D9%84%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D9%8A%D9%86%D9%90%20%D9%82%D8%AA%D8%A7%D9%84%D9%8A%D9%8A%D9%86%D9%90%20%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%8A%D9%86%D9%90%20%D9%86%D9%88%D8%B9%D9%90%20%22F15%22%20%D9%88%20%22%D8%AA%D8%A7%D9%8A%D9%81%D9%88%D9%86%22%20%D9%81%D9%8A%20%D8%A3"
+    "text_ar": "بيانٌ صادرٌ عنِ القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: { یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ إِن تَنصُرُوا۟ ٱللَّهَ یَنصُرۡكُمۡ وَیُثَبِّتۡ أَقۡدَامَكُمۡ } صدقَ اللهُ العظيم شنَّ الطيرانُ الحربيُّ السعوديُّ خلالَ هذا الأسبوعِ أكثرَ من 450 غارةٍ جويةٍ من خلالِ طائراتِ \"F15\" و \"تايفون\" أقلعتْ من قاعدتيْ خميسِ مشيطٍ والطائفِ استهدفتْ محافظاتِ تعزَ ولحجَ والجوفِ وحجةَ ومأربَ …",
+    "text_ko": "전능하신 알라, 자비로우시고 자애로우신 알라의 이름으로 예멘군이 발표한 성명서에서 그는 다음과 같이 말했습니다. {전능하신 알라는 사우디의 전투기가 이번 주 동안 카미스 무샤이트와 타이프 기지에서 이륙한 \"F15\" 와 \"타이푼\" 항공기를 통해 450회 이상의 공습을 시작했음을 확인했습니다.",
+    "url": "https://t.me/army21ye/3716"
    },
    {
     "time": "2026-09-16 08:32",
@@ -2030,43 +2037,16 @@
      "타이프",
      "카미스무샤이트"
     ],
-    "text": "This week, Saudi warplanes launched more than 450 airstrikes using F-15 and Typhoon fighter jets, which took off from Khamis Mushait and Taif airbases, these airstrikes targeted the governorates of Taiz, Lahj, Al-Jawf, Hajjah, Ma'rib, Sa'dah, and Al-Bayda, res…",
-    "url": "https://t.me/army21ye/3717",
-    "translate": "https://translate.google.com/?sl=auto&tl=ko&op=translate&text=This%20week%2C%20Saudi%20warplanes%20launched%20more%20than%20450%20airstrikes%20using%20F-15%20and%20Typhoon%20fighter%20jets%2C%20which%20took%20off%20from%20Khamis%20Mushait%20and%20Taif%20airbases%2C%20these%20airstrikes%20targeted%20the%20governorates%20of%20Taiz%2C%20Lahj%2C%20Al-Jawf%2C%20Hajjah%2C%20Ma%27rib%2C%20Sa%27dah%2C%20and%20Al-Bayda%2C%20resulting%20in%20martyrs%20and%20wounded%20of%20civilian%20casualties%20In%20the%20face%20of%20this%20brutal%20aggression%20against%20our%20country%20and%20people%2C%20the%20Yemeni%20Armed%20Forces%2C%20with%20Allah%27s%20help%20and%20grace%2C%20were%20able%20to%20shoot%20down%20a%20Saudi%20F-15%20fighter%20jet%20while%20it%20was%20conducting%20hostile%20operations%20in%20support%20of%20its%20military%20buildup%20in%20the%20skies%20over%20Marib%20Governorate%2C%20the%20fightr%20jet%20was%20downed%20using%20a%20locally%20manufactured%20surface-to-air%20missile.%20In%20a%20related%20operation%2C%20the%20Yemeni%20Armed%20Forces%2C%20with%20Allah%27s%20help%2C%20engaged%20with%20two%20Saudi%20F-15%20and%20Typhoon%20fighter%20formations%20in%20the%20skies%20over%20Marib%20Governorate%20using%20locally%20manufactured%20missiles%2C%20these%20formations%20wer"
-   },
-   {
-    "time": "2026-09-16 08:30",
-    "iso": "2026-09-16T08:30:40+03:00",
-    "places": [],
-    "text": "بيان القوات المسلحة اليمنية بشأن إسقاط طائرة حربية سعودية نوع \"F15\" أثناء قيامها بأعمال عدائية دعما للتحشيدات السعودية في محافظة مأرب. جودة متوسطة http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3714",
-    "translate": "https://translate.google.com/?sl=auto&tl=ko&op=translate&text=%D8%A8%D9%8A%D8%A7%D9%86%20%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%A5%D8%B3%D9%82%D8%A7%D8%B7%20%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9%20%D8%AD%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9%20%D9%86%D9%88%D8%B9%20%22F15%22%20%D8%A3%D8%AB%D9%86%D8%A7%D8%A1%20%D9%82%D9%8A%D8%A7%D9%85%D9%87%D8%A7%20%D8%A8%D8%A3%D8%B9%D9%85%D8%A7%D9%84%20%D8%B9%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9%20%D8%AF%D8%B9%D9%85%D8%A7%20%D9%84%D9%84%D8%AA%D8%AD%D8%B4%D9%8A%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9%20%D9%81%D9%8A%20%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9%20%D9%85%D8%A3%D8%B1%D8%A8.%20%D8%AC%D9%88%D8%AF%D8%A9%20%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9%20http%3A//t.me/army21ye"
-   },
-   {
-    "time": "2026-09-16 08:30",
-    "iso": "2026-09-16T08:30:40+03:00",
-    "places": [],
-    "text": "بيان القوات المسلحة اليمنية بشأن إسقاط طائرة حربية سعودية نوع \"F15\" أثناء قيامها بأعمال عدائية دعما للتحشيدات السعودية في محافظة مأرب. جودة منخفضة http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3715",
-    "translate": "https://translate.google.com/?sl=auto&tl=ko&op=translate&text=%D8%A8%D9%8A%D8%A7%D9%86%20%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B3%D9%84%D8%AD%D8%A9%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A%D8%A9%20%D8%A8%D8%B4%D8%A3%D9%86%20%D8%A5%D8%B3%D9%82%D8%A7%D8%B7%20%D8%B7%D8%A7%D8%A6%D8%B1%D8%A9%20%D8%AD%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9%20%D9%86%D9%88%D8%B9%20%22F15%22%20%D8%A3%D8%AB%D9%86%D8%A7%D8%A1%20%D9%82%D9%8A%D8%A7%D9%85%D9%87%D8%A7%20%D8%A8%D8%A3%D8%B9%D9%85%D8%A7%D9%84%20%D8%B9%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9%20%D8%AF%D8%B9%D9%85%D8%A7%20%D9%84%D9%84%D8%AA%D8%AD%D8%B4%D9%8A%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9%20%D9%81%D9%8A%20%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9%20%D9%85%D8%A3%D8%B1%D8%A8.%20%D8%AC%D9%88%D8%AF%D8%A9%20%D9%85%D9%86%D8%AE%D9%81%D8%B6%D8%A9%20http%3A//t.me/army21ye"
-   },
-   {
-    "time": "2026-09-15 20:31",
-    "iso": "2026-09-15T20:31:12+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text": "شن الطيران الحربي السعودي 52 غارة جوية خلال الـ24 ساعة الماضية بطائرات \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائفْ، استهدفت الأعيان المدنية من مدارس وجسور وطرقات في محافظة تعز مع استهداف أعيان مدنية أخرى في محافظات الجوف والبيضاء وصعدة وعمران. هذه الاع…",
-    "url": "https://t.me/army21ye/3712",
-    "translate": "https://translate.google.com/?sl=auto&tl=ko&op=translate&text=%D8%B4%D9%86%20%D8%A7%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86%20%D8%A7%D9%84%D8%AD%D8%B1%D8%A8%D9%8A%20%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%2052%20%D8%BA%D8%A7%D8%B1%D8%A9%20%D8%AC%D9%88%D9%8A%D8%A9%20%D8%AE%D9%84%D8%A7%D9%84%20%D8%A7%D9%84%D9%8024%20%D8%B3%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D8%B6%D9%8A%D8%A9%20%D8%A8%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA%20%22F15%22%20%D9%88%20%22%D8%AA%D8%A7%D9%8A%D9%81%D9%88%D9%86%22%20%D8%A3%D9%82%D9%84%D8%B9%D8%AA%20%D9%85%D9%86%20%D9%82%D8%A7%D8%B9%D8%AF%D8%AA%D9%8A%20%D8%AE%D9%85%D9%8A%D8%B3%20%D9%85%D8%B4%D9%8A%D8%B7%20%D9%88%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D9%81%D9%92%D8%8C%20%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%AA%20%D8%A7%D9%84%D8%A3%D8%B9%D9%8A%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D8%A9%20%D9%85%D9%86%20%D9%85%D8%AF%D8%A7%D8%B1%D8%B3%20%D9%88%D8%AC%D8%B3%D9%88%D8%B1%20%D9%88%D8%B7%D8%B1%D9%82%D8%A7%D8%AA%20%D9%81%D9%8A%20%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9%20%D8%AA%D8%B9%D8%B2%20%D9%85%D8%B9%20%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81%20%D8%A3%D8%B9%D9%8A%D8%A7%D9%86%20%D9%85%D8%AF%D9%86%D9%8A%D8%A9%20%D8%A3%D8%AE%D8%B1%D9%89%20%D9%81%D9%8A%20%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AC%D9%88%D9%81%20%D9%88%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1%20%D9%88%D8%B5%D8%B9%D8%AF%D8%A9%20%D9%88%D8%B9%D9%85%D8%B1%D8%A7%D9%86.%20%D9%87%D8%B0%D9%87%20%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%AF%D8%A7%D8%A1%D8%A7%D8%AA%20%D8%A7%D9%84%D9%88%D8%AD%D8%B4%D9%8A%D8%A9%20%D9%84%D9%86%20%D8%AA%D9%85%D8%B1%20%D8%AF%D9%88%D9%86%20%D8%B1%D8%AF%20%D8%A8%D8%A5%D8%B0%D9%86%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89.%20http%3A//t.me/army21ye"
+    "text_ar": "This week, Saudi warplanes launched more than 450 airstrikes using F-15 and Typhoon fighter jets, which took off from Khamis Mushait and Taif airbases, these airstrikes targeted the governorates of Taiz, Lahj, Al-Jawf, Hajjah, Ma'rib, Sa'dah, and Al-Bayda, resulting in martyrs and wounded of civilian casualties In the face of this brutal aggression against our country and people, the Yemeni Armed …",
+    "text_ko": "이번 주 사우디아라비아 전투기는 카미스 무샤이트와 타이프 공군 기지에서 이륙한 F-15와 타이푼 전투기를 사용하여 450회 이상의 공습을 시작했으며, 이 공습은 타이즈, 라흐즈, 알자우프, 하지야, 마립, 사다, 알바이다의 주지사를 겨냥하여 순교자와 민간인 사상자를 발생시켰습니다. 우리나라와 국민에 대한 잔인한 침략에 맞서 예멘 무장…",
+    "url": "https://t.me/army21ye/3717"
    }
   ]
  },
  "maritime": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T11:11:49Z",
+  "fetched_at": "2026-09-16T13:22:45Z",
   "series": {
    "port570": {
     "name": "얀부항",
@@ -6139,5 +6119,11 @@
     ]
    }
   }
+ },
+ "market": {
+  "ok": false,
+  "error": "429 Client Error: Too Many Requests for url: https://query1.finance.yahoo.com/v8/finance/chart/2222.SR?range=3mo&interval=1d",
+  "fetched_at": "2026-09-16T13:22:50Z",
+  "series": {}
  }
 }

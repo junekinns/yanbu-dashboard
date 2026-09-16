@@ -2,11 +2,15 @@ name: Update dashboard data
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "7 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 
 jobs:
   update:

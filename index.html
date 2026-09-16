@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Red Sea Watch · 사우디</title>
-<meta name="description" content="위키피디아 관심도, NASA 위성 열 감지, 외교부 공지 템포, 항만 활동 네 가지 간접 신호로 사우디 서부·중부·동부 상황을 읽는 비공식 대시보드" />
+<meta name="description" content="위성 열 감지, 외교부 공지 템포, 항만 활동, 아람코 주가 네 가지 간접 신호로 사우디 서부·중부·동부 상황을 읽는 비공식 대시보드" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="style.css" />
 </head>
@@ -14,8 +14,13 @@
       <h1>Red Sea Watch <span class="h1-sub">사우디</span></h1>
       <nav id="region-tabs" class="tabs" aria-label="권역 선택"></nav>
     </div>
-    <p class="subtitle">공식 발표가 말하지 않는 것을 간접 신호로 읽는 모니터. 6시간마다 자동 갱신.</p>
+    <p class="subtitle">공식 발표가 말하지 않는 것을 간접 신호로 읽는 모니터. 매시간 자동 갱신.</p>
     <p id="mofa-line" class="official"></p>
+    <div class="refresh-row">
+      <button id="refresh-btn" type="button">↻ 새로고침</button>
+      <span id="refresh-status" class="muted small"></span>
+      <a id="workflow-link" class="muted small" href="https://github.com/junekinns/yanbu-dashboard/actions/workflows/update.yml" target="_blank" rel="noopener">지금 바로 데이터 재수집 (GitHub 로그인 필요)</a>
+    </div>
   </header>
 
   <main>
@@ -40,13 +45,21 @@
         <p class="sub"></p>
         <canvas height="48"></canvas>
       </article>
+
+      <article class="card tile" id="tile-market">
+        <h2>시장 반응</h2>
+        <div class="badge" id="badge-market">–</div>
+        <p class="sub"></p>
+        <canvas height="48"></canvas>
+      </article>
     </section>
     <details class="card tiles-help">
-      <summary>이 세 지표는 어떻게 계산되나요?</summary>
+      <summary>이 네 지표는 어떻게 계산되나요?</summary>
       <ul>
         <li><b>위성 열 감지</b> — NASA FIRMS 위성이 이 권역에서 감지한 화점 중 정유 플레어처럼 매일 같은 자리에 있는 상시 열원을 뺀 것. 24시간 건수를 평시(최근 기록의 중앙값)와 비교. 큰 인프라 화재만 잡히고 위성은 하루 두 번만 지나갑니다.</li>
-        <li><b>공지 템포</b> — 외교부가 사우디아라비아 전체에 낸 안전공지의 최근 7일 건수를 평시와 비교. 대사관이 바빠지면 상황이 급박한 것.</li>
-        <li><b>해상 교통</b> — IMF PortWatch가 AIS로 집계한 주요 항구(또는 해협)의 최근 7일 입항·통과 선박 수를 평시와 비교. 배가 끊기면 터미널이 멈춘 것 — 유일하게 <b>낮을수록 위험</b>.</li>
+        <li><b>공지 템포</b> — 외교부가 사우디아라비아 전체에 낸 안전공지의 최근 7일 건수를 평시와 비교. 대사관이 바빠지면 상황이 급박한 것. 다만 이미 벌어진 일에 대한 사후 대응이라 선행성은 약함.</li>
+        <li><b>해상 교통</b> — IMF PortWatch가 AIS로 집계한 주요 항구(또는 해협)의 최근 7일 입항·통과 선박 수를 평시와 비교. 배가 끊기면 터미널이 멈춘 것 — <b>낮을수록 위험</b>.</li>
+        <li><b>시장 반응</b> — 아람코(2222.SR)·타다울 지수를 최근 20거래일 평시와 비교. 투자자는 뉴스가 나기 전에 위험을 가격에 반영하기도 함 — <b>낮을수록 위험</b>. 사우디 증시 개장 시간에만 갱신됨.</li>
       </ul>
     </details>
 
@@ -61,16 +74,22 @@
     <section class="card">
       <h2>후티 군 대변인 채널 <span class="muted small">Telegram @army21ye · 사우디 언급 메시지만 · 상대측 발표라 검증되지 않음</span></h2>
       <ul id="telegram-list" class="tg-list"></ul>
-      <p class="muted small">후티는 공격을 채널에서 먼저 예고·발표합니다. 원문은 아랍어이고 "번역"을 누르면 구글 번역으로 열립니다. 감지된 사우디 지명을 배지로 표시합니다.</p>
+      <p class="muted small">후티는 공격을 채널에서 먼저 예고·발표합니다. 한국어 번역을 우선 표시하고(자동 번역, 오역 가능) 아랍어 원문은 접어 둡니다. 감지된 사우디 지명을 배지로 표시합니다.</p>
     </section>
 
     <section class="card">
       <div class="card-head">
         <h2 id="map-title">권역 지도</h2>
-        <div class="range" id="range-tabs" role="group" aria-label="기간">
-          <button data-hours="24">24시간</button>
-          <button data-hours="72" class="on">72시간</button>
-          <button data-hours="168">7일</button>
+        <div class="map-controls">
+          <div class="range" id="basemap-tabs" role="group" aria-label="바탕지도">
+            <button data-base="dark" class="on">지도</button>
+            <button data-base="sat">위성</button>
+          </div>
+          <div class="range" id="range-tabs" role="group" aria-label="기간">
+            <button data-hours="24">24시간</button>
+            <button data-hours="72" class="on">72시간</button>
+            <button data-hours="168">7일</button>
+          </div>
         </div>
       </div>
       <div id="map"></div>

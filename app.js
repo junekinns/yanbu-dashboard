@@ -24,7 +24,7 @@ const staleTag = (src) => (src?.stale ? " (이전 값)" : "");
 const pct = (x) => (x?.ratio != null ? `${Math.round(x.ratio * 100)}%` : "–");
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-const state = { data: null, region: localStorage.getItem("region") || "west", hours: 72, map: null, layer: null, charts: {} };
+const state = { data: null, region: localStorage.getItem("region") || "west", hours: 72, base: "dark", map: null, layer: null, baseLayers: {}, charts: {} };
 const currentRegion = () => state.data.regions.find((r) => r.key === state.region) || state.data.regions[0];
 
 // ---------------------------------------------------------------- tiles
@@ -77,6 +77,13 @@ function renderTiles() {
     sub: `${port.name} 최근 7일 ${port.last7}척 (평시 ${Math.round(port.baseline7)}척, ${pct(port)}) · ${port.last_date} 기준${staleTag(d.maritime)}`,
     labels: port.spark.map((p) => p.date), values: port.spark.map((p) => p.value),
   } : { sub: `수집 실패: ${d.maritime?.error || ""}` });
+
+  const mkt = (d.market?.series || {})["2222.SR"], tasi = (d.market?.series || {})["%5ETASI.SR"];
+  fillTile("tile-market", mkt ? {
+    tier: mkt.tier,
+    sub: `아람코 ${mkt.latest} SAR (평시 ${mkt.baseline}, ${pct(mkt)}) · 타다울 ${tasi ? pct(tasi) : "–"}${staleTag(d.market)}`,
+    labels: mkt.spark.map((_, i) => i), values: mkt.spark,
+  } : { sub: `수집 실패: ${d.market?.error || ""}` });
 }
 
 // ---------------------------------------------------------------- header / lists
@@ -114,13 +121,16 @@ function renderEvents() {
 function renderTelegram() {
   const tg = state.data.telegram || {}, r = currentRegion();
   const regionCities = new Set((state.data.mofa?.places || []).filter((p) => p.region === r.key).map((p) => p.name));
-  document.getElementById("telegram-list").innerHTML = (tg.messages || []).map((msg) => `
+  document.getElementById("telegram-list").innerHTML = (tg.messages || []).map((msg, i) => `
     <li class="${msg.places.some((p) => regionCities.has(p)) ? "local" : ""}">
       <div class="tg-head"><span class="ev-time">${msg.time}</span>
         ${msg.places.map((p) => `<span class="place-badge">${esc(p)}</span>`).join("")}
-        <a class="tg-link" href="${msg.url}" target="_blank" rel="noopener">원문</a>
-        <a class="tg-link" href="${msg.translate}" target="_blank" rel="noopener">번역</a></div>
-      <p class="tg-text" dir="auto">${esc(msg.text)}</p>
+        <a class="tg-link" href="${msg.url}" target="_blank" rel="noopener">채널에서 보기</a></div>
+      <p class="tg-text">${msg.text_ko ? esc(msg.text_ko) : '<span class="muted">번역 실패 — 아래 원문 참고</span>'}</p>
+      <details class="tg-original">
+        <summary>아랍어 원문${msg.text_ko ? "" : " (번역 없음)"}</summary>
+        <p class="tg-text" dir="rtl" lang="ar">${esc(msg.text_ar)}</p>
+      </details>
     </li>`).join("") || `<li class="muted">${tg.error ? "수집 실패" : "최근 메시지 중 사우디 언급 없음"}</li>`;
 }
 
@@ -140,7 +150,10 @@ function renderMap() {
   const d = state.data, r = currentRegion();
   if (!state.map) {
     state.map = L.map("map", { scrollWheelZoom: false });
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 11 }).addTo(state.map);
+    state.baseLayers.dark = L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+      { attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 11 }).addTo(state.map);
+    state.baseLayers.sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      { attribution: "Esri World Imagery", maxZoom: 18 });
   }
   state.map.setView(r.center, r.zoom);
   state.layer?.remove();
@@ -172,12 +185,16 @@ function renderMap() {
       .addTo(state.layer);
   });
 
-  // 사건 — 같은 도시는 원형으로 살짝 벌려 겹치지 않게
+  // 사건 — 같은 도시는 원형으로 살짝 벌려 겹치지 않게. 6시간 이내는 pulse 애니메이션으로 강조.
   const perCity = {};
   events.forEach((e) => {
     const k = (perCity[e.city] = (perCity[e.city] || 0) + 1), ang = k * 2.1, rr = 0.12;
     const ts = TYPE_STYLE[e.type] || { color: "#8a97a8" };
-    L.circleMarker([e.lat + rr * Math.sin(ang), e.lon + rr * Math.cos(ang)], { radius: 6 + 2 * Math.log2(e.outlets), color: "#0f1720", weight: 1, fillColor: ts.color, fillOpacity: 0.95 })
+    const isRecent = Date.now() - new Date(e.iso) < 6 * 3600e3;
+    L.circleMarker([e.lat + rr * Math.sin(ang), e.lon + rr * Math.cos(ang)], {
+      radius: 6 + 2 * Math.log2(e.outlets), color: "#0f1720", weight: 1, fillColor: ts.color, fillOpacity: 0.95,
+      className: isRecent ? "pulse-marker" : "",
+    })
       .bindPopup(`<span class="ev-type ${ts.cls || ""}">${e.type}</span> <b>${esc(e.city)}</b> · ${e.date} ${e.time}<br>` +
         `<a href="${e.url}" target="_blank" rel="noopener">${esc(e.title)}</a><br><small>${esc(e.source)}${e.outlets > 1 ? ` 외 ${e.outlets - 1}개 매체` : ""}</small>`)
       .addTo(state.layer);
@@ -215,6 +232,38 @@ document.getElementById("range-tabs").addEventListener("click", (e) => {
   state.hours = Number(btn.dataset.hours);
   document.querySelectorAll("#range-tabs button").forEach((b) => b.classList.toggle("on", b === btn));
   renderMap();
+});
+document.getElementById("basemap-tabs").addEventListener("click", (e) => {
+  const btn = e.target.closest("button[data-base]");
+  if (!btn || btn.dataset.base === state.base) return;
+  state.baseLayers[state.base]?.remove();
+  state.base = btn.dataset.base;
+  state.baseLayers[state.base]?.addTo(state.map).bringToBack();
+  document.querySelectorAll("#basemap-tabs button").forEach((b) => b.classList.toggle("on", b === btn));
+});
+
+const refreshBtn = document.getElementById("refresh-btn");
+refreshBtn.addEventListener("click", async () => {
+  const status = document.getElementById("refresh-status");
+  refreshBtn.disabled = true;
+  status.textContent = "확인 중...";
+  try {
+    const res = await fetch(`data/latest.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(String(res.status));
+    const fresh = await res.json();
+    const changed = fresh.generated_at !== state.data?.generated_at;
+    state.data = fresh;
+    renderAll();
+    renderNews();
+    document.getElementById("last-updated").textContent =
+      `마지막 업데이트: ${new Date(fresh.generated_at).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" })}`;
+    status.textContent = changed ? "새 데이터로 갱신했습니다" : "이미 최신입니다 (다음 자동 수집까지 대기)";
+  } catch {
+    status.textContent = "새로고침 실패 — 잠시 후 다시 시도";
+  } finally {
+    refreshBtn.disabled = false;
+    setTimeout(() => { status.textContent = ""; }, 6000);
+  }
 });
 
 async function main() {

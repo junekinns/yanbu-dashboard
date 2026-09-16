@@ -408,8 +408,22 @@ def fetch_events():
 
 # ------------------------------------------------------------ telegram
 
+MYMEMORY_URL = "https://api.mymemory.translated.net/get"
+
+
+def translate_ar_ko(text):
+    """MyMemory 무료 번역 API(무키). 실패하면 None을 돌려주고 원문만 남긴다."""
+    try:
+        resp = get(f"{MYMEMORY_URL}?q={quote(text)}&langpair=ar|ko", timeout=15)
+        data = resp.json()
+        translated = data.get("responseData", {}).get("translatedText")
+        return translated if translated and "MYMEMORY WARNING" not in translated else None
+    except (requests.RequestException, ValueError):
+        return None
+
+
 def fetch_telegram():
-    """후티 군 대변인 채널의 최근 메시지 중 사우디·사우디 지명 언급만 남긴다."""
+    """후티 군 대변인 채널의 최근 메시지 중 사우디·사우디 지명 언급만 남기고 한국어로 번역한다."""
     result = {"ok": False, "error": None, "fetched_at": now_iso(), "channel": TELEGRAM_URL, "messages": []}
     try:
         page = get(TELEGRAM_URL, BROWSER_HEADERS).text
@@ -429,12 +443,20 @@ def fetch_telegram():
         if not places and not re.search(r"السعود|Saudi", body):
             continue
         local = datetime.fromisoformat(when.group(1)).astimezone(AST)
+        original = body[:400] + ("…" if len(body) > 400 else "")
+        key = re.sub(r"\s+", "", body)[:60]
+        if any(m["_key"] == key for m in result["messages"]):
+            continue
         result["messages"].append({
             "time": local.strftime("%Y-%m-%d %H:%M"), "iso": local.isoformat(), "places": places,
-            "text": body[:260] + ("…" if len(body) > 260 else ""), "url": link.group(1),
-            "translate": "https://translate.google.com/?sl=auto&tl=ko&op=translate&text=" + quote(body[:900]),
+            "text_ar": original, "text_ko": None, "url": link.group(1), "_key": key,
         })
     result["messages"] = sorted(result["messages"], key=lambda m: m["iso"], reverse=True)[:6]
+    for m in result["messages"]:
+        del m["_key"]
+    for m in result["messages"]:
+        m["text_ko"] = translate_ar_ko(m["text_ar"][:480])  # MyMemory 무료 한도는 요청당 500자
+        time.sleep(0.3)
     result["ok"] = True
     return result
 
@@ -479,6 +501,37 @@ def fetch_maritime():
     return result
 
 
+# ------------------------------------------------------------ market
+# 시장은 뉴스가 나기 전에 위험을 가격에 반영한다(피자지수와 같은 발상).
+# 야후 파이낸스 비공식 차트 API는 무료·무키.
+
+YAHOO_CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=3mo&interval=1d"
+MARKET_SYMBOLS = [("2222.SR", "아람코 주가"), ("%5ETASI.SR", "타다울 지수")]
+
+
+def fetch_market():
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "series": {}}
+    try:
+        for symbol, name in MARKET_SYMBOLS:
+            data = get(YAHOO_CHART_URL.format(symbol=symbol), BROWSER_HEADERS).json()["chart"]["result"][0]
+            closes = [c for c in data["indicators"]["quote"][0]["close"] if c is not None]
+            if len(closes) < 10:
+                raise ValueError(f"{name}: 데이터 부족")
+            latest = closes[-1]
+            baseline = statistics.median(closes[-23:-3])  # 최근 3일 뺀 20거래일 중앙값
+            r = ratio(latest, baseline)
+            result["series"][symbol] = {
+                "name": name, "latest": round(latest, 2), "baseline": round(baseline, 2),
+                "ratio": r, "tier": tier_down(r, lo=0.95, mid=0.98, labels=("급락", "하락", "보통")),
+                "spark": [round(c, 2) for c in closes[-30:]],
+            }
+    except (requests.RequestException, KeyError, IndexError, ValueError) as exc:
+        result["error"] = str(exc)
+        return result
+    result["ok"] = True
+    return result
+
+
 # ------------------------------------------------------------ main
 
 def main():
@@ -492,11 +545,12 @@ def main():
         "events": carry_over(fetch_events(), previous.get("events", {})),
         "telegram": carry_over(fetch_telegram(), previous.get("telegram", {})),
         "maritime": carry_over(fetch_maritime(), previous.get("maritime", {})),
+        "market": carry_over(fetch_market(), previous.get("market", {})),
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("firms", "mofa", "news", "events", "telegram", "maritime")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("firms", "mofa", "news", "events", "telegram", "maritime", "market")))
     return 0
 
 
