@@ -6,106 +6,113 @@ const LEVEL_STYLE = {
   3: { cls: "level-3", color: "#c0392b", label: "3단계 출국권고" },
   4: { cls: "level-4", color: "#222", label: "4단계 여행금지" },
 };
-
 const styleOf = (level) => LEVEL_STYLE[level] || { cls: "level-unknown", color: "#8a97a8", label: "정보 없음" };
 
-function formatDateTime(iso) {
-  return iso ? new Date(iso).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" }) : "-";
+const severity = (ratio) => (ratio == null ? "" : ratio >= 3 ? "hot" : ratio >= 1.5 ? "warm" : "calm");
+const staleTag = (src) => (src?.stale ? " (이전 값)" : "");
+
+function sparkline(canvas, labels, values, type, color) {
+  new Chart(canvas, {
+    type,
+    data: { labels, datasets: [{ data: values, borderColor: color, backgroundColor: color, borderWidth: 2, pointRadius: 0, tension: 0.3, fill: false }] },
+    options: {
+      animation: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { title: (items) => labels[items[0].dataIndex] } } },
+      scales: { x: { display: false }, y: { display: false, beginAtZero: true } },
+    },
+  });
 }
 
-function renderSummary(data) {
-  const badge = document.getElementById("overall-badge");
-  const mofa = data.mofa || {};
-  const stale = mofa.stale ? " (이전 값)" : "";
+function fillTile(id, { value, ratio, sub, labels, values, type }) {
+  const tile = document.getElementById(id);
+  tile.querySelector(".value").textContent = value;
+  tile.querySelector(".sub").textContent = sub;
+  tile.classList.remove("hot", "warm", "calm");
+  if (severity(ratio)) tile.classList.add(severity(ratio));
+  const color = { hot: "#e5533d", warm: "#e0b83a", calm: "#3fa66b", "": "#8a97a8" }[severity(ratio)];
+  sparkline(tile.querySelector("canvas"), labels, values, type, color);
+}
 
-  if (data.overall) {
-    const s = styleOf(data.overall.level);
-    badge.className = `badge ${s.cls}`;
-    badge.textContent = `${s.label}${stale}`;
+function renderAttention(att) {
+  const yanbu = att.articles?.find((a) => a.key === "yanbu");
+  const jeddah = att.articles?.find((a) => a.key === "jeddah");
+  if (!yanbu) return fillTile("tile-attention", { value: "–", sub: `수집 실패: ${att.error || ""}`, labels: [], values: [], type: "line" });
+  fillTile("tile-attention", {
+    value: yanbu.ratio != null ? `${yanbu.ratio}×` : "–",
+    ratio: yanbu.ratio,
+    sub: `얀부 ${yanbu.latest}회 (평시 ${Math.round(yanbu.baseline)}) · 제다 ${jeddah?.ratio ?? "–"}× · ${yanbu.latest_date}${staleTag(att)}`,
+    labels: yanbu.series.map((s) => s.date),
+    values: yanbu.series.map((s) => s.views),
+    type: "line",
+  });
+}
+
+function renderFirms(firms) {
+  if (!firms.daily_counts) return fillTile("tile-firms", { value: "–", sub: `수집 실패: ${firms.error || ""}`, labels: [], values: [], type: "bar" });
+  const ratio = firms.baseline ? firms.last24h / firms.baseline : null;
+  const base = firms.baseline != null ? `평시 ${firms.baseline}건/일` : "평시 기준선 수집 중";
+  fillTile("tile-firms", {
+    value: String(firms.last24h),
+    ratio,
+    sub: `얀부 ${firms.regions.yanbu.h24}건 · 제다 ${firms.regions.jeddah.h24}건 · ${base}${staleTag(firms)}`,
+    labels: firms.daily_counts.map((d) => d.date),
+    values: firms.daily_counts.map((d) => d.count),
+    type: "bar",
+  });
+}
+
+function renderMofa(mofa) {
+  const line = document.getElementById("mofa-line");
+  if (mofa.regions) {
+    line.innerHTML = "외교부 경보 · " + mofa.regions.map((r) => {
+      const s = styleOf(r.level);
+      return `<span class="dot ${s.cls}"></span>${r.name} <strong>${s.label}</strong>`;
+    }).join(" · ") + staleTag(mofa);
   } else {
-    badge.className = "badge level-unknown";
-    badge.textContent = "외교부 데이터 수집 실패";
+    line.textContent = "외교부 데이터 수집 실패";
   }
 
-  const list = document.getElementById("region-levels");
-  list.innerHTML = "";
-  (mofa.regions || []).forEach((r) => {
-    const s = styleOf(r.level);
-    const li = document.createElement("li");
-    li.innerHTML = `<span class="dot ${s.cls}"></span><strong>${r.name}</strong> ${s.label}`;
-    list.appendChild(li);
+  if (!mofa.weekly_counts) return fillTile("tile-mofa", { value: "–", sub: `수집 실패: ${mofa.error || ""}`, labels: [], values: [], type: "bar" });
+  fillTile("tile-mofa", {
+    value: String(mofa.last7d),
+    ratio: mofa.ratio,
+    sub: `평시 ${mofa.baseline}건/주 · 7일 창 8개${staleTag(mofa)}`,
+    labels: mofa.weekly_counts.map((w) => w.week),
+    values: mofa.weekly_counts.map((w) => w.count),
+    type: "bar",
   });
 
-  const fcdo = data.fcdo || {};
-  document.getElementById("fcdo-line").textContent = fcdo.text
-    ? `영국 FCDO: ${fcdo.text}${fcdo.stale ? " (이전 값)" : ""}`
-    : "";
-  document.getElementById("last-updated").textContent = `마지막 업데이트: ${formatDateTime(data.generated_at)}`;
+  const list = document.getElementById("notice-list");
+  list.innerHTML = (mofa.notices || []).map((n) => `
+    <li><div class="notice-date">${n.date}</div>
+      <a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
+      ${n.summary ? `<p class="summary">${n.summary}</p>` : ""}</li>`).join("") || '<li class="muted">공지 없음</li>';
 }
 
 function renderMap(data) {
-  const map = L.map("map", { scrollWheelZoom: false }).setView([22.8, 38.6], 6);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "&copy; OpenStreetMap contributors",
-    maxZoom: 10,
-  }).addTo(map);
+  const map = L.map("map", { scrollWheelZoom: false }).setView([23.0, 39.3], 6);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap", maxZoom: 10 }).addTo(map);
 
   (data.mofa?.regions || []).forEach((r) => {
     const s = styleOf(r.level);
-    L.circle([r.lat, r.lon], {
-      radius: 60000,
-      color: s.color,
-      weight: 2,
-      dashArray: s.dashed ? "6 6" : null,
-      fillColor: s.color,
-      fillOpacity: 0.35,
-    })
-      .addTo(map)
-      .bindTooltip(`${r.name} · ${s.label}`, { permanent: true, direction: "top" });
+    L.circle([r.lat, r.lon], { radius: 60000, color: s.color, weight: 2, dashArray: s.dashed ? "6 6" : null, fillColor: s.color, fillOpacity: 0.12 })
+      .addTo(map).bindTooltip(`${r.name} · ${s.label}`, { permanent: true, direction: "top" });
   });
 
-  const legend = document.getElementById("legend");
-  Object.values(LEVEL_STYLE).forEach((s) => {
-    const li = document.createElement("li");
-    li.innerHTML = `<span class="dot ${s.cls}"></span>${s.label}`;
-    legend.appendChild(li);
+  const hotspots = data.firms?.hotspots || [];
+  const newest = hotspots.at(-1)?.date;
+  hotspots.forEach((h) => {
+    const ageDays = newest ? (new Date(newest) - new Date(h.date)) / 864e5 : 0;
+    L.circleMarker([h.lat, h.lon], {
+      radius: 3 + Math.sqrt(h.frp),
+      color: "#ff7a1a", fillColor: "#ff4d1a", weight: 1,
+      fillOpacity: Math.max(0.15, 0.85 - ageDays * 0.12), opacity: Math.max(0.3, 1 - ageDays * 0.1),
+    }).addTo(map).bindTooltip(`${h.date} ${h.time.padStart(4, "0")} UTC · FRP ${h.frp}`);
   });
-}
 
-function renderNotices(data) {
-  const list = document.getElementById("notice-list");
-  const notices = data.mofa?.notices || [];
-  list.innerHTML = "";
-  if (notices.length === 0) {
-    list.innerHTML = '<li class="muted">표시할 공지가 없습니다.</li>';
-    return;
-  }
-  notices.forEach((n) => {
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <div class="notice-date">${n.date}</div>
-      <a href="${n.url}" target="_blank" rel="noopener">${n.title}</a>
-      ${n.summary ? `<p class="summary">${n.summary}</p>` : ""}`;
-    list.appendChild(li);
-  });
-}
-
-function renderChart(data) {
-  const weekly = data.mofa?.weekly_counts || [];
-  new Chart(document.getElementById("trend-chart"), {
-    type: "bar",
-    data: {
-      labels: weekly.map((w) => w.week.slice(5)),
-      datasets: [{ data: weekly.map((w) => w.count), backgroundColor: "#c0392b" }],
-    },
-    options: {
-      plugins: { legend: { display: false } },
-      scales: {
-        x: { ticks: { color: "#8a97a8" }, grid: { display: false } },
-        y: { ticks: { color: "#8a97a8", precision: 0 }, grid: { color: "#263140" }, beginAtZero: true },
-      },
-    },
-  });
+  document.getElementById("legend").innerHTML =
+    `<li><span class="dot" style="background:#ff4d1a"></span>위성 열 감지점</li>` +
+    Object.values(LEVEL_STYLE).map((s) => `<li><span class="dot ${s.cls}"></span>${s.label}</li>`).join("");
 }
 
 async function main() {
@@ -113,12 +120,14 @@ async function main() {
     const res = await fetch("data/latest.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`data/latest.json ${res.status}`);
     const data = await res.json();
-    renderSummary(data);
+    renderAttention(data.attention || {});
+    renderFirms(data.firms || {});
+    renderMofa(data.mofa || {});
     renderMap(data);
-    renderNotices(data);
-    renderChart(data);
+    document.getElementById("last-updated").textContent =
+      `마지막 업데이트: ${new Date(data.generated_at).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" })}`;
   } catch (err) {
-    document.getElementById("overall-badge").textContent = "데이터 로드 실패";
+    document.getElementById("mofa-line").textContent = "데이터 로드 실패";
     console.error(err);
   }
 }

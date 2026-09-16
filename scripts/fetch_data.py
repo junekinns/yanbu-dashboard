@@ -1,72 +1,72 @@
 #!/usr/bin/env python3
 """
-얀부·제다 상황판 데이터 수집.
+얀부·제다 상황판 데이터 수집. 세 가지 간접 지표를 만든다.
 
-  1. 외교부 해외안전여행(0404.go.kr) 사우디아라비아 페이지
-     - 지역별 여행경보 단계 (얀부/제다가 어느 단계 지역에 속하는지)
-     - 사우디 관련 안전공지 목록 + 각 공지 본문 첫 줄 요약
-  2. 영국 FCDO 사우디 여행경보 (보조 신호)
+  attention  영어 위키피디아 Yanbu/Jeddah 일일 조회수 ÷ 평시 중앙값
+  firms      NASA FIRMS VIIRS 위성 열 감지 (서부 사우디, 최근 7일)
+  mofa       외교부 해외안전여행 사우디 경보 단계 + 안전공지 주간 건수
 
-실패한 소스는 이전 성공 데이터를 유지하고 ok=false, stale=true 로 표시한다.
+모두 무료·무키. 실패한 소스는 이전 성공 데이터를 유지하고 stale=true 로 표시.
 """
+import csv
 import html as htmllib
+import io
 import json
 import os
 import re
+import statistics
 import sys
 import time
 from collections import Counter
-from datetime import date, datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(ROOT, "data", "latest.json")
-
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-    )
-}
-
-MOFA_BASE = "https://www.0404.go.kr"
-MOFA_NTN_CD = "107"  # 사우디아라비아
-MOFA_COUNTRY_URL = f"{MOFA_BASE}/ntnSafetyInfo/{MOFA_NTN_CD}/detail"
-MOFA_NOTICE_URL = f"{MOFA_BASE}/bbs/safetyNtc/list?ntnCd={MOFA_NTN_CD}&pageSize=50"
-FCDO_URL = "https://www.gov.uk/foreign-travel-advice/saudi-arabia"
+HEADERS = {"User-Agent": "yanbu-dashboard/1.0 (github.com/junekinns/yanbu-dashboard)"}
+BROWSER_HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"}
 
 REGIONS = [
-    {"name": "얀부", "aliases": ["얀부", "Yanbu"], "lat": 24.0895, "lon": 38.0618},
-    {"name": "제다", "aliases": ["제다", "젯다", "Jeddah"], "lat": 21.4858, "lon": 39.1925},
+    {"key": "yanbu", "name": "얀부", "aliases": ["얀부", "Yanbu"], "lat": 24.0895, "lon": 38.0618,
+     "box": (23.7, 24.4, 37.8, 38.6), "wiki": "Yanbu"},
+    {"key": "jeddah", "name": "제다", "aliases": ["제다", "젯다", "Jeddah"], "lat": 21.4858, "lon": 39.1925,
+     "box": (21.2, 22.0, 38.9, 39.6), "wiki": "Jeddah"},
 ]
+WEST_SAUDI_BOX = (20.0, 26.5, 37.0, 42.0)  # 제다~얀부~메디나주 송유관 회랑
 
-# 외교부 단계. 특별여행주의보는 2단계 이상·3단계 이하로 운용되므로 2.5로 둔다.
-LEVELS = {
-    "여행유의": 1,
-    "여행자제": 2,
-    "특별여행주의보": 2.5,
-    "출국권고": 3,
-    "여행금지": 4,
-}
+MOFA_BASE = "https://www.0404.go.kr"
+MOFA_COUNTRY_URL = f"{MOFA_BASE}/ntnSafetyInfo/107/detail"
+MOFA_NOTICE_URL = f"{MOFA_BASE}/bbs/safetyNtc/list?ntnCd=107&pageSize=50"
+FIRMS_URL = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv"
+WIKI_URL = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/{title}/daily/{start}/{end}"
 
-NOTICE_LIMIT = 8
-WEEKS = 8
+# 외교부 단계. 특별여행주의보는 2단계 이상·3단계 이하로 운용되므로 2.5.
+LEVELS = {"여행유의": 1, "여행자제": 2, "특별여행주의보": 2.5, "출국권고": 3, "여행금지": 4}
+
+TODAY = datetime.now(timezone.utc).date()
 
 
 def now_iso():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def get(url):
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+def get(url, headers=HEADERS, timeout=60):
+    resp = requests.get(url, headers=headers, timeout=timeout)
     resp.raise_for_status()
-    return resp.text
+    return resp
 
 
 def strip_html(fragment):
-    text = re.sub(r"<[^>]+>", " ", fragment)
-    return re.sub(r"\s+", " ", htmllib.unescape(text)).strip()
+    return re.sub(r"\s+", " ", htmllib.unescape(re.sub(r"<[^>]+>", " ", fragment))).strip()
+
+
+def in_box(lat, lon, box):
+    return box[0] <= lat <= box[1] and box[2] <= lon <= box[3]
+
+
+def ratio(value, baseline):
+    return round(value / baseline, 1) if baseline else None
 
 
 def load_previous():
@@ -77,28 +77,86 @@ def load_previous():
         return {}
 
 
-# ---------------------------------------------------------------- 외교부
+# ------------------------------------------------------------ attention
+
+def fetch_attention():
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "articles": []}
+    start, end = (TODAY - timedelta(days=60)).strftime("%Y%m%d"), TODAY.strftime("%Y%m%d")
+    try:
+        for region in REGIONS:
+            items = get(WIKI_URL.format(title=region["wiki"], start=start, end=end)).json()["items"]
+            series = [{"date": f"{i['timestamp'][:4]}-{i['timestamp'][4:6]}-{i['timestamp'][6:8]}", "views": i["views"]} for i in items]
+            baseline = statistics.median(s["views"] for s in series[:-14]) if len(series) > 20 else None
+            latest = series[-1]
+            result["articles"].append({
+                "key": region["key"], "name": region["name"], "title": region["wiki"],
+                "baseline": baseline, "latest": latest["views"], "latest_date": latest["date"],
+                "ratio": ratio(latest["views"], baseline), "series": series[-30:],
+            })
+    except (requests.RequestException, KeyError, ValueError) as exc:
+        result["error"] = str(exc)
+        return result
+    result["ok"] = True
+    return result
+
+
+# ------------------------------------------------------------ firms
+
+def fetch_firms(previous_history):
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": FIRMS_URL}
+    try:
+        text = get(FIRMS_URL, timeout=180).text
+    except requests.RequestException as exc:
+        result["error"] = str(exc)
+        return result
+
+    hotspots = []
+    for row in csv.DictReader(io.StringIO(text)):
+        lat, lon = float(row["latitude"]), float(row["longitude"])
+        if in_box(lat, lon, WEST_SAUDI_BOX):
+            hotspots.append({"lat": lat, "lon": lon, "frp": float(row["frp"]), "date": row["acq_date"],
+                             "time": row["acq_time"], "confidence": row["confidence"]})
+
+    # 오늘은 위성 패스가 다 안 들어왔으므로 일별 집계·이력은 어제까지만 쓴다.
+    yesterday = (TODAY - timedelta(days=1)).isoformat()
+    days = [(TODAY - timedelta(days=i)).isoformat() for i in range(7, 0, -1)]
+    per_day = Counter(h["date"] for h in hotspots)
+    history = dict(sorted({**previous_history, **{d: per_day[d] for d in days}}.items())[-90:])
+    older = [c for d, c in history.items() if d < days[0]]
+    baseline = statistics.median(older) if len(older) >= 7 else None
+
+    regions = {}
+    for region in REGIONS:
+        inside = [h for h in hotspots if in_box(h["lat"], h["lon"], region["box"])]
+        regions[region["key"]] = {"h24": sum(1 for h in inside if h["date"] >= yesterday), "d7": len(inside)}
+
+    result.update({
+        "ok": True,
+        "hotspots": sorted(hotspots, key=lambda h: h["date"])[-300:],
+        "daily_counts": [{"date": d, "count": per_day[d]} for d in days],
+        "last24h": sum(1 for h in hotspots if h["date"] >= yesterday),
+        "baseline": baseline,
+        "history": history,
+        "regions": regions,
+    })
+    return result
+
+
+# ------------------------------------------------------------ mofa
 
 def parse_advisories(page):
-    # 페이지에 주석 처리된 예시 <li>가 남아있어 주석을 먼저 걷어낸다.
-    page = re.sub(r"<!--.*?-->", "", page, flags=re.S)
+    page = re.sub(r"<!--.*?-->", "", page, flags=re.S)  # 주석 처리된 예시 <li>가 남아있음
     block = re.search(r'<ul class="info-02">(.*?)</ul>', page, re.S)
     if not block:
-        raise ValueError("info-02 블록을 찾지 못함 (페이지 구조 변경?)")
+        raise ValueError("info-02 블록 없음 (페이지 구조 변경?)")
     advisories = []
     for li in re.findall(r"<li>(.*?)</li>", block.group(1), re.S):
         tag = re.search(r'<span class="box-tag-01[^"]*">(.*?)</span>', li, re.S)
-        if not tag:
-            continue
-        level_name = strip_html(tag.group(1))
-        regions = strip_html(li.replace(tag.group(0), ""))
-        advisories.append({
-            "level_name": level_name,
-            "level": LEVELS.get(level_name),
-            "regions": regions,
-        })
+        if tag:
+            name = strip_html(tag.group(1))
+            advisories.append({"level_name": name, "level": LEVELS.get(name), "regions": strip_html(li.replace(tag.group(0), ""))})
     if not advisories:
-        raise ValueError("경보 항목이 비어있음")
+        raise ValueError("경보 항목 없음")
     return advisories
 
 
@@ -107,7 +165,7 @@ def region_level(advisories, region):
     if named:
         return max(named, key=lambda a: a["level"] or 0)
     rest = [a for a in advisories if "제외한" in a["regions"]]
-    return rest[0] if rest else None
+    return rest[0] if rest else {}
 
 
 def parse_notices(page):
@@ -117,124 +175,78 @@ def parse_notices(page):
         link = re.search(r'<a href="(/bbs/safetyNtc/[^"]+)" class="btn title">(.*?)</a>', row, re.S)
         day = re.search(r"<td>\s*(\d{4}-\d{2}-\d{2})\s*</td>", row)
         if link and day:
-            notices.append({
-                "date": day.group(1),
-                "title": strip_html(link.group(2)),
-                "url": MOFA_BASE + htmllib.unescape(link.group(1)),
-            })
-    return notices
+            notices.append({"date": day.group(1), "title": strip_html(link.group(2)),
+                            "url": MOFA_BASE + htmllib.unescape(link.group(1))})
+    return sorted(notices, key=lambda n: n["date"], reverse=True)
 
 
 def fetch_summary(url):
     try:
-        page = get(url)
+        body = re.search(r'<textarea id="textCnHtml"[^>]*>(.*?)</textarea>', get(url, BROWSER_HEADERS).text, re.S)
     except requests.RequestException:
         return None
-    body = re.search(r'<textarea id="textCnHtml"[^>]*>(.*?)</textarea>', page, re.S)
     if not body:
         return None
     text = strip_html(htmllib.unescape(body.group(1)))
-    return text[:220] + ("…" if len(text) > 220 else "")
-
-
-def weekly_counts(notices):
-    monday = date.today() - timedelta(days=date.today().weekday())
-    weeks = [monday - timedelta(weeks=i) for i in range(WEEKS - 1, -1, -1)]
-    counter = Counter()
-    for n in notices:
-        d = date.fromisoformat(n["date"])
-        counter[d - timedelta(days=d.weekday())] += 1
-    return [{"week": w.isoformat(), "count": counter[w]} for w in weeks]
+    return text[:200] + ("…" if len(text) > 200 else "")
 
 
 def fetch_mofa():
-    result = {"ok": False, "error": None, "fetched_at": now_iso(),
-              "source_url": MOFA_COUNTRY_URL, "notice_list_url": MOFA_NOTICE_URL}
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": MOFA_COUNTRY_URL}
     try:
-        advisories = parse_advisories(get(MOFA_COUNTRY_URL))
-        notices = parse_notices(get(MOFA_NOTICE_URL))
+        advisories = parse_advisories(get(MOFA_COUNTRY_URL, BROWSER_HEADERS).text)
+        notices = parse_notices(get(MOFA_NOTICE_URL, BROWSER_HEADERS).text)
     except (requests.RequestException, ValueError) as exc:
         result["error"] = str(exc)
         return result
 
-    notices.sort(key=lambda n: n["date"], reverse=True)
-    for n in notices[:NOTICE_LIMIT]:
+    for n in notices[:3]:
         n["summary"] = fetch_summary(n["url"])
         time.sleep(0.5)
 
-    regions = []
-    for region in REGIONS:
-        matched = region_level(advisories, region) or {}
-        regions.append({
-            "name": region["name"], "lat": region["lat"], "lon": region["lon"],
-            "level_name": matched.get("level_name"), "level": matched.get("level"),
-        })
+    # 달력 주가 아니라 오늘로 끝나는 7일 창을 8개 이어 붙인다 (주중에도 값이 덜 잡히지 않게).
+    windows = [TODAY - timedelta(days=7 * i) for i in range(7, -1, -1)]
+    counts = []
+    for end in windows:
+        start = end - timedelta(days=6)
+        counts.append(sum(1 for n in notices if start.isoformat() <= n["date"] <= end.isoformat()))
+    baseline = statistics.median(counts[:-2])
 
     result.update({
         "ok": True,
         "advisories": advisories,
-        "regions": regions,
-        "notices": notices[:NOTICE_LIMIT],
-        "weekly_counts": weekly_counts(notices),
+        "regions": [{"key": r["key"], "name": r["name"], "lat": r["lat"], "lon": r["lon"],
+                     **{k: region_level(advisories, r).get(k) for k in ("level", "level_name")}} for r in REGIONS],
+        "notices": notices[:3],
+        "weekly_counts": [{"week": w.isoformat(), "count": c} for w, c in zip(windows, counts)],
+        "last7d": counts[-1],
+        "baseline": baseline,
+        "ratio": ratio(counts[-1], baseline),
     })
     return result
 
 
-# ---------------------------------------------------------------- FCDO
+# ------------------------------------------------------------ main
 
-def fetch_fcdo():
-    result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": FCDO_URL}
-    try:
-        page = get(FCDO_URL)
-    except requests.RequestException as exc:
-        result["error"] = str(exc)
-        return result
-
-    if "advises against all travel to" in page:
-        text = "일부 지역 전체 여행 금지 권고 (advises against all travel)"
-    elif "advises against all but essential travel to" in page:
-        text = "일부 지역 필수적이지 않은 여행 자제 권고 (all but essential travel)"
-    else:
-        text = "특별 경보 없음"
-    result.update({"ok": True, "text": text})
-    return result
-
-
-# ---------------------------------------------------------------- main
-
-def carry_over(current, previous, keys):
-    previous_usable = previous.get("ok") or previous.get("stale")
-    if current["ok"] or not previous_usable:
+def carry_over(current, previous):
+    if current["ok"] or not (previous.get("ok") or previous.get("stale")):
         return current
-    for key in keys:
-        if key in previous:
-            current[key] = previous[key]
-    current["stale"] = True
-    return current
+    kept = {k: v for k, v in previous.items() if k not in ("ok", "error", "fetched_at")}
+    return {**kept, **current, "stale": True}
 
 
 def main():
     previous = load_previous()
-
-    mofa = carry_over(fetch_mofa(), previous.get("mofa", {}),
-                      ["advisories", "regions", "notices", "weekly_counts"])
-    fcdo = carry_over(fetch_fcdo(), previous.get("fcdo", {}), ["text"])
-
-    worst = max((r for r in mofa.get("regions", []) if r.get("level")),
-                key=lambda r: r["level"], default=None)
-
     output = {
         "generated_at": now_iso(),
-        "overall": {"level": worst["level"], "level_name": worst["level_name"], "region": worst["name"]} if worst else None,
-        "mofa": mofa,
-        "fcdo": fcdo,
+        "attention": carry_over(fetch_attention(), previous.get("attention", {})),
+        "firms": carry_over(fetch_firms(previous.get("firms", {}).get("history", {})), previous.get("firms", {})),
+        "mofa": carry_over(fetch_mofa(), previous.get("mofa", {})),
     }
-
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print(f"mofa_ok={mofa['ok']} fcdo_ok={fcdo['ok']} overall={output['overall']}")
+        json.dump(output, f, ensure_ascii=False, indent=1)
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa")))
     return 0
 
 

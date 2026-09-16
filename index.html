@@ -3,46 +3,61 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>얀부·제다 상황판</title>
-<meta name="description" content="외교부 해외안전여행 데이터로 사우디아라비아 얀부·제다의 여행경보 단계와 안전공지를 한눈에 보는 비공식 대시보드" />
+<title>얀부 지수</title>
+<meta name="description" content="위키피디아 관심도, NASA 위성 열 감지, 외교부 공지 템포 세 가지 간접 신호로 사우디 얀부·제다 상황을 읽는 비공식 대시보드" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>얀부·제다 상황판</h1>
-    <p class="subtitle">외교부 해외안전여행 공식 데이터를 6시간마다 자동 수집해 보여주는 비공식 대시보드입니다.</p>
+    <h1>얀부 지수</h1>
+    <p class="subtitle">공식 발표가 말하지 않는 것을 세 가지 간접 신호로 읽습니다. 6시간마다 자동 갱신.</p>
+    <p id="mofa-line" class="official"></p>
   </header>
 
   <main>
-    <section class="card">
-      <div id="overall-badge" class="badge level-unknown">확인 중...</div>
-      <ul id="region-levels" class="region-levels"></ul>
-      <p id="fcdo-line" class="muted small"></p>
-      <p id="last-updated" class="muted small"></p>
+    <section class="tiles">
+      <article class="card tile" id="tile-attention">
+        <h2>관심도</h2>
+        <div class="big"><span class="value">–</span><span class="unit">평시 대비</span></div>
+        <p class="sub"></p>
+        <canvas height="60"></canvas>
+        <p class="muted small">영어 위키피디아 “Yanbu” 문서 일일 조회수 ÷ 최근 60일 중앙값. 세상이 갑자기 얀부를 찾아보면 뭔가 일어난 것.</p>
+      </article>
+
+      <article class="card tile" id="tile-firms">
+        <h2>위성 열 감지</h2>
+        <div class="big"><span class="value">–</span><span class="unit">건 / 24시간</span></div>
+        <p class="sub"></p>
+        <canvas height="60"></canvas>
+        <p class="muted small">NASA FIRMS VIIRS 위성이 서부 사우디(제다~얀부~메디나주 송유관 회랑)에서 감지한 화점. 공습·폭발 화재가 그대로 찍힙니다.</p>
+      </article>
+
+      <article class="card tile" id="tile-mofa">
+        <h2>공지 템포</h2>
+        <div class="big"><span class="value">–</span><span class="unit">건 / 최근 7일</span></div>
+        <p class="sub"></p>
+        <canvas height="60"></canvas>
+        <p class="muted small">외교부가 사우디아라비아에 낸 안전공지 주간 건수. 대사관이 바빠지면 상황이 급박한 것.</p>
+      </article>
     </section>
 
     <section class="card">
-      <h2>지역별 경보 지도</h2>
+      <h2>열 감지 지도 <span class="muted small">최근 7일 · 점 크기 = 화력(FRP) · 옅을수록 오래된 것</span></h2>
       <div id="map"></div>
       <ul class="legend" id="legend"></ul>
     </section>
 
     <section class="card">
-      <h2>외교부 사우디 안전공지</h2>
-      <ul id="notice-list" class="notice-list"><li class="muted">불러오는 중...</li></ul>
-    </section>
-
-    <section class="card">
-      <h2>주간 안전공지 건수 (최근 8주)</h2>
-      <canvas id="trend-chart" height="110"></canvas>
-      <p class="muted small">외교부가 사우디아라비아에 대해 발령한 안전공지 수. 공지가 잦아지면 상황이 급박해지고 있다는 신호입니다.</p>
+      <h2>외교부 최근 공지</h2>
+      <ul id="notice-list" class="notice-list"></ul>
     </section>
   </main>
 
   <footer class="muted small">
-    <p>출처: <a id="src-mofa" href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행 · 사우디아라비아</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디아라비아 대한민국대사관</a> · <a id="src-fcdo" href="https://www.gov.uk/foreign-travel-advice/saudi-arabia" target="_blank" rel="noopener">UK FCDO</a></p>
-    <p>비공식 개인 프로젝트입니다. 응급 상황에는 반드시 대사관 공지를 확인하세요.</p>
+    <p>출처: <a href="https://wikimedia.org/api/rest_v1/" target="_blank" rel="noopener">Wikimedia Pageviews</a> · <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a></p>
+    <p id="last-updated"></p>
+    <p>비공식 개인 프로젝트. 간접 신호는 힌트일 뿐이며, 판단은 대사관 공지를 기준으로 하세요.</p>
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
