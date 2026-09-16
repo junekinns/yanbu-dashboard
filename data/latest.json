@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T10:34:27Z",
+ "generated_at": "2026-09-16T10:35:39Z",
  "regions": [
   {
    "key": "west",
@@ -70,135 +70,135 @@
  "attention": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:34:27Z",
+  "fetched_at": "2026-09-16T10:35:39Z",
   "articles": {
-   "Riyadh": {
-    "title": "Riyadh",
-    "label": "Riyadh",
-    "baseline": 1624.5,
-    "latest": 2266,
+   "Yanbu": {
+    "title": "Yanbu",
+    "label": "Yanbu",
+    "baseline": 196.0,
+    "latest": 784,
     "latest_date": "2026-09-15",
-    "ratio": 1.39,
+    "ratio": 4.0,
     "series": [
      {
       "date": "2026-08-17",
-      "views": 1529
+      "views": 165
      },
      {
       "date": "2026-08-18",
-      "views": 1596
+      "views": 175
      },
      {
       "date": "2026-08-19",
-      "views": 1594
+      "views": 149
      },
      {
       "date": "2026-08-20",
-      "views": 1595
+      "views": 145
      },
      {
       "date": "2026-08-21",
-      "views": 1596
+      "views": 147
      },
      {
       "date": "2026-08-22",
-      "views": 1480
+      "views": 142
      },
      {
       "date": "2026-08-23",
-      "views": 1612
+      "views": 145
      },
      {
       "date": "2026-08-24",
-      "views": 1773
+      "views": 274
      },
      {
       "date": "2026-08-25",
-      "views": 1737
+      "views": 226
      },
      {
       "date": "2026-08-26",
-      "views": 1645
+      "views": 196
      },
      {
       "date": "2026-08-27",
-      "views": 1507
+      "views": 167
      },
      {
       "date": "2026-08-28",
-      "views": 1433
+      "views": 154
      },
      {
       "date": "2026-08-29",
-      "views": 1416
+      "views": 118
      },
      {
       "date": "2026-08-30",
-      "views": 1545
+      "views": 144
      },
      {
       "date": "2026-08-31",
-      "views": 1732
+      "views": 141
      },
      {
       "date": "2026-09-01",
-      "views": 1588
+      "views": 137
      },
      {
       "date": "2026-09-02",
-      "views": 1639
+      "views": 133
      },
      {
       "date": "2026-09-03",
-      "views": 1747
+      "views": 149
      },
      {
       "date": "2026-09-04",
-      "views": 1503
+      "views": 128
      },
      {
       "date": "2026-09-05",
-      "views": 1332
+      "views": 117
      },
      {
       "date": "2026-09-06",
-      "views": 1478
+      "views": 133
      },
      {
       "date": "2026-09-07",
-      "views": 1674
+      "views": 158
      },
      {
       "date": "2026-09-08",
-      "views": 1761
+      "views": 197
      },
      {
       "date": "2026-09-09",
-      "views": 1817
+      "views": 204
      },
      {
       "date": "2026-09-10",
-      "views": 1932
+      "views": 311
      },
      {
       "date": "2026-09-11",
-      "views": 2604
+      "views": 714
      },
      {
       "date": "2026-09-12",
-      "views": 2562
+      "views": 659
      },
      {
       "date": "2026-09-13",
-      "views": 2251
+      "views": 429
      },
      {
       "date": "2026-09-14",
-      "views": 2234
+      "views": 595
      },
      {
       "date": "2026-09-15",
-      "views": 2266
+      "views": 784
      }
     ]
    },
@@ -332,133 +332,263 @@
      }
     ]
    },
-   "Yanbu": {
-    "title": "Yanbu",
-    "label": "Yanbu",
-    "baseline": 196.0,
-    "latest": 784,
+   "Dhahran": {
+    "title": "Dhahran",
+    "label": "Dhahran",
+    "baseline": 190.5,
+    "latest": 204,
     "latest_date": "2026-09-15",
-    "ratio": 4.0,
+    "ratio": 1.07,
     "series": [
      {
       "date": "2026-08-17",
-      "views": 165
+      "views": 216
      },
      {
       "date": "2026-08-18",
-      "views": 175
+      "views": 180
      },
      {
       "date": "2026-08-19",
-      "views": 149
-     },
-     {
-      "date": "2026-08-20",
-      "views": 145
-     },
-     {
-      "date": "2026-08-21",
-      "views": 147
-     },
-     {
-      "date": "2026-08-22",
-      "views": 142
-     },
-     {
-      "date": "2026-08-23",
-      "views": 145
-     },
-     {
-      "date": "2026-08-24",
-      "views": 274
-     },
-     {
-      "date": "2026-08-25",
-      "views": 226
-     },
-     {
-      "date": "2026-08-26",
-      "views": 196
-     },
-     {
-      "date": "2026-08-27",
       "views": 167
      },
      {
+      "date": "2026-08-20",
+      "views": 202
+     },
+     {
+      "date": "2026-08-21",
+      "views": 188
+     },
+     {
+      "date": "2026-08-22",
+      "views": 186
+     },
+     {
+      "date": "2026-08-23",
+      "views": 176
+     },
+     {
+      "date": "2026-08-24",
+      "views": 196
+     },
+     {
+      "date": "2026-08-25",
+      "views": 177
+     },
+     {
+      "date": "2026-08-26",
+      "views": 151
+     },
+     {
+      "date": "2026-08-27",
+      "views": 177
+     },
+     {
       "date": "2026-08-28",
-      "views": 154
+      "views": 171
      },
      {
       "date": "2026-08-29",
-      "views": 118
+      "views": 185
      },
      {
       "date": "2026-08-30",
-      "views": 144
+      "views": 173
      },
      {
       "date": "2026-08-31",
-      "views": 141
+      "views": 183
      },
      {
       "date": "2026-09-01",
-      "views": 137
+      "views": 193
      },
      {
       "date": "2026-09-02",
-      "views": 133
+      "views": 176
      },
      {
       "date": "2026-09-03",
-      "views": 149
+      "views": 146
      },
      {
       "date": "2026-09-04",
-      "views": 128
+      "views": 138
      },
      {
       "date": "2026-09-05",
-      "views": 117
+      "views": 142
      },
      {
       "date": "2026-09-06",
-      "views": 133
+      "views": 147
      },
      {
       "date": "2026-09-07",
-      "views": 158
+      "views": 168
      },
      {
       "date": "2026-09-08",
-      "views": 197
+      "views": 208
      },
      {
       "date": "2026-09-09",
-      "views": 204
+      "views": 175
      },
      {
       "date": "2026-09-10",
-      "views": 311
+      "views": 153
      },
      {
       "date": "2026-09-11",
-      "views": 714
+      "views": 208
      },
      {
       "date": "2026-09-12",
-      "views": 659
+      "views": 212
      },
      {
       "date": "2026-09-13",
-      "views": 429
+      "views": 189
      },
      {
       "date": "2026-09-14",
-      "views": 595
+      "views": 198
      },
      {
       "date": "2026-09-15",
-      "views": 784
+      "views": 204
+     }
+    ]
+   },
+   "Riyadh": {
+    "title": "Riyadh",
+    "label": "Riyadh",
+    "baseline": 1624.5,
+    "latest": 2266,
+    "latest_date": "2026-09-15",
+    "ratio": 1.39,
+    "series": [
+     {
+      "date": "2026-08-17",
+      "views": 1529
+     },
+     {
+      "date": "2026-08-18",
+      "views": 1596
+     },
+     {
+      "date": "2026-08-19",
+      "views": 1594
+     },
+     {
+      "date": "2026-08-20",
+      "views": 1595
+     },
+     {
+      "date": "2026-08-21",
+      "views": 1596
+     },
+     {
+      "date": "2026-08-22",
+      "views": 1480
+     },
+     {
+      "date": "2026-08-23",
+      "views": 1612
+     },
+     {
+      "date": "2026-08-24",
+      "views": 1773
+     },
+     {
+      "date": "2026-08-25",
+      "views": 1737
+     },
+     {
+      "date": "2026-08-26",
+      "views": 1645
+     },
+     {
+      "date": "2026-08-27",
+      "views": 1507
+     },
+     {
+      "date": "2026-08-28",
+      "views": 1433
+     },
+     {
+      "date": "2026-08-29",
+      "views": 1416
+     },
+     {
+      "date": "2026-08-30",
+      "views": 1545
+     },
+     {
+      "date": "2026-08-31",
+      "views": 1732
+     },
+     {
+      "date": "2026-09-01",
+      "views": 1588
+     },
+     {
+      "date": "2026-09-02",
+      "views": 1639
+     },
+     {
+      "date": "2026-09-03",
+      "views": 1747
+     },
+     {
+      "date": "2026-09-04",
+      "views": 1503
+     },
+     {
+      "date": "2026-09-05",
+      "views": 1332
+     },
+     {
+      "date": "2026-09-06",
+      "views": 1478
+     },
+     {
+      "date": "2026-09-07",
+      "views": 1674
+     },
+     {
+      "date": "2026-09-08",
+      "views": 1761
+     },
+     {
+      "date": "2026-09-09",
+      "views": 1817
+     },
+     {
+      "date": "2026-09-10",
+      "views": 1932
+     },
+     {
+      "date": "2026-09-11",
+      "views": 2604
+     },
+     {
+      "date": "2026-09-12",
+      "views": 2562
+     },
+     {
+      "date": "2026-09-13",
+      "views": 2251
+     },
+     {
+      "date": "2026-09-14",
+      "views": 2234
+     },
+     {
+      "date": "2026-09-15",
+      "views": 2266
      }
     ]
    },
@@ -591,143 +721,13 @@
       "views": 140
      }
     ]
-   },
-   "Dhahran": {
-    "title": "Dhahran",
-    "label": "Dhahran",
-    "baseline": 190.5,
-    "latest": 204,
-    "latest_date": "2026-09-15",
-    "ratio": 1.07,
-    "series": [
-     {
-      "date": "2026-08-17",
-      "views": 216
-     },
-     {
-      "date": "2026-08-18",
-      "views": 180
-     },
-     {
-      "date": "2026-08-19",
-      "views": 167
-     },
-     {
-      "date": "2026-08-20",
-      "views": 202
-     },
-     {
-      "date": "2026-08-21",
-      "views": 188
-     },
-     {
-      "date": "2026-08-22",
-      "views": 186
-     },
-     {
-      "date": "2026-08-23",
-      "views": 176
-     },
-     {
-      "date": "2026-08-24",
-      "views": 196
-     },
-     {
-      "date": "2026-08-25",
-      "views": 177
-     },
-     {
-      "date": "2026-08-26",
-      "views": 151
-     },
-     {
-      "date": "2026-08-27",
-      "views": 177
-     },
-     {
-      "date": "2026-08-28",
-      "views": 171
-     },
-     {
-      "date": "2026-08-29",
-      "views": 185
-     },
-     {
-      "date": "2026-08-30",
-      "views": 173
-     },
-     {
-      "date": "2026-08-31",
-      "views": 183
-     },
-     {
-      "date": "2026-09-01",
-      "views": 193
-     },
-     {
-      "date": "2026-09-02",
-      "views": 176
-     },
-     {
-      "date": "2026-09-03",
-      "views": 146
-     },
-     {
-      "date": "2026-09-04",
-      "views": 138
-     },
-     {
-      "date": "2026-09-05",
-      "views": 142
-     },
-     {
-      "date": "2026-09-06",
-      "views": 147
-     },
-     {
-      "date": "2026-09-07",
-      "views": 168
-     },
-     {
-      "date": "2026-09-08",
-      "views": 208
-     },
-     {
-      "date": "2026-09-09",
-      "views": 175
-     },
-     {
-      "date": "2026-09-10",
-      "views": 153
-     },
-     {
-      "date": "2026-09-11",
-      "views": 208
-     },
-     {
-      "date": "2026-09-12",
-      "views": 212
-     },
-     {
-      "date": "2026-09-13",
-      "views": 189
-     },
-     {
-      "date": "2026-09-14",
-      "views": 198
-     },
-     {
-      "date": "2026-09-15",
-      "views": 204
-     }
-    ]
    }
   }
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:34:29Z",
+  "fetched_at": "2026-09-16T10:35:40Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "regions": {
    "west": {
@@ -2191,9 +2191,6 @@
   }
  },
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-16T10:34:36Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -2445,33 +2442,30 @@
   ],
   "last7d": 7,
   "baseline": 1.5,
-  "ratio": 4.67
+  "ratio": 4.67,
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f72bb33b170>, 'Connection to www.0404.go.kr timed out. (connect timeout=60)'))",
+  "fetched_at": "2026-09-16T10:35:44Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:34:41Z",
+  "fetched_at": "2026-09-16T10:37:50Z",
   "kr": [
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T08:05:00+00:00",
+    "published": "2026-09-16T08:11:10+00:00",
     "source": "연합뉴스",
-    "title": "예멘 후티반군 \"사우디 F-15 전투기 격추\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83RUNick9lTUxPc3VIWkdMdktEWU9PNklLem5fVmpJR08xc28tMFlvSmRacUdpVHMxcmFCQUo0eGNlUk5OOUdFT2JkNVVLWXdtaWJoVllPSnJzaVlkYzZXZEN6YmxPUlE?oc=5"
+    "title": "후티 압박에 에너지 위기…사우디 빈살만 리더십 '최대 시험대'",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RdIBYEFVX3lxTE1zSk9ENjVkWUZrdDN1QlllcGw2TW1FS1pieVQ3ZzdTOFF0ZXhVZWxBa3g0VmY3Q0NGSnB1T0oxVVFkdENGem5tRmdkNnB3UkMya3pjMjVpNm9mZ1NucmE4RQ?oc=5"
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T08:00:00+00:00",
+    "published": "2026-09-16T07:52:58+00:00",
     "source": "연합뉴스",
-    "title": "사우디 \"성지 메카 진입한 후티 드론 격추\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MbW5fS2FBdUVRN0pwcTAxRzlYRU9rRE1mcnF4T2M0LVhpdTJCazhqTVYxcDE3WmF4ajd6NzN6dENfaVNLVTdMLWlMSXMtS3FQS040UWI0ajVwZE9QNFNXN3hHcmhYV3c?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T07:44:05+00:00",
-    "source": "MBC",
-    "title": "후티 반군 \"자체 지대공 미사일로 사우디 F-15 격추\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkWC1jZTFXRTZ2bjB2aFJwWE1zNjZMTU9vNW81VVhpdDZsVzVuSTFhbkJTLTBJZ2o0Z25tTm02aVF2MGZSaWY3a0FNQ1RPS1ZfS2lmMVVxdDlxXzBUM1hiT2JpV1dYdjNmbVVuOTJ1bXJja1l10gF0QVVfeXFMT2piZm45TXpGWllYaWNlcVhjZzZYZHJtSWRSMXFQVkFuNkNDc2t2czhPYzJIb1VBamJxcTBqZGZaMExxeWtjMEc1T1k4NnlkRXVmdFB6bnM1WkR5MktZOG9JeXloVUFNakNsT3pWZzJFaHFtQUQ?oc=5"
+    "title": "예멘 후티 반군 \"사우디 F-15 전투기 격추\" 주장",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXbmExaDdSSGx6V3k3aExIMF9Gd3RZSDhuZ1h4RS1vWHo2TVBkRnVyaFE5dWdhOWNsSlFIV0Y4TlhxSHkzZjBCMGFmUk1DMG15UVE2Y1I5RWdvWWfSAWBBVV95cUxNcGM4SWw5dnpyQXBEbHJlb3ZmRkxpcFVab0FyaE5mdHZ4OFJFdFJwUkx0MlVUX3ZyVFEtWEhKYVFVYTBUR1JZY2ZFbzBTQXpvS3llRHZzdFJ0NlJuNUJoNW4?oc=5"
    },
    {
     "date": "2026-09-15",
@@ -2493,13 +2487,6 @@
     "source": "MBC",
     "title": "사우디-후티 교전 격화‥성지 메카에도 첫 위협 경보",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFSzF2dnM2N0hGRGpkTURBOHp6MDZZWERqLWk5c0FiTzBVQWhsZ1pYT1doNm85T0ppNndTMjRac1c5Mi0tLVBCOTZzSVkwVzg2ZmNZTEg1ZUtMR0JacS1WT0s1YkIySzlJU1FTLVo2dTJaWS1X0gF0QVVfeXFMTXZZdHNpX3Z6c0VKNWt0UkNySkhRRUM5MHUwb1lwZHJsU0FNa3pLbnR0WWxPQlRwQVpEaExOdXgwZTdSMm5QVVJPeHVZZzk5WmxRTVo5Wkt2U1NhQms1eWNmakdxaDJRZFkwNkUxVGQ5RWd1UFY?oc=5"
-   },
-   {
-    "date": "2026-09-15",
-    "published": "2026-09-15T11:13:00+00:00",
-    "source": "연합뉴스",
-    "title": "사우디-후티 교전 속 성지 메카·한인 거주 제다에 ’위협 경보’",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yWEM0QjYwRE9WZWJiR1I1RWlJRVdTRk1ydzdaUEdKMnFzRGRnOVkwUFhNdVpPSmhfNjdSRVA0LTMxLU85bnVHZUVwYTJGV2xZRnhNOXVCNnJPVWxkLTMxQmFhcVAwdVE?oc=5"
    }
   ],
   "en": [
@@ -2543,7 +2530,7 @@
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:34:42Z",
+  "fetched_at": "2026-09-16T10:37:51Z",
   "events": [
    {
     "date": "2026-09-16",
@@ -2557,7 +2544,7 @@
     "title": "성지 메카도 드론 피격…미 정부, 사우디 여행 재고 권고",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tczRBNUtZN0x6TjFfX2ZwM2dwVzdGMF8zWFJ4Sk51ZGNpcldOc1FMY2tRNkdvT1JwdUJzZkhpT0xVd0h2eXZOSHJaMVFNbTlyOXpTSnhVYWxGOFU?oc=5",
     "source": "KBS",
-    "outlets": 2
+    "outlets": 3
    },
    {
     "date": "2026-09-16",
@@ -2585,7 +2572,7 @@
     "title": "사우디 \"성지 메카로 발사된 후티 드론 격추\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wdmRqVUhxdjhNTDlIb1ZDdi03b1U3dk9JOVBlak9QWW5neHFxTVdhazh4OE9IWm1Fa2ZJcHB5WUdIVk9GQVh5Q211UU9pRlZ6cVJmc21xcmNMOHlqNGszUGRoeEtwdlotX1ROdGVqbXpjWE1Z0gF0QVVfeXFMT3B2ZGpVSHF2OE1MOUhvVkN2LTdvVTd2T0k5UGVqT1BZbmd4cXFNV2FrOHg4T0habUVrZklwcHlZR0hWT0ZBWHlDbXVRT2lGVnpxUmZzbXFyY0w4eWo0azNQZGh4S3B2Wi1fVE50ZWptemNYTVk?oc=5",
     "source": "MBC",
-    "outlets": 11
+    "outlets": 10
    },
    {
     "date": "2026-09-16",
@@ -2655,14 +2642,14 @@
     "title": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHNsQUZkVHd5TE45cmc4cFN6NkJjd0xjbGNPY1d6YmY1bGgyWnVrTjlaNmNzUEl3MzFsSGs4WGdIM2JjSDk3NHR6RzdSV0ZmVzZmZ3BoVnBUc3JKYWoycHRkMTU0eDlmRHJSM1dSYUE3eWFrU0VBdURrMnFVNm95cXBJNlZXaVplcFdJX1lXRTJuM19fV1N5bHIza0VkdlBRM0FHRmdSNHVhOTFnT05J0gG0AUFVX3lxTE9DU3l0RkdjTnVMZmdYY1B0MExabUVfTnpkSmRNWkxBc3B3bzJNelEyUThkck9hSTlCT21lbGRaM09ZRXA1ZWFEUmxERHZTS2kyYTJtX0dlc2VHbzBPQTlQNTNfeFIyNmtLaWpoQ3NoekZLQ0VLT1ZtM25yczhZc3pfNlZzRjZFU2JKcnlVSlA5RGFsS1VhRDVKdlgyVGpHeDBXVnZpRFU0N2N0bklJUkJsdm5UUA?oc=5",
     "source": "Al Jazeera",
-    "outlets": 3
+    "outlets": 2
    }
   ]
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:34:44Z",
+  "fetched_at": "2026-09-16T10:37:52Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2729,7 +2716,7 @@
  "maritime": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-16T10:34:45Z",
+  "fetched_at": "2026-09-16T10:37:53Z",
   "series": {
    "port570": {
     "name": "얀부항",
