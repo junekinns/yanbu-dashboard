@@ -68,8 +68,16 @@ main { display: flex; flex-direction: column; gap: 16px; padding-bottom: 24px; }
 .level-3 { background: #c0392b; }
 .level-4 { background: #222; border: 1px solid #555; }
 
-#map { height: 420px; border-radius: 8px; }
-.legend { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.8rem; color: var(--muted); }
+#map { height: 520px; border-radius: 8px; background: #0b1119; }
+.legend { list-style: none; margin: 10px 0 6px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.8rem; color: var(--muted); }
+.ring { display: inline-block; width: 11px; height: 11px; border-radius: 50%; border: 2px solid; vertical-align: -1px; margin-right: 4px; }
+.place-label { background: rgba(15, 23, 32, 0.85); color: var(--text); border: 1px solid var(--border); font-size: 0.75rem; padding: 1px 5px; box-shadow: none; }
+.place-label::before { display: none; }
+.leaflet-control-layers { background: rgba(23, 31, 42, 0.95); color: var(--text); border: 1px solid var(--border); border-radius: 8px; font-size: 0.8rem; }
+.leaflet-control-layers label { margin: 2px 0; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: #1d2733; color: var(--text); }
+.leaflet-popup-content a { color: #9cc3ff; }
+.leaflet-popup-content .ev-type { font-size: 0.7rem; padding: 1px 5px; border-radius: 4px; color: #fff; background: #3a4452; }
 
 .notice-list, .news-list { list-style: none; margin: 0; padding: 0; }
 .notice-list li, .news-list li { padding: 10px 0; border-top: 1px solid var(--border); }

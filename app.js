@@ -8,8 +8,19 @@ const LEVEL_STYLE = {
 };
 const styleOf = (level) => LEVEL_STYLE[level] || { cls: "level-unknown", color: "#8a97a8", label: "정보 없음" };
 
+const TYPE_STYLE = {
+  경보: { cls: "t-alert", color: "#d9534f" },
+  요격: { cls: "t-intercept", color: "#1f5fbf" },
+  피격: { cls: "t-hit", color: "#b8442f" },
+  공습: { cls: "t-airstrike", color: "#6b4fbf" },
+};
+
 const severity = (ratio) => (ratio == null ? "" : ratio >= 3 ? "hot" : ratio >= 1.5 ? "warm" : "calm");
+// 해상 교통은 낮을수록 위험: 평시의 1/3 이하면 hot, 2/3 이하면 warm
+const dropSeverity = (ratio) => (ratio == null ? "" : ratio <= 0.34 ? "hot" : ratio <= 0.67 ? "warm" : "calm");
+const SEV_COLOR = { hot: "#e5533d", warm: "#e0b83a", calm: "#3fa66b", "": "#8a97a8" };
 const staleTag = (src) => (src?.stale ? " (이전 값)" : "");
+const pct = (x) => (x?.ratio != null ? `${Math.round(x.ratio * 100)}%` : "–");
 
 function sparkline(canvas, labels, values, type, color) {
   new Chart(canvas, {
@@ -30,26 +41,7 @@ function fillTile(id, { value, ratio, sev, sub, labels, values, type }) {
   tile.classList.remove("hot", "warm", "calm");
   const level = sev ?? severity(ratio);
   if (level) tile.classList.add(level);
-  const color = { hot: "#e5533d", warm: "#e0b83a", calm: "#3fa66b", "": "#8a97a8" }[level];
-  sparkline(tile.querySelector("canvas"), labels, values, type, color);
-}
-
-// 해상 교통은 낮을수록 위험: 평시의 1/3 이하면 hot, 2/3 이하면 warm
-const dropSeverity = (ratio) => (ratio == null ? "" : ratio <= 0.34 ? "hot" : ratio <= 0.67 ? "warm" : "calm");
-
-function renderMaritime(m) {
-  const s = m.series || {};
-  const y = s.yanbu_port;
-  if (!y) return fillTile("tile-maritime", { value: "–", sub: `수집 실패: ${m.error || ""}`, labels: [], values: [], type: "line" });
-  const pct = (x) => (x?.ratio != null ? `${Math.round(x.ratio * 100)}%` : "–");
-  fillTile("tile-maritime", {
-    value: pct(y),
-    sev: dropSeverity(y.ratio),
-    sub: `7일 ${y.last7}척 (평시 ${Math.round(y.baseline7)}) · 제다항 ${pct(s.jeddah_port)} · 밥엘만데브 ${pct(s.bab_el_mandeb)} · ${y.last_date} 기준${staleTag(m)}`,
-    labels: y.spark.map((p) => p.date),
-    values: y.spark.map((p) => p.value),
-    type: "line",
-  });
+  sparkline(tile.querySelector("canvas"), labels, values, type, SEV_COLOR[level]);
 }
 
 function renderAttention(att) {
@@ -108,35 +100,18 @@ function renderMofa(mofa) {
       ${n.summary ? `<p class="summary">${n.summary}</p>` : ""}</li>`).join("") || '<li class="muted">공지 없음</li>';
 }
 
-function renderMap(data) {
-  const map = L.map("map", { scrollWheelZoom: false }).setView([23.0, 39.3], 6);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap", maxZoom: 10 }).addTo(map);
-
-  (data.mofa?.regions || []).forEach((r) => {
-    const s = styleOf(r.level);
-    L.circle([r.lat, r.lon], { radius: 60000, color: s.color, weight: 2, dashArray: s.dashed ? "6 6" : null, fillColor: s.color, fillOpacity: 0.12 })
-      .addTo(map).bindTooltip(`${r.name} · ${s.label}`, { permanent: true, direction: "top" });
+function renderMaritime(m) {
+  const s = m.series || {};
+  const y = s.yanbu_port;
+  if (!y) return fillTile("tile-maritime", { value: "–", sub: `수집 실패: ${m.error || ""}`, labels: [], values: [], type: "line" });
+  fillTile("tile-maritime", {
+    value: pct(y),
+    sev: dropSeverity(y.ratio),
+    sub: `7일 ${y.last7}척 (평시 ${Math.round(y.baseline7)}) · 제다항 ${pct(s.jeddah_port)} · 밥엘만데브 ${pct(s.bab_el_mandeb)} · ${y.last_date} 기준${staleTag(m)}`,
+    labels: y.spark.map((p) => p.date),
+    values: y.spark.map((p) => p.value),
+    type: "line",
   });
-
-  const hotspots = data.firms?.hotspots || [];
-  const newest = hotspots.at(-1)?.date;
-  hotspots.filter((h) => !h.persistent).forEach((h) => {
-    const ageDays = newest ? (new Date(newest) - new Date(h.date)) / 864e5 : 0;
-    L.circleMarker([h.lat, h.lon], {
-      radius: 3 + Math.sqrt(h.frp),
-      color: "#ff7a1a", fillColor: "#ff4d1a", weight: 1,
-      fillOpacity: Math.max(0.15, 0.85 - ageDays * 0.12), opacity: Math.max(0.3, 1 - ageDays * 0.1),
-    }).addTo(map).bindTooltip(`${h.date} ${h.time.padStart(4, "0")} UTC · FRP ${h.frp} · ${h.confidence}`);
-  });
-  (data.firms?.flare_sites || []).forEach((f) => {
-    L.circleMarker([f.lat, f.lon], { radius: 6, color: "#8a97a8", fillColor: "#8a97a8", weight: 1, fillOpacity: 0.5 })
-      .addTo(map).bindTooltip(`상시 열원 (7일 중 ${f.days}일 감지) · 정유 플레어 추정`);
-  });
-
-  document.getElementById("legend").innerHTML =
-    `<li><span class="dot" style="background:#ff4d1a"></span>이상 화점 (평소엔 없던 불)</li>` +
-    `<li><span class="dot" style="background:#8a97a8"></span>상시 열원 (정유 플레어 추정)</li>` +
-    Object.values(LEVEL_STYLE).map((s) => `<li><span class="dot ${s.cls}"></span>${s.label}</li>`).join("");
 }
 
 function renderNews(news) {
@@ -150,8 +125,6 @@ function renderNews(news) {
   }
 }
 
-const TYPE_CLASS = { 경보: "t-alert", 요격: "t-intercept", 피격: "t-hit", 공습: "t-airstrike" };
-
 function renderEvents(ev) {
   const log = document.getElementById("event-log");
   const events = ev.events || [];
@@ -159,7 +132,7 @@ function renderEvents(ev) {
     <li class="${e.local ? "local" : ""}">
       <span class="ev-time">${e.date.slice(5)} ${e.time}</span>
       <span class="ev-city">${e.city}</span>
-      <span class="ev-type ${TYPE_CLASS[e.type] || ""}">${e.type}</span>
+      <span class="ev-type ${TYPE_STYLE[e.type]?.cls || ""}">${e.type}</span>
       <a href="${e.url}" target="_blank" rel="noopener">${e.title}</a>
       <span class="ev-meta">${e.source}${e.outlets > 1 ? ` 외 ${e.outlets - 1}` : ""}</span>
     </li>`).join("") || `<li class="muted">${ev.error ? "수집 실패" : "최근 72시간 해당 보도 없음"}</li>`;
@@ -167,6 +140,98 @@ function renderEvents(ev) {
   const houthi = ev.houthi || [];
   document.getElementById("houthi-list").innerHTML = houthi.map((h) =>
     `<li><a href="${h.url}" target="_blank" rel="noopener">${h.title}</a></li>`).join("") || '<li class="muted">없음</li>';
+}
+
+// ---------------------------------------------------------------- map
+
+function renderMap(data) {
+  const map = L.map("map", { scrollWheelZoom: false }).setView([24.2, 44.0], 5);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 11,
+  }).addTo(map);
+
+  const places = data.mofa?.places || [];
+  const events = (data.events?.events || []).filter((e) => e.lat);
+  const series = data.maritime?.series || {};
+  const portOf = (p) => series[{ port570: "yanbu_port", port518: "jeddah_port" }[p.port] || p.port];
+
+  // 1) 외교부 경보 도시
+  const advisoryLayer = L.layerGroup();
+  places.forEach((p) => {
+    const s = styleOf(p.level);
+    const port = portOf(p);
+    const here = events.filter((e) => e.city === p.name);
+    const marker = L.circleMarker([p.lat, p.lon], {
+      radius: p.local ? 9 : 7, color: p.local ? "#fff" : s.color, weight: p.local ? 2 : 1,
+      fillColor: s.color, fillOpacity: 0.9, dashArray: s.dashed ? "3 3" : null,
+    });
+    marker.bindTooltip(p.name, { permanent: p.local || p.level >= 3, direction: "right", offset: [8, 0], className: "place-label" });
+    marker.bindPopup(
+      `<b>${p.name}</b><br>외교부 ${s.label}` +
+      (port ? `<br>항만 7일 입항 ${port.last7}척 · 평시 ${Math.round(port.baseline7)}척 (${pct(port)}) · ${port.last_date}` : "") +
+      (here.length ? `<br>최근 72시간 사건 ${here.length}건` : "")
+    );
+    advisoryLayer.addLayer(marker);
+  });
+
+  // 2) 공격·요격·경보 이벤트 — 같은 도시는 원형으로 살짝 벌려 겹치지 않게
+  const eventLayer = L.layerGroup();
+  const perCity = {};
+  events.forEach((e) => {
+    const k = (perCity[e.city] = (perCity[e.city] || 0) + 1);
+    const ang = k * 2.1, r = 0.28;
+    const ts = TYPE_STYLE[e.type] || { color: "#8a97a8" };
+    L.circleMarker([e.lat + r * Math.sin(ang), e.lon + r * Math.cos(ang)], {
+      radius: 6 + 2 * Math.log2(e.outlets), color: "#0f1720", weight: 1, fillColor: ts.color, fillOpacity: 0.95,
+    })
+      .bindPopup(`<span class="ev-type ${TYPE_STYLE[e.type]?.cls || ""}">${e.type}</span> <b>${e.city}</b> · ${e.date} ${e.time}<br>` +
+        `<a href="${e.url}" target="_blank" rel="noopener">${e.title}</a><br><small>${e.source}${e.outlets > 1 ? ` 외 ${e.outlets - 1}개 매체` : ""}</small>`)
+      .addTo(eventLayer);
+  });
+
+  // 3) 위성 이상 화점 (전국, 7일)
+  const hotspots = data.firms?.hotspots || [];
+  const newest = hotspots.at(-1)?.date;
+  const hotspotLayer = L.layerGroup();
+  hotspots.forEach((h) => {
+    const ageDays = newest ? (new Date(newest) - new Date(h.date)) / 864e5 : 0;
+    L.circleMarker([h.lat, h.lon], {
+      radius: 3 + Math.sqrt(h.frp), color: "#ff7a1a", fillColor: "#ff4d1a", weight: 1,
+      fillOpacity: Math.max(0.15, 0.85 - ageDays * 0.12), opacity: Math.max(0.3, 1 - ageDays * 0.1),
+    }).bindTooltip(`${h.date} ${h.time.padStart(4, "0")} UTC · FRP ${h.frp} · ${h.confidence}`).addTo(hotspotLayer);
+  });
+
+  // 4) 상시 플레어
+  const flareLayer = L.layerGroup();
+  (data.firms?.flare_sites || []).forEach((f) => {
+    L.circleMarker([f.lat, f.lon], { radius: 5, color: "#8a97a8", fillColor: "#8a97a8", weight: 1, fillOpacity: 0.5 })
+      .bindTooltip(`상시 열원 (7일 중 ${f.days}일) · 정유·가스 플레어 추정`).addTo(flareLayer);
+  });
+
+  // 5) 항만 활동 — 평시 대비 링
+  const portLayer = L.layerGroup();
+  places.filter((p) => portOf(p)).forEach((p) => {
+    const port = portOf(p);
+    L.circle([p.lat, p.lon], { radius: 28000, color: SEV_COLOR[dropSeverity(port.ratio)], weight: 3, fill: false, opacity: 0.9 })
+      .bindTooltip(`${port.name} · 7일 ${port.last7}척 / 평시 ${Math.round(port.baseline7)}척 = ${pct(port)}`)
+      .addTo(portLayer);
+  });
+
+  advisoryLayer.addTo(map); eventLayer.addTo(map); hotspotLayer.addTo(map); portLayer.addTo(map);
+  L.control.layers(null, {
+    "외교부 경보 도시": advisoryLayer,
+    "공격·요격·경보 (72h)": eventLayer,
+    "위성 이상 화점 (7일)": hotspotLayer,
+    "항만 활동 (평시 대비)": portLayer,
+    "상시 플레어": flareLayer,
+  }, { collapsed: false }).addTo(map);
+
+  const present = [...new Set(places.map((p) => p.level).filter(Boolean))].sort();
+  document.getElementById("legend").innerHTML =
+    present.map((l) => `<li><span class="dot ${styleOf(l).cls}"></span>${styleOf(l).label}</li>`).join("") +
+    Object.entries(TYPE_STYLE).map(([k, v]) => `<li><span class="dot" style="background:${v.color}"></span>${k}</li>`).join("") +
+    `<li><span class="dot" style="background:#ff4d1a"></span>이상 화점</li>` +
+    `<li><span class="ring" style="border-color:${SEV_COLOR.calm}"></span>항만 정상 · <span class="ring" style="border-color:${SEV_COLOR.warm}"></span>둔화 · <span class="ring" style="border-color:${SEV_COLOR.hot}"></span>급감</li>`;
 }
 
 async function main() {
