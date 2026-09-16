@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-얀부·제다 상황판 데이터 수집. 세 가지 간접 지표를 만든다.
+Red Sea Watch 데이터 수집. 세 권역(서부·중부·동부)별 간접 지표를 만든다.
 
-  attention  영어 위키피디아 Yanbu/Jeddah 일일 조회수 ÷ 평시 중앙값
-  firms      NASA FIRMS VIIRS 위성 열 감지 (서부 사우디, 최근 7일)
-  mofa       외교부 해외안전여행 사우디 경보 단계 + 안전공지 주간 건수
-  news       Google News RSS에서 공신력 있는 국내·해외 매체만 골라 최근 5건씩
-  maritime   IMF PortWatch(AIS 집계) 얀부항·제다항 일일 입항 수, 밥엘만데브 통과 수
-  events     공격·요격·경보 보도를 (날짜·도시·유형)으로 묶은 이벤트 로그 + 후티 측 SABA 성명
+  attention  영어 위키피디아 도시 문서 일일 조회수 ÷ 평시 중앙값
+  firms      NASA FIRMS VIIRS 위성 열 감지 — 권역별 이상 화점(상시 플레어 제외)
+  mofa       외교부 해외안전여행 사우디 경보 단계(지점별) + 안전공지 템포
+  maritime   IMF PortWatch(AIS 집계) 항구별 입항 수, 밥엘만데브·호르무즈 통과 수
+  news       Google News RSS, 공신력 있는 국내·해외 매체만 5건씩
+  events     공격·요격·경보 보도를 (날짜·도시·유형)으로 묶은 이벤트 로그
+  telegram   후티 군 대변인 공식 Telegram 채널(웹 미리보기) — 사우디 지명 언급 메시지
 
 모두 무료·무키. 실패한 소스는 이전 성공 데이터를 유지하고 stale=true 로 표시.
 """
@@ -31,70 +32,78 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(ROOT, "data", "latest.json")
 HEADERS = {"User-Agent": "yanbu-dashboard/1.0 (github.com/junekinns/yanbu-dashboard)"}
 BROWSER_HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"}
+TODAY = datetime.now(timezone.utc).date()
+AST = timezone(timedelta(hours=3))  # 사우디 현지시각
 
+# 권역. box는 위성 화점 집계 범위, wiki는 관심도 문서(첫 항목이 대표), primary_port는 해상 타일 대표 항.
 REGIONS = [
-    {"key": "yanbu", "name": "얀부", "aliases": ["얀부", "Yanbu"], "lat": 24.0895, "lon": 38.0618,
-     "box": (23.7, 24.4, 37.8, 38.6), "wiki": "Yanbu"},
-    {"key": "jeddah", "name": "제다", "aliases": ["제다", "젯다", "Jeddah"], "lat": 21.4858, "lon": 39.1925,
-     "box": (21.2, 22.0, 38.9, 39.6), "wiki": "Jeddah"},
+    {"key": "west", "name": "서부", "label": "얀부 · 제다", "box": (20.0, 26.5, 37.0, 42.0),
+     "wiki": ["Yanbu", "Jeddah"], "primary_port": "port570", "chokepoint": "chokepoint4", "center": [23.0, 39.3], "zoom": 6},
+    {"key": "central", "name": "중부", "label": "리야드", "box": (23.3, 26.2, 45.3, 48.2),
+     "wiki": ["Riyadh"], "primary_port": None, "chokepoint": "chokepoint6", "center": [24.5, 46.9], "zoom": 7},
+    {"key": "east", "name": "동부", "label": "담맘 · 다란 · 주베일", "box": (25.3, 28.6, 48.3, 50.9),
+     "wiki": ["Dhahran", "Ras_Tanura"], "primary_port": "port526", "chokepoint": "chokepoint6", "center": [26.4, 49.8], "zoom": 7},
 ]
-WEST_SAUDI_BOX = (20.0, 26.5, 37.0, 42.0)  # 제다~얀부~메디나주 송유관 회랑 (타일 집계용)
-SAUDI_BOX = (16.0, 32.5, 34.0, 56.0)       # 지도용
 
-# 지도에 찍는 지점. aliases는 외교부 경보 문구·뉴스 제목 매칭용, port는 PortWatch id.
+# 지도·로그·텔레그램 지명 매칭용 지점. aliases는 한/영, ar은 아랍어. port는 PortWatch id.
 PLACES = [
-    {"name": "얀부", "aliases": ["얀부", "Yanbu"], "lat": 24.09, "lon": 38.06, "port": "port570", "local": True},
-    {"name": "제다", "aliases": ["제다", "젯다", "Jeddah"], "lat": 21.49, "lon": 39.19, "port": "port518", "local": True},
-    {"name": "메디나", "aliases": ["메디나", "Medina", "Madinah"], "lat": 24.47, "lon": 39.61, "local": True},
-    {"name": "라비그", "aliases": ["라비그", "Rabigh"], "lat": 22.80, "lon": 39.03, "port": "port1081", "local": True},
-    {"name": "킹압둘라항", "aliases": ["King Abdullah Port", "킹압둘라"], "lat": 22.52, "lon": 39.10, "port": "port2031", "local": True},
-    {"name": "메카", "aliases": ["메카", "Mecca", "Makkah"], "lat": 21.39, "lon": 39.86},
-    {"name": "타이프", "aliases": ["타이프", "Taif"], "lat": 21.27, "lon": 40.42},
-    {"name": "리야드", "aliases": ["리야드", "Riyadh"], "lat": 24.71, "lon": 46.68},
-    {"name": "프린스술탄 공군기지", "aliases": ["프린스술탄", "Prince Sultan"], "lat": 24.06, "lon": 47.58},
-    {"name": "담맘", "aliases": ["담맘", "Dammam", "Dhahran", "다란"], "lat": 26.43, "lon": 50.10, "port": "port275"},
-    {"name": "라스타누라", "aliases": ["라스 타누라", "라스타누라", "Ras Tanura"], "lat": 26.64, "lon": 50.16, "port": "port1091"},
-    {"name": "주베일", "aliases": ["주베일", "Jubail"], "lat": 27.01, "lon": 49.66, "port": "port24"},
-    {"name": "샤이바 유전", "aliases": ["샤이바", "Shaybah"], "lat": 22.52, "lon": 53.97},
-    {"name": "지잔", "aliases": ["지잔", "자잔", "Jazan", "Jizan"], "lat": 16.89, "lon": 42.57, "port": "port2074"},
-    {"name": "아브하", "aliases": ["아브하", "Abha"], "lat": 18.22, "lon": 42.51},
-    {"name": "카미스무샤이트", "aliases": ["카미스", "Khamis Mushait"], "lat": 18.31, "lon": 42.73},
-    {"name": "나즈란", "aliases": ["나즈란", "Najran"], "lat": 17.49, "lon": 44.13},
-    {"name": "송유관", "aliases": ["송유관", "pipeline"], "lat": None, "lon": None, "local": True},
+    {"name": "얀부", "region": "west", "aliases": ["얀부", "Yanbu"], "ar": ["ينبع"], "lat": 24.09, "lon": 38.06, "port": "port570"},
+    {"name": "제다", "region": "west", "aliases": ["제다", "젯다", "Jeddah"], "ar": ["جدة", "جده"], "lat": 21.49, "lon": 39.19, "port": "port518"},
+    {"name": "메디나", "region": "west", "aliases": ["메디나", "Medina", "Madinah"], "ar": ["المدينة"], "lat": 24.47, "lon": 39.61},
+    {"name": "라비그", "region": "west", "aliases": ["라비그", "Rabigh"], "ar": ["رابغ"], "lat": 22.80, "lon": 39.03, "port": "port1081"},
+    {"name": "킹압둘라항", "region": "west", "aliases": ["King Abdullah Port", "킹압둘라"], "ar": [], "lat": 22.52, "lon": 39.10, "port": "port2031"},
+    {"name": "메카", "region": "west", "aliases": ["메카", "Mecca", "Makkah"], "ar": ["مكة"], "lat": 21.39, "lon": 39.86},
+    {"name": "타이프", "region": "west", "aliases": ["타이프", "Taif"], "ar": ["الطائف"], "lat": 21.27, "lon": 40.42},
+    {"name": "리야드", "region": "central", "aliases": ["리야드", "Riyadh"], "ar": ["الرياض"], "lat": 24.71, "lon": 46.68},
+    {"name": "프린스술탄 공군기지", "region": "central", "aliases": ["프린스술탄", "Prince Sultan"], "ar": ["الأمير سلطان"], "lat": 24.06, "lon": 47.58},
+    {"name": "담맘", "region": "east", "aliases": ["담맘", "Dammam"], "ar": ["الدمام"], "lat": 26.43, "lon": 50.10, "port": "port275"},
+    {"name": "다란", "region": "east", "aliases": ["다란", "Dhahran"], "ar": ["الظهران"], "lat": 26.29, "lon": 50.11},
+    {"name": "라스타누라", "region": "east", "aliases": ["라스 타누라", "라스타누라", "Ras Tanura"], "ar": ["رأس تنورة", "راس تنورة"], "lat": 26.64, "lon": 50.16, "port": "port1091"},
+    {"name": "주아이마", "region": "east", "aliases": ["주아이마", "Juaymah", "Ju'aymah"], "ar": ["الجعيمة"], "lat": 26.80, "lon": 49.98, "port": "port526"},
+    {"name": "주베일", "region": "east", "aliases": ["주베일", "Jubail"], "ar": ["الجبيل"], "lat": 27.01, "lon": 49.66, "port": "port24"},
+    {"name": "아브카이크", "region": "east", "aliases": ["아브카이크", "Abqaiq", "Buqayq"], "ar": ["بقيق"], "lat": 25.94, "lon": 49.67},
+    {"name": "샤이바 유전", "region": None, "aliases": ["샤이바", "Shaybah"], "ar": ["الشيبة"], "lat": 22.52, "lon": 53.97},
+    {"name": "지잔", "region": None, "aliases": ["지잔", "자잔", "Jazan", "Jizan"], "ar": ["جازان", "جيزان"], "lat": 16.89, "lon": 42.57, "port": "port2074"},
+    {"name": "아브하", "region": None, "aliases": ["아브하", "Abha"], "ar": ["أبها", "ابها"], "lat": 18.22, "lon": 42.51},
+    {"name": "카미스무샤이트", "region": None, "aliases": ["카미스", "Khamis Mushait"], "ar": ["خميس مشيط", "خميس"], "lat": 18.31, "lon": 42.73},
+    {"name": "나즈란", "region": None, "aliases": ["나즈란", "Najran"], "ar": ["نجران"], "lat": 17.49, "lon": 44.13},
+    {"name": "송유관", "region": None, "aliases": ["송유관", "pipeline"], "ar": ["أنابيب"], "lat": None, "lon": None},
 ]
+PLACE_BY_NAME = {p["name"]: p for p in PLACES}
 
 MOFA_BASE = "https://www.0404.go.kr"
 MOFA_COUNTRY_URL = f"{MOFA_BASE}/ntnSafetyInfo/107/detail"
 MOFA_NOTICE_URL = f"{MOFA_BASE}/bbs/safetyNtc/list?ntnCd=107&pageSize=50"
 FIRMS_URL = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv"
 WIKI_URL = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/{title}/daily/{start}/{end}"
-
 GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
+TELEGRAM_URL = "https://t.me/s/army21ye"  # 예멘군(후티) 대변인 야히야 사리 공식 채널
+PORTWATCH_BASE = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services"
+SAUDI_BOX = (16.0, 32.5, 34.0, 56.0)
+
 NEWS_FEEDS = {
     "kr": {
-        "query": "사우디 (후티 OR 공격 OR 드론 OR 미사일 OR 교민 OR 송유관 OR 얀부 OR 제다) when:7d",
+        "query": "사우디 (후티 OR 공격 OR 드론 OR 미사일 OR 교민 OR 송유관 OR 얀부 OR 제다 OR 리야드 OR 담맘 OR 아람코) when:7d",
         "locale": {"hl": "ko", "gl": "KR", "ceid": "KR:ko"},
         "sources": ["연합뉴스", "KBS", "MBC", "SBS", "JTBC", "YTN", "조선일보", "중앙일보", "동아일보",
                     "한국일보", "한겨레", "경향신문", "뉴스1", "뉴시스", "채널A", "MBN", "국민일보", "서울신문"],
     },
     "en": {
-        "query": "Saudi (Houthi OR Yanbu OR Jeddah OR pipeline OR drone OR missile) when:7d",
+        "query": "Saudi (Houthi OR Yanbu OR Jeddah OR Riyadh OR Dhahran OR Aramco OR pipeline OR drone OR missile) when:7d",
         "locale": {"hl": "en-US", "gl": "US", "ceid": "US:en"},
         "sources": ["Reuters", "AP News", "Bloomberg", "BBC", "Al Jazeera", "Financial Times", "The Guardian",
                     "The New York Times", "The Washington Post", "Wall Street Journal", "CNN", "NBC News", "CBS News",
                     "ABC News", "PBS", "NPR", "CNBC", "Arab News", "Saudi Gazette", "The National", "DW", "France 24", "Euronews"],
     },
 }
-
 EVENT_QUERIES = {
     "en": ('(intercepted OR intercepts OR "shot down" OR destroyed OR strikes OR struck OR attack OR airstrike OR alert OR siren) '
-           '(Houthi OR coalition OR Saudi) (Yanbu OR Jeddah OR Medina OR Mecca OR Taif OR Jazan OR Abha OR "Khamis Mushait" '
-           'OR Najran OR Riyadh OR pipeline OR Rabigh) when:3d'),
-    "kr": "(후티 OR 사우디) (요격 OR 격추 OR 공격 OR 피격 OR 공습 OR 경보 OR 타격) (메카 OR 메디나 OR 제다 OR 얀부 OR 타이프 OR 지잔 OR 자잔 OR 아브하 OR 나즈란 OR 리야드 OR 송유관) when:3d",
+           '(Houthi OR coalition OR Saudi) (Yanbu OR Jeddah OR Medina OR Mecca OR Taif OR Jazan OR Abha OR "Khamis Mushait" OR Najran '
+           'OR Riyadh OR Dammam OR Dhahran OR Jubail OR "Ras Tanura" OR Abqaiq OR pipeline OR Rabigh) when:3d'),
+    "kr": ("(후티 OR 사우디) (요격 OR 격추 OR 공격 OR 피격 OR 공습 OR 경보 OR 타격) "
+           "(메카 OR 메디나 OR 제다 OR 얀부 OR 타이프 OR 지잔 OR 자잔 OR 아브하 OR 나즈란 OR 리야드 OR 담맘 OR 다란 OR 주베일 OR 라스타누라 OR 송유관) when:3d"),
 }
 EVENT_EXTRA_SOURCES = ["Middle East Eye", "The Times of Israel", "Al Arabiya", "Arab News", "The National", "Anadolu"]
-CITY_PATTERNS = [(p["name"], "|".join(rf"\b{re.escape(a)}\b" if a.isascii() else re.escape(a) for a in p["aliases"]), p.get("local", False))
-                 for p in PLACES]
 TYPE_PATTERNS = [
     ("경보", r"air raid|alert|siren|civil defen[cs]e|경보|사이렌|민방위"),
     ("요격", r"intercept|shot down|shoots? down|downed|destroy|요격|격추"),
@@ -105,23 +114,10 @@ TYPE_PATTERNS = [
 EVENT_SKIP = (r"den(y|ies|ied)|analysis|explainer|opinion|what (it|the|this)|why |pact|agreement|vow|promise|warns?|threat"
               r"|calls? (for|on)|condemn|slam|react|response|price|market|repair|insurance|shipping rate|weeks|route|reroute"
               r"|부인|분석|해설|전망|왜 |경고|촉구|규탄|다짐|유가|증시|복구|대란|항로|우회|보험|운임|주간|가동 중단될|공급|수출|고갈")
-SABA_URL = "https://www.saba.ye/en"
-
-PORTWATCH_BASE = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services"
-PORTWATCH_SERIES = [
-    {"key": "yanbu_port", "name": "얀부항(King Fahd)", "service": "Daily_Ports_Data", "where": "portid='port570'", "field": "portcalls"},
-    {"key": "jeddah_port", "name": "제다항", "service": "Daily_Ports_Data", "where": "portid='port518'", "field": "portcalls"},
-    {"key": "bab_el_mandeb", "name": "밥엘만데브 해협", "service": "Daily_Chokepoints_Data", "where": "portid='chokepoint4'", "field": "n_total"},
-] + [
-    {"key": p["port"], "name": p["name"] if p["name"].endswith("항") else f"{p['name']}항", "service": "Daily_Ports_Data",
-     "where": f"portid='{p['port']}'", "field": "portcalls", "map_only": True}
-    for p in PLACES if p.get("port") and p["port"] not in ("port570", "port518")
-]
+CITY_PATTERNS = [(p["name"], "|".join(rf"\b{re.escape(a)}\b" if a.isascii() else re.escape(a) for a in p["aliases"])) for p in PLACES]
 
 # 외교부 단계. 특별여행주의보는 2단계 이상·3단계 이하로 운용되므로 2.5.
 LEVELS = {"여행유의": 1, "여행자제": 2, "특별여행주의보": 2.5, "출국권고": 3, "여행금지": 4}
-
-TODAY = datetime.now(timezone.utc).date()
 
 
 def now_iso():
@@ -150,7 +146,7 @@ def in_box(lat, lon, box):
 
 
 def ratio(value, baseline):
-    return round(value / baseline, 1) if baseline else None
+    return round(value / baseline, 2) if baseline else None
 
 
 def load_previous():
@@ -161,22 +157,28 @@ def load_previous():
         return {}
 
 
+def carry_over(current, previous):
+    if current["ok"] or not (previous.get("ok") or previous.get("stale")):
+        return current
+    kept = {k: v for k, v in previous.items() if k not in ("ok", "error", "fetched_at")}
+    return {**kept, **current, "stale": True}
+
+
 # ------------------------------------------------------------ attention
 
 def fetch_attention():
-    result = {"ok": False, "error": None, "fetched_at": now_iso(), "articles": []}
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "articles": {}}
     start, end = (TODAY - timedelta(days=60)).strftime("%Y%m%d"), TODAY.strftime("%Y%m%d")
     try:
-        for region in REGIONS:
-            items = get(WIKI_URL.format(title=region["wiki"], start=start, end=end)).json()["items"]
+        for title in {t for r in REGIONS for t in r["wiki"]}:
+            items = get(WIKI_URL.format(title=title, start=start, end=end)).json()["items"]
             series = [{"date": f"{i['timestamp'][:4]}-{i['timestamp'][4:6]}-{i['timestamp'][6:8]}", "views": i["views"]} for i in items]
             baseline = statistics.median(s["views"] for s in series[:-14]) if len(series) > 20 else None
-            latest = series[-1]
-            result["articles"].append({
-                "key": region["key"], "name": region["name"], "title": region["wiki"],
-                "baseline": baseline, "latest": latest["views"], "latest_date": latest["date"],
-                "ratio": ratio(latest["views"], baseline), "series": series[-30:],
-            })
+            result["articles"][title] = {
+                "title": title, "label": title.replace("_", " "), "baseline": baseline,
+                "latest": series[-1]["views"], "latest_date": series[-1]["date"],
+                "ratio": ratio(series[-1]["views"], baseline), "series": series[-30:],
+            }
     except (requests.RequestException, KeyError, ValueError) as exc:
         result["error"] = str(exc)
         return result
@@ -186,8 +188,8 @@ def fetch_attention():
 
 # ------------------------------------------------------------ firms
 
-def fetch_firms(previous_history):
-    result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": FIRMS_URL}
+def fetch_firms(previous):
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": FIRMS_URL, "regions": {}}
     try:
         text = get(FIRMS_URL, timeout=180).text
     except requests.RequestException as exc:
@@ -199,45 +201,36 @@ def fetch_firms(previous_history):
         lat, lon = float(row["latitude"]), float(row["longitude"])
         if in_box(lat, lon, SAUDI_BOX):
             hotspots.append({"lat": lat, "lon": lon, "frp": float(row["frp"]), "date": row["acq_date"],
-                             "time": row["acq_time"], "confidence": row["confidence"], "west": in_box(lat, lon, WEST_SAUDI_BOX)})
+                             "time": row["acq_time"], "confidence": row["confidence"]})
 
-    # 정유공장 가스 플레어는 매일 같은 자리에서 잡힌다. 7일 중 4일 이상 같은
-    # ~3km 격자에 나타난 열원은 '상시'로 분류해 이상 화점 집계에서 뺀다.
+    # 정유·가스 플레어는 매일 같은 자리에서 잡힌다. 7일 중 4일 이상 같은 ~3km 격자에
+    # 나타난 열원은 '상시'로 분류해 이상 화점 집계에서 뺀다.
     cell_of = lambda h: (round(h["lat"] / 0.03), round(h["lon"] / 0.03))
     cell_days = {}
     for h in hotspots:
         cell_days.setdefault(cell_of(h), set()).add(h["date"])
     persistent = {c for c, ds in cell_days.items() if len(ds) >= 4}
-    for h in hotspots:
-        h["persistent"] = cell_of(h) in persistent
-    # 타일 집계는 서부 사우디(제다~얀부~송유관 회랑)만, 지도에는 전국을 찍는다.
-    anomalous = [h for h in hotspots if not h["persistent"] and h["west"]]
+    anomalous = [h for h in hotspots if cell_of(h) not in persistent]
 
     # 오늘은 위성 패스가 다 안 들어왔으므로 일별 집계·이력은 어제까지만 쓴다.
     yesterday = (TODAY - timedelta(days=1)).isoformat()
     days = [(TODAY - timedelta(days=i)).isoformat() for i in range(7, 0, -1)]
-    per_day = Counter(h["date"] for h in anomalous)
-    per_day_flare = Counter(h["date"] for h in hotspots if h["persistent"] and h["west"])
-    history = dict(sorted({**previous_history, **{d: per_day[d] for d in days}}.items())[-90:])
-    older = [c for d, c in history.items() if d < days[0]]
-    baseline = statistics.median(older) if len(older) >= 7 else None
-
-    regions = {}
     for region in REGIONS:
         inside = [h for h in anomalous if in_box(h["lat"], h["lon"], region["box"])]
-        regions[region["key"]] = {"h24": sum(1 for h in inside if h["date"] >= yesterday), "d7": len(inside)}
-
-    result.update({
-        "ok": True,
-        "hotspots": sorted((h for h in hotspots if not h["persistent"]), key=lambda h: h["date"])[-600:],
-        "flare_sites": [{"lat": round(c[0] * 0.03, 3), "lon": round(c[1] * 0.03, 3), "days": len(cell_days[c])} for c in sorted(persistent)],
-        "daily_counts": [{"date": d, "count": per_day[d], "flares": per_day_flare[d]} for d in days],
-        "last24h": sum(1 for h in anomalous if h["date"] >= yesterday),
-        "flares24h": sum(1 for h in hotspots if h["persistent"] and h["west"] and h["date"] >= yesterday),
-        "baseline": baseline,
-        "history": history,
-        "regions": regions,
-    })
+        flares = sum(1 for h in hotspots if cell_of(h) in persistent and in_box(h["lat"], h["lon"], region["box"]) and h["date"] >= yesterday)
+        per_day = Counter(h["date"] for h in inside)
+        prev_hist = previous.get("regions", {}).get(region["key"], {}).get("history", {})
+        history = dict(sorted({**prev_hist, **{d: per_day[d] for d in days}}.items())[-90:])
+        older = [c for d, c in history.items() if d < days[0]]
+        result["regions"][region["key"]] = {
+            "last24h": sum(1 for h in inside if h["date"] >= yesterday),
+            "flares24h": flares,
+            "daily_counts": [{"date": d, "count": per_day[d]} for d in days],
+            "baseline": statistics.median(older) if len(older) >= 7 else None,
+            "history": history,
+            "hotspots": sorted(inside, key=lambda h: h["date"])[-300:],
+        }
+    result["ok"] = True
     return result
 
 
@@ -259,8 +252,8 @@ def parse_advisories(page):
     return advisories
 
 
-def region_level(advisories, region):
-    named = [a for a in advisories if any(alias in a["regions"] for alias in region["aliases"])]
+def place_level(advisories, place):
+    named = [a for a in advisories if any(alias in a["regions"] for alias in place["aliases"])]
     if named:
         return max(named, key=lambda a: a["level"] or 0)
     rest = [a for a in advisories if "제외한" in a["regions"]]
@@ -305,19 +298,14 @@ def fetch_mofa():
 
     # 달력 주가 아니라 오늘로 끝나는 7일 창을 8개 이어 붙인다 (주중에도 값이 덜 잡히지 않게).
     windows = [TODAY - timedelta(days=7 * i) for i in range(7, -1, -1)]
-    counts = []
-    for end in windows:
-        start = end - timedelta(days=6)
-        counts.append(sum(1 for n in notices if start.isoformat() <= n["date"] <= end.isoformat()))
+    counts = [sum(1 for n in notices if (end - timedelta(days=6)).isoformat() <= n["date"] <= end.isoformat()) for end in windows]
     baseline = statistics.median(counts[:-2])
 
     result.update({
         "ok": True,
         "advisories": advisories,
-        "regions": [{"key": r["key"], "name": r["name"], "lat": r["lat"], "lon": r["lon"],
-                     **{k: region_level(advisories, r).get(k) for k in ("level", "level_name")}} for r in REGIONS],
-        "places": [{"name": p["name"], "lat": p["lat"], "lon": p["lon"], "local": p.get("local", False), "port": p.get("port"),
-                    **{k: region_level(advisories, p).get(k) for k in ("level", "level_name")}} for p in PLACES if p["lat"]],
+        "places": [{"name": p["name"], "region": p["region"], "lat": p["lat"], "lon": p["lon"], "port": p.get("port"),
+                    **{k: place_level(advisories, p).get(k) for k in ("level", "level_name")}} for p in PLACES if p["lat"]],
         "notices": notices[:3],
         "weekly_counts": [{"week": w.isoformat(), "count": c} for w, c in zip(windows, counts)],
         "last7d": counts[-1],
@@ -327,7 +315,7 @@ def fetch_mofa():
     return result
 
 
-# ------------------------------------------------------------ news
+# ------------------------------------------------------------ news / events
 
 def feed_items(xml, allowed):
     """구글뉴스 RSS item → dict. 허용 매체가 아니면 버린다."""
@@ -352,20 +340,16 @@ def google_news(query, locale, allowed):
     return list(feed_items(get(GOOGLE_NEWS_URL.format(q=quote(query), **locale)).text, allowed))
 
 
-def parse_feed(xml, allowed):
-    items = []
-    seen = set()
-    for it in feed_items(xml, allowed):
+def top_news(items):
+    items = sorted(items, key=lambda i: i["published"], reverse=True)
+    picked, per_source, seen = [], Counter(), set()
+    for it in items:  # 제목 중복 제거 + 한 매체가 다 채우지 않게 매체당 2건까지
         key = re.sub(r"[^\w가-힣]", "", it["title"].lower())[:40]
-        if key not in seen:
-            seen.add(key)
-            items.append(it)
-    items.sort(key=lambda i: i["published"], reverse=True)
-    picked, per_source = [], Counter()
-    for i in items:  # 한 매체가 비슷한 기사로 다 채우지 않게 매체당 2건까지
-        if per_source[i["source"]] < 2:
-            picked.append(i)
-            per_source[i["source"]] += 1
+        if key in seen or per_source[it["source"]] >= 2:
+            continue
+        seen.add(key)
+        per_source[it["source"]] += 1
+        picked.append(it)
         if len(picked) == 5:
             break
     return picked
@@ -375,8 +359,7 @@ def fetch_news():
     result = {"ok": False, "error": None, "fetched_at": now_iso()}
     try:
         for key, feed in NEWS_FEEDS.items():
-            url = GOOGLE_NEWS_URL.format(q=quote(feed["query"]), **feed["locale"])
-            result[key] = parse_feed(get(url).text, feed["sources"])
+            result[key] = top_news(google_news(feed["query"], feed["locale"], feed["sources"]))
     except (requests.RequestException, AttributeError, ValueError) as exc:
         result["error"] = str(exc)
         return result
@@ -384,19 +367,16 @@ def fetch_news():
     return result
 
 
-# ------------------------------------------------------------ events
-
 def classify(title):
     if re.search(EVENT_SKIP, title, re.I):
         return None
-    city = next(((name, local) for name, rx, local in CITY_PATTERNS if re.search(rx, title, re.I)), None)
+    city = next((name for name, rx in CITY_PATTERNS if re.search(rx, title, re.I)), None)
     kind = next((name for name, rx in TYPE_PATTERNS if re.search(rx, title, re.I)), None)
     return (city, kind) if city and kind else None
 
 
 def fetch_events():
-    result = {"ok": False, "error": None, "fetched_at": now_iso(), "events": [], "houthi": []}
-    clusters = {}
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "events": []}
     try:
         items = google_news(EVENT_QUERIES["en"], NEWS_FEEDS["en"]["locale"], NEWS_FEEDS["en"]["sources"] + EVENT_EXTRA_SOURCES)
         items += google_news(EVENT_QUERIES["kr"], NEWS_FEEDS["kr"]["locale"], NEWS_FEEDS["kr"]["sources"])
@@ -404,77 +384,98 @@ def fetch_events():
         result["error"] = str(exc)
         return result
 
+    clusters = {}
     for it in items:
         hit = classify(it["title"])
         if not hit:
             continue
-        (city, local), kind = hit
-        when = datetime.fromisoformat(it["published"]).astimezone(timezone(timedelta(hours=3)))  # 사우디 현지시각
-        it["local_time"] = when.strftime("%Y-%m-%d %H:%M")
+        city, kind = hit
+        when = datetime.fromisoformat(it["published"]).astimezone(AST)
+        it["when"] = when
         it["korean"] = bool(re.search(r"[가-힣]", it["title"]))
-        clusters.setdefault((when.strftime("%Y-%m-%d"), city, kind), []).append((it, local))
+        clusters.setdefault((when.strftime("%Y-%m-%d"), city, kind), []).append(it)
 
     for (day, city, kind), members in clusters.items():
         # 같은 사건을 다룬 기사 묶음: 가장 이른 보도 시각, 한국어 제목 우선, 매체 수
-        members.sort(key=lambda m: m[0]["published"])
-        lead = next((m[0] for m in members if m[0]["korean"]), members[0][0])
-        place = next(p for p in PLACES if p["name"] == city)
+        members.sort(key=lambda m: m["published"])
+        lead = next((m for m in members if m["korean"]), members[0])
+        place = PLACE_BY_NAME[city]
         result["events"].append({
-            "date": day, "time": members[0][0]["local_time"][11:], "city": city, "type": kind,
-            "lat": place["lat"], "lon": place["lon"],
-            "local": members[0][1], "title": lead["title"], "url": lead["url"], "source": lead["source"],
-            "outlets": len({m[0]["source"] for m in members}),
+            "date": day, "time": members[0]["when"].strftime("%H:%M"), "iso": members[0]["when"].isoformat(),
+            "city": city, "region": place["region"], "type": kind, "lat": place["lat"], "lon": place["lon"],
+            "title": lead["title"], "url": lead["url"], "source": lead["source"],
+            "outlets": len({m["source"] for m in members}),
         })
-    result["events"].sort(key=lambda e: (e["date"], e["time"]), reverse=True)
+    result["events"].sort(key=lambda e: e["iso"], reverse=True)
     result["events"] = result["events"][:15]
+    result["ok"] = True
+    return result
 
-    try:  # 후티 측 성명은 부수 정보 — 실패해도 이벤트 로그는 살린다
-        page = get(SABA_URL, BROWSER_HEADERS).text
-        seen = set()
-        for href, inner in re.findall(r'<a[^>]*href="(/en/news\d+\.htm)"[^>]*>(.*?)</a>', page, re.S):
-            title = strip_html(inner)
-            if len(title) > 20 and title not in seen and re.search(r"Saudi|Saree|Armed Forces|Statement", title, re.I):
-                seen.add(title)
-                result["houthi"].append({"title": title, "url": "https://www.saba.ye" + href})
-            if len(result["houthi"]) == 3:
-                break
-    except requests.RequestException:
-        pass
 
+# ------------------------------------------------------------ telegram
+
+def fetch_telegram():
+    """후티 군 대변인 채널의 최근 메시지 중 사우디·사우디 지명 언급만 남긴다."""
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "channel": TELEGRAM_URL, "messages": []}
+    try:
+        page = get(TELEGRAM_URL, BROWSER_HEADERS).text
+    except requests.RequestException as exc:
+        result["error"] = str(exc)
+        return result
+
+    blocks = re.split(r'(?=<div class="tgme_widget_message_wrap)', page)
+    for block in blocks:
+        text = re.search(r'class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', block, re.S)
+        when = re.search(r'<time datetime="([^"]+)"', block)
+        link = re.search(r'class="tgme_widget_message_date"[^>]*href="([^"]+)"', block)
+        if not (text and when and link):
+            continue
+        body = strip_html(re.sub(r"<br\s*/?>", " ", text.group(1)))
+        places = [p["name"] for p in PLACES if any(a in body for a in p["ar"]) or any(a.isascii() and re.search(rf"\b{a}\b", body, re.I) for a in p["aliases"])]
+        if not places and not re.search(r"السعود|Saudi", body):
+            continue
+        local = datetime.fromisoformat(when.group(1)).astimezone(AST)
+        result["messages"].append({
+            "time": local.strftime("%Y-%m-%d %H:%M"), "iso": local.isoformat(), "places": places,
+            "text": body[:260] + ("…" if len(body) > 260 else ""), "url": link.group(1),
+            "translate": "https://translate.google.com/?sl=auto&tl=ko&op=translate&text=" + quote(body[:900]),
+        })
+    result["messages"] = sorted(result["messages"], key=lambda m: m["iso"], reverse=True)[:6]
     result["ok"] = True
     return result
 
 
 # ------------------------------------------------------------ maritime
 
-def portwatch_rows(spec):
-    params = {"where": spec["where"], "outFields": f"date,{spec['field']}", "orderByFields": "date DESC",
+def portwatch_rows(service, portid, field):
+    params = {"where": f"portid='{portid}'", "outFields": f"date,{field}", "orderByFields": "date DESC",
               "resultRecordCount": 1000, "returnGeometry": "false", "f": "json"}
-    data = get(f"{PORTWATCH_BASE}/{spec['service']}/FeatureServer/0/query?" + "&".join(f"{k}={quote(str(v))}" for k, v in params.items())).json()
+    data = get(f"{PORTWATCH_BASE}/{service}/FeatureServer/0/query?" + "&".join(f"{k}={quote(str(v))}" for k, v in params.items())).json()
     if "error" in data:
-        raise ValueError(f"PortWatch {spec['key']}: {data['error'].get('message')}")
+        raise ValueError(f"PortWatch {portid}: {data['error'].get('message')}")
     rows = []
     for f in data["features"]:
         ts = f["attributes"]["date"]
         day = datetime.fromtimestamp(ts / 1000, tz=timezone.utc).date().isoformat() if isinstance(ts, (int, float)) else str(ts)[:10]
-        rows.append((day, f["attributes"][spec["field"]] or 0))
+        rows.append((day, f["attributes"][field] or 0))
     return sorted(rows)
 
 
 def fetch_maritime():
     result = {"ok": False, "error": None, "fetched_at": now_iso(), "series": {}}
+    targets = [(p["port"], p["name"] if p["name"].endswith("항") else f"{p['name']}항", "Daily_Ports_Data", "portcalls") for p in PLACES if p.get("port")]
+    targets += [("chokepoint4", "밥엘만데브 해협", "Daily_Chokepoints_Data", "n_total"), ("chokepoint6", "호르무즈 해협", "Daily_Chokepoints_Data", "n_total")]
     try:
-        for spec in PORTWATCH_SERIES:
-            rows = portwatch_rows(spec)
+        for key, name, service, field in targets:
+            rows = portwatch_rows(service, key, field)
             values = [v for _, v in rows]
             rolling7 = [sum(values[i - 6:i + 1]) for i in range(6, len(values))]
-            last7 = rolling7[-1]
             # 최근 2주를 뺀 지난 1년의 7일 합 중앙값을 평시로 본다.
             baseline = statistics.median(rolling7[-379:-14]) if len(rolling7) > 60 else None
-            result["series"][spec["key"]] = {
-                "name": spec["name"], "last_date": rows[-1][0], "last7": last7,
-                "baseline7": baseline, "ratio": ratio(last7, baseline),
-                "spark": [] if spec.get("map_only") else [{"date": rows[i][0], "value": rolling7[i - 6]} for i in range(len(rows) - 90, len(rows))],
+            result["series"][key] = {
+                "name": name, "last_date": rows[-1][0], "last7": rolling7[-1], "baseline7": baseline,
+                "ratio": ratio(rolling7[-1], baseline),
+                "spark": [{"date": rows[i][0], "value": rolling7[i - 6]} for i in range(len(rows) - 90, len(rows))],
             }
     except (requests.RequestException, ValueError, KeyError) as exc:
         result["error"] = str(exc)
@@ -485,28 +486,23 @@ def fetch_maritime():
 
 # ------------------------------------------------------------ main
 
-def carry_over(current, previous):
-    if current["ok"] or not (previous.get("ok") or previous.get("stale")):
-        return current
-    kept = {k: v for k, v in previous.items() if k not in ("ok", "error", "fetched_at")}
-    return {**kept, **current, "stale": True}
-
-
 def main():
     previous = load_previous()
     output = {
         "generated_at": now_iso(),
+        "regions": [{k: r[k] for k in ("key", "name", "label", "wiki", "primary_port", "chokepoint", "center", "zoom", "box")} for r in REGIONS],
         "attention": carry_over(fetch_attention(), previous.get("attention", {})),
-        "firms": carry_over(fetch_firms(previous.get("firms", {}).get("history", {})), previous.get("firms", {})),
+        "firms": carry_over(fetch_firms(previous.get("firms", {})), previous.get("firms", {})),
         "mofa": carry_over(fetch_mofa(), previous.get("mofa", {})),
         "news": carry_over(fetch_news(), previous.get("news", {})),
-        "maritime": carry_over(fetch_maritime(), previous.get("maritime", {})),
         "events": carry_over(fetch_events(), previous.get("events", {})),
+        "telegram": carry_over(fetch_telegram(), previous.get("telegram", {})),
+        "maritime": carry_over(fetch_maritime(), previous.get("maritime", {})),
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
-    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa", "news", "maritime", "events")))
+    print(" ".join(f"{k}_ok={output[k]['ok']}" for k in ("attention", "firms", "mofa", "news", "events", "telegram", "maritime")))
     return 0
 
 

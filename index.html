@@ -3,14 +3,17 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Red Sea Watch · 얀부·제다</title>
-<meta name="description" content="위키피디아 관심도, NASA 위성 열 감지, 외교부 공지 템포 세 가지 간접 신호로 사우디 얀부·제다 상황을 읽는 비공식 대시보드" />
+<title>Red Sea Watch · 사우디</title>
+<meta name="description" content="위키피디아 관심도, NASA 위성 열 감지, 외교부 공지 템포, 항만 활동 네 가지 간접 신호로 사우디 서부·중부·동부 상황을 읽는 비공식 대시보드" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Red Sea Watch <span class="h1-sub">얀부 · 제다</span></h1>
+    <div class="head-row">
+      <h1>Red Sea Watch <span class="h1-sub">사우디</span></h1>
+      <nav id="region-tabs" class="tabs" aria-label="권역 선택"></nav>
+    </div>
     <p class="subtitle">공식 발표가 말하지 않는 것을 간접 신호로 읽는 모니터. 6시간마다 자동 갱신.</p>
     <p id="mofa-line" class="official"></p>
   </header>
@@ -22,7 +25,7 @@
         <div class="big"><span class="value">–</span><span class="unit">평시 대비</span></div>
         <p class="sub"></p>
         <canvas height="60"></canvas>
-        <p class="muted small">영어 위키피디아 “Yanbu” 문서 일일 조회수 ÷ 최근 60일 중앙값. 세상이 갑자기 얀부를 찾아보면 뭔가 일어난 것.</p>
+        <p class="muted small desc"></p>
       </article>
 
       <article class="card tile" id="tile-firms">
@@ -30,7 +33,7 @@
         <div class="big"><span class="value">–</span><span class="unit">건 / 24시간</span></div>
         <p class="sub"></p>
         <canvas height="60"></canvas>
-        <p class="muted small">NASA FIRMS VIIRS 위성이 서부 사우디(제다~얀부~메디나주 송유관 회랑)에서 감지한 화점 중, 정유 플레어처럼 매일 같은 자리에 있는 상시 열원을 뺀 것. 큰 인프라 화재만 잡히고, 위성은 하루 두 번만 지나갑니다.</p>
+        <p class="muted small">NASA FIRMS VIIRS 위성이 이 권역에서 감지한 화점 중, 정유 플레어처럼 매일 같은 자리에 있는 상시 열원을 뺀 것. 큰 인프라 화재만 잡히고 위성은 하루 두 번 지나갑니다.</p>
       </article>
 
       <article class="card tile" id="tile-mofa">
@@ -38,33 +41,43 @@
         <div class="big"><span class="value">–</span><span class="unit">건 / 최근 7일</span></div>
         <p class="sub"></p>
         <canvas height="60"></canvas>
-        <p class="muted small">외교부가 사우디아라비아에 낸 안전공지 주간 건수. 대사관이 바빠지면 상황이 급박한 것.</p>
+        <p class="muted small">외교부가 사우디아라비아에 낸 안전공지 주간 건수(전국). 대사관이 바빠지면 상황이 급박한 것.</p>
       </article>
 
       <article class="card tile" id="tile-maritime">
         <h2>해상 교통</h2>
-        <div class="big"><span class="value">–</span><span class="unit">평시 대비 · 얀부항 입항</span></div>
+        <div class="big"><span class="value">–</span><span class="unit">평시 대비</span></div>
         <p class="sub"></p>
         <canvas height="60"></canvas>
-        <p class="muted small">IMF PortWatch가 AIS로 집계한 얀부 King Fahd 항(송유관 수출 터미널) 7일 입항 선박 수 ÷ 지난 1년 평시. 배가 안 오면 터미널이 멈춘 것. 이 지표만 <strong>낮을수록 위험</strong>.</p>
+        <p class="muted small desc"></p>
       </article>
     </section>
 
     <section class="card">
-      <h2>공격 · 요격 · 경보 로그 <span class="muted small">최근 72시간 · 사우디 현지시각 · 주요 매체 보도를 사건별로 묶음</span></h2>
+      <div class="card-head">
+        <h2>공격 · 요격 · 경보 로그 <span class="muted small">최근 72시간 · 사우디 현지시각 · 주요 매체 보도를 사건별로 묶음</span></h2>
+      </div>
       <ul id="event-log" class="event-log"></ul>
-      <p class="muted small">사우디 민방위 경보와 연합군 요격 발표는 보통 1~2시간 안에 주요 매체에 보도됩니다. 한 사건을 여러 매체가 다루면 한 줄로 묶고 매체 수를 표시합니다. 붉은 줄은 얀부·제다·메디나·송유관 관련.</p>
-      <details id="houthi-box">
-        <summary class="muted small">후티 측 발표 (SABA 영문판 · 검증되지 않은 상대측 주장)</summary>
-        <ul id="houthi-list" class="news-list"></ul>
-      </details>
+      <p class="muted small">민방위 경보·연합군 요격 발표는 보통 1~2시간 안에 주요 매체에 보도됩니다. 한 사건을 여러 매체가 다루면 한 줄로 묶고 매체 수를 표시합니다. 붉은 줄 = 선택한 권역.</p>
     </section>
 
     <section class="card">
-      <h2>상황 지도 <span class="muted small">사우디 전역 · 우측 상단에서 레이어 켜고 끄기 · 점을 클릭하면 상세</span></h2>
+      <h2>후티 군 대변인 채널 <span class="muted small">Telegram @army21ye · 사우디 언급 메시지만 · 상대측 발표라 검증되지 않음</span></h2>
+      <ul id="telegram-list" class="tg-list"></ul>
+      <p class="muted small">후티는 공격을 채널에서 먼저 예고·발표합니다. 원문은 아랍어이고 "번역"을 누르면 구글 번역으로 열립니다. 감지된 사우디 지명을 배지로 표시합니다.</p>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2 id="map-title">권역 지도</h2>
+        <div class="range" id="range-tabs" role="group" aria-label="기간">
+          <button data-hours="24">24시간</button>
+          <button data-hours="72" class="on">72시간</button>
+          <button data-hours="168">7일</button>
+        </div>
+      </div>
       <div id="map"></div>
       <ul class="legend" id="legend"></ul>
-      <p class="muted small">도시 색 = 외교부 경보 단계(흰 테두리 = 얀부·제다 권역). 작은 점 = 최근 72시간 공격·요격·경보 보도(클수록 많은 매체). 주황 = 위성 이상 화점(클수록 화력, 옅을수록 오래된 것). 링 = 항만 7일 입항이 평시 대비 어느 정도인지.</p>
     </section>
 
     <section class="card">
@@ -82,7 +95,7 @@
   </main>
 
   <footer class="muted small">
-    <p>출처: <a href="https://wikimedia.org/api/rest_v1/" target="_blank" rel="noopener">Wikimedia Pageviews</a> · <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a> · <a href="https://portwatch.imf.org/" target="_blank" rel="noopener">IMF PortWatch</a> · Google News RSS</p>
+    <p>출처: <a href="https://wikimedia.org/api/rest_v1/" target="_blank" rel="noopener">Wikimedia Pageviews</a> · <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank" rel="noopener">NASA FIRMS</a> · <a href="https://www.0404.go.kr/ntnSafetyInfo/107/detail" target="_blank" rel="noopener">외교부 해외안전여행</a> · <a href="https://overseas.mofa.go.kr/sa-ko/index.do" target="_blank" rel="noopener">주사우디 대한민국대사관</a> · <a href="https://portwatch.imf.org/" target="_blank" rel="noopener">IMF PortWatch</a> · Google News RSS · <a href="https://t.me/s/army21ye" target="_blank" rel="noopener">Telegram @army21ye</a></p>
     <p id="last-updated"></p>
     <p>비공식 개인 프로젝트. 간접 신호는 힌트일 뿐이며, 판단은 대사관 공지를 기준으로 하세요.</p>
   </footer>
