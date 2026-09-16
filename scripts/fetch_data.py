@@ -85,35 +85,60 @@ def weekly_buckets(events, weeks=13):
     return buckets
 
 
+def get_acled_token(email, password):
+    """myACLED 계정 이메일/비밀번호로 OAuth access token 발급 (24시간 유효)."""
+    resp = requests.post(
+        "https://acleddata.com/oauth/token",
+        data={
+            "username": email,
+            "password": password,
+            "grant_type": "password",
+            "client_id": "acled",
+            "scope": "authenticated",
+        },
+        timeout=30,
+    )
+    resp.raise_for_status()
+    return resp.json()["access_token"]
+
+
 def fetch_acled():
     """ACLED API에서 사우디 서부(얀부/제다 인근) 최근 사건을 가져온다.
 
-    인증 방식은 ACLED가 2024년 OAuth 기반으로 전환했으므로,
-    ACLED_API_KEY / ACLED_EMAIL 환경변수로 받은 값을 그대로 key/email
-    쿼리 파라미터로 사용한다. 계정 발급 시 ACLED 문서에서 현재 인증
-    방식(access token 방식으로 바뀌었는지)을 반드시 재확인할 것.
+    ACLED는 OAuth 토큰 방식을 쓴다. myACLED 계정의 이메일/비밀번호로
+    매 실행마다 access token(24시간 유효)을 새로 발급받아 사용한다.
+    (참고: https://acleddata.com/api-documentation/getting-started)
     """
-    api_key = os.environ.get("ACLED_API_KEY")
     email = os.environ.get("ACLED_EMAIL")
+    password = os.environ.get("ACLED_PASSWORD")
     result = {"events": [], "count_7d": 0, "count_90d_weekly": [], "ok": False,
               "fetched_at": now_iso(), "error": None}
 
-    if not api_key or not email:
-        result["error"] = "ACLED_API_KEY / ACLED_EMAIL 환경변수 없음"
+    if not email or not password:
+        result["error"] = "ACLED_EMAIL / ACLED_PASSWORD 환경변수 없음"
+        return result
+
+    try:
+        token = get_acled_token(email, password)
+    except Exception as exc:  # noqa: BLE001
+        result["error"] = f"토큰 발급 실패: {exc}"
         return result
 
     start = (datetime.now(timezone.utc) - timedelta(days=ACLED_LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     end = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     params = {
-        "key": api_key,
-        "email": email,
         "country": "Saudi Arabia",
         "event_date": f"{start}|{end}",
         "event_date_where": "BETWEEN",
         "limit": 0,
     }
     try:
-        resp = requests.get("https://api.acleddata.com/acled/read", params=params, timeout=30)
+        resp = requests.get(
+            "https://acleddata.com/api/acled/read",
+            params=params,
+            headers={"Authorization": f"Bearer {token}"},
+            timeout=30,
+        )
         resp.raise_for_status()
         payload = resp.json()
         rows = payload.get("data", [])

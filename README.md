@@ -12,11 +12,11 @@ python3 -m http.server 8765
 
 ## 실제 데이터로 채우기
 
-1. https://acleddata.com 에서 무료 계정을 만들고 API 키를 발급받습니다.
+1. https://acleddata.com 에서 무료 myACLED 계정을 만듭니다(이메일+비밀번호). 별도의 API 키 발급 절차는 없고, 이 계정 이메일/비밀번호로 매 요청마다 OAuth 토큰을 발급받아 사용합니다.
 2. 로컬에서 테스트하려면:
    ```bash
    pip install -r requirements.txt
-   ACLED_API_KEY=your_key ACLED_EMAIL=your_email python3 scripts/fetch_data.py
+   ACLED_EMAIL=your_email ACLED_PASSWORD=your_password python3 scripts/fetch_data.py
    ```
 3. `data/latest.json`이 실제 데이터로 갱신됩니다.
 
@@ -25,7 +25,7 @@ UKMTO(홍해 해상 보안 속보)와 미국무부 여행경보는 공식 API/RS
 ## GitHub Pages로 배포하기
 
 1. github.com에 새 저장소를 만들고 이 폴더를 push합니다.
-2. 저장소 Settings → Secrets and variables → Actions 에서 `ACLED_API_KEY`, `ACLED_EMAIL` 시크릿을 등록합니다.
+2. 저장소 Settings → Secrets and variables → Actions 에서 `ACLED_EMAIL`, `ACLED_PASSWORD` 시크릿을 등록합니다.
 3. Settings → Pages 에서 배포 브랜치를 main, 폴더를 `/ (root)`로 설정합니다.
 4. `.github/workflows/update.yml`이 6시간마다 자동으로 `scripts/fetch_data.py`를 실행하고 `data/latest.json`을 커밋합니다. Actions 탭에서 수동 실행(workflow_dispatch)도 가능합니다.
 
