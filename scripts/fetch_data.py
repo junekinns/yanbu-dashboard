@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 """
-Red Sea Watch 데이터 수집. 세 권역(서부·중부·동부)별 간접 지표를 만든다.
+Red Sea Watch 데이터 수집. 도시 단위 상황표에 들어갈 파생 신호를 만든다.
 
-  firms      NASA FIRMS VIIRS 위성 열 감지 — 권역별 이상 화점(상시 플레어 제외)
-  mofa       외교부 해외안전여행 사우디 경보 단계(지점별) + 안전공지 템포
-  maritime   IMF PortWatch(AIS 집계) 항구별 입항 수, 밥엘만데브·호르무즈 통과 수
+  mofa       외교부 해외안전여행 사우디 경보 단계(지점별) + 단계 변경 이력(90일) + 안전공지 템포
+  events     공격·요격·경보 보도를 (날짜·도시·유형)으로 묶어 30일 누적, 도시별 7일/이전 7일 템포
+  telegram   후티 군 대변인 공식 Telegram 채널 — 사우디 지명 언급 메시지 14일 누적, 7일 표적 언급 순위
+  firms      NASA FIRMS VIIRS 위성 열 감지 — 지도 화점 레이어(상시 플레어 제외)
   news       Google News RSS, 공신력 있는 국내·해외 매체만 5건씩
-  events     공격·요격·경보 보도를 (날짜·도시·유형)으로 묶은 이벤트 로그
-  telegram   후티 군 대변인 공식 Telegram 채널(웹 미리보기) — 사우디 지명 언급 메시지
+  flights    (실험) FlightRadar24 비공식 피드 — 홍해 회랑 상공 항공편 수
+  notams     (선택) FAA NOTAM — 사우디 공역 제한, GitHub Secrets에 자격증명이 있을 때만
 
-모두 무료·무키. 실패한 소스는 이전 성공 데이터를 유지하고 stale=true 로 표시.
+키는 서버 측(Actions secrets)만. 실패한 소스는 이전 성공 데이터를 유지하고 stale=true 로 표시.
 """
 import csv
-import hashlib
 import html as htmllib
 import io
 import json
@@ -22,7 +22,7 @@ import statistics
 import sys
 import time
 from collections import Counter
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from urllib.parse import quote, urlencode
 
@@ -34,18 +34,9 @@ HEADERS = {"User-Agent": "yanbu-dashboard/1.0 (github.com/junekinns/yanbu-dashbo
 BROWSER_HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120.0 Safari/537.36"}
 TODAY = datetime.now(timezone.utc).date()
 AST = timezone(timedelta(hours=3))  # 사우디 현지시각
+TODAY_AST = datetime.now(AST).date()  # 사건·메시지 이력의 날짜 창 기준
 
-# 권역. box는 위성 화점 집계 범위, primary_port는 해상 타일 대표 항.
-REGIONS = [
-    {"key": "west", "name": "서부", "label": "얀부 · 제다", "box": (20.0, 26.5, 37.0, 42.0),
-     "primary_port": "port570", "chokepoint": "chokepoint4", "center": [23.0, 39.3], "zoom": 6},
-    {"key": "central", "name": "중부", "label": "리야드", "box": (23.3, 26.2, 45.3, 48.2),
-     "primary_port": None, "chokepoint": "chokepoint6", "center": [24.5, 46.9], "zoom": 7},
-    {"key": "east", "name": "동부", "label": "담맘 · 다란 · 주베일", "box": (25.3, 28.6, 48.3, 50.9),
-     "primary_port": "port526", "chokepoint": "chokepoint6", "center": [26.4, 49.8], "zoom": 7},
-]
-
-# 세 지표는 "몇 배"가 아니라 3단계 배지로 단순화해 보여준다.
+# 배율 대신 3단계 배지로 단순화해 보여준다.
 def tier_up(value, hi=3, mid=1.5, labels=("위험", "주의", "평시")):
     """높을수록 위험한 지표(위성 열 감지·공지 템포)."""
     if value is None or value < mid:
@@ -91,8 +82,18 @@ MOFA_NOTICE_URL = f"{MOFA_BASE}/bbs/safetyNtc/list?ntnCd=107&pageSize=100"  # 8�
 FIRMS_URL = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv"
 GOOGLE_NEWS_URL = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={ceid}"
 TELEGRAM_URL = "https://t.me/s/army21ye"  # 예멘군(후티) 대변인 야히야 사리 공식 채널
-PORTWATCH_BASE = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services"
 SAUDI_BOX = (16.0, 32.5, 34.0, 56.0)
+# FAA NOTAM API. 자격증명은 GitHub Actions secrets → 환경변수로만 들어온다.
+NOTAM_URL = "https://external-api.faa.gov/notamapi/v1/notams"
+NOTAM_LOCATIONS = ["OEJN", "OERK", "OEDF", "OEMA", "OEJD"]  # 제다·리야드·담맘·메디나 공항 + 사우디 FIR
+NOTAM_KINDS = [
+    ("공역 폐쇄", r"AIRSPACE.*(CLSD|CLOSED)|CLOSED.*AIRSPACE"),
+    ("제한/금지", r"RESTRICTED|PROHIBITED|QRTCA|QRPCA|QRRCA"),
+    ("위험구역", r"DANGER|QRDCA"),
+    ("사격/미사일", r"MISSILE|ROCKET|FIRING|\bGUN"),
+    ("UAS", r"\bUAS\b|DRONE"),
+    ("GPS 간섭", r"GPS.*(INTERFER|JAM)|GNSS"),
+]
 # 밥엘만데브~제다 사이 홍해 회랑. FlightRadar24 bounds 포맷은 "북,남,서,동".
 FLIGHTS_URL = "https://data-cloud.flightradar24.com/zones/fcgi/feed.js"
 FLIGHTS_PARAMS = {"bounds": "24,12,35,44", "faa": 1, "satellite": 1, "mlat": 1, "flarm": 1,
@@ -121,6 +122,9 @@ EVENT_QUERIES = {
            "(메카 OR 메디나 OR 제다 OR 얀부 OR 타이프 OR 지잔 OR 자잔 OR 아브하 OR 나즈란 OR 리야드 OR 담맘 OR 다란 OR 주베일 OR 라스타누라 OR 송유관) when:3d"),
 }
 EVENT_EXTRA_SOURCES = ["Middle East Eye", "The Times of Israel", "Al Arabiya", "Arab News", "The National", "Anadolu"]
+# 매시간은 3일 창이면 충분(이력은 누적). 최초 시드 때만 EVENT_DAYS=14 — Google News RSS가 100건 캡이라 영문은 하루치만 온다.
+EVENT_DAYS = int(os.environ.get("EVENT_DAYS", "3"))
+event_query = lambda lang: EVENT_QUERIES[lang].replace("when:3d", f"when:{EVENT_DAYS}d")
 TYPE_PATTERNS = [
     ("경보", r"air raid|alert|siren|civil defen[cs]e|경보|사이렌|민방위"),
     ("요격", r"intercept|shot down|shoots? down|downed|destroy|요격|격추"),
@@ -185,10 +189,22 @@ def carry_over(current, previous):
     return {**kept, "ok": False, "error": current.get("error"), "fetched_at": current["fetched_at"], "stale": True}
 
 
+def merge_history(prev, new, key, keep_days, day_of, update=None):
+    """이력 병합. 새 항목이 같은 키의 기존 항목을 대체하되 update(old, new)가 있으면 그 결과를 쓴다.
+    keep_days보다 오래된 항목은 버리고 최신순으로 돌려준다."""
+    merged = {key(item): item for item in prev}
+    for item in new:
+        k = key(item)
+        merged[k] = update(merged[k], item) if (update and k in merged) else item
+    floor = (TODAY_AST - timedelta(days=keep_days)).isoformat()
+    kept = [item for item in merged.values() if day_of(item) >= floor]
+    return sorted(kept, key=lambda item: (day_of(item), item.get("iso", item.get("at", ""))), reverse=True)
+
+
 # ------------------------------------------------------------ firms
 
 def fetch_firms(previous):
-    result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": FIRMS_URL, "regions": {}}
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": FIRMS_URL, "hotspots": []}
     try:
         text = get(FIRMS_URL, timeout=180).text
     except requests.RequestException as exc:
@@ -211,30 +227,8 @@ def fetch_firms(previous):
     persistent = {c for c, ds in cell_days.items() if len(ds) >= 4}
     anomalous = [h for h in hotspots if cell_of(h) not in persistent]
 
-    # "최근 24h"는 지금 기준 롤링 24시간(acq_date+acq_time UTC). 일별 집계·이력·평시는
-    # 오늘 패스가 다 안 들어왔으므로 어제까지의 일별 값으로 잡는다.
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
-    hot_ts = lambda h: datetime.strptime(f"{h['date']} {h['time'].zfill(4)}", "%Y-%m-%d %H%M").replace(tzinfo=timezone.utc)
-    days = [(TODAY - timedelta(days=i)).isoformat() for i in range(7, 0, -1)]
-    for region in REGIONS:
-        inside = [h for h in anomalous if in_box(h["lat"], h["lon"], region["box"])]
-        flares = sum(1 for h in hotspots if cell_of(h) in persistent and in_box(h["lat"], h["lon"], region["box"]) and hot_ts(h) >= cutoff)
-        per_day = Counter(h["date"] for h in inside)
-        prev_hist = previous.get("regions", {}).get(region["key"], {}).get("history", {})
-        history = dict(sorted({**prev_hist, **{d: per_day[d] for d in days}}.items())[-90:])
-        older = [c for d, c in history.items() if d < days[0]]
-        last24h = sum(1 for h in inside if hot_ts(h) >= cutoff)
-        baseline = statistics.median(older) if len(older) >= 7 else None
-        result["regions"][region["key"]] = {
-            "last24h": last24h,
-            "flares24h": flares,
-            "daily_counts": [{"date": d, "count": per_day[d]} for d in days],
-            "baseline": baseline,
-            # 평시가 0~1이면 화점 2건에도 '주의'가 깜빡이므로 비율 계산에만 하한 2를 둔다. 평시가 아직 없으면(수집 중) 평시.
-            "tier": tier_up(ratio(last24h, max(baseline, 2)) if baseline is not None else None),
-            "history": history,
-            "hotspots": sorted(inside, key=lambda h: h["date"])[-300:],
-        }
+    # 타일·평시는 없앴다(며칠에 한 번 바뀌는 그래프는 장식이라는 판단). 지도 화점 레이어용으로만 남긴다.
+    result["hotspots"] = sorted(anomalous, key=lambda h: (h["date"], h["time"]))[-500:]
     result["ok"] = True
     return result
 
@@ -289,7 +283,7 @@ def fetch_summary(url):
     return text[:200] + ("…" if len(text) > 200 else "")
 
 
-def fetch_mofa():
+def fetch_mofa(previous):
     result = {"ok": False, "error": None, "fetched_at": now_iso(), "source_url": MOFA_COUNTRY_URL}
     try:
         advisories = parse_advisories(get(MOFA_COUNTRY_URL, BROWSER_HEADERS).text)
@@ -307,16 +301,30 @@ def fetch_mofa():
     counts = [sum(1 for n in notices if (end - timedelta(days=6)).isoformat() <= n["date"] <= end.isoformat()) for end in windows]
     baseline = statistics.median(counts[:-2])
 
+    places = [{"name": p["name"], "lat": p["lat"], "lon": p["lon"],
+               **{k: place_level(advisories, p).get(k) for k in ("level", "level_name")}} for p in PLACES if p["lat"]]
+
+    # 교민에게 가장 실질적인 사건은 "내 도시의 단계가 바뀐 것". 이전 수집과 비교해 변경만 90일 이력으로.
+    # 수집이 실패한 실행은 여기 오지 않으므로(위에서 return) 실패가 가짜 변경을 만들지 않는다.
+    prev_levels = {p["name"]: p.get("level") for p in previous.get("places", [])}
+    prev_names = {p["name"]: p.get("level_name") for p in previous.get("places", [])}
+    new_changes = [
+        {"city": p["name"], "from": prev_levels[p["name"]], "from_name": prev_names[p["name"]],
+         "to": p["level"], "to_name": p["level_name"], "at": result["fetched_at"]}
+        for p in places
+        if isinstance(p["level"], (int, float)) and isinstance(prev_levels.get(p["name"]), (int, float)) and prev_levels[p["name"]] != p["level"]
+    ]
+    changes = merge_history(previous.get("changes", []), new_changes, key=lambda c: (c["city"], c["at"]), keep_days=90, day_of=lambda c: c["at"][:10])
+
     result.update({
         "ok": True,
         "advisories": advisories,
-        "places": [{"name": p["name"], "region": p["region"], "lat": p["lat"], "lon": p["lon"], "port": p.get("port"),
-                    **{k: place_level(advisories, p).get(k) for k in ("level", "level_name")}} for p in PLACES if p["lat"]],
+        "places": places,
+        "changes": changes,
+        "tracking_since": previous.get("tracking_since") or result["fetched_at"],
         "notices": notices[:3],
-        "weekly_counts": [{"week": w.isoformat(), "count": c} for w, c in zip(windows, counts)],
         "last7d": counts[-1],
         "baseline": baseline,
-        "ratio": ratio(counts[-1], baseline),
         # 조용한 6주 뒤 첫 급증에서 평시 0 → '평시'가 되지 않게 하한 1.
         "tier": tier_up(ratio(counts[-1], max(baseline, 1)), labels=("급증", "증가", "평시")),
     })
@@ -383,11 +391,11 @@ def classify(title):
     return (city, kind) if city and kind else None
 
 
-def fetch_events():
+def fetch_events(previous):
     result = {"ok": False, "error": None, "fetched_at": now_iso(), "events": []}
     try:
-        items = google_news(EVENT_QUERIES["en"], NEWS_FEEDS["en"]["locale"], NEWS_FEEDS["en"]["sources"] + EVENT_EXTRA_SOURCES)
-        items += google_news(EVENT_QUERIES["kr"], NEWS_FEEDS["kr"]["locale"], NEWS_FEEDS["kr"]["sources"])
+        items = google_news(event_query("en"), NEWS_FEEDS["en"]["locale"], NEWS_FEEDS["en"]["sources"] + EVENT_EXTRA_SOURCES)
+        items += google_news(event_query("kr"), NEWS_FEEDS["kr"]["locale"], NEWS_FEEDS["kr"]["sources"])
     except requests.RequestException as exc:
         result["error"] = str(exc)
         return result
@@ -414,8 +422,32 @@ def fetch_events():
             "title": lead["title"], "url": lead["url"], "source": lead["source"],
             "outlets": len({m["source"] for m in members}),
         })
-    result["events"].sort(key=lambda e: e["iso"], reverse=True)
-    result["events"] = result["events"][:15]
+    # 30일 누적. 같은 사건이 다시 오면 매체 수는 큰 값, 시각은 더 이른 값, 대표 기사는 기존 유지.
+    def refresh(old, new):
+        earlier = new["iso"] < old["iso"]
+        return {**old, "outlets": max(old["outlets"], new["outlets"]),
+                **({"time": new["time"], "iso": new["iso"]} if earlier else {})}
+    events = merge_history(previous.get("events", []), result["events"],
+                           key=lambda e: (e["date"], e["city"], e["type"]), keep_days=30, day_of=lambda e: e["date"], update=refresh)
+
+    # 도시별 템포: 최근 7일 vs 이전 7일(사우디 현지 날짜). 이력이 14일 미만이면 비교하지 않는다 — 없는 비교를 0으로 꾸미지 않기.
+    today = TODAY_AST
+    w7 = {(today - timedelta(days=i)).isoformat() for i in range(7)}
+    p7 = {(today - timedelta(days=i)).isoformat() for i in range(7, 14)}
+    dates = [e["date"] for e in events]
+    history_days = (today - date.fromisoformat(min(dates))).days + 1 if dates else 0
+    tempo = {}
+    for p in PLACES:
+        if not p["lat"]:
+            continue
+        mine = [e for e in events if e["city"] == p["name"]]
+        c7 = Counter(e["type"] for e in mine if e["date"] in w7)
+        cp = Counter(e["type"] for e in mine if e["date"] in p7) if history_days >= 14 else None
+        tempo[p["name"]] = {"7d": dict(c7), "total7d": sum(c7.values()),
+                            "prev7d": dict(cp) if cp is not None else None,
+                            "prev_total": sum(cp.values()) if cp is not None else None}
+    result.update({"events": events, "tempo": tempo, "history_days": history_days,
+                   "history_since": min(dates) if dates else None, "today": today.isoformat()})
     result["ok"] = True
     return result
 
@@ -465,57 +497,54 @@ def fetch_telegram(previous):
             "time": local.strftime("%Y-%m-%d %H:%M"), "iso": local.isoformat(), "places": places,
             "text_ar": original, "text_ko": None, "url": link.group(1), "_key": key,
         })
-    result["messages"] = sorted(result["messages"], key=lambda m: m["iso"], reverse=True)[:6]
     for m in result["messages"]:
         del m["_key"]
-    # 매시간 같은 메시지를 다시 번역하면 MyMemory 무료 일일 한도를 금방 쓴다. (url, 원문 해시)가 같으면 재사용.
-    cache_key = lambda m: (m["url"], hashlib.sha1(m["text_ar"].encode()).hexdigest())
-    cache = {cache_key(m): m["text_ko"] for m in previous.get("messages", []) if m.get("text_ko")}
-    for m in result["messages"]:
-        if cache_key(m) in cache:
-            m["text_ko"] = cache[cache_key(m)]
+    # 채널은 하루 ~18건, 미리보기는 ~1일치만 보여주므로 매시간 수집분을 14일 누적한다.
+    # 같은 url이 다시 오면 새 원문을 쓰되, 원문이 그대로면 이전 번역을 재사용(MyMemory 무료 한도 절약).
+    keep_ko = lambda old, new: {**new, "text_ko": old.get("text_ko") if old.get("text_ar") == new["text_ar"] else None}
+    result["messages"] = merge_history(previous.get("messages", []), result["messages"],
+                                       key=lambda m: m["url"], keep_days=14, day_of=lambda m: m["iso"][:10], update=keep_ko)
+    for m in result["messages"][:6]:  # 화면에 보이는 최신 6건만 번역
+        if m.get("text_ko"):
             continue
         m["text_ko"] = translate_ar_ko(m["text_ar"][:480])  # MyMemory 무료 한도는 요청당 500자
         time.sleep(0.3)
+
+    # 후티는 공격 전에 도시를 지명한다. 최근 7일 언급을 메시지당 1회로 센 순위 — 이 대시보드만 가진 선행 신호.
+    since = datetime.now(timezone.utc) - timedelta(days=7)
+    mentions = Counter(city for m in result["messages"] if datetime.fromisoformat(m["iso"]) >= since for city in set(m["places"]))
+    result["mentions7d"] = dict(mentions.most_common())
     result["ok"] = True
     return result
 
 
-# ------------------------------------------------------------ maritime
+# ------------------------------------------------------------ notams (선택)
+#
+# 공역 폐쇄·제한 NOTAM은 공식 경보보다 먼저 나오는 진짜 선행 신호. FAA NOTAM API는
+# 수동 승인이라 자격증명이 없을 수 있다 — 없으면 "비활성"이지 실패가 아니다.
+# 응답 필드 경로는 첫 실제 응답으로 확정한다(specs/003 research.md §5). .get() 체인으로 방어.
 
-def portwatch_rows(service, portid, field):
-    params = {"where": f"portid='{portid}'", "outFields": f"date,{field}", "orderByFields": "date DESC",
-              "resultRecordCount": 1000, "returnGeometry": "false", "f": "json"}
-    data = get(f"{PORTWATCH_BASE}/{service}/FeatureServer/0/query?" + "&".join(f"{k}={quote(str(v))}" for k, v in params.items())).json()
-    if "error" in data:
-        raise ValueError(f"PortWatch {portid}: {data['error'].get('message')}")
-    rows = []
-    for f in data["features"]:
-        ts = f["attributes"]["date"]
-        day = datetime.fromtimestamp(ts / 1000, tz=timezone.utc).date().isoformat() if isinstance(ts, (int, float)) else str(ts)[:10]
-        rows.append((day, f["attributes"][field] or 0))
-    return sorted(rows)
-
-
-def fetch_maritime():
-    result = {"ok": False, "error": None, "fetched_at": now_iso(), "series": {}}
-    targets = [(p["port"], p["name"] if p["name"].endswith("항") else f"{p['name']}항", "Daily_Ports_Data", "portcalls") for p in PLACES if p.get("port")]
-    targets += [("chokepoint4", "밥엘만데브 해협", "Daily_Chokepoints_Data", "n_total"), ("chokepoint6", "호르무즈 해협", "Daily_Chokepoints_Data", "n_total")]
+def fetch_notams(previous):
+    cid, sec = os.environ.get("FAA_CLIENT_ID"), os.environ.get("FAA_CLIENT_SECRET")
+    if not (cid and sec):
+        return {"ok": True, "enabled": False, "fetched_at": now_iso()}
+    result = {"ok": False, "error": None, "fetched_at": now_iso(), "enabled": True, "locations": NOTAM_LOCATIONS, "items": []}
+    headers = {**HEADERS, "client_id": cid, "client_secret": sec}
     try:
-        for key, name, service, field in targets:
-            rows = portwatch_rows(service, key, field)
-            values = [v for _, v in rows]
-            rolling7 = [sum(values[i - 6:i + 1]) for i in range(6, len(values))]
-            # 최근 2주를 뺀 지난 1년의 7일 합 중앙값을 평시로 본다.
-            baseline = statistics.median(rolling7[-379:-14]) if len(rolling7) > 60 else None
-            r = ratio(rolling7[-1], baseline)
-            result["series"][key] = {
-                "name": name, "last_date": rows[-1][0], "last7": rolling7[-1], "baseline7": baseline,
-                "ratio": r, "tier": tier_down(r),
-                "spark": [{"date": rows[i][0], "value": rolling7[i - 6]} for i in range(len(rows) - 90, len(rows))],
-            }
-    except (requests.RequestException, ValueError, KeyError) as exc:
-        result["error"] = str(exc)
+        for loc in NOTAM_LOCATIONS:
+            data = get(f"{NOTAM_URL}?icaoLocation={loc}&responseFormat=geoJson&pageSize=100", headers, timeout=30).json()
+            for it in data.get("items", []):
+                n = it.get("properties", {}).get("coreNOTAMData", {}).get("notam", {})
+                text = re.sub(r"\s+", " ", str(n.get("text", "")))
+                kind = next((k for k, rx in NOTAM_KINDS if re.search(rx, text, re.I)), None)
+                if not kind:
+                    continue
+                result["items"].append({"location": n.get("location") or loc, "number": n.get("number"),
+                                        "effective_start": n.get("effectiveStart"), "effective_end": n.get("effectiveEnd"),
+                                        "kind": kind, "text": text[:200]})
+            time.sleep(0.5)
+    except (requests.RequestException, ValueError) as exc:
+        result["error"] = str(exc)  # URL·상태만 담긴다. 자격증명은 헤더라 메시지에 안 들어감.
         return result
     result["ok"] = True
     return result
@@ -577,22 +606,19 @@ def safe(fetch, previous):
 
 
 FETCHERS = {
-    "firms": fetch_firms,
-    "mofa": lambda previous: fetch_mofa(),
-    "news": lambda previous: fetch_news(),
-    "events": lambda previous: fetch_events(),
+    "mofa": fetch_mofa,
+    "events": fetch_events,
     "telegram": fetch_telegram,
-    "maritime": lambda previous: fetch_maritime(),
+    "firms": fetch_firms,
+    "news": lambda previous: fetch_news(),
     "flights": fetch_flights,
+    "notams": fetch_notams,
 }
 
 
 def main():
     previous = load_previous()
-    output = {
-        "generated_at": now_iso(),
-        "regions": [{k: r[k] for k in ("key", "name", "label", "primary_port", "chokepoint", "center", "zoom", "box")} for r in REGIONS],
-    }
+    output = {"generated_at": now_iso()}
     for key, fetch in FETCHERS.items():
         prev = previous.get(key, {})
         started = time.monotonic()

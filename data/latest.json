@@ -1,1514 +1,9 @@
 {
- "generated_at": "2026-09-17T00:24:59Z",
- "regions": [
-  {
-   "key": "west",
-   "name": "서부",
-   "label": "얀부 · 제다",
-   "primary_port": "port570",
-   "chokepoint": "chokepoint4",
-   "center": [
-    23.0,
-    39.3
-   ],
-   "zoom": 6,
-   "box": [
-    20.0,
-    26.5,
-    37.0,
-    42.0
-   ]
-  },
-  {
-   "key": "central",
-   "name": "중부",
-   "label": "리야드",
-   "primary_port": null,
-   "chokepoint": "chokepoint6",
-   "center": [
-    24.5,
-    46.9
-   ],
-   "zoom": 7,
-   "box": [
-    23.3,
-    26.2,
-    45.3,
-    48.2
-   ]
-  },
-  {
-   "key": "east",
-   "name": "동부",
-   "label": "담맘 · 다란 · 주베일",
-   "primary_port": "port526",
-   "chokepoint": "chokepoint6",
-   "center": [
-    26.4,
-    49.8
-   ],
-   "zoom": 7,
-   "box": [
-    25.3,
-    28.6,
-    48.3,
-    50.9
-   ]
-  }
- ],
- "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-17T00:24:59Z",
-  "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
-  "regions": {
-   "west": {
-    "last24h": 1,
-    "flares24h": 6,
-    "daily_counts": [
-     {
-      "date": "2026-09-10",
-      "count": 29
-     },
-     {
-      "date": "2026-09-11",
-      "count": 9
-     },
-     {
-      "date": "2026-09-12",
-      "count": 7
-     },
-     {
-      "date": "2026-09-13",
-      "count": 9
-     },
-     {
-      "date": "2026-09-14",
-      "count": 7
-     },
-     {
-      "date": "2026-09-15",
-      "count": 6
-     },
-     {
-      "date": "2026-09-16",
-      "count": 1
-     }
-    ],
-    "baseline": null,
-    "tier": "평시",
-    "history": {
-     "2026-09-09": 0,
-     "2026-09-10": 29,
-     "2026-09-11": 9,
-     "2026-09-12": 7,
-     "2026-09-13": 9,
-     "2026-09-14": 7,
-     "2026-09-15": 6,
-     "2026-09-16": 1
-    },
-    "hotspots": [
-     {
-      "lat": 21.23133,
-      "lon": 39.19798,
-      "frp": 4.28,
-      "date": "2026-09-10",
-      "time": "1006",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 22.21927,
-      "lon": 39.65927,
-      "frp": 43.28,
-      "date": "2026-09-10",
-      "time": "1006",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 22.21712,
-      "lon": 39.64926,
-      "frp": 14.0,
-      "date": "2026-09-10",
-      "time": "1006",
-      "confidence": "low"
-     },
-     {
-      "lat": 22.21853,
-      "lon": 39.65583,
-      "frp": 126.17,
-      "date": "2026-09-10",
-      "time": "1006",
-      "confidence": "low"
-     },
-     {
-      "lat": 23.95563,
-      "lon": 40.05425,
-      "frp": 61.21,
-      "date": "2026-09-10",
-      "time": "1009",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.04907,
-      "lon": 40.69491,
-      "frp": 1.68,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.04403,
-      "lon": 40.69426,
-      "frp": 13.64,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.04536,
-      "lon": 40.69488,
-      "frp": 19.42,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.02496,
-      "lon": 40.4886,
-      "frp": 6.37,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "high"
-     },
-     {
-      "lat": 24.02464,
-      "lon": 40.49186,
-      "frp": 6.37,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.98063,
-      "lon": 40.23158,
-      "frp": 16.65,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "high"
-     },
-     {
-      "lat": 23.9803,
-      "lon": 40.23493,
-      "frp": 10.3,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.96135,
-      "lon": 40.05038,
-      "frp": 3.88,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.96102,
-      "lon": 40.05383,
-      "frp": 2.66,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.96069,
-      "lon": 40.05726,
-      "frp": 2.66,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.95576,
-      "lon": 40.05331,
-      "frp": 10.83,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "high"
-     },
-     {
-      "lat": 23.95543,
-      "lon": 40.05674,
-      "frp": 10.83,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.91041,
-      "lon": 39.81576,
-      "frp": 11.93,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "high"
-     },
-     {
-      "lat": 23.91006,
-      "lon": 39.81939,
-      "frp": 5.58,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.90509,
-      "lon": 39.81508,
-      "frp": 0.85,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.88832,
-      "lon": 39.76484,
-      "frp": 4.32,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.8966,
-      "lon": 39.61884,
-      "frp": 3.03,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.89627,
-      "lon": 39.62235,
-      "frp": 3.03,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.89117,
-      "lon": 39.61854,
-      "frp": 4.7,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.89085,
-      "lon": 39.62206,
-      "frp": 4.7,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.87807,
-      "lon": 39.70104,
-      "frp": 6.84,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.87773,
-      "lon": 39.70468,
-      "frp": 6.22,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.24665,
-      "lon": 39.17929,
-      "frp": 0.45,
-      "date": "2026-09-10",
-      "time": "2235",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.24437,
-      "lon": 39.18044,
-      "frp": 0.6,
-      "date": "2026-09-10",
-      "time": "2235",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.89301,
-      "lon": 39.76855,
-      "frp": 4.38,
-      "date": "2026-09-11",
-      "time": "0013",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.88593,
-      "lon": 39.76644,
-      "frp": 3.75,
-      "date": "2026-09-11",
-      "time": "0013",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.87936,
-      "lon": 39.70565,
-      "frp": 6.14,
-      "date": "2026-09-11",
-      "time": "0013",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.043,
-      "lon": 40.69792,
-      "frp": 22.99,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "high"
-     },
-     {
-      "lat": 24.04909,
-      "lon": 40.69624,
-      "frp": 22.99,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.0482,
-      "lon": 40.69624,
-      "frp": 47.01,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "high"
-     },
-     {
-      "lat": 23.88229,
-      "lon": 39.7029,
-      "frp": 9.36,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.04435,
-      "lon": 40.69825,
-      "frp": 15.47,
-      "date": "2026-09-11",
-      "time": "1128",
-      "confidence": "high"
-     },
-     {
-      "lat": 24.04394,
-      "lon": 40.69263,
-      "frp": 15.47,
-      "date": "2026-09-11",
-      "time": "1128",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.23001,
-      "lon": 39.1987,
-      "frp": 12.3,
-      "date": "2026-09-12",
-      "time": "1110",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.57978,
-      "lon": 39.29327,
-      "frp": 2.55,
-      "date": "2026-09-12",
-      "time": "1110",
-      "confidence": "low"
-     },
-     {
-      "lat": 24.60575,
-      "lon": 39.64143,
-      "frp": 4.08,
-      "date": "2026-09-12",
-      "time": "2337",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.02935,
-      "lon": 40.47684,
-      "frp": 1.93,
-      "date": "2026-09-12",
-      "time": "2337",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.02845,
-      "lon": 40.48133,
-      "frp": 1.93,
-      "date": "2026-09-12",
-      "time": "2337",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.64057,
-      "lon": 40.73419,
-      "frp": 0.8,
-      "date": "2026-09-12",
-      "time": "2337",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 20.71617,
-      "lon": 39.8269,
-      "frp": 2.15,
-      "date": "2026-09-12",
-      "time": "2337",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.17339,
-      "lon": 39.53551,
-      "frp": 8.62,
-      "date": "2026-09-13",
-      "time": "1049",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.23227,
-      "lon": 39.20073,
-      "frp": 8.84,
-      "date": "2026-09-13",
-      "time": "1049",
-      "confidence": "low"
-     },
-     {
-      "lat": 21.23783,
-      "lon": 39.19212,
-      "frp": 9.4,
-      "date": "2026-09-13",
-      "time": "1049",
-      "confidence": "low"
-     },
-     {
-      "lat": 24.27501,
-      "lon": 37.56303,
-      "frp": 2.25,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 22.70752,
-      "lon": 39.03272,
-      "frp": 1.9,
-      "date": "2026-09-13",
-      "time": "2320",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 22.70482,
-      "lon": 39.02832,
-      "frp": 3.88,
-      "date": "2026-09-13",
-      "time": "2320",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 22.7042,
-      "lon": 39.03209,
-      "frp": 1.9,
-      "date": "2026-09-13",
-      "time": "2320",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 22.55336,
-      "lon": 39.43399,
-      "frp": 0.88,
-      "date": "2026-09-13",
-      "time": "2320",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 20.71659,
-      "lon": 39.82742,
-      "frp": 6.45,
-      "date": "2026-09-13",
-      "time": "2320",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.02609,
-      "lon": 40.47877,
-      "frp": 6.66,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.54357,
-      "lon": 40.85772,
-      "frp": 9.74,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 22.70622,
-      "lon": 39.03444,
-      "frp": 7.65,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.79504,
-      "lon": 39.23003,
-      "frp": 4.63,
-      "date": "2026-09-14",
-      "time": "2301",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.7919,
-      "lon": 39.22426,
-      "frp": 4.63,
-      "date": "2026-09-14",
-      "time": "2301",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.79124,
-      "lon": 39.22941,
-      "frp": 4.63,
-      "date": "2026-09-14",
-      "time": "2301",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.91893,
-      "lon": 41.26024,
-      "frp": 1.51,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.14794,
-      "lon": 39.82144,
-      "frp": 15.5,
-      "date": "2026-09-15",
-      "time": "1011",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.14909,
-      "lon": 39.82397,
-      "frp": 10.38,
-      "date": "2026-09-15",
-      "time": "1011",
-      "confidence": "low"
-     },
-     {
-      "lat": 21.14798,
-      "lon": 39.81861,
-      "frp": 16.89,
-      "date": "2026-09-15",
-      "time": "1011",
-      "confidence": "low"
-     },
-     {
-      "lat": 21.16511,
-      "lon": 39.51597,
-      "frp": 2.45,
-      "date": "2026-09-15",
-      "time": "1011",
-      "confidence": "low"
-     },
-     {
-      "lat": 24.02707,
-      "lon": 40.47845,
-      "frp": 8.2,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.25861,
-      "lon": 40.48629,
-      "frp": 0.56,
-      "date": "2026-09-15",
-      "time": "2242",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 21.09983,
-      "lon": 39.22263,
-      "frp": 3.91,
-      "date": "2026-09-16",
-      "time": "0954",
-      "confidence": "nominal"
-     }
-    ]
-   },
-   "central": {
-    "last24h": 0,
-    "flares24h": 1,
-    "daily_counts": [
-     {
-      "date": "2026-09-10",
-      "count": 2
-     },
-     {
-      "date": "2026-09-11",
-      "count": 7
-     },
-     {
-      "date": "2026-09-12",
-      "count": 11
-     },
-     {
-      "date": "2026-09-13",
-      "count": 3
-     },
-     {
-      "date": "2026-09-14",
-      "count": 5
-     },
-     {
-      "date": "2026-09-15",
-      "count": 9
-     },
-     {
-      "date": "2026-09-16",
-      "count": 0
-     }
-    ],
-    "baseline": null,
-    "tier": "평시",
-    "history": {
-     "2026-09-09": 0,
-     "2026-09-10": 2,
-     "2026-09-11": 7,
-     "2026-09-12": 11,
-     "2026-09-13": 3,
-     "2026-09-14": 5,
-     "2026-09-15": 9,
-     "2026-09-16": 0
-    },
-    "hotspots": [
-     {
-      "lat": 24.7857,
-      "lon": 45.6263,
-      "frp": 5.89,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.52836,
-      "lon": 46.96986,
-      "frp": 4.57,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.5935,
-      "lon": 46.86213,
-      "frp": 2.88,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "low"
-     },
-     {
-      "lat": 24.63954,
-      "lon": 46.76699,
-      "frp": 4.22,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "low"
-     },
-     {
-      "lat": 25.97869,
-      "lon": 45.42683,
-      "frp": 18.92,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "low"
-     },
-     {
-      "lat": 25.97572,
-      "lon": 45.42439,
-      "frp": 20.43,
-      "date": "2026-09-11",
-      "time": "0947",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.95838,
-      "lon": 45.54339,
-      "frp": 3.02,
-      "date": "2026-09-11",
-      "time": "2216",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.78377,
-      "lon": 45.62355,
-      "frp": 4.49,
-      "date": "2026-09-11",
-      "time": "2216",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.78449,
-      "lon": 45.62323,
-      "frp": 3.77,
-      "date": "2026-09-11",
-      "time": "2216",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.86069,
-      "lon": 47.45704,
-      "frp": 1.74,
-      "date": "2026-09-12",
-      "time": "0930",
-      "confidence": "low"
-     },
-     {
-      "lat": 23.86018,
-      "lon": 47.45693,
-      "frp": 2.29,
-      "date": "2026-09-12",
-      "time": "0930",
-      "confidence": "low"
-     },
-     {
-      "lat": 24.20472,
-      "lon": 47.18411,
-      "frp": 4.26,
-      "date": "2026-09-12",
-      "time": "1110",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.20888,
-      "lon": 47.18124,
-      "frp": 6.73,
-      "date": "2026-09-12",
-      "time": "1110",
-      "confidence": "low"
-     },
-     {
-      "lat": 25.06266,
-      "lon": 46.88089,
-      "frp": 3.19,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.0649,
-      "lon": 46.88036,
-      "frp": 2.43,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.05864,
-      "lon": 46.87971,
-      "frp": 1.39,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.94496,
-      "lon": 47.06116,
-      "frp": 4.3,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.49587,
-      "lon": 47.15339,
-      "frp": 14.49,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "high"
-     },
-     {
-      "lat": 25.2447,
-      "lon": 48.10772,
-      "frp": 7.95,
-      "date": "2026-09-12",
-      "time": "2335",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.60199,
-      "lon": 46.57649,
-      "frp": 2.39,
-      "date": "2026-09-12",
-      "time": "2337",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.59838,
-      "lon": 46.57623,
-      "frp": 3.66,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.48345,
-      "lon": 46.19857,
-      "frp": 2.68,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.48263,
-      "lon": 46.2007,
-      "frp": 4.41,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.24469,
-      "lon": 48.10677,
-      "frp": 42.95,
-      "date": "2026-09-14",
-      "time": "2301",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.95811,
-      "lon": 45.54561,
-      "frp": 0.82,
-      "date": "2026-09-14",
-      "time": "2301",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.79725,
-      "lon": 45.82589,
-      "frp": 5.28,
-      "date": "2026-09-14",
-      "time": "2301",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.79382,
-      "lon": 45.82516,
-      "frp": 5.28,
-      "date": "2026-09-14",
-      "time": "2301",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.41563,
-      "lon": 47.02394,
-      "frp": 3.51,
-      "date": "2026-09-14",
-      "time": "2301",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.85755,
-      "lon": 47.45776,
-      "frp": 1.22,
-      "date": "2026-09-15",
-      "time": "1013",
-      "confidence": "low"
-     },
-     {
-      "lat": 23.85699,
-      "lon": 47.454,
-      "frp": 1.22,
-      "date": "2026-09-15",
-      "time": "1013",
-      "confidence": "low"
-     },
-     {
-      "lat": 23.86086,
-      "lon": 47.45717,
-      "frp": 1.22,
-      "date": "2026-09-15",
-      "time": "1013",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 23.86029,
-      "lon": 47.45341,
-      "frp": 1.22,
-      "date": "2026-09-15",
-      "time": "1013",
-      "confidence": "low"
-     },
-     {
-      "lat": 23.86416,
-      "lon": 47.45658,
-      "frp": 0.56,
-      "date": "2026-09-15",
-      "time": "1013",
-      "confidence": "low"
-     },
-     {
-      "lat": 23.8636,
-      "lon": 47.45282,
-      "frp": 0.56,
-      "date": "2026-09-15",
-      "time": "1013",
-      "confidence": "low"
-     },
-     {
-      "lat": 25.06905,
-      "lon": 47.51309,
-      "frp": 1.13,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.95802,
-      "lon": 45.54258,
-      "frp": 1.69,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 24.78586,
-      "lon": 45.61952,
-      "frp": 2.27,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     }
-    ]
-   },
-   "east": {
-    "last24h": 0,
-    "flares24h": 0,
-    "daily_counts": [
-     {
-      "date": "2026-09-10",
-      "count": 18
-     },
-     {
-      "date": "2026-09-11",
-      "count": 4
-     },
-     {
-      "date": "2026-09-12",
-      "count": 8
-     },
-     {
-      "date": "2026-09-13",
-      "count": 13
-     },
-     {
-      "date": "2026-09-14",
-      "count": 5
-     },
-     {
-      "date": "2026-09-15",
-      "count": 8
-     },
-     {
-      "date": "2026-09-16",
-      "count": 0
-     }
-    ],
-    "baseline": null,
-    "tier": "평시",
-    "history": {
-     "2026-09-09": 1,
-     "2026-09-10": 18,
-     "2026-09-11": 4,
-     "2026-09-12": 8,
-     "2026-09-13": 13,
-     "2026-09-14": 5,
-     "2026-09-15": 8,
-     "2026-09-16": 0
-    },
-    "hotspots": [
-     {
-      "lat": 26.03437,
-      "lon": 50.56486,
-      "frp": 15.26,
-      "date": "2026-09-09",
-      "time": "1026",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.31116,
-      "lon": 49.33987,
-      "frp": 22.16,
-      "date": "2026-09-10",
-      "time": "1009",
-      "confidence": "low"
-     },
-     {
-      "lat": 25.31059,
-      "lon": 49.33599,
-      "frp": 22.16,
-      "date": "2026-09-10",
-      "time": "1009",
-      "confidence": "low"
-     },
-     {
-      "lat": 25.87045,
-      "lon": 49.24194,
-      "frp": 22.65,
-      "date": "2026-09-10",
-      "time": "1009",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.87379,
-      "lon": 49.24135,
-      "frp": 18.64,
-      "date": "2026-09-10",
-      "time": "1009",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.96338,
-      "lon": 49.23035,
-      "frp": 26.72,
-      "date": "2026-09-10",
-      "time": "1009",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.03379,
-      "lon": 49.70001,
-      "frp": 2.69,
-      "date": "2026-09-10",
-      "time": "1009",
-      "confidence": "low"
-     },
-     {
-      "lat": 28.37264,
-      "lon": 49.7189,
-      "frp": 6.71,
-      "date": "2026-09-10",
-      "time": "1009",
-      "confidence": "low"
-     },
-     {
-      "lat": 27.58394,
-      "lon": 48.96687,
-      "frp": 2.27,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.53449,
-      "lon": 49.13894,
-      "frp": 3.37,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.13294,
-      "lon": 49.20661,
-      "frp": 2.54,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.00922,
-      "lon": 49.55873,
-      "frp": 3.58,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.94839,
-      "lon": 49.59917,
-      "frp": 1.05,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.77778,
-      "lon": 50.00087,
-      "frp": 0.58,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.91741,
-      "lon": 49.95526,
-      "frp": 2.26,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.96572,
-      "lon": 49.23164,
-      "frp": 1.95,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.82502,
-      "lon": 50.13463,
-      "frp": 1.58,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.96239,
-      "lon": 49.23102,
-      "frp": 0.72,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.6398,
-      "lon": 50.08482,
-      "frp": 2.25,
-      "date": "2026-09-10",
-      "time": "2233",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.00032,
-      "lon": 49.5642,
-      "frp": 3.85,
-      "date": "2026-09-11",
-      "time": "2214",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.69447,
-      "lon": 50.08439,
-      "frp": 1.4,
-      "date": "2026-09-11",
-      "time": "2214",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.91552,
-      "lon": 49.95444,
-      "frp": 2.68,
-      "date": "2026-09-11",
-      "time": "2214",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.9651,
-      "lon": 49.23064,
-      "frp": 1.61,
-      "date": "2026-09-11",
-      "time": "2214",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.6842,
-      "lon": 49.75238,
-      "frp": 12.07,
-      "date": "2026-09-12",
-      "time": "0930",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.94659,
-      "lon": 50.54533,
-      "frp": 2.67,
-      "date": "2026-09-12",
-      "time": "0930",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 28.51497,
-      "lon": 49.53684,
-      "frp": 7.51,
-      "date": "2026-09-12",
-      "time": "0930",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.18923,
-      "lon": 49.14143,
-      "frp": 2.27,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.07603,
-      "lon": 49.57323,
-      "frp": 2.46,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.07537,
-      "lon": 49.57122,
-      "frp": 4.01,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.34222,
-      "lon": 50.2071,
-      "frp": 0.88,
-      "date": "2026-09-12",
-      "time": "2155",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.68345,
-      "lon": 50.11704,
-      "frp": 7.8,
-      "date": "2026-09-12",
-      "time": "2335",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.14725,
-      "lon": 49.21771,
-      "frp": 1.51,
-      "date": "2026-09-13",
-      "time": "2136",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.60472,
-      "lon": 49.852,
-      "frp": 26.73,
-      "date": "2026-09-13",
-      "time": "2138",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.60431,
-      "lon": 49.8593,
-      "frp": 24.16,
-      "date": "2026-09-13",
-      "time": "2138",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.63479,
-      "lon": 49.39162,
-      "frp": 1.85,
-      "date": "2026-09-13",
-      "time": "2138",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.44978,
-      "lon": 50.78465,
-      "frp": 2.1,
-      "date": "2026-09-13",
-      "time": "2138",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.45207,
-      "lon": 50.78581,
-      "frp": 2.03,
-      "date": "2026-09-13",
-      "time": "2138",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.94668,
-      "lon": 49.59312,
-      "frp": 1.42,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.78496,
-      "lon": 49.95745,
-      "frp": 1.11,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.03778,
-      "lon": 50.55694,
-      "frp": 2.16,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.4519,
-      "lon": 50.78936,
-      "frp": 2.47,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.63288,
-      "lon": 49.39238,
-      "frp": 1.71,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.34455,
-      "lon": 50.20846,
-      "frp": 1.28,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.34224,
-      "lon": 50.21015,
-      "frp": 2.46,
-      "date": "2026-09-13",
-      "time": "2318",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.03393,
-      "lon": 49.60735,
-      "frp": 2.24,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.03667,
-      "lon": 50.55682,
-      "frp": 1.18,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.0324,
-      "lon": 50.55572,
-      "frp": 1.77,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.45128,
-      "lon": 50.78629,
-      "frp": 3.42,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.63448,
-      "lon": 49.39308,
-      "frp": 2.02,
-      "date": "2026-09-14",
-      "time": "2259",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.84638,
-      "lon": 48.71878,
-      "frp": 1.19,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.53256,
-      "lon": 49.13787,
-      "frp": 2.97,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 27.00954,
-      "lon": 49.55899,
-      "frp": 3.92,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.95218,
-      "lon": 49.59543,
-      "frp": 2.27,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 26.94879,
-      "lon": 49.59974,
-      "frp": 0.78,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.44997,
-      "lon": 50.7866,
-      "frp": 3.88,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.63485,
-      "lon": 49.3913,
-      "frp": 1.64,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     },
-     {
-      "lat": 25.34345,
-      "lon": 50.20958,
-      "frp": 1.01,
-      "date": "2026-09-15",
-      "time": "2240",
-      "confidence": "nominal"
-     }
-    ]
-   }
-  },
-  "last_ok_at": "2026-09-17T00:24:59Z"
- },
+ "generated_at": "2026-09-17T02:12:46Z",
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T00:25:03Z",
+  "fetched_at": "2026-09-17T02:12:46Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -1525,185 +20,147 @@
   "places": [
    {
     "name": "얀부",
-    "region": "west",
     "lat": 24.09,
     "lon": 38.06,
-    "port": "port570",
     "level": 3,
     "level_name": "출국권고"
    },
    {
     "name": "제다",
-    "region": "west",
     "lat": 21.49,
     "lon": 39.19,
-    "port": "port518",
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "메디나",
-    "region": "west",
     "lat": 24.47,
     "lon": 39.61,
-    "port": null,
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "라비그",
-    "region": "west",
     "lat": 22.8,
     "lon": 39.03,
-    "port": "port1081",
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "킹압둘라항",
-    "region": "west",
     "lat": 22.52,
     "lon": 39.1,
-    "port": "port2031",
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "메카",
-    "region": "west",
     "lat": 21.39,
     "lon": 39.86,
-    "port": null,
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "타이프",
-    "region": "west",
     "lat": 21.27,
     "lon": 40.42,
-    "port": null,
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "리야드",
-    "region": "central",
     "lat": 24.71,
     "lon": 46.68,
-    "port": null,
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "프린스술탄 공군기지",
-    "region": "central",
     "lat": 24.06,
     "lon": 47.58,
-    "port": null,
     "level": 3,
     "level_name": "출국권고"
    },
    {
     "name": "담맘",
-    "region": "east",
     "lat": 26.43,
     "lon": 50.1,
-    "port": "port275",
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "다란",
-    "region": "east",
     "lat": 26.29,
     "lon": 50.11,
-    "port": null,
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "라스타누라",
-    "region": "east",
     "lat": 26.64,
     "lon": 50.16,
-    "port": "port1091",
     "level": 3,
     "level_name": "출국권고"
    },
    {
     "name": "주아이마",
-    "region": "east",
     "lat": 26.8,
     "lon": 49.98,
-    "port": "port526",
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "주베일",
-    "region": "east",
     "lat": 27.01,
     "lon": 49.66,
-    "port": "port24",
     "level": 3,
     "level_name": "출국권고"
    },
    {
     "name": "아브카이크",
-    "region": "east",
     "lat": 25.94,
     "lon": 49.67,
-    "port": null,
     "level": 2.5,
     "level_name": "특별여행주의보"
    },
    {
     "name": "샤이바 유전",
-    "region": null,
     "lat": 22.52,
     "lon": 53.97,
-    "port": null,
     "level": 3,
     "level_name": "출국권고"
    },
    {
     "name": "지잔",
-    "region": null,
     "lat": 16.89,
     "lon": 42.57,
-    "port": "port2074",
     "level": 3,
     "level_name": "출국권고"
    },
    {
     "name": "아브하",
-    "region": null,
     "lat": 18.22,
     "lon": 42.51,
-    "port": null,
     "level": 3,
     "level_name": "출국권고"
    },
    {
     "name": "카미스무샤이트",
-    "region": null,
     "lat": 18.31,
     "lon": 42.73,
-    "port": null,
     "level": 3,
     "level_name": "출국권고"
    },
    {
     "name": "나즈란",
-    "region": null,
     "lat": 17.49,
     "lon": 44.13,
-    "port": null,
     "level": 2.5,
     "level_name": "특별여행주의보"
    }
   ],
+  "changes": [],
+  "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
     "date": "2026-09-16",
@@ -1724,131 +181,30 @@
     "summary": "ㅇ 사우디 방위군은 9.12(토) 예멘에 인접한 국경지대 Al-Tuwal 지역에 후티 반군의 발사체가 낙하하여 2명이 부상을 입고 시설물과 재산 피해가 발생했다고 발표하였습니다. ㅇ 현재 예멘 국경 인근 180km 지역(자잔, 아브하, 카미스 무샤이트, 나즈란 등)과 얀부 지역은 외교부 지정 여행 철수 권고 지역(여행금지 바로 직전단계)입니다. ㅇ 해당 지…"
    }
   ],
-  "weekly_counts": [
-   {
-    "week": "2026-07-30",
-    "count": 2
-   },
-   {
-    "week": "2026-08-06",
-    "count": 0
-   },
-   {
-    "week": "2026-08-13",
-    "count": 1
-   },
-   {
-    "week": "2026-08-20",
-    "count": 2
-   },
-   {
-    "week": "2026-08-27",
-    "count": 1
-   },
-   {
-    "week": "2026-09-03",
-    "count": 2
-   },
-   {
-    "week": "2026-09-10",
-    "count": 5
-   },
-   {
-    "week": "2026-09-17",
-    "count": 4
-   }
-  ],
   "last7d": 4,
   "baseline": 1.5,
-  "ratio": 2.67,
   "tier": "증가",
-  "last_ok_at": "2026-09-17T00:25:03Z"
- },
- "news": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-17T00:25:18Z",
-  "kr": [
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T22:49:00+00:00",
-    "source": "한겨레",
-    "title": "후티 “사우디 F-15 전투기 격추”…영상·사진 공개",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWElQb1VhS1NMb3ZNZFNyeEtRRU9YRjVPMzMwSk1TN2hudXI2cDlyY1R2UFoxQWJBNk5FNkc5RXRoV3ZsM3dSUVY1V2s0TGNVeUg2XzBLQmEtajQ0UWdmYlRERWNSN2FLclBuOXR0VnRJeTdEMUJNZVZrR01WWTl1V0F3?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T21:04:34+00:00",
-    "source": "MBC",
-    "title": "거세지는 후티 공세‥\"사우디 전투기 격추\"",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBKSXpNbi1CdG9PeUJlekphUUpuWFhfMUtJMHduZkZMUFppeUt3M0RURFlMNFowcVVKcGdrZE9fZUNwYkc4bl8ycFVwdXZMZXN2bllaSWZIaElIMncyZzBJTW4xeE8tWGRuYm5CazhBWHJYTHF3TlBXLVh30gF6QVVfeXFMTVBxRVpqNU9OclFnNXhTOTdJMzJmVF9TTFJrYUxEOUNOblNLT0I2MG1EMF9OY0VacmsxVE54c1hJWGVzR0NMWDZLckkwLVpPYVQxcVdDWUs0RjhheW85VGstM1R2Z2NTbHY2czh4Sk9TdDNJOWFPMFpTc1E?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T20:26:00+00:00",
-    "source": "연합뉴스",
-    "title": "\"사우디 동서 송유관 일부 파손…복구 불투명\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51dmw2SVJrTU5TY3ppTmw1cFAySlpZZ2ttWU1MS0RHTGUzNVBHb3VaQmJZdGIyN2xOcFM1bW9Pa2FSd2pJWklScGZuOTdfakpzMkQ4WHdoamczdkp0Z1gxdi1aeHRlSk0?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T15:20:00+00:00",
-    "source": "MBC",
-    "title": "후티 반군 \"사우디 F-15 전투기 격추\"‥영상도 공개",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52M3E1SXZIT0tPMmJuUzFYSWtUV2pyeTBhMVF0T2FDYXlBSFVRLXhHREJyVkQ0UmVscjItU0Nva0g4QXhMaXZPQXgxb081MmNGQ2lBYWdBZV80bzE3ZEx5ZHpveG1HZEp6SXZqcXFGU2xydUp30gF0QVVfeXFMT1Y3ODVxMjIxeTVma0VJRldUb2RYUkowaGpXaGtfekRxSHhRZ2J2TlBvSmJ0WFowUkRacEE1UUlJZkpQWVg1QWpySHdSQXRzZkd3NVBkZ2pUTHNJLW9IeXEyTFpNY0hNbDhBY0hDNXJZLXBtUWs?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T13:14:00+00:00",
-    "source": "한겨레",
-    "title": "후티, 사우디 공세 강화…메카 공격 부인하고 “석유시설 타격” 주장",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tc0RlUjUySzBtYzRfZ182dDFucjRfcmVlUjNNSXBpT3VVdzhuX1I1d0NYTmRNMDF4b0NpWHJEUnNfYTRQMlZLQXhvVlF2ZlI5ZzA4ODZOMlhLNWxNTGFYc3VSOUY5Y25obk9HM09VWWo4ME0?oc=5"
-   }
-  ],
-  "en": [
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T19:55:00+00:00",
-    "source": "AP News",
-    "title": "Saudis seek allies’ help as missile defenses run low in fight with Houthis, officials say",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNkFPWXV5ejJIcnZYZEdJUHRDSVRIZk5Tbzd6SWlNSS1IOGc3MGVCMkNhdFZXU3RlcWxLa3ljMkt6M0hJWlpXSmlFQjU5cDV2S284bVN6ZXd3X2dEOWVhclRLVW5YT2tQRXFiMV96Q19HRDM1bGZhNzlJc0Rxak00eVVTRnN3SVU0aXY1Wm93QWtwN0dBdzU4V1RRZnlkczRva2NrYg?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T16:38:32+00:00",
-    "source": "Reuters",
-    "title": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T15:47:30+00:00",
-    "source": "Bloomberg",
-    "title": "Saudis Seek to Resume Half of Key Oil Pipeline Within Days",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaHRaZWVPR1BiNFo5RlMxTW9hUk1BZTUwd0hyUFNzYkRmeE8tbFFnOG9fSFZVTEFMQmx0QXo4Q0gwVHlzbkppeGRaSVBXQVM5aVVGVzhlT0h4cXdZWUI2TEswNEo1TEw1S0pMRjkyNUtENTNNd3hYaS10SUFEODdFcGVfNVkwUWZfQkM2VUNESzE1dGFrVDZhcmxmaFlyVnNkcDVZMHoyS0hha19RTXc?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T15:15:11+00:00",
-    "source": "The New York Times",
-    "title": "Global Oil Prices Could Hit Highest Levels in Months After Saudi Pipeline Attacks",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTzVjMkh4M1lsaEJyZkV0a3lzMlhVNHVsZVNoV1A4d0VkTjluTFgwc0JXTHpPNWRFMjlfdThqMmxlLTI4dGRaalR4SnBEZmZ6aDBxTGNRNzZMX0VzVk9tcmIyR1pvS0l4ZlNBbjctU0hWWUJIYXRIdTFNc1NhVFRnLUVwY2E?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T13:24:01+00:00",
-    "source": "Financial Times",
-    "title": "Chinese oil prices hit record highs after attacks on Saudi pipeline",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNenN5ekEzNkpYSjhXa2lGdU5YaFhDWlZaSGNIMjUyRXNqT29IZ25HR2RzZWoxaVhCVFNUbzYtZTNmY25FSkpoZktXSEVjeUg1Unk5UWFGVU5YSzdMRWZvWXNybXZsYmp0OHFfX0ZUVDJ4X0lsWmJ5c0luTGVETzhVOWJlRG4?oc=5"
-   }
-  ],
-  "last_ok_at": "2026-09-17T00:25:18Z"
+  "last_ok_at": "2026-09-17T02:12:46Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T00:25:19Z",
+  "fetched_at": "2026-09-17T02:12:51Z",
   "events": [
+   {
+    "date": "2026-09-17",
+    "time": "00:49",
+    "iso": "2026-09-17T00:49:55+03:00",
+    "city": "메카",
+    "region": "west",
+    "type": "요격",
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "사우디 \"성지 메카 겨냥한 후티 드론 요격\"…후티 \"진부한 거짓말\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCVGtRTTE0UVdhQXlGb05xMmlndzVQcFVXWmhwVTdhRjhIY2FrdUREVEdIU2dVYW5VVjNXdHpadWN3TzdFczEtMll6M3lfV0x6MldYWjdYZHJrR3F6Yzd6QW9R0gFnQVVfeXFMTnRsalNpWS1Gcld6UkVucXBFSGpONHpmTzdSd0tuUFhjN1ZneHc0M01oWmNid3FPdmRsejZTYjU5a0hRdHpoLXBnS1JneFlPSVJDX0xJd21LVmZZTWJ1X2UwdEFOUkxhTQ?oc=5",
+    "source": "뉴스1",
+    "outlets": 1
+   },
    {
     "date": "2026-09-16",
     "time": "15:28",
@@ -1945,15 +301,190 @@
     "title": "사우디 송유관 피격에 11월 이후 국내 원유 수급 '빨간불'",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TcEpmbC1SdV8yci1SSEFaUEVhSjJ3Y2ZNYmJXNUZLSHUzR2ZyVUpfbkFXVUNTd1Y3NEctSF85aDk2V0pJSXNQOVRCTmlnakpjNzFscFN2cDdCR1HSAWBBVV95cUxOV1JCZjdaTmVXdndmdUtidjRkdWN3NlZKcUtxWGQ4MFFNalA4WWhpbVpFcGZDSWpoQzl3dDFqM2pjYTh5SzhWcm1oVklwSkxDVmVHSkZ6X0ZTRXRPLThhaUM?oc=5",
     "source": "연합뉴스",
+    "outlets": 3
+   },
+   {
+    "date": "2026-09-14",
+    "time": "09:06",
+    "iso": "2026-09-14T09:06:00+03:00",
+    "city": "송유관",
+    "region": null,
+    "type": "피격",
+    "lat": null,
+    "lon": null,
+    "title": "정부 “사우디 송유관 피격에도 원유 9∼10월 물량 90% 이상 확보”",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tbUhiYmd0OUx3X0N3cTJ1TWZEQXRDeTdKNThoRnd2a2xPbzdSUExrVjJ4SWd2MW1CcFFwWTRrUllZZElzbnQxRHE3X0luLTNDTWJzMi05cmVEUmF2UUtFX3pn?oc=5",
+    "source": "중앙일보",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-13",
+    "time": "01:21",
+    "iso": "2026-09-13T01:21:00+03:00",
+    "city": "송유관",
+    "region": null,
+    "type": "피격",
+    "lat": null,
+    "lon": null,
+    "title": "사우디 ‘생명줄’ 송유관까지 타격…친이란 세력에 바닷길·육로 포위",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42UGdOTjJMdm9YVnBHRU1GYzhfNXFDSG9Ha2c2cTRoUV9CcHBLS2pnc1k5S25BVVZVeVRPemlkcnBNbWE0eWZrVVZPUjhwU2M1VmRINkpSQkVsejQ?oc=5",
+    "source": "KBS",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-12",
+    "time": "03:43",
+    "iso": "2026-09-12T03:43:59+03:00",
+    "city": "송유관",
+    "region": null,
+    "type": "피격",
+    "lat": null,
+    "lon": null,
+    "title": "Saudi Arabia says East-West pipeline hit by drones launched from Iraq",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHNsQUZkVHd5TE45cmc4cFN6NkJjd0xjbGNPY1d6YmY1bGgyWnVrTjlaNmNzUEl3MzFsSGs4WGdIM2JjSDk3NHR6RzdSV0ZmVzZmZ3BoVnBUc3JKYWoycHRkMTU0eDlmRHJSM1dSYUE3eWFrU0VBdURrMnFVNm95cXBJNlZXaVplcFdJX1lXRTJuM19fV1N5bHIza0VkdlBRM0FHRmdSNHVhOTFnT05J0gG0AUFVX3lxTE9DU3l0RkdjTnVMZmdYY1B0MExabUVfTnpkSmRNWkxBc3B3bzJNelEyUThkck9hSTlCT21lbGRaM09ZRXA1ZWFEUmxERHZTS2kyYTJtX0dlc2VHbzBPQTlQNTNfeFIyNmtLaWpoQ3NoekZLQ0VLT1ZtM25yczhZc3pfNlZzRjZFU2JKcnlVSlA5RGFsS1VhRDVKdlgyVGpHeDBXVnZpRFU0N2N0bklJUkJsdm5UUA?oc=5",
+    "source": "Al Jazeera",
     "outlets": 2
    }
   ],
-  "last_ok_at": "2026-09-17T00:25:19Z"
+  "tempo": {
+   "얀부": {
+    "7d": {
+     "피격": 1
+    },
+    "total7d": 1,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "제다": {
+    "7d": {
+     "경보": 1
+    },
+    "total7d": 1,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "메디나": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "라비그": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "킹압둘라항": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "메카": {
+    "7d": {
+     "요격": 2,
+     "피격": 1,
+     "경보": 2
+    },
+    "total7d": 5,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "타이프": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "리야드": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "프린스술탄 공군기지": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "담맘": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "다란": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "라스타누라": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "주아이마": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "주베일": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "아브카이크": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "샤이바 유전": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "지잔": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "아브하": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "카미스무샤이트": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   },
+   "나즈란": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": null,
+    "prev_total": null
+   }
+  },
+  "history_days": 6,
+  "history_since": "2026-09-12",
+  "today": "2026-09-17",
+  "last_ok_at": "2026-09-17T02:12:51Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T00:25:20Z",
+  "fetched_at": "2026-09-17T02:12:53Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2015,4104 +546,4176 @@
     "text_ar": "بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيمُ يواصلُ العدوُّ السعوديُّ المجرمُ عدوانَـهُ الظالمَ وحصارَـهُ الغاشمَ على بلدِنا وشعبِنا منذُ اثْنَيْ عشرَ عامًا، وصعَّدَ مِنْ عدوانِـهِ خلالَ هذا الأسبوعِ بشنِّـهِ لأكثرَ مِنْ 450 غارةً جويةً مستهدفًا بها معظمَ المحافظاتِ اليمنيةِ. ورَدًّا على هذا العدوانِ ال…",
     "text_ko": "전능하신 알라의 이름으로, 자비로우시고 자비로우신 알라의 이름으로 말씀하시길: {누구든지 당신을 공격한 다음, 이전과는 달리 그를 공격했습니다.} 알라의 위대한 진실은 사우디의 적인 범죄자가 12년 전 우리나라와 우리 국민에 대한 부당한 침략과 잔인한 포위 공격을 계속하고 있으며, 이번 주에 대부분의 예멘 총독부를 겨냥한 450회 이상의 공습을 감행함으로써 그의 침략을 확대시켰다는 것입니다. 이 공격에 대한 대응으로...",
     "url": "https://t.me/army21ye/3721"
+   },
+   {
+    "time": "2026-09-16 13:01",
+    "iso": "2026-09-16T13:01:53+03:00",
+    "places": [],
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية في العمق السعودي في تمام الساعة 2:40 عصراً. http://t.me/army21ye",
+    "text_ko": "사우디아라비아에서 오후 2시 40분에 여러 군사 작전을 발표하겠다는 예멘 군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3720"
+   },
+   {
+    "time": "2026-09-16 08:32",
+    "iso": "2026-09-16T08:32:49+03:00",
+    "places": [
+     "메카",
+     "타이프",
+     "카미스무샤이트"
+    ],
+    "text_ar": "بيانٌ صادرٌ عنِ القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: { یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ إِن تَنصُرُوا۟ ٱللَّهَ یَنصُرۡكُمۡ وَیُثَبِّتۡ أَقۡدَامَكُمۡ } صدقَ اللهُ العظيم شنَّ الطيرانُ الحربيُّ السعوديُّ خلالَ هذا الأسبوعِ أكثرَ من 450 غارةٍ جويةٍ من خلالِ طائراتِ \"F15\" و \"تايفون\" أقلعتْ من قاعدتيْ خميسِ مشيطٍ والطائفِ استهدفتْ محافظاتِ تعزَ ولحجَ والجوفِ وحجةَ ومأربَ …",
+    "text_ko": "전능하신 알라, 자비로우시고 자애로우신 알라의 이름으로 예멘군이 발표한 성명서에서 그는 다음과 같이 말했습니다. {전능하신 알라는 사우디의 전투기가 이번 주 동안 카미스 무샤이트와 타이프 기지에서 이륙한 \"F15\" 와 \"타이푼\" 항공기를 통해 450회 이상의 공습을 시작했음을 확인했습니다.",
+    "url": "https://t.me/army21ye/3716"
+   },
+   {
+    "time": "2026-09-16 08:32",
+    "iso": "2026-09-16T08:32:49+03:00",
+    "places": [
+     "메카",
+     "타이프",
+     "카미스무샤이트"
+    ],
+    "text_ar": "This week, Saudi warplanes launched more than 450 airstrikes using F-15 and Typhoon fighter jets, which took off from Khamis Mushait and Taif airbases, these airstrikes targeted the governorates of Taiz, Lahj, Al-Jawf, Hajjah, Ma'rib, Sa'dah, and Al-Bayda, resulting in martyrs and wounded of civilian casualties In the face of this brutal aggression against our country and people, the Yemeni Armed …",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3717"
+   },
+   {
+    "time": "2026-09-16 08:30",
+    "iso": "2026-09-16T08:30:40+03:00",
+    "places": [],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن إسقاط طائرة حربية سعودية نوع \"F15\" أثناء قيامها بأعمال عدائية دعما للتحشيدات السعودية في محافظة مأرب. جودة متوسطة http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3714"
+   },
+   {
+    "time": "2026-09-15 20:31",
+    "iso": "2026-09-15T20:31:12+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي 52 غارة جوية خلال الـ24 ساعة الماضية بطائرات \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائفْ، استهدفت الأعيان المدنية من مدارس وجسور وطرقات في محافظة تعز مع استهداف أعيان مدنية أخرى في محافظات الجوف والبيضاء وصعدة وعمران. هذه الاعتداءات الوحشية لن تمر دون رد بإذن الله تعالى. http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3712"
    }
   ],
-  "last_ok_at": "2026-09-17T00:25:20Z"
+  "mentions7d": {
+   "카미스무샤이트": 8,
+   "타이프": 3,
+   "얀부": 2,
+   "메카": 2
+  },
+  "last_ok_at": "2026-09-17T02:12:53Z"
  },
- "maritime": {
+ "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T00:25:21Z",
-  "series": {
-   "port570": {
-    "name": "얀부항",
-    "last_date": "2026-09-11",
-    "last7": 2,
-    "baseline7": 26,
-    "ratio": 0.08,
-    "tier": "끊김",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 43
-     },
-     {
-      "date": "2026-06-15",
-      "value": 48
-     },
-     {
-      "date": "2026-06-16",
-      "value": 49
-     },
-     {
-      "date": "2026-06-17",
-      "value": 52
-     },
-     {
-      "date": "2026-06-18",
-      "value": 50
-     },
-     {
-      "date": "2026-06-19",
-      "value": 53
-     },
-     {
-      "date": "2026-06-20",
-      "value": 53
-     },
-     {
-      "date": "2026-06-21",
-      "value": 54
-     },
-     {
-      "date": "2026-06-22",
-      "value": 51
-     },
-     {
-      "date": "2026-06-23",
-      "value": 53
-     },
-     {
-      "date": "2026-06-24",
-      "value": 52
-     },
-     {
-      "date": "2026-06-25",
-      "value": 54
-     },
-     {
-      "date": "2026-06-26",
-      "value": 51
-     },
-     {
-      "date": "2026-06-27",
-      "value": 53
-     },
-     {
-      "date": "2026-06-28",
-      "value": 48
-     },
-     {
-      "date": "2026-06-29",
-      "value": 49
-     },
-     {
-      "date": "2026-06-30",
-      "value": 50
-     },
-     {
-      "date": "2026-07-01",
-      "value": 48
-     },
-     {
-      "date": "2026-07-02",
-      "value": 49
-     },
-     {
-      "date": "2026-07-03",
-      "value": 47
-     },
-     {
-      "date": "2026-07-04",
-      "value": 42
-     },
-     {
-      "date": "2026-07-05",
-      "value": 42
-     },
-     {
-      "date": "2026-07-06",
-      "value": 47
-     },
-     {
-      "date": "2026-07-07",
-      "value": 42
-     },
-     {
-      "date": "2026-07-08",
-      "value": 41
-     },
-     {
-      "date": "2026-07-09",
-      "value": 43
-     },
-     {
-      "date": "2026-07-10",
-      "value": 44
-     },
-     {
-      "date": "2026-07-11",
-      "value": 48
-     },
-     {
-      "date": "2026-07-12",
-      "value": 48
-     },
-     {
-      "date": "2026-07-13",
-      "value": 48
-     },
-     {
-      "date": "2026-07-14",
-      "value": 50
-     },
-     {
-      "date": "2026-07-15",
-      "value": 54
-     },
-     {
-      "date": "2026-07-16",
-      "value": 52
-     },
-     {
-      "date": "2026-07-17",
-      "value": 52
-     },
-     {
-      "date": "2026-07-18",
-      "value": 54
-     },
-     {
-      "date": "2026-07-19",
-      "value": 54
-     },
-     {
-      "date": "2026-07-20",
-      "value": 48
-     },
-     {
-      "date": "2026-07-21",
-      "value": 48
-     },
-     {
-      "date": "2026-07-22",
-      "value": 48
-     },
-     {
-      "date": "2026-07-23",
-      "value": 40
-     },
-     {
-      "date": "2026-07-24",
-      "value": 33
-     },
-     {
-      "date": "2026-07-25",
-      "value": 25
-     },
-     {
-      "date": "2026-07-26",
-      "value": 20
-     },
-     {
-      "date": "2026-07-27",
-      "value": 15
-     },
-     {
-      "date": "2026-07-28",
-      "value": 8
-     },
-     {
-      "date": "2026-07-29",
-      "value": 0
-     },
-     {
-      "date": "2026-07-30",
-      "value": 0
-     },
-     {
-      "date": "2026-07-31",
-      "value": 0
-     },
-     {
-      "date": "2026-08-01",
-      "value": 0
-     },
-     {
-      "date": "2026-08-02",
-      "value": 0
-     },
-     {
-      "date": "2026-08-03",
-      "value": 1
-     },
-     {
-      "date": "2026-08-04",
-      "value": 1
-     },
-     {
-      "date": "2026-08-05",
-      "value": 2
-     },
-     {
-      "date": "2026-08-06",
-      "value": 2
-     },
-     {
-      "date": "2026-08-07",
-      "value": 3
-     },
-     {
-      "date": "2026-08-08",
-      "value": 3
-     },
-     {
-      "date": "2026-08-09",
-      "value": 3
-     },
-     {
-      "date": "2026-08-10",
-      "value": 2
-     },
-     {
-      "date": "2026-08-11",
-      "value": 2
-     },
-     {
-      "date": "2026-08-12",
-      "value": 1
-     },
-     {
-      "date": "2026-08-13",
-      "value": 2
-     },
-     {
-      "date": "2026-08-14",
-      "value": 3
-     },
-     {
-      "date": "2026-08-15",
-      "value": 3
-     },
-     {
-      "date": "2026-08-16",
-      "value": 3
-     },
-     {
-      "date": "2026-08-17",
-      "value": 3
-     },
-     {
-      "date": "2026-08-18",
-      "value": 3
-     },
-     {
-      "date": "2026-08-19",
-      "value": 3
-     },
-     {
-      "date": "2026-08-20",
-      "value": 2
-     },
-     {
-      "date": "2026-08-21",
-      "value": 0
-     },
-     {
-      "date": "2026-08-22",
-      "value": 1
-     },
-     {
-      "date": "2026-08-23",
-      "value": 1
-     },
-     {
-      "date": "2026-08-24",
-      "value": 1
-     },
-     {
-      "date": "2026-08-25",
-      "value": 1
-     },
-     {
-      "date": "2026-08-26",
-      "value": 2
-     },
-     {
-      "date": "2026-08-27",
-      "value": 2
-     },
-     {
-      "date": "2026-08-28",
-      "value": 2
-     },
-     {
-      "date": "2026-08-29",
-      "value": 2
-     },
-     {
-      "date": "2026-08-30",
-      "value": 2
-     },
-     {
-      "date": "2026-08-31",
-      "value": 2
-     },
-     {
-      "date": "2026-09-01",
-      "value": 3
-     },
-     {
-      "date": "2026-09-02",
-      "value": 2
-     },
-     {
-      "date": "2026-09-03",
-      "value": 2
-     },
-     {
-      "date": "2026-09-04",
-      "value": 2
-     },
-     {
-      "date": "2026-09-05",
-      "value": 1
-     },
-     {
-      "date": "2026-09-06",
-      "value": 1
-     },
-     {
-      "date": "2026-09-07",
-      "value": 1
-     },
-     {
-      "date": "2026-09-08",
-      "value": 1
-     },
-     {
-      "date": "2026-09-09",
-      "value": 2
-     },
-     {
-      "date": "2026-09-10",
-      "value": 2
-     },
-     {
-      "date": "2026-09-11",
-      "value": 2
-     }
-    ]
+  "fetched_at": "2026-09-17T02:12:54Z",
+  "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
+  "hotspots": [
+   {
+    "lat": 32.45514,
+    "lon": 47.29886,
+    "frp": 0.95,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "port518": {
-    "name": "제다항",
-    "last_date": "2026-09-11",
-    "last7": 20,
-    "baseline7": 61,
-    "ratio": 0.33,
-    "tier": "끊김",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 45
-     },
-     {
-      "date": "2026-06-15",
-      "value": 51
-     },
-     {
-      "date": "2026-06-16",
-      "value": 52
-     },
-     {
-      "date": "2026-06-17",
-      "value": 57
-     },
-     {
-      "date": "2026-06-18",
-      "value": 61
-     },
-     {
-      "date": "2026-06-19",
-      "value": 64
-     },
-     {
-      "date": "2026-06-20",
-      "value": 68
-     },
-     {
-      "date": "2026-06-21",
-      "value": 72
-     },
-     {
-      "date": "2026-06-22",
-      "value": 60
-     },
-     {
-      "date": "2026-06-23",
-      "value": 64
-     },
-     {
-      "date": "2026-06-24",
-      "value": 67
-     },
-     {
-      "date": "2026-06-25",
-      "value": 61
-     },
-     {
-      "date": "2026-06-26",
-      "value": 59
-     },
-     {
-      "date": "2026-06-27",
-      "value": 56
-     },
-     {
-      "date": "2026-06-28",
-      "value": 60
-     },
-     {
-      "date": "2026-06-29",
-      "value": 69
-     },
-     {
-      "date": "2026-06-30",
-      "value": 64
-     },
-     {
-      "date": "2026-07-01",
-      "value": 59
-     },
-     {
-      "date": "2026-07-02",
-      "value": 64
-     },
-     {
-      "date": "2026-07-03",
-      "value": 63
-     },
-     {
-      "date": "2026-07-04",
-      "value": 62
-     },
-     {
-      "date": "2026-07-05",
-      "value": 55
-     },
-     {
-      "date": "2026-07-06",
-      "value": 56
-     },
-     {
-      "date": "2026-07-07",
-      "value": 57
-     },
-     {
-      "date": "2026-07-08",
-      "value": 57
-     },
-     {
-      "date": "2026-07-09",
-      "value": 54
-     },
-     {
-      "date": "2026-07-10",
-      "value": 52
-     },
-     {
-      "date": "2026-07-11",
-      "value": 55
-     },
-     {
-      "date": "2026-07-12",
-      "value": 59
-     },
-     {
-      "date": "2026-07-13",
-      "value": 52
-     },
-     {
-      "date": "2026-07-14",
-      "value": 51
-     },
-     {
-      "date": "2026-07-15",
-      "value": 51
-     },
-     {
-      "date": "2026-07-16",
-      "value": 53
-     },
-     {
-      "date": "2026-07-17",
-      "value": 54
-     },
-     {
-      "date": "2026-07-18",
-      "value": 62
-     },
-     {
-      "date": "2026-07-19",
-      "value": 62
-     },
-     {
-      "date": "2026-07-20",
-      "value": 64
-     },
-     {
-      "date": "2026-07-21",
-      "value": 67
-     },
-     {
-      "date": "2026-07-22",
-      "value": 65
-     },
-     {
-      "date": "2026-07-23",
-      "value": 68
-     },
-     {
-      "date": "2026-07-24",
-      "value": 68
-     },
-     {
-      "date": "2026-07-25",
-      "value": 59
-     },
-     {
-      "date": "2026-07-26",
-      "value": 53
-     },
-     {
-      "date": "2026-07-27",
-      "value": 45
-     },
-     {
-      "date": "2026-07-28",
-      "value": 38
-     },
-     {
-      "date": "2026-07-29",
-      "value": 35
-     },
-     {
-      "date": "2026-07-30",
-      "value": 26
-     },
-     {
-      "date": "2026-07-31",
-      "value": 27
-     },
-     {
-      "date": "2026-08-01",
-      "value": 21
-     },
-     {
-      "date": "2026-08-02",
-      "value": 22
-     },
-     {
-      "date": "2026-08-03",
-      "value": 26
-     },
-     {
-      "date": "2026-08-04",
-      "value": 26
-     },
-     {
-      "date": "2026-08-05",
-      "value": 26
-     },
-     {
-      "date": "2026-08-06",
-      "value": 24
-     },
-     {
-      "date": "2026-08-07",
-      "value": 21
-     },
-     {
-      "date": "2026-08-08",
-      "value": 24
-     },
-     {
-      "date": "2026-08-09",
-      "value": 23
-     },
-     {
-      "date": "2026-08-10",
-      "value": 20
-     },
-     {
-      "date": "2026-08-11",
-      "value": 18
-     },
-     {
-      "date": "2026-08-12",
-      "value": 19
-     },
-     {
-      "date": "2026-08-13",
-      "value": 21
-     },
-     {
-      "date": "2026-08-14",
-      "value": 21
-     },
-     {
-      "date": "2026-08-15",
-      "value": 19
-     },
-     {
-      "date": "2026-08-16",
-      "value": 19
-     },
-     {
-      "date": "2026-08-17",
-      "value": 23
-     },
-     {
-      "date": "2026-08-18",
-      "value": 25
-     },
-     {
-      "date": "2026-08-19",
-      "value": 24
-     },
-     {
-      "date": "2026-08-20",
-      "value": 23
-     },
-     {
-      "date": "2026-08-21",
-      "value": 24
-     },
-     {
-      "date": "2026-08-22",
-      "value": 23
-     },
-     {
-      "date": "2026-08-23",
-      "value": 24
-     },
-     {
-      "date": "2026-08-24",
-      "value": 20
-     },
-     {
-      "date": "2026-08-25",
-      "value": 18
-     },
-     {
-      "date": "2026-08-26",
-      "value": 19
-     },
-     {
-      "date": "2026-08-27",
-      "value": 21
-     },
-     {
-      "date": "2026-08-28",
-      "value": 21
-     },
-     {
-      "date": "2026-08-29",
-      "value": 21
-     },
-     {
-      "date": "2026-08-30",
-      "value": 22
-     },
-     {
-      "date": "2026-08-31",
-      "value": 22
-     },
-     {
-      "date": "2026-09-01",
-      "value": 22
-     },
-     {
-      "date": "2026-09-02",
-      "value": 20
-     },
-     {
-      "date": "2026-09-03",
-      "value": 18
-     },
-     {
-      "date": "2026-09-04",
-      "value": 15
-     },
-     {
-      "date": "2026-09-05",
-      "value": 14
-     },
-     {
-      "date": "2026-09-06",
-      "value": 10
-     },
-     {
-      "date": "2026-09-07",
-      "value": 11
-     },
-     {
-      "date": "2026-09-08",
-      "value": 14
-     },
-     {
-      "date": "2026-09-09",
-      "value": 17
-     },
-     {
-      "date": "2026-09-10",
-      "value": 19
-     },
-     {
-      "date": "2026-09-11",
-      "value": 20
-     }
-    ]
+   {
+    "lat": 32.11662,
+    "lon": 47.41652,
+    "frp": 13.98,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "port1081": {
-    "name": "라비그항",
-    "last_date": "2026-09-11",
-    "last7": 0,
-    "baseline7": 7,
-    "ratio": 0.0,
-    "tier": "끊김",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 6
-     },
-     {
-      "date": "2026-06-15",
-      "value": 7
-     },
-     {
-      "date": "2026-06-16",
-      "value": 6
-     },
-     {
-      "date": "2026-06-17",
-      "value": 6
-     },
-     {
-      "date": "2026-06-18",
-      "value": 8
-     },
-     {
-      "date": "2026-06-19",
-      "value": 8
-     },
-     {
-      "date": "2026-06-20",
-      "value": 8
-     },
-     {
-      "date": "2026-06-21",
-      "value": 10
-     },
-     {
-      "date": "2026-06-22",
-      "value": 10
-     },
-     {
-      "date": "2026-06-23",
-      "value": 9
-     },
-     {
-      "date": "2026-06-24",
-      "value": 10
-     },
-     {
-      "date": "2026-06-25",
-      "value": 9
-     },
-     {
-      "date": "2026-06-26",
-      "value": 9
-     },
-     {
-      "date": "2026-06-27",
-      "value": 11
-     },
-     {
-      "date": "2026-06-28",
-      "value": 12
-     },
-     {
-      "date": "2026-06-29",
-      "value": 13
-     },
-     {
-      "date": "2026-06-30",
-      "value": 15
-     },
-     {
-      "date": "2026-07-01",
-      "value": 13
-     },
-     {
-      "date": "2026-07-02",
-      "value": 13
-     },
-     {
-      "date": "2026-07-03",
-      "value": 13
-     },
-     {
-      "date": "2026-07-04",
-      "value": 11
-     },
-     {
-      "date": "2026-07-05",
-      "value": 9
-     },
-     {
-      "date": "2026-07-06",
-      "value": 7
-     },
-     {
-      "date": "2026-07-07",
-      "value": 6
-     },
-     {
-      "date": "2026-07-08",
-      "value": 6
-     },
-     {
-      "date": "2026-07-09",
-      "value": 6
-     },
-     {
-      "date": "2026-07-10",
-      "value": 9
-     },
-     {
-      "date": "2026-07-11",
-      "value": 8
-     },
-     {
-      "date": "2026-07-12",
-      "value": 10
-     },
-     {
-      "date": "2026-07-13",
-      "value": 11
-     },
-     {
-      "date": "2026-07-14",
-      "value": 10
-     },
-     {
-      "date": "2026-07-15",
-      "value": 10
-     },
-     {
-      "date": "2026-07-16",
-      "value": 11
-     },
-     {
-      "date": "2026-07-17",
-      "value": 11
-     },
-     {
-      "date": "2026-07-18",
-      "value": 11
-     },
-     {
-      "date": "2026-07-19",
-      "value": 11
-     },
-     {
-      "date": "2026-07-20",
-      "value": 11
-     },
-     {
-      "date": "2026-07-21",
-      "value": 12
-     },
-     {
-      "date": "2026-07-22",
-      "value": 13
-     },
-     {
-      "date": "2026-07-23",
-      "value": 13
-     },
-     {
-      "date": "2026-07-24",
-      "value": 10
-     },
-     {
-      "date": "2026-07-25",
-      "value": 10
-     },
-     {
-      "date": "2026-07-26",
-      "value": 7
-     },
-     {
-      "date": "2026-07-27",
-      "value": 7
-     },
-     {
-      "date": "2026-07-28",
-      "value": 6
-     },
-     {
-      "date": "2026-07-29",
-      "value": 4
-     },
-     {
-      "date": "2026-07-30",
-      "value": 2
-     },
-     {
-      "date": "2026-07-31",
-      "value": 2
-     },
-     {
-      "date": "2026-08-01",
-      "value": 1
-     },
-     {
-      "date": "2026-08-02",
-      "value": 1
-     },
-     {
-      "date": "2026-08-03",
-      "value": 0
-     },
-     {
-      "date": "2026-08-04",
-      "value": 0
-     },
-     {
-      "date": "2026-08-05",
-      "value": 0
-     },
-     {
-      "date": "2026-08-06",
-      "value": 0
-     },
-     {
-      "date": "2026-08-07",
-      "value": 0
-     },
-     {
-      "date": "2026-08-08",
-      "value": 0
-     },
-     {
-      "date": "2026-08-09",
-      "value": 0
-     },
-     {
-      "date": "2026-08-10",
-      "value": 0
-     },
-     {
-      "date": "2026-08-11",
-      "value": 0
-     },
-     {
-      "date": "2026-08-12",
-      "value": 0
-     },
-     {
-      "date": "2026-08-13",
-      "value": 0
-     },
-     {
-      "date": "2026-08-14",
-      "value": 0
-     },
-     {
-      "date": "2026-08-15",
-      "value": 1
-     },
-     {
-      "date": "2026-08-16",
-      "value": 1
-     },
-     {
-      "date": "2026-08-17",
-      "value": 1
-     },
-     {
-      "date": "2026-08-18",
-      "value": 1
-     },
-     {
-      "date": "2026-08-19",
-      "value": 2
-     },
-     {
-      "date": "2026-08-20",
-      "value": 2
-     },
-     {
-      "date": "2026-08-21",
-      "value": 2
-     },
-     {
-      "date": "2026-08-22",
-      "value": 1
-     },
-     {
-      "date": "2026-08-23",
-      "value": 1
-     },
-     {
-      "date": "2026-08-24",
-      "value": 2
-     },
-     {
-      "date": "2026-08-25",
-      "value": 2
-     },
-     {
-      "date": "2026-08-26",
-      "value": 1
-     },
-     {
-      "date": "2026-08-27",
-      "value": 1
-     },
-     {
-      "date": "2026-08-28",
-      "value": 1
-     },
-     {
-      "date": "2026-08-29",
-      "value": 1
-     },
-     {
-      "date": "2026-08-30",
-      "value": 1
-     },
-     {
-      "date": "2026-08-31",
-      "value": 0
-     },
-     {
-      "date": "2026-09-01",
-      "value": 0
-     },
-     {
-      "date": "2026-09-02",
-      "value": 0
-     },
-     {
-      "date": "2026-09-03",
-      "value": 0
-     },
-     {
-      "date": "2026-09-04",
-      "value": 1
-     },
-     {
-      "date": "2026-09-05",
-      "value": 1
-     },
-     {
-      "date": "2026-09-06",
-      "value": 1
-     },
-     {
-      "date": "2026-09-07",
-      "value": 1
-     },
-     {
-      "date": "2026-09-08",
-      "value": 1
-     },
-     {
-      "date": "2026-09-09",
-      "value": 1
-     },
-     {
-      "date": "2026-09-10",
-      "value": 1
-     },
-     {
-      "date": "2026-09-11",
-      "value": 0
-     }
-    ]
+   {
+    "lat": 31.51579,
+    "lon": 49.46514,
+    "frp": 2.85,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "port2031": {
-    "name": "킹압둘라항",
-    "last_date": "2026-09-11",
-    "last7": 0,
-    "baseline7": 6,
-    "ratio": 0.0,
-    "tier": "끊김",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 9
-     },
-     {
-      "date": "2026-06-15",
-      "value": 10
-     },
-     {
-      "date": "2026-06-16",
-      "value": 13
-     },
-     {
-      "date": "2026-06-17",
-      "value": 12
-     },
-     {
-      "date": "2026-06-18",
-      "value": 13
-     },
-     {
-      "date": "2026-06-19",
-      "value": 13
-     },
-     {
-      "date": "2026-06-20",
-      "value": 19
-     },
-     {
-      "date": "2026-06-21",
-      "value": 18
-     },
-     {
-      "date": "2026-06-22",
-      "value": 17
-     },
-     {
-      "date": "2026-06-23",
-      "value": 17
-     },
-     {
-      "date": "2026-06-24",
-      "value": 16
-     },
-     {
-      "date": "2026-06-25",
-      "value": 15
-     },
-     {
-      "date": "2026-06-26",
-      "value": 15
-     },
-     {
-      "date": "2026-06-27",
-      "value": 10
-     },
-     {
-      "date": "2026-06-28",
-      "value": 11
-     },
-     {
-      "date": "2026-06-29",
-      "value": 10
-     },
-     {
-      "date": "2026-06-30",
-      "value": 8
-     },
-     {
-      "date": "2026-07-01",
-      "value": 10
-     },
-     {
-      "date": "2026-07-02",
-      "value": 10
-     },
-     {
-      "date": "2026-07-03",
-      "value": 11
-     },
-     {
-      "date": "2026-07-04",
-      "value": 10
-     },
-     {
-      "date": "2026-07-05",
-      "value": 9
-     },
-     {
-      "date": "2026-07-06",
-      "value": 9
-     },
-     {
-      "date": "2026-07-07",
-      "value": 10
-     },
-     {
-      "date": "2026-07-08",
-      "value": 9
-     },
-     {
-      "date": "2026-07-09",
-      "value": 10
-     },
-     {
-      "date": "2026-07-10",
-      "value": 11
-     },
-     {
-      "date": "2026-07-11",
-      "value": 12
-     },
-     {
-      "date": "2026-07-12",
-      "value": 12
-     },
-     {
-      "date": "2026-07-13",
-      "value": 12
-     },
-     {
-      "date": "2026-07-14",
-      "value": 13
-     },
-     {
-      "date": "2026-07-15",
-      "value": 11
-     },
-     {
-      "date": "2026-07-16",
-      "value": 9
-     },
-     {
-      "date": "2026-07-17",
-      "value": 8
-     },
-     {
-      "date": "2026-07-18",
-      "value": 7
-     },
-     {
-      "date": "2026-07-19",
-      "value": 10
-     },
-     {
-      "date": "2026-07-20",
-      "value": 10
-     },
-     {
-      "date": "2026-07-21",
-      "value": 9
-     },
-     {
-      "date": "2026-07-22",
-      "value": 10
-     },
-     {
-      "date": "2026-07-23",
-      "value": 10
-     },
-     {
-      "date": "2026-07-24",
-      "value": 8
-     },
-     {
-      "date": "2026-07-25",
-      "value": 8
-     },
-     {
-      "date": "2026-07-26",
-      "value": 5
-     },
-     {
-      "date": "2026-07-27",
-      "value": 4
-     },
-     {
-      "date": "2026-07-28",
-      "value": 2
-     },
-     {
-      "date": "2026-07-29",
-      "value": 1
-     },
-     {
-      "date": "2026-07-30",
-      "value": 1
-     },
-     {
-      "date": "2026-07-31",
-      "value": 2
-     },
-     {
-      "date": "2026-08-01",
-      "value": 1
-     },
-     {
-      "date": "2026-08-02",
-      "value": 1
-     },
-     {
-      "date": "2026-08-03",
-      "value": 1
-     },
-     {
-      "date": "2026-08-04",
-      "value": 1
-     },
-     {
-      "date": "2026-08-05",
-      "value": 1
-     },
-     {
-      "date": "2026-08-06",
-      "value": 1
-     },
-     {
-      "date": "2026-08-07",
-      "value": 0
-     },
-     {
-      "date": "2026-08-08",
-      "value": 0
-     },
-     {
-      "date": "2026-08-09",
-      "value": 0
-     },
-     {
-      "date": "2026-08-10",
-      "value": 1
-     },
-     {
-      "date": "2026-08-11",
-      "value": 1
-     },
-     {
-      "date": "2026-08-12",
-      "value": 1
-     },
-     {
-      "date": "2026-08-13",
-      "value": 2
-     },
-     {
-      "date": "2026-08-14",
-      "value": 2
-     },
-     {
-      "date": "2026-08-15",
-      "value": 2
-     },
-     {
-      "date": "2026-08-16",
-      "value": 3
-     },
-     {
-      "date": "2026-08-17",
-      "value": 2
-     },
-     {
-      "date": "2026-08-18",
-      "value": 2
-     },
-     {
-      "date": "2026-08-19",
-      "value": 3
-     },
-     {
-      "date": "2026-08-20",
-      "value": 2
-     },
-     {
-      "date": "2026-08-21",
-      "value": 2
-     },
-     {
-      "date": "2026-08-22",
-      "value": 2
-     },
-     {
-      "date": "2026-08-23",
-      "value": 1
-     },
-     {
-      "date": "2026-08-24",
-      "value": 1
-     },
-     {
-      "date": "2026-08-25",
-      "value": 2
-     },
-     {
-      "date": "2026-08-26",
-      "value": 1
-     },
-     {
-      "date": "2026-08-27",
-      "value": 1
-     },
-     {
-      "date": "2026-08-28",
-      "value": 1
-     },
-     {
-      "date": "2026-08-29",
-      "value": 1
-     },
-     {
-      "date": "2026-08-30",
-      "value": 1
-     },
-     {
-      "date": "2026-08-31",
-      "value": 2
-     },
-     {
-      "date": "2026-09-01",
-      "value": 2
-     },
-     {
-      "date": "2026-09-02",
-      "value": 3
-     },
-     {
-      "date": "2026-09-03",
-      "value": 3
-     },
-     {
-      "date": "2026-09-04",
-      "value": 3
-     },
-     {
-      "date": "2026-09-05",
-      "value": 3
-     },
-     {
-      "date": "2026-09-06",
-      "value": 3
-     },
-     {
-      "date": "2026-09-07",
-      "value": 2
-     },
-     {
-      "date": "2026-09-08",
-      "value": 1
-     },
-     {
-      "date": "2026-09-09",
-      "value": 0
-     },
-     {
-      "date": "2026-09-10",
-      "value": 0
-     },
-     {
-      "date": "2026-09-11",
-      "value": 0
-     }
-    ]
+   {
+    "lat": 31.45231,
+    "lon": 48.5892,
+    "frp": 0.56,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "port275": {
-    "name": "담맘항",
-    "last_date": "2026-09-11",
-    "last7": 11,
-    "baseline7": 30,
-    "ratio": 0.37,
-    "tier": "감소",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 9
-     },
-     {
-      "date": "2026-06-15",
-      "value": 11
-     },
-     {
-      "date": "2026-06-16",
-      "value": 11
-     },
-     {
-      "date": "2026-06-17",
-      "value": 10
-     },
-     {
-      "date": "2026-06-18",
-      "value": 9
-     },
-     {
-      "date": "2026-06-19",
-      "value": 10
-     },
-     {
-      "date": "2026-06-20",
-      "value": 10
-     },
-     {
-      "date": "2026-06-21",
-      "value": 10
-     },
-     {
-      "date": "2026-06-22",
-      "value": 10
-     },
-     {
-      "date": "2026-06-23",
-      "value": 11
-     },
-     {
-      "date": "2026-06-24",
-      "value": 9
-     },
-     {
-      "date": "2026-06-25",
-      "value": 9
-     },
-     {
-      "date": "2026-06-26",
-      "value": 12
-     },
-     {
-      "date": "2026-06-27",
-      "value": 14
-     },
-     {
-      "date": "2026-06-28",
-      "value": 14
-     },
-     {
-      "date": "2026-06-29",
-      "value": 13
-     },
-     {
-      "date": "2026-06-30",
-      "value": 11
-     },
-     {
-      "date": "2026-07-01",
-      "value": 14
-     },
-     {
-      "date": "2026-07-02",
-      "value": 15
-     },
-     {
-      "date": "2026-07-03",
-      "value": 11
-     },
-     {
-      "date": "2026-07-04",
-      "value": 13
-     },
-     {
-      "date": "2026-07-05",
-      "value": 14
-     },
-     {
-      "date": "2026-07-06",
-      "value": 15
-     },
-     {
-      "date": "2026-07-07",
-      "value": 17
-     },
-     {
-      "date": "2026-07-08",
-      "value": 15
-     },
-     {
-      "date": "2026-07-09",
-      "value": 15
-     },
-     {
-      "date": "2026-07-10",
-      "value": 16
-     },
-     {
-      "date": "2026-07-11",
-      "value": 11
-     },
-     {
-      "date": "2026-07-12",
-      "value": 13
-     },
-     {
-      "date": "2026-07-13",
-      "value": 11
-     },
-     {
-      "date": "2026-07-14",
-      "value": 11
-     },
-     {
-      "date": "2026-07-15",
-      "value": 11
-     },
-     {
-      "date": "2026-07-16",
-      "value": 10
-     },
-     {
-      "date": "2026-07-17",
-      "value": 9
-     },
-     {
-      "date": "2026-07-18",
-      "value": 10
-     },
-     {
-      "date": "2026-07-19",
-      "value": 7
-     },
-     {
-      "date": "2026-07-20",
-      "value": 9
-     },
-     {
-      "date": "2026-07-21",
-      "value": 9
-     },
-     {
-      "date": "2026-07-22",
-      "value": 11
-     },
-     {
-      "date": "2026-07-23",
-      "value": 12
-     },
-     {
-      "date": "2026-07-24",
-      "value": 11
-     },
-     {
-      "date": "2026-07-25",
-      "value": 10
-     },
-     {
-      "date": "2026-07-26",
-      "value": 9
-     },
-     {
-      "date": "2026-07-27",
-      "value": 8
-     },
-     {
-      "date": "2026-07-28",
-      "value": 7
-     },
-     {
-      "date": "2026-07-29",
-      "value": 6
-     },
-     {
-      "date": "2026-07-30",
-      "value": 5
-     },
-     {
-      "date": "2026-07-31",
-      "value": 7
-     },
-     {
-      "date": "2026-08-01",
-      "value": 8
-     },
-     {
-      "date": "2026-08-02",
-      "value": 10
-     },
-     {
-      "date": "2026-08-03",
-      "value": 11
-     },
-     {
-      "date": "2026-08-04",
-      "value": 14
-     },
-     {
-      "date": "2026-08-05",
-      "value": 14
-     },
-     {
-      "date": "2026-08-06",
-      "value": 15
-     },
-     {
-      "date": "2026-08-07",
-      "value": 13
-     },
-     {
-      "date": "2026-08-08",
-      "value": 13
-     },
-     {
-      "date": "2026-08-09",
-      "value": 15
-     },
-     {
-      "date": "2026-08-10",
-      "value": 16
-     },
-     {
-      "date": "2026-08-11",
-      "value": 13
-     },
-     {
-      "date": "2026-08-12",
-      "value": 13
-     },
-     {
-      "date": "2026-08-13",
-      "value": 12
-     },
-     {
-      "date": "2026-08-14",
-      "value": 16
-     },
-     {
-      "date": "2026-08-15",
-      "value": 15
-     },
-     {
-      "date": "2026-08-16",
-      "value": 13
-     },
-     {
-      "date": "2026-08-17",
-      "value": 11
-     },
-     {
-      "date": "2026-08-18",
-      "value": 11
-     },
-     {
-      "date": "2026-08-19",
-      "value": 10
-     },
-     {
-      "date": "2026-08-20",
-      "value": 10
-     },
-     {
-      "date": "2026-08-21",
-      "value": 7
-     },
-     {
-      "date": "2026-08-22",
-      "value": 9
-     },
-     {
-      "date": "2026-08-23",
-      "value": 8
-     },
-     {
-      "date": "2026-08-24",
-      "value": 8
-     },
-     {
-      "date": "2026-08-25",
-      "value": 10
-     },
-     {
-      "date": "2026-08-26",
-      "value": 11
-     },
-     {
-      "date": "2026-08-27",
-      "value": 11
-     },
-     {
-      "date": "2026-08-28",
-      "value": 12
-     },
-     {
-      "date": "2026-08-29",
-      "value": 10
-     },
-     {
-      "date": "2026-08-30",
-      "value": 12
-     },
-     {
-      "date": "2026-08-31",
-      "value": 11
-     },
-     {
-      "date": "2026-09-01",
-      "value": 8
-     },
-     {
-      "date": "2026-09-02",
-      "value": 7
-     },
-     {
-      "date": "2026-09-03",
-      "value": 7
-     },
-     {
-      "date": "2026-09-04",
-      "value": 7
-     },
-     {
-      "date": "2026-09-05",
-      "value": 8
-     },
-     {
-      "date": "2026-09-06",
-      "value": 9
-     },
-     {
-      "date": "2026-09-07",
-      "value": 10
-     },
-     {
-      "date": "2026-09-08",
-      "value": 13
-     },
-     {
-      "date": "2026-09-09",
-      "value": 13
-     },
-     {
-      "date": "2026-09-10",
-      "value": 13
-     },
-     {
-      "date": "2026-09-11",
-      "value": 11
-     }
-    ]
+   {
+    "lat": 30.99588,
+    "lon": 49.94573,
+    "frp": 7.55,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "port1091": {
-    "name": "라스타누라항",
-    "last_date": "2026-09-11",
-    "last7": 7,
-    "baseline7": 9,
-    "ratio": 0.78,
-    "tier": "정상",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 5
-     },
-     {
-      "date": "2026-06-15",
-      "value": 4
-     },
-     {
-      "date": "2026-06-16",
-      "value": 5
-     },
-     {
-      "date": "2026-06-17",
-      "value": 6
-     },
-     {
-      "date": "2026-06-18",
-      "value": 6
-     },
-     {
-      "date": "2026-06-19",
-      "value": 5
-     },
-     {
-      "date": "2026-06-20",
-      "value": 6
-     },
-     {
-      "date": "2026-06-21",
-      "value": 7
-     },
-     {
-      "date": "2026-06-22",
-      "value": 6
-     },
-     {
-      "date": "2026-06-23",
-      "value": 6
-     },
-     {
-      "date": "2026-06-24",
-      "value": 5
-     },
-     {
-      "date": "2026-06-25",
-      "value": 5
-     },
-     {
-      "date": "2026-06-26",
-      "value": 5
-     },
-     {
-      "date": "2026-06-27",
-      "value": 5
-     },
-     {
-      "date": "2026-06-28",
-      "value": 4
-     },
-     {
-      "date": "2026-06-29",
-      "value": 7
-     },
-     {
-      "date": "2026-06-30",
-      "value": 6
-     },
-     {
-      "date": "2026-07-01",
-      "value": 5
-     },
-     {
-      "date": "2026-07-02",
-      "value": 6
-     },
-     {
-      "date": "2026-07-03",
-      "value": 6
-     },
-     {
-      "date": "2026-07-04",
-      "value": 6
-     },
-     {
-      "date": "2026-07-05",
-      "value": 7
-     },
-     {
-      "date": "2026-07-06",
-      "value": 5
-     },
-     {
-      "date": "2026-07-07",
-      "value": 7
-     },
-     {
-      "date": "2026-07-08",
-      "value": 7
-     },
-     {
-      "date": "2026-07-09",
-      "value": 6
-     },
-     {
-      "date": "2026-07-10",
-      "value": 7
-     },
-     {
-      "date": "2026-07-11",
-      "value": 6
-     },
-     {
-      "date": "2026-07-12",
-      "value": 6
-     },
-     {
-      "date": "2026-07-13",
-      "value": 6
-     },
-     {
-      "date": "2026-07-14",
-      "value": 6
-     },
-     {
-      "date": "2026-07-15",
-      "value": 7
-     },
-     {
-      "date": "2026-07-16",
-      "value": 6
-     },
-     {
-      "date": "2026-07-17",
-      "value": 7
-     },
-     {
-      "date": "2026-07-18",
-      "value": 8
-     },
-     {
-      "date": "2026-07-19",
-      "value": 8
-     },
-     {
-      "date": "2026-07-20",
-      "value": 7
-     },
-     {
-      "date": "2026-07-21",
-      "value": 5
-     },
-     {
-      "date": "2026-07-22",
-      "value": 4
-     },
-     {
-      "date": "2026-07-23",
-      "value": 6
-     },
-     {
-      "date": "2026-07-24",
-      "value": 5
-     },
-     {
-      "date": "2026-07-25",
-      "value": 4
-     },
-     {
-      "date": "2026-07-26",
-      "value": 4
-     },
-     {
-      "date": "2026-07-27",
-      "value": 6
-     },
-     {
-      "date": "2026-07-28",
-      "value": 6
-     },
-     {
-      "date": "2026-07-29",
-      "value": 7
-     },
-     {
-      "date": "2026-07-30",
-      "value": 6
-     },
-     {
-      "date": "2026-07-31",
-      "value": 7
-     },
-     {
-      "date": "2026-08-01",
-      "value": 8
-     },
-     {
-      "date": "2026-08-02",
-      "value": 7
-     },
-     {
-      "date": "2026-08-03",
-      "value": 6
-     },
-     {
-      "date": "2026-08-04",
-      "value": 6
-     },
-     {
-      "date": "2026-08-05",
-      "value": 6
-     },
-     {
-      "date": "2026-08-06",
-      "value": 7
-     },
-     {
-      "date": "2026-08-07",
-      "value": 5
-     },
-     {
-      "date": "2026-08-08",
-      "value": 5
-     },
-     {
-      "date": "2026-08-09",
-      "value": 5
-     },
-     {
-      "date": "2026-08-10",
-      "value": 7
-     },
-     {
-      "date": "2026-08-11",
-      "value": 7
-     },
-     {
-      "date": "2026-08-12",
-      "value": 9
-     },
-     {
-      "date": "2026-08-13",
-      "value": 7
-     },
-     {
-      "date": "2026-08-14",
-      "value": 9
-     },
-     {
-      "date": "2026-08-15",
-      "value": 9
-     },
-     {
-      "date": "2026-08-16",
-      "value": 10
-     },
-     {
-      "date": "2026-08-17",
-      "value": 7
-     },
-     {
-      "date": "2026-08-18",
-      "value": 7
-     },
-     {
-      "date": "2026-08-19",
-      "value": 5
-     },
-     {
-      "date": "2026-08-20",
-      "value": 6
-     },
-     {
-      "date": "2026-08-21",
-      "value": 4
-     },
-     {
-      "date": "2026-08-22",
-      "value": 4
-     },
-     {
-      "date": "2026-08-23",
-      "value": 4
-     },
-     {
-      "date": "2026-08-24",
-      "value": 4
-     },
-     {
-      "date": "2026-08-25",
-      "value": 6
-     },
-     {
-      "date": "2026-08-26",
-      "value": 6
-     },
-     {
-      "date": "2026-08-27",
-      "value": 5
-     },
-     {
-      "date": "2026-08-28",
-      "value": 5
-     },
-     {
-      "date": "2026-08-29",
-      "value": 7
-     },
-     {
-      "date": "2026-08-30",
-      "value": 6
-     },
-     {
-      "date": "2026-08-31",
-      "value": 7
-     },
-     {
-      "date": "2026-09-01",
-      "value": 6
-     },
-     {
-      "date": "2026-09-02",
-      "value": 5
-     },
-     {
-      "date": "2026-09-03",
-      "value": 6
-     },
-     {
-      "date": "2026-09-04",
-      "value": 6
-     },
-     {
-      "date": "2026-09-05",
-      "value": 3
-     },
-     {
-      "date": "2026-09-06",
-      "value": 5
-     },
-     {
-      "date": "2026-09-07",
-      "value": 4
-     },
-     {
-      "date": "2026-09-08",
-      "value": 5
-     },
-     {
-      "date": "2026-09-09",
-      "value": 5
-     },
-     {
-      "date": "2026-09-10",
-      "value": 7
-     },
-     {
-      "date": "2026-09-11",
-      "value": 7
-     }
-    ]
+   {
+    "lat": 30.98959,
+    "lon": 49.94368,
+    "frp": 7.55,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "port526": {
-    "name": "주아이마항",
-    "last_date": "2026-09-11",
-    "last7": 0,
-    "baseline7": 16,
-    "ratio": 0.0,
-    "tier": "끊김",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 0
-     },
-     {
-      "date": "2026-06-15",
-      "value": 0
-     },
-     {
-      "date": "2026-06-16",
-      "value": 0
-     },
-     {
-      "date": "2026-06-17",
-      "value": 0
-     },
-     {
-      "date": "2026-06-18",
-      "value": 0
-     },
-     {
-      "date": "2026-06-19",
-      "value": 0
-     },
-     {
-      "date": "2026-06-20",
-      "value": 0
-     },
-     {
-      "date": "2026-06-21",
-      "value": 0
-     },
-     {
-      "date": "2026-06-22",
-      "value": 0
-     },
-     {
-      "date": "2026-06-23",
-      "value": 0
-     },
-     {
-      "date": "2026-06-24",
-      "value": 0
-     },
-     {
-      "date": "2026-06-25",
-      "value": 2
-     },
-     {
-      "date": "2026-06-26",
-      "value": 3
-     },
-     {
-      "date": "2026-06-27",
-      "value": 3
-     },
-     {
-      "date": "2026-06-28",
-      "value": 4
-     },
-     {
-      "date": "2026-06-29",
-      "value": 4
-     },
-     {
-      "date": "2026-06-30",
-      "value": 5
-     },
-     {
-      "date": "2026-07-01",
-      "value": 5
-     },
-     {
-      "date": "2026-07-02",
-      "value": 3
-     },
-     {
-      "date": "2026-07-03",
-      "value": 2
-     },
-     {
-      "date": "2026-07-04",
-      "value": 2
-     },
-     {
-      "date": "2026-07-05",
-      "value": 1
-     },
-     {
-      "date": "2026-07-06",
-      "value": 3
-     },
-     {
-      "date": "2026-07-07",
-      "value": 2
-     },
-     {
-      "date": "2026-07-08",
-      "value": 4
-     },
-     {
-      "date": "2026-07-09",
-      "value": 4
-     },
-     {
-      "date": "2026-07-10",
-      "value": 4
-     },
-     {
-      "date": "2026-07-11",
-      "value": 5
-     },
-     {
-      "date": "2026-07-12",
-      "value": 6
-     },
-     {
-      "date": "2026-07-13",
-      "value": 4
-     },
-     {
-      "date": "2026-07-14",
-      "value": 4
-     },
-     {
-      "date": "2026-07-15",
-      "value": 2
-     },
-     {
-      "date": "2026-07-16",
-      "value": 2
-     },
-     {
-      "date": "2026-07-17",
-      "value": 2
-     },
-     {
-      "date": "2026-07-18",
-      "value": 1
-     },
-     {
-      "date": "2026-07-19",
-      "value": 0
-     },
-     {
-      "date": "2026-07-20",
-      "value": 0
-     },
-     {
-      "date": "2026-07-21",
-      "value": 0
-     },
-     {
-      "date": "2026-07-22",
-      "value": 0
-     },
-     {
-      "date": "2026-07-23",
-      "value": 0
-     },
-     {
-      "date": "2026-07-24",
-      "value": 0
-     },
-     {
-      "date": "2026-07-25",
-      "value": 0
-     },
-     {
-      "date": "2026-07-26",
-      "value": 0
-     },
-     {
-      "date": "2026-07-27",
-      "value": 0
-     },
-     {
-      "date": "2026-07-28",
-      "value": 0
-     },
-     {
-      "date": "2026-07-29",
-      "value": 0
-     },
-     {
-      "date": "2026-07-30",
-      "value": 0
-     },
-     {
-      "date": "2026-07-31",
-      "value": 0
-     },
-     {
-      "date": "2026-08-01",
-      "value": 0
-     },
-     {
-      "date": "2026-08-02",
-      "value": 0
-     },
-     {
-      "date": "2026-08-03",
-      "value": 0
-     },
-     {
-      "date": "2026-08-04",
-      "value": 0
-     },
-     {
-      "date": "2026-08-05",
-      "value": 0
-     },
-     {
-      "date": "2026-08-06",
-      "value": 0
-     },
-     {
-      "date": "2026-08-07",
-      "value": 0
-     },
-     {
-      "date": "2026-08-08",
-      "value": 0
-     },
-     {
-      "date": "2026-08-09",
-      "value": 0
-     },
-     {
-      "date": "2026-08-10",
-      "value": 0
-     },
-     {
-      "date": "2026-08-11",
-      "value": 0
-     },
-     {
-      "date": "2026-08-12",
-      "value": 0
-     },
-     {
-      "date": "2026-08-13",
-      "value": 0
-     },
-     {
-      "date": "2026-08-14",
-      "value": 0
-     },
-     {
-      "date": "2026-08-15",
-      "value": 1
-     },
-     {
-      "date": "2026-08-16",
-      "value": 1
-     },
-     {
-      "date": "2026-08-17",
-      "value": 2
-     },
-     {
-      "date": "2026-08-18",
-      "value": 2
-     },
-     {
-      "date": "2026-08-19",
-      "value": 2
-     },
-     {
-      "date": "2026-08-20",
-      "value": 2
-     },
-     {
-      "date": "2026-08-21",
-      "value": 2
-     },
-     {
-      "date": "2026-08-22",
-      "value": 1
-     },
-     {
-      "date": "2026-08-23",
-      "value": 1
-     },
-     {
-      "date": "2026-08-24",
-      "value": 0
-     },
-     {
-      "date": "2026-08-25",
-      "value": 0
-     },
-     {
-      "date": "2026-08-26",
-      "value": 0
-     },
-     {
-      "date": "2026-08-27",
-      "value": 0
-     },
-     {
-      "date": "2026-08-28",
-      "value": 1
-     },
-     {
-      "date": "2026-08-29",
-      "value": 1
-     },
-     {
-      "date": "2026-08-30",
-      "value": 1
-     },
-     {
-      "date": "2026-08-31",
-      "value": 1
-     },
-     {
-      "date": "2026-09-01",
-      "value": 1
-     },
-     {
-      "date": "2026-09-02",
-      "value": 2
-     },
-     {
-      "date": "2026-09-03",
-      "value": 2
-     },
-     {
-      "date": "2026-09-04",
-      "value": 1
-     },
-     {
-      "date": "2026-09-05",
-      "value": 1
-     },
-     {
-      "date": "2026-09-06",
-      "value": 1
-     },
-     {
-      "date": "2026-09-07",
-      "value": 1
-     },
-     {
-      "date": "2026-09-08",
-      "value": 1
-     },
-     {
-      "date": "2026-09-09",
-      "value": 0
-     },
-     {
-      "date": "2026-09-10",
-      "value": 0
-     },
-     {
-      "date": "2026-09-11",
-      "value": 0
-     }
-    ]
+   {
+    "lat": 30.99462,
+    "lon": 49.94535,
+    "frp": 5.79,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "high"
    },
-   "port24": {
-    "name": "주베일항",
-    "last_date": "2026-09-11",
-    "last7": 14,
-    "baseline7": 30,
-    "ratio": 0.47,
-    "tier": "감소",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 11
-     },
-     {
-      "date": "2026-06-15",
-      "value": 10
-     },
-     {
-      "date": "2026-06-16",
-      "value": 7
-     },
-     {
-      "date": "2026-06-17",
-      "value": 6
-     },
-     {
-      "date": "2026-06-18",
-      "value": 4
-     },
-     {
-      "date": "2026-06-19",
-      "value": 6
-     },
-     {
-      "date": "2026-06-20",
-      "value": 8
-     },
-     {
-      "date": "2026-06-21",
-      "value": 7
-     },
-     {
-      "date": "2026-06-22",
-      "value": 10
-     },
-     {
-      "date": "2026-06-23",
-      "value": 11
-     },
-     {
-      "date": "2026-06-24",
-      "value": 12
-     },
-     {
-      "date": "2026-06-25",
-      "value": 12
-     },
-     {
-      "date": "2026-06-26",
-      "value": 11
-     },
-     {
-      "date": "2026-06-27",
-      "value": 11
-     },
-     {
-      "date": "2026-06-28",
-      "value": 14
-     },
-     {
-      "date": "2026-06-29",
-      "value": 13
-     },
-     {
-      "date": "2026-06-30",
-      "value": 13
-     },
-     {
-      "date": "2026-07-01",
-      "value": 14
-     },
-     {
-      "date": "2026-07-02",
-      "value": 15
-     },
-     {
-      "date": "2026-07-03",
-      "value": 16
-     },
-     {
-      "date": "2026-07-04",
-      "value": 15
-     },
-     {
-      "date": "2026-07-05",
-      "value": 13
-     },
-     {
-      "date": "2026-07-06",
-      "value": 13
-     },
-     {
-      "date": "2026-07-07",
-      "value": 14
-     },
-     {
-      "date": "2026-07-08",
-      "value": 13
-     },
-     {
-      "date": "2026-07-09",
-      "value": 13
-     },
-     {
-      "date": "2026-07-10",
-      "value": 13
-     },
-     {
-      "date": "2026-07-11",
-      "value": 13
-     },
-     {
-      "date": "2026-07-12",
-      "value": 13
-     },
-     {
-      "date": "2026-07-13",
-      "value": 14
-     },
-     {
-      "date": "2026-07-14",
-      "value": 16
-     },
-     {
-      "date": "2026-07-15",
-      "value": 15
-     },
-     {
-      "date": "2026-07-16",
-      "value": 16
-     },
-     {
-      "date": "2026-07-17",
-      "value": 17
-     },
-     {
-      "date": "2026-07-18",
-      "value": 18
-     },
-     {
-      "date": "2026-07-19",
-      "value": 18
-     },
-     {
-      "date": "2026-07-20",
-      "value": 17
-     },
-     {
-      "date": "2026-07-21",
-      "value": 14
-     },
-     {
-      "date": "2026-07-22",
-      "value": 18
-     },
-     {
-      "date": "2026-07-23",
-      "value": 16
-     },
-     {
-      "date": "2026-07-24",
-      "value": 14
-     },
-     {
-      "date": "2026-07-25",
-      "value": 14
-     },
-     {
-      "date": "2026-07-26",
-      "value": 13
-     },
-     {
-      "date": "2026-07-27",
-      "value": 13
-     },
-     {
-      "date": "2026-07-28",
-      "value": 14
-     },
-     {
-      "date": "2026-07-29",
-      "value": 10
-     },
-     {
-      "date": "2026-07-30",
-      "value": 12
-     },
-     {
-      "date": "2026-07-31",
-      "value": 12
-     },
-     {
-      "date": "2026-08-01",
-      "value": 10
-     },
-     {
-      "date": "2026-08-02",
-      "value": 10
-     },
-     {
-      "date": "2026-08-03",
-      "value": 9
-     },
-     {
-      "date": "2026-08-04",
-      "value": 11
-     },
-     {
-      "date": "2026-08-05",
-      "value": 11
-     },
-     {
-      "date": "2026-08-06",
-      "value": 8
-     },
-     {
-      "date": "2026-08-07",
-      "value": 8
-     },
-     {
-      "date": "2026-08-08",
-      "value": 10
-     },
-     {
-      "date": "2026-08-09",
-      "value": 12
-     },
-     {
-      "date": "2026-08-10",
-      "value": 12
-     },
-     {
-      "date": "2026-08-11",
-      "value": 10
-     },
-     {
-      "date": "2026-08-12",
-      "value": 10
-     },
-     {
-      "date": "2026-08-13",
-      "value": 12
-     },
-     {
-      "date": "2026-08-14",
-      "value": 12
-     },
-     {
-      "date": "2026-08-15",
-      "value": 10
-     },
-     {
-      "date": "2026-08-16",
-      "value": 9
-     },
-     {
-      "date": "2026-08-17",
-      "value": 9
-     },
-     {
-      "date": "2026-08-18",
-      "value": 8
-     },
-     {
-      "date": "2026-08-19",
-      "value": 8
-     },
-     {
-      "date": "2026-08-20",
-      "value": 8
-     },
-     {
-      "date": "2026-08-21",
-      "value": 9
-     },
-     {
-      "date": "2026-08-22",
-      "value": 10
-     },
-     {
-      "date": "2026-08-23",
-      "value": 15
-     },
-     {
-      "date": "2026-08-24",
-      "value": 17
-     },
-     {
-      "date": "2026-08-25",
-      "value": 17
-     },
-     {
-      "date": "2026-08-26",
-      "value": 18
-     },
-     {
-      "date": "2026-08-27",
-      "value": 17
-     },
-     {
-      "date": "2026-08-28",
-      "value": 16
-     },
-     {
-      "date": "2026-08-29",
-      "value": 18
-     },
-     {
-      "date": "2026-08-30",
-      "value": 12
-     },
-     {
-      "date": "2026-08-31",
-      "value": 9
-     },
-     {
-      "date": "2026-09-01",
-      "value": 9
-     },
-     {
-      "date": "2026-09-02",
-      "value": 8
-     },
-     {
-      "date": "2026-09-03",
-      "value": 11
-     },
-     {
-      "date": "2026-09-04",
-      "value": 11
-     },
-     {
-      "date": "2026-09-05",
-      "value": 9
-     },
-     {
-      "date": "2026-09-06",
-      "value": 10
-     },
-     {
-      "date": "2026-09-07",
-      "value": 11
-     },
-     {
-      "date": "2026-09-08",
-      "value": 13
-     },
-     {
-      "date": "2026-09-09",
-      "value": 14
-     },
-     {
-      "date": "2026-09-10",
-      "value": 12
-     },
-     {
-      "date": "2026-09-11",
-      "value": 14
-     }
-    ]
+   {
+    "lat": 30.98834,
+    "lon": 49.94326,
+    "frp": 5.79,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "port2074": {
-    "name": "지잔항",
-    "last_date": "2026-09-11",
-    "last7": 0,
-    "baseline7": 1,
-    "ratio": 0.0,
-    "tier": "끊김",
-    "spark": [
-     {
-      "date": "2026-06-14",
-      "value": 1
-     },
-     {
-      "date": "2026-06-15",
-      "value": 1
-     },
-     {
-      "date": "2026-06-16",
-      "value": 0
-     },
-     {
-      "date": "2026-06-17",
-      "value": 1
-     },
-     {
-      "date": "2026-06-18",
-      "value": 1
-     },
-     {
-      "date": "2026-06-19",
-      "value": 1
-     },
-     {
-      "date": "2026-06-20",
-      "value": 1
-     },
-     {
-      "date": "2026-06-21",
-      "value": 1
-     },
-     {
-      "date": "2026-06-22",
-      "value": 1
-     },
-     {
-      "date": "2026-06-23",
-      "value": 2
-     },
-     {
-      "date": "2026-06-24",
-      "value": 1
-     },
-     {
-      "date": "2026-06-25",
-      "value": 2
-     },
-     {
-      "date": "2026-06-26",
-      "value": 2
-     },
-     {
-      "date": "2026-06-27",
-      "value": 2
-     },
-     {
-      "date": "2026-06-28",
-      "value": 2
-     },
-     {
-      "date": "2026-06-29",
-      "value": 4
-     },
-     {
-      "date": "2026-06-30",
-      "value": 3
-     },
-     {
-      "date": "2026-07-01",
-      "value": 4
-     },
-     {
-      "date": "2026-07-02",
-      "value": 4
-     },
-     {
-      "date": "2026-07-03",
-      "value": 4
-     },
-     {
-      "date": "2026-07-04",
-      "value": 4
-     },
-     {
-      "date": "2026-07-05",
-      "value": 5
-     },
-     {
-      "date": "2026-07-06",
-      "value": 4
-     },
-     {
-      "date": "2026-07-07",
-      "value": 4
-     },
-     {
-      "date": "2026-07-08",
-      "value": 3
-     },
-     {
-      "date": "2026-07-09",
-      "value": 2
-     },
-     {
-      "date": "2026-07-10",
-      "value": 2
-     },
-     {
-      "date": "2026-07-11",
-      "value": 2
-     },
-     {
-      "date": "2026-07-12",
-      "value": 1
-     },
-     {
-      "date": "2026-07-13",
-      "value": 0
-     },
-     {
-      "date": "2026-07-14",
-      "value": 1
-     },
-     {
-      "date": "2026-07-15",
-      "value": 2
-     },
-     {
-      "date": "2026-07-16",
-      "value": 2
-     },
-     {
-      "date": "2026-07-17",
-      "value": 2
-     },
-     {
-      "date": "2026-07-18",
-      "value": 3
-     },
-     {
-      "date": "2026-07-19",
-      "value": 3
-     },
-     {
-      "date": "2026-07-20",
-      "value": 3
-     },
-     {
-      "date": "2026-07-21",
-      "value": 3
-     },
-     {
-      "date": "2026-07-22",
-      "value": 2
-     },
-     {
-      "date": "2026-07-23",
-      "value": 2
-     },
-     {
-      "date": "2026-07-24",
-      "value": 2
-     },
-     {
-      "date": "2026-07-25",
-      "value": 1
-     },
-     {
-      "date": "2026-07-26",
-      "value": 2
-     },
-     {
-      "date": "2026-07-27",
-      "value": 2
-     },
-     {
-      "date": "2026-07-28",
-      "value": 1
-     },
-     {
-      "date": "2026-07-29",
-      "value": 1
-     },
-     {
-      "date": "2026-07-30",
-      "value": 1
-     },
-     {
-      "date": "2026-07-31",
-      "value": 1
-     },
-     {
-      "date": "2026-08-01",
-      "value": 1
-     },
-     {
-      "date": "2026-08-02",
-      "value": 0
-     },
-     {
-      "date": "2026-08-03",
-      "value": 0
-     },
-     {
-      "date": "2026-08-04",
-      "value": 0
-     },
-     {
-      "date": "2026-08-05",
-      "value": 0
-     },
-     {
-      "date": "2026-08-06",
-      "value": 0
-     },
-     {
-      "date": "2026-08-07",
-      "value": 0
-     },
-     {
-      "date": "2026-08-08",
-      "value": 0
-     },
-     {
-      "date": "2026-08-09",
-      "value": 0
-     },
-     {
-      "date": "2026-08-10",
-      "value": 0
-     },
-     {
-      "date": "2026-08-11",
-      "value": 0
-     },
-     {
-      "date": "2026-08-12",
-      "value": 0
-     },
-     {
-      "date": "2026-08-13",
-      "value": 0
-     },
-     {
-      "date": "2026-08-14",
-      "value": 0
-     },
-     {
-      "date": "2026-08-15",
-      "value": 0
-     },
-     {
-      "date": "2026-08-16",
-      "value": 0
-     },
-     {
-      "date": "2026-08-17",
-      "value": 0
-     },
-     {
-      "date": "2026-08-18",
-      "value": 0
-     },
-     {
-      "date": "2026-08-19",
-      "value": 0
-     },
-     {
-      "date": "2026-08-20",
-      "value": 0
-     },
-     {
-      "date": "2026-08-21",
-      "value": 0
-     },
-     {
-      "date": "2026-08-22",
-      "value": 0
-     },
-     {
-      "date": "2026-08-23",
-      "value": 0
-     },
-     {
-      "date": "2026-08-24",
-      "value": 0
-     },
-     {
-      "date": "2026-08-25",
-      "value": 0
-     },
-     {
-      "date": "2026-08-26",
-      "value": 0
-     },
-     {
-      "date": "2026-08-27",
-      "value": 0
-     },
-     {
-      "date": "2026-08-28",
-      "value": 0
-     },
-     {
-      "date": "2026-08-29",
-      "value": 0
-     },
-     {
-      "date": "2026-08-30",
-      "value": 0
-     },
-     {
-      "date": "2026-08-31",
-      "value": 0
-     },
-     {
-      "date": "2026-09-01",
-      "value": 0
-     },
-     {
-      "date": "2026-09-02",
-      "value": 0
-     },
-     {
-      "date": "2026-09-03",
-      "value": 0
-     },
-     {
-      "date": "2026-09-04",
-      "value": 0
-     },
-     {
-      "date": "2026-09-05",
-      "value": 0
-     },
-     {
-      "date": "2026-09-06",
-      "value": 0
-     },
-     {
-      "date": "2026-09-07",
-      "value": 0
-     },
-     {
-      "date": "2026-09-08",
-      "value": 0
-     },
-     {
-      "date": "2026-09-09",
-      "value": 0
-     },
-     {
-      "date": "2026-09-10",
-      "value": 0
-     },
-     {
-      "date": "2026-09-11",
-      "value": 0
-     }
-    ]
+   {
+    "lat": 31.27061,
+    "lon": 48.73528,
+    "frp": 4.33,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "chokepoint4": {
-    "name": "밥엘만데브 해협",
-    "last_date": "2026-09-13",
-    "last7": 191,
-    "baseline7": 248,
-    "ratio": 0.77,
-    "tier": "정상",
-    "spark": [
-     {
-      "date": "2026-06-16",
-      "value": 245
-     },
-     {
-      "date": "2026-06-17",
-      "value": 255
-     },
-     {
-      "date": "2026-06-18",
-      "value": 255
-     },
-     {
-      "date": "2026-06-19",
-      "value": 255
-     },
-     {
-      "date": "2026-06-20",
-      "value": 256
-     },
-     {
-      "date": "2026-06-21",
-      "value": 260
-     },
-     {
-      "date": "2026-06-22",
-      "value": 255
-     },
-     {
-      "date": "2026-06-23",
-      "value": 260
-     },
-     {
-      "date": "2026-06-24",
-      "value": 255
-     },
-     {
-      "date": "2026-06-25",
-      "value": 260
-     },
-     {
-      "date": "2026-06-26",
-      "value": 255
-     },
-     {
-      "date": "2026-06-27",
-      "value": 248
-     },
-     {
-      "date": "2026-06-28",
-      "value": 248
-     },
-     {
-      "date": "2026-06-29",
-      "value": 254
-     },
-     {
-      "date": "2026-06-30",
-      "value": 262
-     },
-     {
-      "date": "2026-07-01",
-      "value": 257
-     },
-     {
-      "date": "2026-07-02",
-      "value": 250
-     },
-     {
-      "date": "2026-07-03",
-      "value": 245
-     },
-     {
-      "date": "2026-07-04",
-      "value": 244
-     },
-     {
-      "date": "2026-07-05",
-      "value": 241
-     },
-     {
-      "date": "2026-07-06",
-      "value": 234
-     },
-     {
-      "date": "2026-07-07",
-      "value": 223
-     },
-     {
-      "date": "2026-07-08",
-      "value": 223
-     },
-     {
-      "date": "2026-07-09",
-      "value": 213
-     },
-     {
-      "date": "2026-07-10",
-      "value": 209
-     },
-     {
-      "date": "2026-07-11",
-      "value": 222
-     },
-     {
-      "date": "2026-07-12",
-      "value": 229
-     },
-     {
-      "date": "2026-07-13",
-      "value": 246
-     },
-     {
-      "date": "2026-07-14",
-      "value": 265
-     },
-     {
-      "date": "2026-07-15",
-      "value": 273
-     },
-     {
-      "date": "2026-07-16",
-      "value": 277
-     },
-     {
-      "date": "2026-07-17",
-      "value": 296
-     },
-     {
-      "date": "2026-07-18",
-      "value": 292
-     },
-     {
-      "date": "2026-07-19",
-      "value": 284
-     },
-     {
-      "date": "2026-07-20",
-      "value": 273
-     },
-     {
-      "date": "2026-07-21",
-      "value": 253
-     },
-     {
-      "date": "2026-07-22",
-      "value": 244
-     },
-     {
-      "date": "2026-07-23",
-      "value": 245
-     },
-     {
-      "date": "2026-07-24",
-      "value": 229
-     },
-     {
-      "date": "2026-07-25",
-      "value": 211
-     },
-     {
-      "date": "2026-07-26",
-      "value": 198
-     },
-     {
-      "date": "2026-07-27",
-      "value": 195
-     },
-     {
-      "date": "2026-07-28",
-      "value": 202
-     },
-     {
-      "date": "2026-07-29",
-      "value": 205
-     },
-     {
-      "date": "2026-07-30",
-      "value": 209
-     },
-     {
-      "date": "2026-07-31",
-      "value": 207
-     },
-     {
-      "date": "2026-08-01",
-      "value": 205
-     },
-     {
-      "date": "2026-08-02",
-      "value": 215
-     },
-     {
-      "date": "2026-08-03",
-      "value": 200
-     },
-     {
-      "date": "2026-08-04",
-      "value": 194
-     },
-     {
-      "date": "2026-08-05",
-      "value": 174
-     },
-     {
-      "date": "2026-08-06",
-      "value": 167
-     },
-     {
-      "date": "2026-08-07",
-      "value": 169
-     },
-     {
-      "date": "2026-08-08",
-      "value": 174
-     },
-     {
-      "date": "2026-08-09",
-      "value": 178
-     },
-     {
-      "date": "2026-08-10",
-      "value": 190
-     },
-     {
-      "date": "2026-08-11",
-      "value": 188
-     },
-     {
-      "date": "2026-08-12",
-      "value": 199
-     },
-     {
-      "date": "2026-08-13",
-      "value": 188
-     },
-     {
-      "date": "2026-08-14",
-      "value": 189
-     },
-     {
-      "date": "2026-08-15",
-      "value": 204
-     },
-     {
-      "date": "2026-08-16",
-      "value": 206
-     },
-     {
-      "date": "2026-08-17",
-      "value": 206
-     },
-     {
-      "date": "2026-08-18",
-      "value": 213
-     },
-     {
-      "date": "2026-08-19",
-      "value": 221
-     },
-     {
-      "date": "2026-08-20",
-      "value": 230
-     },
-     {
-      "date": "2026-08-21",
-      "value": 220
-     },
-     {
-      "date": "2026-08-22",
-      "value": 213
-     },
-     {
-      "date": "2026-08-23",
-      "value": 206
-     },
-     {
-      "date": "2026-08-24",
-      "value": 213
-     },
-     {
-      "date": "2026-08-25",
-      "value": 206
-     },
-     {
-      "date": "2026-08-26",
-      "value": 199
-     },
-     {
-      "date": "2026-08-27",
-      "value": 191
-     },
-     {
-      "date": "2026-08-28",
-      "value": 197
-     },
-     {
-      "date": "2026-08-29",
-      "value": 184
-     },
-     {
-      "date": "2026-08-30",
-      "value": 184
-     },
-     {
-      "date": "2026-08-31",
-      "value": 172
-     },
-     {
-      "date": "2026-09-01",
-      "value": 166
-     },
-     {
-      "date": "2026-09-02",
-      "value": 178
-     },
-     {
-      "date": "2026-09-03",
-      "value": 181
-     },
-     {
-      "date": "2026-09-04",
-      "value": 186
-     },
-     {
-      "date": "2026-09-05",
-      "value": 184
-     },
-     {
-      "date": "2026-09-06",
-      "value": 178
-     },
-     {
-      "date": "2026-09-07",
-      "value": 188
-     },
-     {
-      "date": "2026-09-08",
-      "value": 191
-     },
-     {
-      "date": "2026-09-09",
-      "value": 188
-     },
-     {
-      "date": "2026-09-10",
-      "value": 191
-     },
-     {
-      "date": "2026-09-11",
-      "value": 181
-     },
-     {
-      "date": "2026-09-12",
-      "value": 183
-     },
-     {
-      "date": "2026-09-13",
-      "value": 191
-     }
-    ]
+   {
+    "lat": 30.93763,
+    "lon": 49.85462,
+    "frp": 7.73,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
    },
-   "chokepoint6": {
-    "name": "호르무즈 해협",
-    "last_date": "2026-09-13",
-    "last7": 37,
-    "baseline7": 338,
-    "ratio": 0.11,
-    "tier": "끊김",
-    "spark": [
-     {
-      "date": "2026-06-16",
-      "value": 23
-     },
-     {
-      "date": "2026-06-17",
-      "value": 28
-     },
-     {
-      "date": "2026-06-18",
-      "value": 46
-     },
-     {
-      "date": "2026-06-19",
-      "value": 54
-     },
-     {
-      "date": "2026-06-20",
-      "value": 79
-     },
-     {
-      "date": "2026-06-21",
-      "value": 85
-     },
-     {
-      "date": "2026-06-22",
-      "value": 94
-     },
-     {
-      "date": "2026-06-23",
-      "value": 113
-     },
-     {
-      "date": "2026-06-24",
-      "value": 156
-     },
-     {
-      "date": "2026-06-25",
-      "value": 182
-     },
-     {
-      "date": "2026-06-26",
-      "value": 203
-     },
-     {
-      "date": "2026-06-27",
-      "value": 203
-     },
-     {
-      "date": "2026-06-28",
-      "value": 213
-     },
-     {
-      "date": "2026-06-29",
-      "value": 223
-     },
-     {
-      "date": "2026-06-30",
-      "value": 210
-     },
-     {
-      "date": "2026-07-01",
-      "value": 188
-     },
-     {
-      "date": "2026-07-02",
-      "value": 170
-     },
-     {
-      "date": "2026-07-03",
-      "value": 164
-     },
-     {
-      "date": "2026-07-04",
-      "value": 156
-     },
-     {
-      "date": "2026-07-05",
-      "value": 162
-     },
-     {
-      "date": "2026-07-06",
-      "value": 161
-     },
-     {
-      "date": "2026-07-07",
-      "value": 171
-     },
-     {
-      "date": "2026-07-08",
-      "value": 162
-     },
-     {
-      "date": "2026-07-09",
-      "value": 144
-     },
-     {
-      "date": "2026-07-10",
-      "value": 127
-     },
-     {
-      "date": "2026-07-11",
-      "value": 116
-     },
-     {
-      "date": "2026-07-12",
-      "value": 98
-     },
-     {
-      "date": "2026-07-13",
-      "value": 83
-     },
-     {
-      "date": "2026-07-14",
-      "value": 65
-     },
-     {
-      "date": "2026-07-15",
-      "value": 54
-     },
-     {
-      "date": "2026-07-16",
-      "value": 50
-     },
-     {
-      "date": "2026-07-17",
-      "value": 44
-     },
-     {
-      "date": "2026-07-18",
-      "value": 44
-     },
-     {
-      "date": "2026-07-19",
-      "value": 44
-     },
-     {
-      "date": "2026-07-20",
-      "value": 39
-     },
-     {
-      "date": "2026-07-21",
-      "value": 37
-     },
-     {
-      "date": "2026-07-22",
-      "value": 34
-     },
-     {
-      "date": "2026-07-23",
-      "value": 28
-     },
-     {
-      "date": "2026-07-24",
-      "value": 30
-     },
-     {
-      "date": "2026-07-25",
-      "value": 26
-     },
-     {
-      "date": "2026-07-26",
-      "value": 25
-     },
-     {
-      "date": "2026-07-27",
-      "value": 25
-     },
-     {
-      "date": "2026-07-28",
-      "value": 24
-     },
-     {
-      "date": "2026-07-29",
-      "value": 25
-     },
-     {
-      "date": "2026-07-30",
-      "value": 29
-     },
-     {
-      "date": "2026-07-31",
-      "value": 34
-     },
-     {
-      "date": "2026-08-01",
-      "value": 37
-     },
-     {
-      "date": "2026-08-02",
-      "value": 37
-     },
-     {
-      "date": "2026-08-03",
-      "value": 38
-     },
-     {
-      "date": "2026-08-04",
-      "value": 40
-     },
-     {
-      "date": "2026-08-05",
-      "value": 38
-     },
-     {
-      "date": "2026-08-06",
-      "value": 36
-     },
-     {
-      "date": "2026-08-07",
-      "value": 34
-     },
-     {
-      "date": "2026-08-08",
-      "value": 39
-     },
-     {
-      "date": "2026-08-09",
-      "value": 39
-     },
-     {
-      "date": "2026-08-10",
-      "value": 37
-     },
-     {
-      "date": "2026-08-11",
-      "value": 39
-     },
-     {
-      "date": "2026-08-12",
-      "value": 37
-     },
-     {
-      "date": "2026-08-13",
-      "value": 41
-     },
-     {
-      "date": "2026-08-14",
-      "value": 42
-     },
-     {
-      "date": "2026-08-15",
-      "value": 33
-     },
-     {
-      "date": "2026-08-16",
-      "value": 31
-     },
-     {
-      "date": "2026-08-17",
-      "value": 31
-     },
-     {
-      "date": "2026-08-18",
-      "value": 28
-     },
-     {
-      "date": "2026-08-19",
-      "value": 31
-     },
-     {
-      "date": "2026-08-20",
-      "value": 30
-     },
-     {
-      "date": "2026-08-21",
-      "value": 27
-     },
-     {
-      "date": "2026-08-22",
-      "value": 33
-     },
-     {
-      "date": "2026-08-23",
-      "value": 35
-     },
-     {
-      "date": "2026-08-24",
-      "value": 34
-     },
-     {
-      "date": "2026-08-25",
-      "value": 32
-     },
-     {
-      "date": "2026-08-26",
-      "value": 31
-     },
-     {
-      "date": "2026-08-27",
-      "value": 28
-     },
-     {
-      "date": "2026-08-28",
-      "value": 31
-     },
-     {
-      "date": "2026-08-29",
-      "value": 27
-     },
-     {
-      "date": "2026-08-30",
-      "value": 30
-     },
-     {
-      "date": "2026-08-31",
-      "value": 30
-     },
-     {
-      "date": "2026-09-01",
-      "value": 30
-     },
-     {
-      "date": "2026-09-02",
-      "value": 28
-     },
-     {
-      "date": "2026-09-03",
-      "value": 28
-     },
-     {
-      "date": "2026-09-04",
-      "value": 23
-     },
-     {
-      "date": "2026-09-05",
-      "value": 22
-     },
-     {
-      "date": "2026-09-06",
-      "value": 22
-     },
-     {
-      "date": "2026-09-07",
-      "value": 24
-     },
-     {
-      "date": "2026-09-08",
-      "value": 26
-     },
-     {
-      "date": "2026-09-09",
-      "value": 26
-     },
-     {
-      "date": "2026-09-10",
-      "value": 29
-     },
-     {
-      "date": "2026-09-11",
-      "value": 35
-     },
-     {
-      "date": "2026-09-12",
-      "value": 35
-     },
-     {
-      "date": "2026-09-13",
-      "value": 37
-     }
-    ]
+   {
+    "lat": 30.9392,
+    "lon": 49.849,
+    "frp": 7.2,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.03847,
+    "lon": 49.39552,
+    "frp": 1.56,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.93763,
+    "lon": 49.8517,
+    "frp": 12.72,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "high"
+   },
+   {
+    "lat": 30.93604,
+    "lon": 49.85751,
+    "frp": 6.46,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.09536,
+    "lon": 47.7907,
+    "frp": 1.88,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.34321,
+    "lon": 50.29073,
+    "frp": 2.78,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.18026,
+    "lon": 50.41093,
+    "frp": 3.21,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.94225,
+    "lon": 51.19339,
+    "frp": 4.49,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.9406,
+    "lon": 51.19907,
+    "frp": 4.31,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.93616,
+    "lon": 51.18856,
+    "frp": 6.94,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.9345,
+    "lon": 51.1943,
+    "frp": 6.94,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.93299,
+    "lon": 51.19951,
+    "frp": 7.99,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.92837,
+    "lon": 51.18964,
+    "frp": 6.94,
+    "date": "2026-09-12",
+    "time": "2333",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.68345,
+    "lon": 50.11704,
+    "frp": 7.8,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.26759,
+    "lon": 43.198,
+    "frp": 0.9,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.2447,
+    "lon": 48.10772,
+    "frp": 7.95,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.53104,
+    "lon": 35.53701,
+    "frp": 1.91,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.49966,
+    "lon": 49.14744,
+    "frp": 1.79,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.47639,
+    "lon": 49.09506,
+    "frp": 5.43,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.47279,
+    "lon": 49.09366,
+    "frp": 2.21,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.45926,
+    "lon": 49.09471,
+    "frp": 1.4,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.35626,
+    "lon": 47.65958,
+    "frp": 0.31,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.27207,
+    "lon": 47.74647,
+    "frp": 1.48,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.2854,
+    "lon": 47.36235,
+    "frp": 1.45,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.87848,
+    "lon": 47.72882,
+    "frp": 2.08,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.70612,
+    "lon": 47.61411,
+    "frp": 4.06,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.7049,
+    "lon": 47.61885,
+    "frp": 4.06,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.89364,
+    "lon": 47.94859,
+    "frp": 1.82,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.8931,
+    "lon": 47.92626,
+    "frp": 1.75,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.89865,
+    "lon": 47.94943,
+    "frp": 1.09,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.89273,
+    "lon": 47.94744,
+    "frp": 0.76,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.89076,
+    "lon": 47.93012,
+    "frp": 1.68,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.33266,
+    "lon": 36.12884,
+    "frp": 1.37,
+    "date": "2026-09-12",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.60199,
+    "lon": 46.57649,
+    "frp": 2.39,
+    "date": "2026-09-12",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.60575,
+    "lon": 39.64143,
+    "frp": 4.08,
+    "date": "2026-09-12",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.64057,
+    "lon": 40.73419,
+    "frp": 0.8,
+    "date": "2026-09-12",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.71617,
+    "lon": 39.8269,
+    "frp": 2.15,
+    "date": "2026-09-12",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.97085,
+    "lon": 53.81515,
+    "frp": 1.52,
+    "date": "2026-09-13",
+    "time": "0907",
+    "confidence": "low"
+   },
+   {
+    "lat": 22.60951,
+    "lon": 54.05944,
+    "frp": 1.17,
+    "date": "2026-09-13",
+    "time": "0909",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.18614,
+    "lon": 55.70264,
+    "frp": 1.44,
+    "date": "2026-09-13",
+    "time": "0909",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.25259,
+    "lon": 55.58633,
+    "frp": 2.7,
+    "date": "2026-09-13",
+    "time": "0909",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.24854,
+    "lon": 55.56628,
+    "frp": 1.06,
+    "date": "2026-09-13",
+    "time": "0909",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.26814,
+    "lon": 55.59311,
+    "frp": 1.8,
+    "date": "2026-09-13",
+    "time": "0909",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.26056,
+    "lon": 55.53179,
+    "frp": 1.09,
+    "date": "2026-09-13",
+    "time": "0909",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.21149,
+    "lon": 54.14196,
+    "frp": 20.92,
+    "date": "2026-09-13",
+    "time": "0909",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97621,
+    "lon": 49.06528,
+    "frp": 1.4,
+    "date": "2026-09-13",
+    "time": "0909",
+    "confidence": "low"
+   },
+   {
+    "lat": 28.43236,
+    "lon": 54.25914,
+    "frp": 11.35,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "low"
+   },
+   {
+    "lat": 28.67022,
+    "lon": 54.34815,
+    "frp": 9.45,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.89175,
+    "lon": 47.94997,
+    "frp": 4.99,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.8979,
+    "lon": 47.9479,
+    "frp": 5.84,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.91436,
+    "lon": 47.98492,
+    "frp": 4.02,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "low"
+   },
+   {
+    "lat": 30.28539,
+    "lon": 47.36251,
+    "frp": 1.87,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.94632,
+    "lon": 49.18567,
+    "frp": 5.12,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.76354,
+    "lon": 47.32474,
+    "frp": 21.3,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "low"
+   },
+   {
+    "lat": 31.04755,
+    "lon": 48.43711,
+    "frp": 8.4,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.00507,
+    "lon": 48.13379,
+    "frp": 21.23,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.17363,
+    "lon": 48.33192,
+    "frp": 10.46,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "low"
+   },
+   {
+    "lat": 31.51578,
+    "lon": 49.46004,
+    "frp": 8.24,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "low"
+   },
+   {
+    "lat": 31.76912,
+    "lon": 48.99215,
+    "frp": 18.83,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "high"
+   },
+   {
+    "lat": 32.36598,
+    "lon": 47.81664,
+    "frp": 6.08,
+    "date": "2026-09-13",
+    "time": "0911",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 16.40489,
+    "lon": 42.95466,
+    "frp": 10.08,
+    "date": "2026-09-13",
+    "time": "1049",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 16.40427,
+    "lon": 42.95019,
+    "frp": 6.57,
+    "date": "2026-09-13",
+    "time": "1049",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.14495,
+    "lon": 47.0008,
+    "frp": 15.52,
+    "date": "2026-09-13",
+    "time": "1049",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.17339,
+    "lon": 39.53551,
+    "frp": 8.62,
+    "date": "2026-09-13",
+    "time": "1049",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.23227,
+    "lon": 39.20073,
+    "frp": 8.84,
+    "date": "2026-09-13",
+    "time": "1049",
+    "confidence": "low"
+   },
+   {
+    "lat": 21.23783,
+    "lon": 39.19212,
+    "frp": 9.4,
+    "date": "2026-09-13",
+    "time": "1049",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.59513,
+    "lon": 52.55038,
+    "frp": 9.8,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.59523,
+    "lon": 52.54654,
+    "frp": 10.34,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.89409,
+    "lon": 47.95208,
+    "frp": 6.18,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "low"
+   },
+   {
+    "lat": 29.13857,
+    "lon": 47.94175,
+    "frp": 3.48,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.70437,
+    "lon": 47.61534,
+    "frp": 3.51,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.97489,
+    "lon": 47.56737,
+    "frp": 7.17,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "high"
+   },
+   {
+    "lat": 29.97458,
+    "lon": 47.56542,
+    "frp": 7.98,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.9433,
+    "lon": 49.18481,
+    "frp": 2.88,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "low"
+   },
+   {
+    "lat": 30.94458,
+    "lon": 49.1871,
+    "frp": 5.79,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.03958,
+    "lon": 49.39515,
+    "frp": 9.15,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.17606,
+    "lon": 48.33291,
+    "frp": 13.57,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "low"
+   },
+   {
+    "lat": 31.51739,
+    "lon": 49.4623,
+    "frp": 3.32,
+    "date": "2026-09-13",
+    "time": "1051",
+    "confidence": "low"
+   },
+   {
+    "lat": 32.45436,
+    "lon": 43.42613,
+    "frp": 9.49,
+    "date": "2026-09-13",
+    "time": "1053",
+    "confidence": "low"
+   },
+   {
+    "lat": 32.4576,
+    "lon": 43.30637,
+    "frp": 7.85,
+    "date": "2026-09-13",
+    "time": "1053",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.45709,
+    "lon": 43.3008,
+    "frp": 3.75,
+    "date": "2026-09-13",
+    "time": "1053",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.4622,
+    "lon": 43.30581,
+    "frp": 16.02,
+    "date": "2026-09-13",
+    "time": "1053",
+    "confidence": "high"
+   },
+   {
+    "lat": 32.46271,
+    "lon": 43.3114,
+    "frp": 16.02,
+    "date": "2026-09-13",
+    "time": "1053",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.7707,
+    "lon": 34.75109,
+    "frp": 1.26,
+    "date": "2026-09-13",
+    "time": "1053",
+    "confidence": "low"
+   },
+   {
+    "lat": 32.10889,
+    "lon": 34.95548,
+    "frp": 1.77,
+    "date": "2026-09-13",
+    "time": "1053",
+    "confidence": "low"
+   },
+   {
+    "lat": 32.42506,
+    "lon": 35.96565,
+    "frp": 2.92,
+    "date": "2026-09-13",
+    "time": "1053",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.41204,
+    "lon": 50.74496,
+    "frp": 2.12,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.93428,
+    "lon": 51.2233,
+    "frp": 5.92,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.92752,
+    "lon": 51.22474,
+    "frp": 2.38,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.44227,
+    "lon": 55.55925,
+    "frp": 0.25,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.51068,
+    "lon": 51.25475,
+    "frp": 2.38,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.25179,
+    "lon": 54.47386,
+    "frp": 0.69,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.15205,
+    "lon": 55.36466,
+    "frp": 0.47,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.48639,
+    "lon": 52.9639,
+    "frp": 2.46,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.14725,
+    "lon": 49.21771,
+    "frp": 1.51,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.38448,
+    "lon": 53.75511,
+    "frp": 1.21,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.85241,
+    "lon": 54.28441,
+    "frp": 1.75,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.89309,
+    "lon": 49.60455,
+    "frp": 2.71,
+    "date": "2026-09-13",
+    "time": "2136",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.60472,
+    "lon": 49.852,
+    "frp": 26.73,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.60431,
+    "lon": 49.8593,
+    "frp": 24.16,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.63479,
+    "lon": 49.39162,
+    "frp": 1.85,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.5083,
+    "lon": 54.01468,
+    "frp": 0.89,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.31926,
+    "lon": 54.45589,
+    "frp": 1.28,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97612,
+    "lon": 49.06477,
+    "frp": 2.57,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97303,
+    "lon": 49.06606,
+    "frp": 3.84,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.19121,
+    "lon": 55.45353,
+    "frp": 3.43,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.13591,
+    "lon": 53.5803,
+    "frp": 0.73,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.52743,
+    "lon": 54.05074,
+    "frp": 1.28,
+    "date": "2026-09-13",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.68847,
+    "lon": 55.50485,
+    "frp": 3.84,
+    "date": "2026-09-13",
+    "time": "2140",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.3815,
+    "lon": 53.75546,
+    "frp": 1.44,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.38403,
+    "lon": 53.75505,
+    "frp": 1.42,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.94278,
+    "lon": 54.04554,
+    "frp": 1.04,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.40212,
+    "lon": 51.22409,
+    "frp": 0.61,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.11805,
+    "lon": 47.41616,
+    "frp": 1.94,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.80061,
+    "lon": 48.79321,
+    "frp": 0.54,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.51423,
+    "lon": 49.46141,
+    "frp": 3.23,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.42903,
+    "lon": 44.27814,
+    "frp": 1.55,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.37027,
+    "lon": 49.25886,
+    "frp": 1.57,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.376,
+    "lon": 44.2444,
+    "frp": 0.43,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.7318,
+    "lon": 47.43384,
+    "frp": 1.2,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.6953,
+    "lon": 47.25346,
+    "frp": 1.22,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.34357,
+    "lon": 43.32598,
+    "frp": 1.51,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.04301,
+    "lon": 49.39602,
+    "frp": 1.52,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.94684,
+    "lon": 49.18583,
+    "frp": 1.67,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.61498,
+    "lon": 49.9173,
+    "frp": 1.6,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.88596,
+    "lon": 52.7485,
+    "frp": 1.2,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.93195,
+    "lon": 47.99259,
+    "frp": 13.88,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.92757,
+    "lon": 47.99129,
+    "frp": 4.12,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.25064,
+    "lon": 50.78654,
+    "frp": 0.73,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.25199,
+    "lon": 50.78608,
+    "frp": 0.77,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.11796,
+    "lon": 50.35693,
+    "frp": 0.91,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.61534,
+    "lon": 47.32577,
+    "frp": 2.82,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.34643,
+    "lon": 36.52709,
+    "frp": 0.89,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.34273,
+    "lon": 36.52644,
+    "frp": 0.98,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.31605,
+    "lon": 47.35143,
+    "frp": 1.18,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.28628,
+    "lon": 47.36299,
+    "frp": 5.59,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.92344,
+    "lon": 36.86206,
+    "frp": 0.52,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.52239,
+    "lon": 53.26002,
+    "frp": 0.73,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.24421,
+    "lon": 50.30746,
+    "frp": 0.56,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.92783,
+    "lon": 41.05498,
+    "frp": 1.27,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.58257,
+    "lon": 51.59246,
+    "frp": 2.15,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.00073,
+    "lon": 48.01833,
+    "frp": 10.33,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.99953,
+    "lon": 48.02377,
+    "frp": 6.93,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.97288,
+    "lon": 48.05631,
+    "frp": 10.27,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.72589,
+    "lon": 48.3344,
+    "frp": 2.58,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.70208,
+    "lon": 43.60455,
+    "frp": 1.39,
+    "date": "2026-09-13",
+    "time": "2316",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.78496,
+    "lon": 49.95745,
+    "frp": 1.11,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.53654,
+    "lon": 53.14008,
+    "frp": 15.33,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.59517,
+    "lon": 52.54673,
+    "frp": 7.64,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.03778,
+    "lon": 50.55694,
+    "frp": 2.16,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.63288,
+    "lon": 49.39238,
+    "frp": 1.71,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.34455,
+    "lon": 50.20846,
+    "frp": 1.28,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.34224,
+    "lon": 50.21015,
+    "frp": 2.46,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.95931,
+    "lon": 51.5519,
+    "frp": 1.3,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.92512,
+    "lon": 51.54105,
+    "frp": 1.81,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.9091,
+    "lon": 51.55304,
+    "frp": 2.44,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.12111,
+    "lon": 52.75589,
+    "frp": 3.9,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.79375,
+    "lon": 49.35515,
+    "frp": 1.38,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.57292,
+    "lon": 53.31909,
+    "frp": 1.42,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.56987,
+    "lon": 53.31234,
+    "frp": 2.51,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.59838,
+    "lon": 46.57623,
+    "frp": 3.66,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97434,
+    "lon": 49.06756,
+    "frp": 1.67,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97525,
+    "lon": 49.06369,
+    "frp": 1.67,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97535,
+    "lon": 49.0655,
+    "frp": 2.14,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97447,
+    "lon": 49.06938,
+    "frp": 2.14,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.48345,
+    "lon": 46.19857,
+    "frp": 2.68,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.48263,
+    "lon": 46.2007,
+    "frp": 4.41,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.69703,
+    "lon": 44.97268,
+    "frp": 0.54,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.27501,
+    "lon": 37.56303,
+    "frp": 2.25,
+    "date": "2026-09-13",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.70752,
+    "lon": 39.03272,
+    "frp": 1.9,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.70482,
+    "lon": 39.02832,
+    "frp": 3.88,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.7042,
+    "lon": 39.03209,
+    "frp": 1.9,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.55336,
+    "lon": 39.43399,
+    "frp": 0.88,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.71659,
+    "lon": 39.82742,
+    "frp": 6.45,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 19.52201,
+    "lon": 42.53599,
+    "frp": 1.02,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 19.51804,
+    "lon": 42.53517,
+    "frp": 0.64,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 19.09832,
+    "lon": 41.15339,
+    "frp": 1.54,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.58283,
+    "lon": 43.59378,
+    "frp": 1.16,
+    "date": "2026-09-13",
+    "time": "2320",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.47483,
+    "lon": 55.36555,
+    "frp": 4.72,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.5414,
+    "lon": 53.32719,
+    "frp": 10.7,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.5414,
+    "lon": 53.32563,
+    "frp": 88.47,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.5498,
+    "lon": 53.33027,
+    "frp": 63.63,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.53032,
+    "lon": 53.1436,
+    "frp": 11.97,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.52853,
+    "lon": 53.14492,
+    "frp": 21.29,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.77052,
+    "lon": 52.76092,
+    "frp": 8.72,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "high"
+   },
+   {
+    "lat": 28.76891,
+    "lon": 52.75486,
+    "frp": 8.72,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.16639,
+    "lon": 52.83333,
+    "frp": 5.71,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.84667,
+    "lon": 52.85785,
+    "frp": 8.28,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.84681,
+    "lon": 52.85707,
+    "frp": 11.38,
+    "date": "2026-09-14",
+    "time": "0852",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.34471,
+    "lon": 50.28644,
+    "frp": 18.66,
+    "date": "2026-09-14",
+    "time": "0854",
+    "confidence": "high"
+   },
+   {
+    "lat": 30.34357,
+    "lon": 50.28493,
+    "frp": 10.23,
+    "date": "2026-09-14",
+    "time": "0854",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.94754,
+    "lon": 49.18254,
+    "frp": 6.56,
+    "date": "2026-09-14",
+    "time": "0854",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.9495,
+    "lon": 49.18072,
+    "frp": 7.32,
+    "date": "2026-09-14",
+    "time": "0854",
+    "confidence": "low"
+   },
+   {
+    "lat": 31.21168,
+    "lon": 48.94446,
+    "frp": 7.86,
+    "date": "2026-09-14",
+    "time": "0854",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.78348,
+    "lon": 52.52865,
+    "frp": 1.1,
+    "date": "2026-09-14",
+    "time": "1030",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.32175,
+    "lon": 37.8671,
+    "frp": 14.2,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "low"
+   },
+   {
+    "lat": 18.48248,
+    "lon": 37.73132,
+    "frp": 16.34,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "low"
+   },
+   {
+    "lat": 20.46809,
+    "lon": 44.82984,
+    "frp": 26.14,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "low"
+   },
+   {
+    "lat": 22.44485,
+    "lon": 53.93028,
+    "frp": 0.38,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.54543,
+    "lon": 53.32984,
+    "frp": 99.91,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "high"
+   },
+   {
+    "lat": 23.54505,
+    "lon": 53.32555,
+    "frp": 56.64,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "low"
+   },
+   {
+    "lat": 23.55082,
+    "lon": 53.32508,
+    "frp": 8.53,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.54606,
+    "lon": 53.32954,
+    "frp": 107.81,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "high"
+   },
+   {
+    "lat": 23.54571,
+    "lon": 53.32524,
+    "frp": 60.83,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "low"
+   },
+   {
+    "lat": 26.22073,
+    "lon": 43.93198,
+    "frp": 6.86,
+    "date": "2026-09-14",
+    "time": "1032",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.72231,
+    "lon": 52.44093,
+    "frp": 7.22,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "high"
+   },
+   {
+    "lat": 28.77186,
+    "lon": 52.75743,
+    "frp": 11.54,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.77779,
+    "lon": 52.75793,
+    "frp": 11.54,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "high"
+   },
+   {
+    "lat": 28.77615,
+    "lon": 52.75605,
+    "frp": 18.62,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "high"
+   },
+   {
+    "lat": 29.84788,
+    "lon": 52.85817,
+    "frp": 8.45,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.88878,
+    "lon": 51.72946,
+    "frp": 20.41,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.89458,
+    "lon": 51.73204,
+    "frp": 42.98,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "high"
+   },
+   {
+    "lat": 29.89428,
+    "lon": 51.72792,
+    "frp": 20.41,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.94914,
+    "lon": 49.18414,
+    "frp": 6.62,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "low"
+   },
+   {
+    "lat": 30.53061,
+    "lon": 43.02386,
+    "frp": 3.24,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "low"
+   },
+   {
+    "lat": 32.10439,
+    "lon": 44.69825,
+    "frp": 13.35,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "low"
+   },
+   {
+    "lat": 32.45678,
+    "lon": 47.45805,
+    "frp": 3.15,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "low"
+   },
+   {
+    "lat": 32.13533,
+    "lon": 44.30853,
+    "frp": 10.67,
+    "date": "2026-09-14",
+    "time": "1034",
+    "confidence": "low"
+   },
+   {
+    "lat": 24.84767,
+    "lon": 53.64908,
+    "frp": 9.21,
+    "date": "2026-09-14",
+    "time": "2118",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.51106,
+    "lon": 54.00925,
+    "frp": 4.26,
+    "date": "2026-09-14",
+    "time": "2118",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.19536,
+    "lon": 55.45364,
+    "frp": 1.84,
+    "date": "2026-09-14",
+    "time": "2121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.18886,
+    "lon": 55.45301,
+    "frp": 1.84,
+    "date": "2026-09-14",
+    "time": "2121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.78182,
+    "lon": 55.81335,
+    "frp": 0.82,
+    "date": "2026-09-14",
+    "time": "2121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.37879,
+    "lon": 55.93264,
+    "frp": 1.18,
+    "date": "2026-09-14",
+    "time": "2121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.37355,
+    "lon": 55.93169,
+    "frp": 2.32,
+    "date": "2026-09-14",
+    "time": "2121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.56173,
+    "lon": 55.86646,
+    "frp": 1.25,
+    "date": "2026-09-14",
+    "time": "2121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.92962,
+    "lon": 54.05424,
+    "frp": 1.09,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.92506,
+    "lon": 54.05265,
+    "frp": 1.15,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.92676,
+    "lon": 54.05717,
+    "frp": 1.22,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.51522,
+    "lon": 52.81078,
+    "frp": 0.29,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.36432,
+    "lon": 48.06995,
+    "frp": 1.64,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.17344,
+    "lon": 49.0575,
+    "frp": 0.51,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.732,
+    "lon": 55.38603,
+    "frp": 0.44,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.17342,
+    "lon": 48.42271,
+    "frp": 1.77,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.17424,
+    "lon": 48.41817,
+    "frp": 2.07,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.06329,
+    "lon": 48.34933,
+    "frp": 1.44,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.42945,
+    "lon": 44.27818,
+    "frp": 1.31,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.71018,
+    "lon": 47.92606,
+    "frp": 1.43,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.67054,
+    "lon": 47.51366,
+    "frp": 1.72,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.26263,
+    "lon": 49.61824,
+    "frp": 1.95,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.58334,
+    "lon": 47.86419,
+    "frp": 0.51,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.27209,
+    "lon": 48.57181,
+    "frp": 2.15,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.32563,
+    "lon": 47.79448,
+    "frp": 0.66,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.94637,
+    "lon": 49.18451,
+    "frp": 1.63,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.36317,
+    "lon": 55.60521,
+    "frp": 0.61,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.21624,
+    "lon": 44.92493,
+    "frp": 1.29,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.46129,
+    "lon": 49.09416,
+    "frp": 3.82,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.06684,
+    "lon": 50.89598,
+    "frp": 2.19,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.98282,
+    "lon": 50.64417,
+    "frp": 0.82,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.41352,
+    "lon": 48.09034,
+    "frp": 2.27,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.41268,
+    "lon": 48.09488,
+    "frp": 2.27,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.41377,
+    "lon": 48.09293,
+    "frp": 4.51,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.99937,
+    "lon": 36.033,
+    "frp": 1.03,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.37234,
+    "lon": 47.63308,
+    "frp": 0.92,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.18492,
+    "lon": 47.70929,
+    "frp": 7.23,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.18412,
+    "lon": 47.71371,
+    "frp": 4.15,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.30561,
+    "lon": 51.27076,
+    "frp": 2.34,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.92771,
+    "lon": 41.05444,
+    "frp": 1.6,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.28445,
+    "lon": 49.53431,
+    "frp": 3.98,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.23435,
+    "lon": 35.20294,
+    "frp": 1.64,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.23383,
+    "lon": 35.20427,
+    "frp": 1.84,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.11921,
+    "lon": 47.56921,
+    "frp": 7.54,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.91209,
+    "lon": 48.05869,
+    "frp": 1.44,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.45234,
+    "lon": 47.87463,
+    "frp": 0.91,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.03393,
+    "lon": 49.60735,
+    "frp": 2.24,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.03667,
+    "lon": 50.55682,
+    "frp": 1.18,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.0324,
+    "lon": 50.55572,
+    "frp": 1.77,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.46753,
+    "lon": 41.74158,
+    "frp": 1.47,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.42488,
+    "lon": 52.73769,
+    "frp": 5.37,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.49308,
+    "lon": 52.38953,
+    "frp": 3.57,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.48826,
+    "lon": 52.38824,
+    "frp": 2.54,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.4909,
+    "lon": 52.38688,
+    "frp": 3.71,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.63448,
+    "lon": 49.39308,
+    "frp": 2.02,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.00462,
+    "lon": 55.44284,
+    "frp": 1.73,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.0039,
+    "lon": 55.44145,
+    "frp": 1.89,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.98411,
+    "lon": 50.92854,
+    "frp": 4.05,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.98308,
+    "lon": 50.93344,
+    "frp": 4.05,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.97964,
+    "lon": 50.92743,
+    "frp": 2.36,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.54357,
+    "lon": 40.85772,
+    "frp": 9.74,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.38672,
+    "lon": 55.66515,
+    "frp": 0.73,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.70622,
+    "lon": 39.03444,
+    "frp": 7.65,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.91893,
+    "lon": 41.26024,
+    "frp": 1.51,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.88726,
+    "lon": 54.48362,
+    "frp": 5.44,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.886,
+    "lon": 54.48911,
+    "frp": 5.44,
+    "date": "2026-09-14",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.24469,
+    "lon": 48.10677,
+    "frp": 42.95,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.54748,
+    "lon": 53.32588,
+    "frp": 2.87,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.95811,
+    "lon": 45.54561,
+    "frp": 0.82,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.79725,
+    "lon": 45.82589,
+    "frp": 5.28,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.79504,
+    "lon": 39.23003,
+    "frp": 4.63,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.7919,
+    "lon": 39.22426,
+    "frp": 4.63,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.79124,
+    "lon": 39.22941,
+    "frp": 4.63,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.79382,
+    "lon": 45.82516,
+    "frp": 5.28,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.41563,
+    "lon": 47.02394,
+    "frp": 3.51,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.00651,
+    "lon": 49.14923,
+    "frp": 0.84,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 19.52045,
+    "lon": 42.53818,
+    "frp": 0.67,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 19.51715,
+    "lon": 42.53759,
+    "frp": 0.67,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.69776,
+    "lon": 44.97252,
+    "frp": 1.06,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.98915,
+    "lon": 42.34457,
+    "frp": 0.17,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.0741,
+    "lon": 34.28057,
+    "frp": 1.42,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.20801,
+    "lon": 43.00061,
+    "frp": 0.88,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.91728,
+    "lon": 48.26847,
+    "frp": 1.89,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.91339,
+    "lon": 48.2676,
+    "frp": 1.89,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.52545,
+    "lon": 54.05216,
+    "frp": 1.03,
+    "date": "2026-09-14",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.37514,
+    "lon": 55.93713,
+    "frp": 2.95,
+    "date": "2026-09-15",
+    "time": "1011",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.37369,
+    "lon": 55.93589,
+    "frp": 2.52,
+    "date": "2026-09-15",
+    "time": "1011",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.14794,
+    "lon": 39.82144,
+    "frp": 15.5,
+    "date": "2026-09-15",
+    "time": "1011",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.14909,
+    "lon": 39.82397,
+    "frp": 10.38,
+    "date": "2026-09-15",
+    "time": "1011",
+    "confidence": "low"
+   },
+   {
+    "lat": 21.14798,
+    "lon": 39.81861,
+    "frp": 16.89,
+    "date": "2026-09-15",
+    "time": "1011",
+    "confidence": "low"
+   },
+   {
+    "lat": 21.16511,
+    "lon": 39.51597,
+    "frp": 2.45,
+    "date": "2026-09-15",
+    "time": "1011",
+    "confidence": "low"
+   },
+   {
+    "lat": 24.06349,
+    "lon": 54.31899,
+    "frp": 10.65,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.85755,
+    "lon": 47.45776,
+    "frp": 1.22,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "low"
+   },
+   {
+    "lat": 23.85699,
+    "lon": 47.454,
+    "frp": 1.22,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "low"
+   },
+   {
+    "lat": 23.86086,
+    "lon": 47.45717,
+    "frp": 1.22,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.86029,
+    "lon": 47.45341,
+    "frp": 1.22,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "low"
+   },
+   {
+    "lat": 23.86416,
+    "lon": 47.45658,
+    "frp": 0.56,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "low"
+   },
+   {
+    "lat": 23.8636,
+    "lon": 47.45282,
+    "frp": 0.56,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.59541,
+    "lon": 52.54526,
+    "frp": 14.12,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.80692,
+    "lon": 52.81221,
+    "frp": 10.47,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.53522,
+    "lon": 50.31801,
+    "frp": 11.63,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.34391,
+    "lon": 53.93238,
+    "frp": 3.71,
+    "date": "2026-09-15",
+    "time": "1013",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.96837,
+    "lon": 43.74321,
+    "frp": 9.65,
+    "date": "2026-09-15",
+    "time": "1015",
+    "confidence": "low"
+   },
+   {
+    "lat": 31.97567,
+    "lon": 43.74583,
+    "frp": 53.6,
+    "date": "2026-09-15",
+    "time": "1015",
+    "confidence": "low"
+   },
+   {
+    "lat": 31.975,
+    "lon": 43.74172,
+    "frp": 82.5,
+    "date": "2026-09-15",
+    "time": "1015",
+    "confidence": "low"
+   },
+   {
+    "lat": 31.97832,
+    "lon": 43.74098,
+    "frp": 82.5,
+    "date": "2026-09-15",
+    "time": "1015",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.42672,
+    "lon": 44.21128,
+    "frp": 6.47,
+    "date": "2026-09-15",
+    "time": "1015",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.38181,
+    "lon": 53.75517,
+    "frp": 2.55,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.40509,
+    "lon": 51.22502,
+    "frp": 0.62,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.42764,
+    "lon": 48.31016,
+    "frp": 2.27,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.89569,
+    "lon": 51.68521,
+    "frp": 0.38,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.3217,
+    "lon": 48.21996,
+    "frp": 0.9,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.4649,
+    "lon": 46.44144,
+    "frp": 1.0,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.40928,
+    "lon": 46.52808,
+    "frp": 1.48,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.89692,
+    "lon": 49.77869,
+    "frp": 0.75,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.06273,
+    "lon": 48.34821,
+    "frp": 2.31,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.73318,
+    "lon": 55.38856,
+    "frp": 0.72,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.15305,
+    "lon": 52.68827,
+    "frp": 0.61,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.00385,
+    "lon": 45.05056,
+    "frp": 1.41,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.66836,
+    "lon": 47.51379,
+    "frp": 1.69,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.82685,
+    "lon": 44.11981,
+    "frp": 1.75,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.32601,
+    "lon": 47.79557,
+    "frp": 0.48,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.94776,
+    "lon": 49.18646,
+    "frp": 1.25,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.8426,
+    "lon": 49.6707,
+    "frp": 1.93,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.90982,
+    "lon": 49.1717,
+    "frp": 0.6,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.0664,
+    "lon": 50.89447,
+    "frp": 2.0,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.11776,
+    "lon": 50.35767,
+    "frp": 0.44,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.5822,
+    "lon": 47.23125,
+    "frp": 1.72,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.13712,
+    "lon": 55.35784,
+    "frp": 1.41,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.98208,
+    "lon": 50.64396,
+    "frp": 0.76,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.40654,
+    "lon": 47.59122,
+    "frp": 1.25,
+    "date": "2026-09-15",
+    "time": "2237",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.3162,
+    "lon": 47.34824,
+    "frp": 1.5,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.39689,
+    "lon": 34.74422,
+    "frp": 2.25,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.52951,
+    "lon": 43.0217,
+    "frp": 4.94,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.53153,
+    "lon": 43.02386,
+    "frp": 2.23,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.52724,
+    "lon": 43.02328,
+    "frp": 2.23,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.90013,
+    "lon": 47.72409,
+    "frp": 0.46,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.55899,
+    "lon": 48.17763,
+    "frp": 2.38,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.55969,
+    "lon": 48.16239,
+    "frp": 1.57,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.58314,
+    "lon": 51.59169,
+    "frp": 2.25,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.06019,
+    "lon": 47.67091,
+    "frp": 6.84,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.02427,
+    "lon": 52.13146,
+    "frp": 2.01,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.56304,
+    "lon": 52.56374,
+    "frp": 1.37,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.95719,
+    "lon": 55.54449,
+    "frp": 1.13,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.84638,
+    "lon": 48.71878,
+    "frp": 1.19,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.53256,
+    "lon": 49.13787,
+    "frp": 2.97,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.71908,
+    "lon": 52.13753,
+    "frp": 0.68,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.06257,
+    "lon": 55.1188,
+    "frp": 1.13,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.06107,
+    "lon": 55.12105,
+    "frp": 3.57,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.63485,
+    "lon": 49.3913,
+    "frp": 1.64,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.89537,
+    "lon": 53.02907,
+    "frp": 1.9,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.34345,
+    "lon": 50.20958,
+    "frp": 1.01,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.92695,
+    "lon": 51.53736,
+    "frp": 1.61,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.91498,
+    "lon": 51.56258,
+    "frp": 3.58,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.0641,
+    "lon": 54.31836,
+    "frp": 5.56,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.94908,
+    "lon": 49.24363,
+    "frp": 0.58,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.94576,
+    "lon": 49.24296,
+    "frp": 0.58,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.79375,
+    "lon": 49.40883,
+    "frp": 1.23,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.7927,
+    "lon": 49.3528,
+    "frp": 1.09,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.06905,
+    "lon": 47.51309,
+    "frp": 1.13,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.8469,
+    "lon": 53.65876,
+    "frp": 1.68,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.84286,
+    "lon": 53.65781,
+    "frp": 1.68,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.82718,
+    "lon": 53.60934,
+    "frp": 0.91,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.82487,
+    "lon": 53.62092,
+    "frp": 1.37,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.82485,
+    "lon": 53.62207,
+    "frp": 1.32,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.82379,
+    "lon": 53.6057,
+    "frp": 0.69,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.95802,
+    "lon": 45.54258,
+    "frp": 1.69,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.52892,
+    "lon": 53.28817,
+    "frp": 7.5,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.52964,
+    "lon": 53.28441,
+    "frp": 2.72,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.52495,
+    "lon": 53.28724,
+    "frp": 2.33,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.78586,
+    "lon": 45.61952,
+    "frp": 2.27,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.88573,
+    "lon": 49.10438,
+    "frp": 3.58,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.91427,
+    "lon": 48.26762,
+    "frp": 9.87,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.91367,
+    "lon": 48.27138,
+    "frp": 9.87,
+    "date": "2026-09-15",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.39327,
+    "lon": 45.20793,
+    "frp": 1.39,
+    "date": "2026-09-15",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.0355,
+    "lon": 54.64411,
+    "frp": 0.56,
+    "date": "2026-09-15",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.58158,
+    "lon": 45.35778,
+    "frp": 1.15,
+    "date": "2026-09-15",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 19.09875,
+    "lon": 41.15249,
+    "frp": 2.84,
+    "date": "2026-09-15",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.59696,
+    "lon": 44.3371,
+    "frp": 2.69,
+    "date": "2026-09-15",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 16.95864,
+    "lon": 42.78462,
+    "frp": 1.14,
+    "date": "2026-09-15",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.37543,
+    "lon": 55.93368,
+    "frp": 0.94,
+    "date": "2026-09-15",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.25861,
+    "lon": 40.48629,
+    "frp": 0.56,
+    "date": "2026-09-15",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 16.10859,
+    "lon": 42.85899,
+    "frp": 2.52,
+    "date": "2026-09-16",
+    "time": "0952",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.08187,
+    "lon": 53.64643,
+    "frp": 7.51,
+    "date": "2026-09-16",
+    "time": "0952",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.08518,
+    "lon": 53.64588,
+    "frp": 7.51,
+    "date": "2026-09-16",
+    "time": "0952",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.8234,
+    "lon": 53.60791,
+    "frp": 2.22,
+    "date": "2026-09-16",
+    "time": "0954",
+    "confidence": "low"
+   },
+   {
+    "lat": 21.09983,
+    "lon": 39.22263,
+    "frp": 3.91,
+    "date": "2026-09-16",
+    "time": "0954",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.89722,
+    "lon": 53.02967,
+    "frp": 2.11,
+    "date": "2026-09-16",
+    "time": "0954",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.87493,
+    "lon": 55.37543,
+    "frp": 12.76,
+    "date": "2026-09-16",
+    "time": "0954",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.87853,
+    "lon": 55.37487,
+    "frp": 12.76,
+    "date": "2026-09-16",
+    "time": "0954",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 28.76014,
+    "lon": 52.75093,
+    "frp": 14.17,
+    "date": "2026-09-16",
+    "time": "0956",
+    "confidence": "high"
+   },
+   {
+    "lat": 28.76353,
+    "lon": 52.75018,
+    "frp": 14.17,
+    "date": "2026-09-16",
+    "time": "0956",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.02396,
+    "lon": 48.62875,
+    "frp": 81.7,
+    "date": "2026-09-16",
+    "time": "0956",
+    "confidence": "high"
+   },
+   {
+    "lat": 31.0233,
+    "lon": 48.62466,
+    "frp": 25.8,
+    "date": "2026-09-16",
+    "time": "0956",
+    "confidence": "low"
+   },
+   {
+    "lat": 32.1906,
+    "lon": 48.87644,
+    "frp": 5.35,
+    "date": "2026-09-16",
+    "time": "0956",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.69327,
+    "lon": 35.12932,
+    "frp": 5.08,
+    "date": "2026-09-16",
+    "time": "0958",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.69318,
+    "lon": 35.12645,
+    "frp": 5.52,
+    "date": "2026-09-16",
+    "time": "0958",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.13668,
+    "lon": 35.09604,
+    "frp": 2.39,
+    "date": "2026-09-16",
+    "time": "1138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.40255,
+    "lon": 51.22268,
+    "frp": 0.98,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.84699,
+    "lon": 54.28455,
+    "frp": 0.63,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.22046,
+    "lon": 51.39711,
+    "frp": 2.39,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.21983,
+    "lon": 51.40194,
+    "frp": 2.39,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.22048,
+    "lon": 51.13797,
+    "frp": 0.76,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.62349,
+    "lon": 54.74311,
+    "frp": 0.89,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 32.17345,
+    "lon": 49.05686,
+    "frp": 0.3,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.46351,
+    "lon": 53.73789,
+    "frp": 0.49,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.15327,
+    "lon": 52.69107,
+    "frp": 0.6,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.73248,
+    "lon": 55.3871,
+    "frp": 0.98,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.1179,
+    "lon": 51.23436,
+    "frp": 0.68,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.24463,
+    "lon": 49.16673,
+    "frp": 1.29,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.99749,
+    "lon": 49.95613,
+    "frp": 3.09,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 31.38326,
+    "lon": 44.72623,
+    "frp": 1.9,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.94602,
+    "lon": 49.18345,
+    "frp": 2.61,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.06891,
+    "lon": 52.61775,
+    "frp": 0.37,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.37571,
+    "lon": 50.08448,
+    "frp": 0.63,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.24305,
+    "lon": 50.73707,
+    "frp": 1.84,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.43119,
+    "lon": 49.10986,
+    "frp": 1.93,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.06714,
+    "lon": 50.8961,
+    "frp": 2.13,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 30.11848,
+    "lon": 50.35612,
+    "frp": 0.77,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.73608,
+    "lon": 52.65251,
+    "frp": 1.53,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.15271,
+    "lon": 55.36462,
+    "frp": 0.84,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.583,
+    "lon": 52.57439,
+    "frp": 0.56,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.13677,
+    "lon": 55.35699,
+    "frp": 1.18,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.89252,
+    "lon": 47.77538,
+    "frp": 1.37,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.85297,
+    "lon": 47.74201,
+    "frp": 1.19,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.07019,
+    "lon": 49.4748,
+    "frp": 1.27,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.04891,
+    "lon": 48.1343,
+    "frp": 3.17,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 29.00043,
+    "lon": 48.15673,
+    "frp": 3.33,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.58132,
+    "lon": 52.54612,
+    "frp": 1.56,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.578,
+    "lon": 52.54536,
+    "frp": 1.56,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.56168,
+    "lon": 52.56268,
+    "frp": 2.22,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.95677,
+    "lon": 55.54581,
+    "frp": 0.96,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.53345,
+    "lon": 49.13612,
+    "frp": 4.71,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.30339,
+    "lon": 49.68577,
+    "frp": 1.14,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.30136,
+    "lon": 49.68789,
+    "frp": 0.61,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.19135,
+    "lon": 49.1403,
+    "frp": 2.01,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.14643,
+    "lon": 49.22235,
+    "frp": 13.05,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.14725,
+    "lon": 49.22102,
+    "frp": 8.47,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.14347,
+    "lon": 49.22042,
+    "frp": 3.25,
+    "date": "2026-09-16",
+    "time": "2220",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.66932,
+    "lon": 52.01442,
+    "frp": 0.93,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.78325,
+    "lon": 49.95589,
+    "frp": 6.34,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.19587,
+    "lon": 50.68036,
+    "frp": 1.02,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.11684,
+    "lon": 50.60514,
+    "frp": 1.4,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.35107,
+    "lon": 54.48749,
+    "frp": 0.74,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.15644,
+    "lon": 55.24123,
+    "frp": 0.88,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.66118,
+    "lon": 49.76419,
+    "frp": 1.08,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.68233,
+    "lon": 49.26775,
+    "frp": 0.95,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.20339,
+    "lon": 44.01584,
+    "frp": 1.43,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.89648,
+    "lon": 53.0286,
+    "frp": 1.51,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.95251,
+    "lon": 51.5869,
+    "frp": 1.36,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.98055,
+    "lon": 50.47875,
+    "frp": 1.76,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.34852,
+    "lon": 54.4674,
+    "frp": 0.79,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.79213,
+    "lon": 49.35428,
+    "frp": 1.38,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.13893,
+    "lon": 52.70031,
+    "frp": 1.4,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.91501,
+    "lon": 53.70745,
+    "frp": 2.11,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.83393,
+    "lon": 53.64542,
+    "frp": 2.07,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.54663,
+    "lon": 53.32616,
+    "frp": 3.78,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.15189,
+    "lon": 55.44521,
+    "frp": 0.73,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.0067,
+    "lon": 49.14784,
+    "frp": 5.69,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.88295,
+    "lon": 49.10244,
+    "frp": 2.31,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.87773,
+    "lon": 55.37388,
+    "frp": 9.49,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.87422,
+    "lon": 55.37315,
+    "frp": 2.03,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.16369,
+    "lon": 46.42484,
+    "frp": 1.26,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.78376,
+    "lon": 55.81357,
+    "frp": 0.32,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.78205,
+    "lon": 55.81538,
+    "frp": 1.73,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.16584,
+    "lon": 46.42284,
+    "frp": 0.88,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.16532,
+    "lon": 46.42723,
+    "frp": 0.88,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.9153,
+    "lon": 48.2714,
+    "frp": 1.06,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.91148,
+    "lon": 48.27081,
+    "frp": 1.73,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 18.68564,
+    "lon": 55.50773,
+    "frp": 0.48,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.71513,
+    "lon": 39.8245,
+    "frp": 2.9,
+    "date": "2026-09-16",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.59787,
+    "lon": 44.33678,
+    "frp": 2.64,
+    "date": "2026-09-16",
+    "time": "2225",
+    "confidence": "nominal"
    }
-  },
-  "last_ok_at": "2026-09-17T00:25:21Z"
+  ],
+  "last_ok_at": "2026-09-17T02:12:54Z"
+ },
+ "news": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-17T02:13:53Z",
+  "kr": [
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T01:59:00+00:00",
+    "source": "연합뉴스",
+    "title": "[뉴스초점] 후티, 또 사우디 공격…美, 이란전 52조원 지출",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56eF9uTHVlbjVfRS1ZWnhkUFJFR3AtYTdPNEVjUW9BSnRzdWZmTVQ1dTFfNE9aMzhsRk5LQjFIbms4eVhhdWlKaC1DdjhEQlhLeUpHNjVlSTIwblE1UE5mZjNtQUpaZzQ?oc=5"
+   },
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T00:53:36+00:00",
+    "source": "MBC",
+    "title": "사우디, 후티에 첫 탄도미사일 공격 정황‥\"중국산 추정\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pYWdvYlRkTlRkZUpldF9jUk0wZUFncVRlQlVRV0hXSW9HQVlaVFEyeGhscjhGSFFoQkdmN2xhNFltLVUzY1d2QWJnQ21uc0lFcy1aQUo3VURZdkZlRDJhMmhWcTdvRXRxYlR2UkM4VFNYQ2lB0gF0QVVfeXFMTkNRQjhQZzBiY1lUNEwwZXRqdzVTME1BMUpfRlY0VDVDNjk5d2hKNkktblVZWl8xN29sblZnYTBsVkNBalBROHpKeWZqZ2VFNEk1YUozMUMxelBRMU50ZGRrOXJ0R2c2RHlQNnlSUkdpNVlnM1k?oc=5"
+   },
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T00:45:00+00:00",
+    "source": "한겨레",
+    "title": "후티 “사우디 F-15 전투기 격추”…영상·사진 공개",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWElQb1VhS1NMb3ZNZFNyeEtRRU9YRjVPMzMwSk1TN2hudXI2cDlyY1R2UFoxQWJBNk5FNkc5RXRoV3ZsM3dSUVY1V2s0TGNVeUg2XzBLQmEtajQ0UWdmYlRERWNSN2FLclBuOXR0VnRJeTdEMUJNZVZrR01WWTl1V0F3?oc=5"
+   },
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T00:34:10+00:00",
+    "source": "MBC",
+    "title": "후티 \"사우디 전투기 격추\"‥국제유가 '비상'",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53NUZ2OU9ibDFNOGtfZXNoTjR5MFBfZE8yRFJPZ0ptQjBuaWN2T0dFa3ZESXhxVENZYjlRSWVMRFN6MHpPS0VNWjBsQlUyVURtVlB4SVZBS1hwSHdoZ2NMelJreTR1bnd5OFZ2VldSUjZHbXFkb3dF0gF3QVVfeXFMTV9ua2xyZjR6VS1KbGNHeDdRZVFoNVRRV0R0eExUVjNDZ0dHRlZpamFJQkhJd1RlQ2k1NXd2N1dYT1RHSjBINHZXSHNoa3JHVWtSU2RoLWUyemE4eGo3RzVpckVoOXRMOWFkOGpha3NnUFlaVlFmMEk?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T20:26:00+00:00",
+    "source": "연합뉴스",
+    "title": "\"사우디 동서 송유관 일부 파손…복구 불투명\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51dmw2SVJrTU5TY3ppTmw1cFAySlpZZ2ttWU1MS0RHTGUzNVBHb3VaQmJZdGIyN2xOcFM1bW9Pa2FSd2pJWklScGZuOTdfakpzMkQ4WHdoamczdkp0Z1gxdi1aeHRlSk0?oc=5"
+   }
+  ],
+  "en": [
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T16:38:32+00:00",
+    "source": "Reuters",
+    "title": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T15:47:30+00:00",
+    "source": "Bloomberg",
+    "title": "Saudis Seek to Resume Half of Key Oil Pipeline Within Days",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaHRaZWVPR1BiNFo5RlMxTW9hUk1BZTUwd0hyUFNzYkRmeE8tbFFnOG9fSFZVTEFMQmx0QXo4Q0gwVHlzbkppeGRaSVBXQVM5aVVGVzhlT0h4cXdZWUI2TEswNEo1TEw1S0pMRjkyNUtENTNNd3hYaS10SUFEODdFcGVfNVkwUWZfQkM2VUNESzE1dGFrVDZhcmxmaFlyVnNkcDVZMHoyS0hha19RTXc?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T15:15:11+00:00",
+    "source": "The New York Times",
+    "title": "Global Oil Prices Could Hit Highest Levels in Months After Saudi Pipeline Attacks",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTzVjMkh4M1lsaEJyZkV0a3lzMlhVNHVsZVNoV1A4d0VkTjluTFgwc0JXTHpPNWRFMjlfdThqMmxlLTI4dGRaalR4SnBEZmZ6aDBxTGNRNzZMX0VzVk9tcmIyR1pvS0l4ZlNBbjctU0hWWUJIYXRIdTFNc1NhVFRnLUVwY2E?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T13:24:01+00:00",
+    "source": "Financial Times",
+    "title": "Chinese oil prices hit record highs after attacks on Saudi pipeline",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNenN5ekEzNkpYSjhXa2lGdU5YaFhDWlZaSGNIMjUyRXNqT29IZ25HR2RzZWoxaVhCVFNUbzYtZTNmY25FSkpoZktXSEVjeUg1Unk5UWFGVU5YSzdMRWZvWXNybXZsYmp0OHFfX0ZUVDJ4X0lsWmJ5c0luTGVETzhVOWJlRG4?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T10:41:21+00:00",
+    "source": "NBC News",
+    "title": "Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2pLVUdEbDUtZmVUNXBKNlVkTkY0c25fN1ltQUw4YUxPbEdEMzBXOHY4MGE4dVdzLVlsZE5wcndULWFjN2l1Um16N1FNNGRPUzkzZnJRMHNsbU9vQnNiYURXNmVDRWlOcG9tX3VlSjVydHVPZnh2T1FOMFZxNmxMMmY3SHZobkxZNFp1NDZ3MWpFWDBwM3Q4QUMtYnQteHFHQUNUZzNXWXM5c25neEZiQkxjMWd3Zw?oc=5"
+   }
+  ],
+  "last_ok_at": "2026-09-17T02:13:53Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T00:25:23Z",
+  "fetched_at": "2026-09-17T02:13:53Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 37,
+  "count": 39,
   "baseline": null,
   "baseline_n": 0,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
-   "2026-09-16T16": 37,
-   "2026-09-16T18": 38,
-   "2026-09-16T22": 37,
-   "2026-09-17T00": 37
+   "2026-09-16T16": 38,
+   "2026-09-17T02": 39
   },
-  "last_ok_at": "2026-09-17T00:25:23Z"
+  "last_ok_at": "2026-09-17T02:13:53Z"
+ },
+ "notams": {
+  "ok": true,
+  "enabled": false,
+  "fetched_at": "2026-09-17T02:13:54Z",
+  "last_ok_at": "2026-09-17T02:13:54Z"
  }
 }

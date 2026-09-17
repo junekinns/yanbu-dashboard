@@ -46,8 +46,9 @@ h1 { margin: 0 0 4px; font-size: 1.6rem; letter-spacing: -0.01em; }
 #workflow-link { text-decoration: none; }
 #workflow-link:hover { text-decoration: underline; }
 .subtitle { color: var(--muted); font-size: 0.9rem; margin: 0 0 10px; }
-.official { margin: 0 0 16px; font-size: 0.95rem; }
-.official strong { font-weight: 600; }
+.headline { margin: 0 0 14px; font-size: 0.95rem; }
+.headline p { margin: 0 0 4px; }
+.headline strong { font-weight: 600; }
 
 main { display: flex; flex-direction: column; gap: 16px; padding-bottom: 24px; }
 
@@ -59,24 +60,38 @@ main { display: flex; flex-direction: column; gap: 16px; padding-bottom: 24px; }
 }
 .card h2 { margin: 0 0 12px; font-size: 1.05rem; }
 
-.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
-@media (max-width: 700px) { .tiles { grid-template-columns: 1fr; } }
+/* 도시 현황표 */
+.table-wrap { overflow-x: hidden; }
+.city-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.city-table th, .city-table td { padding: 7px 6px; border-top: 1px solid var(--border); text-align: left; vertical-align: middle; }
+.city-table thead th { border-top: none; color: var(--muted); font-weight: 500; font-size: 0.78rem; white-space: nowrap; }
+.city-table .num { text-align: right; white-space: nowrap; }
+.city-table .col-level { white-space: nowrap; }
+.city-link { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: var(--text); cursor: pointer; text-decoration: underline dotted transparent; }
+.city-link:hover { text-decoration-color: var(--muted); }
+.city-table .ev-type { display: inline-block; min-width: 1.6rem; }
+.zero { color: #3a4452; }
+.chg { font-size: 0.72rem; font-weight: 700; color: var(--hot); margin-left: 4px; white-space: nowrap; }
+.up { color: var(--hot); font-weight: 600; }
+.down { color: var(--calm); font-weight: 600; }
+.flat { color: var(--muted); }
+.city-table .col-total { display: none; }
+@media (max-width: 700px) {
+  .city-table { font-size: 0.85rem; }
+  .city-table th, .city-table td { padding: 6px 4px; }
+  .city-table .col-type, .city-table .col-delta { display: none; }
+  .city-table .col-total { display: table-cell; }
+  .city-table .col-level { font-size: 0.8rem; }
+}
 
-.tile.experimental { border-top-style: dashed; }
+.tg-mentions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0 0 10px; font-size: 0.85rem; }
+.tg-mentions .place-badge b { color: #fff; }
+
+/* 실험 영역 */
+.card.experimental { border-style: dashed; }
+#lab .tile { border-top: 0; padding: 0; margin-top: 8px; }
+#lab .tile h3 { margin: 0 0 8px; font-size: 0.95rem; }
 .exp-badge { font-size: 0.65rem; font-weight: 600; padding: 1px 6px; border-radius: 4px; background: #3a4452; color: var(--muted); vertical-align: middle; margin-left: 4px; }
-
-.region-tiles { display: flex; flex-direction: column; gap: 20px; }
-.region-heading { margin: 0 0 10px; font-size: 1.05rem; }
-.region-heading small { margin-left: 6px; font-weight: 400; color: var(--muted); }
-.region-tile-row { grid-template-columns: repeat(2, 1fr); }
-@media (max-width: 700px) { .region-tile-row { grid-template-columns: 1fr; } }
-.tile h3 { margin: 0 0 12px; font-size: 1.05rem; }
-
-.region-badge { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 1px 6px; border-radius: 4px; color: #0f1720; }
-.region-badge.region-west { background: #7fd0ff; }
-.region-badge.region-central { background: #c9a6ff; }
-.region-badge.region-east { background: #ffcf7f; }
-.region-badge.region-other { background: #8a97a8; }
 
 .tile { border-top: 4px solid var(--border); }
 .tile.hot { border-top-color: var(--hot); }
@@ -146,7 +161,7 @@ main { display: flex; flex-direction: column; gap: 16px; padding-bottom: 24px; }
 .event-log { list-style: none; margin: 0; padding: 0; }
 .event-log li {
   display: grid;
-  grid-template-columns: 5.5rem 3.5rem 5rem 3rem 1fr auto;
+  grid-template-columns: 5.5rem 5rem 3rem 1fr auto;
   gap: 8px;
   align-items: baseline;
   padding: 7px 8px;
