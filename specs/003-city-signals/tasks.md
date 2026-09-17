@@ -132,7 +132,7 @@ description: "Task list for 도시 단위 재편 · 뉴스 파생 신호 중심�
 ## Phase 9: Polish
 
 - [X] T027 [P] `README.md`: 지표 표를 "도시 현황표(외교부 단계·7일 사건·지난주 대비·후티 언급) / 단계 변경 이력 / 후티 표적 순위 / 지도(도시·사건·위성 화점)"로 재작성; 해상 교통·위성 타일·공지 그래프 제거 사유(사용자 지적 인용: 며칠에 한 번 바뀌는 그래프는 장식); "실험 중"에 NOTAM(키 대기) 추가; PortWatch를 "버린 것"으로 이동(5일 지연). (FR-024)
-- [ ] T028 `EVENT_DAYS=14 python3 scripts/fetch_data.py` 1회 시드 → quickstart §1 재실행 → `node --check app.js` → 커밋 → `git pull --rebase -X theirs origin main && git push` → `gh workflow run update.yml` → 실행 로그에 `notams: ok=True`·나머지 ok·총 30초 이내 확인 → Pages에서 §3 반복
+- [X] T028 (배포 완료: 커밋 1166902, run 35173674126 성공. 러너에서 외교부만 연결 타임아웃으로 stale 처리됐고 places·changes 보존 확인 — 그레이스풀 디그레이드 동작) `EVENT_DAYS=14 python3 scripts/fetch_data.py` 1회 시드 → quickstart §1 재실행 → `node --check app.js` → 커밋 → `git pull --rebase -X theirs origin main && git push` → `gh workflow run update.yml` → 실행 로그에 `notams: ok=True`·나머지 ok·총 30초 이내 확인 → Pages에서 §3 반복
 
 ---
 
