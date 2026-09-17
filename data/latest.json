@@ -1,9 +1,6 @@
 {
- "generated_at": "2026-09-17T02:12:46Z",
+ "generated_at": "2026-09-17T02:15:01Z",
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-17T02:12:46Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,12 +181,16 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-17T02:12:46Z"
+  "last_ok_at": "2026-09-17T02:12:46Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f51a6bb1580>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-17T02:15:01Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T02:12:51Z",
+  "fetched_at": "2026-09-17T02:16:03Z",
   "events": [
    {
     "date": "2026-09-17",
@@ -221,20 +222,6 @@
    },
    {
     "date": "2026-09-16",
-    "time": "10:36",
-    "iso": "2026-09-16T10:36:20+03:00",
-    "city": "메카",
-    "region": "west",
-    "type": "경보",
-    "lat": 21.39,
-    "lon": 39.86,
-    "title": "사우디 메카 피격... 美 ‘3단계 경보’ 발령 “여행 재고하라”",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQnQ1UmkteFRuWWU5d2FZS24takZUN3BSUGdfUUtVV296a0FleXBWVGhGdHpPWjl2dGxkZXM1YlJITlBvam55RlNydy1WWW5ZYm56WnlzOGlIdG1FeUE4QXE0Ynl1cTBQVmg3cmZYWURESDJFQzI4NDVCUEJBOEE5S1ppOHllbEs0Tk4wUXh6c0s0VXVKQjdkSXFzdTlnQQ?oc=5",
-    "source": "조선일보",
-    "outlets": 1
-   },
-   {
-    "date": "2026-09-16",
     "time": "09:45",
     "iso": "2026-09-16T09:45:31+03:00",
     "city": "메카",
@@ -260,6 +247,20 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90Y1dWRUtXUVdZZFVpMlNsbklxaV9yaU9aNXR3RHhKZFFIMWJXWV9WMHdQci00bmhKemxOUlJ1NFl3bHBPeW5hWFV1QmkyaUtObEpodExrSzNvb03SAWBBVV95cUxPTGdUMnI1TEoweVo5M2QzUVNWUEZUSldPdGYzYTZGenRiT3ZUeHBiUzdodTZqRE43RzNnYkM0RjI2cW1kYlVpNGRBTDNueXVhTTd2Y3FfXzN4MmsxLWpaY0M?oc=5",
     "source": "연합뉴스",
     "outlets": 6
+   },
+   {
+    "date": "2026-09-16",
+    "time": "01:50",
+    "iso": "2026-09-16T01:50:00+03:00",
+    "city": "메카",
+    "region": "west",
+    "type": "경보",
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "사우디 메카 피격... 美 ‘3단계 경보’ 발령 “여행 재고하라”",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQnQ1UmkteFRuWWU5d2FZS24takZUN3BSUGdfUUtVV296a0FleXBWVGhGdHpPWjl2dGxkZXM1YlJITlBvam55RlNydy1WWW5ZYm56WnlzOGlIdG1FeUE4QXE0Ynl1cTBQVmg3cmZYWURESDJFQzI4NDVCUEJBOEE5S1ppOHllbEs0Tk4wUXh6c0s0VXVKQjdkSXFzdTlnQQ?oc=5",
+    "source": "조선일보",
+    "outlets": 1
    },
    {
     "date": "2026-09-15",
@@ -479,12 +480,12 @@
   "history_days": 6,
   "history_since": "2026-09-12",
   "today": "2026-09-17",
-  "last_ok_at": "2026-09-17T02:12:51Z"
+  "last_ok_at": "2026-09-17T02:16:03Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T02:12:53Z",
+  "fetched_at": "2026-09-17T02:16:04Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -605,12 +606,12 @@
    "얀부": 2,
    "메카": 2
   },
-  "last_ok_at": "2026-09-17T02:12:53Z"
+  "last_ok_at": "2026-09-17T02:16:04Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T02:12:54Z",
+  "fetched_at": "2026-09-17T02:16:05Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -4614,12 +4615,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-17T02:12:54Z"
+  "last_ok_at": "2026-09-17T02:16:05Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T02:13:53Z",
+  "fetched_at": "2026-09-17T02:16:08Z",
   "kr": [
    {
     "date": "2026-09-17",
@@ -4637,6 +4638,13 @@
    },
    {
     "date": "2026-09-17",
+    "published": "2026-09-17T00:53:00+00:00",
+    "source": "동아일보",
+    "title": "사우디, 숨겨온 中미사일 쐈나…후티에 첫 실전공격 정황",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02WDVUQU9yODBPUGlSd0h5RGFSUGNSYnA1MHh5aXZKc3FKZVlrVDR3RmZ1cmdVT1Nza2VTRjJoY2VaWUE4TmxSYVNjbmswVFljcE9CZlVjRFJMSXlJLWN6bXFxYmdKWjEzU28yckFpNTJJRGvSAWZBVV95cUxNZ2lTLTQ5cTRqUW5sRGU1S2hlUEJqV0E4aFlKX2NFeGM3UDVnWnpnSUxMWG1adWdocnA0Mk5Ta3R6c3p0QUdWbGc4b0c2UUY5MFRGaEVCcllOZVZrdlNzWmhxXzJ6UUE?oc=5"
+   },
+   {
+    "date": "2026-09-17",
     "published": "2026-09-17T00:45:00+00:00",
     "source": "한겨레",
     "title": "후티 “사우디 F-15 전투기 격추”…영상·사진 공개",
@@ -4648,13 +4656,6 @@
     "source": "MBC",
     "title": "후티 \"사우디 전투기 격추\"‥국제유가 '비상'",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53NUZ2OU9ibDFNOGtfZXNoTjR5MFBfZE8yRFJPZ0ptQjBuaWN2T0dFa3ZESXhxVENZYjlRSWVMRFN6MHpPS0VNWjBsQlUyVURtVlB4SVZBS1hwSHdoZ2NMelJreTR1bnd5OFZ2VldSUjZHbXFkb3dF0gF3QVVfeXFMTV9ua2xyZjR6VS1KbGNHeDdRZVFoNVRRV0R0eExUVjNDZ0dHRlZpamFJQkhJd1RlQ2k1NXd2N1dYT1RHSjBINHZXSHNoa3JHVWtSU2RoLWUyemE4eGo3RzVpckVoOXRMOWFkOGpha3NnUFlaVlFmMEk?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T20:26:00+00:00",
-    "source": "연합뉴스",
-    "title": "\"사우디 동서 송유관 일부 파손…복구 불투명\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51dmw2SVJrTU5TY3ppTmw1cFAySlpZZ2ttWU1MS0RHTGUzNVBHb3VaQmJZdGIyN2xOcFM1bW9Pa2FSd2pJWklScGZuOTdfakpzMkQ4WHdoamczdkp0Z1gxdi1aeHRlSk0?oc=5"
    }
   ],
   "en": [
@@ -4674,13 +4675,6 @@
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T15:15:11+00:00",
-    "source": "The New York Times",
-    "title": "Global Oil Prices Could Hit Highest Levels in Months After Saudi Pipeline Attacks",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTzVjMkh4M1lsaEJyZkV0a3lzMlhVNHVsZVNoV1A4d0VkTjluTFgwc0JXTHpPNWRFMjlfdThqMmxlLTI4dGRaalR4SnBEZmZ6aDBxTGNRNzZMX0VzVk9tcmIyR1pvS0l4ZlNBbjctU0hWWUJIYXRIdTFNc1NhVFRnLUVwY2E?oc=5"
-   },
-   {
-    "date": "2026-09-16",
     "published": "2026-09-16T13:24:01+00:00",
     "source": "Financial Times",
     "title": "Chinese oil prices hit record highs after attacks on Saudi pipeline",
@@ -4692,30 +4686,37 @@
     "source": "NBC News",
     "title": "Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2pLVUdEbDUtZmVUNXBKNlVkTkY0c25fN1ltQUw4YUxPbEdEMzBXOHY4MGE4dVdzLVlsZE5wcndULWFjN2l1Um16N1FNNGRPUzkzZnJRMHNsbU9vQnNiYURXNmVDRWlOcG9tX3VlSjVydHVPZnh2T1FOMFZxNmxMMmY3SHZobkxZNFp1NDZ3MWpFWDBwM3Q4QUMtYnQteHFHQUNUZzNXWXM5c25neEZiQkxjMWd3Zw?oc=5"
+   },
+   {
+    "date": "2026-09-16",
+    "published": "2026-09-16T09:18:37+00:00",
+    "source": "ABC News",
+    "title": "Saudi crown prince goes to Egypt for support against Houthi strikes, and other Mideast developments",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVEJzT2tvVm9EemJDVkxBa1BYRWNpWGdLcHZ5TnJaQXdjZ3hwdWkzTmUxWFVNWUdGd0hhQzlpenNXSmlLY1l0TlUwV3FEVUp3Tjd0OWhFX0NYRHQ2NEhMRk9PZjJWUjdPeW9uNEFWN25ldFE1Zk1Uam8tTlNRNjcxblNPbEpnemlIaVhLWnpMQm1fRkk4b3YxQlMxSEk4WFY1X3VxUGVUVmpVd1HSAbABQVVfeXFMUEViOUdBeFlLcDgzTGQzVkdROExzV2ctQ2h5UkhaMXlzV1dVSmhZamxvWF94MUQyZVhXRWZRTHU2NThtYXNudEo1Z0V4UUVFN0NHdGVva0RQdDFNOFpoc0NGQ0gybjU1TG5ibmY0WVZFd3hTeU5ESnd5aHIwVHBaQVoxOUhlNWVTZzUyQnN2Ri1wSl80X1luc0JLR24zemtzeXZyRFFJMWREN3ZjSUJqTjE?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-17T02:13:53Z"
+  "last_ok_at": "2026-09-17T02:16:08Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T02:13:53Z",
+  "fetched_at": "2026-09-17T02:16:09Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 39,
+  "count": 38,
   "baseline": null,
   "baseline_n": 0,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
-   "2026-09-17T02": 39
+   "2026-09-17T02": 38
   },
-  "last_ok_at": "2026-09-17T02:13:53Z"
+  "last_ok_at": "2026-09-17T02:16:09Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-17T02:13:54Z",
-  "last_ok_at": "2026-09-17T02:13:54Z"
+  "fetched_at": "2026-09-17T02:16:10Z",
+  "last_ok_at": "2026-09-17T02:16:10Z"
  }
 }
