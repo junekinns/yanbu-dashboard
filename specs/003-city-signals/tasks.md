@@ -143,6 +143,12 @@ description: "Task list for 도시 단위 재편 · 뉴스 파생 신호 중심�
 - [X] T031 [US7] `app.js` `renderCityTable()`: `summary.pinned` ∪ 움직임 있는 도시만 기본 표시, 나머지는 `tr.more`의 `.quiet-toggle`로 접기/펼치기(`state.showQuiet`); `index.html` 카드 부제·도움말 갱신; `style.css` 토글·quiet 행.
 - [X] T032 검증: 로컬 실행 → `summary.level=4 심각, score 7, reasons 5`; Playwright — 배너 텍스트에 근거 5줄, 표 8행 + 토글 → 20행, 모바일 overflow 없음, 오류 0.
 
+## Phase 11: 컴팩트화 + 사건 아이콘 — 2026-09-17 ("과하게 하지 말라. 알짜배기만.")
+
+- [X] T033 텍스트 제거: 부제 문장, 도움말 `<details>` 블록, 사건·후티·실험 각주 문장, 푸터 안내문 축약. 위기 배너 근거를 5줄 목록 → 한 줄 칩, "자체 기준" 명시. 헤드라인 3줄 → 1줄. 조용한 도시 토글 제거(표에는 주요 5곳 + 움직임 있는 도시만, 나머지는 지도 점). 후티 메시지 6 → 5건, 원문 `<details>` 대신 번역 실패 시에만 원문.
+- [X] T034 지도 간결화: 표에 있는 도시만 이름 라벨, 나머지는 작은 점. 범례 축약(단계 항목 제거).
+- [X] T035 사건 아이콘: `fetch_data.py`에 `WEAPON_PATTERNS`(드론/미사일, 기사 제목 기준)로 `events[].weapon` 추가(이력 병합 시 보존). `app.js` `L.divIcon` SVG — 모양 = 무기(미사일/드론/기타), 색 = 유형, 6시간 이내 pulse. 궤적·경로 시뮬레이션은 데이터가 없어 하지 않음(README에 명시).
+
 ## Dependencies & Execution Order
 
 - T001 → T002~T004(같은 파일, 순차) → T005 검증 → 이후 스토리.

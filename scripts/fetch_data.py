@@ -140,6 +140,8 @@ EVENT_SKIP = (r"den(y|ies|ied)|analysis|explainer|opinion|what (it|the|this)|why
               r"|calls? (for|on)|condemn|slam|react|response|price|market|repair|insurance|shipping rate|weeks|route|reroute"
               r"|부인|분석|해설|전망|왜 |경고|촉구|규탄|다짐|유가|증시|복구|대란|항로|우회|보험|운임|주간|가동 중단될|공급|수출|고갈")
 CITY_PATTERNS = [(p["name"], "|".join(rf"\b{re.escape(a)}\b" if a.isascii() else re.escape(a) for a in p["aliases"])) for p in PLACES]
+# 지도 아이콘용. 제목에 무기가 드러날 때만 — 없으면 None(일반 아이콘). 궤적은 데이터가 없어 그리지 않는다.
+WEAPON_PATTERNS = [("드론", r"드론|drone|UAV|무인기"), ("미사일", r"미사일|missile|탄도|순항|ballistic|cruise")]
 
 # 외교부 단계. 특별여행주의보는 2단계 이상·3단계 이하로 운용되므로 2.5.
 LEVELS = {"여행유의": 1, "여행자제": 2, "특별여행주의보": 2.5, "출국권고": 3, "여행금지": 4}
@@ -420,16 +422,17 @@ def fetch_events(previous):
         members.sort(key=lambda m: m["published"])
         lead = next((m for m in members if m["korean"]), members[0])
         place = PLACE_BY_NAME[city]
+        weapon = next((w for w, rx in WEAPON_PATTERNS if any(re.search(rx, m["title"], re.I) for m in members)), None)
         result["events"].append({
             "date": day, "time": members[0]["when"].strftime("%H:%M"), "iso": members[0]["when"].isoformat(),
-            "city": city, "region": place["region"], "type": kind, "lat": place["lat"], "lon": place["lon"],
+            "city": city, "type": kind, "weapon": weapon, "lat": place["lat"], "lon": place["lon"],
             "title": lead["title"], "url": lead["url"], "source": lead["source"],
             "outlets": len({m["source"] for m in members}),
         })
     # 30일 누적. 같은 사건이 다시 오면 매체 수는 큰 값, 시각은 더 이른 값, 대표 기사는 기존 유지.
     def refresh(old, new):
         earlier = new["iso"] < old["iso"]
-        return {**old, "outlets": max(old["outlets"], new["outlets"]),
+        return {**old, "outlets": max(old["outlets"], new["outlets"]), "weapon": old.get("weapon") or new.get("weapon"),
                 **({"time": new["time"], "iso": new["iso"]} if earlier else {})}
     events = merge_history(previous.get("events", []), result["events"],
                            key=lambda e: (e["date"], e["city"], e["type"]), keep_days=30, day_of=lambda e: e["date"], update=refresh)

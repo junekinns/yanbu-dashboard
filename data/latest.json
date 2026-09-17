@@ -1,6 +1,9 @@
 {
- "generated_at": "2026-09-17T04:04:20Z",
+ "generated_at": "2026-09-17T04:14:16Z",
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-17T04:14:16Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -181,16 +184,12 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-17T04:01:40Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f30ae7aec90>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-09-17T04:04:20Z",
-  "stale": true
+  "last_ok_at": "2026-09-17T04:14:16Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:05:22Z",
+  "fetched_at": "2026-09-17T04:14:20Z",
   "events": [
    {
     "date": "2026-09-17",
@@ -204,7 +203,8 @@
     "title": "사우디 \"성지 메카 겨냥한 후티 드론 요격\"…후티 \"진부한 거짓말\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCVGtRTTE0UVdhQXlGb05xMmlndzVQcFVXWmhwVTdhRjhIY2FrdUREVEdIU2dVYW5VVjNXdHpadWN3TzdFczEtMll6M3lfV0x6MldYWjdYZHJrR3F6Yzd6QW9R0gFnQVVfeXFMTnRsalNpWS1Gcld6UkVucXBFSGpONHpmTzdSd0tuUFhjN1ZneHc0M01oWmNid3FPdmRsejZTYjU5a0hRdHpoLXBnS1JneFlPSVJDX0xJd21LVmZZTWJ1X2UwdEFOUkxhTQ?oc=5",
     "source": "뉴스1",
-    "outlets": 1
+    "outlets": 1,
+    "weapon": "드론"
    },
    {
     "date": "2026-09-16",
@@ -218,7 +218,8 @@
     "title": "후티 반군 \"홍해 사우디 얀부 석유시설·공군기지 타격\"",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tSzNNaW5tUjI4bFQwQlNJdHM0SVBFVEpaMkxFSkRPeElNMmVUN0U0M0JGSlRrLThvWFBJWDBlLUpyUVBJN3pPbEx1eGg2U1ktc05MTEFiMTRMUm_SAWBBVV95cUxQcm0ybTdjSHJxSGMwQ3pHakc5a2k5Rkc5X2NBNHlmV0YyazFzTzBQX1dvdW15QmJDSy1GVFZaRGZFd3RRYW5ySUpVcmZPQXVYeWZiV0lrSDdNRTVKYjRUM3c?oc=5",
     "source": "연합뉴스",
-    "outlets": 5
+    "outlets": 5,
+    "weapon": null
    },
    {
     "date": "2026-09-16",
@@ -232,7 +233,8 @@
     "title": "성지 메카도 드론 피격…美정부, 사우디 여행 재고 권고",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yUGdNc1RhZGo5ODgxTmZlZWVhcFFkYlhIS1lhYXl5bGwtcmRxb2dqWk45ZDFMb3BoWG5JS0Z6NWJDeEVKVnRhS3BhQ2VwMnhxaG5jalNldWxLQ1HSAWBBVV95cUxOaGNQVEQ3czlEdHpMQlNfM0lmQ3lJUlg2b1FrbmhhMXlTQTNTdnJDdkM2a0pKSTN5TkJjbFRFdkZXTS1xRTB5ZFdRYVVuSjhyX19qeFRrQVpRdEVHNFpxY1g?oc=5",
     "source": "연합뉴스",
-    "outlets": 4
+    "outlets": 4,
+    "weapon": "드론"
    },
    {
     "date": "2026-09-16",
@@ -246,7 +248,8 @@
     "title": "사우디 \"성지 메카로 발사된 후티 드론 격추\"",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90Y1dWRUtXUVdZZFVpMlNsbklxaV9yaU9aNXR3RHhKZFFIMWJXWV9WMHdQci00bmhKemxOUlJ1NFl3bHBPeW5hWFV1QmkyaUtObEpodExrSzNvb03SAWBBVV95cUxPTGdUMnI1TEoweVo5M2QzUVNWUEZUSldPdGYzYTZGenRiT3ZUeHBiUzdodTZqRE43RzNnYkM0RjI2cW1kYlVpNGRBTDNueXVhTTd2Y3FfXzN4MmsxLWpaY0M?oc=5",
     "source": "연합뉴스",
-    "outlets": 6
+    "outlets": 6,
+    "weapon": "드론"
    },
    {
     "date": "2026-09-16",
@@ -260,7 +263,8 @@
     "title": "사우디 메카 피격... 美 ‘3단계 경보’ 발령 “여행 재고하라”",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQnQ1UmkteFRuWWU5d2FZS24takZUN3BSUGdfUUtVV296a0FleXBWVGhGdHpPWjl2dGxkZXM1YlJITlBvam55RlNydy1WWW5ZYm56WnlzOGlIdG1FeUE4QXE0Ynl1cTBQVmg3cmZYWURESDJFQzI4NDVCUEJBOEE5S1ppOHllbEs0Tk4wUXh6c0s0VXVKQjdkSXFzdTlnQQ?oc=5",
     "source": "조선일보",
-    "outlets": 1
+    "outlets": 1,
+    "weapon": null
    },
    {
     "date": "2026-09-15",
@@ -274,7 +278,8 @@
     "title": "사우디-후티 교전 속 성지 메카·한인 거주 제다에 ’위협 경보’",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yWEM0QjYwRE9WZWJiR1I1RWlJRVdTRk1ydzdaUEdKMnFzRGRnOVkwUFhNdVpPSmhfNjdSRVA0LTMxLU85bnVHZUVwYTJGV2xZRnhNOXVCNnJPVWxkLTMxQmFhcVAwdVE?oc=5",
     "source": "연합뉴스",
-    "outlets": 1
+    "outlets": 1,
+    "weapon": null
    },
    {
     "date": "2026-09-15",
@@ -288,7 +293,8 @@
     "title": "사우디-후티 교전 격화…성지 메카에도 첫 위협경보",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NNW5rVUZrOVN5Vm1FMmlaMXdBeE5rczc0LXQ3V0RMZnJyaFZKb0lBVkV3VUdJUkZfZTlybC0wNW5vV1pLRl9HTFRNTkZHbGNpSUI3aWp5N0habzTSAWBBVV95cUxPZXdJcHAtazdWNmFJQjN5WTh6V09FZUMyeERHMkhKS21SVGZXRm5IY3h0bXl6MThvU29fV2xYNS1UUWVmSmRpdm5RVkFKTktSVUJMaDlabUc0MmVmQUE5MFU?oc=5",
     "source": "연합뉴스",
-    "outlets": 2
+    "outlets": 2,
+    "weapon": null
    },
    {
     "date": "2026-09-15",
@@ -480,12 +486,12 @@
   "history_days": 6,
   "history_since": "2026-09-12",
   "today": "2026-09-17",
-  "last_ok_at": "2026-09-17T04:05:22Z"
+  "last_ok_at": "2026-09-17T04:14:20Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:05:23Z",
+  "fetched_at": "2026-09-17T04:14:22Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -606,12 +612,12 @@
    "얀부": 2,
    "메카": 2
   },
-  "last_ok_at": "2026-09-17T04:05:23Z"
+  "last_ok_at": "2026-09-17T04:14:22Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:05:23Z",
+  "fetched_at": "2026-09-17T04:14:23Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -4615,12 +4621,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-17T04:05:23Z"
+  "last_ok_at": "2026-09-17T04:14:23Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:05:26Z",
+  "fetched_at": "2026-09-17T04:14:45Z",
   "kr": [
    {
     "date": "2026-09-17",
@@ -4695,14 +4701,14 @@
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVEJzT2tvVm9EemJDVkxBa1BYRWNpWGdLcHZ5TnJaQXdjZ3hwdWkzTmUxWFVNWUdGd0hhQzlpenNXSmlLY1l0TlUwV3FEVUp3Tjd0OWhFX0NYRHQ2NEhMRk9PZjJWUjdPeW9uNEFWN25ldFE1Zk1Uam8tTlNRNjcxblNPbEpnemlIaVhLWnpMQm1fRkk4b3YxQlMxSEk4WFY1X3VxUGVUVmpVd1HSAbABQVVfeXFMUEViOUdBeFlLcDgzTGQzVkdROExzV2ctQ2h5UkhaMXlzV1dVSmhZamxvWF94MUQyZVhXRWZRTHU2NThtYXNudEo1Z0V4UUVFN0NHdGVva0RQdDFNOFpoc0NGQ0gybjU1TG5ibmY0WVZFd3hTeU5ESnd5aHIwVHBaQVoxOUhlNWVTZzUyQnN2Ri1wSl80X1luc0JLR24zemtzeXZyRFFJMWREN3ZjSUJqTjE?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-17T04:05:26Z"
+  "last_ok_at": "2026-09-17T04:14:45Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:05:27Z",
+  "fetched_at": "2026-09-17T04:14:47Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 26,
+  "count": 28,
   "baseline": null,
   "baseline_n": 0,
   "tier": "정상",
@@ -4710,15 +4716,15 @@
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
    "2026-09-17T02": 38,
-   "2026-09-17T04": 26
+   "2026-09-17T04": 28
   },
-  "last_ok_at": "2026-09-17T04:05:27Z"
+  "last_ok_at": "2026-09-17T04:14:47Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-17T04:05:27Z",
-  "last_ok_at": "2026-09-17T04:05:27Z"
+  "fetched_at": "2026-09-17T04:14:47Z",
+  "last_ok_at": "2026-09-17T04:14:47Z"
  },
  "summary": {
   "level": 4,
@@ -4741,7 +4747,7 @@
   "history": {
    "2026-09-17": 4
   },
-  "computed_at": "2026-09-17T04:05:27Z",
+  "computed_at": "2026-09-17T04:14:47Z",
   "inputs_ok": {
    "mofa": false,
    "events": true,
