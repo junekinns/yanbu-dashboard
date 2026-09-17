@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T06:02:57Z",
+ "generated_at": "2026-09-17T11:33:16Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-17T06:02:57Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +188,31 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-17T06:02:57Z"
+  "last_ok_at": "2026-09-17T06:02:57Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fc486c29df0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-17T11:33:16Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T06:03:16Z",
+  "fetched_at": "2026-09-17T11:34:17Z",
   "events": [
+   {
+    "date": "2026-09-17",
+    "time": "09:52",
+    "iso": "2026-09-17T09:52:57+03:00",
+    "city": "메카",
+    "type": "피격",
+    "weapon": "드론",
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "성지 메카도 드론 피격… 미, 사우디 여행 재고 권고",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFMy1DWnp4SGtpcWVScjNDYmt4WUJBc1FKUEJJWkwzVzVpZmNBWXlsZGMwUVdoY1J1aWFfT1M0eG9NODRpbkVVNGpBal82REFsaHdVNWVRaHRIN2lrLUs0?oc=5",
+    "source": "한국일보",
+    "outlets": 1
+   },
    {
     "date": "2026-09-17",
     "time": "07:26",
@@ -412,11 +427,11 @@
    },
    "메카": {
     "7d": {
+     "피격": 2,
      "요격": 2,
-     "피격": 1,
      "경보": 2
     },
-    "total7d": 5,
+    "total7d": 6,
     "prev7d": null,
     "prev_total": null
    },
@@ -508,12 +523,12 @@
   "history_days": 6,
   "history_since": "2026-09-12",
   "today": "2026-09-17",
-  "last_ok_at": "2026-09-17T06:03:16Z"
+  "last_ok_at": "2026-09-17T11:34:17Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T06:03:17Z",
+  "fetched_at": "2026-09-17T11:34:18Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -634,12 +649,12 @@
    "얀부": 2,
    "메카": 2
   },
-  "last_ok_at": "2026-09-17T06:03:17Z"
+  "last_ok_at": "2026-09-17T11:34:18Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T06:03:17Z",
+  "fetched_at": "2026-09-17T11:34:19Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -1819,26 +1834,40 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-17T06:03:17Z"
+  "last_ok_at": "2026-09-17T11:34:19Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T06:03:20Z",
+  "fetched_at": "2026-09-17T11:34:21Z",
   "kr": [
    {
     "date": "2026-09-17",
-    "published": "2026-09-17T04:26:00+00:00",
-    "source": "동아일보",
-    "title": "사우디 송유관 펌프장 2곳 파손…후티 반군 “F-15 격추” 영상 공개",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFSjNocWl2Ym9FSWlYbm9tdGVyMUpiY25uMkZFSzNMcXh3eUJnNmplams1dnBjTjVxNWFNRU14SURnc3ZQdjdQc3pxbXdiOFl1LWdZN2l2OEs1Tkx4N1AxTWpEdEpBeDhqUmhsMVFpYlRJQk3SAWZBVV95cUxOOGNoc0NKaXB2bW9HeTlSeEdzaFM5Z0JUcHVaNFdpaHBrdGxXN2N5cWpQNFBOZGh2YlZKNmJPdFlwYmxENUczV1d1S1MyejRuVTV6Z3ZNTVNXUWVZczlVUUswUDBNeVE?oc=5"
+    "published": "2026-09-17T10:45:49+00:00",
+    "source": "뉴스1",
+    "title": "사우디, 후티 막을 요격 미사일 부족…영·프 등에 지원 호소",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RGxNdXh3OWhkT1BKNEFQSDV1cW16eTFrREhJM21JSVZNSE51Rm1kZGstRUZGQ0ZWcXYzLW1TYi1EQWVYWG1MYnlHYXZXYWZ6SGY4azBaWTdmRkI1WjQwSU930gFnQVVfeXFMTlNUSFU3cm1CaGE3QWN6T2JrVjlSX2Q0Z0tQNm5tNVkzakwwX2NPOUl6WTRYRlFVSTJERnlveEVoMURhM0hZLWFFakJqaE1rN1ZSVDg5S1ZVYXByWlFnNmJyejB5M2RiTQ?oc=5"
    },
    {
     "date": "2026-09-17",
-    "published": "2026-09-17T02:20:00+00:00",
+    "published": "2026-09-17T07:01:00+00:00",
     "source": "한겨레",
-    "title": "후티 “사우디 F-15 전투기 격추”…영상·사진 공개",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWElQb1VhS1NMb3ZNZFNyeEtRRU9YRjVPMzMwSk1TN2hudXI2cDlyY1R2UFoxQWJBNk5FNkc5RXRoV3ZsM3dSUVY1V2s0TGNVeUg2XzBLQmEtajQ0UWdmYlRERWNSN2FLclBuOXR0VnRJeTdEMUJNZVZrR01WWTl1V0F3?oc=5"
+    "title": "후티, 사우디 공세 강화…메카 공격 부인하고 “석유시설 타격” 주장",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tc0RlUjUySzBtYzRfZ182dDFucjRfcmVlUjNNSXBpT3VVdzhuX1I1d0NYTmRNMDF4b0NpWHJEUnNfYTRQMlZLQXhvVlF2ZlI5ZzA4ODZOMlhLNWxNTGFYc3VSOUY5Y25obk9HM09VWWo4ME0?oc=5"
+   },
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T05:59:00+00:00",
+    "source": "한겨레",
+    "title": "사우디, 후티 피해 오만으로 석유 수출길 바꿔…유가 소폭 하락",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44LWN4OTlvOHNtOVFFTUdLS0ZpSDFUc2pjWGlQTzhGMEdCWldnaTNIRGp2ZjRPaHNuUjRoU196Qm45akVpLWdaZHJpaTJEOVNfN0FxMU9pZF9MZmdJb3ZSbnJRUFdWall5TjF3ZVY5eWw5MXc?oc=5"
+   },
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T03:33:36+00:00",
+    "source": "뉴스1",
+    "title": "中미사일 꺼내 예멘에 쏜 사우디…\"후티·이란 모두에 전략적 경고\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11M0E4dUdaM09meDB2aE01RXM0Z1Y0TTRaLU1ocEFnWnJaYWRLVFBhNk5ZQVNYX3V1bHh5RFQ5YVBCeF85dC1lUmJ3ZGRnZFp4dlkyOXJMN3pWQ2Z6dU45ZDFR0gFnQVVfeXFMUFJHRHRhNjlocTRrNGcwWVpLdG5oVzRXS1hqVEI4bmk4aHplekdlVXhWQ2htbzJndTBpajZ0VVFhN1kxbDFwUDRCVDd1VmN6NFo2Qjg1bVdMTkxaOTlSNmdxNXhLeDVPTQ?oc=5"
    },
    {
     "date": "2026-09-17",
@@ -1846,23 +1875,23 @@
     "source": "KBS",
     "title": "“송유관 1달 중단 시 1.2억 배럴 차질”…사우디발 원유 대란 우려",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzWDZUWmRtUThIWUszV0Ewal81OUg0RW55U3VlTHR1bWNZR0dJb2VnNFdTYnJ6Ty1kX0xBVUVqb0Z2MU5uUGdsT3FKVm5TUXhlTWFEMHA2ZjJtMVk?oc=5"
-   },
-   {
-    "date": "2026-09-17",
-    "published": "2026-09-17T02:02:08+00:00",
-    "source": "연합뉴스",
-    "title": "사우디발 원유대란 오나…\"송유관 1달 중단시 1.2억배럴 차질\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96WUJwQlhPZXc3YVhONFVOSkwxNVdkcnJkUzJVM2FpUEVlalpZSGo2VTJQZUV2TXdwUHp4TlNtTFJaYlVEUUV3RTNiNDZ3LUF3cnd0bHRGVmpneW_SAWBBVV95cUxOdW1vNnNmalhRZU9vZU1UM3NWUDF0aXozTFliYTRoYzhMS0M3NWwwTmxDQU52VnJRTmZVNlpQQXFkYS13SnZWelpRem55QjJZZjJLd1RhNVZENDZoX3F1ZHI?oc=5"
-   },
-   {
-    "date": "2026-09-17",
-    "published": "2026-09-17T00:53:36+00:00",
-    "source": "MBC",
-    "title": "사우디, 후티에 첫 탄도미사일 공격 정황‥\"중국산 추정\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pYWdvYlRkTlRkZUpldF9jUk0wZUFncVRlQlVRV0hXSW9HQVlaVFEyeGhscjhGSFFoQkdmN2xhNFltLVUzY1d2QWJnQ21uc0lFcy1aQUo3VURZdkZlRDJhMmhWcTdvRXRxYlR2UkM4VFNYQ2lB0gF0QVVfeXFMTkNRQjhQZzBiY1lUNEwwZXRqdzVTME1BMUpfRlY0VDVDNjk5d2hKNkktblVZWl8xN29sblZnYTBsVkNBalBROHpKeWZqZ2VFNEk1YUozMUMxelBRMU50ZGRrOXJ0R2c2RHlQNnlSUkdpNVlnM1k?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T09:45:15+00:00",
+    "source": "Al Jazeera",
+    "title": "From Yanbu to Sohar: Tracking Saudi Arabia’s alternative oil routes",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTloQUtCSlh4UWxLNkt6TXZzeWFWamxxdFRSOEdoV2R2VGhWR2llNGViSG0wYnFhRUVpSmJ3Vy1FdUFXbTB3cXpvS3BJX3pTUGRnUVBjaU1CeFJoZG9MZ3VSNFNSR0NnVTBMTzNuUWlSOThPN1lFU2ttSU9aaVZHaUNRY1g1cC1XWkdYXzA1OVB0ZHpoNnhRd2ZJakNtdlg4VmxaT0FVN1hwQdIBrwFBVV95cUxQTXBBYjhQNjVIbl9kbnJQU3YwWkdDN0ZXZF9hSVltc3hwMDM2NmpmdmFmQTlHUllvbjg5SktlRWw1N09teGN2Rmd0eXhvRVRPRHlMQmlIaWhTbnB5Z2xZdzZyMm1tVHVhMHBfVFZocTB3ajhlSEg2aVc2cGdsaHFZcmt5NlRidFNrUV9FVm8wY2Vmcm5tYkMwQm52TUgyOWhMYldWNGttbk9heFBhNUtn?oc=5"
+   },
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T05:38:36+00:00",
+    "source": "CNN",
+    "title": "Houthis release video claiming to show downed Saudi F-15 fighter as Iran-backed rebels press their lightning advance",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVzlqeTZUN0Vtd1g3cjZKczlGcHc2QVJPak9lWVBvdGNrZjM4TWNZNzN3ZjREWjFtWDlMVnRmcTkxMjR0eXlIb0tfRF9iNjFYVElPX1ZSXzhOVkQ5bjh6VjdCM2JJTFlTM0lyZ1FpQ0gwc1lCTERxMXFaS3VVWHRLVWhiRUNCYlk?oc=5"
+   },
    {
     "date": "2026-09-17",
     "published": "2026-09-17T03:52:49+00:00",
@@ -1871,40 +1900,26 @@
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVzdzQ25BRHRlMGRMZERRMDRkTmh3LTg1SERSZkpCRFEwMS1PZGhKbm02UUZKbC0zYUw1endPMXJyUWpEWFM5WXNIQmd1VS14VzdiMWt0Q0MxV0lLSmdXODA3RnNtS00zZ2oyNWpyR1lpMkt0b1NDcVBPUERjaWFCTi1kUVZSODFJNWZjZ0dyeUVsQXdHRnNrV0tGLTdqMENNLVlLVXdBR2VBNDhhX1VzaTlFdDLSAboBQVVfeXFMTTVXUndYbGpxaWEzZ2hJUC1mdWtZcWI5YkNHS3lWZ0lNMENDaHp3Z2oyVEoyM1NUNS0wN3hDc1B3cDlJSGNPSmNqTFllSlQwYTlIend4MjR6M2oyMzJPUXpVaHp4eHlKVEhFQ2IzbWpGc0xfMWNGbEoxM2hmSC1TY3hwSVNLM29CdG1SUEd1RnpObnI5UkFSdHNBWmdTMWVnSUZTRC1adFQ0cDBPZGlXZEpNSVVBR3dVdHhB?oc=5"
    },
    {
-    "date": "2026-09-16",
-    "published": "2026-09-16T16:38:32+00:00",
-    "source": "Reuters",
-    "title": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5"
+    "date": "2026-09-17",
+    "published": "2026-09-17T01:59:00+00:00",
+    "source": "CNBC",
+    "title": "Oil extends losses as Saudi Arabia reportedly offers ship-to-ship crude transfers after pipeline hit",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdEVJc0oxa0dmMXN1eW1DbTZWSDB5TGpPUGxaNEtRWFpITEZvUTNVQnczYkdkX1NUV2JIejl2Y0V0MmNWc2U0WmFrLV9GUWRNUHR3Rmk4eHRYa2d0MmFkQ1ZWQ0o3RTZQMGdPbFNNeTQzYVhtYlVacXFoaUlwaEh0RmJyWmI4UdIBiwFBVV95cUxOcHdJVXpwdHFBbkc5M1E4RzUxOXN4emVFS2gyajNLRVI2b0JtdllRWXF6TE5DQ0pPTFhSaUNTNGNVb05NY3RUdmtsZ1pNaGN2aG1ManlLOWtqeTBKSjNBbmRCdFVSb3B6MXljcnBkRHMyQmVjQnZJWWpIM3k2RVN4U0VrVzJkeVJndE1Z?oc=5"
    },
    {
     "date": "2026-09-16",
-    "published": "2026-09-16T15:47:30+00:00",
-    "source": "Bloomberg",
-    "title": "Saudis Seek to Resume Half of Key Oil Pipeline Within Days",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaHRaZWVPR1BiNFo5RlMxTW9hUk1BZTUwd0hyUFNzYkRmeE8tbFFnOG9fSFZVTEFMQmx0QXo4Q0gwVHlzbkppeGRaSVBXQVM5aVVGVzhlT0h4cXdZWUI2TEswNEo1TEw1S0pMRjkyNUtENTNNd3hYaS10SUFEODdFcGVfNVkwUWZfQkM2VUNESzE1dGFrVDZhcmxmaFlyVnNkcDVZMHoyS0hha19RTXc?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T13:24:01+00:00",
-    "source": "Financial Times",
-    "title": "Chinese oil prices hit record highs after attacks on Saudi pipeline",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNenN5ekEzNkpYSjhXa2lGdU5YaFhDWlZaSGNIMjUyRXNqT29IZ25HR2RzZWoxaVhCVFNUbzYtZTNmY25FSkpoZktXSEVjeUg1Unk5UWFGVU5YSzdMRWZvWXNybXZsYmp0OHFfX0ZUVDJ4X0lsWmJ5c0luTGVETzhVOWJlRG4?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T10:41:21+00:00",
-    "source": "NBC News",
-    "title": "Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2pLVUdEbDUtZmVUNXBKNlVkTkY0c25fN1ltQUw4YUxPbEdEMzBXOHY4MGE4dVdzLVlsZE5wcndULWFjN2l1Um16N1FNNGRPUzkzZnJRMHNsbU9vQnNiYURXNmVDRWlOcG9tX3VlSjVydHVPZnh2T1FOMFZxNmxMMmY3SHZobkxZNFp1NDZ3MWpFWDBwM3Q4QUMtYnQteHFHQUNUZzNXWXM5c25neEZiQkxjMWd3Zw?oc=5"
+    "published": "2026-09-16T19:55:00+00:00",
+    "source": "AP News",
+    "title": "Saudis seek allies’ help as missile defenses run low in fight with Houthis, officials say",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNkFPWXV5ejJIcnZYZEdJUHRDSVRIZk5Tbzd6SWlNSS1IOGc3MGVCMkNhdFZXU3RlcWxLa3ljMkt6M0hJWlpXSmlFQjU5cDV2S284bVN6ZXd3X2dEOWVhclRLVW5YT2tQRXFiMV96Q19HRDM1bGZhNzlJc0Rxak00eVVTRnN3SVU0aXY1Wm93QWtwN0dBdzU4V1RRZnlkczRva2NrYg?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-17T06:03:20Z"
+  "last_ok_at": "2026-09-17T11:34:21Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T06:03:21Z",
+  "fetched_at": "2026-09-17T11:34:23Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 38,
   "baseline": null,
@@ -1915,14 +1930,15 @@
    "2026-09-16T16": 38,
    "2026-09-17T02": 38,
    "2026-09-17T04": 29,
-   "2026-09-17T06": 38
+   "2026-09-17T06": 38,
+   "2026-09-17T11": 38
   },
-  "last_ok_at": "2026-09-17T06:03:21Z"
+  "last_ok_at": "2026-09-17T11:34:23Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-17T06:03:21Z",
-  "last_ok_at": "2026-09-17T06:03:21Z"
+  "fetched_at": "2026-09-17T11:34:23Z",
+  "last_ok_at": "2026-09-17T11:34:23Z"
  }
 }
