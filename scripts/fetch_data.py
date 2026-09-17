@@ -233,8 +233,10 @@ def fetch_firms(previous):
     persistent = {c for c, ds in cell_days.items() if len(ds) >= 4}
     anomalous = [h for h in hotspots if cell_of(h) not in persistent]
 
-    # 타일·평시는 없앴다(며칠에 한 번 바뀌는 그래프는 장식이라는 판단). 지도 화점 레이어용으로만 남긴다.
-    result["hotspots"] = sorted(anomalous, key=lambda h: (h["date"], h["time"]))[-500:]
+    # 타일·평시는 없앴다(며칠에 한 번 바뀌는 그래프는 장식이라는 판단). 지도 화점 레이어용으로만 남기되,
+    # 추적 도시 반경 ~65km 안의 것만 — 사우디 박스 전체를 그리면 쿠웨이트·이라크 유전 플레어가 지도를 덮는다.
+    near_city = lambda h: any(abs(h["lat"] - p["lat"]) <= 0.6 and abs(h["lon"] - p["lon"]) <= 0.6 for p in PLACES if p["lat"])
+    result["hotspots"] = sorted((h for h in anomalous if near_city(h)), key=lambda h: (h["date"], h["time"]))[-300:]
     result["ok"] = True
     return result
 

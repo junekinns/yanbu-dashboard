@@ -149,6 +149,8 @@ description: "Task list for 도시 단위 재편 · 뉴스 파생 신호 중심�
 - [X] T034 지도 간결화: 표에 있는 도시만 이름 라벨, 나머지는 작은 점. 범례 축약(단계 항목 제거).
 - [X] T035 사건 아이콘: `fetch_data.py`에 `WEAPON_PATTERNS`(드론/미사일, 기사 제목 기준)로 `events[].weapon` 추가(이력 병합 시 보존). `app.js` `L.divIcon` SVG — 모양 = 무기(미사일/드론/기타), 색 = 유형, 6시간 이내 pulse. 궤적·경로 시뮬레이션은 데이터가 없어 하지 않음(README에 명시).
 
+- [X] T036 지도 화점 정리: 사우디 박스 전체(쿠웨이트·이라크 유전 플레어 포함) 312건이 지도를 덮어, 추적 도시 반경 ~65km(0.6°) 안의 화점만 유지(7일 147건, 72h 뷰 ~50건). `fetch_firms` `near_city`.
+
 ## Dependencies & Execution Order
 
 - T001 → T002~T004(같은 파일, 순차) → T005 검증 → 이후 스토리.
