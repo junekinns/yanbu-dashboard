@@ -36,7 +36,7 @@ const state = { data: null, hours: 72, base: "dark", map: null, layer: null, bas
 
 function cityRows() {
   const d = state.data, m = d.mofa || {}, tempo = d.events?.tempo || {}, mentions = d.telegram?.mentions7d || {};
-  const cutoff = Date.now() - 30 * 864e5, pinned = new Set(d.summary?.pinned || []);
+  const cutoff = Date.now() - 30 * 864e5, pinned = new Set(d.pinned || []);
   const latestChange = {};
   (m.changes || []).forEach((c) => { if (Date.parse(c.at) >= cutoff && !latestChange[c.city]) latestChange[c.city] = c; });
   return (m.places || []).map((p) => {
@@ -47,33 +47,40 @@ function cityRows() {
   }).sort((a, b) => (b.level || 0) - (a.level || 0) || b.tempo.total7d - a.tempo.total7d || a.name.localeCompare(b.name, "ko"));
 }
 
-// ---------------------------------------------------------------- 위기 단계 · 헤드라인
+// ---------------------------------------------------------------- 상단 상태: 공식 척도(외교부 단계) + 사실
 
-function renderCrisis() {
-  const s = state.data.summary, el = document.getElementById("crisis");
-  if (!s || s.level == null) { el.className = "crisis"; el.innerHTML = ""; return; }
-  const hist = Object.entries(s.history || {}).slice(-7);
-  el.className = `crisis lv${s.level}`;
-  el.innerHTML = `
-    <div class="crisis-num">${s.level}</div>
-    <div class="crisis-body">
-      <div class="crisis-label"><strong>${esc(s.label)}</strong> <span class="muted">${s.level}/5 · 자체 기준${s.stale ? " · 계산 실패, 이전 값" : ""}</span></div>
-      <div class="crisis-why">${(s.reasons || []).map((r) => `<span>${esc(r)}</span>`).join("") || `<span class="muted">점수를 낸 신호 없음</span>`}</div>
-      <div class="crisis-strip">${hist.map(([d, l]) => `<span class="lv${l}" title="${d}">${l}</span>`).join("")}</div>
-    </div>`;
-}
+function renderStatus() {
+  const d = state.data, m = d.mofa || {}, el = document.getElementById("status");
+  const rows = cityRows();
+  if (!rows.length) { el.className = "status"; el.innerHTML = `<p>외교부 데이터 수집 실패${staleTag(m)}</p>`; return; }
+  const pinned = rows.filter((p) => (d.pinned || []).includes(p.name));
+  const top = Math.max(...pinned.map((p) => p.level || 0), 0), s = styleOf(top);
+  const atTop = pinned.filter((p) => (p.level || 0) === top).map((p) => p.name);
+  const below = pinned.filter((p) => (p.level || 0) !== top);
+  const belowLevel = below.length ? styleOf(below[0].level).label : null;
 
-function renderHeadline() {
-  const m = state.data.mofa || {}, el = document.getElementById("headline");
-  if (!(m.places || []).length) { el.innerHTML = `<p>외교부 데이터 수집 실패${staleTag(m)}</p>`; return; }
-  const high = cityRows().filter((p) => p.level >= 3);
-  const recent = (m.changes || []).filter((c) => Date.now() - Date.parse(c.at) < 30 * 864e5).slice(0, 2);
-  const parts = [
-    high.length ? `<span class="dot level-3"></span><strong>출국권고 ${high.length}곳</strong> <span class="muted">${high.map((p) => esc(p.name)).join(" · ")}</span>` : "출국권고 없음",
-    recent.length ? `<strong>단계 변경</strong> ` + recent.map((c) => `${esc(c.city)} → ${esc(c.to_name || c.to)} (${fmtMD(c.at)})`).join(", ") : `30일 내 단계 변경 없음`,
-    m.last7d != null ? `이번 주 공지 <strong>${m.last7d}건</strong> <span class="muted">(평시 ${m.baseline})</span>` : "",
+  const since72 = Date.now() - 72 * 3600e3;
+  const recent = (d.events?.events || []).filter((e) => new Date(e.iso) >= since72);
+  const hits = recent.filter((e) => e.type === "피격" || e.type === "공습");
+  const mentions = d.telegram?.mentions7d || {};
+  const pinnedMentions = (d.pinned || []).filter((c) => mentions[c]).map((c) => `${c} ${mentions[c]}회`);
+  const changes = (m.changes || []).filter((c) => Date.now() - Date.parse(c.at) < 30 * 864e5).slice(0, 2);
+  const facts = [
+    hits.length ? `72시간 피격·공습 <b>${hits.length}건</b> (${[...new Set(hits.map((e) => e.city))].join(" · ")})`
+      : recent.length ? `72시간 경보·요격 <b>${recent.length}건</b>` : "72시간 사건 없음",
+    pinnedMentions.length ? `후티 7일 지목 <b>${pinnedMentions.join(" · ")}</b>` : "후티 7일 주요 도시 지목 없음",
+    changes.length ? `단계 변경 <b>${changes.map((c) => `${c.city} → ${c.to_name || c.to} (${fmtMD(c.at)})`).join(", ")}</b>` : "30일 내 단계 변경 없음",
+    m.last7d != null ? `이번 주 외교부 공지 <b>${m.last7d}건</b> <span class="muted">(평시 ${m.baseline})</span>` : "",
   ].filter(Boolean);
-  el.innerHTML = `<p>${parts.join(" · ")}${staleTag(m)}</p>`;
+
+  el.className = `status ${s.cls}`;
+  el.style.setProperty("--lv", s.color);
+  el.innerHTML = `
+    <div class="status-level"><span class="dot ${s.cls}"></span>${esc(s.label)}</div>
+    <div class="status-body">
+      <div class="status-cities"><strong>${atTop.map(esc).join(" · ")}</strong>${belowLevel ? ` <span class="muted">· 그 외 주요 도시 ${esc(belowLevel)}</span>` : ""}${staleTag(m)}</div>
+      <div class="status-facts">${facts.map((f) => `<span>${f}</span>`).join("")}</div>
+    </div>`;
 }
 
 // ---------------------------------------------------------------- 도시 현황표
@@ -303,7 +310,7 @@ function renderMap() {
 // ---------------------------------------------------------------- shell
 
 function renderAll() {
-  renderCrisis(); renderHeadline(); renderCityTable(); renderEvents(); renderTelegram(); renderNotices(); renderNews(); renderMap(); renderFlightsTile(); renderNotams();
+  renderStatus(); renderCityTable(); renderEvents(); renderTelegram(); renderNotices(); renderNews(); renderMap(); renderFlightsTile(); renderNotams();
 }
 
 function setLastUpdated(iso) {
@@ -357,7 +364,7 @@ async function main() {
     renderAll();
     setLastUpdated(state.data.generated_at);
   } catch (err) {
-    document.getElementById("headline").innerHTML = "<p>데이터 로드 실패</p>";
+    document.getElementById("status").innerHTML = "<p>데이터 로드 실패</p>";
     console.error(err);
   }
 }

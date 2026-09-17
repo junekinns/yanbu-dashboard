@@ -76,9 +76,8 @@ PLACES = [
 ]
 PLACE_BY_NAME = {p["name"]: p for p in PLACES}
 # 표에 항상 보이는 도시: 가족(얀부), 가까운 대도시·공항(제다), 대사관(리야드), 아람코 본사(다란·담맘).
+# 상단 배지는 이 도시들 중 가장 높은 외교부 단계(공식 척도). 자체 점수는 만들지 않는다 — 의미가 없다.
 PINNED = ["얀부", "제다", "리야드", "다란", "담맘"]
-# 위기 단계 1~5. 점수 → 단계 문턱. 규칙은 crisis_summary()에 전부 있고 화면에 근거를 나열한다.
-CRISIS_LEVELS = [(0, "평온"), (2, "주의"), (4, "경계"), (6, "심각"), (8, "위급")]
 
 MOFA_BASE = "https://www.0404.go.kr"
 MOFA_COUNTRY_URL = f"{MOFA_BASE}/ntnSafetyInfo/107/detail"
@@ -594,70 +593,6 @@ def fetch_flights(previous):
     return result
 
 
-# ------------------------------------------------------------ 위기 단계 (파생)
-#
-# "들어가자마자 위기 정도를 알 수 있는 숫자 하나". 새 데이터가 아니라 위 소스들의 점수 합이고,
-# 어떤 항목이 점수를 냈는지 reasons에 전부 적어 화면에 그대로 보여준다 — 근거 없는 숫자는 장식이다.
-
-def crisis_summary(output, previous):
-    mofa, ev, tg = output.get("mofa", {}), output.get("events", {}), output.get("telegram", {})
-    now = datetime.now(timezone.utc)
-    score, reasons = 0, []
-
-    levels = {p["name"]: p.get("level") or 0 for p in mofa.get("places", [])}
-    top = max(levels.values(), default=0)
-    if top >= 4:
-        cities = sorted(n for n, l in levels.items() if l >= 4)
-        score += 4
-        reasons.append(f"여행금지 {len(cities)}곳 ({' · '.join(cities)})")
-    elif top >= 3:
-        cities = [n for n, l in levels.items() if l >= 3]
-        pinned = [c for c in PINNED if c in cities]
-        score += 2
-        reasons.append(f"출국권고 {len(cities)}곳" + (f" — {' · '.join(pinned)} 포함" if pinned else ""))
-    rest = [l for l in levels.values() if 0 < l < 3]
-    if rest and statistics.median(rest) >= 2.5:
-        score += 1
-        reasons.append("그 외 전 지역 특별여행주의보")
-
-    recent = [e for e in ev.get("events", []) if (now - datetime.fromisoformat(e["iso"])).total_seconds() <= 72 * 3600]
-    hits = [e for e in recent if e["type"] in ("피격", "공습")]
-    if hits:
-        score += 2
-        reasons.append(f"72시간 내 피격·공습 {len(hits)}건 ({' · '.join(sorted({e['city'] for e in hits}))})")
-    elif recent:
-        score += 1
-        reasons.append(f"72시간 내 경보·요격 {len(recent)}건 ({' · '.join(sorted({e['city'] for e in recent}))})")
-    tempo = ev.get("tempo", {})
-    total7 = sum(t["total7d"] for t in tempo.values())
-    prev = [t["prev_total"] for t in tempo.values() if t.get("prev_total") is not None]
-    if prev and total7 >= 3 and total7 >= 2 * max(1, sum(prev)):
-        score += 1
-        reasons.append(f"사건 7일 {total7}건 — 이전 7일 {sum(prev)}건의 2배 이상")
-
-    mentions = tg.get("mentions7d", {})
-    pinned_m = [c for c in PINNED if mentions.get(c)]
-    if pinned_m:
-        score += 1
-        reasons.append(f"후티가 7일 내 {' · '.join(pinned_m)} 지목")
-    if mentions and max(mentions.values()) >= 5:
-        c = max(mentions, key=mentions.get)
-        score += 1
-        reasons.append(f"후티 표적 언급 집중 — {c} {mentions[c]}회/7일")
-
-    ups = [c for c in mofa.get("changes", [])
-           if (now - datetime.fromisoformat(c["at"])).days < 7 and (c.get("to") or 0) > (c.get("from") or 0)]
-    if ups:
-        score += 1
-        reasons.append(f"7일 내 단계 상향 {len(ups)}건 ({' · '.join(sorted({c['city'] for c in ups}))})")
-
-    level = max(i for i, (threshold, _) in enumerate(CRISIS_LEVELS, start=1) if score >= threshold)
-    history = dict(sorted({**previous.get("history", {}), TODAY_AST.isoformat(): level}.items())[-90:])
-    return {"level": level, "label": CRISIS_LEVELS[level - 1][1], "score": score, "reasons": reasons,
-            "pinned": PINNED, "history": history, "computed_at": now_iso(),
-            "inputs_ok": {k: bool(output.get(k, {}).get("ok")) for k in ("mofa", "events", "telegram")}}
-
-
 # ------------------------------------------------------------ main
 #
 # "시장 반응"(아람코 주가·타다울 지수) 지표는 시도했다가 뺐다: 야후
@@ -691,18 +626,13 @@ FETCHERS = {
 
 def main():
     previous = load_previous()
-    output = {"generated_at": now_iso()}
+    output = {"generated_at": now_iso(), "pinned": PINNED}
     for key, fetch in FETCHERS.items():
         prev = previous.get(key, {})
         started = time.monotonic()
         output[key] = carry_over(safe(fetch, prev), prev)
         # Actions 로그에서 어느 소스가 느린지/막혔는지 바로 보이게.
         print(f"{key}: ok={output[key]['ok']} {time.monotonic() - started:.1f}s" + (f" error={output[key]['error']}" if output[key].get("error") else ""), flush=True)
-    try:
-        output["summary"] = crisis_summary(output, previous.get("summary", {}))
-    except Exception as exc:  # 파생 계산이 깨져도 원천 데이터 저장은 막지 않는다
-        output["summary"] = {**previous.get("summary", {}), "stale": True, "error": f"{type(exc).__name__}: {exc}"}
-    print(f"summary: level={output['summary'].get('level')} score={output['summary'].get('score')} reasons={len(output['summary'].get('reasons', []))}", flush=True)
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
     with open(DATA_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=1)
