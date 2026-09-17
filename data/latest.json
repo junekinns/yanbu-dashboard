@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-17T04:16:39Z",
+ "generated_at": "2026-09-17T04:18:44Z",
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:16:39Z",
+  "fetched_at": "2026-09-17T04:18:44Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,12 +184,12 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-17T04:16:39Z"
+  "last_ok_at": "2026-09-17T04:18:44Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:16:44Z",
+  "fetched_at": "2026-09-17T04:19:03Z",
   "events": [
    {
     "date": "2026-09-17",
@@ -487,12 +487,12 @@
   "history_days": 6,
   "history_since": "2026-09-12",
   "today": "2026-09-17",
-  "last_ok_at": "2026-09-17T04:16:44Z"
+  "last_ok_at": "2026-09-17T04:19:03Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:16:45Z",
+  "fetched_at": "2026-09-17T04:19:04Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -613,12 +613,12 @@
    "얀부": 2,
    "메카": 2
   },
-  "last_ok_at": "2026-09-17T04:16:45Z"
+  "last_ok_at": "2026-09-17T04:19:04Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:16:46Z",
+  "fetched_at": "2026-09-17T04:19:05Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -1798,12 +1798,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-17T04:16:46Z"
+  "last_ok_at": "2026-09-17T04:19:05Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:17:48Z",
+  "fetched_at": "2026-09-17T04:19:08Z",
   "kr": [
    {
     "date": "2026-09-17",
@@ -1821,10 +1821,10 @@
    },
    {
     "date": "2026-09-17",
-    "published": "2026-09-17T01:59:00+00:00",
+    "published": "2026-09-17T02:02:08+00:00",
     "source": "연합뉴스",
-    "title": "[뉴스초점] 후티, 또 사우디 공격…美, 이란전 52조원 지출",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56eF9uTHVlbjVfRS1ZWnhkUFJFR3AtYTdPNEVjUW9BSnRzdWZmTVQ1dTFfNE9aMzhsRk5LQjFIbms4eVhhdWlKaC1DdjhEQlhLeUpHNjVlSTIwblE1UE5mZjNtQUpaZzQ?oc=5"
+    "title": "사우디발 원유대란 오나…\"송유관 1달 중단시 1.2억배럴 차질\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96WUJwQlhPZXc3YVhONFVOSkwxNVdkcnJkUzJVM2FpUEVlalpZSGo2VTJQZUV2TXdwUHp4TlNtTFJaYlVEUUV3RTNiNDZ3LUF3cnd0bHRGVmpneW_SAWBBVV95cUxOdW1vNnNmalhRZU9vZU1UM3NWUDF0aXozTFliYTRoYzhMS0M3NWwwTmxDQU52VnJRTmZVNlpQQXFkYS13SnZWelpRem55QjJZZjJLd1RhNVZENDZoX3F1ZHI?oc=5"
    },
    {
     "date": "2026-09-17",
@@ -1842,6 +1842,13 @@
    }
   ],
   "en": [
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T01:59:00+00:00",
+    "source": "CNBC",
+    "title": "Oil extends losses as Saudi Arabia reportedly offers ship-to-ship crude transfers after pipeline hit",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdEVJc0oxa0dmMXN1eW1DbTZWSDB5TGpPUGxaNEtRWFpITEZvUTNVQnczYkdkX1NUV2JIejl2Y0V0MmNWc2U0WmFrLV9GUWRNUHR3Rmk4eHRYa2d0MmFkQ1ZWQ0o3RTZQMGdPbFNNeTQzYVhtYlVacXFoaUlwaEh0RmJyWmI4UdIBiwFBVV95cUxOcHdJVXpwdHFBbkc5M1E4RzUxOXN4emVFS2gyajNLRVI2b0JtdllRWXF6TE5DQ0pPTFhSaUNTNGNVb05NY3RUdmtsZ1pNaGN2aG1ManlLOWtqeTBKSjNBbmRCdFVSb3B6MXljcnBkRHMyQmVjQnZJWWpIM3k2RVN4U0VrVzJkeVJndE1Z?oc=5"
+   },
    {
     "date": "2026-09-16",
     "published": "2026-09-16T16:38:32+00:00",
@@ -1869,21 +1876,14 @@
     "source": "Financial Times",
     "title": "Chinese oil prices hit record highs after attacks on Saudi pipeline",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNenN5ekEzNkpYSjhXa2lGdU5YaFhDWlZaSGNIMjUyRXNqT29IZ25HR2RzZWoxaVhCVFNUbzYtZTNmY25FSkpoZktXSEVjeUg1Unk5UWFGVU5YSzdMRWZvWXNybXZsYmp0OHFfX0ZUVDJ4X0lsWmJ5c0luTGVETzhVOWJlRG4?oc=5"
-   },
-   {
-    "date": "2026-09-16",
-    "published": "2026-09-16T10:41:21+00:00",
-    "source": "NBC News",
-    "title": "Saudi Arabia accuses Houthis of attacking Mecca, warns holy city is a ‘red line’",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN2pLVUdEbDUtZmVUNXBKNlVkTkY0c25fN1ltQUw4YUxPbEdEMzBXOHY4MGE4dVdzLVlsZE5wcndULWFjN2l1Um16N1FNNGRPUzkzZnJRMHNsbU9vQnNiYURXNmVDRWlOcG9tX3VlSjVydHVPZnh2T1FOMFZxNmxMMmY3SHZobkxZNFp1NDZ3MWpFWDBwM3Q4QUMtYnQteHFHQUNUZzNXWXM5c25neEZiQkxjMWd3Zw?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-17T04:17:48Z"
+  "last_ok_at": "2026-09-17T04:19:08Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:17:54Z",
+  "fetched_at": "2026-09-17T04:19:09Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 30,
   "baseline": null,
@@ -1895,13 +1895,13 @@
    "2026-09-17T02": 38,
    "2026-09-17T04": 30
   },
-  "last_ok_at": "2026-09-17T04:17:54Z"
+  "last_ok_at": "2026-09-17T04:19:09Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-17T04:17:54Z",
-  "last_ok_at": "2026-09-17T04:17:54Z"
+  "fetched_at": "2026-09-17T04:19:09Z",
+  "last_ok_at": "2026-09-17T04:19:09Z"
  },
  "summary": {
   "level": 4,
@@ -1924,7 +1924,7 @@
   "history": {
    "2026-09-17": 4
   },
-  "computed_at": "2026-09-17T04:17:54Z",
+  "computed_at": "2026-09-17T04:19:09Z",
   "inputs_ok": {
    "mofa": true,
    "events": true,
