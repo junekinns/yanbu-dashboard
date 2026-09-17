@@ -136,6 +136,13 @@ description: "Task list for 도시 단위 재편 · 뉴스 파생 신호 중심�
 
 ---
 
+## Phase 10: 배포 후 추가 (US7 표 간소화 · US8 위기 단계) — 2026-09-17
+
+- [X] T029 [US8] `scripts/fetch_data.py`: `PINNED`·`CRISIS_LEVELS` 상수, `crisis_summary(output, previous)` — FR-026 규칙대로 점수·reasons·일별 history(90일) 계산; `main()`에서 모든 소스 수집 뒤 `output["summary"]`로, 예외 시 이전 summary + stale. 로그 한 줄 `summary: level= score= reasons=`.
+- [X] T030 [US8] `index.html` `#crisis` 섹션(헤더, 부제 아래) + 도움말에 규칙 전문; `app.js` `renderCrisis()`(큰 숫자·라벨·근거 목록·7일 띠); `style.css` `.crisis` (단계별 색 변수 `--lv`, 모바일 축소).
+- [X] T031 [US7] `app.js` `renderCityTable()`: `summary.pinned` ∪ 움직임 있는 도시만 기본 표시, 나머지는 `tr.more`의 `.quiet-toggle`로 접기/펼치기(`state.showQuiet`); `index.html` 카드 부제·도움말 갱신; `style.css` 토글·quiet 행.
+- [X] T032 검증: 로컬 실행 → `summary.level=4 심각, score 7, reasons 5`; Playwright — 배너 텍스트에 근거 5줄, 표 8행 + 토글 → 20행, 모바일 overflow 없음, 오류 0.
+
 ## Dependencies & Execution Order
 
 - T001 → T002~T004(같은 파일, 순차) → T005 검증 → 이후 스토리.

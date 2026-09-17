@@ -32,7 +32,23 @@ const fmtMD = (iso) => {
   return `${+m}/${+d}`;
 };
 
-const state = { data: null, hours: 72, base: "dark", map: null, layer: null, baseLayers: {}, charts: {}, markers: {} };
+const state = { data: null, hours: 72, base: "dark", map: null, layer: null, baseLayers: {}, charts: {}, markers: {}, showQuiet: false };
+
+// ---------------------------------------------------------------- 위기 단계
+
+function renderCrisis() {
+  const s = state.data.summary, el = document.getElementById("crisis");
+  if (!s || s.level == null) { el.className = "crisis"; el.innerHTML = ""; return; }
+  const hist = Object.entries(s.history || {}).slice(-7);
+  el.className = `crisis lv${s.level}`;
+  el.innerHTML = `
+    <div class="crisis-num" aria-label="위기 단계 ${s.level}">${s.level}</div>
+    <div class="crisis-body">
+      <div class="crisis-label">위기 단계 <strong>${esc(s.label)}</strong> <span class="muted">/ 5</span>${s.stale ? `<span class="muted small"> (계산 실패 — 이전 값)</span>` : ""}</div>
+      <ul class="crisis-why">${(s.reasons || []).map((r) => `<li>${esc(r)}</li>`).join("") || "<li>점수를 낸 신호 없음</li>"}</ul>
+      <div class="crisis-strip">${hist.map(([d, l]) => `<span class="lv${l}" title="${d}">${l}</span>`).join("")}<span class="muted small">최근 ${hist.length}일</span></div>
+    </div>`;
+}
 
 // ---------------------------------------------------------------- 도시 행 (표·헤드라인·지도 팝업이 공유)
 
@@ -84,8 +100,11 @@ function renderCityTable() {
     const diff = t.total7d - t.prev_total;
     return diff > 0 ? `<span class="up">▲ +${diff}</span>` : diff < 0 ? `<span class="down">▼ ${diff}</span>` : `<span class="flat">=</span>`;
   };
-  document.querySelector("#city-table tbody").innerHTML = rows.map((p) => `
-    <tr data-city="${esc(p.name)}">
+  const pinned = new Set(state.data.summary?.pinned || []);
+  const active = (p) => pinned.has(p.name) || p.tempo.total7d > 0 || p.mentions > 0 || !!p.change;
+  const shown = rows.filter(active), quiet = rows.filter((p) => !active(p));
+  const tr = (p, cls = "") => `
+    <tr class="${cls}" data-city="${esc(p.name)}">
       <td class="col-city"><button type="button" class="city-link">${esc(p.name)}</button></td>
       <td class="col-level"><span class="dot ${styleOf(p.level).cls}"></span>${styleOf(p.level).label}${p.change
         ? ` <span class="chg" title="${esc(p.change.from_name || p.change.from)} → ${esc(p.change.to_name || p.change.to)}">▲ ${fmtMD(p.change.at)}</span>` : ""}</td>
@@ -93,7 +112,11 @@ function renderCityTable() {
       <td class="col-total num">${p.tempo.total7d ? `<strong>${p.tempo.total7d}</strong>` : zero}</td>
       <td class="col-delta num">${delta(p.tempo)}</td>
       <td class="col-houthi num">${p.mentions ? `<span class="place-badge">${p.mentions}</span>` : zero}</td>
-    </tr>`).join("") || `<tr><td colspan="9" class="muted">외교부 데이터 수집 실패</td></tr>`;
+    </tr>`;
+  document.querySelector("#city-table tbody").innerHTML = (shown.map((p) => tr(p)).join("") +
+    (quiet.length ? `<tr class="more"><td colspan="9"><button type="button" class="quiet-toggle">${state.showQuiet ? "▲ 조용한 도시 접기" : `▼ 조용한 도시 ${quiet.length}곳 보기`} <span class="muted">(7일 사건·후티 언급 없음)</span></button></td></tr>` : "") +
+    (state.showQuiet ? quiet.map((p) => tr(p, "quiet")).join("") : ""))
+    || `<tr><td colspan="9" class="muted">외교부 데이터 수집 실패</td></tr>`;
 
   const houthi = `후티: 최근 7일 이 도시를 지목한 메시지 수 (상대측 발표 · 검증되지 않음)${staleTag(tg)}`;
   document.getElementById("city-note").textContent = ev.history_days == null ? houthi
@@ -103,6 +126,7 @@ function renderCityTable() {
 }
 
 document.getElementById("city-table").addEventListener("click", (e) => {
+  if (e.target.closest(".quiet-toggle")) { state.showQuiet = !state.showQuiet; renderCityTable(); return; }
   const btn = e.target.closest(".city-link");
   if (!btn) return;
   const marker = state.markers[btn.closest("tr").dataset.city];
@@ -299,7 +323,7 @@ function renderMap() {
 // ---------------------------------------------------------------- shell
 
 function renderAll() {
-  renderHeadline(); renderCityTable(); renderEvents(); renderTelegram(); renderNotices(); renderNews(); renderMap(); renderFlightsTile(); renderNotams();
+  renderCrisis(); renderHeadline(); renderCityTable(); renderEvents(); renderTelegram(); renderNotices(); renderNews(); renderMap(); renderFlightsTile(); renderNotams();
 }
 
 function setLastUpdated(iso) {

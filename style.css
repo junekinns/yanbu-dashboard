@@ -46,6 +46,27 @@ h1 { margin: 0 0 4px; font-size: 1.6rem; letter-spacing: -0.01em; }
 #workflow-link { text-decoration: none; }
 #workflow-link:hover { text-decoration: underline; }
 .subtitle { color: var(--muted); font-size: 0.9rem; margin: 0 0 10px; }
+/* 위기 단계 */
+.crisis { display: flex; gap: 16px; align-items: stretch; margin: 4px 0 14px; padding: 14px 16px; border-radius: 12px; background: var(--card-bg); border: 1px solid var(--border); border-left: 6px solid var(--lv, var(--border)); }
+.crisis:empty { display: none; }
+.crisis.lv1 { --lv: #3fa66b; } .crisis.lv2 { --lv: #e0b83a; } .crisis.lv3 { --lv: #e58a3d; } .crisis.lv4 { --lv: #e5533d; } .crisis.lv5 { --lv: #b8241a; }
+.crisis-num { font-size: 3.4rem; font-weight: 800; line-height: 1; color: var(--lv); min-width: 2.4rem; text-align: center; align-self: center; }
+.crisis-body { flex: 1; min-width: 0; }
+.crisis-label { font-size: 1.05rem; margin-bottom: 4px; }
+.crisis-label strong { color: var(--lv); font-weight: 700; }
+.crisis-why { margin: 0 0 8px; padding-left: 18px; font-size: 0.88rem; color: #c3ccd8; }
+.crisis-why li { margin: 1px 0; }
+.crisis-strip { display: flex; align-items: center; gap: 3px; font-size: 0.75rem; }
+.crisis-strip span:not(.muted) { display: inline-block; width: 18px; height: 18px; line-height: 18px; text-align: center; border-radius: 4px; color: #0f1720; font-weight: 700; }
+.crisis-strip .lv1 { background: #3fa66b; } .crisis-strip .lv2 { background: #e0b83a; } .crisis-strip .lv3 { background: #e58a3d; } .crisis-strip .lv4 { background: #e5533d; color: #fff; } .crisis-strip .lv5 { background: #b8241a; color: #fff; }
+.crisis-strip .muted { margin-left: 6px; }
+@media (max-width: 700px) { .crisis { gap: 12px; padding: 12px; } .crisis-num { font-size: 2.6rem; } }
+
+.city-table tr.more td { padding: 6px; border-top: 1px dashed var(--border); }
+.quiet-toggle { background: none; border: 0; padding: 4px 0; font: inherit; font-size: 0.85rem; color: var(--muted); cursor: pointer; }
+.quiet-toggle:hover { color: var(--text); }
+.city-table tr.quiet { opacity: 0.75; }
+
 .headline { margin: 0 0 14px; font-size: 0.95rem; }
 .headline p { margin: 0 0 4px; }
 .headline strong { font-weight: 600; }
