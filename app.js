@@ -73,7 +73,7 @@ function renderStatus() {
     m.last7d != null ? `이번 주 외교부 공지 <b>${m.last7d}건</b> <span class="muted">(평시 ${m.baseline})</span>` : "",
   ].filter(Boolean);
 
-  el.className = `status ${s.cls}`;
+  el.className = "status";
   el.style.setProperty("--lv", s.color);
   el.innerHTML = `
     <div class="status-level"><span class="dot ${s.cls}"></span>${esc(s.label)}</div>
