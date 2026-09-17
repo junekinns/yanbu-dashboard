@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-17T16:52:30Z",
+ "generated_at": "2026-09-17T20:13:01Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T16:52:30Z",
+  "fetched_at": "2026-09-17T20:13:01Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -170,6 +170,12 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-09-18",
+    "title": "후티 반군의 타이프 겨냥 드론 요격 및 인명피해 발생 관련 안전 유의",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321109/detail2?ntnCd=107",
+    "summary": "ㅇ 사우디 방위군은 9.17.(목) 타이프를 겨냥한 후티 반군의 드론이 요격되며 그 파편에 사망자 1명(예멘), 부상자 2명(사우디, 파키스탄), 물적 피해가 발생했다고 발표했습니다. ㅇ 타이프는 공군기지가 소재한 지역으로, 사우디 주도 아랍연합군은 지난 9.14.(월)에도 타이프 등지에 대한 후티 반군의 공격이 있었음을 밝힌바 있습니다. ㅇ 또한, 현재 …"
+   },
+   {
     "date": "2026-09-16",
     "title": "후티 반군의 메카 겨냥 드론 요격 관련 안전 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321108/detail2?ntnCd=107",
@@ -180,23 +186,17 @@
     "title": "후티 반군의 공격에 따른 인명피해 발생 관련 신변 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321107/detail2?ntnCd=107",
     "summary": "ㅇ 사우디 주도 아랍연합군은 9.14.(월) 후티 반군이 아브하, 카미스 무샤이트, 타이프에 대한 미사일, 드론 공격을 실시하여 민간인 13명이 부상을 입고 주택 7채, 차량 2대가 파손되었다고 발표하였습니다. ㅇ 앞서 9.12(토)에도 후티 반군의 공격으로 민간인 인명피해와 시설물 피해가 발생하는 등 민간의 피해가 이어지고 는 상황입니다. ㅇ 또한, 사우…"
-   },
-   {
-    "date": "2026-09-13",
-    "title": "사우디-예멘 국경지대 인명피해 발생 관련 신변 유의",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321106/detail2?ntnCd=107",
-    "summary": "ㅇ 사우디 방위군은 9.12(토) 예멘에 인접한 국경지대 Al-Tuwal 지역에 후티 반군의 발사체가 낙하하여 2명이 부상을 입고 시설물과 재산 피해가 발생했다고 발표하였습니다. ㅇ 현재 예멘 국경 인근 180km 지역(자잔, 아브하, 카미스 무샤이트, 나즈란 등)과 얀부 지역은 외교부 지정 여행 철수 권고 지역(여행금지 바로 직전단계)입니다. ㅇ 해당 지…"
    }
   ],
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-17T16:52:30Z"
+  "last_ok_at": "2026-09-17T20:13:01Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T16:52:45Z",
+  "fetched_at": "2026-09-17T20:13:23Z",
   "events": [
    {
     "date": "2026-09-17",
@@ -522,14 +522,124 @@
   "history_days": 6,
   "history_since": "2026-09-12",
   "today": "2026-09-17",
-  "last_ok_at": "2026-09-17T16:52:45Z"
+  "last_ok_at": "2026-09-17T20:13:23Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T16:52:46Z",
+  "fetched_at": "2026-09-17T20:13:24Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:16+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: السعودية تستنجد بالخارج وتختلق الذرائع ضد اليمن #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
+    "text_ko": "Mr. Leader: 사우디 아라비아는 예멘을 상대로 해외에서 호소하고 구실을 하고 있습니다 # Say_and_do_master # Our_souls_redemption_for_the_Holy_Mecca # Saudi_fading http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3738"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:16+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: السعودية تنفذ العدوان مباشرة وتتنصل منه بغباء #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
+    "text_ko": "Mr. Leader: 사우디 아라비아는 침략을 직접 시행하고 어리석게 거부합니다. # Master_of_words_and_deeds # Our_souls_redemption_for_the_Holy_Mecca # Saudi_fading http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3739"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:16+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: أوقفوا العدوان والحصار ولن نتخلى عن فلسطين #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
+    "text_ko": "미스터 리더: 침략과 포위를 멈추면 우리는 팔레스타인을 포기하지 않을 것입니다 # Master_of_words_and_deeds # Our_lives_redemption_for_the_Holy_Mecca # Saudi_Bahtan http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3740"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:16+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: أبناء المحافظات الجنوبية والشرقية ليسوا هدفًا والمستهدف هي تحشيدات العدو السعودي #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
+    "text_ko": "사령관님: 남부와 동부 지방의 사람들은 목표가 아니며, 목표는 사우디 적의 동원입니다 # Say_and_do_master # Our_souls_redemption_for_the_Holy_Mecca # Saudi_fading http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3741"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:16+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: لن نسكت عن البهتان السعودي وشعبنا سيخرج بالملايين #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
+    "text_ko": "미스터 리더: 우리는 사우디의 퇴색에 대해 침묵하지 않을 것이며 우리 국민은 수백만 명으로 나올 것입니다 # Master_of_words_and_deeds # Our_souls_redemption_for_the_Holy_Mecca # Saudi_fading http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3742"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:15+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: الاتهام باستهداف مكة انتهاك لمكة وإساءة لشرفنا الإسلامي وشعبنا الحامل لراية الإسلام. #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة http://t.me/army21ye",
+    "text_ko": "사령관님: 메카를 겨냥했다는 비난은 메카를 위반한 것이며 이슬람의 명예와 이슬람의 깃발을 든 우리 국민에 대한 모욕입니다. # Say_and_do_master # 거룩한_메카를_위한_우리의_구속_영혼들 http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3733"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:15+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: نحن من نفتدي مكة بأرواحنا وأنفسنا والنظام السعودي هو من ينتهك قدسيتها. #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3734"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:15+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: تلقف الاتهام السعودي وإصدار إدانات هي شهادة زور وشراكة في البهتان مقابل الدولار والبترو دولار. #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3735"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:15+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: شعبنا بقواته المسلحة يحتفظ بحقه الشرعي والقانوني والأخلاقي تجاه الإساءة له #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3736"
+   },
+   {
+    "time": "2026-09-17 22:52",
+    "iso": "2026-09-17T22:52:15+03:00",
+    "places": [
+     "메카"
+    ],
+    "text_ar": "السيد القائد: السعودية تحرف بوصلة العداء وتخدم العدو الصهيوني.. #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3737"
+   },
+   {
+    "time": "2026-09-17 21:34",
+    "iso": "2026-09-17T21:34:06+03:00",
+    "places": [
+     "카미스무샤이트"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 37 غارة جوية بطائرات نوع \"F15\" أقلعت من قاعدة خميس مشيط الجوية واستهدفت محافظات تعز وحجة وخلفت شهداء وجرحى من المدنيين. http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3732"
+   },
    {
     "time": "2026-09-16 20:55",
     "iso": "2026-09-16T20:55:23+03:00",
@@ -643,17 +753,17 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 8,
+   "메카": 12,
+   "카미스무샤이트": 9,
    "타이프": 3,
-   "얀부": 2,
-   "메카": 2
+   "얀부": 2
   },
-  "last_ok_at": "2026-09-17T16:52:46Z"
+  "last_ok_at": "2026-09-17T20:13:24Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T16:52:47Z",
+  "fetched_at": "2026-09-17T20:13:33Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -1833,19 +1943,19 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-17T16:52:47Z"
+  "last_ok_at": "2026-09-17T20:13:33Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T16:52:51Z",
+  "fetched_at": "2026-09-17T20:13:36Z",
   "kr": [
    {
     "date": "2026-09-17",
-    "published": "2026-09-17T10:45:49+00:00",
-    "source": "뉴스1",
-    "title": "사우디, 후티 막을 요격 미사일 부족…영·프 등에 지원 호소",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RGxNdXh3OWhkT1BKNEFQSDV1cW16eTFrREhJM21JSVZNSE51Rm1kZGstRUZGQ0ZWcXYzLW1TYi1EQWVYWG1MYnlHYXZXYWZ6SGY4azBaWTdmRkI1WjQwSU930gFnQVVfeXFMTlNUSFU3cm1CaGE3QWN6T2JrVjlSX2Q0Z0tQNm5tNVkzakwwX2NPOUl6WTRYRlFVSTJERnlveEVoMURhM0hZLWFFakJqaE1rN1ZSVDg5S1ZVYXByWlFnNmJyejB5M2RiTQ?oc=5"
+    "published": "2026-09-17T18:10:14+00:00",
+    "source": "한겨레",
+    "title": "후티 “사우디 F-15 전투기 격추”…영상·사진 공개",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWElQb1VhS1NMb3ZNZFNyeEtRRU9YRjVPMzMwSk1TN2hudXI2cDlyY1R2UFoxQWJBNk5FNkc5RXRoV3ZsM3dSUVY1V2s0TGNVeUg2XzBLQmEtajQ0UWdmYlRERWNSN2FLclBuOXR0VnRJeTdEMUJNZVZrR01WWTl1V0F3?oc=5"
    },
    {
     "date": "2026-09-17",
@@ -1856,17 +1966,17 @@
    },
    {
     "date": "2026-09-17",
-    "published": "2026-09-17T07:01:00+00:00",
-    "source": "한겨레",
-    "title": "후티, 사우디 공세 강화…메카 공격 부인하고 “석유시설 타격” 주장",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0tc0RlUjUySzBtYzRfZ182dDFucjRfcmVlUjNNSXBpT3VVdzhuX1I1d0NYTmRNMDF4b0NpWHJEUnNfYTRQMlZLQXhvVlF2ZlI5ZzA4ODZOMlhLNWxNTGFYc3VSOUY5Y25obk9HM09VWWo4ME0?oc=5"
+    "published": "2026-09-17T10:20:00+00:00",
+    "source": "동아일보",
+    "title": "사우디, 후티 반군에 中 탄도미사일 발사 정황…잔해에 ‘DF-15A’ 표시",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xc2FJZ0dhSGtwQjFWNm5Oakd6Vm5XY3RBR19zRVluYXlvanNSeUUzeG1mb1RHZFdOX0E1MVZNNS0tZ0V0em1jY2tfQXUteVBsYjRITlFXS1VRalpzMy1tVFBnVkhkYldCVGVGNkdPWl9XRE3SAWZBVV95cUxPMmgyaTRTQzlZQlR5Y056Mm5BRWdpRlgtZGhNcnFOYy1SSWt2ZV9wWUltWnpYdHVqc2tBZUhwOUYwYUZpLUFsZENlZkxUdGFRaV9hZW1ndDdCT2t5cERFaXpvRmg0enc?oc=5"
    },
    {
     "date": "2026-09-17",
-    "published": "2026-09-17T03:33:36+00:00",
-    "source": "뉴스1",
-    "title": "中미사일 꺼내 예멘에 쏜 사우디…\"후티·이란 모두에 전략적 경고\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11M0E4dUdaM09meDB2aE01RXM0Z1Y0TTRaLU1ocEFnWnJaYWRLVFBhNk5ZQVNYX3V1bHh5RFQ5YVBCeF85dC1lUmJ3ZGRnZFp4dlkyOXJMN3pWQ2Z6dU45ZDFR0gFnQVVfeXFMUFJHRHRhNjlocTRrNGcwWVpLdG5oVzRXS1hqVEI4bmk4aHplekdlVXhWQ2htbzJndTBpajZ0VVFhN1kxbDFwUDRCVDd1VmN6NFo2Qjg1bVdMTkxaOTlSNmdxNXhLeDVPTQ?oc=5"
+    "published": "2026-09-17T02:19:00+00:00",
+    "source": "KBS",
+    "title": "“송유관 1달 중단 시 1.2억 배럴 차질”…사우디발 원유 대란 우려",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzWDZUWmRtUThIWUszV0Ewal81OUg0RW55U3VlTHR1bWNZR0dJb2VnNFdTYnJ6Ty1kX0xBVUVqb0Z2MU5uUGdsT3FKVm5TUXhlTWFEMHA2ZjJtMVk?oc=5"
    },
    {
     "date": "2026-09-17",
@@ -1879,6 +1989,20 @@
   "en": [
    {
     "date": "2026-09-17",
+    "published": "2026-09-17T18:29:25+00:00",
+    "source": "Reuters",
+    "title": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5"
+   },
+   {
+    "date": "2026-09-17",
+    "published": "2026-09-17T16:18:09+00:00",
+    "source": "Reuters",
+    "title": "Three pumping stations along Saudi East-West Pipeline were hit in recent attack, sources say",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX2JjV2RTdTR3SlFEbUFFRE5FLU1qOEJoSm5YMXR3OUJhYlJjdUVudmRYTlFyUkh4bVVSVFdwRnpoaWUySnV1clB2THo4R3pVaGpPcGdMNFBNUHpRVmk2RjBNdzRQQmhXYXotS0hjd2hzSV9JLVFON0g4bDBVczZEZ2hxSVYyQjJGdlEtWFRtbnhLN1pqMHBCTGltR0Q4RDdSQllwdy11blczeE9SYWlBTFAxNFpGVFRLZDFaSDVUSkxMcFJyTERV?oc=5"
+   },
+   {
+    "date": "2026-09-17",
     "published": "2026-09-17T13:47:36+00:00",
     "source": "BBC",
     "title": "Verified video shows wreckage of Saudi fighter jet shot down over Yemen",
@@ -1886,10 +2010,10 @@
    },
    {
     "date": "2026-09-17",
-    "published": "2026-09-17T13:42:27+00:00",
-    "source": "Reuters",
-    "title": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5"
+    "published": "2026-09-17T13:26:00+00:00",
+    "source": "CNN",
+    "title": "Iran-backed Houthis claim to have shot down a Saudi F-15",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZmVwREMteVpVTjlLb01fazhLYldpOFpYcjBjM2pTeTZhX19Xc2Z0UXZCNExINHNZZGxBcDNEdDl6TzRCSnFxMlczQnFiYm9fNkxsZ3Q3eG5DRDdtLW5wbjRRRno4UkI1MFU0ZlJLRm9GSzFGRHE4bjdfVE51Ymg3M2R3R3F6OU9sYTNmYWQ2N2RBOW0xVGg4QXN5RVRtSlU?oc=5"
    },
    {
     "date": "2026-09-17",
@@ -1897,32 +2021,18 @@
     "source": "Al Jazeera",
     "title": "From Yanbu to Sohar: Tracking Saudi Arabia’s alternative oil routes",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTTloQUtCSlh4UWxLNkt6TXZzeWFWamxxdFRSOEdoV2R2VGhWR2llNGViSG0wYnFhRUVpSmJ3Vy1FdUFXbTB3cXpvS3BJX3pTUGRnUVBjaU1CeFJoZG9MZ3VSNFNSR0NnVTBMTzNuUWlSOThPN1lFU2ttSU9aaVZHaUNRY1g1cC1XWkdYXzA1OVB0ZHpoNnhRd2ZJakNtdlg4VmxaT0FVN1hwQdIBrwFBVV95cUxQTXBBYjhQNjVIbl9kbnJQU3YwWkdDN0ZXZF9hSVltc3hwMDM2NmpmdmFmQTlHUllvbjg5SktlRWw1N09teGN2Rmd0eXhvRVRPRHlMQmlIaWhTbnB5Z2xZdzZyMm1tVHVhMHBfVFZocTB3ajhlSEg2aVc2cGdsaHFZcmt5NlRidFNrUV9FVm8wY2Vmcm5tYkMwQm52TUgyOWhMYldWNGttbk9heFBhNUtn?oc=5"
-   },
-   {
-    "date": "2026-09-17",
-    "published": "2026-09-17T07:52:00+00:00",
-    "source": "CBS News",
-    "title": "House speaker declares Iran nuclear issue \"taken care of\"",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5"
-   },
-   {
-    "date": "2026-09-17",
-    "published": "2026-09-17T05:38:36+00:00",
-    "source": "CNN",
-    "title": "Houthis release video claiming to show downed Saudi F-15 fighter as Iran-backed rebels press their lightning advance",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVzlqeTZUN0Vtd1g3cjZKczlGcHc2QVJPak9lWVBvdGNrZjM4TWNZNzN3ZjREWjFtWDlMVnRmcTkxMjR0eXlIb0tfRF9iNjFYVElPX1ZSXzhOVkQ5bjh6VjdCM2JJTFlTM0lyZ1FpQ0gwc1lCTERxMXFaS3VVWHRLVWhiRUNCYlk?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-17T16:52:51Z"
+  "last_ok_at": "2026-09-17T20:13:36Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T16:52:52Z",
+  "fetched_at": "2026-09-17T20:13:37Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 35,
+  "count": 43,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 0,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -1931,14 +2041,15 @@
    "2026-09-17T04": 29,
    "2026-09-17T06": 38,
    "2026-09-17T11": 38,
-   "2026-09-17T16": 35
+   "2026-09-17T16": 35,
+   "2026-09-17T20": 43
   },
-  "last_ok_at": "2026-09-17T16:52:52Z"
+  "last_ok_at": "2026-09-17T20:13:37Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-17T16:52:52Z",
-  "last_ok_at": "2026-09-17T16:52:52Z"
+  "fetched_at": "2026-09-17T20:13:37Z",
+  "last_ok_at": "2026-09-17T20:13:37Z"
  }
 }
