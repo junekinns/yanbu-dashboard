@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-17T04:14:16Z",
+ "generated_at": "2026-09-17T04:16:07Z",
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:14:16Z",
+  "fetched_at": "2026-09-17T04:16:07Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,12 +184,12 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-17T04:14:16Z"
+  "last_ok_at": "2026-09-17T04:16:07Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:14:20Z",
+  "fetched_at": "2026-09-17T04:16:25Z",
   "events": [
    {
     "date": "2026-09-17",
@@ -308,7 +308,8 @@
     "title": "사우디 송유관 피격에 11월 이후 국내 원유 수급 '빨간불'",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TcEpmbC1SdV8yci1SSEFaUEVhSjJ3Y2ZNYmJXNUZLSHUzR2ZyVUpfbkFXVUNTd1Y3NEctSF85aDk2V0pJSXNQOVRCTmlnakpjNzFscFN2cDdCR1HSAWBBVV95cUxOV1JCZjdaTmVXdndmdUtidjRkdWN3NlZKcUtxWGQ4MFFNalA4WWhpbVpFcGZDSWpoQzl3dDFqM2pjYTh5SzhWcm1oVklwSkxDVmVHSkZ6X0ZTRXRPLThhaUM?oc=5",
     "source": "연합뉴스",
-    "outlets": 3
+    "outlets": 3,
+    "weapon": null
    },
    {
     "date": "2026-09-14",
@@ -486,12 +487,12 @@
   "history_days": 6,
   "history_since": "2026-09-12",
   "today": "2026-09-17",
-  "last_ok_at": "2026-09-17T04:14:20Z"
+  "last_ok_at": "2026-09-17T04:16:25Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:14:22Z",
+  "fetched_at": "2026-09-17T04:16:26Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -612,12 +613,12 @@
    "얀부": 2,
    "메카": 2
   },
-  "last_ok_at": "2026-09-17T04:14:22Z"
+  "last_ok_at": "2026-09-17T04:16:26Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:14:23Z",
+  "fetched_at": "2026-09-17T04:16:27Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -4621,12 +4622,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-17T04:14:23Z"
+  "last_ok_at": "2026-09-17T04:16:27Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:14:45Z",
+  "fetched_at": "2026-09-17T04:16:30Z",
   "kr": [
    {
     "date": "2026-09-17",
@@ -4701,14 +4702,14 @@
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVEJzT2tvVm9EemJDVkxBa1BYRWNpWGdLcHZ5TnJaQXdjZ3hwdWkzTmUxWFVNWUdGd0hhQzlpenNXSmlLY1l0TlUwV3FEVUp3Tjd0OWhFX0NYRHQ2NEhMRk9PZjJWUjdPeW9uNEFWN25ldFE1Zk1Uam8tTlNRNjcxblNPbEpnemlIaVhLWnpMQm1fRkk4b3YxQlMxSEk4WFY1X3VxUGVUVmpVd1HSAbABQVVfeXFMUEViOUdBeFlLcDgzTGQzVkdROExzV2ctQ2h5UkhaMXlzV1dVSmhZamxvWF94MUQyZVhXRWZRTHU2NThtYXNudEo1Z0V4UUVFN0NHdGVva0RQdDFNOFpoc0NGQ0gybjU1TG5ibmY0WVZFd3hTeU5ESnd5aHIwVHBaQVoxOUhlNWVTZzUyQnN2Ri1wSl80X1luc0JLR24zemtzeXZyRFFJMWREN3ZjSUJqTjE?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-17T04:14:45Z"
+  "last_ok_at": "2026-09-17T04:16:30Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-17T04:14:47Z",
+  "fetched_at": "2026-09-17T04:16:33Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 28,
+  "count": 31,
   "baseline": null,
   "baseline_n": 0,
   "tier": "정상",
@@ -4716,15 +4717,15 @@
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
    "2026-09-17T02": 38,
-   "2026-09-17T04": 28
+   "2026-09-17T04": 31
   },
-  "last_ok_at": "2026-09-17T04:14:47Z"
+  "last_ok_at": "2026-09-17T04:16:33Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-17T04:14:47Z",
-  "last_ok_at": "2026-09-17T04:14:47Z"
+  "fetched_at": "2026-09-17T04:16:34Z",
+  "last_ok_at": "2026-09-17T04:16:34Z"
  },
  "summary": {
   "level": 4,
@@ -4747,9 +4748,9 @@
   "history": {
    "2026-09-17": 4
   },
-  "computed_at": "2026-09-17T04:14:47Z",
+  "computed_at": "2026-09-17T04:16:34Z",
   "inputs_ok": {
-   "mofa": false,
+   "mofa": true,
    "events": true,
    "telegram": true
   }
