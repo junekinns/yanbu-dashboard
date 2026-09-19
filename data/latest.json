@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T14:20:04Z",
+ "generated_at": "2026-09-19T17:57:07Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T14:20:04Z",
+  "fetched_at": "2026-09-19T17:57:07Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 6,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-19T14:20:04Z"
+  "last_ok_at": "2026-09-19T17:57:07Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T14:20:26Z",
+  "fetched_at": "2026-09-19T17:57:28Z",
   "events": [
    {
     "date": "2026-09-19",
@@ -210,7 +210,7 @@
     "title": "후티, 사우디 수도까지 첫 공습한 듯…\"리야드공항 인근서 화염\"(종합)",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvMFRwSWstSTNBblR5ek5lU0dHTHA2cV9kVnp6QUR0aXRwa2dEZG1FbWQyV3djWWg1ck9xMmpmREExNlhPSXdUbV9GQnZlZ3BhWU9kWGFhbG5qS0FDMVk3ctIBYEFVX3lxTFBvMFRwSWstSTNBblR5ek5lU0dHTHA2cV9kVnp6QUR0aXRwa2dEZG1FbWQyV3djWWg1ck9xMmpmREExNlhPSXdUbV9GQnZlZ3BhWU9kWGFhbG5qS0FDMVk3cg?oc=5",
     "source": "연합뉴스",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-09-19",
@@ -224,7 +224,7 @@
     "title": "사우디 수도 리야드서 폭발음…주민들에 공습 경보",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MDZSSlJyWjJmQzJSV2U0eHlrRkxhRkUxcThYZnVITnFVSmp4REpkdFJwbXFOMjZ3UXcxVnRWUlE3X09zY29sWngwbEhtc0lFQVR3SkdXSDhYMEVLaW5SWtIBeEFVX3lxTE1CVDNGS0E4X2FxWjZLeWl4X2pUbXBLTTZHbTVKdlJHVVlLcE5jYlZxWU5QRVA3NnlBYUFISHFZSEEySWpHZEpYTjdQZEdSR193bEJIZU1Ec1FjOG9YNjVzTnRNb0czcnFncHE1bS14aVBrVXBsT3ZrVA?oc=5",
     "source": "뉴시스",
-    "outlets": 3
+    "outlets": 6
    },
    {
     "date": "2026-09-19",
@@ -581,14 +581,61 @@
   "history_days": 8,
   "history_since": "2026-09-12",
   "today": "2026-09-19",
-  "last_ok_at": "2026-09-19T14:20:26Z"
+  "last_ok_at": "2026-09-19T17:57:28Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T14:20:27Z",
+  "fetched_at": "2026-09-19T17:57:29Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-19 20:02",
+    "iso": "2026-09-19T20:02:17+03:00",
+    "places": [
+     "얀부",
+     "메카",
+     "타이프",
+     "리야드",
+     "카미스무샤이트"
+    ],
+    "text_ar": "بيان صادرٌ عن القواتِ المسلحة اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم رداً على البهتانِ العظيمِ باتهامِ يمنِ الإيمانِ والحكمةِ باستهدافِ مكةَ المكرمةِ وانتصاراً لها من إساءةِ قارونِ العصرِ قرنِ الشيطانِ النجديِّ السعوديِّ إليها ورداً على استمرارِ العدوِّ السعوديِّ المجرمِ بشنِّ الغاراتِ الج…",
+    "text_ko": "예멘 군대가 가장 자비로우시고 자비로우신 알라의 이름으로 발표한 성명서에서 전능하신 알라는 다음과 같이 말씀하셨습니다. {당신을 폭행한 사람은 그가 당신을 폭행한 만큼 그를 폭행한 것입니다} 전능하신 알라는 예멘이 메카를 목표로 삼고 있는 신앙과 지혜를 고발하고 침입하여 범죄자 사우디 적의 계속에 대응하여 사우디아라비아 나즈디 사탄이 세기를 남용한 것에 대한 승리로 큰 퇴색에 대응하여 믿었습니다...",
+    "url": "https://t.me/army21ye/3749"
+   },
+   {
+    "time": "2026-09-19 20:02",
+    "iso": "2026-09-19T20:02:17+03:00",
+    "places": [
+     "얀부",
+     "메카",
+     "타이프",
+     "리야드",
+     "카미스무샤이트"
+    ],
+    "text_ar": "In response to the great slander accusing Yemen, the land of faith and wisdom, of targeting Mecca, and in defense of Mecca against the insults of the Korah of the age, the Najdi Saudi horn of Satan. And in response to the continued aggression of the criminal Saudi enemy against our dear people with its F-15 and Typhoon warplanes, which take off from the Khamis Mushait and Taif bases, which have re…",
+    "text_ko": "믿음과 지혜의 땅인 예멘이 메카를 노린다고 비난하는 큰 비방에 대한 응답으로, 그리고 시대의 코라의 모욕에 맞서 메카를 방어하기 위해, 나지디 사우디의 사탄의 뿔. 그리고 Khamis Mushait 및 Taif 기지에서 이륙하는 F-15 및 Typhoon 전투기로 범죄자 사우디 적의 지속적인 공격에 대응하여...",
+    "url": "https://t.me/army21ye/3750"
+   },
+   {
+    "time": "2026-09-19 20:00",
+    "iso": "2026-09-19T20:00:49+03:00",
+    "places": [
+     "얀부",
+     "리야드"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عمليتين عسكريتين نوعيتين أولاهما استهدفت أهدافا حساسة في عاصمة العدو السعودي الرياض والأخرى استهدفت شركة أرامكو في ينبع، وذلك بعشرات الصواريخ والمسيرات. جودة متوسطة http://t.me/army21ye",
+    "text_ko": "두 가지 질적 군사 작전의 시행에 대한 예멘 군의 성명서. 그 중 첫 번째는 사우디 적 리야드의 수도에서 민감한 목표를 목표로 삼았고 다른 하나는 수십 개의 미사일과 드론을 사용하여 옌부의 아람코를 목표로 삼았습니다. medium quality http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3747"
+   },
+   {
+    "time": "2026-09-19 18:38",
+    "iso": "2026-09-19T18:38:16+03:00",
+    "places": [],
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عمليات عسكرية واسعة في العمق السعودي، في تمام الساعة الثامنة مساءً. http://t.me/army21ye",
+    "text_ko": "사우디아라비아 심해에서 저녁 8시에 대규모 군사 작전을 발표하겠다는 예멘군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3746"
+   },
    {
     "time": "2026-09-18 21:16",
     "iso": "2026-09-18T21:16:16+03:00",
@@ -841,17 +888,18 @@
    }
   ],
   "mentions7d": {
-   "메카": 13,
-   "카미스무샤이트": 10,
-   "타이프": 4,
-   "얀부": 2
+   "메카": 15,
+   "카미스무샤이트": 12,
+   "타이프": 6,
+   "얀부": 5,
+   "리야드": 3
   },
-  "last_ok_at": "2026-09-19T14:20:27Z"
+  "last_ok_at": "2026-09-19T17:57:29Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T14:20:28Z",
+  "fetched_at": "2026-09-19T17:57:36Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -1935,19 +1983,26 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-19T14:20:28Z"
+  "last_ok_at": "2026-09-19T17:57:36Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T14:20:30Z",
+  "fetched_at": "2026-09-19T17:57:39Z",
   "kr": [
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T13:21:27+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 수도 첫 공습경보…\"리야드 공항 인근 연료탱크서 불길\"(종합2보)",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yWkFIZHVZRmg2Nmk5N2ZWUGhxaVl5TnFWMUdiTVg4Vmg0UHhIbmZraU9ydEk0NHRVX1pCaDExaFN2eFNKSllOTlFDUk8yWnhHeHE2YWc0eTRvSXfSAWBBVV95cUxNcUU5Tnl3a2VVaHdVLTBpZ25SaE4zS0xULW9YN2lMU1h4QlRVeU1rY05PbTEzRnNmbm8xQ0xxRTdJTGxmTVNETUNYRW9jb0NnZ19lTkJCQnV4OXRjTW1obUQ?oc=5"
+    "published": "2026-09-19T13:24:23+00:00",
+    "source": "뉴스1",
+    "title": "사우디 리야드 첫 공습경보…공항 인근 아람코 연료탱크 화재(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zdG82NURqNkFhMEhyZFE4WVhSRXZBNU9Wb3llS2RfV2hxT2IwcGhPMFRwb01EZ2NRRmxnU3lERzFIVXh0WllFTjJKay0wNHFyYk5fUF9mUzh6dHFGQ05qTnFB0gFnQVVfeXFMTjVEMGRwbG5kM2t6MHMyQ29BY2w0TG1sRXJBdTl4VU80MzNkQTZHcVVXa25Ucjd2R3RKTllzN0VEXzA5ZzhCR2E1NWhCVXpTUGVTNE9VczhDcFdzbjd3c1dPUjZRbmhkaw?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T11:03:24+00:00",
+    "source": "MBC",
+    "title": "후티, 사우디 수도까지 첫 공습한 듯‥\"리야드공항 인근서 화염\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFN2xBWmhRYUlwRm9GTEYtVGNrTDIyZUpudkk4M1dQMWc0V1p4ZEoxWnp0cGk1TU5OdVhOY1BGU09ySldhODlXMjZma1lNU3d5ZlRKd1piN0xRaHNhWjVteExaVV96SGE0WlZfRGx1SU9SUkpw0gF0QVVfeXFMTXdFV1NtSElRcnlEeUtKRERnTXRSbGl3dWJQazZrZ2xwRXN4SC1CRXdieWFyZlgwRlNDNGhqSkpCeFVIT0hGQ3d0UUx4YmpoakNPZHh6VF9kTXFZNEw4d0cxdDUyVVJHZzB0MXdUNWIzZjZfSnU?oc=5"
    },
    {
     "date": "2026-09-19",
@@ -1958,10 +2013,10 @@
    },
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T10:42:00+00:00",
-    "source": "JTBC",
-    "title": "사우디, 파키스탄 개입 시사…후티 지지자들 소총 들고 집결",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CdV9DQ3NWMjVuTlJndW5kUTZDVVZpRE9ucnVhRTZjSDJ0Q3RQTUlMeFZJNGdRSFY3a0pCanV2VEprYlRfUUVkRDFRNHFlcGNjZTc2eA?oc=5"
+    "published": "2026-09-19T10:53:00+00:00",
+    "source": "연합뉴스",
+    "title": "[속보] 로이터 \"사우디 리야드 공항 인근서 불길·연기\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tZXcyN3U0SU9rbVl0NzdhRVJrZWN0OFllWjlidDBqV3dSOHN3c2FlZlVMcXMzT3FFTTB1bzUtaFRGTHZyNDVaVHFOd3ZuVDJjSzVmOEtFRDNIV0VtMjM3QTZWUHQ0akE?oc=5"
    },
    {
     "date": "2026-09-19",
@@ -1969,62 +2024,55 @@
     "source": "경향신문",
     "title": "“사우디 수도 공습 경보 후 폭발음”···후티 반군 공세 강화",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjMGUtWnhoTWhNOS1IUW5FYnJSeXdCdTlLTW1VdndVQVYxWEpiWTRrV05CaXhmdk9WeGxzR2ZtalNYVkhXNk5GeXBHRXZKVE9pUFlSU0lYcVd0QdIBX0FVX3lxTE9NUU9hNmNrWVZwNEQyR0IxQ3pWQTZoU2NtTWZMN2V4cW82cWVySWdCWjFaS2FGc0s1bGw2cVU4WFpKb1E3VmQtbU9EOGhYQVduYXU1UWh5QVhqc3NXSlhz?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T07:06:39+00:00",
-    "source": "MBC",
-    "title": "사우디 수도에 첫 공습경보 발령‥후티 공격 추정",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oYlF5T2FGOGI4NXhIYTk0eGNjb2tsaFh5a0dmOTdSaXk1MDZrektEQlVNLXYwaUNaMjN5YzVDOXlPU3Z6TTBndW1IODFzZTVsdXBtdmdZSHVFRVdOcTk4Y1E1d0t2ZC1ETUJHQlJmZ0FXa2cw0gF0QVVfeXFMT2FhWkxzckJXQ0Y1bjVNdzNPY3V1OGdnc1RRcm9TSjlMS3hiVWUtRWk4Yzdlck1feWJVcmctS3RoSTFlX1EzSE1NdS1UVkZldmwzR1RVSFhESXkyV0w4UlU0cEc2TC11TjdhZE1wNTB3bzdnajM?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T13:09:29+00:00",
+    "published": "2026-09-19T14:54:00+00:00",
+    "source": "The Guardian",
+    "title": "Thick smoke seen near Riyadh airport after air raid alerts in Saudi capital",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ubHN1SzNnamY5ZEZTbDdtZm5Vb3NCSGdTV05TdFZDYlZDNkdDOU5EU3lNRzFzWHo4X3pzRjZON0tmd0k1bnhjU2hUbmVXcm9lUDVFVUUtbHZvcUNTV3l6MVVoSWxaREkxaFVBYWJNU3RPb0ZCNkV0MHlGRUhnQQ?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T14:51:20+00:00",
+    "source": "DW",
+    "title": "Saudi Arabia: Plume of black smoke near Riyadh airport",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcjZMN3Z6bmFodlJVYXhCYmRGc0k3T1pBTkdZT2s1YllISE5rUGQySmF1WGRKOERzWERrQkRyYXJDVWFfTWxkYXNmTnhKQzlFZXNUZ18ydDVTZ2JwbTBQQ01TZllLZFQ1bjFOTXQ3T2toWG91QWVxd0lyYmNybEpMddIBgAFBVV95cUxPNjVYWEhENUZOOERpYnY0dWowa3M0aXJ1UUFHMmdLT1BlRFREZk9uQnIyVk8zOEVyZ1ZLNzlzTXVqQnZDeXFoamJGdjNxSXdSSXJCOFRDSUctc2hlV2VrTGhWX2txM1N5X2ItQjhkUkxaWkhwLTJ0eUJ2RElLTXRFRg?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T14:43:46+00:00",
     "source": "BBC",
     "title": "Smoke seen near Riyadh airport after air raid alerts in Saudi capital",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0M1RqdlhDaEtlM0o2NEJqWEgtclk1NWZkeklLQTl2NUFFSEdLOFlPRVp2Mm1Lemx4czFSZnlBRVVhVkh6a0hJcXNQbWtoMF9JUVFKTUR1WVdUczQ?oc=5"
    },
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T09:19:14+00:00",
-    "source": "NBC News",
-    "title": "What do the Houthis want? The threat to Saudi oil may be about more than just helping Iran",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObS1kcVFWY0dRUW5DWF9QeldjWTAteDNKbmhYYkQtRENlcFlsWXBGdm1nTmFJRkpfUzVrTjhDdkJqazVtRTA5NEdNVmp1cHNpUTZRVERad0R3eHVJMHV5TDJmVXZrcmlCZ0RvdlJjSmFUZkVSLVdyS01HWkY0NVNNVkJ6ZVBIRGRMWHVudWtfU3NTUlpydkRWQnktOHBhRjQ?oc=5"
+    "published": "2026-09-19T13:48:04+00:00",
+    "source": "CNBC",
+    "title": "Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkOHNBY1RJV0diMGY3U1dQNFVkSUNzS1diY2V0TFhWNmxvRUJ3RW95R1NzYkUyRkl4NG9yN1JObGtRR0JoT1NBVzhTVldPeURMeU1ObjJ2RGJYUGZEaTlkWlNIYWNFT0FYSEx4REtITVhyTk9QbVc1S2JR0gF_QVVfeXFMTThQM2Z1aTZ3QmZIVERCcVNkQWtYSHNDWld4NGJRbmFGdHdfQ3RKTVRDSXpFbGNJVUFEODJfMnRZWkwybUNSUThpaklHUU5PWnpuWmU5VEJHRVlJR01JQ25mQzdweXJYQ3JrRk9yaTZlRnRPWUdOSkg1c0ZkeWR0WQ?oc=5"
    },
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T05:40:29+00:00",
-    "source": "Al Jazeera",
-    "title": "Houthis accuse Saudi Arabia of launching 26 attacks in 24 hours",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVTFmd2JEaEdqNldCSV93dnNvdWxhZmJPR0o3RzRhUlF0YzFBcXBud05abHN5dVE5VUhxbU1yemhOWEFQVlB5aUlmVk1sbjUtZ0x3S0YySFo4RVduTWlmcWtBdUE1YXZnZ2pEdXIwejJjWER4di1NdmpkWksxejZrclZvV3JUenp0RlBGYW4xSURwd0wxcGZjY1FndlpuM0tYcVZ4bjE2Z9IBrAFBVV95cUxQc3RJVDZJM19CNWYxVm1FOC0tRGtzLUpVY1I4bS1wTzdBcGtFcHJ1Mm9kUFU3TW12NnpWR3FLYmdvT1RjMld4Mjg2dUlHZDZUVzBudmx1ZHZxdFF2bnJKbm11WmpJWXBzZEdfUkxDTkhfRHQzWW1CdmdRRTZCd1BFXzZuV3pWaTc3X3JIaFc3RmNVQkYyaW4zWXA1ZWkyWHk2RFQyYUNKak54aVJI?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T04:20:47+00:00",
-    "source": "BBC",
-    "title": "Saudi Arabia issues first air raid alerts for Riyadh since Houthis escalated attacks",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0YkZPQW9rR2RIWE52My1Bd0VVd0VKc2FORWhuVFJPQ0dFcmd0MTRlOVFrNmd0b200YUI2OFdrUzlXZGxzbWV3RXFCVm1ZZ1lCbVpXZ2ZxTDN2bHc?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T00:42:00+00:00",
-    "source": "Reuters",
-    "title": "Flames, smoke seen near Riyadh airport after Saudi warning of aerial attack threat",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWNnM0NScnlDOXNDY25xQjhZVlRHUUtMOEV3YVZSOW5xekdVelcycGI1VHl3dWpqVGhNM2s1N05NamZxV0hoNVBFN204OHM5dVlQemMySkJGMlpCaURybUY4TVZfd0RDUUxzb3RTeWJVVEI4blFQZFhJekptSHRFUVdqb1pDai1VQ1hPS1JHWk92MEpZYWtESDduUmpwUEg4Nzc4bFp3VDQzM2JMTnRZXzgzbVBvUDk0clU4a3dHMlhuQk0?oc=5"
+    "published": "2026-09-19T13:36:13+00:00",
+    "source": "The New York Times",
+    "title": "Reported Explosions Put Saudi Capital on Edge Amid Conflict With Houthis",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRWRVamhDNXpOdVREbjhlTFFEaTB1X3ZfWUtPMWRKZmZvYnFpdGdCMXkwLVBVMmZNLW81MjlBdGVsWFpMZXZHRld5M1BhOUNiREtMN0p3Y0VTUEJVRDZuR3hnVHA0SHM0b0RyNjR6R2xpeDg0UlNPZUVQeTh6Tzd5RmJHTk96MVFvb2pEdg?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-19T14:20:30Z"
+  "last_ok_at": "2026-09-19T17:57:39Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T14:20:32Z",
+  "fetched_at": "2026-09-19T17:57:40Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 49,
+  "count": 38,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 0,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2044,14 +2092,15 @@
    "2026-09-19T00": 25,
    "2026-09-19T05": 28,
    "2026-09-19T10": 40,
-   "2026-09-19T14": 49
+   "2026-09-19T14": 49,
+   "2026-09-19T17": 38
   },
-  "last_ok_at": "2026-09-19T14:20:32Z"
+  "last_ok_at": "2026-09-19T17:57:40Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-19T14:20:32Z",
-  "last_ok_at": "2026-09-19T14:20:32Z"
+  "fetched_at": "2026-09-19T17:57:40Z",
+  "last_ok_at": "2026-09-19T17:57:40Z"
  }
 }
