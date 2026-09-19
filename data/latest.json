@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:32:25Z",
+ "generated_at": "2026-09-19T22:55:19Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T20:32:25Z",
+  "fetched_at": "2026-09-19T22:55:19Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,25 +191,39 @@
   "last7d": 6,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-19T20:32:25Z"
+  "last_ok_at": "2026-09-19T22:55:19Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T20:32:45Z",
+  "fetched_at": "2026-09-19T22:55:38Z",
   "events": [
    {
-    "date": "2026-09-19",
-    "time": "23:20",
-    "iso": "2026-09-19T23:20:33+03:00",
+    "date": "2026-09-20",
+    "time": "01:12",
+    "iso": "2026-09-20T01:12:36+03:00",
     "city": "리야드",
-    "type": "요격",
-    "weapon": "미사일",
+    "type": "경보",
+    "weapon": null,
     "lat": 24.71,
     "lon": 46.68,
-    "title": "Saudi Arabia says it intercepted Houthi ballistic missile targeting Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQenBISkpadHcyMlJ0ZExvby1nMGJIT3Y4Q0NwM1FRS1huT3lXUldya2dCWkFQR2lwM1kzS2ViSHBrc0JhRy1LZVVBR1I0eDBTQXlCQ3BKWTdLY2VGRFMzVS1BWk1TNXFpTzYzcDBCdGVZRWlpRTFFNWF4MWxlRmxKak9GYWRjeW1CdUd2T054ZktnbGxxeVV5cFBMTDNhb2pxWmRjcXpwdEkxRnFwamJUVjZKVVpTVlJfXzJJ?oc=5",
-    "source": "Anadolu",
+    "title": "후티 공격…사우디 수도 리야드 첫 공습경보",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56OHZDak9IS1RuQWtjeDM4Y1JlWDZHdXpJWVRhYi0wZVE2Yy1zZy1JTkpmZzR3TU1wM3NHT2JQQW9maFBHVlJXOWFPeDZFXzhCMmlqeWtlNmozT0FyOXZiMVJHcXJTWllTbmc?oc=5",
+    "source": "SBS",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-19",
+    "time": "23:14",
+    "iso": "2026-09-19T23:14:40+03:00",
+    "city": "얀부",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "Houthis claim strikes on Riyadh, Yanbu while Saudi coalition says attacks thwarted",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZzRPVGk2NVctVTZyaHBhXzZjMTZBdzUzV2E5Mlo4LWlydEJKY3dZbW04QUVxQ0l3ZXRLb3RRcWFiRDRKd0E3Q2M2YWtHdHlGMk5iYnpDZUc1NW9pV3RIdlRKYnJnUThqZ0x1YVVtaW93eE83cm5CNU94MlQtRU5MbVhDcC1yalZKU3BjNDJKdTdYd3RqNHRCR3VneC10YlpaXzd2QXItS2w4Nnk3VW1nUEN5NA?oc=5",
+    "source": "Middle East Eye",
     "outlets": 1
    },
    {
@@ -225,6 +239,20 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0M1RqdlhDaEtlM0o2NEJqWEgtclk1NWZkeklLQTl2NUFFSEdLOFlPRVp2Mm1Lemx4czFSZnlBRVVhVkh6a0hJcXNQbWtoMF9JUVFKTUR1WVdUczQ?oc=5",
     "source": "BBC",
     "outlets": 1
+   },
+   {
+    "date": "2026-09-19",
+    "time": "15:53",
+    "iso": "2026-09-19T15:53:19+03:00",
+    "city": "리야드",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Saudi Arabia says it intercepted Houthi ballistic missile targeting Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQenBISkpadHcyMlJ0ZExvby1nMGJIT3Y4Q0NwM1FRS1huT3lXUldya2dCWkFQR2lwM1kzS2ViSHBrc0JhRy1LZVVBR1I0eDBTQXlCQ3BKWTdLY2VGRFMzVS1BWk1TNXFpTzYzcDBCdGVZRWlpRTFFNWF4MWxlRmxKak9GYWRjeW1CdUd2T054ZktnbGxxeVV5cFBMTDNhb2pxWmRjcXpwdEkxRnFwamJUVjZKVVpTVlJfXzJJ?oc=5",
+    "source": "Anadolu",
+    "outlets": 2
    },
    {
     "date": "2026-09-19",
@@ -476,9 +504,9 @@
   "tempo": {
    "얀부": {
     "7d": {
-     "피격": 1
+     "피격": 2
     },
-    "total7d": 1,
+    "total7d": 2,
     "prev7d": null,
     "prev_total": null
    },
@@ -526,12 +554,12 @@
    },
    "리야드": {
     "7d": {
-     "요격": 1,
+     "경보": 2,
      "피격": 1,
-     "공습": 1,
-     "경보": 1
+     "요격": 1,
+     "공습": 1
     },
-    "total7d": 4,
+    "total7d": 5,
     "prev7d": null,
     "prev_total": null
    },
@@ -608,15 +636,15 @@
     "prev_total": null
    }
   },
-  "history_days": 8,
+  "history_days": 9,
   "history_since": "2026-09-12",
-  "today": "2026-09-19",
-  "last_ok_at": "2026-09-19T20:32:45Z"
+  "today": "2026-09-20",
+  "last_ok_at": "2026-09-19T22:55:38Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T20:32:46Z",
+  "fetched_at": "2026-09-19T22:55:39Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -924,12 +952,12 @@
    "얀부": 5,
    "리야드": 3
   },
-  "last_ok_at": "2026-09-19T20:32:46Z"
+  "last_ok_at": "2026-09-19T22:55:39Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T20:32:47Z",
+  "fetched_at": "2026-09-19T22:55:40Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2013,13 +2041,34 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-19T20:32:47Z"
+  "last_ok_at": "2026-09-19T22:55:40Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T20:32:49Z",
+  "fetched_at": "2026-09-19T22:55:42Z",
   "kr": [
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T22:03:58+00:00",
+    "source": "MBC",
+    "title": "후티 \"사우디 민감시설 공격\"‥수도 첫 공습경보",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92aTBPX3lwdVk1aXZlMm1Oc21FYVhSYklvaGVBdVYzSE1BN084TnRReDNfSlRYNWFNS0xLbzlRWlVRQ3MwX0hUa0ZnZjUycnQtUENselBTVWptQ1p2Q3V6bV9PVXlUSDNnYWVEeVNWeWpOSDk1N0RFQUhR0gF6QVVfeXFMTkp6WWR6amstQ3ptNVN5Uk95cHBuQXh5a1dtMkRmeXJKMjJ1LU9BSC1PS0s3RHlBMHRzZ18waTJHbUlLeER6U1M1RWZDN01RMm1pc0RoNEF1M25mUGVuTnlNSEFOaUlxbC1DeThLLWJqckFzbUxOV29PT2c?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T19:42:00+00:00",
+    "source": "연합뉴스",
+    "title": "후티 \"사우디 민감시설 공격\"…리야드 항공편 결항도 속출",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXNHVybEE0VktQcmpvLXU1YTJiSmxFLTZoOEY4Mno5NENUbV9ueXc4VGhJUGdyempBNTBxVnhWUUt2VGtpeHFYZ2VfQU95UWRYSml5R1Z6aUxPUWgtTlBGZDVHdE5QbVE?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T19:33:00+00:00",
+    "source": "YTN",
+    "title": "미국, 중 기술유출 우려에도 사우디에 F-35 판매 승인",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yLVJFWElBaWNzQVliOVo5WGk3bG10S1JFdmF5elNkQnpjMzJKQlVyLVI0VGlUVVJDQjBZRk81aXg2OGVzOUEwSTlRV1JNRmE1U1F6aHVibF8wWkdTQnQ3ZE1VX3QyRVUyWGxUSWc2U2NsMlNvb0E?oc=5"
+   },
    {
     "date": "2026-09-19",
     "published": "2026-09-19T18:20:00+00:00",
@@ -2029,47 +2078,33 @@
    },
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T14:10:00+00:00",
-    "source": "YTN",
-    "title": "후티, 사우디 수도 공습에 첫 경보...\"리야드 공항 인근 검은 연기\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ydjhTZmdBalRPZVBOQTFDRnVYQkVPRTFEdVJaY21INkpUNVJadTV4THJqd0dsQXJQT3hZd1FrdU1VYzdDbWZRR3ExYmJnbXMycDJOSEQ3TEpkM3ZBVlE?oc=5"
-   },
-   {
-    "date": "2026-09-19",
     "published": "2026-09-19T13:24:23+00:00",
     "source": "뉴스1",
     "title": "사우디 리야드 첫 공습경보…공항 인근 아람코 연료탱크 화재(종합)",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zdG82NURqNkFhMEhyZFE4WVhSRXZBNU9Wb3llS2RfV2hxT2IwcGhPMFRwb01EZ2NRRmxnU3lERzFIVXh0WllFTjJKay0wNHFyYk5fUF9mUzh6dHFGQ05qTnFB0gFnQVVfeXFMTjVEMGRwbG5kM2t6MHMyQ29BY2w0TG1sRXJBdTl4VU80MzNkQTZHcVVXa25Ucjd2R3RKTllzN0VEXzA5ZzhCR2E1NWhCVXpTUGVTNE9VczhDcFdzbjd3c1dPUjZRbmhkaw?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T13:21:27+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 수도 첫 공습경보…\"리야드 공항 인근 연료탱크서 불길\"(종합2보)",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yWkFIZHVZRmg2Nmk5N2ZWUGhxaVl5TnFWMUdiTVg4Vmg0UHhIbmZraU9ydEk0NHRVX1pCaDExaFN2eFNKSllOTlFDUk8yWnhHeHE2YWc0eTRvSXfSAWBBVV95cUxNcUU5Tnl3a2VVaHdVLTBpZ25SaE4zS0xULW9YN2lMU1h4QlRVeU1rY05PbTEzRnNmbm8xQ0xxRTdJTGxmTVNETUNYRW9jb0NnZ19lTkJCQnV4OXRjTW1obUQ?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T11:03:24+00:00",
-    "source": "MBC",
-    "title": "후티, 사우디 수도까지 첫 공습한 듯‥\"리야드공항 인근서 화염\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFN2xBWmhRYUlwRm9GTEYtVGNrTDIyZUpudkk4M1dQMWc0V1p4ZEoxWnp0cGk1TU5OdVhOY1BGU09ySldhODlXMjZma1lNU3d5ZlRKd1piN0xRaHNhWjVteExaVV96SGE0WlZfRGx1SU9SUkpw0gF0QVVfeXFMTXdFV1NtSElRcnlEeUtKRERnTXRSbGl3dWJQazZrZ2xwRXN4SC1CRXdieWFyZlgwRlNDNGhqSkpCeFVIT0hGQ3d0UUx4YmpoakNPZHh6VF9kTXFZNEw4d0cxdDUyVVJHZzB0MXdUNWIzZjZfSnU?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T19:09:49+00:00",
-    "source": "BBC",
-    "title": "Houthis claim attack on Saudi capital after smoke seen rising near Riyadh airport",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0M1RqdlhDaEtlM0o2NEJqWEgtclk1NWZkeklLQTl2NUFFSEdLOFlPRVp2Mm1Lemx4czFSZnlBRVVhVkh6a0hJcXNQbWtoMF9JUVFKTUR1WVdUczQ?oc=5"
+    "published": "2026-09-19T22:07:04+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-led coalition says defences intercept Houthi missile fired at Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaFRmYktSYmFGRVRhRF9lMVBha2RQR1B4dHI2TkRvT1cxOFh3TVB3UXNvVjNfa3UxRGRQSjNiQ1MtYVBqMW9VNXNsTnpRa2JaYlpDWi10U3NwazZDRjJLbVEzYVRzdVdrTnA3LWFVWjlPVTlXbDhSdkJZRUVvZk1MVTdUMk5qZm9rbV9sT3BfeGlFU3FrbG4yTWVxcm90OFRpNC1Pc2pqcHJTYXUwQWdIWV9rU2wtQdIBuwFBVV95cUxPaU9oejdNQ3B1R0FZRS1sQ1FpTmlkNHJ0RFZyOUh5QXNHbzdheGgxeDNOV0dxT3VmR1ZFRDJobTZZV1VXVndOc3Nmb096dlpqMG01RWUzcVhxWDZKX3BkT0dVT3YyYUlPUXpveUYyMEtIU3dSTlVvVEhkZFVUdWNUemlBTVc0OUxJLXh5RHlQSmt3dE8tcTZOSWFFYnl3ZUJIM0x4cTlsMkJwM3NKRkt4WjZ2TmpXVjFoVHRJ?oc=5"
    },
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T18:46:54+00:00",
+    "published": "2026-09-19T21:25:06+00:00",
     "source": "NBC News",
-    "title": "Flames, smoke seen near Riyadh airport; Houthis claim attacks on Saudi capital",
+    "title": "Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with a ballistic missile",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcHpsOGpqdndoWmpPbDdpejV5N2JFSFBVQWhjVjFnc3dBX2xmdGFpVHQzQm9UcVVFSm1oanczbGZZWkl6alN4VTBWUU9HZGVwdHdBSEpGZGdmRkFfNFdhYWlvalFYV1VDU3ZqWG5MQkZPMXU2VkxHWTBEeG93U21VWXpQU0VjcUpjLUtsVUs5Z3gzTHhvNW1TSnVwUUI5c253X1ZUSndmdGVRa2tabGU0SFl0dXd6T3g4bUJsU2Rn?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T20:16:07+00:00",
+    "source": "BBC",
+    "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0M1RqdlhDaEtlM0o2NEJqWEgtclk1NWZkeklLQTl2NUFFSEdLOFlPRVp2Mm1Lemx4czFSZnlBRVVhVkh6a0hJcXNQbWtoMF9JUVFKTUR1WVdUczQ?oc=5"
    },
    {
     "date": "2026-09-19",
@@ -2080,29 +2115,22 @@
    },
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T13:48:04+00:00",
-    "source": "CNBC",
-    "title": "Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkOHNBY1RJV0diMGY3U1dQNFVkSUNzS1diY2V0TFhWNmxvRUJ3RW95R1NzYkUyRkl4NG9yN1JObGtRR0JoT1NBVzhTVldPeURMeU1ObjJ2RGJYUGZEaTlkWlNIYWNFT0FYSEx4REtITVhyTk9QbVc1S2JR0gF_QVVfeXFMTThQM2Z1aTZ3QmZIVERCcVNkQWtYSHNDWld4NGJRbmFGdHdfQ3RKTVRDSXpFbGNJVUFEODJfMnRZWkwybUNSUThpaklHUU5PWnpuWmU5VEJHRVlJR01JQ25mQzdweXJYQ3JrRk9yaTZlRnRPWUdOSkg1c0ZkeWR0WQ?oc=5"
-   },
-   {
-    "date": "2026-09-19",
     "published": "2026-09-19T13:36:14+00:00",
     "source": "The New York Times",
-    "title": "In Significant Escalation, Houthis Claim Attacks on Saudi Capital",
+    "title": "In Significant Escalation, Houthis Attack Saudi Capital",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRWRVamhDNXpOdVREbjhlTFFEaTB1X3ZfWUtPMWRKZmZvYnFpdGdCMXkwLVBVMmZNLW81MjlBdGVsWFpMZXZHRld5M1BhOUNiREtMN0p3Y0VTUEJVRDZuR3hnVHA0SHM0b0RyNjR6R2xpeDg0UlNPZUVQeTh6Tzd5RmJHTk96MVFvb2pEdg?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-19T20:32:49Z"
+  "last_ok_at": "2026-09-19T22:55:42Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T20:32:50Z",
+  "fetched_at": "2026-09-19T22:55:43Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 37,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 0,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2124,14 +2152,15 @@
    "2026-09-19T10": 40,
    "2026-09-19T14": 49,
    "2026-09-19T17": 38,
-   "2026-09-19T20": 37
+   "2026-09-19T20": 37,
+   "2026-09-19T22": 37
   },
-  "last_ok_at": "2026-09-19T20:32:50Z"
+  "last_ok_at": "2026-09-19T22:55:43Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-19T20:32:51Z",
-  "last_ok_at": "2026-09-19T20:32:51Z"
+  "fetched_at": "2026-09-19T22:55:43Z",
+  "last_ok_at": "2026-09-19T22:55:43Z"
  }
 }
