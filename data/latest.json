@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T05:44:57Z",
+ "generated_at": "2026-09-19T10:49:56Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T05:44:57Z",
+  "fetched_at": "2026-09-19T10:49:56Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -170,6 +170,12 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-09-19",
+    "title": "주의 사우디아라비아 중부(리야드) 일대 공습경보 발령 관련 안전공지(9.19.)",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048647/detail",
+    "summary": "9.19.(토) 오전 3시 및 5시경 리야드 및 알카르지 지역에 두 차례에 걸쳐 사우디아라비아 민방위청의 공습경보가 발령되었습니다. (현재는 모두 해제) 이와 같이 최근 후티 반군, 이라크 내 친이란 반군 등에 의한 간헐적 공격 시도가 계속되면서 역내 긴장이 고조되고 있습니다. 우리 재외국민 분들께서는 유사시를 대비하여 이번 전쟁의 주요 목표가 된 전례가 …"
+   },
+   {
     "date": "2026-09-18",
     "title": "후티 반군의 타이프 겨냥 드론 요격 및 인명피해 발생 관련 안전 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321109/detail2?ntnCd=107",
@@ -180,24 +186,32 @@
     "title": "후티 반군의 메카 겨냥 드론 요격 관련 안전 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321108/detail2?ntnCd=107",
     "summary": "ㅇ 사우디 주도 아랍연합군은 9.15.(화) 메카를 겨냥한 후티 반군의 드론이 사우디 방공망에 의해 요격되었다고 발표하였습니다. ㅇ 또한, 현재 예멘 국경 인근 180km 지역(자잔, 아브하, 카미스 무샤이트, 나즈란 등)과 얀부 지역은 외교부 지정 여행 철수 권고 지역(여행금지 바로 직전단계)으로, 최근 동 지역에 대한 사우디 정부의 위험 경보가 빈번하게…"
-   },
-   {
-    "date": "2026-09-15",
-    "title": "후티 반군의 공격에 따른 인명피해 발생 관련 신변 유의",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321107/detail2?ntnCd=107",
-    "summary": "ㅇ 사우디 주도 아랍연합군은 9.14.(월) 후티 반군이 아브하, 카미스 무샤이트, 타이프에 대한 미사일, 드론 공격을 실시하여 민간인 13명이 부상을 입고 주택 7채, 차량 2대가 파손되었다고 발표하였습니다. ㅇ 앞서 9.12(토)에도 후티 반군의 공격으로 민간인 인명피해와 시설물 피해가 발생하는 등 민간의 피해가 이어지고 는 상황입니다. ㅇ 또한, 사우…"
    }
   ],
-  "last7d": 4,
+  "last7d": 5,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-19T05:44:57Z"
+  "last_ok_at": "2026-09-19T10:49:56Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T05:45:19Z",
+  "fetched_at": "2026-09-19T10:50:14Z",
   "events": [
+   {
+    "date": "2026-09-19",
+    "time": "10:34",
+    "iso": "2026-09-19T10:34:18+03:00",
+    "city": "리야드",
+    "type": "경보",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "사우디 수도 리야드서 폭발음…주민들에 공습 경보",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB1MDZSSlJyWjJmQzJSV2U0eHlrRkxhRkUxcThYZnVITnFVSmp4REpkdFJwbXFOMjZ3UXcxVnRWUlE3X09zY29sWngwbEhtc0lFQVR3SkdXSDhYMEVLaW5SWtIBeEFVX3lxTE1CVDNGS0E4X2FxWjZLeWl4X2pUbXBLTTZHbTVKdlJHVVlLcE5jYlZxWU5QRVA3NnlBYUFISHFZSEEySWpHZEpYTjdQZEdSR193bEJIZU1Ec1FjOG9YNjVzTnRNb0czcnFncHE1bS14aVBrVXBsT3ZrVA?oc=5",
+    "source": "뉴시스",
+    "outlets": 1
+   },
    {
     "date": "2026-09-19",
     "time": "03:10",
@@ -469,8 +483,10 @@
     "prev_total": null
    },
    "리야드": {
-    "7d": {},
-    "total7d": 0,
+    "7d": {
+     "경보": 1
+    },
+    "total7d": 1,
     "prev7d": null,
     "prev_total": null
    },
@@ -550,12 +566,12 @@
   "history_days": 8,
   "history_since": "2026-09-12",
   "today": "2026-09-19",
-  "last_ok_at": "2026-09-19T05:45:19Z"
+  "last_ok_at": "2026-09-19T10:50:14Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T05:45:20Z",
+  "fetched_at": "2026-09-19T10:50:15Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -815,12 +831,12 @@
    "타이프": 4,
    "얀부": 2
   },
-  "last_ok_at": "2026-09-19T05:45:20Z"
+  "last_ok_at": "2026-09-19T10:50:15Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T05:45:21Z",
+  "fetched_at": "2026-09-19T10:50:16Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -1792,16 +1808,37 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-19T05:45:21Z"
+  "last_ok_at": "2026-09-19T10:50:16Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T05:45:23Z",
+  "fetched_at": "2026-09-19T10:50:20Z",
   "kr": [
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T03:01:51+00:00",
+    "published": "2026-09-19T07:06:39+00:00",
+    "source": "MBC",
+    "title": "사우디 수도에 첫 공습경보 발령‥후티 공격 추정",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oYlF5T2FGOGI4NXhIYTk0eGNjb2tsaFh5a0dmOTdSaXk1MDZrektEQlVNLXYwaUNaMjN5YzVDOXlPU3Z6TTBndW1IODFzZTVsdXBtdmdZSHVFRVdOcTk4Y1E1d0t2ZC1ETUJHQlJmZ0FXa2cw0gF0QVVfeXFMT2FhWkxzckJXQ0Y1bjVNdzNPY3V1OGdnc1RRcm9TSjlMS3hiVWUtRWk4Yzdlck1feWJVcmctS3RoSTFlX1EzSE1NdS1UVkZldmwzR1RVSFhESXkyV0w4UlU0cEc2TC11TjdhZE1wNTB3bzdnajM?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T05:58:00+00:00",
+    "source": "연합뉴스",
+    "title": "후티 위협 속 사우디 수도서 첫 공습경보…폭발음도 잇따라",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fRW05YmJDTHMzNldFXzVKeWZHRFllRWRneTRycXhCd2ZLVnhxMnhoNzJ1VGU3ZGlZOEdaVy1HUXY4ZEtTQ3FnSGg4THNoTXR1Y0hvWEdYa1l3Q2FxUHV3VVpkUFdhVUE?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T05:46:59+00:00",
+    "source": "연합뉴스",
+    "title": "후티, 사우디 수도까지 첫 공습한 듯…\"경보 속 폭발음\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrSFZwOF93Y3I3UkRITFdsUEM2VEpzaVNFWTBaNjdZTXVFb0wzb2xseE9EdHl2bGtEX05KaVJEWVhVNGVuMHJQZDRpUjMtdGo1S0w4RXh6UnhRWmfSAWBBVV95cUxQTGFCQnR3R3FZVHdYRlNybHJ3QWlHZ1h6bHRFcjNSUXZnREdTMTM5Yzg3RGd0Yk5zckxZaDhIeTBZNDJENGdzaXlKT1h3T1VFY25zVWNqd016MVp4RWhwVTk?oc=5"
+   },
+   {
+    "date": "2026-09-18",
+    "published": "2026-09-18T21:00:02+00:00",
     "source": "중앙일보",
     "title": "이륙하자마자 ‘우수수’ 추락…K-드론, UAE·사우디 앞 망신",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GMHI1dFRGOUk4VFFua05UOExFNU04TFMxQktjUnlYVlkwLTM4cmxPSXVGN2NHRDRydU51U0U5RmZxZzFjRXh6OEhNSnc0UGVMZzh2YV9n?oc=5"
@@ -1812,27 +1849,6 @@
     "source": "뉴시스",
     "title": "사우디 송유관 피격 여파…아람코, 유럽에 10월 원유 공급 중단",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lTXFYSW1kVFk1VnZRVGk5YlFMQTE0TVVyb2F0RTVzSEV2UUNTVllRYlh6aFk0ZVdod1BDcEt5MDNJYXphbWNKOTByQkJpcUQwYlBtN0ZVTGh5UXVyeGRHVtIBeEFVX3lxTFA1ZUU1MWQzdzJlVkM3ZmxXaWNOQUhPVDRwOWV2UFlORW5UanlnYjdTNkhYM2dJazBpX090Q2c4QkRTMHUzd3FkNjRxOGowVEJyYWVka0VFeF9zc0ZwZkltVFZycFFucmZ5empGdV9MSzFvLTI1dEJrUw?oc=5"
-   },
-   {
-    "date": "2026-09-18",
-    "published": "2026-09-18T15:36:00+00:00",
-    "source": "조선일보",
-    "title": "“후티 좀 말려줘” 中 밀착하는 빈살만… 美·사우디 동맹 ‘흔들’",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcFZaU0xWY3B2QW9xNXotak0xdmtXWmV5TjlzSnpIRmEyWHRqNi1wS3NNSUlYMWxqWWw4SWNpNXZRQ3NROWhNQlZUQjFTWFlWSlNGZTlncF9yNlJOX1ZiRDBTa1hmNUVLVENQcHJYY2E1bzNNck9PTUpWWU9sdmZ5U2hpUUJhT096VXVscTQ0WllSa1FkOUEyNnpXbTZoZw?oc=5"
-   },
-   {
-    "date": "2026-09-18",
-    "published": "2026-09-18T11:11:00+00:00",
-    "source": "JTBC",
-    "title": "배신 당한 사우디, 중국에 손 벌리자…‘판 뒤집은’ 미국",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9kYWdFU3J2cHlqZ0t3MzRXQnM2cHhPYmlmeXV1M25tLXlJT0x6cXhkSGpfaXFCSTFHaEd5SEZhaVNEYjF0RU9rZDgyclZBM0cyZVdocA?oc=5"
-   },
-   {
-    "date": "2026-09-18",
-    "published": "2026-09-18T04:47:00+00:00",
-    "source": "경향신문",
-    "title": "“중국, 사우디 요청받아 이란에 ‘후티 반군 자제’ 요청”",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlZkk0bFo4Y2g3MklWSkdudmF6WTAyMGRtdnN6MFNKdVdjcTZ5Vm1NbldMSGxjMWtreUtIUGc0bVUwNzZGZkM3N3RRek1BWWFjTkx3WlVDNk5vQdIBX0FVX3lxTE4xSWd0ZFhTeTBuSnFGbkprNzZia2RyT0ZGaFZ2akJFeFg5NHlkdjZ3ekRyUGwtN2w2MXFabURvZWZGb2xSUUlqLWdaTlVoS0RBdDFIbV9XRFhuRm9RNi1r?oc=5"
    }
   ],
   "en": [
@@ -1842,13 +1858,6 @@
     "source": "BBC",
     "title": "Saudi Arabia issues first air raid alerts for Riyadh since Houthis escalated attacks",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0YkZPQW9rR2RIWE52My1Bd0VVd0VKc2FORWhuVFJPQ0dFcmd0MTRlOVFrNmd0b200YUI2OFdrUzlXZGxzbWV3RXFCVm1ZZ1lCbVpXZ2ZxTDN2bHc?oc=5"
-   },
-   {
-    "date": "2026-09-18",
-    "published": "2026-09-18T23:17:15+00:00",
-    "source": "Al Jazeera",
-    "title": "Houthis accuse Saudi Arabia of launching 26 strikes in 24 hours",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVTFmd2JEaEdqNldCSV93dnNvdWxhZmJPR0o3RzRhUlF0YzFBcXBud05abHN5dVE5VUhxbU1yemhOWEFQVlB5aUlmVk1sbjUtZ0x3S0YySFo4RVduTWlmcWtBdUE1YXZnZ2pEdXIwejJjWER4di1NdmpkWksxejZrclZvV3JUenp0RlBGYW4xSURwd0wxcGZjY1FndlpuM0tYcVZ4bjE2Z9IBrAFBVV95cUxQc3RJVDZJM19CNWYxVm1FOC0tRGtzLUpVY1I4bS1wTzdBcGtFcHJ1Mm9kUFU3TW12NnpWR3FLYmdvT1RjMld4Mjg2dUlHZDZUVzBudmx1ZHZxdFF2bnJKbm11WmpJWXBzZEdfUkxDTkhfRHQzWW1CdmdRRTZCd1BFXzZuV3pWaTc3X3JIaFc3RmNVQkYyaW4zWXA1ZWkyWHk2RFQyYUNKak54aVJI?oc=5"
    },
    {
     "date": "2026-09-18",
@@ -1866,20 +1875,27 @@
    },
    {
     "date": "2026-09-18",
-    "published": "2026-09-18T13:08:07+00:00",
-    "source": "Al Jazeera",
-    "title": "Pakistan pledges full committment to defence of Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd0JGM1BTelVodGJxcFVIZGVuYnFSRkNVNVhkN1A3RExHX0hJanpEY1VGMjY1NkhzX0JjMTVQaVBtSnJxS0k2Tm52bWwwamNwMmxsREJjakFuY2FJX25tZ2hVR0RuNWNDZTFzSmxQa2hpdEkzTFdTSlZ5RDhTb2FpNmhSb1lJZlRyM3VrSEhmOENhbVlGNDlSNENrYzg0ZVVCbVRR0gGoAUFVX3lxTE82YXRMSnN2V3ZHM3Npa3otV1oxUVNfXzlxVDlRWDZUWGo1b2hRenJjOUktTS1CUExRQXA0YmNSanhaQW9BaTRxVUticzdzOE9BekRiVU5JR1JEQkc2RTVoWlZwWmgwT3FVcTd4WHpaTktpSWM3VkJZeVYzeVQzZDQzN0NVWFh3N3BBTnlCQkZtbnExbUE4VDJaT25MRUROa2JSeTZkVnZobg?oc=5"
+    "published": "2026-09-18T11:07:36+00:00",
+    "source": "Bloomberg",
+    "title": "Why One Saudi Pipeline Is Crucial to the Global Oil Market",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlZLRUw4Rm5sQU9kYkpWdWZIODJOcjNrT0g5NUdqQjRONUltQzNBc0FqbVpBVWIta3M3OVB6NWlNcWl5QkVGSDRDclBHdlVOQmR5ZWZBQVU5SjFCMkRMQ2dEVEtKUlZHejdkTTA2cV8xUHRFSVctUmxQYWpuZHB3aFBtX0lNemlydVBWTGVvUEp2X2ZpTDU0UFRpUzZEbmxuQ1llSXFtWXRLT2JQRE0xMzNtU2E4VmtkMkwyRg?oc=5"
+   },
+   {
+    "date": "2026-09-18",
+    "published": "2026-09-18T06:39:00+00:00",
+    "source": "Reuters",
+    "title": "Aramco to boost Gulf exports to 60 million barrels in September, October, traders say",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUWJDUGZRYnpZYjNzVjhCNDJ6LTMzOC1BQk8wVFhEWGU1SVpuVmJrZUJJMzQ5bkhxLVg5cFo0a1RaRjBabWp1ME91WG95UFBNV1k5UHVubmpfTVNzTkU1WW9CSVRjVGc5aTl1VmZtOU1PSzY5SFlscWswQlZGY1Q1dWI5dDZSOGx0MlVpZmp0STdRU0ZyanVvM1RFY04wRUI5RUEzQWlGY0cyYnVZdnNFRGRzaWJ3cG1lSWtTdTB4eWlXcTVUeGxUcVE1Yw?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-19T05:45:23Z"
+  "last_ok_at": "2026-09-19T10:50:20Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T05:45:24Z",
+  "fetched_at": "2026-09-19T10:50:21Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 28,
+  "count": 40,
   "baseline": null,
   "baseline_n": 0,
   "tier": "정상",
@@ -1899,14 +1915,15 @@
    "2026-09-18T18": 21,
    "2026-09-18T21": 30,
    "2026-09-19T00": 25,
-   "2026-09-19T05": 28
+   "2026-09-19T05": 28,
+   "2026-09-19T10": 40
   },
-  "last_ok_at": "2026-09-19T05:45:24Z"
+  "last_ok_at": "2026-09-19T10:50:21Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-19T05:45:24Z",
-  "last_ok_at": "2026-09-19T05:45:24Z"
+  "fetched_at": "2026-09-19T10:50:21Z",
+  "last_ok_at": "2026-09-19T10:50:21Z"
  }
 }
