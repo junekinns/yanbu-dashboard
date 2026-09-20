@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T22:55:19Z",
+ "generated_at": "2026-09-20T01:00:06Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T22:55:19Z",
+  "fetched_at": "2026-09-20T01:00:06Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -188,16 +188,30 @@
     "summary": "ㅇ 사우디 방위군은 9.17.(목) 타이프를 겨냥한 후티 반군의 드론이 요격되며 그 파편에 사망자 1명(예멘), 부상자 2명(사우디, 파키스탄), 물적 피해가 발생했다고 발표했습니다. ㅇ 타이프는 공군기지가 소재한 지역으로, 사우디 주도 아랍연합군은 지난 9.14.(월)에도 타이프 등지에 대한 후티 반군의 공격이 있었음을 밝힌바 있습니다. ㅇ 또한, 현재 …"
    }
   ],
-  "last7d": 6,
+  "last7d": 5,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-19T22:55:19Z"
+  "last_ok_at": "2026-09-20T01:00:06Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T22:55:38Z",
+  "fetched_at": "2026-09-20T01:00:21Z",
   "events": [
+   {
+    "date": "2026-09-20",
+    "time": "01:22",
+    "iso": "2026-09-20T01:22:52+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "후티 \"사우디 민감시설 공격\"…리야드 석유탱크 불·항공편 결항(종합4보)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpYVdyb0FURXZjZHhiSm9ZTXZLLXEtYVJjY3lhNS0wZl81MTlfaXF2OG9oSDZOUHBacHo3bXF5SkdqXzhPd3FDWW1pc0dUb083a2lydXpNQkk2WUnSAWBBVV95cUxNOGZUMHhRMjFLTUdKcnNPX2tBcnJOdWw2dWdIbU54dHh4X2Y0RzIzYXB4SUxCV2JvN0dCOXVUSDQxVDdmNWYwX1hwX0p6SmdrdFp2VWVtcmZuZmRRaVp3b0w?oc=5",
+    "source": "연합뉴스",
+    "outlets": 1
+   },
    {
     "date": "2026-09-20",
     "time": "01:12",
@@ -210,7 +224,7 @@
     "title": "후티 공격…사우디 수도 리야드 첫 공습경보",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56OHZDak9IS1RuQWtjeDM4Y1JlWDZHdXpJWVRhYi0wZVE2Yy1zZy1JTkpmZzR3TU1wM3NHT2JQQW9maFBHVlJXOWFPeDZFXzhCMmlqeWtlNmozT0FyOXZiMVJHcXJTWllTbmc?oc=5",
     "source": "SBS",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-09-19",
@@ -554,12 +568,12 @@
    },
    "리야드": {
     "7d": {
+     "피격": 2,
      "경보": 2,
-     "피격": 1,
      "요격": 1,
      "공습": 1
     },
-    "total7d": 5,
+    "total7d": 6,
     "prev7d": null,
     "prev_total": null
    },
@@ -639,12 +653,12 @@
   "history_days": 9,
   "history_since": "2026-09-12",
   "today": "2026-09-20",
-  "last_ok_at": "2026-09-19T22:55:38Z"
+  "last_ok_at": "2026-09-20T01:00:21Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T22:55:39Z",
+  "fetched_at": "2026-09-20T01:00:22Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -952,12 +966,12 @@
    "얀부": 5,
    "리야드": 3
   },
-  "last_ok_at": "2026-09-19T22:55:39Z"
+  "last_ok_at": "2026-09-20T01:00:22Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T22:55:40Z",
+  "fetched_at": "2026-09-20T01:00:23Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2041,13 +2055,27 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-19T22:55:40Z"
+  "last_ok_at": "2026-09-20T01:00:23Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T22:55:42Z",
+  "fetched_at": "2026-09-20T01:00:28Z",
   "kr": [
+   {
+    "date": "2026-09-20",
+    "published": "2026-09-20T00:20:00+00:00",
+    "source": "연합뉴스",
+    "title": "후티 공세에 동맹은 뒷짐…사우디 ’최악 위기’",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54SExReE4wUDBTQlhYaTc0OXFEbW5pZ2Vyd1VYQzJ6elkxRm5Zd2tyUllIUG9LMlJvSzRPNWs3cGlPa1l6elZWOXgydW1VVElwaWJwb1hIbEJmVzZxTzZpa1l1b05EQzg?oc=5"
+   },
+   {
+    "date": "2026-09-19",
+    "published": "2026-09-19T22:22:52+00:00",
+    "source": "연합뉴스",
+    "title": "후티 \"사우디 민감시설 공격\"…리야드 석유탱크 불·항공편 결항(종합4보)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpYVdyb0FURXZjZHhiSm9ZTXZLLXEtYVJjY3lhNS0wZl81MTlfaXF2OG9oSDZOUHBacHo3bXF5SkdqXzhPd3FDWW1pc0dUb083a2lydXpNQkk2WUnSAWBBVV95cUxNOGZUMHhRMjFLTUdKcnNPX2tBcnJOdWw2dWdIbU54dHh4X2Y0RzIzYXB4SUxCV2JvN0dCOXVUSDQxVDdmNWYwX1hwX0p6SmdrdFp2VWVtcmZuZmRRaVp3b0w?oc=5"
+   },
    {
     "date": "2026-09-19",
     "published": "2026-09-19T22:03:58+00:00",
@@ -2057,10 +2085,10 @@
    },
    {
     "date": "2026-09-19",
-    "published": "2026-09-19T19:42:00+00:00",
-    "source": "연합뉴스",
-    "title": "후티 \"사우디 민감시설 공격\"…리야드 항공편 결항도 속출",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXNHVybEE0VktQcmpvLXU1YTJiSmxFLTZoOEY4Mno5NENUbV9ueXc4VGhJUGdyempBNTBxVnhWUUt2VGtpeHFYZ2VfQU95UWRYSml5R1Z6aUxPUWgtTlBGZDVHdE5QbVE?oc=5"
+    "published": "2026-09-19T21:32:00+00:00",
+    "source": "YTN",
+    "title": "후티 공습에 사우디 수도 첫 경보...\"공항 인근 연료탱크 불길\"",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzaEdVMkE4QnFmb2tNSV90M2VoQzJTalJWcXhkcXlaU2ZKdWRXTTZlMXREV1hnWXhFa2xOczhxaUhsZnZOVU9TWGZBU1dmclprMHJYYlZ3SnZMMWJIMmc?oc=5"
    },
    {
     "date": "2026-09-19",
@@ -2068,20 +2096,6 @@
     "source": "YTN",
     "title": "미국, 중 기술유출 우려에도 사우디에 F-35 판매 승인",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yLVJFWElBaWNzQVliOVo5WGk3bG10S1JFdmF5elNkQnpjMzJKQlVyLVI0VGlUVVJDQjBZRk81aXg2OGVzOUEwSTlRV1JNRmE1U1F6aHVibF8wWkdTQnQ3ZE1VX3QyRVUyWGxUSWc2U2NsMlNvb0E?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T18:20:00+00:00",
-    "source": "YTN",
-    "title": "후티 공습에 사우디 수도 첫 경보...\"공항 인근 연료탱크 불길\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kTEVsNFYtbE9YUW93cWx4azA0QkhaN3FEbHcza2tnd1FKb1U2X1dLdXhTU0FfWVhiSHpfem94YUhYV2xzcjVqX0VNY0dkZkR6YTgwU2xsd013MUJSeHc?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T13:24:23+00:00",
-    "source": "뉴스1",
-    "title": "사우디 리야드 첫 공습경보…공항 인근 아람코 연료탱크 화재(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zdG82NURqNkFhMEhyZFE4WVhSRXZBNU9Wb3llS2RfV2hxT2IwcGhPMFRwb01EZ2NRRmxnU3lERzFIVXh0WllFTjJKay0wNHFyYk5fUF9mUzh6dHFGQ05qTnFB0gFnQVVfeXFMTjVEMGRwbG5kM2t6MHMyQ29BY2w0TG1sRXJBdTl4VU80MzNkQTZHcVVXa25Ucjd2R3RKTllzN0VEXzA5ZzhCR2E1NWhCVXpTUGVTNE9VczhDcFdzbjd3c1dPUjZRbmhkaw?oc=5"
    }
   ],
   "en": [
@@ -2094,6 +2108,13 @@
    },
    {
     "date": "2026-09-19",
+    "published": "2026-09-19T22:03:00+00:00",
+    "source": "AP News",
+    "title": "Saudi Arabia says Houthis tried to attack its capital, and other Mideast developments",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb3ZQdTJKbzNUNVFFeGV0NG0xYTlhTURSZ24wTGRxWUVsNFc3cUswUHpFWWFuM0piU1kxVmZlWURxbnZkT1Zvc0gxNHZPaVQ0di1hTmRoTDA1Z3Nib3phUjkycVIwN3czNlBDZl9tb2tpZ0liSVItaGVpQmpBUTEwSDl5UnZOTnhZdlh2UjcyRjAwSkFGN0N1UjBPcWp3NVE?oc=5"
+   },
+   {
+    "date": "2026-09-19",
     "published": "2026-09-19T21:25:06+00:00",
     "source": "NBC News",
     "title": "Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with a ballistic missile",
@@ -2101,34 +2122,27 @@
    },
    {
     "date": "2026-09-19",
+    "published": "2026-09-19T20:43:46+00:00",
+    "source": "The New York Times",
+    "title": "In Significant Escalation, Houthis Attack Saudi Capital",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRWRVamhDNXpOdVREbjhlTFFEaTB1X3ZfWUtPMWRKZmZvYnFpdGdCMXkwLVBVMmZNLW81MjlBdGVsWFpMZXZHRld5M1BhOUNiREtMN0p3Y0VTUEJVRDZuR3hnVHA0SHM0b0RyNjR6R2xpeDg0UlNPZUVQeTh6Tzd5RmJHTk96MVFvb2pEdg?oc=5"
+   },
+   {
+    "date": "2026-09-19",
     "published": "2026-09-19T20:16:07+00:00",
     "source": "BBC",
     "title": "Houthis say they targeted Saudi capital with ballistic missiles",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0M1RqdlhDaEtlM0o2NEJqWEgtclk1NWZkeklLQTl2NUFFSEdLOFlPRVp2Mm1Lemx4czFSZnlBRVVhVkh6a0hJcXNQbWtoMF9JUVFKTUR1WVdUczQ?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T14:54:00+00:00",
-    "source": "The Guardian",
-    "title": "Thick smoke seen near Riyadh airport after air raid alerts in Saudi capital",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ubHN1SzNnamY5ZEZTbDdtZm5Vb3NCSGdTV05TdFZDYlZDNkdDOU5EU3lNRzFzWHo4X3pzRjZON0tmd0k1bnhjU2hUbmVXcm9lUDVFVUUtbHZvcUNTV3l6MVVoSWxaREkxaFVBYWJNU3RPb0ZCNkV0MHlGRUhnQQ?oc=5"
-   },
-   {
-    "date": "2026-09-19",
-    "published": "2026-09-19T13:36:14+00:00",
-    "source": "The New York Times",
-    "title": "In Significant Escalation, Houthis Attack Saudi Capital",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRWRVamhDNXpOdVREbjhlTFFEaTB1X3ZfWUtPMWRKZmZvYnFpdGdCMXkwLVBVMmZNLW81MjlBdGVsWFpMZXZHRld5M1BhOUNiREtMN0p3Y0VTUEJVRDZuR3hnVHA0SHM0b0RyNjR6R2xpeDg0UlNPZUVQeTh6Tzd5RmJHTk96MVFvb2pEdg?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-19T22:55:42Z"
+  "last_ok_at": "2026-09-20T01:00:28Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-19T22:55:43Z",
+  "fetched_at": "2026-09-20T01:00:29Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 37,
+  "count": 31,
   "baseline": null,
   "baseline_n": 0,
   "tier": "정상",
@@ -2153,14 +2167,15 @@
    "2026-09-19T14": 49,
    "2026-09-19T17": 38,
    "2026-09-19T20": 37,
-   "2026-09-19T22": 37
+   "2026-09-19T22": 37,
+   "2026-09-20T01": 31
   },
-  "last_ok_at": "2026-09-19T22:55:43Z"
+  "last_ok_at": "2026-09-20T01:00:29Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-19T22:55:43Z",
-  "last_ok_at": "2026-09-19T22:55:43Z"
+  "fetched_at": "2026-09-20T01:00:30Z",
+  "last_ok_at": "2026-09-20T01:00:30Z"
  }
 }
