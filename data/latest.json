@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T18:42:35Z",
+ "generated_at": "2026-09-20T21:28:36Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-20T18:42:35Z",
+  "fetched_at": "2026-09-20T21:28:36Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +191,27 @@
   "last7d": 5,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-20T18:42:35Z"
+  "last_ok_at": "2026-09-20T21:28:36Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-20T18:42:51Z",
+  "fetched_at": "2026-09-20T21:28:54Z",
   "events": [
+   {
+    "date": "2026-09-20",
+    "time": "22:19",
+    "iso": "2026-09-20T22:19:48+03:00",
+    "city": "얀부",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "美, 사우디 타이프·얀부 정부 직원 여행 제한…후티 공격에 경계 강화",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4dFpYbDNBOWNxU1VhQ1YxeTF2LUhrZHFUU2ZaQndhZWxDODBHM1pfNzUwLXdpZWJORnBzMWFsZjZ6V1hmME01ZlBDMFc3dWxkOGpGcnhRaGs1M0Q1X2fSAV5BVV95cUxQeHRaWGwzQTljcVNVYUNWMXkxdi1Ia2RxVFNmWkJ3YWVsQzgwRzNaXzc1MC13aWViTkZwczFhbGY2eldYZjBNNWZQQzBXN3VsZDhqRnJ4UWhrNTNENV9n?oc=5",
+    "source": "뉴스1",
+    "outlets": 1
+   },
    {
     "date": "2026-09-20",
     "time": "13:34",
@@ -547,9 +561,9 @@
   "tempo": {
    "얀부": {
     "7d": {
-     "피격": 2
+     "피격": 3
     },
-    "total7d": 2,
+    "total7d": 3,
     "prev7d": null,
     "prev_total": null
    },
@@ -679,15 +693,15 @@
     "prev_total": null
    }
   },
-  "history_days": 9,
+  "history_days": 10,
   "history_since": "2026-09-12",
-  "today": "2026-09-20",
-  "last_ok_at": "2026-09-20T18:42:51Z"
+  "today": "2026-09-21",
+  "last_ok_at": "2026-09-20T21:28:54Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-20T18:42:53Z",
+  "fetched_at": "2026-09-20T21:28:55Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1006,12 +1020,12 @@
    "얀부": 5,
    "리야드": 3
   },
-  "last_ok_at": "2026-09-20T18:42:53Z"
+  "last_ok_at": "2026-09-20T21:28:55Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-20T18:42:55Z",
+  "fetched_at": "2026-09-20T21:28:56Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2095,26 +2109,33 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-20T18:42:55Z"
+  "last_ok_at": "2026-09-20T21:28:56Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-20T18:42:59Z",
+  "fetched_at": "2026-09-20T21:28:59Z",
   "kr": [
+   {
+    "date": "2026-09-20",
+    "published": "2026-09-20T21:10:00+00:00",
+    "source": "KBS",
+    "title": "후티 공격에 사우디 혼란 속출…트럼프 “대이란 대응 결정중”",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mWmNCWG9rcTlHVGM0WUlDRFVzWE5uV0xZSXNFWnZjU0ROS3JXZ1lBenlzSXB6b3ZRU01DNjlQaUNPMF9WSE42aFdhbjQ0X2k1OFhwS2FKM004cEpwQ3p6TGllbDZsQQ?oc=5"
+   },
+   {
+    "date": "2026-09-20",
+    "published": "2026-09-20T17:07:00+00:00",
+    "source": "국민일보",
+    "title": "후티 반군에 절절매는 사우디",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vSzZrZFNmNS1fSTVpVlFYR18tblcteW0zVVVwX0hiZUFXQW84Z09vREVBMGdWWWNKams0cFVzT1dfX19fLXpKWmlISVhDd1RFZGFwZS1ReGhxeWYzSkVLR09JelM0UzFKOUxjMNIBbEFVX3lxTE1vSzZrZFNmNS1fSTVpVlFYR18tblcteW0zVVVwX0hiZUFXQW84Z09vREVBMGdWWWNKams0cFVzT1dfX19fLXpKWmlISVhDd1RFZGFwZS1ReGhxeWYzSkVLR09JelM0UzFKOUxjMA?oc=5"
+   },
    {
     "date": "2026-09-20",
     "published": "2026-09-20T11:48:00+00:00",
     "source": "한겨레",
     "title": "후티, 사우디 수도 첫 공습…튀르키예·파키스탄 ‘개입 시사’ 요동",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdkdHalhQMDl3MVlXcVMyUW1OSl91cVhxMEtkZnlhX055Y1RVWjYzbDdhREc4MVZaUWVtRVFQMEdPV1RUMURsQnlRb19YT3ZYU1JkQlEtRlMyUW1RRUdZUXFIYzZKSG02UHVxTW5WUkN3QmdrM1pUaDJXZVFOemNtdlN3?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T11:41:00+00:00",
-    "source": "경향신문",
-    "title": "후티, 사우디 수도까지 때렸다",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11VjEtWE1QNERNU1dFSVNwZnYzWEtOTTRmTVpVbWFRSmlERkc2SmRLb29LVTMwUUp4RC03ZTV0MjBleXpqZnF0UWNWc3ZpU1VIWERfZFR0RzZ3a1V1dEJr0gFfQVVfeXFMTXVWMS1YTVA0RE1TV0VJU3BmdjNYS05NNGZNWlVtYVFKaURGRzZKZEtvb0tVMzBRSnhELTdlNXQyMGV5empmcXRRY1ZzdmlTVUhYRF9kVHRHNndrVXV0Qms?oc=5"
    },
    {
     "date": "2026-09-20",
@@ -2125,17 +2146,10 @@
    },
    {
     "date": "2026-09-20",
-    "published": "2026-09-20T07:56:00+00:00",
-    "source": "경향신문",
-    "title": "후티, 사우디 수도까지 사정권…홍해에서 리야드로 전쟁 번져",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpdVYtTTR0YXhRd1hSU19kTTNZLUR3RkhaZzNJTUx4cjVnOTJQYVpFbi1UX2QzSTN3NC1jSXdqLUt0OXlnbTgwVGRhNTZqR3F5RzU2aU5DUlVOd9IBX0FVX3lxTE9FbWI1MGI3eFl5VG9pVUVObTktckFudENZSzVJalZnakNYMWNMUFBGempPdEVOM2pQeEJ5NkpNdjAzbVUzV3FINVFYSnQyajFISFFhWnc4bkhtVW80d3I0?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T07:54:20+00:00",
-    "source": "연합뉴스",
-    "title": "[쇼츠] 리야드 석유탱크 쾅!…사우디 수도 첫 공습경보",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PTkY1aWZUcHNZTHViTHZzMTl2bGRaWlVRS191YkVtdnJlSEc4X1JqQkFvcmRoa0ZDb3JSN0dESTFJazUzY2V4LUQyMjVJbnJJZFRIeUVVWGIzZm_SAWBBVV95cUxNeDA2LTk4ZW1VakhhWDdGZExCamYxSHlZcEN1LUZFdUZ4Tk9xZ0dWTHpNSER2ODByUE5OUU9uN2JjNkV3d3dSWmI0Vkh6aWlfTFlTWUltaFJFdTNmLUxLNnc?oc=5"
+    "published": "2026-09-20T05:15:00+00:00",
+    "source": "YTN",
+    "title": "후티, 사우디 심장부 타격...시험대 오른 정상외교 '슈퍼 위크'",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15TGtnRjJ6azZpMTdlVkxIOC15NDAtblVOT19lZkJXZHhWYThBYnlobURGcm9WeFdvR3JfRURPRE45QTJ0Um83NWVjaVBUSnd1RXc5SVFDMWFnU29yRGc?oc=5"
    }
   ],
   "en": [
@@ -2145,13 +2159,6 @@
     "source": "PBS",
     "title": "Iran-backed Houthi rebels warn against joining Saudi Arabia in Yemen's growing civil war",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2hwVEdxNU9yN1Y3a0ZjU2UwclRMSV9BZUJnUm82WjI0T0c0eXdFMlp6dC0tZTFOV3l5SUp0MWIyYjE1Z0FURW5LWDFuYVdxeXNScXN4V29aaldZWVRfa0o0LXR6QU9feklCNkoyWFVwcGhHd2JlSThoNDFhSmtHdGtaYTZCbWVqMjlZS1l5RmlRM0NxcERjbWx5ZEc4X1c3R3N3YVV5a2YwMDJZRkQ0NEhyYjJGS2JjUFhhZjd2WdIBxAFBVV95cUxPUGFuRkRSbmJzd21ydDVmYjNDa1RQd1dxXzFlOEhEMENHcHBNWHlmbXhPTXlsUXBxZWdZRDlLM0tET19FQ1dFNTBsdlNPeXZaVE5KeVU2cTZqSGU4bkxjczVWbWhJQWhSRlFTOEpVR1pXUUQ5LWpPVFZmaEhJYWIzdE5zWm50QUZ4bmZMRS16cUVWeGdhS1dHN1pNM2dnVDI3T0JTTmZ2aXU0cExMY0NYNWxBbFQ3ZmI0YTRPd3hGcTFZQVFR?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T16:10:15+00:00",
-    "source": "The New York Times",
-    "title": "Houthis Push to Expand Territory as Tensions With Saudi Arabia Rise",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZUdYOWNWamFfOUYtVWItdVJ6SG1aWGlFSlJMSXV3dTY4cHJzWU9mczZWNVB4WVBXblM5YWRXcERfb0s5TzNDSTlKWWl2aEMtTS10c1F1NlAzbVRBM2VMdHJDXzYxdDVNSEtURTVPYk9jdFBJcjFqZlVfSDE1V2FPa0laOVpURWZZTnYwWW5QTTk1M2l4LTJz?oc=5"
    },
    {
     "date": "2026-09-20",
@@ -2173,16 +2180,23 @@
     "source": "France 24",
     "title": "Houthi attacks and no Western support: What are Saudi Arabia's options ?",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOTNfUVAtSVBSVkRuLTlZOXItazh3QTZrWHNFUHFya1BhajZYUWs1TVY2ZW1kNnVEUnllU0xZZEpEYjJnSFJoQVhWZE9ySVFLUFpyX0hYSjJMTV9fRWxfWnZQWjM0QmRPT0tHY2tkRmE4YUR2dzZOOUliMS12VmdMSWhxVnNoSDBNdExyTjZoZnlITU1SRFcwQmJNWk9GZw?oc=5"
+   },
+   {
+    "date": "2026-09-20",
+    "published": "2026-09-20T12:17:17+00:00",
+    "source": "France 24",
+    "title": "Why doesn't the US intervene to defend Saudi Arabia against the Houthis?",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaldxY090enNWMnI1MDdGaFNYSVhYYVFWakVfZUQ0ckFHS0RWQ3UzalY3bnFXemtjQlNTZUtEYmxqVFYtdmtNRXZQN0VPSWNvMUhmSEJ3WWtKRC05cU1weV9ZU0xRTGRjUC1HS3k2cHRZSi1VZ1lIVF9xZGZ5REJSTUl3SkZPWmhmd2hOMWU1aXNaLUxXY3hmb3Y2WEZkODI1?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-20T18:42:59Z"
+  "last_ok_at": "2026-09-20T21:28:59Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-20T18:43:00Z",
+  "fetched_at": "2026-09-20T21:29:00Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 31,
+  "count": 32,
   "baseline": null,
   "baseline_n": 1,
   "tier": "정상",
@@ -2212,14 +2226,15 @@
    "2026-09-20T06": 32,
    "2026-09-20T11": 32,
    "2026-09-20T15": 32,
-   "2026-09-20T18": 31
+   "2026-09-20T18": 31,
+   "2026-09-20T21": 32
   },
-  "last_ok_at": "2026-09-20T18:43:00Z"
+  "last_ok_at": "2026-09-20T21:29:00Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-20T18:43:00Z",
-  "last_ok_at": "2026-09-20T18:43:00Z"
+  "fetched_at": "2026-09-20T21:29:00Z",
+  "last_ok_at": "2026-09-20T21:29:00Z"
  }
 }
