@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T19:19:20Z",
+ "generated_at": "2026-09-21T23:12:43Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-21T23:12:43Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -188,16 +191,12 @@
   "last7d": 5,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-21T06:11:59Z",
-  "stale": true,
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f6fd51862a0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-09-21T19:19:20Z"
+  "last_ok_at": "2026-09-21T23:12:43Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T19:20:22Z",
+  "fetched_at": "2026-09-21T23:12:58Z",
   "events": [
    {
     "date": "2026-09-21",
@@ -584,7 +583,7 @@
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHNsQUZkVHd5TE45cmc4cFN6NkJjd0xjbGNPY1d6YmY1bGgyWnVrTjlaNmNzUEl3MzFsSGs4WGdIM2JjSDk3NHR6RzdSV0ZmVzZmZ3BoVnBUc3JKYWoycHRkMTU0eDlmRHJSM1dSYUE3eWFrU0VBdURrMnFVNm95cXBJNlZXaVplcFdJX1lXRTJuM19fV1N5bHIza0VkdlBRM0FHRmdSNHVhOTFnT05J0gG0AUFVX3lxTE9DU3l0RkdjTnVMZmdYY1B0MExabUVfTnpkSmRNWkxBc3B3bzJNelEyUThkck9hSTlCT21lbGRaM09ZRXA1ZWFEUmxERHZTS2kyYTJtX0dlc2VHbzBPQTlQNTNfeFIyNmtLaWpoQ3NoekZLQ0VLT1ZtM25yczhZc3pfNlZzRjZFU2JKcnlVSlA5RGFsS1VhRDVKdlgyVGpHeDBXVnZpRFU0N2N0bklJUkJsdm5UUA?oc=5",
     "source": "Al Jazeera",
     "outlets": 2,
-    "weapon": null
+    "weapon": "드론"
    }
   ],
   "tempo": {
@@ -597,10 +596,8 @@
     "prev_total": null
    },
    "제다": {
-    "7d": {
-     "경보": 1
-    },
-    "total7d": 1,
+    "7d": {},
+    "total7d": 0,
     "prev7d": null,
     "prev_total": null
    },
@@ -626,9 +623,9 @@
     "7d": {
      "피격": 4,
      "요격": 2,
-     "경보": 2
+     "경보": 1
     },
-    "total7d": 8,
+    "total7d": 7,
     "prev7d": null,
     "prev_total": null
    },
@@ -722,15 +719,15 @@
     "prev_total": null
    }
   },
-  "history_days": 10,
+  "history_days": 11,
   "history_since": "2026-09-12",
-  "today": "2026-09-21",
-  "last_ok_at": "2026-09-21T19:20:22Z"
+  "today": "2026-09-22",
+  "last_ok_at": "2026-09-21T23:12:58Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T19:20:23Z",
+  "fetched_at": "2026-09-21T23:13:00Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1061,12 +1058,15 @@
    "타이프": 8,
    "얀부": 5,
    "리야드": 3,
-   "나즈란": 1,
-   "지잔": 1
+   "지잔": 1,
+   "나즈란": 1
   },
-  "last_ok_at": "2026-09-21T19:20:23Z"
+  "last_ok_at": "2026-09-21T23:13:00Z"
  },
  "firms": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-21T23:13:01Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2238,100 +2238,96 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-21T13:59:26Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-  "fetched_at": "2026-09-21T19:20:25Z",
-  "stale": true
+  "last_ok_at": "2026-09-21T23:13:01Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T19:21:25Z",
+  "fetched_at": "2026-09-21T23:13:04Z",
   "kr": [
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T23:01:27+00:00",
+    "source": "뉴스1",
+    "title": "사우디, 송유관 피격에 페르시아만 수출 확대…유가 100달러 하회",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1RmVkMkRXNEVtZ05SMmkzWjRPbzBYSGtSb19vMGJWUmtZYmRCbThzS1d3bjVIbXRpR0NydGlOUlotTVo1eS1vWEl3NFBYU2NnaHp2SHBBb05aaHpBZmFlaHB30gFnQVVfeXFMTW5kSFE1Yy1jVUJkN1RkcFg3OElZcUt2ZnZ3Vzgzby1GaUVoeFdBNFZnQ3VmVFNZNUFGeXdldkNPV2d2bjVCSmphX20yU3RXT0JrcXpRbERILXpoVnFrZ2s2dHlVV3REWQ?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T22:32:06+00:00",
+    "source": "연합뉴스",
+    "title": "영국, 사우디에 '후티 저지' 측면 지원…공중 급유 제공",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oSjJocWFMa3gwY3pKa0VWZnVNSFdXLU9UcWZzc04zNU1RSTNET25mZDRST3VtcXg0cVNvZm5WSzVPWGxiXzYwMUdORk1hbUxlLXhVX1daS0xlbExFQXRJN9IBYEFVX3lxTE5oSjJocWFMa3gwY3pKa0VWZnVNSFdXLU9UcWZzc04zNU1RSTNET25mZDRST3VtcXg0cVNvZm5WSzVPWGxiXzYwMUdORk1hbUxlLXhVX1daS0xlbExFQXRJNw?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T20:38:34+00:00",
+    "source": "연합뉴스",
+    "title": "\"트럼프, 사우디 요청에 후티 공격하려다 보류…새 전선 딜레마\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ObHlvNzZTQXZteU14OVFNbHVBcDE0cThTX2M1aWIyR0xOLTk5UWR1Q1hnUHRWV1BId3RVckwtWlhuVVFKNG1BOF9lalhWNkMzWXExSW5JQ09hc0nSAWBBVV95cUxQWnNKeDk0V0JLOUdzNlBSNHdNY1ZWdUllajd0YlpLSWtGaFRKUDJDM3lReEdaVEJnaGRyNERkZklRLTE5YjlNUDFkYXBZY2JMN2tpU1d0azRUdmVHOXZ6RHU?oc=5"
+   },
    {
     "date": "2026-09-21",
     "published": "2026-09-21T18:04:49+00:00",
     "source": "MBC",
     "title": "\"송유관 피격 사우디, 페르시아만 통한 석유 수출 확대\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pblRrUFlpX0hWWndnSkxlb2VZR0NKV3BhTVdLVzlCay1fSWl5X2VISlpmN3hMWHRyYnB4SW96MkNTRXg3YVZ6R2hVYUdTb3Y4NGdUTTJvRWR0aUhTNU5YU3hsdndib19HSzZOb3E2M2ZjeTNv0gF0QVVfeXFMTlljNmpZM2h6eVR6M2Z5OTBsZWZYMEMwWUhsR00zalVwSEhsYnkydHNLM2JSR0RrUzB6dmwtZTNJUjl0MVFhckQ1anZCVUlhS08ydHB5ZkFQck1BVzNQNjNLTjRSRTd5X1cxRTVVQVhpUHV4YTU?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZYzZqWTNoenlUejNmeTkwbGVmWDBDMFlIbEdNM2pVcEhIbGJ5MnRzSzNiUkdEa1MwenZsLWUzSVI5dDFRYXJENWp2QlVJYUtPMnRweWZBUHJNQVczUDYzS040UkU3eV9XMUU1VUFYaVB1eGE10gF0QVVfeXFMTlljNmpZM2h6eVR6M2Z5OTBsZWZYMEMwWUhsR00zalVwSEhsYnkydHNLM2JSR0RrUzB6dmwtZTNJUjl0MVFhckQ1anZCVUlhS08ydHB5ZkFQck1BVzNQNjNLTjRSRTd5X1cxRTVVQVhpUHV4YTU?oc=5"
    },
    {
     "date": "2026-09-21",
-    "published": "2026-09-21T09:33:00+00:00",
-    "source": "연합뉴스",
-    "title": "\"트럼프, 사우디 요청에 후티 공습 준비했다 보류\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5raFgyWEpNVEU0cWUtMExRakV1THFRa2RHWGF4V0diWGF6anZ3eFV1WDc1cFNHV2owMHZQVVlvRVoyRGU1SWlOd3R5QXM3TjhKZDRNQWFYcHZVVXhRT19BRlB1U2pfMk0?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T06:28:00+00:00",
-    "source": "채널A",
-    "title": "후티에 공습 당한 사우디, 후티 응징한 예멘 정부군…‘화약고’ 된 예멘 [현장영상]",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5saW1xX3FVSTJSZFZSWlFNQlVJaU93YXJzOU1YNUM2VGhEMkpucHplQ0FQTm1VZmhpSnRqdDRMdFJKS0pUNHVoSE5QeXNyZ1A3Uk8weFU4dUJkSV90dG9LcWxtb9IBY0FVX3lxTE5saW1xX3FVSTJSZFZSWlFNQlVJaU93YXJzOU1YNUM2VGhEMkpucHplQ0FQTm1VZmhpSnRqdDRMdFJKS0pUNHVoSE5QeXNyZ1A3Uk8weFU4dUJkSV90dG9LcWxtbw?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T06:08:57+00:00",
-    "source": "조선일보",
-    "title": "이란보다 더한 후티… 사우디 수도 때렸다",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMDhKTDczNzl1T0lVMkRIaUNOYmpsanRzTHpaNjdOV2gwV2hnYTlpdkNTYU9OMmdOM0V1UTRuVFdQeXFaRnB2d3VMU2JHemU3T2k1VTg4Ry1XNjM5TkFHQTVJSl9rcjNtZW5XQlQtYXYxX2hCd2dpazRTaGk1TkozTU5xaTJ6VXliMGFNMUpXN0tNdmtVU0lCMHVnWlU?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:57:00+00:00",
-    "source": "한겨레",
-    "title": "“트럼프, 사우디 요청에 후티 공습 준비했다 막판 보류”",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfTnVDRjNraDhESTJFOVpXakN6VUd2V0tnVmdzN3JFY051aXVIYk1HRWZzQzloc1M5V3JyczJVMzFWRV9jUVpubEIya0UwelRGOXF3S0UyVjU3aDNlRW9sdXl4NmFRWWdxTVdnVnNBckszQzg?oc=5"
+    "published": "2026-09-21T16:26:00+00:00",
+    "source": "KBS",
+    "title": "“송유관 피격 사우디, 페르시아만 통해 석유 수출 확대”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fU3NxT1YzcC1OUTdyZ3g4b09wdVlWbE95eWc3YjhfVjFmNXNLOHNlOW5ZUjdMcGZLX2VRWWhsTkJzRHByOE54REN5blh6d0RsWXJSYjBQY1BHSnM?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T22:41:15+00:00",
+    "source": "ABC News",
+    "title": "Houthis' escalating attacks on Saudi Arabia give Iran leverage in the Middle East",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEp0RkEzaUQ3QUZKNDZra0pOeXJudE5jc3BSSTZrRGxHUVgzelJrLTNrWGsxeHhIbFNRTU00ODJvbGxTRG9sMEVtbWYtNzhXQm10YWx3SllZQXg5VGU5bVUxRUVjM202bUw4NmxJY0g0TXAwclU2ejVZenRPUmx2RzFIbGpTT1VVNDRuZUdVTml6ZGEzR2hvV28tTWVRUGJ6Ny02c01DcUJTUdIBrwFBVV95cUxOazcySm5JUmxmVEFDV0U1TkRGbmhXZlhxMnA1UERQaEE5WllVbDl6WTlLbXRkZXZkZThxX3lZMXRBdEVRc0lMS2FNRURIbHJtMnZBeXFiUFpZSXhxNlZvWnNEaGhuXzhoUjFSRnJvM3BydUpwZG9JSTZqa0d1OGo1cGtLTWRWWVRhTkt6NG1Na083WU5XQ0xjUnNKd21yeUltTGlCUVRMa280UzlfdTlV?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T21:07:00+00:00",
+    "source": "AP News",
+    "title": "UK to offer Saudi Arabia aerial refueling to counter Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWozMlFPbDVrMzF0N0RjV2ZkNDRhVGU4TUZVeDlHLUZRSV9MR0JzcE5aSXpTWlpuMWU1RDFCRXkxTnhWVjZfOURBRlh6Q0hDU3FTc29hQTlzZ28tX2RGSFdveWthNzVYcHhzaHdYOGc1eTFLMklPX3FLemV6WS0xZEhINDRUREtGT0ptTExQaGdSeW56MXJ1cmRn?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T21:00:13+00:00",
+    "source": "BBC",
+    "title": "UK to provide Saudi Arabia with 'defensive' military support, says Burnham",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00N2Z5eWN2TURyRzQxSXJFYmQxSTZyMFRVcVhES28zUWtkcTBGZDdja0tXWkZUdHpyT1VpMHpxWFk1WXgzdWdWQVhPa0RtREpqcHhvejVSdEpCQ1U?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T19:36:00+00:00",
+    "source": "The Guardian",
+    "title": "How Saudi oil scientists ended up working on the world’s most important climate reports",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON1RjMkRZdHI4clYwSGVIUmpwQTJoNjR6N0NkYjZ4Qk9VbWNDbFR6WVRmeDBfMDZWZkY0UGRQY08teEdNbkVCTFhsdGRXejZPNXJkNHl1V0FUTzdSTEN6X2RqQkNHQ1pRaUhEdDhHSFFBaFJlU3ZrbXNfOXFYTzlJaHVZLVUzTzcxQ2VUSVM1bWx4YmtBU0pDdmtmTnVZUDAzbUdBRl94c1BkVDQ?oc=5"
+   },
    {
     "date": "2026-09-21",
     "published": "2026-09-21T17:14:28+00:00",
     "source": "Reuters",
     "title": "Saudi Arabia ramps up Gulf oil exports after pipeline attack, data shows",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcThldmdWd2c5aHdfck8zYk1XMWtsa3kweWlXaTNQWEpnV2NIUHhiNTh2cHhoSndCV2Z2QkhwNl9DZEJObFJha2pXWG1JcUZpVXlZU1RqQ2diZUJ0YVV2alRBRmRCampGOGdQQnM4UVV2R2ZMQ2p6WC1QSk5iOGJEWDZ2YXdaSzlLeGtZYnNuVld5MGZESG1tenNaMFlFcExWeVhlZjJBTlJOeHNmVkhBYzFkejJkNno5VWEwU05hRHU4NGlqT1U5UXcxUzU?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T15:36:40+00:00",
-    "source": "CNN",
-    "title": "How the U.S. views the escalating Saudi-Houthi conflict",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY0d0NEdtOVhUZi1rcU9yVGJLamlzRHUzYUxxSW0wZmlJVWQ4RS1Dd21xOXRFcmxnTENnRHh6bXNVaWktbjdpcTV4YVFnTXdMN3ZCSmdmVHhrbVlKNjctNkxRbkJ3cFRMSDFSQ1M1NmRkQ1V6aWcyWnd4SkVzNGM4RTRXd3NlYlQ3NDl1NXEteTZYck13YkhnTW90MEpzVE1oOXRobFh5VmhZSTJBZFdv?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T15:26:41+00:00",
-    "source": "Reuters",
-    "title": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T14:14:16+00:00",
-    "source": "BBC",
-    "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zTDBSOE01bzVETms3UUp0LVFaYjNBS19XUEFBbFRWY2FheFJsZ1hIU0F4dHBTcEFvcmc0TDlwbTVWZ0VrOHhCOVczNGhRYjQweFVQZGtva2NGV0E?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T08:29:13+00:00",
-    "source": "CNBC",
-    "title": "Here's what the Saudi East-West pipeline shutdown means for Asia's biggest crude importers",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRDlCal9FSDBLa0d1M0ZVWUxVT0pHNFNhTGRNUmRXeHVyaXRiNE5ma0x1V2JmNUg3MU9xNU5ES1hkQ3dkSi1QNEhlWWUzb2ZwWkZDV3RwN1RneWhwa1FNNURwRVAwLWg1TjlqZktuTG55bGJzcmNIcnJyMDBjTHZlRFhOR3dueGUz0gGOAUFVX3lxTE5fQ3B2dWpkdjdaTUZZWDhuUUdCdFZrVW5rWlhPV2tOSnJjQzF2YzQxdXZYa0lORlY0dDF3UE1oU1FIWmEyYjBzanR1R2RfTEprdTlPcm9CZU1QY3hGQVRqYlhfMFlidE1Fam5WT1hMbkxERFMzVVpRLXZaR3kyZGVSaW1ZMDVGMzdEUWpYcFE?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-21T19:21:25Z"
+  "last_ok_at": "2026-09-21T23:13:04Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T19:21:27Z",
+  "fetched_at": "2026-09-21T23:13:06Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 37,
+  "count": 36,
   "baseline": null,
-  "baseline_n": 0,
+  "baseline_n": 1,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2364,14 +2360,15 @@
    "2026-09-21T00": 45,
    "2026-09-21T06": 25,
    "2026-09-21T13": 33,
-   "2026-09-21T19": 37
+   "2026-09-21T19": 37,
+   "2026-09-21T23": 36
   },
-  "last_ok_at": "2026-09-21T19:21:27Z"
+  "last_ok_at": "2026-09-21T23:13:06Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-21T19:21:28Z",
-  "last_ok_at": "2026-09-21T19:21:28Z"
+  "fetched_at": "2026-09-21T23:13:06Z",
+  "last_ok_at": "2026-09-21T23:13:06Z"
  }
 }
