@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T06:11:59Z",
+ "generated_at": "2026-09-21T13:58:23Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-21T06:11:59Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +188,31 @@
   "last7d": 5,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-21T06:11:59Z"
+  "last_ok_at": "2026-09-21T06:11:59Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f3844c89c40>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-21T13:58:23Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T06:12:18Z",
+  "fetched_at": "2026-09-21T13:59:24Z",
   "events": [
+   {
+    "date": "2026-09-21",
+    "time": "12:05",
+    "iso": "2026-09-21T12:05:22+03:00",
+    "city": "리야드",
+    "type": "경보",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "“설마 리야드까지”… 공습경보·폭발음에 한국인 교민들 ‘불안’",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjOEt6VUJndzh5dnNtSEVnb2JpM0lUdDZaV2NCQ1RKU0NWSGFHdmU3bEc2UG1ITkpUM3dZRGplUU9MNWo2WE0wTDZyWmlDU3dZXzlvR0RlamZxNlFQNzhSQWpWTk9WTlpOOVRKUXhiMEtuajdrR0l6ejl5bw?oc=5",
+    "source": "서울신문",
+    "outlets": 1
+   },
    {
     "date": "2026-09-21",
     "time": "05:49",
@@ -625,12 +640,12 @@
    },
    "리야드": {
     "7d": {
+     "경보": 3,
      "공습": 2,
      "요격": 2,
-     "피격": 2,
-     "경보": 2
+     "피격": 2
     },
-    "total7d": 8,
+    "total7d": 9,
     "prev7d": null,
     "prev_total": null
    },
@@ -710,12 +725,12 @@
   "history_days": 10,
   "history_since": "2026-09-12",
   "today": "2026-09-21",
-  "last_ok_at": "2026-09-21T06:12:18Z"
+  "last_ok_at": "2026-09-21T13:59:24Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T06:12:20Z",
+  "fetched_at": "2026-09-21T13:59:26Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1034,12 +1049,12 @@
    "얀부": 5,
    "리야드": 3
   },
-  "last_ok_at": "2026-09-21T06:12:20Z"
+  "last_ok_at": "2026-09-21T13:59:26Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T06:12:20Z",
+  "fetched_at": "2026-09-21T13:59:26Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2161,52 +2176,121 @@
     "date": "2026-09-20",
     "time": "2248",
     "confidence": "nominal"
+   },
+   {
+    "lat": 22.53572,
+    "lon": 53.92844,
+    "frp": 1.19,
+    "date": "2026-09-21",
+    "time": "1000",
+    "confidence": "low"
+   },
+   {
+    "lat": 22.53932,
+    "lon": 53.92786,
+    "frp": 38.61,
+    "date": "2026-09-21",
+    "time": "1000",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.96532,
+    "lon": 49.23025,
+    "frp": 2.25,
+    "date": "2026-09-21",
+    "time": "1002",
+    "confidence": "low"
+   },
+   {
+    "lat": 26.69315,
+    "lon": 50.08686,
+    "frp": 8.5,
+    "date": "2026-09-21",
+    "time": "1002",
+    "confidence": "low"
+   },
+   {
+    "lat": 27.00953,
+    "lon": 49.56095,
+    "frp": 11.5,
+    "date": "2026-09-21",
+    "time": "1002",
+    "confidence": "low"
+   },
+   {
+    "lat": 21.16285,
+    "lon": 39.51788,
+    "frp": 3.85,
+    "date": "2026-09-21",
+    "time": "1140",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-21T06:12:20Z"
+  "last_ok_at": "2026-09-21T13:59:26Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T06:12:23Z",
+  "fetched_at": "2026-09-21T13:59:29Z",
   "kr": [
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:32:00+00:00",
+    "source": "경향신문",
+    "title": "사우디 송유관 복구에 최대 5주…UAE ‘원유 대체국’ 급부상",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NVW1mclg1RlFwdm5qVFh2UmxIN25sWlJzd0ZYTFlHV2JUSUxQLVVFUnFuMFlyMnlaODBiT05VMGV4cDNTQ1hBNzJNdy12MXBYb0VmWWl4OGVfS0o5dmVz0gFfQVVfeXFMTU1VbWZyWDVGUXB2bmpUWHZSbEg3bmxaUnN3RlhMWUdXYlRJTFAtVUVScW4wWXIyeVo4MGJPTlUwZXhwM1NDWEE3Mk13LXYxcFhvRWZZaXg4ZV9LSjl2ZXM?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T09:33:00+00:00",
+    "source": "연합뉴스",
+    "title": "\"트럼프, 사우디 요청에 후티 공습 준비했다 보류\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5raFgyWEpNVEU0cWUtMExRakV1THFRa2RHWGF4V0diWGF6anZ3eFV1WDc1cFNHV2owMHZQVVlvRVoyRGU1SWlOd3R5QXM3TjhKZDRNQWFYcHZVVXhRT19BRlB1U2pfMk0?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T06:28:00+00:00",
+    "source": "채널A",
+    "title": "후티에 공습 당한 사우디, 후티 응징한 예멘 정부군…‘화약고’ 된 예멘 [현장영상]",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fUmFCMElBZ1FoQkVfZkRwNjAyRTAzWHp1OFpSakstSkpCNmxzbjZxQzMwUk4tTkRNLXhpTjhOcm1wNXYwUXR3b2NhSW54NE5EZGJMTGhUd2ZydXRhZnfSAWNBVV95cUxObGltcV9xVUkyUmRWUlpRTUJVSWlPd2FyczlNWDVDNlRoRDJKbnB6ZUNBUE5tVWZoaUp0anQ0THRSSktKVDR1aEhOUHlzcmdQN1JPMHhVOHVCZElfdHRvS3FsbW8?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T06:08:57+00:00",
+    "source": "조선일보",
+    "title": "이란보다 더한 후티… 사우디 수도 때렸다",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMDhKTDczNzl1T0lVMkRIaUNOYmpsanRzTHpaNjdOV2gwV2hnYTlpdkNTYU9OMmdOM0V1UTRuVFdQeXFaRnB2d3VMU2JHemU3T2k1VTg4Ry1XNjM5TkFHQTVJSl9rcjNtZW5XQlQtYXYxX2hCd2dpazRTaGk1TkozTU5xaTJ6VXliMGFNMUpXN0tNdmtVU0lCMHVnWlU?oc=5"
+   },
    {
     "date": "2026-09-21",
     "published": "2026-09-21T05:51:00+00:00",
     "source": "한겨레",
-    "title": "“트럼프, 사우디 요청에 후티 공습 준비했다가 막판 보류”",
+    "title": "“트럼프, 사우디 요청에 후티 공습 준비했다 막판 보류”",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfTnVDRjNraDhESTJFOVpXakN6VUd2V0tnVmdzN3JFY051aXVIYk1HRWZzQzloc1M5V3JyczJVMzFWRV9jUVpubEIya0UwelRGOXF3S0UyVjU3aDNlRW9sdXl4NmFRWWdxTVdnVnNBckszQzg?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T21:10:00+00:00",
-    "source": "KBS",
-    "title": "후티 공격에 사우디 혼란 속출…트럼프 “대이란 대응 결정중”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00RlM3N0d2TU94STNOY3Fja2Z0ck1fZElJNXAtcnNOU1JqVW9oVkxpeFVjZ2kyZWxBbEsyWUgycUFiYUlLc0YtcVk4MGJjNHIxSUw5ODRYLUNDRlU?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T11:48:00+00:00",
-    "source": "한겨레",
-    "title": "후티, 사우디 수도 첫 공습…튀르키예·파키스탄 ‘개입 시사’ 요동",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdkdHalhQMDl3MVlXcVMyUW1OSl91cVhxMEtkZnlhX055Y1RVWjYzbDdhREc4MVZaUWVtRVFQMEdPV1RUMURsQnlRb19YT3ZYU1JkQlEtRlMyUW1RRUdZUXFIYzZKSG02UHVxTW5WUkN3QmdrM1pUaDJXZVFOemNtdlN3?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T11:41:00+00:00",
-    "source": "경향신문",
-    "title": "후티, 사우디 수도까지 때렸다",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11VjEtWE1QNERNU1dFSVNwZnYzWEtOTTRmTVpVbWFRSmlERkc2SmRLb29LVTMwUUp4RC03ZTV0MjBleXpqZnF0UWNWc3ZpU1VIWERfZFR0RzZ3a1V1dEJr0gFfQVVfeXFMTXVWMS1YTVA0RE1TV0VJU3BmdjNYS05NNGZNWlVtYVFKaURGRzZKZEtvb0tVMzBRSnhELTdlNXQyMGV5empmcXRRY1ZzdmlTVUhYRF9kVHRHNndrVXV0Qms?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T08:01:01+00:00",
-    "source": "중앙일보",
-    "title": "군사비 100조 쓰는데…정규 공군도 없는 후티에 고전하는 사우디",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByTVQwNUd2aXdfNllPSkI3bVNwODBycmZtT0F1Zy1LV2F1eDJnY3pZR2Q2cTJ4d2JaeFItLXBhNFRubUp6bzV2bmpyUWRsMzBTekxudFN3?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T11:29:16+00:00",
+    "source": "Reuters",
+    "title": "Houthis push for control of Yemen highlands as Trump reported to have called off airstrikes",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T08:29:13+00:00",
+    "source": "CNBC",
+    "title": "Here's what the Saudi East-West pipeline shutdown means for Asia's biggest crude importers",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRDlCal9FSDBLa0d1M0ZVWUxVT0pHNFNhTGRNUmRXeHVyaXRiNE5ma0x1V2JmNUg3MU9xNU5ES1hkQ3dkSi1QNEhlWWUzb2ZwWkZDV3RwN1RneWhwa1FNNURwRVAwLWg1TjlqZktuTG55bGJzcmNIcnJyMDBjTHZlRFhOR3dueGUz0gGOAUFVX3lxTE5fQ3B2dWpkdjdaTUZZWDhuUUdCdFZrVW5rWlhPV2tOSnJjQzF2YzQxdXZYa0lORlY0dDF3UE1oU1FIWmEyYjBzanR1R2RfTEprdTlPcm9CZU1QY3hGQVRqYlhfMFlidE1Fam5WT1hMbkxERFMzVVpRLXZaR3kyZGVSaW1ZMDVGMzdEUWpYcFE?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T05:23:00+00:00",
+    "source": "The New York Times",
+    "title": "Houthis Push to Expand Territory as Tensions With Saudi Arabia Rise",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZUdYOWNWamFfOUYtVWItdVJ6SG1aWGlFSlJMSXV3dTY4cHJzWU9mczZWNVB4WVBXblM5YWRXcERfb0s5TzNDSTlKWWl2aEMtTS10c1F1NlAzbVRBM2VMdHJDXzYxdDVNSEtURTVPYk9jdFBJcjFqZlVfSDE1V2FPa0laOVpURWZZTnYwWW5QTTk1M2l4LTJz?oc=5"
+   },
    {
     "date": "2026-09-21",
     "published": "2026-09-21T00:56:39+00:00",
@@ -2216,43 +2300,22 @@
    },
    {
     "date": "2026-09-20",
-    "published": "2026-09-20T21:24:21+00:00",
-    "source": "The New York Times",
-    "title": "Houthis Push to Expand Territory as Tensions With Saudi Arabia Rise",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZUdYOWNWamFfOUYtVWItdVJ6SG1aWGlFSlJMSXV3dTY4cHJzWU9mczZWNVB4WVBXblM5YWRXcERfb0s5TzNDSTlKWWl2aEMtTS10c1F1NlAzbVRBM2VMdHJDXzYxdDVNSEtURTVPYk9jdFBJcjFqZlVfSDE1V2FPa0laOVpURWZZTnYwWW5QTTk1M2l4LTJz?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T21:18:07+00:00",
-    "source": "DW",
-    "title": "Why can't Saudi Arabia stop the Houthis?",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVHcyYmNlU1I1bnFmejdrZ0pKYnZkWkJlMUhlUm5VbVoyb1JJZXpfT0k2d3hYN19ZaFBvMTZKRkFQYnlSTTZKUHJHV3hVX3NOMUdub0p6VzZFejRxRkJ3R1pDSllPRE5uS0UxWGE5S3k0QWZwUmRuQVBPWGV2RW1pNA?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T18:23:00+00:00",
-    "source": "AP News",
-    "title": "Iran-backed Houthi rebels warn against joining Saudi Arabia in Yemen’s growing civil war",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMjZSU3pzSDBwWFJaUEUwdEg1YXEzemljdXpSQXk2bVN6cEtacEJYYTVKRU9xdUw1RFhYRm13b0lrZTgteFpLMVJDTWl5TFBKaTdCRldGc05RdVFPMkd4Q244c1cyTjlsZFNDR0RNTEsyQzlFa0FWUFZBazdnbG41MVhBb3B3Szh2RzI0N3dnZ1d6dlFIVlFxSHhzc0J1SHdW?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T13:36:00+00:00",
-    "source": "Al Jazeera",
-    "title": "Turkish FM says ready to meet Saudi defence needs – what does that mean?",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUlU5UVJ5NTRKb21LaXQxN2w4MHZNSVhQM3c5NFZ4aGU1R2JWbVI3Y2UxX1lwSmlwa095d2dITnFqV25QZnhUQlZVanFlY1JReG9VeXBLNlZGOG42NGdBRmtzVm1DMUNJNC1GVU1EM3hQYkdBREhJNlRrY0hJWjBoSHhRWGJSME13YmlOZkZIODUyYmpqTFVWaklGRWtFbEdBWkhjcWprNXA5dW9aZXVN0gG0AUFVX3lxTE1IXy04ZHl6Q21uTVlLMGRPWEJ0MGdUODZKVjUzaDZSUU9WMkZxRTVkVEI5R0t6Sl9PX2FCUXRhalZ4d0RFNWJFWnFaczlzV0hGNjJFeHRfZjBuQVlUdlJhOEJuV3ZuZlB3Zk9qMHpCTVlXY0tybG15RmMteDRib1o1cXkwemdlUHREeThmUHFabk1CaUczY3pmQk9uUVZncU9zRDRPdnYtWlRUQWFhMEMzMl9feg?oc=5"
+    "published": "2026-09-20T22:10:00+00:00",
+    "source": "Reuters",
+    "title": "Oil prices slide to 11-day low on hopes of US-Iran diplomacy, Saudi exports",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-21T06:12:23Z"
+  "last_ok_at": "2026-09-21T13:59:29Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T06:12:24Z",
+  "fetched_at": "2026-09-21T13:59:30Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 25,
+  "count": 33,
   "baseline": null,
-  "baseline_n": 2,
+  "baseline_n": 0,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2283,14 +2346,15 @@
    "2026-09-20T18": 31,
    "2026-09-20T21": 32,
    "2026-09-21T00": 45,
-   "2026-09-21T06": 25
+   "2026-09-21T06": 25,
+   "2026-09-21T13": 33
   },
-  "last_ok_at": "2026-09-21T06:12:24Z"
+  "last_ok_at": "2026-09-21T13:59:30Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-21T06:12:24Z",
-  "last_ok_at": "2026-09-21T06:12:24Z"
+  "fetched_at": "2026-09-21T13:59:30Z",
+  "last_ok_at": "2026-09-21T13:59:30Z"
  }
 }
