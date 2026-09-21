@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T13:58:23Z",
+ "generated_at": "2026-09-21T19:19:20Z",
  "pinned": [
   "얀부",
   "제다",
@@ -189,15 +189,15 @@
   "baseline": 1.0,
   "tier": "급증",
   "last_ok_at": "2026-09-21T06:11:59Z",
+  "stale": true,
   "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f3844c89c40>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-09-21T13:58:23Z",
-  "stale": true
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f6fd51862a0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-21T19:19:20Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T13:59:24Z",
+  "fetched_at": "2026-09-21T19:20:22Z",
   "events": [
    {
     "date": "2026-09-21",
@@ -725,14 +725,27 @@
   "history_days": 10,
   "history_since": "2026-09-12",
   "today": "2026-09-21",
-  "last_ok_at": "2026-09-21T13:59:24Z"
+  "last_ok_at": "2026-09-21T19:20:22Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T13:59:26Z",
+  "fetched_at": "2026-09-21T19:20:23Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-21 19:37",
+    "iso": "2026-09-21T19:37:19+03:00",
+    "places": [
+     "타이프",
+     "지잔",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "في تصعيد كبير استهدف العدو السعودي المجرم محافظات الجوف وتعز وصعدة ومأرب بـ 157 غارةً جويةً وصاروخاً، من خلال طائراته الحربية نوع \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران وجيزان. ليبلغ إجمالي غارات العدوان منذ بدء التصعيد 917 غارةً وصاروخاً. هذا العدوان الكبير لن يمر دون رد بإذن الله تعالى. http://t.me/army21ye",
+    "text_ko": "대규모 격상에서 범죄자인 사우디 적은 카미스 무샤이트와 타이프 기지에서 이륙한 F15 및 태풍 전투기와 나즈란과 지잔의 미사일 공격을 통해 157번의 공중 및 미사일 공격으로 알자우프, 타이즈, 사다, 마리브 주지사를 표적으로 삼았습니다. 에스컬레이션이 시작된 이후 침략 습격의 총 수는 917개의 습격과 미사일입니다. 이 큰 침략은 대답하지 않을 것입니다. 신의 뜻입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3754"
+   },
    {
     "time": "2026-09-20 20:44",
     "iso": "2026-09-20T20:44:56+03:00",
@@ -1044,17 +1057,16 @@
   ],
   "mentions7d": {
    "메카": 15,
-   "카미스무샤이트": 13,
-   "타이프": 7,
+   "카미스무샤이트": 14,
+   "타이프": 8,
    "얀부": 5,
-   "리야드": 3
+   "리야드": 3,
+   "나즈란": 1,
+   "지잔": 1
   },
-  "last_ok_at": "2026-09-21T13:59:26Z"
+  "last_ok_at": "2026-09-21T19:20:23Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-21T13:59:26Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2226,19 +2238,23 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-21T13:59:26Z"
+  "last_ok_at": "2026-09-21T13:59:26Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-09-21T19:20:25Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T13:59:29Z",
+  "fetched_at": "2026-09-21T19:21:25Z",
   "kr": [
    {
     "date": "2026-09-21",
-    "published": "2026-09-21T11:32:00+00:00",
-    "source": "경향신문",
-    "title": "사우디 송유관 복구에 최대 5주…UAE ‘원유 대체국’ 급부상",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NVW1mclg1RlFwdm5qVFh2UmxIN25sWlJzd0ZYTFlHV2JUSUxQLVVFUnFuMFlyMnlaODBiT05VMGV4cDNTQ1hBNzJNdy12MXBYb0VmWWl4OGVfS0o5dmVz0gFfQVVfeXFMTU1VbWZyWDVGUXB2bmpUWHZSbEg3bmxaUnN3RlhMWUdXYlRJTFAtVUVScW4wWXIyeVo4MGJPTlUwZXhwM1NDWEE3Mk13LXYxcFhvRWZZaXg4ZV9LSjl2ZXM?oc=5"
+    "published": "2026-09-21T18:04:49+00:00",
+    "source": "MBC",
+    "title": "\"송유관 피격 사우디, 페르시아만 통한 석유 수출 확대\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pblRrUFlpX0hWWndnSkxlb2VZR0NKV3BhTVdLVzlCay1fSWl5X2VISlpmN3hMWHRyYnB4SW96MkNTRXg3YVZ6R2hVYUdTb3Y4NGdUTTJvRWR0aUhTNU5YU3hsdndib19HSzZOb3E2M2ZjeTNv0gF0QVVfeXFMTlljNmpZM2h6eVR6M2Z5OTBsZWZYMEMwWUhsR00zalVwSEhsYnkydHNLM2JSR0RrUzB6dmwtZTNJUjl0MVFhckQ1anZCVUlhS08ydHB5ZkFQck1BVzNQNjNLTjRSRTd5X1cxRTVVQVhpUHV4YTU?oc=5"
    },
    {
     "date": "2026-09-21",
@@ -2252,7 +2268,7 @@
     "published": "2026-09-21T06:28:00+00:00",
     "source": "채널A",
     "title": "후티에 공습 당한 사우디, 후티 응징한 예멘 정부군…‘화약고’ 된 예멘 [현장영상]",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fUmFCMElBZ1FoQkVfZkRwNjAyRTAzWHp1OFpSakstSkpCNmxzbjZxQzMwUk4tTkRNLXhpTjhOcm1wNXYwUXR3b2NhSW54NE5EZGJMTGhUd2ZydXRhZnfSAWNBVV95cUxObGltcV9xVUkyUmRWUlpRTUJVSWlPd2FyczlNWDVDNlRoRDJKbnB6ZUNBUE5tVWZoaUp0anQ0THRSSktKVDR1aEhOUHlzcmdQN1JPMHhVOHVCZElfdHRvS3FsbW8?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5saW1xX3FVSTJSZFZSWlFNQlVJaU93YXJzOU1YNUM2VGhEMkpucHplQ0FQTm1VZmhpSnRqdDRMdFJKS0pUNHVoSE5QeXNyZ1A3Uk8weFU4dUJkSV90dG9LcWxtb9IBY0FVX3lxTE5saW1xX3FVSTJSZFZSWlFNQlVJaU93YXJzOU1YNUM2VGhEMkpucHplQ0FQTm1VZmhpSnRqdDRMdFJKS0pUNHVoSE5QeXNyZ1A3Uk8weFU4dUJkSV90dG9LcWxtbw?oc=5"
    },
    {
     "date": "2026-09-21",
@@ -2263,7 +2279,7 @@
    },
    {
     "date": "2026-09-21",
-    "published": "2026-09-21T05:51:00+00:00",
+    "published": "2026-09-21T05:57:00+00:00",
     "source": "한겨레",
     "title": "“트럼프, 사우디 요청에 후티 공습 준비했다 막판 보류”",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfTnVDRjNraDhESTJFOVpXakN6VUd2V0tnVmdzN3JFY051aXVIYk1HRWZzQzloc1M5V3JyczJVMzFWRV9jUVpubEIya0UwelRGOXF3S0UyVjU3aDNlRW9sdXl4NmFRWWdxTVdnVnNBckszQzg?oc=5"
@@ -2272,10 +2288,31 @@
   "en": [
    {
     "date": "2026-09-21",
-    "published": "2026-09-21T11:29:16+00:00",
+    "published": "2026-09-21T17:14:28+00:00",
     "source": "Reuters",
-    "title": "Houthis push for control of Yemen highlands as Trump reported to have called off airstrikes",
+    "title": "Saudi Arabia ramps up Gulf oil exports after pipeline attack, data shows",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcThldmdWd2c5aHdfck8zYk1XMWtsa3kweWlXaTNQWEpnV2NIUHhiNTh2cHhoSndCV2Z2QkhwNl9DZEJObFJha2pXWG1JcUZpVXlZU1RqQ2diZUJ0YVV2alRBRmRCampGOGdQQnM4UVV2R2ZMQ2p6WC1QSk5iOGJEWDZ2YXdaSzlLeGtZYnNuVld5MGZESG1tenNaMFlFcExWeVhlZjJBTlJOeHNmVkhBYzFkejJkNno5VWEwU05hRHU4NGlqT1U5UXcxUzU?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T15:36:40+00:00",
+    "source": "CNN",
+    "title": "How the U.S. views the escalating Saudi-Houthi conflict",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY0d0NEdtOVhUZi1rcU9yVGJLamlzRHUzYUxxSW0wZmlJVWQ4RS1Dd21xOXRFcmxnTENnRHh6bXNVaWktbjdpcTV4YVFnTXdMN3ZCSmdmVHhrbVlKNjctNkxRbkJ3cFRMSDFSQ1M1NmRkQ1V6aWcyWnd4SkVzNGM4RTRXd3NlYlQ3NDl1NXEteTZYck13YkhnTW90MEpzVE1oOXRobFh5VmhZSTJBZFdv?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T15:26:41+00:00",
+    "source": "Reuters",
+    "title": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T14:14:16+00:00",
+    "source": "BBC",
+    "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zTDBSOE01bzVETms3UUp0LVFaYjNBS19XUEFBbFRWY2FheFJsZ1hIU0F4dHBTcEFvcmc0TDlwbTVWZ0VrOHhCOVczNGhRYjQweFVQZGtva2NGV0E?oc=5"
    },
    {
     "date": "2026-09-21",
@@ -2283,37 +2320,16 @@
     "source": "CNBC",
     "title": "Here's what the Saudi East-West pipeline shutdown means for Asia's biggest crude importers",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRDlCal9FSDBLa0d1M0ZVWUxVT0pHNFNhTGRNUmRXeHVyaXRiNE5ma0x1V2JmNUg3MU9xNU5ES1hkQ3dkSi1QNEhlWWUzb2ZwWkZDV3RwN1RneWhwa1FNNURwRVAwLWg1TjlqZktuTG55bGJzcmNIcnJyMDBjTHZlRFhOR3dueGUz0gGOAUFVX3lxTE5fQ3B2dWpkdjdaTUZZWDhuUUdCdFZrVW5rWlhPV2tOSnJjQzF2YzQxdXZYa0lORlY0dDF3UE1oU1FIWmEyYjBzanR1R2RfTEprdTlPcm9CZU1QY3hGQVRqYlhfMFlidE1Fam5WT1hMbkxERFMzVVpRLXZaR3kyZGVSaW1ZMDVGMzdEUWpYcFE?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T05:23:00+00:00",
-    "source": "The New York Times",
-    "title": "Houthis Push to Expand Territory as Tensions With Saudi Arabia Rise",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZUdYOWNWamFfOUYtVWItdVJ6SG1aWGlFSlJMSXV3dTY4cHJzWU9mczZWNVB4WVBXblM5YWRXcERfb0s5TzNDSTlKWWl2aEMtTS10c1F1NlAzbVRBM2VMdHJDXzYxdDVNSEtURTVPYk9jdFBJcjFqZlVfSDE1V2FPa0laOVpURWZZTnYwWW5QTTk1M2l4LTJz?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T00:56:39+00:00",
-    "source": "The New York Times",
-    "title": "Trump Gets Caught in a Dilemma Over a Saudi Plea for Military Help",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNenBkRTVSOVM5MFAwOEE5WlVveFVEbjFoNXZsVWZNZmZGRmZRY2RuSXhuMndGZmVoRDZUZ1o2c1ZUeHFVb0xZR1A4bHB6RVJ2OXl3NTR0eGhzTTh1OVdpaklRQ2JTaEExbjkzZ1NxMklOUDVUU3QtanB1eUVfcHhoNGlaYXdrWVBFVEpHSg?oc=5"
-   },
-   {
-    "date": "2026-09-20",
-    "published": "2026-09-20T22:10:00+00:00",
-    "source": "Reuters",
-    "title": "Oil prices slide to 11-day low on hopes of US-Iran diplomacy, Saudi exports",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEljbFotbFNVU2Nyb1oyaElIUXJJc1ltUmF5a1FrMl9xbEwyNG9LOWwyZ3F2dUZIUl9QYnd6OXU1cU10UGx0QzkxaVp6QkoxY3ZYSm1qc3FvbFprT29VcldJZ3V1Y1YtZ1A3MjEtTUo2dk9laHFBaWZBMFNOMmZDVC16aDBhYUdmdmZFdUJ4d0hoMW5hZTgxRk1ETQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-21T13:59:29Z"
+  "last_ok_at": "2026-09-21T19:21:25Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T13:59:30Z",
+  "fetched_at": "2026-09-21T19:21:27Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 33,
+  "count": 37,
   "baseline": null,
   "baseline_n": 0,
   "tier": "정상",
@@ -2347,14 +2363,15 @@
    "2026-09-20T21": 32,
    "2026-09-21T00": 45,
    "2026-09-21T06": 25,
-   "2026-09-21T13": 33
+   "2026-09-21T13": 33,
+   "2026-09-21T19": 37
   },
-  "last_ok_at": "2026-09-21T13:59:30Z"
+  "last_ok_at": "2026-09-21T19:21:27Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-21T13:59:30Z",
-  "last_ok_at": "2026-09-21T13:59:30Z"
+  "fetched_at": "2026-09-21T19:21:28Z",
+  "last_ok_at": "2026-09-21T19:21:28Z"
  }
 }
