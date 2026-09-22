@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T09:51:54Z",
+ "generated_at": "2026-09-22T14:43:17Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T09:51:54Z",
+  "fetched_at": "2026-09-22T14:43:17Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +191,27 @@
   "last7d": 5,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-22T09:51:54Z"
+  "last_ok_at": "2026-09-22T14:43:17Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T09:52:09Z",
+  "fetched_at": "2026-09-22T14:43:36Z",
   "events": [
+   {
+    "date": "2026-09-22",
+    "time": "14:53",
+    "iso": "2026-09-22T14:53:00+03:00",
+    "city": "송유관",
+    "type": "피격",
+    "weapon": "드론",
+    "lat": null,
+    "lon": null,
+    "title": "“사우디, ’드론 피격’ 송유관 가동 재개…낮은 속도 수송“",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZVFVGaVhlSUVVeXFtUXVScTljeS1pa2t5NWw2OHJNbVU0eUt1OU9aMWFfbWQ3NTZ4eHEwd25rQUU2VHAxWDRycnViU2JRYy1rdlY2SUhIblpiVjhaeWFGYXo1UjNTOFU?oc=5",
+    "source": "연합뉴스",
+    "outlets": 1
+   },
    {
     "date": "2026-09-21",
     "time": "12:05",
@@ -722,12 +736,12 @@
   "history_days": 11,
   "history_since": "2026-09-12",
   "today": "2026-09-22",
-  "last_ok_at": "2026-09-22T09:52:09Z"
+  "last_ok_at": "2026-09-22T14:43:36Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T09:52:10Z",
+  "fetched_at": "2026-09-22T14:43:37Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1061,12 +1075,12 @@
    "나즈란": 1,
    "지잔": 1
   },
-  "last_ok_at": "2026-09-22T09:52:10Z"
+  "last_ok_at": "2026-09-22T14:43:37Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T09:52:11Z",
+  "fetched_at": "2026-09-22T14:43:38Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2300,15 +2314,77 @@
     "date": "2026-09-22",
     "time": "0009",
     "confidence": "nominal"
+   },
+   {
+    "lat": 23.86041,
+    "lon": 47.455,
+    "frp": 1.96,
+    "date": "2026-09-22",
+    "time": "0941",
+    "confidence": "low"
+   },
+   {
+    "lat": 23.86049,
+    "lon": 47.45736,
+    "frp": 3.0,
+    "date": "2026-09-22",
+    "time": "0941",
+    "confidence": "low"
+   },
+   {
+    "lat": 24.39585,
+    "lon": 46.82698,
+    "frp": 25.38,
+    "date": "2026-09-22",
+    "time": "0941",
+    "confidence": "low"
+   },
+   {
+    "lat": 24.39652,
+    "lon": 46.82424,
+    "frp": 22.64,
+    "date": "2026-09-22",
+    "time": "0941",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97191,
+    "lon": 40.10336,
+    "frp": 3.43,
+    "date": "2026-09-22",
+    "time": "0941",
+    "confidence": "low"
+   },
+   {
+    "lat": 21.23333,
+    "lon": 39.19875,
+    "frp": 1.74,
+    "date": "2026-09-22",
+    "time": "1121",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-22T09:52:11Z"
+  "last_ok_at": "2026-09-22T14:43:38Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T09:52:15Z",
+  "fetched_at": "2026-09-22T14:43:40Z",
   "kr": [
+   {
+    "date": "2026-09-22",
+    "published": "2026-09-22T13:55:00+00:00",
+    "source": "연합뉴스",
+    "title": "“사우디, ’드론 피격’ 동서 송유관 가동 재개“",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Vb0duSzhSOW1UeHRPaWRXS0lKWkFvZ2gwTU05ZElGVFhuUWkwLXg5ZjV1akk1di0xZzB4NDFXZUZ3YVZQTjlvTzloTGs4c0hqbG5TOWhReXFFREhkWU1SVDYwVVl1NTg?oc=5"
+   },
+   {
+    "date": "2026-09-22",
+    "published": "2026-09-22T11:53:00+00:00",
+    "source": "연합뉴스",
+    "title": "“사우디, ’드론 피격’ 송유관 가동 재개…낮은 속도 수송“",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZVFVGaVhlSUVVeXFtUXVScTljeS1pa2t5NWw2OHJNbVU0eUt1OU9aMWFfbWQ3NTZ4eHEwd25rQUU2VHAxWDRycnViU2JRYy1rdlY2SUhIblpiVjhaeWFGYXo1UjNTOFU?oc=5"
+   },
    {
     "date": "2026-09-22",
     "published": "2026-09-22T06:25:51+00:00",
@@ -2317,81 +2393,67 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxV2hJSGVvcE55VThNNXFMbjFGSk56YUJpZ0FYdjVuQmp3RWZITjRtNHIzenZUVzlZNE13N1R2OWNmTzRJeFNmUFp3MGhyZnpaa0pDYzdKWkpuRDVrcVVfdC05WDVNaS1EcHhqYTI4OVpHUWIz0gF0QVVfeXFMTWt4RGRIMTh0SW9hVm9XM2JCdXBuTVZkdkMzM19BSDdVNUFqbVZ4VDNOclc2NUtLekViY0dDSHpuNW56Vk1YaUloNVVWeG1yd0dxX2tzN3ZWRnRRUk5SY1ZqakNWaUtDT1dVcU9vVFlaU2tIeng?oc=5"
    },
    {
+    "date": "2026-09-22",
+    "published": "2026-09-22T06:25:00+00:00",
+    "source": "KBS",
+    "title": "G7 외무장관, 유엔총회 모여 후티에 경고…“사우디 공격 용납 못해”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5scXA4Q0tYeFJ2bUVWMnd4c1J5V19yOE5weDhjYzRzcVEtNGthUGluT0tOWjB3Z3BYSTJtZHZBWmpNb3k3ejdZbUVjcGs2bHMxQ3I1TjFXY0J6VE0?oc=5"
+   },
+   {
     "date": "2026-09-21",
     "published": "2026-09-21T23:01:27+00:00",
     "source": "뉴스1",
     "title": "사우디, 송유관 피격에 페르시아만 수출 확대…유가 100달러 하회",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1RmVkMkRXNEVtZ05SMmkzWjRPbzBYSGtSb19vMGJWUmtZYmRCbThzS1d3bjVIbXRpR0NydGlOUlotTVo1eS1vWEl3NFBYU2NnaHp2SHBBb05aaHpBZmFlaHB30gFnQVVfeXFMTW5kSFE1Yy1jVUJkN1RkcFg3OElZcUt2ZnZ3Vzgzby1GaUVoeFdBNFZnQ3VmVFNZNUFGeXdldkNPV2d2bjVCSmphX20yU3RXT0JrcXpRbERILXpoVnFrZ2s2dHlVV3REWQ?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T22:50:00+00:00",
-    "source": "연합뉴스",
-    "title": "영국 \"사우디에 공중급유 제공키로\"…후티 공격 규탄",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83eU9LUEVNUG1mS0hGdWEwbGItY3J6eWxTNUhmd05uUTZKcGcyS0tOY05xLThaakp1TTdIZ0tJZHR1eEw3SEZ0cF8zQmlYWUNTdVB1bnFweFdiT3Nkb25YZWNNNW5TeE0?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T21:00:11+00:00",
-    "source": "연합뉴스",
-    "title": "[인&아웃] 홍해의 다크호스, 후티 반군",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ULUNPV1VlNEwyS2FqS1VCVzF0TThJbUxSbHJsLUFmS2FrUjhLX3FzaHdQSGQ4VmhsNHRTNFdJX1p5TDJSSkZCVFZGSGlTV3k2TWhScEstamp2LUh0dnpwQdIBYEFVX3lxTE1ULUNPV1VlNEwyS2FqS1VCVzF0TThJbUxSbHJsLUFmS2FrUjhLX3FzaHdQSGQ4VmhsNHRTNFdJX1p5TDJSSkZCVFZGSGlTV3k2TWhScEstamp2LUh0dnpwQQ?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T18:04:49+00:00",
-    "source": "MBC",
-    "title": "\"송유관 피격 사우디, 페르시아만 통한 석유 수출 확대\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pblRrUFlpX0hWWndnSkxlb2VZR0NKV3BhTVdLVzlCay1fSWl5X2VISlpmN3hMWHRyYnB4SW96MkNTRXg3YVZ6R2hVYUdTb3Y4NGdUTTJvRWR0aUhTNU5YU3hsdndib19HSzZOb3E2M2ZjeTNv0gF0QVVfeXFMTlljNmpZM2h6eVR6M2Z5OTBsZWZYMEMwWUhsR00zalVwSEhsYnkydHNLM2JSR0RrUzB6dmwtZTNJUjl0MVFhckQ1anZCVUlhS08ydHB5ZkFQck1BVzNQNjNLTjRSRTd5X1cxRTVVQVhpUHV4YTU?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-22",
-    "published": "2026-09-22T08:53:03+00:00",
-    "source": "BBC",
-    "title": "UK to help refuel Saudi jets countering Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00N2Z5eWN2TURyRzQxSXJFYmQxSTZyMFRVcVhES28zUWtkcTBGZDdja0tXWkZUdHpyT1VpMHpxWFk1WXgzdWdWQVhPa0RtREpqcHhvejVSdEpCQ1U?oc=5"
-   },
-   {
-    "date": "2026-09-22",
-    "published": "2026-09-22T08:28:00+00:00",
-    "source": "AP News",
-    "title": "UK to offer Saudi Arabia aerial refueling to counter Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWozMlFPbDVrMzF0N0RjV2ZkNDRhVGU4TUZVeDlHLUZRSV9MR0JzcE5aSXpTWlpuMWU1RDFCRXkxTnhWVjZfOURBRlh6Q0hDU3FTc29hQTlzZ28tX2RGSFdveWthNzVYcHhzaHdYOGc1eTFLMklPX3FLemV6WS0xZEhINDRUREtGT0ptTExQaGdSeW56MXJ1cmRn?oc=5"
-   },
-   {
-    "date": "2026-09-22",
-    "published": "2026-09-22T06:05:00+00:00",
+    "published": "2026-09-22T14:19:54+00:00",
     "source": "Bloomberg",
-    "title": "Saudis Tell Asian Refiners They Can Soon Pick Up Oil on Red Sea",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMHBTQ1BXTjMtQ3l4d0EzT0FOa1FyaDdaaUgwT2swMlFNazVLWGR2dmtMRUthbmcwLUZIWTFGRWhsWEp0eUhDdGxaXzFzRlgyUDExMEdsS1hRVWE2V2pOakc1SVEzdDRUTnA4T1R5ZjN0aTZObURUdFBqakl4VGs1cjlPZVhlazI4RElfZktSZHFudGo1STVPNW5XTk9mME1jdkdiS1ZIUENwOTNCejNPR1pzNU0?oc=5"
+    "title": "Oil Price Slides on Saudi Pipeline Plans, Hormuz Diplomacy",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSHYwR2lpNXJPeFJtN09XQUh2dGZUeVpEWENhQlBRWkx4U1dJMmkzblE2VlhHbWdkeFc5TzdDNWhLYU0tWXp2X0VfQnZEZEY3Uk5hc1Zsa3lCZC1UcHBsRG9wNHA2Q2RWSTNDRk45cTdvTG8yQUZQNGl2bkdZdnRBVW5lMnRfWEtpajFNRnRaMVY3eXpvN21CQzhrOC1veVBwNGR1YXJPNjM4eFR5UzM2TQ?oc=5"
    },
    {
     "date": "2026-09-22",
-    "published": "2026-09-22T05:51:46+00:00",
-    "source": "Al Jazeera",
-    "title": "G7 foreign ministers demand Houthis halt strikes on Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQi12Q2pnQXJqdDItTHd2RTVrVkVoZnNEcVlCQ09QMkZYYUw5ejd5cDlyTzJiOUZ3Z0RhSnR3cU5XWjVVQ050eHc1R2FWdUlSVFp1dXdTdDZYNkxHOTFyeXZrU0Z6NFRQeFAxd1JWY24zOC0tVFBxd1JpWHk5S2pNSmFabGl6dThJSE80dmZEanZLMEFIWk9ZZGV4WjVfaVZQRXo3MnROSE7SAa4BQVVfeXFMT3ZtME04MmdUSExYMElLTTAtMDlrVVBUNFlfckd6X3VUSzdKVmVobTM0UGRtWVhFcnRTZV8ybHdKNUJDUXM5azg2M3lKSG9CNDE5Q0REdGI3cVJpYl9nRktRQUYwalV5ZXdnWFd4MFhZUFRwbzl3ZjJlRFEyRDVwT1VvZ28xQUFhUjA2X2FuTFhiZVVla2xGSDRBOXJmeTVHYzdUT2lWOGZmeF80R2xn?oc=5"
+    "published": "2026-09-22T12:09:12+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Arabia Running Tests to Resume East-West Oil Pipeline",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNXy1NQWNxNHNjYk94V09jWlZEcXJkUEZ5ZVRtVXNmbnpISFh6NEFSZlZVLXpSTDM0QW04anpDdXVTZjcxN2NNajhweDdVM2ZYelFlVGJWbTIxZUpXcnRVVG5MYWhqQ0VFMWhVUEVBMkpkdHJIR0ZOX1h6MXowQ29JWnVxRm51dGRxWTBJT1dLWXpYRkd1eTdGQmowRWdLXzlTUGFpMTJzaThlSld0LUxN?oc=5"
    },
    {
     "date": "2026-09-22",
-    "published": "2026-09-22T00:32:29+00:00",
-    "source": "Al Jazeera",
-    "title": "UK to refuel Saudi jets to help counter Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ1hkS3ZCR2doU0pmSUd6MHl3TjNMZnJkT25DZzgyOFRXWlNEUGNPdzh4NDlhdnhkcjNERXAzRFEwLUFyck50LUo2RklBWlV0TExQejRkNWVYTWdwX1Y4QkhfQjBNdk15OGZILTV5LUFvWHpUbi1NNUJTUkRXdHFSVGt1czJZRmZITUM2RW1OeFVqQzNlMUZ5MVZJY9IBoAFBVV95cUxOUVNRQnh5elZPZHRrYkNfUjhiaGJGRFQyMjA1QlNTWHF5eXhZdTk2ZDA3aFRYaS12ZWdOc21tSEtnYktHTThiOXBnYlJYS094TjF1eUUycGlhV1RGVWstT3k0dmNWd1Blam01eFpWck9RWThXc3FLM1ktamF2OEI4cTRSdGRlZFhibzhMdVVHOUtFd1c3N3Q0clZDR3ducmst?oc=5"
+    "published": "2026-09-22T11:57:29+00:00",
+    "source": "NBC News",
+    "title": "Oil prices tumble to 2-week low on hopes for critical pipeline reopening and Iran diplomacy",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObU1tZnZwTkhweW9HMkM5cDFMMjB3YUY1ZFdaN3ZfRzktSEhudU5wYzVPVVNZcDhIVFBZaWNBT2ItVFo1VmJPZUZETmRzR1pUU3Z1Qk1Nc0Y1dmNSRTNPZ2RBeUkySDBGcGJGMlFxa1JTLUI2SDVTYXgyX2JIX3NzUXZLbm1Kcmt2enRjSThGaVItRVJCb09jOENjVU95NGdoam5RUS1fZlg0cUtCNVA0N2N3?oc=5"
+   },
+   {
+    "date": "2026-09-22",
+    "published": "2026-09-22T11:41:47+00:00",
+    "source": "Reuters",
+    "title": "Saudi Arabia restarts East-West oil pipeline, sources say",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5"
+   },
+   {
+    "date": "2026-09-22",
+    "published": "2026-09-22T11:25:25+00:00",
+    "source": "The New York Times",
+    "title": "Global Oil Price Drops Below $100 a Barrel",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LeWlhaXZTNVRtczlmYnpMczlmcnA5b3RMZkNqX1NDZGFfX3NCXzdMYzFzNXhNXzY0bjM0a01tTVY1TF93bElWRnYxYzdsLW13aDhYZEhpejZWZVkzSlpmVGxXNGIwam5rOGt4RnVLbnQzWTdRYllQb1Fic2ppenM?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-22T09:52:15Z"
+  "last_ok_at": "2026-09-22T14:43:40Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T09:52:15Z",
+  "fetched_at": "2026-09-22T14:43:41Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 33,
+  "count": 42,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2427,14 +2489,15 @@
    "2026-09-21T19": 37,
    "2026-09-21T23": 36,
    "2026-09-22T04": 34,
-   "2026-09-22T09": 33
+   "2026-09-22T09": 33,
+   "2026-09-22T14": 42
   },
-  "last_ok_at": "2026-09-22T09:52:15Z"
+  "last_ok_at": "2026-09-22T14:43:41Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-22T09:52:16Z",
-  "last_ok_at": "2026-09-22T09:52:16Z"
+  "fetched_at": "2026-09-22T14:43:42Z",
+  "last_ok_at": "2026-09-22T14:43:42Z"
  }
 }
