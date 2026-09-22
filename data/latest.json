@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T23:12:43Z",
+ "generated_at": "2026-09-22T04:44:05Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-21T23:12:43Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +188,16 @@
   "last7d": 5,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-21T23:12:43Z"
+  "last_ok_at": "2026-09-21T23:12:43Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fdaa883a1e0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-22T04:44:05Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T23:12:58Z",
+  "fetched_at": "2026-09-22T04:45:06Z",
   "events": [
    {
     "date": "2026-09-21",
@@ -722,12 +723,12 @@
   "history_days": 11,
   "history_since": "2026-09-12",
   "today": "2026-09-22",
-  "last_ok_at": "2026-09-21T23:12:58Z"
+  "last_ok_at": "2026-09-22T04:45:06Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T23:13:00Z",
+  "fetched_at": "2026-09-22T04:45:07Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1061,12 +1062,12 @@
    "지잔": 1,
    "나즈란": 1
   },
-  "last_ok_at": "2026-09-21T23:13:00Z"
+  "last_ok_at": "2026-09-22T04:45:07Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T23:13:01Z",
+  "fetched_at": "2026-09-22T04:45:07Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2238,12 +2239,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-21T23:13:01Z"
+  "last_ok_at": "2026-09-22T04:45:07Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T23:13:04Z",
+  "fetched_at": "2026-09-22T04:45:12Z",
   "kr": [
    {
     "date": "2026-09-21",
@@ -2254,17 +2255,24 @@
    },
    {
     "date": "2026-09-21",
-    "published": "2026-09-21T22:32:06+00:00",
+    "published": "2026-09-21T22:50:00+00:00",
     "source": "연합뉴스",
-    "title": "영국, 사우디에 '후티 저지' 측면 지원…공중 급유 제공",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oSjJocWFMa3gwY3pKa0VWZnVNSFdXLU9UcWZzc04zNU1RSTNET25mZDRST3VtcXg0cVNvZm5WSzVPWGxiXzYwMUdORk1hbUxlLXhVX1daS0xlbExFQXRJN9IBYEFVX3lxTE5oSjJocWFMa3gwY3pKa0VWZnVNSFdXLU9UcWZzc04zNU1RSTNET25mZDRST3VtcXg0cVNvZm5WSzVPWGxiXzYwMUdORk1hbUxlLXhVX1daS0xlbExFQXRJNw?oc=5"
+    "title": "영국 \"사우디에 공중급유 제공키로\"…후티 공격 규탄",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83eU9LUEVNUG1mS0hGdWEwbGItY3J6eWxTNUhmd05uUTZKcGcyS0tOY05xLThaakp1TTdIZ0tJZHR1eEw3SEZ0cF8zQmlYWUNTdVB1bnFweFdiT3Nkb25YZWNNNW5TeE0?oc=5"
    },
    {
     "date": "2026-09-21",
-    "published": "2026-09-21T20:38:34+00:00",
+    "published": "2026-09-21T21:00:11+00:00",
     "source": "연합뉴스",
-    "title": "\"트럼프, 사우디 요청에 후티 공격하려다 보류…새 전선 딜레마\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ObHlvNzZTQXZteU14OVFNbHVBcDE0cThTX2M1aWIyR0xOLTk5UWR1Q1hnUHRWV1BId3RVckwtWlhuVVFKNG1BOF9lalhWNkMzWXExSW5JQ09hc0nSAWBBVV95cUxQWnNKeDk0V0JLOUdzNlBSNHdNY1ZWdUllajd0YlpLSWtGaFRKUDJDM3lReEdaVEJnaGRyNERkZklRLTE5YjlNUDFkYXBZY2JMN2tpU1d0azRUdmVHOXZ6RHU?oc=5"
+    "title": "[인&아웃] 홍해의 다크호스, 후티 반군",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ULUNPV1VlNEwyS2FqS1VCVzF0TThJbUxSbHJsLUFmS2FrUjhLX3FzaHdQSGQ4VmhsNHRTNFdJX1p5TDJSSkZCVFZGSGlTV3k2TWhScEstamp2LUh0dnpwQdIBYEFVX3lxTE1ULUNPV1VlNEwyS2FqS1VCVzF0TThJbUxSbHJsLUFmS2FrUjhLX3FzaHdQSGQ4VmhsNHRTNFdJX1p5TDJSSkZCVFZGSGlTV3k2TWhScEstamp2LUh0dnpwQQ?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T18:11:00+00:00",
+    "source": "YTN",
+    "title": "홍해 이어 남부 고원 노리는 후티...호르무즈에서 유조선 피격",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wYXNqS2I5c014QXJEcGx0aEZWMEU2QUc4YzR2emt2RGZnTWJDTm95NEZhWGEzSThhSm9Sang5bkRfRlFaNU5LRnNJSkF3VGh6ZWhHNlNiY2theUtUTVZ1OHBxYnpvanBvajg1TE4yYw?oc=5"
    },
    {
     "date": "2026-09-21",
@@ -2272,36 +2280,36 @@
     "source": "MBC",
     "title": "\"송유관 피격 사우디, 페르시아만 통한 석유 수출 확대\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ZYzZqWTNoenlUejNmeTkwbGVmWDBDMFlIbEdNM2pVcEhIbGJ5MnRzSzNiUkdEa1MwenZsLWUzSVI5dDFRYXJENWp2QlVJYUtPMnRweWZBUHJNQVczUDYzS040UkU3eV9XMUU1VUFYaVB1eGE10gF0QVVfeXFMTlljNmpZM2h6eVR6M2Z5OTBsZWZYMEMwWUhsR00zalVwSEhsYnkydHNLM2JSR0RrUzB6dmwtZTNJUjl0MVFhckQ1anZCVUlhS08ydHB5ZkFQck1BVzNQNjNLTjRSRTd5X1cxRTVVQVhpUHV4YTU?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T16:26:00+00:00",
-    "source": "KBS",
-    "title": "“송유관 피격 사우디, 페르시아만 통해 석유 수출 확대”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fU3NxT1YzcC1OUTdyZ3g4b09wdVlWbE95eWc3YjhfVjFmNXNLOHNlOW5ZUjdMcGZLX2VRWWhsTkJzRHByOE54REN5blh6d0RsWXJSYjBQY1BHSnM?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-09-21",
-    "published": "2026-09-21T22:41:15+00:00",
-    "source": "ABC News",
-    "title": "Houthis' escalating attacks on Saudi Arabia give Iran leverage in the Middle East",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEp0RkEzaUQ3QUZKNDZra0pOeXJudE5jc3BSSTZrRGxHUVgzelJrLTNrWGsxeHhIbFNRTU00ODJvbGxTRG9sMEVtbWYtNzhXQm10YWx3SllZQXg5VGU5bVUxRUVjM202bUw4NmxJY0g0TXAwclU2ejVZenRPUmx2RzFIbGpTT1VVNDRuZUdVTml6ZGEzR2hvV28tTWVRUGJ6Ny02c01DcUJTUdIBrwFBVV95cUxOazcySm5JUmxmVEFDV0U1TkRGbmhXZlhxMnA1UERQaEE5WllVbDl6WTlLbXRkZXZkZThxX3lZMXRBdEVRc0lMS2FNRURIbHJtMnZBeXFiUFpZSXhxNlZvWnNEaGhuXzhoUjFSRnJvM3BydUpwZG9JSTZqa0d1OGo1cGtLTWRWWVRhTkt6NG1Na083WU5XQ0xjUnNKd21yeUltTGlCUVRMa280UzlfdTlV?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T21:07:00+00:00",
-    "source": "AP News",
-    "title": "UK to offer Saudi Arabia aerial refueling to counter Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWozMlFPbDVrMzF0N0RjV2ZkNDRhVGU4TUZVeDlHLUZRSV9MR0JzcE5aSXpTWlpuMWU1RDFCRXkxTnhWVjZfOURBRlh6Q0hDU3FTc29hQTlzZ28tX2RGSFdveWthNzVYcHhzaHdYOGc1eTFLMklPX3FLemV6WS0xZEhINDRUREtGT0ptTExQaGdSeW56MXJ1cmRn?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T21:00:13+00:00",
+    "date": "2026-09-22",
+    "published": "2026-09-22T00:58:52+00:00",
     "source": "BBC",
     "title": "UK to provide Saudi Arabia with 'defensive' military support, says Burnham",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00N2Z5eWN2TURyRzQxSXJFYmQxSTZyMFRVcVhES28zUWtkcTBGZDdja0tXWkZUdHpyT1VpMHpxWFk1WXgzdWdWQVhPa0RtREpqcHhvejVSdEpCQ1U?oc=5"
+   },
+   {
+    "date": "2026-09-22",
+    "published": "2026-09-22T00:32:29+00:00",
+    "source": "Al Jazeera",
+    "title": "UK to refuel Saudi jets to help counter Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ1hkS3ZCR2doU0pmSUd6MHl3TjNMZnJkT25DZzgyOFRXWlNEUGNPdzh4NDlhdnhkcjNERXAzRFEwLUFyck50LUo2RklBWlV0TExQejRkNWVYTWdwX1Y4QkhfQjBNdk15OGZILTV5LUFvWHpUbi1NNUJTUkRXdHFSVGt1czJZRmZITUM2RW1OeFVqQzNlMUZ5MVZJY9IBoAFBVV95cUxOUVNRQnh5elZPZHRrYkNfUjhiaGJGRFQyMjA1QlNTWHF5eXhZdTk2ZDA3aFRYaS12ZWdOc21tSEtnYktHTThiOXBnYlJYS094TjF1eUUycGlhV1RGVWstT3k0dmNWd1Blam01eFpWck9RWThXc3FLM1ktamF2OEI4cTRSdGRlZFhibzhMdVVHOUtFd1c3N3Q0clZDR3ducmst?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T22:35:47+00:00",
+    "source": "NBC News",
+    "title": "U.S. military leaders divided over action against the Houthis",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOblpwU05mckJ3Nl9IOE9oWGdtQ3NFR0pMUl9CZ09sR1lSN3JIbHptMVdiVkZxU0VlQUROS3d5bkNHNVYtMTFpa0FMM2Y2c0hjN0xqUUI1RmN0cmlTM0V1ckphdlV2eHp3TjhTUGYwRl8ySVhKeU1kRGt6UjRsUzloOU1iYjFKc3FMbnZtRmZmcU85TXNqRnJ6VDctdUxzbGdpaUpMZkZoaw?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T21:34:00+00:00",
+    "source": "AP News",
+    "title": "UK to offer Saudi Arabia aerial refueling to counter Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdWozMlFPbDVrMzF0N0RjV2ZkNDRhVGU4TUZVeDlHLUZRSV9MR0JzcE5aSXpTWlpuMWU1RDFCRXkxTnhWVjZfOURBRlh6Q0hDU3FTc29hQTlzZ28tX2RGSFdveWthNzVYcHhzaHdYOGc1eTFLMklPX3FLemV6WS0xZEhINDRUREtGT0ptTExQaGdSeW56MXJ1cmRn?oc=5"
    },
    {
     "date": "2026-09-21",
@@ -2309,25 +2317,18 @@
     "source": "The Guardian",
     "title": "How Saudi oil scientists ended up working on the world’s most important climate reports",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON1RjMkRZdHI4clYwSGVIUmpwQTJoNjR6N0NkYjZ4Qk9VbWNDbFR6WVRmeDBfMDZWZkY0UGRQY08teEdNbkVCTFhsdGRXejZPNXJkNHl1V0FUTzdSTEN6X2RqQkNHQ1pRaUhEdDhHSFFBaFJlU3ZrbXNfOXFYTzlJaHVZLVUzTzcxQ2VUSVM1bWx4YmtBU0pDdmtmTnVZUDAzbUdBRl94c1BkVDQ?oc=5"
-   },
-   {
-    "date": "2026-09-21",
-    "published": "2026-09-21T17:14:28+00:00",
-    "source": "Reuters",
-    "title": "Saudi Arabia ramps up Gulf oil exports after pipeline attack, data shows",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcThldmdWd2c5aHdfck8zYk1XMWtsa3kweWlXaTNQWEpnV2NIUHhiNTh2cHhoSndCV2Z2QkhwNl9DZEJObFJha2pXWG1JcUZpVXlZU1RqQ2diZUJ0YVV2alRBRmRCampGOGdQQnM4UVV2R2ZMQ2p6WC1QSk5iOGJEWDZ2YXdaSzlLeGtZYnNuVld5MGZESG1tenNaMFlFcExWeVhlZjJBTlJOeHNmVkhBYzFkejJkNno5VWEwU05hRHU4NGlqT1U5UXcxUzU?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-21T23:13:04Z"
+  "last_ok_at": "2026-09-22T04:45:12Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-21T23:13:06Z",
+  "fetched_at": "2026-09-22T04:45:13Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 36,
+  "count": 34,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2361,14 +2362,15 @@
    "2026-09-21T06": 25,
    "2026-09-21T13": 33,
    "2026-09-21T19": 37,
-   "2026-09-21T23": 36
+   "2026-09-21T23": 36,
+   "2026-09-22T04": 34
   },
-  "last_ok_at": "2026-09-21T23:13:06Z"
+  "last_ok_at": "2026-09-22T04:45:13Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-21T23:13:06Z",
-  "last_ok_at": "2026-09-21T23:13:06Z"
+  "fetched_at": "2026-09-22T04:45:13Z",
+  "last_ok_at": "2026-09-22T04:45:13Z"
  }
 }
