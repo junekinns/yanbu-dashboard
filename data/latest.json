@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T16:48:17Z",
+ "generated_at": "2026-09-23T20:13:31Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-23T20:13:31Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -188,16 +191,12 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-23T05:52:12Z",
-  "stale": true,
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f7721b49ee0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-09-23T16:48:17Z"
+  "last_ok_at": "2026-09-23T20:13:31Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-23T16:49:18Z",
+  "fetched_at": "2026-09-23T20:13:50Z",
   "events": [
    {
     "date": "2026-09-23",
@@ -597,7 +596,8 @@
     "title": "정부 “사우디 송유관 피격에도 원유 9∼10월 물량 90% 이상 확보”",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tbUhiYmd0OUx3X0N3cTJ1TWZEQXRDeTdKNThoRnd2a2xPbzdSUExrVjJ4SWd2MW1CcFFwWTRrUllZZElzbnQxRHE3X0luLTNDTWJzMi05cmVEUmF2UUtFX3pn?oc=5",
     "source": "중앙일보",
-    "outlets": 1
+    "outlets": 1,
+    "weapon": null
    },
    {
     "date": "2026-09-13",
@@ -778,12 +778,12 @@
   "history_days": 13,
   "history_since": "2026-09-11",
   "today": "2026-09-23",
-  "last_ok_at": "2026-09-23T16:49:18Z"
+  "last_ok_at": "2026-09-23T20:13:50Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-23T16:49:19Z",
+  "fetched_at": "2026-09-23T20:13:52Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1141,19 +1141,19 @@
   ],
   "mentions7d": {
    "메카": 13,
-   "카미스무샤이트": 10,
+   "카미스무샤이트": 8,
    "타이프": 7,
    "리야드": 3,
    "얀부": 3,
    "지잔": 2,
    "나즈란": 1
   },
-  "last_ok_at": "2026-09-23T16:49:19Z"
+  "last_ok_at": "2026-09-23T20:13:52Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-23T16:49:22Z",
+  "fetched_at": "2026-09-23T20:13:52Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2341,12 +2341,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-23T16:49:22Z"
+  "last_ok_at": "2026-09-23T20:13:52Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-23T16:49:27Z",
+  "fetched_at": "2026-09-23T20:13:55Z",
   "kr": [
    {
     "date": "2026-09-23",
@@ -2354,6 +2354,13 @@
     "source": "MBC",
     "title": "사우디의 역습‥진격하는 후티 후방 치며 전세 만회",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13UFpTME1LTnYtOVJqbUhPWjlCakk1cTBoeGZ2NXR2ZHpSZmJ6VTJnd3l2V2FCUExWRDNIRWpncWllYi13eEwtNDUtLTFIcnhkZ01HdXU1VGNFWjU0ZUFaWkRmaUQxXzBBbGpUcjd4SHp0OWZoekJkRdIBeEFVX3lxTE5ndmhPeDJOc0hIWjNvYUNxNE1CWTFPYW1DSHY5Y040bTQ5NEJPRkE4NzBkUldKdGdjbFA1NVdRbzIwVmNMRjNhUzNSTFItc25sRHhkUVZEc1h5UUg3U0k3dU9US2cwUUtZQ19ET1NVUkViZWR6MlFEMg?oc=5"
+   },
+   {
+    "date": "2026-09-23",
+    "published": "2026-09-23T11:25:02+00:00",
+    "source": "MBC",
+    "title": "후티 반군 고문 \"美, 사우디 지원하면 역내 미국 이익 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53R1UzS2J0UklCY3ozaUpaQ0VUQV9jVlplME55V3VhR043eDhON3hIbmd0am5wWWR2bDFZNzI0ejJwQjNwTVJ0SEZzR05NMzZqbTlLVHFHUlFwS1p2VEdjNFRkZUNhUW1rWENvS1VSUlBlZ3dn0gF0QVVfeXFMTy0xUXVtTVZHbjA0bDFJdU9GMkh5cmdSOFpMQVlweWthb2hpZDVCVzI1ekwyd1JDOHp2ZlNYQmZ5ckhsRlVrRGFFY2tPUTZTSnRBVFFfajJBSzBSNGZ1d3Z0cWliRzA3cHFhNFZjc0N6TjJZY20?oc=5"
    },
    {
     "date": "2026-09-23",
@@ -2375,13 +2382,6 @@
     "source": "연합뉴스",
     "title": "이란군 \"트럼프 발언 국내용\"…사우디 송유관은 재개 수순",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0VTBMdTk5Qm9iSFZfNkdWcTJkM29RbVlqNVJDZ2l5MXNaWnF6ajVEalZGYngzRElRZ1JOcVhyaEV2eGJGUWY2ZE9yX0ludXh3dXZnVnhJZkxLWTFDb0tsaDJkUnpIUms?oc=5"
-   },
-   {
-    "date": "2026-09-22",
-    "published": "2026-09-22T14:33:38+00:00",
-    "source": "MBC",
-    "title": "\"사우디, 드론 피격 '동서 송유관' 가동 재개‥낮은 속도 수송\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vcFhvc1ZUS1RTbERkTDcwQXg4YWxUVHE5NF9KVXFJa0lCRUNkb1NpaF80eFFpNkxJNW1hR25EY3EzMHpsVXIyVUpBTGlsWGJCbHBwQThXcEJoWG1NYjZMWnFkYkk5VDhKM3lWU3NLcXM3Ul840gF0QVVfeXFMTm9wWG9zVlRLVFNsRGRMNzBBeDhhbFRUcTk0X0pVcUlrSUJFQ2RvU2loXzR4UWk2TEk1bWFHbkRjcTMwemxVcjJVSkFMaWxYYkJscHBBOFdwQmhYbU1iNkxacWRiSTlUOEozeVZTc0txczdSXzg?oc=5"
    }
   ],
   "en": [
@@ -2421,14 +2421,14 @@
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWpkb3RQV3p1VmpBdlAwTHlnTVI2bkJRSW9hWDNHV1JqRFloLXNkV0pOVDR4aXRmNkpIMzFwS0xBMU9zMFRqVUF0VThLWndEeFlSc1NMVGVYc2NiSDVkb05mZVozNGp5RWRkcjNhY2N5amZwX19QT1NGemF4djVKSU51SjRDaWg5dTUwMFpkd243bWlyejFCQWNmY29EbTF1WG9QNGNoTVJBODRHakgwMW1fX2JfaHZI?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-23T16:49:27Z"
+  "last_ok_at": "2026-09-23T20:13:55Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-23T16:49:28Z",
+  "fetched_at": "2026-09-23T20:13:56Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 30,
+  "count": 29,
   "baseline": null,
   "baseline_n": 2,
   "tier": "정상",
@@ -2473,14 +2473,15 @@
    "2026-09-23T00": 46,
    "2026-09-23T05": 38,
    "2026-09-23T11": 39,
-   "2026-09-23T16": 30
+   "2026-09-23T16": 30,
+   "2026-09-23T20": 29
   },
-  "last_ok_at": "2026-09-23T16:49:28Z"
+  "last_ok_at": "2026-09-23T20:13:56Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-23T16:49:28Z",
-  "last_ok_at": "2026-09-23T16:49:28Z"
+  "fetched_at": "2026-09-23T20:13:57Z",
+  "last_ok_at": "2026-09-23T20:13:57Z"
  }
 }
