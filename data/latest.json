@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-22T22:00:02Z",
+ "generated_at": "2026-09-23T00:22:15Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-22T22:00:02Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +188,16 @@
   "last7d": 5,
   "baseline": 1.0,
   "tier": "급증",
-  "last_ok_at": "2026-09-22T22:00:02Z"
+  "last_ok_at": "2026-09-22T22:00:02Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fdc3cad2810>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-23T00:22:15Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T22:00:18Z",
+  "fetched_at": "2026-09-23T00:23:16Z",
   "events": [
    {
     "date": "2026-09-22",
@@ -735,12 +736,12 @@
   "history_days": 12,
   "history_since": "2026-09-12",
   "today": "2026-09-23",
-  "last_ok_at": "2026-09-22T22:00:18Z"
+  "last_ok_at": "2026-09-23T00:23:16Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T22:00:20Z",
+  "fetched_at": "2026-09-23T00:23:17Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1085,12 +1086,12 @@
    "지잔": 1,
    "나즈란": 1
   },
-  "last_ok_at": "2026-09-22T22:00:20Z"
+  "last_ok_at": "2026-09-23T00:23:17Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T22:00:20Z",
+  "fetched_at": "2026-09-23T00:23:18Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2374,19 +2375,19 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-22T22:00:20Z"
+  "last_ok_at": "2026-09-23T00:23:18Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T22:00:24Z",
+  "fetched_at": "2026-09-23T00:23:20Z",
   "kr": [
    {
     "date": "2026-09-22",
-    "published": "2026-09-22T15:40:00+00:00",
+    "published": "2026-09-22T15:25:09+00:00",
     "source": "연합뉴스",
-    "title": "사우디, 드론 피격 ’동서 송유관’ 재개…“정상화 6~8주 소요“",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RaDN4Z2xvVW9CMDI1dkF5b3ROQjdyMnVKMGo3eWNjNERKTXY4VkNocFRmSEUyMDN4QjVndmFlUU1ZYS05TzBhY2lMUXNyREkxeXZUTGdTN1h6aG5FVTFHVzkyVXlTblU?oc=5"
+    "title": "사우디, 드론 피격 '동서 송유관' 재개…\"정상화엔 6∼8주 소요\"(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TTEVHUm1YNjYzQzFzSGs2c2V1MEpzNlVOdGdfYUJDWmwxUGxKYW5RdUh6Vm9fd1JVWUhySGpNVkRQbFZWY0tCeG9mQ2JCUk9LaU52YjBZNEJKVnfSAWBBVV95cUxQRm1qbGprdWdrNFZBbDYtczVEVWUxbFNTdm1NV0dYRF8wSTdEZmFQTERDUTZJUzFLRkRjM01LdkVNdVJBdFRNdXB6SDdVRlg3OHVwNVhaZmpKTW5tYnU3YXA?oc=5"
    },
    {
     "date": "2026-09-22",
@@ -2394,13 +2395,6 @@
     "source": "MBC",
     "title": "\"사우디, 드론 피격 '동서 송유관' 가동 재개‥낮은 속도 수송\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vcFhvc1ZUS1RTbERkTDcwQXg4YWxUVHE5NF9KVXFJa0lCRUNkb1NpaF80eFFpNkxJNW1hR25EY3EzMHpsVXIyVUpBTGlsWGJCbHBwQThXcEJoWG1NYjZMWnFkYkk5VDhKM3lWU3NLcXM3Ul840gF0QVVfeXFMTm9wWG9zVlRLVFNsRGRMNzBBeDhhbFRUcTk0X0pVcUlrSUJFQ2RvU2loXzR4UWk2TEk1bWFHbkRjcTMwemxVcjJVSkFMaWxYYkJscHBBOFdwQmhYbU1iNkxacWRiSTlUOEozeVZTc0txczdSXzg?oc=5"
-   },
-   {
-    "date": "2026-09-22",
-    "published": "2026-09-22T13:55:00+00:00",
-    "source": "연합뉴스",
-    "title": "“사우디, ’드론 피격’ 동서 송유관 가동 재개“",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Vb0duSzhSOW1UeHRPaWRXS0lKWkFvZ2gwTU05ZElGVFhuUWkwLXg5ZjV1akk1di0xZzB4NDFXZUZ3YVZQTjlvTzloTGs4c0hqbG5TOWhReXFFREhkWU1SVDYwVVl1NTg?oc=5"
    },
    {
     "date": "2026-09-22",
@@ -2415,12 +2409,26 @@
     "source": "KBS",
     "title": "G7 외무장관, 유엔총회 모여 후티에 경고…“사우디 공격 용납 못해”",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5scXA4Q0tYeFJ2bUVWMnd4c1J5V19yOE5weDhjYzRzcVEtNGthUGluT0tOWjB3Z3BYSTJtZHZBWmpNb3k3ejdZbUVjcGs2bHMxQ3I1TjFXY0J6VE0?oc=5"
+   },
+   {
+    "date": "2026-09-21",
+    "published": "2026-09-21T23:01:27+00:00",
+    "source": "뉴스1",
+    "title": "사우디, 송유관 피격에 페르시아만 수출 확대…유가 100달러 하회",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1RmVkMkRXNEVtZ05SMmkzWjRPbzBYSGtSb19vMGJWUmtZYmRCbThzS1d3bjVIbXRpR0NydGlOUlotTVo1eS1vWEl3NFBYU2NnaHp2SHBBb05aaHpBZmFlaHB30gFnQVVfeXFMTW5kSFE1Yy1jVUJkN1RkcFg3OElZcUt2ZnZ3Vzgzby1GaUVoeFdBNFZnQ3VmVFNZNUFGeXdldkNPV2d2bjVCSmphX20yU3RXT0JrcXpRbERILXpoVnFrZ2s2dHlVV3REWQ?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-22",
-    "published": "2026-09-22T20:05:50+00:00",
+    "published": "2026-09-22T20:36:04+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORFhVR29xQTIzMmxzM19mVTY0X1ZHMVQxYzF3d1lkaDJFV2VHUXZIUHVRNk9STkFmOF9lRXBHR2JzLTVHd0JkZUQ3NWJoa21sbm00VnR4Rzc3a1RCM2hIZGZrYkNSanpOUkZEem1SU2M0SDRQWUhKYmtwd0ZhSkxnYnV0SmpOMjNJeks0ZXRqRlQ4d0Q4T2lTU2tZTlZPMjlIRFhkVzFzOFjSAa4BQVVfeXFMTVY2ejlmemp0YXNuZTJ2QVVRTkZFX29BU3N3Sk9yUDNsSVdWRldkdWpxUk1nVXgzS0ZScVk4TXZOa3Fva0oxYXRWY1U1Y3lzNVV6NUtCdkRUenlJUmp0YzlxUl9FUmo4S0M3XzdmeVhNalM5a0RoRFJoc25yWHVTU1Vjd3UyY0xGWm9fTTI0aUx1eGNlZWpOZ0EybEdkWDhvUWs3SV9RRW9nN01aWTVB?oc=5"
+   },
+   {
+    "date": "2026-09-22",
+    "published": "2026-09-22T20:05:51+00:00",
     "source": "The New York Times",
     "title": "Global Oil Price Drops Below $100 a Barrel",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LeWlhaXZTNVRtczlmYnpMczlmcnA5b3RMZkNqX1NDZGFfX3NCXzdMYzFzNXhNXzY0bjM0a01tTVY1TF93bElWRnYxYzdsLW13aDhYZEhpejZWZVkzSlpmVGxXNGIwam5rOGt4RnVLbnQzWTdRYllQb1Fic2ppenM?oc=5"
@@ -2434,36 +2442,29 @@
    },
    {
     "date": "2026-09-22",
+    "published": "2026-09-22T16:45:44+00:00",
+    "source": "Reuters",
+    "title": "Turkey, Saudi Arabia, Pakistan, Egypt affirm Riyadh's right to defend itself",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVmFoVUp6TkhqRGZYLV9vc2Y5M001X0xGdlNETzJtMVd2d0FzcV9tdVJUbmMzRVJ0b2dLZzI5Q0txYXZPdEZFRnNjZUJURU5uWXlzajIyTzJxQVZqaGd2M0ZfWTJSazBmVWhTb3FaZDdic0lBWDBQa0NGOXdpSmNqS2REblRna1JoUnR4ZTdoazBFYjM4d1RpMEhXdXFZZEUxSFhhelVzSjFBajhhZ0ZXUjJjWkNOZngzNGN4ZElLb3ZnUQ?oc=5"
+   },
+   {
+    "date": "2026-09-22",
     "published": "2026-09-22T16:41:23+00:00",
     "source": "Reuters",
     "title": "EXCLUSIVE: Saudi Aramco plans reorganisation to create gas division, sources say",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWpkb3RQV3p1VmpBdlAwTHlnTVI2bkJRSW9hWDNHV1JqRFloLXNkV0pOVDR4aXRmNkpIMzFwS0xBMU9zMFRqVUF0VThLWndEeFlSc1NMVGVYc2NiSDVkb05mZVozNGp5RWRkcjNhY2N5amZwX19QT1NGemF4djVKSU51SjRDaWg5dTUwMFpkd243bWlyejFCQWNmY29EbTF1WG9QNGNoTVJBODRHakgwMW1fX2JfaHZI?oc=5"
-   },
-   {
-    "date": "2026-09-22",
-    "published": "2026-09-22T15:12:19+00:00",
-    "source": "Reuters",
-    "title": "Saudi Arabia restarts East-West oil pipeline, sources say",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5"
-   },
-   {
-    "date": "2026-09-22",
-    "published": "2026-09-22T14:46:44+00:00",
-    "source": "Bloomberg",
-    "title": "Saudi Arabia Running Tests to Resume East-West Oil Pipeline",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNXy1NQWNxNHNjYk94V09jWlZEcXJkUEZ5ZVRtVXNmbnpISFh6NEFSZlZVLXpSTDM0QW04anpDdXVTZjcxN2NNajhweDdVM2ZYelFlVGJWbTIxZUpXcnRVVG5MYWhqQ0VFMWhVUEVBMkpkdHJIR0ZOX1h6MXowQ29JWnVxRm51dGRxWTBJT1dLWXpYRkd1eTdGQmowRWdLXzlTUGFpMTJzaThlSld0LUxN?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-22T22:00:24Z"
+  "last_ok_at": "2026-09-23T00:23:20Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-22T22:00:25Z",
+  "fetched_at": "2026-09-23T00:23:22Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 41,
+  "count": 46,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2502,14 +2503,15 @@
    "2026-09-22T09": 33,
    "2026-09-22T14": 42,
    "2026-09-22T18": 55,
-   "2026-09-22T22": 41
+   "2026-09-22T22": 41,
+   "2026-09-23T00": 46
   },
-  "last_ok_at": "2026-09-22T22:00:25Z"
+  "last_ok_at": "2026-09-23T00:23:22Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-22T22:00:25Z",
-  "last_ok_at": "2026-09-22T22:00:25Z"
+  "fetched_at": "2026-09-23T00:23:22Z",
+  "last_ok_at": "2026-09-23T00:23:22Z"
  }
 }
