@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T14:56:53Z",
+ "generated_at": "2026-09-24T19:02:35Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-24T14:56:53Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +188,31 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-24T14:56:53Z"
+  "last_ok_at": "2026-09-24T14:56:53Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f9c38166030>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-24T19:02:35Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T14:57:12Z",
+  "fetched_at": "2026-09-24T19:03:36Z",
   "events": [
+   {
+    "date": "2026-09-24",
+    "time": "18:30",
+    "iso": "2026-09-24T18:30:30+03:00",
+    "city": "지잔",
+    "type": "피격",
+    "weapon": "드론",
+    "lat": 16.89,
+    "lon": 42.57,
+    "title": "Yemen’s Houthis claim missile, drone attack on Saudi military sites in Jazan",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU25zN2FFaVg4cGJ3NE1FSS1HTE5lejhYS0hHZGhSeEhFTU1rWTU2dXdvYm9ZNmdNSFhQMDJRR0IxOXJieW5QR0gzUnFERG5MOGIyY1JqV3N0OTZlRWExYkdwV3hlVWR5NWd5YWNhM2hGVjR2NVdxblBVZEFSZ1lESkNlSTRZaXZTM3pfUW9uVEFreUhWaHZiR3RMZE04cTB2YnJ1ZkJGYURjSWw3clFMbzdTeEJKUVlVb1JrWg?oc=5",
+    "source": "Anadolu",
+    "outlets": 1
+   },
    {
     "date": "2026-09-24",
     "time": "14:54",
@@ -788,8 +803,10 @@
     "prev_total": 0
    },
    "지잔": {
-    "7d": {},
-    "total7d": 0,
+    "7d": {
+     "피격": 1
+    },
+    "total7d": 1,
     "prev7d": {},
     "prev_total": 0
    },
@@ -815,14 +832,63 @@
   "history_days": 14,
   "history_since": "2026-09-11",
   "today": "2026-09-24",
-  "last_ok_at": "2026-09-24T14:57:12Z"
+  "last_ok_at": "2026-09-24T19:03:36Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T14:57:14Z",
+  "fetched_at": "2026-09-24T19:03:38Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-24 22:00",
+    "iso": "2026-09-24T22:00:01+03:00",
+    "places": [
+     "얀부",
+     "타이프",
+     "리야드",
+     "지잔",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنية بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {ذَ ٰ⁠لِكَۖ وَمَنۡ عَاقَبَ بِمِثۡلِ مَا عُوقِبَ بِهِۦ ثُمَّ بُغِیَ عَلَیۡهِ لَیَنصُرَنَّهُ ٱللَّهُۚ} صدقَ اللهُ العظيمُ يواصلُ العدوُّ السعوديُّ المجرمُ عدوانَه الإجراميَّ على شعبِنا من خلالِ حصارِه الظالمِ وشنِّ الغاراتِ الجويةِ العدوانيةِ والتي بلغت منذُ بدءِ التصعيدِ وحتى مساءِ اليومِ 1018 غارةً جويةً وصاروخًا من خلا…",
+    "text_ko": "예멘 군이 가장 자비로우시고 자비로우신 알라의 이름으로 발표한 성명서. 전능자는 다음과 같이 말했습니다. {범죄자인 사우디의 적은 부당한 포위 공격과 공격적인 공습을 통해 우리 국민에 대한 범죄 공격을 계속하고 있으며, 이 공격은 에스컬레이션 초기부터 오늘 저녁까지 1018번의 공습과 미사일에 도달했습니다...",
+    "url": "https://t.me/army21ye/3768"
+   },
+   {
+    "time": "2026-09-24 22:00",
+    "iso": "2026-09-24T22:00:01+03:00",
+    "places": [
+     "얀부",
+     "리야드"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عمليتين عسكريتين نوعيتين أولاهما استهدفت هدفا حساسا في عاصمة العدو السعودي الرياض، والأخرى استهدفت شركة أرامكو في ينبع، وذلك بعدد من الصواريخ الباليستية والمجنحة والطائرات المسيرة. جودة متوسطة http://t.me/army21ye",
+    "text_ko": "두 가지 질적 군사 작전의 시행에 대한 예멘 군의 성명서. 첫 번째는 사우디 적 리야드의 수도에서 민감한 목표를 목표로 삼았고 다른 하나는 탄도 및 날개 달린 미사일과 드론으로 얀부의 아람코를 목표로 삼았습니다. medium quality http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3770"
+   },
+   {
+    "time": "2026-09-24 22:00",
+    "iso": "2026-09-24T22:00:01+03:00",
+    "places": [
+     "얀부",
+     "타이프",
+     "리야드",
+     "지잔",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "The criminal Saudi enemy continues its criminal aggression against our people through its unjust siege and the launching of aggressive airstrikes, which, since the beginning of the escalation up to this evening, have reached 1018 airstrikes and missile attacks using F-15 and Typhoon aircraft that took off from the Khamis Mushait and Taif airbases, and missile attacks from Najran and Jizan targetin…",
+    "text_ko": "범죄자인 사우디의 적은 부당한 포위 공격과 공격적인 공습을 통해 우리 국민에 대한 범죄 공격을 계속하고 있습니다. 이 공습은 격화 초기부터 오늘 저녁까지 카미스 무샤이트와 타이프 공군 기지에서 이륙한 F-15와 타이푼 항공기를 사용한 1018건의 공습과 미사일 공격, 나즈란과 지잔 표적의 미사일 공격에 도달했습니다...",
+    "url": "https://t.me/army21ye/3772"
+   },
+   {
+    "time": "2026-09-24 21:24",
+    "iso": "2026-09-24T21:24:46+03:00",
+    "places": [],
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي، في تمام الساعة العاشرة مساءً، بعد قليل. http://t.me/army21ye",
+    "text_ko": "직후인 저녁 10시에 사우디아라비아 내부의 여러 질적 군사 작전을 발표하기 위한 예멘 군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3767"
+   },
    {
     "time": "2026-09-24 17:50",
     "iso": "2026-09-24T17:50:20+03:00",
@@ -1208,19 +1274,16 @@
   ],
   "mentions7d": {
    "메카": 13,
-   "카미스무샤이트": 8,
-   "타이프": 7,
-   "지잔": 5,
-   "얀부": 3,
-   "리야드": 3,
-   "나즈란": 1
+   "타이프": 9,
+   "카미스무샤이트": 9,
+   "지잔": 7,
+   "리야드": 6,
+   "얀부": 6,
+   "나즈란": 3
   },
-  "last_ok_at": "2026-09-24T14:57:14Z"
+  "last_ok_at": "2026-09-24T19:03:38Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-24T14:57:19Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2344,12 +2407,16 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-24T14:57:19Z"
+  "last_ok_at": "2026-09-24T14:57:19Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-09-24T19:03:44Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T14:57:21Z",
+  "fetched_at": "2026-09-24T19:04:44Z",
   "kr": [
    {
     "date": "2026-09-24",
@@ -2390,50 +2457,50 @@
   "en": [
    {
     "date": "2026-09-24",
-    "published": "2026-09-24T14:39:35+00:00",
-    "source": "Reuters",
-    "title": "Iranian flights cancelled as new US 'D-Day' sanctions take effect, Saudis say they shoot down Houthi missiles",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORXFRdU50SU1neUhFbzk2V2JmSXRiRDFJbm5BR1VFaWp6NXhaZ2hRcExwUjJNeHRwVlFNd0xKY2tBWnI4N0c3Tk0zWTFyUHNCSnZJRUw3Znp3bU1UREd5OHo5anJLY21GdkVTa2V1TnQ2ZTVxOGRXSHRfUmIxN0dCRzFSaXJFVWRJOHQzVWE4dTdjcXRZNk5nSVg0eFBEYWd4akJGNWVzbE5rNEhwSVowcUp5SXhHZzV3OVBsUkp3UkQ1RTZvWHNwWTdn?oc=5"
+    "published": "2026-09-24T16:30:00+00:00",
+    "source": "DW",
+    "title": "Houthi gains in Yemen fuel displacement as humanitarian crisis worsens",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3o3d0U0azBSVi1WallzRGJSYkxZaVJOZ1pqajdFbkZHSVROYktXekRoT0poVkMzNDlvUjJXX2F2bHR4ZmxZMjdLWm4xU1U4Q0FPVEZxVGxjT1FyaWFFaVUwNEhFU0FwUDFWVjdVRU16TGRyX2t2TFlTMUhfdGJudVZPbUpTZklCekNiVkJiUmdzQm1ray04NEE2eWdBV3R1bGZ5a3RB0gGmAUFVX3lxTE5veU9vZ3d5UDEzRjY4RG1Jcl9SbHRDdUdRakdJRDlCMmtrUFJTUnV4bFFTb2tRaUY3WmZTQmRfLUNIN204dS0xeU9sUXBXN1JFMkNEd3VDak96bjM1S1V3cTVReDFDRzJJeDl4UkF4cEFkeW92d2dLSEZMM2NpUDFYVkkxNnQwMU9wRTBxUWt5eFB5VndXM0NKcmV2LVppM0tkX0lPYXc?oc=5"
    },
    {
     "date": "2026-09-24",
-    "published": "2026-09-24T14:22:09+00:00",
-    "source": "Reuters",
-    "title": "Saudi East-West Pipeline building up volumes, loading yet to resume, sources say",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQlNpUnc2TTlsRlJwQmUyWEhIN3VjX1JuMTktQ1laRmV6VWM0U2d1V1FYQjNvdjV3VG9iMGx0dkczc2dPMUx2UWVQU3BBVElQcUlnMVBQenQ0RFhkTzBmQmpaZkoyNGF5QlZwOGFnTmJGRDh1TFRCaDZuQkVsRUpRYWNIQlplWU5VNndjeTQ0S3cxZS1QWUFMdU0wTTBTNFpEeGZXSU1DLWFpVFQwdVhaRDNKb21Sdl9BNUtnN0UzWFR2S3psY2c?oc=5"
+    "published": "2026-09-24T15:35:11+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYXBsVHBxNmVKcjlZbTVfR3hfVE1xclVoVlcyYjZKMm9talVQWTlOcFhhWHRjYVhKVHdCaXlMRFBwN0dqYVY4aDVLVE9McGxfWFJxMXBtejlNTnhZU2x3LUswbmVjZm1wSHhvVF9qaGVlaHhFdFplZ1dOYjIzQVJzZFlEd1dMWDI1U1FPMTlmclFQS0lDNmZ4R1ROM1k4VlpzY29lQ1NDeHZoQ09vOTJHbld5ek1NUWPSAbwBQVVfeXFMT25vSG53S2JsWnpLeE96WHVBWU54aEhPZlJqdXpYWmlpTHJXRG82a2Utak1WX2c5TWpoY0tyZEpQUTJSdkZMcE14dFpGdGZPUlFlSVZqS2ZkUlBScktjMDdZQ19GU29nSlBhMHVDdmFfVnNJY29ZQXFwRkxEaVVsakZUU3d1WXFmTmtHeW41ODE2UVBtbGxNNHJOa2dSanRNXzJSbTYtWlpfQTdzR3RfaTkxQjVXQnRxNXZoaDQ?oc=5"
    },
    {
     "date": "2026-09-24",
-    "published": "2026-09-24T13:51:28+00:00",
-    "source": "The New York Times",
-    "title": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Officials Say",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd0lsa0ZQVURLUHdSdzBha214NjhBTGk4aWVnYVJCalFlaklBQ0Y4TW53bGs3YWc4NXpGRGN3UHJFV0U3ZlE3b21Sb1BnMnhobnoySnNUQVBjY3hUbVBJVmZLdG9MdXlzaUFEY1RfcGFMeWk3QzVIanRKM2tPcjd6VEZXdmNjc18yZVI3ZkRXcUduUmNBd0pJNGFqSEhXLXNwOWJz?oc=5"
-   },
-   {
-    "date": "2026-09-24",
-    "published": "2026-09-24T12:40:00+00:00",
+    "published": "2026-09-24T15:23:00+00:00",
     "source": "AP News",
     "title": "Saudi-led coalition says 6 ballistic missiles are intercepted and blames Houthi rebels",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUjRDUmo2SklGZ0FmaUQ1UDU5ak1vcFM1LTdKdzJ2Y2lWV3dhNWNpeGNhT0dVRnhvYVRsc2M5ZnoyNlVFOTZDdUd4MG9tamZ3bzhMallmX090RGNBVzE3cFQ3V3ZRT1Q3aE1fVUs3NVVhbWhhUEZZZWVrZnd4ZHpLSk0wdWp0TVlLbXo3eGVJRnJIMmstWTV0Rzlucw?oc=5"
    },
    {
     "date": "2026-09-24",
-    "published": "2026-09-24T12:30:49+00:00",
-    "source": "Bloomberg",
-    "title": "Saudi Arabia Intercepts Houthi Missiles Fired at Cities",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcWtFNy1IWF85ZWlEWlAzOU1KQzBScVRhcUxZcmxoMlpjV0d3Y081R0JTd3lUTWQ1VXlhY01YbE15dzdySlYxOUlvQkZLMUVxbWktQmxvSGU1bE9GN3RzTG5LS1hSaGNJM3lBZWpmYkxaWHJVN3dJQUNUUlMxcW9QZmFPTWxrZGRqdlVJbnRRdVEyVGEyckU4TDRQWGh2bjgwdnRKNzJwYmNudw?oc=5"
+    "published": "2026-09-24T14:53:00+00:00",
+    "source": "Reuters",
+    "title": "Saudi East-West Pipeline building up volumes, loading yet to resume, sources say",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQlNpUnc2TTlsRlJwQmUyWEhIN3VjX1JuMTktQ1laRmV6VWM0U2d1V1FYQjNvdjV3VG9iMGx0dkczc2dPMUx2UWVQU3BBVElQcUlnMVBQenQ0RFhkTzBmQmpaZkoyNGF5QlZwOGFnTmJGRDh1TFRCaDZuQkVsRUpRYWNIQlplWU5VNndjeTQ0S3cxZS1QWUFMdU0wTTBTNFpEeGZXSU1DLWFpVFQwdVhaRDNKb21Sdl9BNUtnN0UzWFR2S3psY2c?oc=5"
+   },
+   {
+    "date": "2026-09-24",
+    "published": "2026-09-24T13:58:46+00:00",
+    "source": "BBC",
+    "title": "Who are the Houthis and what do they want?",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vR2dmcDNUcFVqQzVQVWQ5WFBsUDhkbWNPd1ROOFZpV3pOd184NFIyTnd0THdhNTd0M2RQWWxpdFVBSWJodWVXcms5czFSa1RldlhQZVRzSlRFb0E?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-24T14:57:21Z"
+  "last_ok_at": "2026-09-24T19:04:44Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T14:57:23Z",
+  "fetched_at": "2026-09-24T19:04:45Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 42,
-  "baseline": 42,
-  "baseline_n": 3,
+  "count": 34,
+  "baseline": null,
+  "baseline_n": 1,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2481,14 +2548,15 @@
    "2026-09-23T23": 47,
    "2026-09-24T04": 31,
    "2026-09-24T09": 35,
-   "2026-09-24T14": 42
+   "2026-09-24T14": 42,
+   "2026-09-24T19": 34
   },
-  "last_ok_at": "2026-09-24T14:57:23Z"
+  "last_ok_at": "2026-09-24T19:04:45Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-24T14:57:23Z",
-  "last_ok_at": "2026-09-24T14:57:23Z"
+  "fetched_at": "2026-09-24T19:04:45Z",
+  "last_ok_at": "2026-09-24T19:04:45Z"
  }
 }
