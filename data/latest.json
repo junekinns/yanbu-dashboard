@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T09:54:36Z",
+ "generated_at": "2026-09-24T14:56:53Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T09:54:36Z",
+  "fetched_at": "2026-09-24T14:56:53Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +191,41 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-24T09:54:36Z"
+  "last_ok_at": "2026-09-24T14:56:53Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T09:54:51Z",
+  "fetched_at": "2026-09-24T14:57:12Z",
   "events": [
+   {
+    "date": "2026-09-24",
+    "time": "14:54",
+    "iso": "2026-09-24T14:54:44+03:00",
+    "city": "얀부",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "Saudi coalition says it shot down six ballistic missiles fired by Houthis at Taif and Yanbu",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX253OU9jLS1BYXl3VVEweWh2bjFsUlpvLWpvMmFhZE0zcWtna2NvUXNkWm9XQ3VZa19pVldfcG55clpzUGJPMFVGNG8zc3MxVDBxY0lxcVlfcUdOajFIMlU2WWtTbFJQRTFZX3R3Q2pWSHNIMERsU1R4R1JNNWo1Nk5DVVhUYjFyaWtvNi1NVkc3anNCMTR4d1ZIQ1pxTmcxNTg5dGt3TDN0UHJydkticE5SU1ZCMHozeWNkWDlkUUh6VlpZal96aUFHYWhwSndfejQ0?oc=5",
+    "source": "The Times of Israel",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-24",
+    "time": "14:18",
+    "iso": "2026-09-24T14:18:07+03:00",
+    "city": "메카",
+    "type": "경보",
+    "weapon": null,
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "Saudi Arabia says all-clear for Mecca, Taif, Tabuk after 'danger alert' in 5 areas",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMDBKNmdQREhJUkdwdEtzT3A4VnhVV3pkckNwbGcybTloLXF6VWd2bWZxTXN2eGgxZXBOUjR5SXo2RVQ2bWo2dFl2Q25TNG8za3ZzRTh5Y1Vub1BIaElJVmlmRmQ1RU5OWXg4Uzc5Z1Y0cjJxZlNaMDNsTXVhU0VzeDU2RmRqOUFuVlVjRmh6ellyaUNsV1I4ejZjVERwNng0VXpHdi03aTJ1clJPZER3Rl9CQTFUZWNHT2loRDZ5R3o?oc=5",
+    "source": "Anadolu",
+    "outlets": 1
+   },
    {
     "date": "2026-09-23",
     "time": "10:51",
@@ -646,9 +674,10 @@
   "tempo": {
    "얀부": {
     "7d": {
+     "요격": 1,
      "피격": 3
     },
-    "total7d": 3,
+    "total7d": 4,
     "prev7d": {
      "피격": 1
     },
@@ -682,9 +711,10 @@
    },
    "메카": {
     "7d": {
+     "경보": 1,
      "피격": 3
     },
-    "total7d": 3,
+    "total7d": 4,
     "prev7d": {
      "피격": 2,
      "요격": 2,
@@ -785,14 +815,44 @@
   "history_days": 14,
   "history_since": "2026-09-11",
   "today": "2026-09-24",
-  "last_ok_at": "2026-09-24T09:54:51Z"
+  "last_ok_at": "2026-09-24T14:57:12Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T09:54:52Z",
+  "fetched_at": "2026-09-24T14:57:14Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-24 17:50",
+    "iso": "2026-09-24T17:50:20+03:00",
+    "places": [
+     "지잔"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عملية عسكرية استباقية نوعية وواسعة بعشرات الصواريخ الباليستية والطائرات المسيرة استهدفت غرف العمليات والقيادة والسيطرة ومخازن الأسلحة ومواقع مهمة أخرى تابعة لتحشيدات العدو السعودي في منطقة الطوال بجيزان. جودة متوسطة http://t.me/army21ye",
+    "text_ko": "지잔 타왈 지역에 있는 사우디아라비아 적의 작전실, 지휘통제실, 무기 상점 및 기타 중요한 유적지를 겨냥한 수십 개의 탄도 미사일과 드론을 이용한 질적이고 대규모 선제 군사 작전 수행에 대한 예멘군의 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3763"
+   },
+   {
+    "time": "2026-09-24 17:50",
+    "iso": "2026-09-24T17:50:01+03:00",
+    "places": [
+     "지잔"
+    ],
+    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم في إطارِ العدوانِ الذي يشنُّه العدوُّ السعوديُّ على بلدِنا ومع تصاعدِ العدوانِ الصاروخيِّ على المناطقِ الحدوديةِ في محافظتي صعدةَ وحجةَ بأكثرَ من 200 صاروخٍ أُطلِقَت من جيزانَ ومع رصدِ القواتِ المسلحةِ اليمنيةِ لتحشيدات…",
+    "text_ko": "예멘 군이 발표한 성명서에서 알라, 가장 자비로우신 알라, 가장 자비로우신 알라, 전능하신 알라의 이름으로 다음과 같이 말했습니다: {누가 당신을 공격했든, 그들은 당신을 공격하지 않았기 때문에 그를 공격했습니다} 알라의 위대한 진실은 사우디 적군이 우리 나라에 대해 시작한 침략과 지잔에서 발사된 200개 이상의 미사일로 사다와 하지야의 국경 지역에 대한 미사일 침략이 확대되고 예멘 동원군을 감시하는 것입니다...",
+    "url": "https://t.me/army21ye/3761"
+   },
+   {
+    "time": "2026-09-24 17:50",
+    "iso": "2026-09-24T17:50:01+03:00",
+    "places": [
+     "지잔"
+    ],
+    "text_ar": "In regard to the aggression launched by the Saudi enemy against our country, and with the escalation of missile attacks on the border areas in the governorates of Saada and Hajjah, with more than 200 missiles launched from Jizan, and with the Yemeni Armed Forces monitoring large Saudi enemy troop buildups aimed at escalating the situation in the border areas, the Yemeni Armed Forces, with Allah Al…",
+    "text_ko": "사우디 적군이 우리 나라에 대해 시작한 침략과 관련하여, 그리고 지잔에서 발사된 200개 이상의 미사일과 함께 사다와 하자 주지사의 국경 지역에 대한 미사일 공격의 확대와 관련하여, 그리고 예멘 군대가 국경 지역의 상황을 확대하기 위해 대규모 사우디 적 병력 증강을 모니터링하면서, 예멘 군대는 알라 알라와 함께…",
+    "url": "https://t.me/army21ye/3762"
+   },
    {
     "time": "2026-09-23 19:26",
     "iso": "2026-09-23T19:26:15+03:00",
@@ -1150,17 +1210,17 @@
    "메카": 13,
    "카미스무샤이트": 8,
    "타이프": 7,
+   "지잔": 5,
    "얀부": 3,
    "리야드": 3,
-   "지잔": 2,
    "나즈란": 1
   },
-  "last_ok_at": "2026-09-24T09:54:52Z"
+  "last_ok_at": "2026-09-24T14:57:14Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T09:54:53Z",
+  "fetched_at": "2026-09-24T14:57:19Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -1321,14 +1381,6 @@
     "frp": 3.99,
     "date": "2026-09-18",
     "time": "2144",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.64184,
-    "lon": 49.39608,
-    "frp": 0.59,
-    "date": "2026-09-18",
-    "time": "2324",
     "confidence": "nominal"
    },
    {
@@ -1916,14 +1968,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.63871,
-    "lon": 49.39686,
-    "frp": 3.17,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
     "lat": 24.94372,
     "lon": 47.06173,
     "frp": 2.13,
@@ -2220,25 +2264,9 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.64045,
-    "lon": 49.39637,
-    "frp": 1.56,
-    "date": "2026-09-23",
-    "time": "2150",
-    "confidence": "nominal"
-   },
-   {
     "lat": 25.63482,
     "lon": 49.39093,
     "frp": 2.59,
-    "date": "2026-09-23",
-    "time": "2150",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.63844,
-    "lon": 49.39532,
-    "frp": 2.24,
     "date": "2026-09-23",
     "time": "2150",
     "confidence": "nominal"
@@ -2298,15 +2326,38 @@
     "date": "2026-09-23",
     "time": "2331",
     "confidence": "nominal"
+   },
+   {
+    "lat": 21.17043,
+    "lon": 39.51345,
+    "frp": 9.86,
+    "date": "2026-09-24",
+    "time": "1043",
+    "confidence": "low"
+   },
+   {
+    "lat": 26.69343,
+    "lon": 50.09104,
+    "frp": 4.4,
+    "date": "2026-09-24",
+    "time": "1045",
+    "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-24T09:54:53Z"
+  "last_ok_at": "2026-09-24T14:57:19Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T09:54:56Z",
+  "fetched_at": "2026-09-24T14:57:21Z",
   "kr": [
+   {
+    "date": "2026-09-24",
+    "published": "2026-09-24T11:24:15+00:00",
+    "source": "뉴스1",
+    "title": "사우디 아람코 \"제4·5의 원유 수출 경로 구축할 것\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wcURsS2t3Y0V2N2ZLOVpudWkyVnI4WVVwQXZMY2tiNDBNb3JZYVdfMlhYbGw5cVBWR3ExNmFFTUpsRk53ZnZWODdoYlh3NFZkSEdJMjc1d3EwUnZXWFdIWl9Jay02c03SAWdBVV95cUxOMHFEbEtrd2NFdjdmSzlabnVpMlZyOFlVcEF2TGNrYjQwTW9yWWFXXzJYWGxsOXFQVkdxMTZhRU1KbEZOd2Z2Vjg3aGJYdzRWZEhHSTI3NXdxMFJ2V1hXSFpfSWstNnNN?oc=5"
+   },
    {
     "date": "2026-09-23",
     "published": "2026-09-23T17:22:00+00:00",
@@ -2323,73 +2374,66 @@
    },
    {
     "date": "2026-09-23",
+    "published": "2026-09-23T12:19:54+00:00",
+    "source": "MBC",
+    "title": "사우디의 역습‥진격하는 후티 후방 치며 전세 만회",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13UFpTME1LTnYtOVJqbUhPWjlCakk1cTBoeGZ2NXR2ZHpSZmJ6VTJnd3l2V2FCUExWRDNIRWpncWllYi13eEwtNDUtLTFIcnhkZ01HdXU1VGNFWjU0ZUFaWkRmaUQxXzBBbGpUcjd4SHp0OWZoekJkRdIBeEFVX3lxTE5ndmhPeDJOc0hIWjNvYUNxNE1CWTFPYW1DSHY5Y040bTQ5NEJPRkE4NzBkUldKdGdjbFA1NVdRbzIwVmNMRjNhUzNSTFItc25sRHhkUVZEc1h5UUg3U0k3dU9US2cwUUtZQ19ET1NVUkViZWR6MlFEMg?oc=5"
+   },
+   {
+    "date": "2026-09-23",
     "published": "2026-09-23T12:12:04+00:00",
     "source": "뉴스1",
     "title": "후티 \"사우디 공습에 민간인 10명 사망\"…美엔 \"개입 시 보복\" 경고",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bUpFc1lYcFFCTE1lZU5nTUVyLXhHVlpFc2VjdUt2Vlk3U1VTUy1pejhZb05URjdfTmVmeUs1eDMza2FweFcyMEJKMWI4UEdLQml2R1ZPb1NlQzdtVnFFZXd30gFnQVVfeXFMTzVSWFJuV1JVbGl6RTd4c0RYalVremFMZmhvNVZLTHZEXzlfUHUxTlhKVzNGWFNwc0ROeFBwU3dOX2xDOXg1MmhraE9tV1FJQS11SWZGNEVobVAwcEFYdHN3ZlhjRHlXQQ?oc=5"
-   },
-   {
-    "date": "2026-09-23",
-    "published": "2026-09-23T11:25:02+00:00",
-    "source": "MBC",
-    "title": "후티 반군 고문 \"美, 사우디 지원하면 역내 미국 이익 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53R1UzS2J0UklCY3ozaUpaQ0VUQV9jVlplME55V3VhR043eDhON3hIbmd0am5wWWR2bDFZNzI0ejJwQjNwTVJ0SEZzR05NMzZqbTlLVHFHUlFwS1p2VEdjNFRkZUNhUW1rWENvS1VSUlBlZ3dn0gF0QVVfeXFMTy0xUXVtTVZHbjA0bDFJdU9GMkh5cmdSOFpMQVlweWthb2hpZDVCVzI1ekwyd1JDOHp2ZlNYQmZ5ckhsRlVrRGFFY2tPUTZTSnRBVFFfajJBSzBSNGZ1d3Z0cWliRzA3cHFhNFZjc0N6TjJZY20?oc=5"
-   },
-   {
-    "date": "2026-09-23",
-    "published": "2026-09-23T11:22:00+00:00",
-    "source": "연합뉴스",
-    "title": "후티 반군 고문 \"미, 사우디 지원하면 역내 미군 시설 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sc1p4b3NyVkZOVm9BTEFCM243eC1Na0JnQTFDSVpKczNuY0JHeXduaEttOG03MGFCS3BYTy1fYTA1Q0tLTkxvMVRPN3dPQzgzQ2R1R3oxOHNVLVVTY1U2QnRMS0tKVzA?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-09-23",
-    "published": "2026-09-23T14:01:15+00:00",
-    "source": "Al Jazeera",
-    "title": "How much is UK supporting Saudi Arabia in its war with Iran-backed Houthis?",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbEdwaTZWdlRTOWJRZ1B6Tmp4dy0xc3lKd21RN00wQmlNR2gwSmZ0ZF9vVXpoV1dsNUV4U0ZZQk0tT05UclBEZE9BZmowV19TbkxWaTNJUnlta3ZIZFJlSEpkZGU0bGNoc1hCRUhrcG5RdXR5dnRQcVZ1dld2ZWNsMVB6NllZdTdvOHEzVXNLZnBNdGJ5bUY3eHU4Tl8yWjM0U2x1MTZUazFDVjNUMDBJNEpfWlo3UdIBuwFBVV95cUxNaE1ySjZYaDF6eHAtNHNxTVFUeTJ2amVZZ2NGd0o5d245NnliMGtrSWxIbS1yWVhGTDktYUFUU0JONzRMWXZ3X19ZMTc0QUpQUDZSaER6RkpWS2VzZmx3b203dFBjT3VrbnhCYkduZDFzcmt3TldLTll1dEFIdWhON0lRWGQ1cno4bGJCODhSWmM5NWtfQ3A2b3pNVEYyLUltcG8zMHVwS25mc1VCMjlGRVBIVmtCNHF1cFlr?oc=5"
-   },
-   {
-    "date": "2026-09-23",
-    "published": "2026-09-23T08:38:00+00:00",
-    "source": "CNBC",
-    "title": "East-West pipeline could still take six to eight weeks to recover to full capacity: Expert",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOUJmTHpzS1dTRlNlLURxbVFuMzY4a1hJTjNqYk4tZFk5Zlh3SkRfaWlnRy1tYl9BVUZDWm4wSjZUTDAxbHBDTUJmcG0yc3k0TmhBNHU3aVhuNWtPd0tLNk8zQmxqQzF0VldRTU1jOS1UeFhTeXhRMlR1OHRSdmpvcDAyOExGVmdlN0wwaF92Y2pucFNJN3F5QnpZYW9NRDlqcGw3MlJWdzVjc1M1dFBiVg?oc=5"
-   },
-   {
-    "date": "2026-09-23",
-    "published": "2026-09-23T00:00:00+00:00",
-    "source": "Bloomberg",
-    "title": "Watch Trump Hails Iran Talks After ‘Annihilation’ Threat, Saudi Pipeline Set to Restart",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONExvRUVJQzhWWWFPcG5yazdsa1ZZNXFVU2RHQ3JIc2pIZ05qV3hpRUxERURHVkFqYjY2WkFvRGpaWUVrYUlpMWNaNV9hYkxUeEltcWM0aVA3S3FMWUE5dGRJZU02cC0zSnYtdUg5VVRZcW1uTFJJNkRmalVaRGx4R2pzMGlhOXBEbC1lSVNlaDlRS2NGRUhr?oc=5"
-   },
-   {
-    "date": "2026-09-22",
-    "published": "2026-09-22T19:55:10+00:00",
-    "source": "NBC News",
-    "title": "Oil prices see-saw, as markets weigh Trump’s UN speech, potential Saudi pipeline fix",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObU1tZnZwTkhweW9HMkM5cDFMMjB3YUY1ZFdaN3ZfRzktSEhudU5wYzVPVVNZcDhIVFBZaWNBT2ItVFo1VmJPZUZETmRzR1pUU3Z1Qk1Nc0Y1dmNSRTNPZ2RBeUkySDBGcGJGMlFxa1JTLUI2SDVTYXgyX2JIX3NzUXZLbm1Kcmt2enRjSThGaVItRVJCb09jOENjVU95NGdoam5RUS1fZlg0cUtCNVA0N2N3?oc=5"
-   },
-   {
-    "date": "2026-09-22",
-    "published": "2026-09-22T17:18:19+00:00",
+    "date": "2026-09-24",
+    "published": "2026-09-24T14:39:35+00:00",
     "source": "Reuters",
-    "title": "EXCLUSIVE: Saudi Aramco plans reorganisation to create gas division, sources say",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWpkb3RQV3p1VmpBdlAwTHlnTVI2bkJRSW9hWDNHV1JqRFloLXNkV0pOVDR4aXRmNkpIMzFwS0xBMU9zMFRqVUF0VThLWndEeFlSc1NMVGVYc2NiSDVkb05mZVozNGp5RWRkcjNhY2N5amZwX19QT1NGemF4djVKSU51SjRDaWg5dTUwMFpkd243bWlyejFCQWNmY29EbTF1WG9QNGNoTVJBODRHakgwMW1fX2JfaHZI?oc=5"
+    "title": "Iranian flights cancelled as new US 'D-Day' sanctions take effect, Saudis say they shoot down Houthi missiles",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORXFRdU50SU1neUhFbzk2V2JmSXRiRDFJbm5BR1VFaWp6NXhaZ2hRcExwUjJNeHRwVlFNd0xKY2tBWnI4N0c3Tk0zWTFyUHNCSnZJRUw3Znp3bU1UREd5OHo5anJLY21GdkVTa2V1TnQ2ZTVxOGRXSHRfUmIxN0dCRzFSaXJFVWRJOHQzVWE4dTdjcXRZNk5nSVg0eFBEYWd4akJGNWVzbE5rNEhwSVowcUp5SXhHZzV3OVBsUkp3UkQ1RTZvWHNwWTdn?oc=5"
+   },
+   {
+    "date": "2026-09-24",
+    "published": "2026-09-24T14:22:09+00:00",
+    "source": "Reuters",
+    "title": "Saudi East-West Pipeline building up volumes, loading yet to resume, sources say",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQlNpUnc2TTlsRlJwQmUyWEhIN3VjX1JuMTktQ1laRmV6VWM0U2d1V1FYQjNvdjV3VG9iMGx0dkczc2dPMUx2UWVQU3BBVElQcUlnMVBQenQ0RFhkTzBmQmpaZkoyNGF5QlZwOGFnTmJGRDh1TFRCaDZuQkVsRUpRYWNIQlplWU5VNndjeTQ0S3cxZS1QWUFMdU0wTTBTNFpEeGZXSU1DLWFpVFQwdVhaRDNKb21Sdl9BNUtnN0UzWFR2S3psY2c?oc=5"
+   },
+   {
+    "date": "2026-09-24",
+    "published": "2026-09-24T13:51:28+00:00",
+    "source": "The New York Times",
+    "title": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Officials Say",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd0lsa0ZQVURLUHdSdzBha214NjhBTGk4aWVnYVJCalFlaklBQ0Y4TW53bGs3YWc4NXpGRGN3UHJFV0U3ZlE3b21Sb1BnMnhobnoySnNUQVBjY3hUbVBJVmZLdG9MdXlzaUFEY1RfcGFMeWk3QzVIanRKM2tPcjd6VEZXdmNjc18yZVI3ZkRXcUduUmNBd0pJNGFqSEhXLXNwOWJz?oc=5"
+   },
+   {
+    "date": "2026-09-24",
+    "published": "2026-09-24T12:40:00+00:00",
+    "source": "AP News",
+    "title": "Saudi-led coalition says 6 ballistic missiles are intercepted and blames Houthi rebels",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUjRDUmo2SklGZ0FmaUQ1UDU5ak1vcFM1LTdKdzJ2Y2lWV3dhNWNpeGNhT0dVRnhvYVRsc2M5ZnoyNlVFOTZDdUd4MG9tamZ3bzhMallmX090RGNBVzE3cFQ3V3ZRT1Q3aE1fVUs3NVVhbWhhUEZZZWVrZnd4ZHpLSk0wdWp0TVlLbXo3eGVJRnJIMmstWTV0Rzlucw?oc=5"
+   },
+   {
+    "date": "2026-09-24",
+    "published": "2026-09-24T12:30:49+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Arabia Intercepts Houthi Missiles Fired at Cities",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcWtFNy1IWF85ZWlEWlAzOU1KQzBScVRhcUxZcmxoMlpjV0d3Y081R0JTd3lUTWQ1VXlhY01YbE15dzdySlYxOUlvQkZLMUVxbWktQmxvSGU1bE9GN3RzTG5LS1hSaGNJM3lBZWpmYkxaWHJVN3dJQUNUUlMxcW9QZmFPTWxrZGRqdlVJbnRRdVEyVGEyckU4TDRQWGh2bjgwdnRKNzJwYmNudw?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-24T09:54:56Z"
+  "last_ok_at": "2026-09-24T14:57:21Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T09:54:57Z",
+  "fetched_at": "2026-09-24T14:57:23Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 35,
-  "baseline": null,
-  "baseline_n": 2,
+  "count": 42,
+  "baseline": 42,
+  "baseline_n": 3,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2436,14 +2480,15 @@
    "2026-09-23T20": 29,
    "2026-09-23T23": 47,
    "2026-09-24T04": 31,
-   "2026-09-24T09": 35
+   "2026-09-24T09": 35,
+   "2026-09-24T14": 42
   },
-  "last_ok_at": "2026-09-24T09:54:57Z"
+  "last_ok_at": "2026-09-24T14:57:23Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-24T09:54:57Z",
-  "last_ok_at": "2026-09-24T09:54:57Z"
+  "fetched_at": "2026-09-24T14:57:23Z",
+  "last_ok_at": "2026-09-24T14:57:23Z"
  }
 }
