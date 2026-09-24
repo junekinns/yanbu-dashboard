@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T19:02:35Z",
+ "generated_at": "2026-09-24T22:16:57Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-24T22:16:57Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -188,17 +191,41 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-24T14:56:53Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f9c38166030>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-09-24T19:02:35Z",
-  "stale": true
+  "last_ok_at": "2026-09-24T22:16:57Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T19:03:36Z",
+  "fetched_at": "2026-09-24T22:17:13Z",
   "events": [
+   {
+    "date": "2026-09-24",
+    "time": "23:33",
+    "iso": "2026-09-24T23:33:57+03:00",
+    "city": "리야드",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
+    "source": "Reuters",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-24",
+    "time": "22:24",
+    "iso": "2026-09-24T22:24:40+03:00",
+    "city": "얀부",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "예멘 후티 반군 \"사우디 수도 '민감한 목표물'·얀부 석유시설 공격\"",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNVRsYkExWlo1UXE0RUF6SUwwTHBCVTdlUDJ1cS1zcFJxZWdRSUZYSVd6UHh6aWRlOS01R2t1a2lyaVlSUTUtSDEtdkVxdERRdnJyNVpKa05UelZPbDlGMzIyckpic0RYQXlkWEx3UUxQc0VORTlydmVXVWJOeU1TU2hENVo2dw?oc=5",
+    "source": "SBS",
+    "outlets": 2
+   },
    {
     "date": "2026-09-24",
     "time": "18:30",
@@ -243,8 +270,8 @@
    },
    {
     "date": "2026-09-23",
-    "time": "10:51",
-    "iso": "2026-09-23T10:51:00+03:00",
+    "time": "06:00",
+    "iso": "2026-09-23T06:00:00+03:00",
     "city": "송유관",
     "type": "피격",
     "weapon": "드론",
@@ -253,7 +280,7 @@
     "title": "사우디, ‘드론 피격’ 동서 송유관 운영 재개…“정상화 6~8주 소요”",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oQk9Ea0RlVTBrcW13X0xwUEF6WjdKSThSSTVETmhxcDVHb3NCa1JMd2Y5Y3BrclBhcXZLcDJERUlRLU5GMXZZZWxFTDF5aEZkODdBX1pmbEJMOTNTYnR1eG9tREhkbEVKcW5pbDVtTGFERlnSAWZBVV95cUxPWEI4UFBpVGVDd2p0S2tqaHZrSV9EcVcwS0tjZ3NUMDlpeW05QnEzT2ZQYk9XTUx6M1p2aVQwaDA4eV9zQU9vMFBqZ3NGYU9IR3laM2VwU01KVm9NSFo3SXc5VUtTM0E?oc=5",
     "source": "동아일보",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-09-23",
@@ -689,10 +716,10 @@
   "tempo": {
    "얀부": {
     "7d": {
-     "요격": 1,
-     "피격": 3
+     "피격": 4,
+     "요격": 1
     },
-    "total7d": 4,
+    "total7d": 5,
     "prev7d": {
      "피격": 1
     },
@@ -727,15 +754,15 @@
    "메카": {
     "7d": {
      "경보": 1,
-     "피격": 3
+     "피격": 2
     },
-    "total7d": 4,
+    "total7d": 3,
     "prev7d": {
-     "피격": 2,
+     "피격": 3,
      "요격": 2,
      "경보": 2
     },
-    "prev_total": 6
+    "prev_total": 7
    },
    "타이프": {
     "7d": {},
@@ -745,12 +772,12 @@
    },
    "리야드": {
     "7d": {
+     "요격": 3,
      "경보": 3,
      "공습": 2,
-     "요격": 2,
      "피격": 2
     },
-    "total7d": 9,
+    "total7d": 10,
     "prev7d": {},
     "prev_total": 0
    },
@@ -829,15 +856,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 14,
+  "history_days": 15,
   "history_since": "2026-09-11",
-  "today": "2026-09-24",
-  "last_ok_at": "2026-09-24T19:03:36Z"
+  "today": "2026-09-25",
+  "last_ok_at": "2026-09-24T22:17:13Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T19:03:38Z",
+  "fetched_at": "2026-09-24T22:17:14Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1273,17 +1300,20 @@
    }
   ],
   "mentions7d": {
-   "메카": 13,
    "타이프": 9,
    "카미스무샤이트": 9,
    "지잔": 7,
    "리야드": 6,
    "얀부": 6,
-   "나즈란": 3
+   "나즈란": 3,
+   "메카": 3
   },
-  "last_ok_at": "2026-09-24T19:03:38Z"
+  "last_ok_at": "2026-09-24T22:17:14Z"
  },
  "firms": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-24T22:17:15Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2407,23 +2437,19 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-24T14:57:19Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-  "fetched_at": "2026-09-24T19:03:44Z",
-  "stale": true
+  "last_ok_at": "2026-09-24T22:17:15Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T19:04:44Z",
+  "fetched_at": "2026-09-24T22:17:18Z",
   "kr": [
    {
     "date": "2026-09-24",
-    "published": "2026-09-24T11:24:15+00:00",
-    "source": "뉴스1",
-    "title": "사우디 아람코 \"제4·5의 원유 수출 경로 구축할 것\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wcURsS2t3Y0V2N2ZLOVpudWkyVnI4WVVwQXZMY2tiNDBNb3JZYVdfMlhYbGw5cVBWR3ExNmFFTUpsRk53ZnZWODdoYlh3NFZkSEdJMjc1d3EwUnZXWFdIWl9Jay02c03SAWdBVV95cUxOMHFEbEtrd2NFdjdmSzlabnVpMlZyOFlVcEF2TGNrYjQwTW9yWWFXXzJYWGxsOXFQVkdxMTZhRU1KbEZOd2Z2Vjg3aGJYdzRWZEhHSTI3NXdxMFJ2V1hXSFpfSWstNnNN?oc=5"
+    "published": "2026-09-24T20:47:00+00:00",
+    "source": "KBS",
+    "title": "예멘 후티 반군 “사우디 수도 ‘민감한 목표물’ 공격”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13SV9XaGFFUjdBV1p2bjNoeGFSbWY5SlRrcTBxenNQb1Y2UjFhb21QempBQXI0TktnekhadE51VTdjdjJTMmxTdXkwUjlZSHI4M010ejRQQTFQTjg?oc=5"
    },
    {
     "date": "2026-09-23",
@@ -2448,59 +2474,59 @@
    },
    {
     "date": "2026-09-23",
-    "published": "2026-09-23T12:12:04+00:00",
-    "source": "뉴스1",
-    "title": "후티 \"사우디 공습에 민간인 10명 사망\"…美엔 \"개입 시 보복\" 경고",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95bUpFc1lYcFFCTE1lZU5nTUVyLXhHVlpFc2VjdUt2Vlk3U1VTUy1pejhZb05URjdfTmVmeUs1eDMza2FweFcyMEJKMWI4UEdLQml2R1ZPb1NlQzdtVnFFZXd30gFnQVVfeXFMTzVSWFJuV1JVbGl6RTd4c0RYalVremFMZmhvNVZLTHZEXzlfUHUxTlhKVzNGWFNwc0ROeFBwU3dOX2xDOXg1MmhraE9tV1FJQS11SWZGNEVobVAwcEFYdHN3ZlhjRHlXQQ?oc=5"
+    "published": "2026-09-23T11:25:02+00:00",
+    "source": "MBC",
+    "title": "후티 반군 고문 \"美, 사우디 지원하면 역내 미국 이익 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53R1UzS2J0UklCY3ozaUpaQ0VUQV9jVlplME55V3VhR043eDhON3hIbmd0am5wWWR2bDFZNzI0ejJwQjNwTVJ0SEZzR05NMzZqbTlLVHFHUlFwS1p2VEdjNFRkZUNhUW1rWENvS1VSUlBlZ3dn0gF0QVVfeXFMTy0xUXVtTVZHbjA0bDFJdU9GMkh5cmdSOFpMQVlweWthb2hpZDVCVzI1ekwyd1JDOHp2ZlNYQmZ5ckhsRlVrRGFFY2tPUTZTSnRBVFFfajJBSzBSNGZ1d3Z0cWliRzA3cHFhNFZjc0N6TjJZY20?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-24",
-    "published": "2026-09-24T16:30:00+00:00",
-    "source": "DW",
-    "title": "Houthi gains in Yemen fuel displacement as humanitarian crisis worsens",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3o3d0U0azBSVi1WallzRGJSYkxZaVJOZ1pqajdFbkZHSVROYktXekRoT0poVkMzNDlvUjJXX2F2bHR4ZmxZMjdLWm4xU1U4Q0FPVEZxVGxjT1FyaWFFaVUwNEhFU0FwUDFWVjdVRU16TGRyX2t2TFlTMUhfdGJudVZPbUpTZklCekNiVkJiUmdzQm1ray04NEE2eWdBV3R1bGZ5a3RB0gGmAUFVX3lxTE5veU9vZ3d5UDEzRjY4RG1Jcl9SbHRDdUdRakdJRDlCMmtrUFJTUnV4bFFTb2tRaUY3WmZTQmRfLUNIN204dS0xeU9sUXBXN1JFMkNEd3VDak96bjM1S1V3cTVReDFDRzJJeDl4UkF4cEFkeW92d2dLSEZMM2NpUDFYVkkxNnQwMU9wRTBxUWt5eFB5VndXM0NKcmV2LVppM0tkX0lPYXc?oc=5"
-   },
-   {
-    "date": "2026-09-24",
-    "published": "2026-09-24T15:35:11+00:00",
+    "published": "2026-09-24T21:28:44+00:00",
     "source": "Al Jazeera",
     "title": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYXBsVHBxNmVKcjlZbTVfR3hfVE1xclVoVlcyYjZKMm9talVQWTlOcFhhWHRjYVhKVHdCaXlMRFBwN0dqYVY4aDVLVE9McGxfWFJxMXBtejlNTnhZU2x3LUswbmVjZm1wSHhvVF9qaGVlaHhFdFplZ1dOYjIzQVJzZFlEd1dMWDI1U1FPMTlmclFQS0lDNmZ4R1ROM1k4VlpzY29lQ1NDeHZoQ09vOTJHbld5ek1NUWPSAbwBQVVfeXFMT25vSG53S2JsWnpLeE96WHVBWU54aEhPZlJqdXpYWmlpTHJXRG82a2Utak1WX2c5TWpoY0tyZEpQUTJSdkZMcE14dFpGdGZPUlFlSVZqS2ZkUlBScktjMDdZQ19GU29nSlBhMHVDdmFfVnNJY29ZQXFwRkxEaVVsakZUU3d1WXFmTmtHeW41ODE2UVBtbGxNNHJOa2dSanRNXzJSbTYtWlpfQTdzR3RfaTkxQjVXQnRxNXZoaDQ?oc=5"
    },
    {
     "date": "2026-09-24",
-    "published": "2026-09-24T15:23:00+00:00",
-    "source": "AP News",
-    "title": "Saudi-led coalition says 6 ballistic missiles are intercepted and blames Houthi rebels",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUjRDUmo2SklGZ0FmaUQ1UDU5ak1vcFM1LTdKdzJ2Y2lWV3dhNWNpeGNhT0dVRnhvYVRsc2M5ZnoyNlVFOTZDdUd4MG9tamZ3bzhMallmX090RGNBVzE3cFQ3V3ZRT1Q3aE1fVUs3NVVhbWhhUEZZZWVrZnd4ZHpLSk0wdWp0TVlLbXo3eGVJRnJIMmstWTV0Rzlucw?oc=5"
-   },
-   {
-    "date": "2026-09-24",
-    "published": "2026-09-24T14:53:00+00:00",
+    "published": "2026-09-24T20:33:57+00:00",
     "source": "Reuters",
-    "title": "Saudi East-West Pipeline building up volumes, loading yet to resume, sources say",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQlNpUnc2TTlsRlJwQmUyWEhIN3VjX1JuMTktQ1laRmV6VWM0U2d1V1FYQjNvdjV3VG9iMGx0dkczc2dPMUx2UWVQU3BBVElQcUlnMVBQenQ0RFhkTzBmQmpaZkoyNGF5QlZwOGFnTmJGRDh1TFRCaDZuQkVsRUpRYWNIQlplWU5VNndjeTQ0S3cxZS1QWUFMdU0wTTBTNFpEeGZXSU1DLWFpVFQwdVhaRDNKb21Sdl9BNUtnN0UzWFR2S3psY2c?oc=5"
+    "title": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5"
    },
    {
     "date": "2026-09-24",
-    "published": "2026-09-24T13:58:46+00:00",
-    "source": "BBC",
-    "title": "Who are the Houthis and what do they want?",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vR2dmcDNUcFVqQzVQVWQ5WFBsUDhkbWNPd1ROOFZpV3pOd184NFIyTnd0THdhNTd0M2RQWWxpdFVBSWJodWVXcms5czFSa1RldlhQZVRzSlRFb0E?oc=5"
+    "published": "2026-09-24T19:51:02+00:00",
+    "source": "Reuters",
+    "title": "France to send military to protect Saudi Arabia on Red Sea oil route, Macron says",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY0Z6R1B2THkxTXRCQXNqNE5ZUkVSbU9RR1Jsd1hwSzk4bkVTYTNpRVJVMjFZdkp5WEpXb1RwWDhOb0xPdW92WGx3dF84UGh2dkI1ZmxHUTdYZTJiREpHZm5XVjIzcUtXWHkzeGh2amdiNEhITkc1Y1BtTElUMWxta25yWUFwVXVKajdISE5RSWRZMmFsMkNNVTJ6bUhwcGN4R0tDODd1Qk5nSXdaQ2g3emE2b3RLbklEaGlLbFN3?oc=5"
+   },
+   {
+    "date": "2026-09-24",
+    "published": "2026-09-24T17:05:06+00:00",
+    "source": "The New York Times",
+    "title": "Saudi Arabia Downs Houthi Missiles Targeting Kingdom, Official Says",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd0lsa0ZQVURLUHdSdzBha214NjhBTGk4aWVnYVJCalFlaklBQ0Y4TW53bGs3YWc4NXpGRGN3UHJFV0U3ZlE3b21Sb1BnMnhobnoySnNUQVBjY3hUbVBJVmZLdG9MdXlzaUFEY1RfcGFMeWk3QzVIanRKM2tPcjd6VEZXdmNjc18yZVI3ZkRXcUduUmNBd0pJNGFqSEhXLXNwOWJz?oc=5"
+   },
+   {
+    "date": "2026-09-24",
+    "published": "2026-09-24T16:30:00+00:00",
+    "source": "DW",
+    "title": "Houthi gains in Yemen fuel displacement as humanitarian crisis worsens",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3o3d0U0azBSVi1WallzRGJSYkxZaVJOZ1pqajdFbkZHSVROYktXekRoT0poVkMzNDlvUjJXX2F2bHR4ZmxZMjdLWm4xU1U4Q0FPVEZxVGxjT1FyaWFFaVUwNEhFU0FwUDFWVjdVRU16TGRyX2t2TFlTMUhfdGJudVZPbUpTZklCekNiVkJiUmdzQm1ray04NEE2eWdBV3R1bGZ5a3RB0gGmAUFVX3lxTE5veU9vZ3d5UDEzRjY4RG1Jcl9SbHRDdUdRakdJRDlCMmtrUFJTUnV4bFFTb2tRaUY3WmZTQmRfLUNIN204dS0xeU9sUXBXN1JFMkNEd3VDak96bjM1S1V3cTVReDFDRzJJeDl4UkF4cEFkeW92d2dLSEZMM2NpUDFYVkkxNnQwMU9wRTBxUWt5eFB5VndXM0NKcmV2LVppM0tkX0lPYXc?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-24T19:04:44Z"
+  "last_ok_at": "2026-09-24T22:17:18Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-24T19:04:45Z",
+  "fetched_at": "2026-09-24T22:17:19Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 34,
+  "count": 49,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2549,14 +2575,15 @@
    "2026-09-24T04": 31,
    "2026-09-24T09": 35,
    "2026-09-24T14": 42,
-   "2026-09-24T19": 34
+   "2026-09-24T19": 34,
+   "2026-09-24T22": 49
   },
-  "last_ok_at": "2026-09-24T19:04:45Z"
+  "last_ok_at": "2026-09-24T22:17:19Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-24T19:04:45Z",
-  "last_ok_at": "2026-09-24T19:04:45Z"
+  "fetched_at": "2026-09-24T22:17:19Z",
+  "last_ok_at": "2026-09-24T22:17:19Z"
  }
 }
