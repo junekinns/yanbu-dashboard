@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T13:39:14Z",
+ "generated_at": "2026-09-25T18:30:14Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T13:39:14Z",
+  "fetched_at": "2026-09-25T18:30:14Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,27 +191,13 @@
   "last7d": 3,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-25T13:39:14Z"
+  "last_ok_at": "2026-09-25T18:30:14Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T13:39:33Z",
+  "fetched_at": "2026-09-25T18:30:35Z",
   "events": [
-   {
-    "date": "2026-09-24",
-    "time": "23:33",
-    "iso": "2026-09-24T23:33:57+03:00",
-    "city": "리야드",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
-    "source": "Reuters",
-    "outlets": 1
-   },
    {
     "date": "2026-09-24",
     "time": "22:24",
@@ -266,6 +252,20 @@
     "title": "Saudi Arabia says all-clear for Mecca, Taif, Tabuk after 'danger alert' in 5 areas",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMDBKNmdQREhJUkdwdEtzT3A4VnhVV3pkckNwbGcybTloLXF6VWd2bWZxTXN2eGgxZXBOUjR5SXo2RVQ2bWo2dFl2Q25TNG8za3ZzRTh5Y1Vub1BIaElJVmlmRmQ1RU5OWXg4Uzc5Z1Y0cjJxZlNaMDNsTXVhU0VzeDU2RmRqOUFuVlVjRmh6ellyaUNsV1I4ejZjVERwNng0VXpHdi03aTJ1clJPZER3Rl9CQTFUZWNHT2loRDZ5R3o?oc=5",
     "source": "Anadolu",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-24",
+    "time": "12:33",
+    "iso": "2026-09-24T12:33:00+03:00",
+    "city": "리야드",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
+    "source": "Reuters",
     "outlets": 1
    },
    {
@@ -859,14 +859,26 @@
   "history_days": 15,
   "history_since": "2026-09-11",
   "today": "2026-09-25",
-  "last_ok_at": "2026-09-25T13:39:33Z"
+  "last_ok_at": "2026-09-25T18:30:35Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T13:39:35Z",
+  "fetched_at": "2026-09-25T18:30:36Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-25 19:05",
+    "iso": "2026-09-25T19:05:10+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 14 غارةً جويةً وصاروخاً من خلال طائرات \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران، استهدفت محافظات تعز وعمران ومأرب وصعدة. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد 1032 غارةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F15\" 와 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 타이즈, 암란, 마리브, 사다의 총독부를 겨냥한 14회의 공습과 미사일 공습을 감행했다. 이관이 시작된 이후 사우디의 총 침략 습격 횟수를 1,032회의 습격과 미사일로 끌어올렸습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3776"
+   },
    {
     "time": "2026-09-24 22:00",
     "iso": "2026-09-24T22:00:01+03:00",
@@ -1305,15 +1317,15 @@
    "지잔": 7,
    "얀부": 6,
    "리야드": 6,
-   "나즈란": 3,
-   "메카": 3
+   "나즈란": 4,
+   "메카": 2
   },
-  "last_ok_at": "2026-09-25T13:39:35Z"
+  "last_ok_at": "2026-09-25T18:30:36Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T13:39:35Z",
+  "fetched_at": "2026-09-25T18:30:38Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2421,19 +2433,33 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-25T13:39:35Z"
+  "last_ok_at": "2026-09-25T18:30:38Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T13:39:37Z",
+  "fetched_at": "2026-09-25T18:30:40Z",
   "kr": [
    {
     "date": "2026-09-25",
-    "published": "2026-09-25T12:20:00+00:00",
+    "published": "2026-09-25T18:05:42+00:00",
+    "source": "연합뉴스",
+    "title": "유엔 안보리 \"후티 반군의 사우디 공격 강력 규탄\" 공동성명",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XdXBIaUdoRUJ5Wmx2dlJWYnZaUE9MQk1sNmczVGFjcndoMUluRzVac2RsdUxDX0F0WFNPYlBvUUlmc0k3azBjMU5BMmNlSjRaOGNaM25FZUdUT0XSAWBBVV95cUxPZlBPMVlWZ3B0WGlmQkhMd3piMndENkFYR1lha0VZQ200NVRJT3JrWks5NE1PN1V1WlhROHYxV2FIVEhnRWZLaWJpclNtSHM4Z3NGamFLTTdLWlIzbnIzcFE?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T14:27:00+00:00",
     "source": "YTN",
     "title": "이란, 호르무즈 개방 '7일 로드맵' 제안...후티, 사우디 공격 격화",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LbDdSb3RnOGZqY3M4UXV4WDJpbl94ZFdrVUtNcjRKT2xfcDFaeXdaaUdMbDNGQUVQNFpaM0Z6ZFc4Q1FsS3ZnbkF5eng3X0c2UHZ3NEdUUjVBbTd4UXc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NVDdhRUVPUXY3WFB5S2x4NC1DTUFDRzhaSnlTelV4VW9XZVQ1OVctall2WDE2SGhfYi1rX0hRczB4bDYzVTN4RWVFTDR0cVJNcEllaXdHMFlSNG5meGJYTjNVel91VjljWVFaUkdfTlRoV3hvZ2c?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T13:51:28+00:00",
+    "source": "MBC",
+    "title": "'메카 방위협정' 3국, 이슬람 성지 메카 등 사우디 공격 규탄",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ac3JmNEYxV0VPUXhLSjdMM1dlTHhiM291ZW9SS1RPdldvUWRXcHVjZ29SSmYyajVQdnp5MFRON0JIN2FBYk15YThWQXZPTHF0bm9UU1VlWVB4dlJUWUI3YUVUWHBGdThhNWIzZE11R2RxLXdy0gF0QVVfeXFMT1pzcmY0RjFXRU9ReEtKN0wzV2VMeGIzb3Vlb1JLVE92V29RZFdwdWNnb1JKZjJqNVB2enkwVE43Qkg3YUFiTXlhOFZBdk9McXRub1RTVWVZUHh2UlRZQjdhRVRYcEZ1OGE1YjNkTXVHZHEtd3I?oc=5"
    },
    {
     "date": "2026-09-25",
@@ -2448,23 +2474,30 @@
     "source": "연합뉴스",
     "title": "사우디 원유 수출길 바꾸자 오만만 '포화'…유조선 용선료 급등",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yLXJOdnZCdXRiQi04ZW45NUEtT0FzRjdJbmh6NXRJN3duM1RtcXV6MTBfMnJtNEhhZTNMdEVRM0FKVnpHVzlDZHRDVGNaWjRZZC1pSXNmallSTm1xcTNwcdIBYEFVX3lxTE8yLXJOdnZCdXRiQi04ZW45NUEtT0FzRjdJbmh6NXRJN3duM1RtcXV6MTBfMnJtNEhhZTNMdEVRM0FKVnpHVzlDZHRDVGNaWjRZZC1pSXNmallSTm1xcTNwcQ?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T05:26:00+00:00",
-    "source": "연합뉴스",
-    "title": "거세진 후티 공세에…사우디 등 3개국, ’메카 공동방위’ 대응",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiems3S3I3WWtHT3cxcHdwSnNib0NFTzEyajBnV1RJb25LbTVxeEhJZWVHYm1Gc3NscDM3UV9QbDBrRndzeGd1Tk51QUxOR1ptcUF3V1FRUGFBLVpacmhUTEdwX2wzZ0U?oc=5"
-   },
-   {
-    "date": "2026-09-24",
-    "published": "2026-09-24T22:06:12+00:00",
-    "source": "MBC",
-    "title": "후티 \"사우디 수도 '민감한 목표물' 공격\"",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhWjlsek82NHZXenkwOEVlUUFXVkxYa2c0M2RwUXV3RkI3cVlsZ3NQMWQ3cTRxRUduOGZZZWZWdTNBejBnTHFfWUVsUHplS21Hc2IwVHlRYjBiWUFYXzIzbnJ6ZzRqeGhMSzJjZnoxRU1lZDFjVi0xWkNn0gF6QVVfeXFMTkZueVZYV2tGci02ak5lT180MWZxTXJhZXMyWUQzemxuLWhrVUgzeDROZzNsejZERGJQYkFKYVFWYkVHdU51OVBHcjU0em8tTDVfaHh1a24xOHNQQ1NGTWxsMFN2ZUlLZmF1V3RtWl91NGFYU05tUVJBTVE?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T17:41:53+00:00",
+    "source": "CNBC",
+    "title": "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQTZiYU0xWTcyLWxpd3FwcTRRR3ZHa0xxUGdLUE5UUXZNZl9wbnNDNVk3RXY0ZXJKLXk5SkdDc192blJXZ3FYTS1rSDlpU2d0ZmdYY2pHWHp5WHpwZWJQVlNrdTNxTzRuX1RqTmQyQXlVVktUUHF5LWdyNndQdkFOUDZCSXpFYmVxZmdsYXJENzhRQjc5OTR4SFpjYjJqYnQyVUlB0gGoAUFVX3lxTE54bkFvZk5aUHNlVWhfVkkyMEtuSTVGeU1XTEhBbDduWlEzYXV4aWpnQWdNY0Nqa1FQQzRkbjRDOTdfelhDVndJQVpMcDhmZUlLOVY4UmJ6dnMzYW9vd19QYS1lM1BYalNSOUdDYlVTTU9raFdCZU5fYXBHakF2THlWQ3owaDlmeWlnOUZybDVBX0I4TWVhZzRlYnhWalY4dWZTRHl1ckNMZw?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T17:22:37+00:00",
+    "source": "DW",
+    "title": "France sends troops as Houthi attacks threaten Saudi oil",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd3dZNE9jcUpyX0hNcXhwR3hleFpnajQ5OTdmWlFlb09vUjlqMUFwcWpkRHlGX0h5RE5SREgtQUFpaHpEYVNNeHZ5Vk5tLWU1ZTEtcktiTXU1bHlxUGw0N0lIU2ozUktBbkQwZmgtMFptM01tZl9Dd3JkUHRIRjR4WUJYZl9abUFzTndfazBhbE52dTdOeXd6ZA?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T14:49:05+00:00",
+    "source": "Reuters",
+    "title": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5"
+   },
    {
     "date": "2026-09-25",
     "published": "2026-09-25T11:45:00+00:00",
@@ -2478,39 +2511,18 @@
     "source": "Al Jazeera",
     "title": "Pakistan, Turkiye edge closer towards joining Saudi war against Houthis",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMGk2TldwemI1R2RiNUJtbUZ3eFFCZjNXelhILVA2eDkxcXJZa3ZFaDVSMDdQVmpUTlZmM2ZfLU9mbUNQdlQ4UEQwUGVES2JFNWFwa2FuYkpzb2h1OHdLNWY3NTduWVN2ZkpGSEltSTBsVUVtSXJPX0Y3dlJ6dGNSRHRMcW9fc3FYYlF5aGtBVVNPT0FyRTZZdGFLUnpoT2lYYkQ5YlBCXzFvbG9pamU2UdIBtgFBVV95cUxNMGR6U1hYN29HMm5iUUctWGIySndQc3ZmSDVqSnVhaWhKSm4yUjZkUW5Wb0RyZFBlRGVpU2NhUEF0bEl1TWZHRkNYbjZBdzNuQzFpSkpSOW9EdUROeE5zeDFhSi0yN2VlLUNlbXFPZlZzck5NOEh1MjFFTjFoMTJfNW0zSlo1VlpVdkVNelNTTExxUGZ6RGFBZnYyTWExcGpHLTJHWVpYT2UwZm9ROTdCUGNObjJLdw?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T08:42:34+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi Arabia allies line up support as Houthi attacks mount",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOU0JQNHBkcVluNkc0ZGM3RktERzltMnJIcHJydGpLdHlOUFEwWmhVYkQ2RXo4LXFlWmVvSlcwclV3N1ZWSlRmRFpwcTRyaDJBYjlEWmFJOGF0T0NqTnFacjd5cmRyVnNBNUk4U2xzQ2RhbWNnY3VlY1RUTTREX3JuSVZYQzBmQzJ5TW9QWnFnMnhOdmRleTRBUlpodlZvUF9JMVHSAacBQVVfeXFMT0RTUnMzT3NsXy1SRl90cmNtcS1WRVQyeUtMNjdwaXdSbTFSdVNBNVZiemtFckgwX1JLTm8xekpMZ2J4Sjg2MmlGTTJXYThYLVhROTBOVFBqZzlWWFE1b1ZTQnZhal80X2Z0ZmE5STBhMzdfVTRlTFk1djRlUC14OFJ6X005VjY1LTFNd1pIcWIyZXJYU0pvQW5wdEYwVjRvTTdmX2NZOE0?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T07:04:07+00:00",
-    "source": "Bloomberg",
-    "title": "Houthis Attack Saudi Arabia, Claim to Target Aramco Facilities",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcWtFNy1IWF85ZWlEWlAzOU1KQzBScVRhcUxZcmxoMlpjV0d3Y081R0JTd3lUTWQ1VXlhY01YbE15dzdySlYxOUlvQkZLMUVxbWktQmxvSGU1bE9GN3RzTG5LS1hSaGNJM3lBZWpmYkxaWHJVN3dJQUNUUlMxcW9QZmFPTWxrZGRqdlVJbnRRdVEyVGEyckU4TDRQWGh2bjgwdnRKNzJwYmNudw?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T04:51:00+00:00",
-    "source": "Reuters",
-    "title": "Gulf of Oman ship-to-ship oil transfers reach limit as Saudi exports surge",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON1ZsVjdXUnd0YTMwaFNYdmNKNUlGMXM0akkyMFpHN2N1MHdlOVR6RU1vVDVxaFAxSnBseFJha3dSVVF1U0d4RmpwSWozQlBVXy04Um1RekxfMHhDbEc1cF9kOWNTeXNWVkwxOXRjVGxLT2dMM3lTUzdmUmhraXh0a2V6c3RVVXNFdGlsY1hpamxXTEJvMmVDQldBeVlWOVl4QW9Wd3ZLZlMxQ1FjTnlFazRzYTEwUWkyRENtRA?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-25T13:39:37Z"
+  "last_ok_at": "2026-09-25T18:30:40Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T13:39:39Z",
+  "fetched_at": "2026-09-25T18:30:41Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 30,
-  "baseline": null,
-  "baseline_n": 1,
+  "baseline": 31,
+  "baseline_n": 3,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2563,14 +2575,15 @@
    "2026-09-24T22": 49,
    "2026-09-25T01": 31,
    "2026-09-25T07": 34,
-   "2026-09-25T13": 30
+   "2026-09-25T13": 30,
+   "2026-09-25T18": 30
   },
-  "last_ok_at": "2026-09-25T13:39:39Z"
+  "last_ok_at": "2026-09-25T18:30:41Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-25T13:39:39Z",
-  "last_ok_at": "2026-09-25T13:39:39Z"
+  "fetched_at": "2026-09-25T18:30:41Z",
+  "last_ok_at": "2026-09-25T18:30:41Z"
  }
 }
