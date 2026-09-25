@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T18:30:14Z",
+ "generated_at": "2026-09-25T22:14:03Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T18:30:14Z",
+  "fetched_at": "2026-09-25T22:14:03Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +191,27 @@
   "last7d": 3,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-09-25T18:30:14Z"
+  "last_ok_at": "2026-09-25T22:14:03Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T18:30:35Z",
+  "fetched_at": "2026-09-25T22:14:20Z",
   "events": [
+   {
+    "date": "2026-09-26",
+    "time": "00:00",
+    "iso": "2026-09-26T00:00:03+03:00",
+    "city": "메디나",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.47,
+    "lon": 39.61,
+    "title": "Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlQ2OUdEdmE0UXNkLU02aUFtejNhem5nTWd0U1RpRE12eXAzeEdwZnBZaDdxWjlDVmFNTHJuOGVuMFJxSjRiQU1yRXFsakNTRnhLRExaeEIwZ3JaQkZTUFF6T3JwTWtQYjctLUFaVVMwS1Z5MUpIcU1iRDVuM2tvdlh0Z0l3cHJ3Z25SQTVBdWNyaVpGRlRvdnZhZi1WSThDRGNMY0o1aGppVkZJekhpbHd30gG3AUFVX3lxTFB6Z3dhUTRSSERaWEg1ckhoRjJfZERIVWNJaTN3QTctZ1NmYjdZaDlweWtSdEZJcEdTSUVDbklKMVB5Z212YUhXTDdPMkdhSUk5aVhFbjVxRHE3aWphZ2I2bnEtT3dULTVEQkxhbGFfdFcwNndWdm13VkpIM3NwWlhVeVVheEVsbnB0aXFURTRDNzU5TDgtdWdNdjR4clNSSUJacG03aHJnY3JRNC1CeWYtUHNFek5jZw?oc=5",
+    "source": "Al Jazeera",
+    "outlets": 1
+   },
    {
     "date": "2026-09-24",
     "time": "22:24",
@@ -716,14 +730,14 @@
   "tempo": {
    "얀부": {
     "7d": {
-     "피격": 4,
+     "피격": 3,
      "요격": 1
     },
-    "total7d": 5,
+    "total7d": 4,
     "prev7d": {
-     "피격": 1
+     "피격": 2
     },
-    "prev_total": 1
+    "prev_total": 2
    },
    "제다": {
     "7d": {},
@@ -734,8 +748,10 @@
     "prev_total": 1
    },
    "메디나": {
-    "7d": {},
-    "total7d": 0,
+    "7d": {
+     "피격": 1
+    },
+    "total7d": 1,
     "prev7d": {},
     "prev_total": 0
    },
@@ -754,15 +770,15 @@
    "메카": {
     "7d": {
      "경보": 1,
-     "피격": 2
+     "피격": 1
     },
-    "total7d": 3,
+    "total7d": 2,
     "prev7d": {
-     "피격": 3,
+     "피격": 4,
      "요격": 2,
      "경보": 2
     },
-    "prev_total": 7
+    "prev_total": 8
    },
    "타이프": {
     "7d": {},
@@ -772,14 +788,19 @@
    },
    "리야드": {
     "7d": {
-     "요격": 3,
-     "경보": 3,
-     "공습": 2,
-     "피격": 2
+     "요격": 2,
+     "경보": 2,
+     "공습": 1,
+     "피격": 1
     },
-    "total7d": 10,
-    "prev7d": {},
-    "prev_total": 0
+    "total7d": 6,
+    "prev7d": {
+     "피격": 1,
+     "요격": 1,
+     "공습": 1,
+     "경보": 1
+    },
+    "prev_total": 4
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -856,15 +877,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 15,
+  "history_days": 16,
   "history_since": "2026-09-11",
-  "today": "2026-09-25",
-  "last_ok_at": "2026-09-25T18:30:35Z"
+  "today": "2026-09-26",
+  "last_ok_at": "2026-09-25T22:14:20Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T18:30:36Z",
+  "fetched_at": "2026-09-25T22:14:21Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1312,20 +1333,20 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 9,
    "타이프": 9,
+   "카미스무샤이트": 9,
    "지잔": 7,
    "얀부": 6,
    "리야드": 6,
    "나즈란": 4,
    "메카": 2
   },
-  "last_ok_at": "2026-09-25T18:30:36Z"
+  "last_ok_at": "2026-09-25T22:14:21Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T18:30:38Z",
+  "fetched_at": "2026-09-25T22:14:22Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2433,19 +2454,19 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-25T18:30:38Z"
+  "last_ok_at": "2026-09-25T22:14:22Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T18:30:40Z",
+  "fetched_at": "2026-09-25T22:14:25Z",
   "kr": [
    {
     "date": "2026-09-25",
-    "published": "2026-09-25T18:05:42+00:00",
-    "source": "연합뉴스",
-    "title": "유엔 안보리 \"후티 반군의 사우디 공격 강력 규탄\" 공동성명",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XdXBIaUdoRUJ5Wmx2dlJWYnZaUE9MQk1sNmczVGFjcndoMUluRzVac2RsdUxDX0F0WFNPYlBvUUlmc0k3azBjMU5BMmNlSjRaOGNaM25FZUdUT0XSAWBBVV95cUxPZlBPMVlWZ3B0WGlmQkhMd3piMndENkFYR1lha0VZQ200NVRJT3JrWks5NE1PN1V1WlhROHYxV2FIVEhnRWZLaWJpclNtSHM4Z3NGamFLTTdLWlIzbnIzcFE?oc=5"
+    "published": "2026-09-25T20:13:00+00:00",
+    "source": "KBS",
+    "title": "유엔 안보리 “후티 반군의 사우디 공격 강력 규탄” 공동성명",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1heDJyNEx1Y1paYWc4bUdONkJvX1JqR0xqZllkOHNKVmVZalJRVGVPNHdjUmttbDhfZVlLVW5nSzduRmVYby1pLWFWc2VPeUdTYzRjWERaVnZfb2c?oc=5"
    },
    {
     "date": "2026-09-25",
@@ -2470,13 +2491,20 @@
    },
    {
     "date": "2026-09-25",
-    "published": "2026-09-25T07:43:26+00:00",
+    "published": "2026-09-25T08:39:19+00:00",
     "source": "연합뉴스",
-    "title": "사우디 원유 수출길 바꾸자 오만만 '포화'…유조선 용선료 급등",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yLXJOdnZCdXRiQi04ZW45NUEtT0FzRjdJbmh6NXRJN3duM1RtcXV6MTBfMnJtNEhhZTNMdEVRM0FKVnpHVzlDZHRDVGNaWjRZZC1pSXNmallSTm1xcTNwcdIBYEFVX3lxTE8yLXJOdnZCdXRiQi04ZW45NUEtT0FzRjdJbmh6NXRJN3duM1RtcXV6MTBfMnJtNEhhZTNMdEVRM0FKVnpHVzlDZHRDVGNaWjRZZC1pSXNmallSTm1xcTNwcQ?oc=5"
+    "title": "후티 공세 강화에 사우디 등 '메카 공동방위' 3국 대응 착수(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FQmVKSnJINzNMV184allOcnlvTkl5OWxscFlOeEJmV3RpdjF5Y0txOE10eXlZQmY4Zkc2WGppanM2bGFXVEd3eFlOYWpiSnBfaWZjdG50aWFsbFHSAWBBVV95cUxPaGkyR2lTRHR6ZGNEdE1LeE1CTEpOVDZIYkU2TVhOV3dORmUyUnBJbFk1djN6dU1iVVhWY2FJRlR6QldXRU5mc0Z3akViM2lXOFBwdVd5NE1rRExBRGFSMGg?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T18:13:46+00:00",
+    "source": "The New York Times",
+    "title": "Top Saudi Cleric Calls Fight Against Houthis a Religious Duty",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0lsSEZhU1RKck8wYzRKNTJhUzdDQjhPdGRveTB3Y2VwXzc5MjJXUmo3Qm5nRWZObTVudHZaRkNJclBGbTU0dUdzb3JfMVkwT1doUDhzbU9CeFpwYWtBcVE2N3ZqZ3pmWmd2aVAyYU5OM3c5SWRuYzV6TkRQSTM2NTV2MXdsQVRlNHpPYS16Zw?oc=5"
+   },
    {
     "date": "2026-09-25",
     "published": "2026-09-25T17:41:53+00:00",
@@ -2493,13 +2521,6 @@
    },
    {
     "date": "2026-09-25",
-    "published": "2026-09-25T14:49:05+00:00",
-    "source": "Reuters",
-    "title": "Saudi Grand Mufti tells troops to be ready to sacrifice their lives fighting Houthis",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTXZJVk41ZE5xYUdhR0dIQjd0eVNzaWlmNVd3VmNNZTEyc2dZOWlnZm1nYW9xU19UNTNia0ZLaDUya2xYcXpYRW1tcUJVa0phSUlfOU82SXJHZjc1WHJTUFV5MkNRZUJ0LXFOSG8zRUswZGtJbHktVkZPeGJKd1lUMVBldUlwbGlXOW5qYm1VbnhJVU9QQ0x3Z1ZtNVpjMTVRNXZOZTJvbHZyNjZINzBYc3hvYVpWRndIbldwWjBCUDhJMnhyWVNmTkhxVUU?oc=5"
-   },
-   {
-    "date": "2026-09-25",
     "published": "2026-09-25T11:45:00+00:00",
     "source": "The Guardian",
     "title": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high",
@@ -2513,15 +2534,15 @@
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMGk2TldwemI1R2RiNUJtbUZ3eFFCZjNXelhILVA2eDkxcXJZa3ZFaDVSMDdQVmpUTlZmM2ZfLU9mbUNQdlQ4UEQwUGVES2JFNWFwa2FuYkpzb2h1OHdLNWY3NTduWVN2ZkpGSEltSTBsVUVtSXJPX0Y3dlJ6dGNSRHRMcW9fc3FYYlF5aGtBVVNPT0FyRTZZdGFLUnpoT2lYYkQ5YlBCXzFvbG9pamU2UdIBtgFBVV95cUxNMGR6U1hYN29HMm5iUUctWGIySndQc3ZmSDVqSnVhaWhKSm4yUjZkUW5Wb0RyZFBlRGVpU2NhUEF0bEl1TWZHRkNYbjZBdzNuQzFpSkpSOW9EdUROeE5zeDFhSi0yN2VlLUNlbXFPZlZzck5NOEh1MjFFTjFoMTJfNW0zSlo1VlpVdkVNelNTTExxUGZ6RGFBZnYyTWExcGpHLTJHWVpYT2UwZm9ROTdCUGNObjJLdw?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-25T18:30:40Z"
+  "last_ok_at": "2026-09-25T22:14:25Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T18:30:41Z",
+  "fetched_at": "2026-09-25T22:14:26Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 30,
-  "baseline": 31,
+  "count": 42,
+  "baseline": 41,
   "baseline_n": 3,
   "tier": "정상",
   "history": {
@@ -2576,14 +2597,15 @@
    "2026-09-25T01": 31,
    "2026-09-25T07": 34,
    "2026-09-25T13": 30,
-   "2026-09-25T18": 30
+   "2026-09-25T18": 30,
+   "2026-09-25T22": 42
   },
-  "last_ok_at": "2026-09-25T18:30:41Z"
+  "last_ok_at": "2026-09-25T22:14:26Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-25T18:30:41Z",
-  "last_ok_at": "2026-09-25T18:30:41Z"
+  "fetched_at": "2026-09-25T22:14:27Z",
+  "last_ok_at": "2026-09-25T22:14:27Z"
  }
 }
