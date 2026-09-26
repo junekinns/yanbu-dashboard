@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T22:14:03Z",
+ "generated_at": "2026-09-26T01:28:05Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T22:14:03Z",
+  "fetched_at": "2026-09-26T01:28:05Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -188,15 +188,15 @@
     "summary": "9.19.(토) 오전 3시 및 5시경 리야드 및 알카르지 지역에 두 차례에 걸쳐 사우디아라비아 민방위청의 공습경보가 발령되었습니다. (현재는 모두 해제) 이와 같이 최근 후티 반군, 이라크 내 친이란 반군 등에 의한 간헐적 공격 시도가 계속되면서 역내 긴장이 고조되고 있습니다. 우리 재외국민 분들께서는 유사시를 대비하여 이번 전쟁의 주요 목표가 된 전례가 …"
    }
   ],
-  "last7d": 3,
+  "last7d": 1,
   "baseline": 1.5,
-  "tier": "증가",
-  "last_ok_at": "2026-09-25T22:14:03Z"
+  "tier": "평시",
+  "last_ok_at": "2026-09-26T01:28:05Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T22:14:20Z",
+  "fetched_at": "2026-09-26T01:28:41Z",
   "events": [
    {
     "date": "2026-09-26",
@@ -880,12 +880,12 @@
   "history_days": 16,
   "history_since": "2026-09-11",
   "today": "2026-09-26",
-  "last_ok_at": "2026-09-25T22:14:20Z"
+  "last_ok_at": "2026-09-26T01:28:41Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T22:14:21Z",
+  "fetched_at": "2026-09-26T01:28:42Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1333,20 +1333,20 @@
    }
   ],
   "mentions7d": {
-   "타이프": 9,
    "카미스무샤이트": 9,
+   "타이프": 9,
    "지잔": 7,
-   "얀부": 6,
    "리야드": 6,
+   "얀부": 6,
    "나즈란": 4,
    "메카": 2
   },
-  "last_ok_at": "2026-09-25T22:14:21Z"
+  "last_ok_at": "2026-09-26T01:28:42Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T22:14:22Z",
+  "fetched_at": "2026-09-26T01:28:43Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2454,19 +2454,26 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-25T22:14:22Z"
+  "last_ok_at": "2026-09-26T01:28:43Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T22:14:25Z",
+  "fetched_at": "2026-09-26T01:28:47Z",
   "kr": [
    {
     "date": "2026-09-25",
-    "published": "2026-09-25T20:13:00+00:00",
-    "source": "KBS",
-    "title": "유엔 안보리 “후티 반군의 사우디 공격 강력 규탄” 공동성명",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1heDJyNEx1Y1paYWc4bUdONkJvX1JqR0xqZllkOHNKVmVZalJRVGVPNHdjUmttbDhfZVlLVW5nSzduRmVYby1pLWFWc2VPeUdTYzRjWERaVnZfb2c?oc=5"
+    "published": "2026-09-25T23:31:53+00:00",
+    "source": "연합뉴스",
+    "title": "유엔 안보리 \"후티 반군의 사우디 공격 강력 규탄\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBcGdsMk9vc01zMDU5U1pSQnJQQ3pDTmd6NkZlZUkwd0I3eTdLblptZlZCZjJlWWs1QWJiaFJDR19nQXhxRGxTXzhNdWY4VGlfQlg4WWVMcFN3WllpZ2E0QXhvYzJvWXRrTWZQSWJCaE5nbC1k?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T18:05:42+00:00",
+    "source": "연합뉴스",
+    "title": "유엔 안보리 \"후티 반군의 사우디 공격 강력 규탄\" 공동성명",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XdXBIaUdoRUJ5Wmx2dlJWYnZaUE9MQk1sNmczVGFjcndoMUluRzVac2RsdUxDX0F0WFNPYlBvUUlmc0k3azBjMU5BMmNlSjRaOGNaM25FZUdUT0XSAWBBVV95cUxPZlBPMVlWZ3B0WGlmQkhMd3piMndENkFYR1lha0VZQ200NVRJT3JrWks5NE1PN1V1WlhROHYxV2FIVEhnRWZLaWJpclNtSHM4Z3NGamFLTTdLWlIzbnIzcFE?oc=5"
    },
    {
     "date": "2026-09-25",
@@ -2483,27 +2490,27 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ac3JmNEYxV0VPUXhLSjdMM1dlTHhiM291ZW9SS1RPdldvUWRXcHVjZ29SSmYyajVQdnp5MFRON0JIN2FBYk15YThWQXZPTHF0bm9UU1VlWVB4dlJUWUI3YUVUWHBGdThhNWIzZE11R2RxLXdy0gF0QVVfeXFMT1pzcmY0RjFXRU9ReEtKN0wzV2VMeGIzb3Vlb1JLVE92V29RZFdwdWNnb1JKZjJqNVB2enkwVE43Qkg3YUFiTXlhOFZBdk9McXRub1RTVWVZUHh2UlRZQjdhRVRYcEZ1OGE1YjNkTXVHZHEtd3I?oc=5"
    },
    {
-    "date": "2026-09-25",
-    "published": "2026-09-25T10:31:00+00:00",
-    "source": "채널A",
-    "title": "사우디 수도에 ‘미사일 공격’…후티 공세에 ‘3국 공동대응’",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ReFhhVDg0UjdZaFQwZVlHUkdkR1g0UFRvWlR1SVlPemIzX2FXZGVMMWdsLURwQ0FOLXJqbFZzcW9uWVphWkJacFhOMlBTaVg3Y1IxR25qekV2OEl0YnfSAWNBVV95cUxPNmlKa0VpR2E5WVg0UVRIMlhjSmhISjJ5YU1pM0pQWWRqWWpVUHJQOVRORFJ2d0p1dmc1OFVhVGFwaGRMbmlJSHY5Z28wUkk3NkN3a0VXeElKQmJ2WllZWlJPaHc?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T08:39:19+00:00",
-    "source": "연합뉴스",
-    "title": "후티 공세 강화에 사우디 등 '메카 공동방위' 3국 대응 착수(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FQmVKSnJINzNMV184allOcnlvTkl5OWxscFlOeEJmV3RpdjF5Y0txOE10eXlZQmY4Zkc2WGppanM2bGFXVEd3eFlOYWpiSnBfaWZjdG50aWFsbFHSAWBBVV95cUxPaGkyR2lTRHR6ZGNEdE1LeE1CTEpOVDZIYkU2TVhOV3dORmUyUnBJbFk1djN6dU1iVVhWY2FJRlR6QldXRU5mc0Z3akViM2lXOFBwdVd5NE1rRExBRGFSMGg?oc=5"
+    "date": "2026-09-24",
+    "published": "2026-09-24T22:06:12+00:00",
+    "source": "MBC",
+    "title": "후티 \"사우디 수도 '민감한 목표물' 공격\"",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhWjlsek82NHZXenkwOEVlUUFXVkxYa2c0M2RwUXV3RkI3cVlsZ3NQMWQ3cTRxRUduOGZZZWZWdTNBejBnTHFfWUVsUHplS21Hc2IwVHlRYjBiWUFYXzIzbnJ6ZzRqeGhMSzJjZnoxRU1lZDFjVi0xWkNn0gF6QVVfeXFMTkZueVZYV2tGci02ak5lT180MWZxTXJhZXMyWUQzemxuLWhrVUgzeDROZzNsejZERGJQYkFKYVFWYkVHdU51OVBHcjU0em8tTDVfaHh1a24xOHNQQ1NGTWxsMFN2ZUlLZmF1V3RtWl91NGFYU05tUVJBTVE?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-25",
-    "published": "2026-09-25T18:13:46+00:00",
-    "source": "The New York Times",
-    "title": "Top Saudi Cleric Calls Fight Against Houthis a Religious Duty",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY0lsSEZhU1RKck8wYzRKNTJhUzdDQjhPdGRveTB3Y2VwXzc5MjJXUmo3Qm5nRWZObTVudHZaRkNJclBGbTU0dUdzb3JfMVkwT1doUDhzbU9CeFpwYWtBcVE2N3ZqZ3pmWmd2aVAyYU5OM3c5SWRuYzV6TkRQSTM2NTV2MXdsQVRlNHpPYS16Zw?oc=5"
+    "published": "2026-09-25T22:17:57+00:00",
+    "source": "DW",
+    "title": "France sends troops as Houthi attacks threaten Saudi oil",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd3dZNE9jcUpyX0hNcXhwR3hleFpnajQ5OTdmWlFlb09vUjlqMUFwcWpkRHlGX0h5RE5SREgtQUFpaHpEYVNNeHZ5Vk5tLWU1ZTEtcktiTXU1bHlxUGw0N0lIU2ozUktBbkQwZmgtMFptM01tZl9Dd3JkUHRIRjR4WUJYZl9abUFzTndfazBhbE52dTdOeXd6ZA?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T22:16:51+00:00",
+    "source": "Reuters",
+    "title": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSktoVFV5TmFoZFFlNGJOdHNQbl9ZNWVfOFVvRTN2UXpLMlBhSnZ6ZVZLdFNlRU5CR3RjaHYxWDJRclcyb1lrVzh1WG83MWtmcjRyVnpRdTZIcTdtY01WRlFaVXZ5aWFBSXgzdk9LdzZNdmlQWHJlUmJuci1TSFI1bWRtYXJwYWdEYjBVMHJlVnpYbndpR1lQbllKNkphM0t1SmhXaXNYQmVncDFVOHFJ?oc=5"
    },
    {
     "date": "2026-09-25",
@@ -2514,10 +2521,10 @@
    },
    {
     "date": "2026-09-25",
-    "published": "2026-09-25T17:22:37+00:00",
-    "source": "DW",
-    "title": "France sends troops as Houthi attacks threaten Saudi oil",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd3dZNE9jcUpyX0hNcXhwR3hleFpnajQ5OTdmWlFlb09vUjlqMUFwcWpkRHlGX0h5RE5SREgtQUFpaHpEYVNNeHZ5Vk5tLWU1ZTEtcktiTXU1bHlxUGw0N0lIU2ozUktBbkQwZmgtMFptM01tZl9Dd3JkUHRIRjR4WUJYZl9abUFzTndfazBhbE52dTdOeXd6ZA?oc=5"
+    "published": "2026-09-25T17:12:06+00:00",
+    "source": "France 24",
+    "title": "UN Security Council condemns Houthi attacks on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjdLTV96am1UTW12UGxIam9WZ3lmWlktRDdidVh3QlA3YUYteFZtY0YtNVZnMVRZNGFHV3pwZmxzelNyVW5VZEhFMUprUTVOdlk2R21BcGxaMV9McWpScEY4aGUtLXFlQk4xOE9SdzJNZFdPd0RyZ3pQeXB2Ym5hTndrTUwwX1hWSGNUYUJ0WHB2ZDQxSC0xTnpIbThISS1oMHpLU1VZSXRISHVE?oc=5"
    },
    {
     "date": "2026-09-25",
@@ -2525,25 +2532,18 @@
     "source": "The Guardian",
     "title": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0MwRGdjN1NtYkFaMVhhdktMMEtrb0hMUHdmeU1QeTVqZGpqcHlZVkZiVTZ1Yk4xY0ZQMktfem5iTGpsY3FPS0hqZDNkbV9iMHNIVW1ZVk1yOWtiVEtWTkRreXRUTkRMYjE1NThLT0s1cTVIWUlJSGpUdWJpZE5EcEQ3SlJtcjdXV1ByNWFaMlJOeS0ydThQNWJFU1o5TTZIYk1tempn?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T11:27:03+00:00",
-    "source": "Al Jazeera",
-    "title": "Pakistan, Turkiye edge closer towards joining Saudi war against Houthis",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMGk2TldwemI1R2RiNUJtbUZ3eFFCZjNXelhILVA2eDkxcXJZa3ZFaDVSMDdQVmpUTlZmM2ZfLU9mbUNQdlQ4UEQwUGVES2JFNWFwa2FuYkpzb2h1OHdLNWY3NTduWVN2ZkpGSEltSTBsVUVtSXJPX0Y3dlJ6dGNSRHRMcW9fc3FYYlF5aGtBVVNPT0FyRTZZdGFLUnpoT2lYYkQ5YlBCXzFvbG9pamU2UdIBtgFBVV95cUxNMGR6U1hYN29HMm5iUUctWGIySndQc3ZmSDVqSnVhaWhKSm4yUjZkUW5Wb0RyZFBlRGVpU2NhUEF0bEl1TWZHRkNYbjZBdzNuQzFpSkpSOW9EdUROeE5zeDFhSi0yN2VlLUNlbXFPZlZzck5NOEh1MjFFTjFoMTJfNW0zSlo1VlpVdkVNelNTTExxUGZ6RGFBZnYyTWExcGpHLTJHWVpYT2UwZm9ROTdCUGNObjJLdw?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-25T22:14:25Z"
+  "last_ok_at": "2026-09-26T01:28:47Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-25T22:14:26Z",
+  "fetched_at": "2026-09-26T01:28:48Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 42,
-  "baseline": 41,
-  "baseline_n": 3,
+  "count": 29,
+  "baseline": null,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2598,14 +2598,15 @@
    "2026-09-25T07": 34,
    "2026-09-25T13": 30,
    "2026-09-25T18": 30,
-   "2026-09-25T22": 42
+   "2026-09-25T22": 42,
+   "2026-09-26T01": 29
   },
-  "last_ok_at": "2026-09-25T22:14:26Z"
+  "last_ok_at": "2026-09-26T01:28:48Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-25T22:14:27Z",
-  "last_ok_at": "2026-09-25T22:14:27Z"
+  "fetched_at": "2026-09-26T01:28:48Z",
+  "last_ok_at": "2026-09-26T01:28:48Z"
  }
 }
