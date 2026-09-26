@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T07:33:19Z",
+ "generated_at": "2026-09-26T12:59:48Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-26T07:33:19Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +188,31 @@
   "last7d": 1,
   "baseline": 1.5,
   "tier": "평시",
-  "last_ok_at": "2026-09-26T07:33:19Z"
+  "last_ok_at": "2026-09-26T07:33:19Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f5da1586030>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-26T12:59:48Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T07:33:37Z",
+  "fetched_at": "2026-09-26T13:00:50Z",
   "events": [
+   {
+    "date": "2026-09-26",
+    "time": "04:49",
+    "iso": "2026-09-26T04:49:30+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": "드론",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Coalition defenses thwart Houthi missile and drone attack on Riyadh, Khamis Mushayt",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdUFsYmE5ZjZqdXNFLTMxT0Y1b1NQLVVDVUhSX19oSk5LbVhFamhCQURndkMxZ3R2WmRTaUpWTW1KZV9FZzVTWW55MW8zckdkdXE3M0RHMlN6d3ZYem43WGdDMTQzaEdLMW0wdlhkV0VZWkh6SnVVVnc3dWFVajBVUFNZX1dVdEh6SWVNWDRjWGhiM01RMmFfLTZLemw0NUVUSUxmTUE1N0R1TGhET2wwRGhFekZtY1BDNGNPd2NTWlhHbS0zY1pN?oc=5",
+    "source": "Arab News",
+    "outlets": 1
+   },
    {
     "date": "2026-09-26",
     "time": "00:00",
@@ -788,12 +803,12 @@
    },
    "리야드": {
     "7d": {
+     "피격": 2,
      "요격": 2,
      "경보": 2,
-     "공습": 1,
-     "피격": 1
+     "공습": 1
     },
-    "total7d": 6,
+    "total7d": 7,
     "prev7d": {
      "피격": 1,
      "요격": 1,
@@ -880,14 +895,22 @@
   "history_days": 16,
   "history_since": "2026-09-11",
   "today": "2026-09-26",
-  "last_ok_at": "2026-09-26T07:33:37Z"
+  "last_ok_at": "2026-09-26T13:00:50Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T07:33:38Z",
+  "fetched_at": "2026-09-26T13:00:51Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-26 15:48",
+    "iso": "2026-09-26T15:48:18+03:00",
+    "places": [],
+    "text_ar": "ترقبوا الساعة ٤ عصرا مشاهد جديدة لاستهداف تجمعات وآليات تابعة للعدو السعودي بطائرات رجوم في عدة جبهات",
+    "text_ko": "오후 4시에 여러 전선에서 로켓 항공기로 사우디 적의 집회와 차량을 겨냥하는 새로운 장면을 계속 지켜봐 주십시오.",
+    "url": "https://t.me/army21ye/3777"
+   },
    {
     "time": "2026-09-25 19:05",
     "iso": "2026-09-25T19:05:10+03:00",
@@ -1336,17 +1359,14 @@
    "타이프": 9,
    "카미스무샤이트": 9,
    "지잔": 7,
-   "얀부": 6,
    "리야드": 6,
+   "얀부": 6,
    "나즈란": 4,
    "메카": 2
   },
-  "last_ok_at": "2026-09-26T07:33:38Z"
+  "last_ok_at": "2026-09-26T13:00:51Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-26T07:33:39Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2406,13 +2426,24 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-26T07:33:39Z"
+  "last_ok_at": "2026-09-26T07:33:39Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-09-26T13:00:53Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T07:33:42Z",
+  "fetched_at": "2026-09-26T13:01:53Z",
   "kr": [
+   {
+    "date": "2026-09-26",
+    "published": "2026-09-26T08:17:00+00:00",
+    "source": "경향신문",
+    "title": "사우디 맞서고, 홍해 장악하는 후티반군···가죽 샌들 신은 후티는 어떻게 성장했나",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95WGt5eXdvX1lzRF9lNVoyRWl6XzdVa2RnVG5GUnJQc3BIWGlqbV9ZdFdfMEpla1FPZ1piNGVTbXRxeUxCSWNSdVRBOXBpSGgzTDd4aVRucWtlUdIBX0FVX3lxTE1fN1NkZnhPOUV4N2lSU0kzUmhHdkpTNUoxN2cyNkM4MlpZTWpMck5HVUhEU2s2VmVJUkx2UWpDMUt5MExCUndVRVdkbTJ4ZmFKcDludjFnT2tqZE1meXp3?oc=5"
+   },
    {
     "date": "2026-09-25",
     "published": "2026-09-25T23:31:00+00:00",
@@ -2440,43 +2471,15 @@
     "source": "MBC",
     "title": "'메카 방위협정' 3국, 이슬람 성지 메카 등 사우디 공격 규탄",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ac3JmNEYxV0VPUXhLSjdMM1dlTHhiM291ZW9SS1RPdldvUWRXcHVjZ29SSmYyajVQdnp5MFRON0JIN2FBYk15YThWQXZPTHF0bm9UU1VlWVB4dlJUWUI3YUVUWHBGdThhNWIzZE11R2RxLXdy0gF0QVVfeXFMT1pzcmY0RjFXRU9ReEtKN0wzV2VMeGIzb3Vlb1JLVE92V29RZFdwdWNnb1JKZjJqNVB2enkwVE43Qkg3YUFiTXlhOFZBdk9McXRub1RTVWVZUHh2UlRZQjdhRVRYcEZ1OGE1YjNkTXVHZHEtd3I?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T10:31:00+00:00",
-    "source": "채널A",
-    "title": "사우디 수도에 ‘미사일 공격’…후티 공세에 ‘3국 공동대응’",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ReFhhVDg0UjdZaFQwZVlHUkdkR1g0UFRvWlR1SVlPemIzX2FXZGVMMWdsLURwQ0FOLXJqbFZzcW9uWVphWkJacFhOMlBTaVg3Y1IxR25qekV2OEl0YnfSAWNBVV95cUxPNmlKa0VpR2E5WVg0UVRIMlhjSmhISjJ5YU1pM0pQWWRqWWpVUHJQOVRORFJ2d0p1dmc1OFVhVGFwaGRMbmlJSHY5Z28wUkk3NkN3a0VXeElKQmJ2WllZWlJPaHc?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-26",
-    "published": "2026-09-26T06:13:06+00:00",
-    "source": "Al Jazeera",
-    "title": "Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdXpuZXlWNU11X2ZYd0llREtTTEo1R2tfbU1vblhhcGkzNGZtZ0Q2S05kS1dyeS1jcTlFUFlKTVJWenZHVWl4ckxYTjRwSVhlUmVwbTkxa3NuNFBleW1yMU5mOExaSm9vY09hUkxHSGZVVmczanVjcXA2dUdjWE00WHhlTjJlRTFpSEpwbVhfNEZJTElnUXFTYVE2NUJ4MDViaGlBUkJqaFNfVFB6WDBLeU1n0gG3AUFVX3lxTE9yWExOTy00WklNbEJfY25EdFFPWm1lQkVLTklaQjF6Y1p1MmtBVmtnWWpCQkNqeFlPNWRJdWVJY005VHkyeDVuNjhKWDJ4WWdtak5EZXZCR2hHUXcxUmNqbU5pZ0lWX2xGdmR2X0lZX0U2ZGxjWEdiWUJMVXd5bk1manhKSGtWdGNDYnhLZVhIMl9TOWpITUh3c3ByX1J5RjM1NVR6SVJVZFlobFc3N3R0VVR1M1VlZw?oc=5"
-   },
-   {
-    "date": "2026-09-26",
-    "published": "2026-09-26T06:04:00+00:00",
-    "source": "AP News",
-    "title": "Saudi Arabia says it intercepts another Houthi-launched missile, and other Mideast developments",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3FURU1ld09YM0czSERoLWEtWEQwR1FSZm96NmpURkowVXNHQkRna0gzZEJXTWlKLUE5QW51U24tRFVHX2JDNUpvWVFyNWdGYVhaYThBVmJZMndzM1Z2eDVkVVViRG00M1k3YUpYdDE2azVBcmo4SmlhNDRSLW9Ra0taSTY1V0w3ektQdFpzQXhjTzNBNmxSalgxT0xGbC1y?oc=5"
-   },
-   {
-    "date": "2026-09-26",
-    "published": "2026-09-26T06:00:36+00:00",
-    "source": "Euronews",
-    "title": "Saudi coalition intercepts Houthi drones bound for Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNnJ1bFV0a2hYVjQtSUFsMkJ4bkxPNkd0NTFVNndxMXZ2aFZVLTRMb2x5Y1hwTDFOMl9DU3VLTXR3OGwteEx6dTd0WHF0ZC1CUTFFUEc1NFYteGVCb3k5Rmh0WU1ZZEJiank1dlhZVldLeXFpMlJ3V3h3R0ctSHRRcmpLM1l2ZS1EcG16Q1o2enpkSnJoaEk2Vk9PWTVwY2NQaTlUU1hGaW5xUFpvVzdLLWNWajVuUXl2UVo2Tkp3?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T21:02:23+00:00",
-    "source": "Al Jazeera",
-    "title": "Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlQ2OUdEdmE0UXNkLU02aUFtejNhem5nTWd0U1RpRE12eXAzeEdwZnBZaDdxWjlDVmFNTHJuOGVuMFJxSjRiQU1yRXFsakNTRnhLRExaeEIwZ3JaQkZTUFF6T3JwTWtQYjctLUFaVVMwS1Z5MUpIcU1iRDVuM2tvdlh0Z0l3cHJ3Z25SQTVBdWNyaVpGRlRvdnZhZi1WSThDRGNMY0o1aGppVkZJekhpbHd30gG3AUFVX3lxTFB6Z3dhUTRSSERaWEg1ckhoRjJfZERIVWNJaTN3QTctZ1NmYjdZaDlweWtSdEZJcEdTSUVDbklKMVB5Z212YUhXTDdPMkdhSUk5aVhFbjVxRHE3aWphZ2I2bnEtT3dULTVEQkxhbGFfdFcwNndWdm13VkpIM3NwWlhVeVVheEVsbnB0aXFURTRDNzU5TDgtdWdNdjR4clNSSUJacG03aHJnY3JRNC1CeWYtUHNFek5jZw?oc=5"
+    "published": "2026-09-26T01:25:00+00:00",
+    "source": "Reuters",
+    "title": "Saudi coalition says it intercepts Houthi missiles, drones",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5"
    },
    {
     "date": "2026-09-25",
@@ -2484,18 +2487,39 @@
     "source": "Reuters",
     "title": "Pakistani, Saudi, Turkish chiefs discuss closer military ties",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZjQ3aG5uMXJybWNodDhpMHh2aGY2dWZ3bXZFRlE2dTlhT3BKUmZSZWpxaTFnNG5BVmFuV01OOHRSS0NHUEJHbm9NS1Nuc0pNLUZUYkNZRXpPOGhreGprTUloRzJ2UEd6Z3dsYjZOUE1abERaUk96OV9ObUhzT0VjdjBKeVVndm44aVhPcUZ1QTJjckNhUS1GXy1fanQ2QlZOMDdBdXgzTm5oczZhTmFXaFgwUQ?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T17:41:53+00:00",
+    "source": "CNBC",
+    "title": "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQTZiYU0xWTcyLWxpd3FwcTRRR3ZHa0xxUGdLUE5UUXZNZl9wbnNDNVk3RXY0ZXJKLXk5SkdDc192blJXZ3FYTS1rSDlpU2d0ZmdYY2pHWHp5WHpwZWJQVlNrdTNxTzRuX1RqTmQyQXlVVktUUHF5LWdyNndQdkFOUDZCSXpFYmVxZmdsYXJENzhRQjc5OTR4SFpjYjJqYnQyVUlB0gGoAUFVX3lxTE54bkFvZk5aUHNlVWhfVkkyMEtuSTVGeU1XTEhBbDduWlEzYXV4aWpnQWdNY0Nqa1FQQzRkbjRDOTdfelhDVndJQVpMcDhmZUlLOVY4UmJ6dnMzYW9vd19QYS1lM1BYalNSOUdDYlVTTU9raFdCZU5fYXBHakF2THlWQ3owaDlmeWlnOUZybDVBX0I4TWVhZzRlYnhWalY4dWZTRHl1ckNMZw?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T17:12:06+00:00",
+    "source": "France 24",
+    "title": "UN Security Council condemns Houthi attacks on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjdLTV96am1UTW12UGxIam9WZ3lmWlktRDdidVh3QlA3YUYteFZtY0YtNVZnMVRZNGFHV3pwZmxzelNyVW5VZEhFMUprUTVOdlk2R21BcGxaMV9McWpScEY4aGUtLXFlQk4xOE9SdzJNZFdPd0RyZ3pQeXB2Ym5hTndrTUwwX1hWSGNUYUJ0WHB2ZDQxSC0xTnpIbThISS1oMHpLU1VZSXRISHVE?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T11:45:00+00:00",
+    "source": "The Guardian",
+    "title": "Saudi Arabia intercepts wave of Houthi missiles as oil climbs to one-week high",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0MwRGdjN1NtYkFaMVhhdktMMEtrb0hMUHdmeU1QeTVqZGpqcHlZVkZiVTZ1Yk4xY0ZQMktfem5iTGpsY3FPS0hqZDNkbV9iMHNIVW1ZVk1yOWtiVEtWTkRreXRUTkRMYjE1NThLT0s1cTVIWUlJSGpUdWJpZE5EcEQ3SlJtcjdXV1ByNWFaMlJOeS0ydThQNWJFU1o5TTZIYk1tempn?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-26T07:33:42Z"
+  "last_ok_at": "2026-09-26T13:01:53Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T07:33:43Z",
+  "fetched_at": "2026-09-26T13:01:54Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 30,
+  "count": 45,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2552,14 +2576,15 @@
    "2026-09-25T18": 30,
    "2026-09-25T22": 42,
    "2026-09-26T01": 29,
-   "2026-09-26T07": 30
+   "2026-09-26T07": 30,
+   "2026-09-26T13": 45
   },
-  "last_ok_at": "2026-09-26T07:33:43Z"
+  "last_ok_at": "2026-09-26T13:01:54Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-26T07:33:43Z",
-  "last_ok_at": "2026-09-26T07:33:43Z"
+  "fetched_at": "2026-09-26T13:01:55Z",
+  "last_ok_at": "2026-09-26T13:01:55Z"
  }
 }
