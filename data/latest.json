@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T17:05:22Z",
+ "generated_at": "2026-09-26T19:48:00Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T17:05:22Z",
+  "fetched_at": "2026-09-26T19:48:00Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 1,
   "baseline": 1.5,
   "tier": "평시",
-  "last_ok_at": "2026-09-26T17:05:22Z"
+  "last_ok_at": "2026-09-26T19:48:00Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T17:05:43Z",
+  "fetched_at": "2026-09-26T19:48:15Z",
   "events": [
    {
     "date": "2026-09-26",
@@ -894,12 +894,12 @@
   "history_days": 16,
   "history_since": "2026-09-11",
   "today": "2026-09-26",
-  "last_ok_at": "2026-09-26T17:05:43Z"
+  "last_ok_at": "2026-09-26T19:48:15Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T17:05:44Z",
+  "fetched_at": "2026-09-26T19:48:16Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1374,19 +1374,19 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 8,
    "타이프": 8,
+   "카미스무샤이트": 8,
    "지잔": 7,
    "나즈란": 4,
    "얀부": 3,
    "리야드": 3
   },
-  "last_ok_at": "2026-09-26T17:05:44Z"
+  "last_ok_at": "2026-09-26T19:48:16Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T17:05:47Z",
+  "fetched_at": "2026-09-26T19:48:16Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2470,12 +2470,12 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-26T17:05:47Z"
+  "last_ok_at": "2026-09-26T19:48:16Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T17:05:50Z",
+  "fetched_at": "2026-09-26T19:48:19Z",
   "kr": [
    {
     "date": "2026-09-26",
@@ -2483,6 +2483,13 @@
     "source": "경향신문",
     "title": "사우디 맞서고, 홍해 장악하는 후티반군···가죽 샌들 신은 후티는 어떻게 성장했나",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95WGt5eXdvX1lzRF9lNVoyRWl6XzdVa2RnVG5GUnJQc3BIWGlqbV9ZdFdfMEpla1FPZ1piNGVTbXRxeUxCSWNSdVRBOXBpSGgzTDd4aVRucWtlUdIBX0FVX3lxTE1fN1NkZnhPOUV4N2lSU0kzUmhHdkpTNUoxN2cyNkM4MlpZTWpMck5HVUhEU2s2VmVJUkx2UWpDMUt5MExCUndVRVdkbTJ4ZmFKcDludjFnT2tqZE1meXp3?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T23:31:53+00:00",
+    "source": "연합뉴스",
+    "title": "유엔 안보리 \"후티 반군의 사우디 공격 강력 규탄\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBcGdsMk9vc01zMDU5U1pSQnJQQ3pDTmd6NkZlZUkwd0I3eTdLblptZlZCZjJlWWs1QWJiaFJDR19nQXhxRGxTXzhNdWY4VGlfQlg4WWVMcFN3WllpZ2E0QXhvYzJvWXRrTWZQSWJCaE5nbC1k?oc=5"
    },
    {
     "date": "2026-09-25",
@@ -2503,30 +2510,23 @@
     "published": "2026-09-25T13:51:28+00:00",
     "source": "MBC",
     "title": "'메카 방위협정' 3국, 이슬람 성지 메카 등 사우디 공격 규탄",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ac3JmNEYxV0VPUXhLSjdMM1dlTHhiM291ZW9SS1RPdldvUWRXcHVjZ29SSmYyajVQdnp5MFRON0JIN2FBYk15YThWQXZPTHF0bm9UU1VlWVB4dlJUWUI3YUVUWHBGdThhNWIzZE11R2RxLXdy0gF0QVVfeXFMT1pzcmY0RjFXRU9ReEtKN0wzV2VMeGIzb3Vlb1JLVE92V29RZFdwdWNnb1JKZjJqNVB2enkwVE43Qkg3YUFiTXlhOFZBdk9McXRub1RTVWVZUHh2UlRZQjdhRVRYcEZ1OGE1YjNkTXVHZHEtd3I?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T10:31:00+00:00",
-    "source": "채널A",
-    "title": "사우디 수도에 ‘미사일 공격’…후티 공세에 ‘3국 공동대응’",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ReFhhVDg0UjdZaFQwZVlHUkdkR1g0UFRvWlR1SVlPemIzX2FXZGVMMWdsLURwQ0FOLXJqbFZzcW9uWVphWkJacFhOMlBTaVg3Y1IxR25qekV2OEl0YnfSAWNBVV95cUxPNmlKa0VpR2E5WVg0UVRIMlhjSmhISjJ5YU1pM0pQWWRqWWpVUHJQOVRORFJ2d0p1dmc1OFVhVGFwaGRMbmlJSHY5Z28wUkk3NkN3a0VXeElKQmJ2WllZWlJPaHc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80T3NXTUhiWE9TYlVnQUlVY1dWRlFBb0huVEZ6UXJnaDFnZlRhUzhNTFJBT3ZnSnNNZUdZdFlUalBDb3JoeGFvMWJnclRfTWo3SGZGdExheDExbVhDSlR0QktPX3BCSi00cHBhTFdCTk1Ya3RZ0gF0QVVfeXFMT1pzcmY0RjFXRU9ReEtKN0wzV2VMeGIzb3Vlb1JLVE92V29RZFdwdWNnb1JKZjJqNVB2enkwVE43Qkg3YUFiTXlhOFZBdk9McXRub1RTVWVZUHh2UlRZQjdhRVRYcEZ1OGE1YjNkTXVHZHEtd3I?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-09-26",
+    "published": "2026-09-26T16:25:36+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Aramco Is Said to Work With Evercore on Gas Unit Plans",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNHQ1l1bnV2OENPVl9IUDgxN2JSR3VEdjE0VE1pUGhzNHpEakFIbDNVcTBlMEZjUXI0Z25seVRzQ2ZETmFTcjAtSWtaekI5QWRSWUhxci1nVjNRTTY5a2pYMlB4TTFCNWxxbTd2dzh5aWkxYzUtSFRRM1Z1cFlyUXBFbVNzQW40VTdmTkgtellueG44MVBkOXNLQldpX19HQVR1SHNPSDR4V1oySnJWRQ?oc=5"
+   },
    {
     "date": "2026-09-26",
     "published": "2026-09-26T16:05:45+00:00",
     "source": "Reuters",
     "title": "Saudi Aramco is working with Evercore on gas unit plans, Bloomberg News reports",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZC11YWhLc0hmeG1xeFdGQmx5Y3REbmQzSzE4SHNmMURDbzd6Uk1WX0xlWEtlamw5dVJuT0N6c21ZTFZOZndkSGpPcWE4bGdVd0gxejBVRFRvR1RpUzR5b3NNdmZuTk43d2hOdzV4QW5tT2xqLWdkalJWTVhuVEswTFROYUlsbGNVeTE1YzA4c09MUE9oVlF5OWw4S2E2VWZBNF9BM2pueUx4VHY1R194SGdSbURXSFBvbmNJR0JfcVVPcFRwcHc?oc=5"
-   },
-   {
-    "date": "2026-09-26",
-    "published": "2026-09-26T15:01:29+00:00",
-    "source": "Bloomberg",
-    "title": "Saudi Aramco Is Said to Work With Evercore on Gas Unit Plans",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNHQ1l1bnV2OENPVl9IUDgxN2JSR3VEdjE0VE1pUGhzNHpEakFIbDNVcTBlMEZjUXI0Z25seVRzQ2ZETmFTcjAtSWtaekI5QWRSWUhxci1nVjNRTTY5a2pYMlB4TTFCNWxxbTd2dzh5aWkxYzUtSFRRM1Z1cFlyUXBFbVNzQW40VTdmTkgtellueG44MVBkOXNLQldpX19HQVR1SHNPSDR4V1oySnJWRQ?oc=5"
    },
    {
     "date": "2026-09-26",
@@ -2550,16 +2550,16 @@
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZjQ3aG5uMXJybWNodDhpMHh2aGY2dWZ3bXZFRlE2dTlhT3BKUmZSZWpxaTFnNG5BVmFuV01OOHRSS0NHUEJHbm9NS1Nuc0pNLUZUYkNZRXpPOGhreGprTUloRzJ2UEd6Z3dsYjZOUE1abERaUk96OV9ObUhzT0VjdjBKeVVndm44aVhPcUZ1QTJjckNhUS1GXy1fanQ2QlZOMDdBdXgzTm5oczZhTmFXaFgwUQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-26T17:05:50Z"
+  "last_ok_at": "2026-09-26T19:48:19Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T17:05:51Z",
+  "fetched_at": "2026-09-26T19:48:20Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 41,
+  "count": 59,
   "baseline": null,
-  "baseline_n": 1,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2618,14 +2618,15 @@
    "2026-09-26T01": 29,
    "2026-09-26T07": 30,
    "2026-09-26T13": 45,
-   "2026-09-26T17": 41
+   "2026-09-26T17": 41,
+   "2026-09-26T19": 59
   },
-  "last_ok_at": "2026-09-26T17:05:51Z"
+  "last_ok_at": "2026-09-26T19:48:20Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-26T17:05:51Z",
-  "last_ok_at": "2026-09-26T17:05:51Z"
+  "fetched_at": "2026-09-26T19:48:20Z",
+  "last_ok_at": "2026-09-26T19:48:20Z"
  }
 }
