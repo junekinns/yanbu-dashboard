@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T22:41:12Z",
+ "generated_at": "2026-09-27T01:20:15Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-26T22:41:12Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +188,16 @@
   "last7d": 1,
   "baseline": 1.5,
   "tier": "평시",
-  "last_ok_at": "2026-09-26T22:41:12Z"
+  "last_ok_at": "2026-09-26T22:41:12Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f5aa9146420>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-27T01:20:15Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T22:41:31Z",
+  "fetched_at": "2026-09-27T01:21:16Z",
   "events": [
    {
     "date": "2026-09-26",
@@ -893,12 +894,12 @@
   "history_days": 17,
   "history_since": "2026-09-11",
   "today": "2026-09-27",
-  "last_ok_at": "2026-09-26T22:41:31Z"
+  "last_ok_at": "2026-09-27T01:21:16Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T22:41:34Z",
+  "fetched_at": "2026-09-27T01:21:17Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1377,15 +1378,12 @@
    "카미스무샤이트": 8,
    "지잔": 7,
    "나즈란": 4,
-   "얀부": 3,
-   "리야드": 3
+   "리야드": 3,
+   "얀부": 3
   },
-  "last_ok_at": "2026-09-26T22:41:34Z"
+  "last_ok_at": "2026-09-27T01:21:17Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-26T22:41:35Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2469,12 +2467,16 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-26T22:41:35Z"
+  "last_ok_at": "2026-09-26T22:41:35Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-09-27T01:21:18Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T22:41:37Z",
+  "fetched_at": "2026-09-27T01:22:18Z",
   "kr": [
    {
     "date": "2026-09-26",
@@ -2482,20 +2484,6 @@
     "source": "경향신문",
     "title": "사우디 맞서고, 홍해 장악하는 후티반군···가죽 샌들 신은 후티는 어떻게 성장했나",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95WGt5eXdvX1lzRF9lNVoyRWl6XzdVa2RnVG5GUnJQc3BIWGlqbV9ZdFdfMEpla1FPZ1piNGVTbXRxeUxCSWNSdVRBOXBpSGgzTDd4aVRucWtlUdIBX0FVX3lxTE1fN1NkZnhPOUV4N2lSU0kzUmhHdkpTNUoxN2cyNkM4MlpZTWpMck5HVUhEU2s2VmVJUkx2UWpDMUt5MExCUndVRVdkbTJ4ZmFKcDludjFnT2tqZE1meXp3?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T23:31:00+00:00",
-    "source": "연합뉴스",
-    "title": "유엔 안보리 \"후티 반군의 사우디 공격 강력 규탄\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9mUzgxVXZEa0VwSG1fQ1oxMVVUNWNDb1l0X0FVYm1DbVVOQUtVSW55c2tSOFZ5ODcyTEtjdmE5QVo4RlVmbVdGMHhOTUxpMXBYZEhYTDhhVkxnR3lpVXhXM21FWmM0SDg?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T18:05:42+00:00",
-    "source": "연합뉴스",
-    "title": "유엔 안보리 \"후티 반군의 사우디 공격 강력 규탄\" 공동성명",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XdXBIaUdoRUJ5Wmx2dlJWYnZaUE9MQk1sNmczVGFjcndoMUluRzVac2RsdUxDX0F0WFNPYlBvUUlmc0k3azBjMU5BMmNlSjRaOGNaM25FZUdUT0XSAWBBVV95cUxPZlBPMVlWZ3B0WGlmQkhMd3piMndENkFYR1lha0VZQ200NVRJT3JrWks5NE1PN1V1WlhROHYxV2FIVEhnRWZLaWJpclNtSHM4Z3NGamFLTTdLWlIzbnIzcFE?oc=5"
    },
    {
     "date": "2026-09-25",
@@ -2510,6 +2498,20 @@
     "source": "MBC",
     "title": "'메카 방위협정' 3국, 이슬람 성지 메카 등 사우디 공격 규탄",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80T3NXTUhiWE9TYlVnQUlVY1dWRlFBb0huVEZ6UXJnaDFnZlRhUzhNTFJBT3ZnSnNNZUdZdFlUalBDb3JoeGFvMWJnclRfTWo3SGZGdExheDExbVhDSlR0QktPX3BCSi00cHBhTFdCTk1Ya3RZ0gF0QVVfeXFMT1pzcmY0RjFXRU9ReEtKN0wzV2VMeGIzb3Vlb1JLVE92V29RZFdwdWNnb1JKZjJqNVB2enkwVE43Qkg3YUFiTXlhOFZBdk9McXRub1RTVWVZUHh2UlRZQjdhRVRYcEZ1OGE1YjNkTXVHZHEtd3I?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T10:31:00+00:00",
+    "source": "채널A",
+    "title": "사우디 수도에 ‘미사일 공격’…후티 공세에 ‘3국 공동대응’",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ReFhhVDg0UjdZaFQwZVlHUkdkR1g0UFRvWlR1SVlPemIzX2FXZGVMMWdsLURwQ0FOLXJqbFZzcW9uWVphWkJacFhOMlBTaVg3Y1IxR25qekV2OEl0YnfSAWNBVV95cUxPNmlKa0VpR2E5WVg0UVRIMlhjSmhISjJ5YU1pM0pQWWRqWWpVUHJQOVRORFJ2d0p1dmc1OFVhVGFwaGRMbmlJSHY5Z28wUkk3NkN3a0VXeElKQmJ2WllZWlJPaHc?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T09:52:03+00:00",
+    "source": "뉴스1",
+    "title": "메카 방위 동맹, 후티 공세 처한 사우디 지원 방안 논의",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5X1VsUFNSM3dhNndaUnNFNHRRWGlrM2k3T2tkVWViNVdnZkRRdzc0RnRmMzhkV1FtZ0xjN3plakVmYVJzZ1hoZllCeE1Qa3JxcnpCc0lEaGhGY0s4WVdyV2tsQmx2YlHSAWdBVV95cUxQeV9VbFBTUjN3YTZ3WlJzRTR0UVhpazNpN09rZFVlYjVXZ2ZEUXc3NEZ0ZjM4ZFdRbWdMYzd6ZWpFZmFSc2dYaGZZQnhNUGtycXJ6QnNJRGhoRmNLOFlXcldrbEJsdmJR?oc=5"
    }
   ],
   "en": [
@@ -2528,37 +2530,37 @@
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZC11YWhLc0hmeG1xeFdGQmx5Y3REbmQzSzE4SHNmMURDbzd6Uk1WX0xlWEtlamw5dVJuT0N6c21ZTFZOZndkSGpPcWE4bGdVd0gxejBVRFRvR1RpUzR5b3NNdmZuTk43d2hOdzV4QW5tT2xqLWdkalJWTVhuVEswTFROYUlsbGNVeTE1YzA4c09MUE9oVlF5OWw4S2E2VWZBNF9BM2pueUx4VHY1R194SGdSbURXSFBvbmNJR0JfcVVPcFRwcHc?oc=5"
    },
    {
-    "date": "2026-09-26",
-    "published": "2026-09-26T13:52:53+00:00",
-    "source": "Al Jazeera",
-    "title": "The intelligence war is turning against the Houthis",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdE01WV9kajNEX3RacWQ1cU94NHhoekMzNU5LTFJhUGlCa2RCZnFvUEhJTUoyNUVDdUx1bHVtTjdwcXoxWWdDdjVzZUk3aW5NMklDYW5DUFU2MmtlZ3hNcTN6cnNKemczbGJnWDVWUWVMa3VXekdqQjZmeUlPa1hEQ3JNQXB3NVVJa2xMZjkzOVlOaHBkNEtvT2c0cEjSAaIBQVVfeXFMTjljX1JVUC0xY3pvLUF2RHl1WHp4S0xjS0xEUFIwQmhQc0NIb1hZcTY1bGhvT1I1ZzVseXo0TTc1Y2NGTnBKVU1EblhndTB3Z29SUTJkWUtvNVcwdGY0TUtQU1NHX1RwTlVqeExVdFpTbWQxejhoZW4xVkg4NWlQRmppT3NsMlN5UUFSOXVTVnZ4S0lqYTQ5RFdGT2Z3Ynh5NXdR?oc=5"
-   },
-   {
-    "date": "2026-09-26",
-    "published": "2026-09-26T12:50:52+00:00",
-    "source": "Al Jazeera",
-    "title": "Why has the Yemen government called for a general mobilisation?",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUjJkWENocEJMM2t4c1hhbFVhRk13TF9DeVpTQV9kSFF3a3R6S2hTNGQyVERsWGpxT3hmRFYyRTl6ZGlMV1JtdXFWUU1WQWc4VGtPcU4wV3FIY2dCaVVfdWpYMmlzdUhtd2ZxX3pSd3R0cFRLNndwRzB0UzJaSFg4UTVkc0JsbUNpRG1aZlVrb3YyYjRNMkZHY0FMMHVJN1EzR0NJbkR30gGrAUFVX3lxTFBGYWhxTGI3LTVBWTdPZzFCQWNuMDA4bXVMY2xBaW9zb01JVEtmWjU1SzZOTWNReGV3YVI1SEhzMDE3VnM5RmYwTlBiRnBkMVVUWmJydXNsYWRLVHJSbDFOaGZtWGp3ZWtKQnhURXgzdHcxazExYkQwcm9yT0puUzl1V00yQk5RNElsUlp4aTVNZ3lNZ09Pa0dWUE83UzBQTkt5aWFiUXBQWDJsMA?oc=5"
-   },
-   {
     "date": "2026-09-25",
     "published": "2026-09-25T20:59:13+00:00",
     "source": "Reuters",
     "title": "Pakistani, Saudi, Turkish chiefs discuss closer military ties",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZjQ3aG5uMXJybWNodDhpMHh2aGY2dWZ3bXZFRlE2dTlhT3BKUmZSZWpxaTFnNG5BVmFuV01OOHRSS0NHUEJHbm9NS1Nuc0pNLUZUYkNZRXpPOGhreGprTUloRzJ2UEd6Z3dsYjZOUE1abERaUk96OV9ObUhzT0VjdjBKeVVndm44aVhPcUZ1QTJjckNhUS1GXy1fanQ2QlZOMDdBdXgzTm5oczZhTmFXaFgwUQ?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T17:41:53+00:00",
+    "source": "CNBC",
+    "title": "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQTZiYU0xWTcyLWxpd3FwcTRRR3ZHa0xxUGdLUE5UUXZNZl9wbnNDNVk3RXY0ZXJKLXk5SkdDc192blJXZ3FYTS1rSDlpU2d0ZmdYY2pHWHp5WHpwZWJQVlNrdTNxTzRuX1RqTmQyQXlVVktUUHF5LWdyNndQdkFOUDZCSXpFYmVxZmdsYXJENzhRQjc5OTR4SFpjYjJqYnQyVUlB0gGoAUFVX3lxTE54bkFvZk5aUHNlVWhfVkkyMEtuSTVGeU1XTEhBbDduWlEzYXV4aWpnQWdNY0Nqa1FQQzRkbjRDOTdfelhDVndJQVpMcDhmZUlLOVY4UmJ6dnMzYW9vd19QYS1lM1BYalNSOUdDYlVTTU9raFdCZU5fYXBHakF2THlWQ3owaDlmeWlnOUZybDVBX0I4TWVhZzRlYnhWalY4dWZTRHl1ckNMZw?oc=5"
+   },
+   {
+    "date": "2026-09-25",
+    "published": "2026-09-25T17:12:06+00:00",
+    "source": "France 24",
+    "title": "UN Security Council condemns Houthi attacks on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONjdLTV96am1UTW12UGxIam9WZ3lmWlktRDdidVh3QlA3YUYteFZtY0YtNVZnMVRZNGFHV3pwZmxzelNyVW5VZEhFMUprUTVOdlk2R21BcGxaMV9McWpScEY4aGUtLXFlQk4xOE9SdzJNZFdPd0RyZ3pQeXB2Ym5hTndrTUwwX1hWSGNUYUJ0WHB2ZDQxSC0xTnpIbThISS1oMHpLU1VZSXRISHVE?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-26T22:41:37Z"
+  "last_ok_at": "2026-09-27T01:22:18Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-26T22:41:38Z",
+  "fetched_at": "2026-09-27T01:22:19Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 38,
-  "baseline": 41.5,
-  "baseline_n": 4,
+  "count": 40,
+  "baseline": 31,
+  "baseline_n": 3,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2619,14 +2621,15 @@
    "2026-09-26T13": 45,
    "2026-09-26T17": 41,
    "2026-09-26T19": 59,
-   "2026-09-26T22": 38
+   "2026-09-26T22": 38,
+   "2026-09-27T01": 40
   },
-  "last_ok_at": "2026-09-26T22:41:38Z"
+  "last_ok_at": "2026-09-27T01:22:19Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-26T22:41:38Z",
-  "last_ok_at": "2026-09-26T22:41:38Z"
+  "fetched_at": "2026-09-27T01:22:19Z",
+  "last_ok_at": "2026-09-27T01:22:19Z"
  }
 }
