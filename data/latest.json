@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T18:17:36Z",
+ "generated_at": "2026-09-27T22:02:09Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T18:17:36Z",
+  "fetched_at": "2026-09-27T22:02:09Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 1,
   "baseline": 1.0,
   "tier": "평시",
-  "last_ok_at": "2026-09-27T18:17:36Z"
+  "last_ok_at": "2026-09-27T22:02:09Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T18:17:57Z",
+  "fetched_at": "2026-09-27T22:02:29Z",
   "events": [
    {
     "date": "2026-09-27",
@@ -786,14 +786,14 @@
   "tempo": {
    "얀부": {
     "7d": {
-     "피격": 2,
+     "피격": 1,
      "요격": 1
     },
-    "total7d": 3,
+    "total7d": 2,
     "prev7d": {
-     "피격": 3
+     "피격": 4
     },
-    "prev_total": 3
+    "prev_total": 4
    },
    "제다": {
     "7d": {},
@@ -846,17 +846,16 @@
     "7d": {
      "공습": 1,
      "피격": 2,
-     "요격": 2,
-     "경보": 1
+     "요격": 2
     },
-    "total7d": 6,
+    "total7d": 5,
     "prev7d": {
+     "경보": 3,
      "공습": 2,
      "요격": 2,
-     "피격": 2,
-     "경보": 2
+     "피격": 2
     },
-    "prev_total": 8
+    "prev_total": 9
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -933,15 +932,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 17,
+  "history_days": 18,
   "history_since": "2026-09-11",
-  "today": "2026-09-27",
-  "last_ok_at": "2026-09-27T18:17:57Z"
+  "today": "2026-09-28",
+  "last_ok_at": "2026-09-27T22:02:29Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T18:17:58Z",
+  "fetched_at": "2026-09-27T22:02:31Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1451,12 +1450,12 @@
    "리야드": 3,
    "얀부": 3
   },
-  "last_ok_at": "2026-09-27T18:17:58Z"
+  "last_ok_at": "2026-09-27T22:02:31Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T18:18:02Z",
+  "fetched_at": "2026-09-27T22:02:31Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2396,13 +2395,20 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-27T18:18:02Z"
+  "last_ok_at": "2026-09-27T22:02:31Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T18:18:04Z",
+  "fetched_at": "2026-09-27T22:02:33Z",
   "kr": [
+   {
+    "date": "2026-09-27",
+    "published": "2026-09-27T21:14:00+00:00",
+    "source": "KBS",
+    "title": "후티 공세에 사우디 반격 강화…예멘 곳곳 공습·지상전 격화",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TXzk1bkhpNkYwZkFzMGJQN2ZIYnRkMUF2UDBRZEI1dGxWM2g1d2d0d08wd0t0OFdTalZhc0dyYm0wWXBOYm50V0FnR0RydmM0dUFaTVVrUHhrb0NGc0VTQWJrSWlKdw?oc=5"
+   },
    {
     "date": "2026-09-27",
     "published": "2026-09-27T09:48:00+00:00",
@@ -2430,22 +2436,22 @@
     "source": "연합뉴스",
     "title": "후티 공격 이어지는 사우디…리야드 학교, 일주일간 원격수업",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYVzV5cDh0M29MbmhpeGhzU1lYREpLZWF4OWhnVEV1Y2JQZHFhZ29HWV82QjZ5MG1KaFE2dWxhMmF4cU9nU0lndUhza0hzQ3ZKcGVCMjBCdnk0OFB2NmZQZtIBYEFVX3lxTFBYVzV5cDh0M29MbmhpeGhzU1lYREpLZWF4OWhnVEV1Y2JQZHFhZ29HWV82QjZ5MG1KaFE2dWxhMmF4cU9nU0lndUhza0hzQ3ZKcGVCMjBCdnk0OFB2NmZQZg?oc=5"
-   },
-   {
-    "date": "2026-09-26",
-    "published": "2026-09-26T08:17:00+00:00",
-    "source": "경향신문",
-    "title": "사우디 맞서고, 홍해 장악하는 후티반군···가죽 샌들 신은 후티는 어떻게 성장했나",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95WGt5eXdvX1lzRF9lNVoyRWl6XzdVa2RnVG5GUnJQc3BIWGlqbV9ZdFdfMEpla1FPZ1piNGVTbXRxeUxCSWNSdVRBOXBpSGgzTDd4aVRucWtlUdIBX0FVX3lxTE1fN1NkZnhPOUV4N2lSU0kzUmhHdkpTNUoxN2cyNkM4MlpZTWpMck5HVUhEU2s2VmVJUkx2UWpDMUt5MExCUndVRVdkbTJ4ZmFKcDludjFnT2tqZE1meXp3?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-27",
-    "published": "2026-09-27T16:39:56+00:00",
+    "published": "2026-09-27T19:42:56+00:00",
     "source": "DW",
     "title": "Why the global economy depends on Saudi Arabia",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcDFXQXlqVEFLZXB6VUR6MHNVaHB1TnJoRDFVeVQ4cVZleEhvRFNINUVHSFlHdTBvTFdCVTE3bnRkN0FVNEpNX2pabkk1eTE1bTQ4eWRpTVU5bU1rR3IxVjFROVdfRGtJN1VTMHlYQmpzOTZEQ0RRU3F1eVBndlpJdm5PRDI3Ti0tNnRV?oc=5"
+   },
+   {
+    "date": "2026-09-27",
+    "published": "2026-09-27T18:03:27+00:00",
+    "source": "DW",
+    "title": "Yemen: Houthis report deadly Saudi strikes on Taiz market",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUmZyTVJ2amFxMVgteGJXVTlkcjlPNkxxUWNkMFkwWTg1NDlTVElIdXIzekVTekVlOWxOY2JNRDI4NThUU1FTYU4wZm5JUF9WOV85elBmTzNmUlZQMENma2ZUbUJQeEpqZkRWem5NSjJTbndTWDdxLTlxZkxYd0xlcGRhcTNRNmxPX2U2ODR1bURxVzTSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5"
    },
    {
     "date": "2026-09-27",
@@ -2467,25 +2473,18 @@
     "source": "Reuters",
     "title": "Saudi Aramco is working with Evercore on gas unit plans, Bloomberg News reports",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZC11YWhLc0hmeG1xeFdGQmx5Y3REbmQzSzE4SHNmMURDbzd6Uk1WX0xlWEtlamw5dVJuT0N6c21ZTFZOZndkSGpPcWE4bGdVd0gxejBVRFRvR1RpUzR5b3NNdmZuTk43d2hOdzV4QW5tT2xqLWdkalJWTVhuVEswTFROYUlsbGNVeTE1YzA4c09MUE9oVlF5OWw4S2E2VWZBNF9BM2pueUx4VHY1R194SGdSbURXSFBvbmNJR0JfcVVPcFRwcHc?oc=5"
-   },
-   {
-    "date": "2026-09-25",
-    "published": "2026-09-25T17:41:53+00:00",
-    "source": "CNBC",
-    "title": "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQTZiYU0xWTcyLWxpd3FwcTRRR3ZHa0xxUGdLUE5UUXZNZl9wbnNDNVk3RXY0ZXJKLXk5SkdDc192blJXZ3FYTS1rSDlpU2d0ZmdYY2pHWHp5WHpwZWJQVlNrdTNxTzRuX1RqTmQyQXlVVktUUHF5LWdyNndQdkFOUDZCSXpFYmVxZmdsYXJENzhRQjc5OTR4SFpjYjJqYnQyVUlB0gGoAUFVX3lxTE54bkFvZk5aUHNlVWhfVkkyMEtuSTVGeU1XTEhBbDduWlEzYXV4aWpnQWdNY0Nqa1FQQzRkbjRDOTdfelhDVndJQVpMcDhmZUlLOVY4UmJ6dnMzYW9vd19QYS1lM1BYalNSOUdDYlVTTU9raFdCZU5fYXBHakF2THlWQ3owaDlmeWlnOUZybDVBX0I4TWVhZzRlYnhWalY4dWZTRHl1ckNMZw?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-27T18:18:04Z"
+  "last_ok_at": "2026-09-27T22:02:33Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T18:18:05Z",
+  "fetched_at": "2026-09-27T22:02:34Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 31,
-  "baseline": 30.5,
-  "baseline_n": 4,
+  "count": 29,
+  "baseline": 41,
+  "baseline_n": 5,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2550,14 +2549,15 @@
    "2026-09-27T01": 40,
    "2026-09-27T08": 29,
    "2026-09-27T13": 33,
-   "2026-09-27T18": 31
+   "2026-09-27T18": 31,
+   "2026-09-27T22": 29
   },
-  "last_ok_at": "2026-09-27T18:18:05Z"
+  "last_ok_at": "2026-09-27T22:02:34Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-27T18:18:05Z",
-  "last_ok_at": "2026-09-27T18:18:05Z"
+  "fetched_at": "2026-09-27T22:02:34Z",
+  "last_ok_at": "2026-09-27T22:02:34Z"
  }
 }
