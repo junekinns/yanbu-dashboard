@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T13:52:23Z",
+ "generated_at": "2026-09-27T18:17:36Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-09-27T18:17:36Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -188,16 +191,12 @@
   "last7d": 1,
   "baseline": 1.0,
   "tier": "평시",
-  "last_ok_at": "2026-09-27T08:01:46Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fe31d232240>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-09-27T13:52:23Z",
-  "stale": true
+  "last_ok_at": "2026-09-27T18:17:36Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T13:53:25Z",
+  "fetched_at": "2026-09-27T18:17:57Z",
   "events": [
    {
     "date": "2026-09-27",
@@ -937,22 +936,32 @@
   "history_days": 17,
   "history_since": "2026-09-11",
   "today": "2026-09-27",
-  "last_ok_at": "2026-09-27T13:53:25Z"
+  "last_ok_at": "2026-09-27T18:17:57Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T13:53:26Z",
+  "fetched_at": "2026-09-27T18:17:58Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-27 19:31",
+    "iso": "2026-09-27T19:31:44+03:00",
+    "places": [
+     "카미스무샤이트"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 26 غارة جوية من خلال طائرات \"F15\" أقلعت من قاعدة خميس مشيط واستهدفت محافظات تعز والجوف ومأرب وذمار وصعدة. وخلفت عشرات الشهداء والجرحى من المدنيين ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد 1085 غارة جويةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 기지에서 이륙하여 타이즈, 알자우프, 마리브, 다마르, 사다의 주지사를 겨냥한 \"F15\" 항공기를 통해 26회의 공습을 시작했습니다. 이로 인해 수십 명의 민간인이 사망하고 부상을 입었으며, 이관이 시작된 이후 사우디의 총 침략 습격 횟수는 1,085회의 공습과 미사일 습격으로 늘어났습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3782"
+   },
    {
     "time": "2026-09-27 16:02",
     "iso": "2026-09-27T16:02:38+03:00",
     "places": [
      "카미스무샤이트"
     ],
-    "text_ar": "اليوم الأحد بتاريخ 27 سبتمبر 2026م وعند الساعة (11:00 صباحا) اتجه تشكيل حربي سعودي نوع \"F15\" من قاعدة خميس مشيط باتجاه محافظة تعز وشن غارتين على سوق تعز في مفرق ماوية عند الساعة (11:29صباحا) مرتكبا جريمة نكراء بحق المدنيين خلفت قرابة الــ50 ما بين شهيد وجريح كحصيلة أولية، ثم غادر أجواء تعز في تمام الساعة (11:37صباحا) متوجها إلى محافظة الجوف وشن أربع غارات على مديرية خب والشعب، ثم غادر محافظة الجوف…",
-    "text_ko": "2026년 9월 27일 일요일 오전 11시 카미스 무샤이트 기지에서 타이즈 주 (Taiz Governorate) 로 향하는 사우디아라비아 군대 \"F15\" 가 오늘 오전 11시 29분에 타이즈 시장에 두 차례 습격을 가해 약 50명의 순교자와 부상을 예비 통행료로 남긴 채 민간인에 대한 극악한 범죄를 저지른 후 오전 11시 37분에 타이즈 영공을 떠나 알자우프 주 (Al-Jawf Governorate) 로 향하고 카브와 알샤브 국장 (Directorate of Khab and Al-Shaab) 에 네 차례 습격을 가한 후 알자우프 주 (Al-Jawf Governorate) 를 떠났습니다...",
+    "text_ar": "اليوم الأحد بتاريخ 27 سبتمبر 2026م وعند الساعة (11:00 صباحا) اتجه تشكيل حربي سعودي نوع \"F15\" من قاعدة خميس مشيط باتجاه محافظة تعز وشن غارتين على سوق تعز في مفرق ماوية عند الساعة (11:29صباحا) مرتكبا جريمة نكراء بحق المدنيين خلفت قرابة الــ50 ما بين شهيد وجريح كحصيلة أولية، ثم غادر أجواء تعز في تمام الساعة (11:37صباحا) متوجها إلى محافظة الجوف وشن أربع غارات على مديرية خب والشعف، ثم غادر محافظة الجوف…",
+    "text_ko": "2026년 9월 27일 일요일 오전 11시, 사우디아라비아의 군사 조직 \"F15\" 가 카미스 무샤이트 기지에서 타이즈 주 (Taiz Governorate) 로 향했고, 오전 11시 29분에 타이즈 시장에 두 차례 습격을 가했고, 약 50명의 순교자와 부상을 예비 통행료로 남긴 채 민간인에 대한 극악한 범죄를 저질렀으며, 오전 11시 37분에 타이즈 영공을 떠나 알자우프 주 (Al-Jawf Governorate) 로 향했고, 카브와 알샤프 국장 (Directorate of Khab and Al-Shaaf) 에 네 차례 습격을 가한 후 알자우프 주 (Al-Jawf Governorate) 를 떠났습니다...",
     "url": "https://t.me/army21ye/3781"
    },
    {
@@ -1436,18 +1445,18 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 9,
-   "타이프": 8,
+   "타이프": 7,
    "지잔": 7,
    "나즈란": 4,
-   "얀부": 3,
-   "리야드": 3
+   "리야드": 3,
+   "얀부": 3
   },
-  "last_ok_at": "2026-09-27T13:53:26Z"
+  "last_ok_at": "2026-09-27T18:17:58Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T13:53:30Z",
+  "fetched_at": "2026-09-27T18:18:02Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2387,12 +2396,12 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-27T13:53:30Z"
+  "last_ok_at": "2026-09-27T18:18:02Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T13:53:33Z",
+  "fetched_at": "2026-09-27T18:18:04Z",
   "kr": [
    {
     "date": "2026-09-27",
@@ -2433,17 +2442,17 @@
   "en": [
    {
     "date": "2026-09-27",
+    "published": "2026-09-27T16:39:56+00:00",
+    "source": "DW",
+    "title": "Why the global economy depends on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcDFXQXlqVEFLZXB6VUR6MHNVaHB1TnJoRDFVeVQ4cVZleEhvRFNINUVHSFlHdTBvTFdCVTE3bnRkN0FVNEpNX2pabkk1eTE1bTQ4eWRpTVU5bU1rR3IxVjFROVdfRGtJN1VTMHlYQmpzOTZEQ0RRU3F1eVBndlpJdm5PRDI3Ti0tNnRV?oc=5"
+   },
+   {
+    "date": "2026-09-27",
     "published": "2026-09-27T12:06:41+00:00",
     "source": "Al Jazeera",
     "title": "Yemen government forces widen attacks against Houthis: What we know",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONGVIbjJTVHlFbzBZdEp6ano2SzlFaFBxTXM0YnhrNThlN2dubVFwSmU3RlBHbjVCU056bWxTVVYxTnNZbnFlbFRveUdnM3BMTjMzbEdfVWhKd2ZUalhKTVhpV2RWN2dyY3R6ckdhcmszUGdzYlZRWVJLaVdjUzRENlEyZHdlRzlQZmtseE9oNmtNUlUyZWM2ZDVaX2FvUXBUM2JaNzEta2ZZVTjSAbABQVVfeXFMTmtZQ0p2ajhMWXZxOEFaRFU0b2U2aFZQWGZ4U181ZUJGbDNBcG1rWXlEd0FxdDN0ZTh0S3hnTXctOEk1SkhHaU1qZ0ZYa3drZGtoNUUza2tORGsyY2NaMGJwTG14eHFZZDZHOWJETHlCby1Id1ppRk85aUtkZ0pNNmlOZU1kSVltY3pWNnNzbEtRN2NBaUgwQUhuV0NUdGxCek5qYkpFVjlvcFVmOWI0UlI?oc=5"
-   },
-   {
-    "date": "2026-09-27",
-    "published": "2026-09-27T00:39:10+00:00",
-    "source": "DW",
-    "title": "Why the global economy depends on Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcDFXQXlqVEFLZXB6VUR6MHNVaHB1TnJoRDFVeVQ4cVZleEhvRFNINUVHSFlHdTBvTFdCVTE3bnRkN0FVNEpNX2pabkk1eTE1bTQ4eWRpTVU5bU1rR3IxVjFROVdfRGtJN1VTMHlYQmpzOTZEQ0RRU3F1eVBndlpJdm5PRDI3Ti0tNnRV?oc=5"
    },
    {
     "date": "2026-09-26",
@@ -2460,23 +2469,23 @@
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZC11YWhLc0hmeG1xeFdGQmx5Y3REbmQzSzE4SHNmMURDbzd6Uk1WX0xlWEtlamw5dVJuT0N6c21ZTFZOZndkSGpPcWE4bGdVd0gxejBVRFRvR1RpUzR5b3NNdmZuTk43d2hOdzV4QW5tT2xqLWdkalJWTVhuVEswTFROYUlsbGNVeTE1YzA4c09MUE9oVlF5OWw4S2E2VWZBNF9BM2pueUx4VHY1R194SGdSbURXSFBvbmNJR0JfcVVPcFRwcHc?oc=5"
    },
    {
-    "date": "2026-09-26",
-    "published": "2026-09-26T12:39:09+00:00",
+    "date": "2026-09-25",
+    "published": "2026-09-25T17:41:53+00:00",
     "source": "CNBC",
-    "title": "Trump rejects Iran's conditional ceasefire proposal, WSJ reports, as Saudi coalition intercepts projectiles",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUxMZVVFQXRza3JoYUlJSWtwUkw4WF83RUJIdDg2ZjFybVpZeHFnVVNxQjEweFZ2aGdVSXlaS3p2bjNiQmxtUkZJdkpxZGRHQkgtMkMyZ1R0ZFJuaGp1dWlPbzVGdHR3Wmp1NG5GZnBmXzdCTkNOTU5ycUF4ckVQNHk4ZGg3ZHJGNG4wT3pQdUtrZVNod2RvQnNrMVZFckpM0gGmAUFVX3lxTFBYc1JCcDZQLV8zMkxxTHR5MlplR3NEU0hDSF9fcTJaSFh1QjZkaU9IajNGYk5UZ1VVMS0zQU5sZURnSlNIbHB0VzBlaUc0XzhmTGFtQTNSWlp1MXZjQTd6dXMxVFJvblBIdkVlVEF1bmh2Wk5sbW5sUXhiYjlCa2g5YS1WVEFlTHZpbjJKdDlJQ3FuLTVLQlhkZ2hmSEI1aVphMHdrNVE?oc=5"
+    "title": "Saudi Arabia crude oil exports hit highest level since Iran war began despite pipeline outage",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQTZiYU0xWTcyLWxpd3FwcTRRR3ZHa0xxUGdLUE5UUXZNZl9wbnNDNVk3RXY0ZXJKLXk5SkdDc192blJXZ3FYTS1rSDlpU2d0ZmdYY2pHWHp5WHpwZWJQVlNrdTNxTzRuX1RqTmQyQXlVVktUUHF5LWdyNndQdkFOUDZCSXpFYmVxZmdsYXJENzhRQjc5OTR4SFpjYjJqYnQyVUlB0gGoAUFVX3lxTE54bkFvZk5aUHNlVWhfVkkyMEtuSTVGeU1XTEhBbDduWlEzYXV4aWpnQWdNY0Nqa1FQQzRkbjRDOTdfelhDVndJQVpMcDhmZUlLOVY4UmJ6dnMzYW9vd19QYS1lM1BYalNSOUdDYlVTTU9raFdCZU5fYXBHakF2THlWQ3owaDlmeWlnOUZybDVBX0I4TWVhZzRlYnhWalY4dWZTRHl1ckNMZw?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-27T13:53:33Z"
+  "last_ok_at": "2026-09-27T18:18:04Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T13:53:34Z",
+  "fetched_at": "2026-09-27T18:18:05Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 33,
-  "baseline": 33,
-  "baseline_n": 3,
+  "count": 31,
+  "baseline": 30.5,
+  "baseline_n": 4,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2540,14 +2549,15 @@
    "2026-09-26T22": 38,
    "2026-09-27T01": 40,
    "2026-09-27T08": 29,
-   "2026-09-27T13": 33
+   "2026-09-27T13": 33,
+   "2026-09-27T18": 31
   },
-  "last_ok_at": "2026-09-27T13:53:34Z"
+  "last_ok_at": "2026-09-27T18:18:05Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-27T13:53:34Z",
-  "last_ok_at": "2026-09-27T13:53:34Z"
+  "fetched_at": "2026-09-27T18:18:05Z",
+  "last_ok_at": "2026-09-27T18:18:05Z"
  }
 }
