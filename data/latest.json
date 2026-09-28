@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T22:02:09Z",
+ "generated_at": "2026-09-28T00:35:09Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T22:02:09Z",
+  "fetched_at": "2026-09-28T00:35:09Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -189,14 +189,14 @@
    }
   ],
   "last7d": 1,
-  "baseline": 1.0,
+  "baseline": 1.5,
   "tier": "평시",
-  "last_ok_at": "2026-09-27T22:02:09Z"
+  "last_ok_at": "2026-09-28T00:35:09Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T22:02:29Z",
+  "fetched_at": "2026-09-28T00:35:30Z",
   "events": [
    {
     "date": "2026-09-27",
@@ -935,12 +935,12 @@
   "history_days": 18,
   "history_since": "2026-09-11",
   "today": "2026-09-28",
-  "last_ok_at": "2026-09-27T22:02:29Z"
+  "last_ok_at": "2026-09-28T00:35:30Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T22:02:31Z",
+  "fetched_at": "2026-09-28T00:35:31Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1447,15 +1447,15 @@
    "타이프": 7,
    "지잔": 7,
    "나즈란": 4,
-   "리야드": 3,
-   "얀부": 3
+   "얀부": 3,
+   "리야드": 3
   },
-  "last_ok_at": "2026-09-27T22:02:31Z"
+  "last_ok_at": "2026-09-28T00:35:31Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T22:02:31Z",
+  "fetched_at": "2026-09-28T00:35:32Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2395,19 +2395,19 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-09-27T22:02:31Z"
+  "last_ok_at": "2026-09-28T00:35:32Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T22:02:33Z",
+  "fetched_at": "2026-09-28T00:35:34Z",
   "kr": [
    {
     "date": "2026-09-27",
-    "published": "2026-09-27T21:14:00+00:00",
+    "published": "2026-09-27T23:33:00+00:00",
     "source": "KBS",
-    "title": "후티 공세에 사우디 반격 강화…예멘 곳곳 공습·지상전 격화",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9TXzk1bkhpNkYwZkFzMGJQN2ZIYnRkMUF2UDBRZEI1dGxWM2g1d2d0d08wd0t0OFdTalZhc0dyYm0wWXBOYm50V0FnR0RydmM0dUFaTVVrUHhrb0NGc0VTQWJrSWlKdw?oc=5"
+    "title": "예멘 내전 격화…후티 “사우디가 재래시장 공습해 수십 명 사상”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBibDRXU3ZKdVJSZEJqeE56alE1cU5kakN0c0Nfay1wSm4zT2FaMW9fcmFMbFNoLTctclFQMkowWTFkbGNFSGRBc0ZnVU1ka0otOTdpaUdfREVyRkE?oc=5"
    },
    {
     "date": "2026-09-27",
@@ -2448,10 +2448,10 @@
    },
    {
     "date": "2026-09-27",
-    "published": "2026-09-27T18:03:27+00:00",
+    "published": "2026-09-27T17:53:07+00:00",
     "source": "DW",
     "title": "Yemen: Houthis report deadly Saudi strikes on Taiz market",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUmZyTVJ2amFxMVgteGJXVTlkcjlPNkxxUWNkMFkwWTg1NDlTVElIdXIzekVTekVlOWxOY2JNRDI4NThUU1FTYU4wZm5JUF9WOV85elBmTzNmUlZQMENma2ZUbUJQeEpqZkRWem5NSjJTbndTWDdxLTlxZkxYd0xlcGRhcTNRNmxPX2U2ODR1bURxVzTSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tiTmtOT3NLUTZvN1hYZHlETHUySG5iMnRvU0ltVS03QXAzWmtocndacEhvVGViM2xnbnFFbkhQLWt6eDlkQVhoUWtMRHNrSVBoS2l3VzlCQzVJTXdPTTVNZVg5WHF5eGdSZzN0ZmNBQlRZeDhmSkNOd3VJRElmbDU4aFVCUFFBTDFVLXl2U01OemfSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5"
    },
    {
     "date": "2026-09-27",
@@ -2475,16 +2475,16 @@
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZC11YWhLc0hmeG1xeFdGQmx5Y3REbmQzSzE4SHNmMURDbzd6Uk1WX0xlWEtlamw5dVJuT0N6c21ZTFZOZndkSGpPcWE4bGdVd0gxejBVRFRvR1RpUzR5b3NNdmZuTk43d2hOdzV4QW5tT2xqLWdkalJWTVhuVEswTFROYUlsbGNVeTE1YzA4c09MUE9oVlF5OWw4S2E2VWZBNF9BM2pueUx4VHY1R194SGdSbURXSFBvbmNJR0JfcVVPcFRwcHc?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-27T22:02:33Z"
+  "last_ok_at": "2026-09-28T00:35:34Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-27T22:02:34Z",
+  "fetched_at": "2026-09-28T00:35:35Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 29,
-  "baseline": 41,
-  "baseline_n": 5,
+  "count": 39,
+  "baseline": 45,
+  "baseline_n": 3,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2550,14 +2550,15 @@
    "2026-09-27T08": 29,
    "2026-09-27T13": 33,
    "2026-09-27T18": 31,
-   "2026-09-27T22": 29
+   "2026-09-27T22": 29,
+   "2026-09-28T00": 39
   },
-  "last_ok_at": "2026-09-27T22:02:34Z"
+  "last_ok_at": "2026-09-28T00:35:35Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-27T22:02:34Z",
-  "last_ok_at": "2026-09-27T22:02:34Z"
+  "fetched_at": "2026-09-28T00:35:35Z",
+  "last_ok_at": "2026-09-28T00:35:35Z"
  }
 }
