@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T15:19:39Z",
+ "generated_at": "2026-09-28T21:52:13Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-28T15:19:39Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +188,16 @@
   "last7d": 1,
   "baseline": 1.5,
   "tier": "평시",
-  "last_ok_at": "2026-09-28T15:19:39Z"
+  "last_ok_at": "2026-09-28T15:19:39Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7ff18eb89a60>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-28T21:52:13Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-28T15:19:54Z",
+  "fetched_at": "2026-09-28T21:53:14Z",
   "events": [
    {
     "date": "2026-09-27",
@@ -798,10 +799,8 @@
    "제다": {
     "7d": {},
     "total7d": 0,
-    "prev7d": {
-     "경보": 1
-    },
-    "prev_total": 1
+    "prev7d": {},
+    "prev_total": 0
    },
    "메디나": {
     "7d": {
@@ -832,9 +831,9 @@
     "prev7d": {
      "피격": 4,
      "요격": 2,
-     "경보": 2
+     "경보": 1
     },
-    "prev_total": 8
+    "prev_total": 7
    },
    "타이프": {
     "7d": {},
@@ -932,17 +931,30 @@
     "prev_total": 0
    }
   },
-  "history_days": 18,
+  "history_days": 19,
   "history_since": "2026-09-11",
-  "today": "2026-09-28",
-  "last_ok_at": "2026-09-28T15:19:54Z"
+  "today": "2026-09-29",
+  "last_ok_at": "2026-09-28T21:53:14Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-28T15:19:55Z",
+  "fetched_at": "2026-09-28T21:53:15Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-09-28 20:01",
+    "iso": "2026-09-28T20:01:24+03:00",
+    "places": [
+     "타이프",
+     "지잔",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 38 غارةً جويةً وصاروخاً من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وجيزان استهدف العدو بها محافظات تعز وصعدة وحجة وخلفت شهداء وجرحى من المدنيين بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد 1123 غارةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 (Khamis Mushait) 와 타이프 (Taif) 기지에서 이륙한 \"F-15\" 와 \"타이푼 (Typhoon)\" 항공기와 적군이 타이즈 (Taiz), 사다 (Saada), 하자 (Hajjah) 주지사를 겨냥한 나지란 (Najran) 과 지잔 (Jizan) 의 미사일 공격을 통해 38번의 공습과 미사일 공습을 감행하여 순교자들과 여성과 어린이를 포함한 부상당한 민간인들을 남겼습니다. 이관이 시작된 이후 사우디의 총 침략 습격 횟수를 1,123회의 습격과 미사일로 끌어올렸습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3783"
+   },
    {
     "time": "2026-09-27 19:31",
     "iso": "2026-09-27T19:31:44+03:00",
@@ -1450,12 +1462,12 @@
    "얀부": 3,
    "리야드": 3
   },
-  "last_ok_at": "2026-09-28T15:19:55Z"
+  "last_ok_at": "2026-09-28T21:53:15Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-28T15:19:56Z",
+  "fetched_at": "2026-09-28T21:53:18Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2091,22 +2103,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 26.08974,
-    "lon": 50.58653,
-    "frp": 1.8,
-    "date": "2026-09-25",
-    "time": "2252",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.0905,
-    "lon": 50.58542,
-    "frp": 1.84,
-    "date": "2026-09-25",
-    "time": "2252",
-    "confidence": "nominal"
-   },
-   {
     "lat": 25.5539,
     "lon": 49.37988,
     "frp": 0.3,
@@ -2171,14 +2167,6 @@
     "confidence": "low"
    },
    {
-    "lat": 26.08861,
-    "lon": 50.58537,
-    "frp": 11.54,
-    "date": "2026-09-26",
-    "time": "1009",
-    "confidence": "low"
-   },
-   {
     "lat": 27.1326,
     "lon": 49.2052,
     "frp": 1.52,
@@ -2230,14 +2218,6 @@
     "lat": 26.11159,
     "lon": 50.60794,
     "frp": 1.49,
-    "date": "2026-09-26",
-    "time": "2233",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.08822,
-    "lon": 50.58356,
-    "frp": 1.78,
     "date": "2026-09-26",
     "time": "2233",
     "confidence": "nominal"
@@ -2307,22 +2287,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 26.08858,
-    "lon": 50.58483,
-    "frp": 3.18,
-    "date": "2026-09-27",
-    "time": "2216",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.08941,
-    "lon": 50.58334,
-    "frp": 3.28,
-    "date": "2026-09-27",
-    "time": "2216",
-    "confidence": "nominal"
-   },
-   {
     "lat": 25.96659,
     "lon": 49.22821,
     "frp": 1.76,
@@ -2377,21 +2341,43 @@
     "date": "2026-09-27",
     "time": "2358",
     "confidence": "nominal"
+   },
+   {
+    "lat": 27.18846,
+    "lon": 49.65224,
+    "frp": 9.39,
+    "date": "2026-09-28",
+    "time": "0930",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-28T15:19:56Z"
+  "last_ok_at": "2026-09-28T21:53:18Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-28T15:19:59Z",
+  "fetched_at": "2026-09-28T21:53:21Z",
   "kr": [
+   {
+    "date": "2026-09-28",
+    "published": "2026-09-28T20:13:51+00:00",
+    "source": "뉴스1",
+    "title": "WTI 0.2% 상승 마감…사우디 송유관 재가동에 상승폭 대부분 반납",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DX2sya1VEME1kSDdUdEV0RnBOM2xMZ1pVY29qMWFHLWM5QTdPYWluVV9WWVpURWtOcXUzTGUtZUF1MW1uSG5Wdi1YMnZuN2wtc1BmSERzTjVXWWJaemNmQXBCOWpDc0nSAWxBVV95cUxQRl9LUGhreHhXQXRQX3lSanA0RHRRNnpSWVNLYlBrTWJTc3FubHRNc3hpVGtucS1Tci1ITDJFUXo2V3A3MUREbXF6alFocFRDa25UWUw1MkZic0JRSUdjRmR5blRURzBnS3VRQjE?oc=5"
+   },
    {
     "date": "2026-09-28",
     "published": "2026-09-28T14:28:00+00:00",
     "source": "동아일보",
-    "title": "홍해 충돌 격화… 후티 “폭격에 50명 사상” 사우디는 등교 중단",
+    "title": "홍해 충돌 격화… 후티 “폭격 보복” 예고에 사우디 등교 중단",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAwbVdfeVdrNC1qa2xUZ2dlR3hLV0FlQThDQzZ2NUVzdS1xS2xjY21obXYxNWItTWhmUjBINlBvdE4zU0xCemxtM0NuOXFibl9vcUtGM2E0bFh6ci1PTVl6NEJHSV9NNTZiR3dMV2FuMnlZZU3SAWZBVV95cUxNVU1zckNaUkxQQ3Y3Z0lkVEhVTjdNWERuRnZFXzhJUlhvTmctRVdvRmJwT00xR1A0cUo2ak5oekVVN0dwS3o0UUt6NFNlbjNxaXJWdnZxZG9Jc3JQR1NxQ0toRFFmUXc?oc=5"
+   },
+   {
+    "date": "2026-09-28",
+    "published": "2026-09-28T10:37:00+00:00",
+    "source": "채널A",
+    "title": "사우디, 재래시장에 폭탄…후티 “47명 사상”",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iSXVWMWVpREVwMDBweEl4NnZIbExsbjZqLUZMVGRKamxNR3FrNDM1cTMxNC1xNDd5VkliZU5VdkUySlNKc1JDLWVUNnV1bXBXc05ZSE5QWEhIX08wUUHSAWNBVV95cUxPdFVQaU5EbGNidzU3TEZGdkNjRlgtOXgwNXZ1cDhsa2FTNk5lTnFadEhZRXVJblFjWG03V1VBcGlFN19xTEpvVk9nNUl3ZHVpWUpJd255dzNhZkRpWVpLejdfLUU?oc=5"
    },
    {
     "date": "2026-09-28",
@@ -2406,67 +2392,53 @@
     "source": "MBC",
     "title": "젤렌스키 \"러시아 드론 공격에 사우디 대사 관저 피해\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1RR0dQQlMyU3Z4ZGFfSk5qVlNROGFMZEtpQVFjbkR2TTdlcnVrT0E5bEV5eWpHQUZORjJwOUVPOUR6cU9vVXdLWkFZbTc3WDNGU3JJT29sb0tGM3hXcjZsVEc4NEZhWHY0d29YU21ZUl9RN0FG0gF0QVVfeXFMT0xYNmt3ZHBDVFhDQzJhR2cwS0ZMbjRWTE9tWndtVzBwdExqU0JtWlFsb3FfQkUzQ1lnRGF4WDlqcWV2cTFJV2tXLUcyMWZhZHBZM19Mb1RvNTVDNGVnT1hWX1NfTEdpcUFrLVRmOFlBbnNUT0U?oc=5"
-   },
-   {
-    "date": "2026-09-28",
-    "published": "2026-09-28T08:35:00+00:00",
-    "source": "YTN",
-    "title": "잡히면 이란 드론 폭격…'필사의 작전' 펼치는 사우디·이라크 [지금이뉴스]",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NOTBpUTRvREhMNjJsVHVIVWN5NkpCbUlVSWhMRVZ0MWhKSW5laUhpNnNsSGFSNTJTZS14MDFHbGpDV1drVWFkcFFudENyVkdTM2RSNEFlNXVORDFKclVKRHk1YVhwcklfX1M2T1NEWGlpOXJQcXc?oc=5"
-   },
-   {
-    "date": "2026-09-28",
-    "published": "2026-09-28T08:11:26+00:00",
-    "source": "연합뉴스",
-    "title": "젤렌스키 \"러 드론 공격에 사우디 대사관저 건물 피해\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5ZkdIR1c4enBaVmpCMnE3U0dCZGlWX2tKdGVPOXQ5TjNTUXpsdXNRYjRxZVIzekdNVkxVRGlEVkFYUWI0NEF4SkR5TG85RVhXQlZ0dGU4ZjBndVgyWnJjdtIBYEFVX3lxTFA5ZkdIR1c4enBaVmpCMnE3U0dCZGlWX2tKdGVPOXQ5TjNTUXpsdXNRYjRxZVIzekdNVkxVRGlEVkFYUWI0NEF4SkR5TG85RVhXQlZ0dGU4ZjBndVgyWnJjdg?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-28",
-    "published": "2026-09-28T13:11:23+00:00",
+    "published": "2026-09-28T20:32:46+00:00",
     "source": "Bloomberg",
-    "title": "Oil Rises as Iran Says It Won’t Soften Strait of Hormuz Demands",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcElYRUlDZHRpYWNJcDFodXAtUVJfNTJmbDJId3RYLVY3Y2VyWEVHNUdTTVo2djMwajhURi11S2N2M3FFVjBNX1dEVFd1Z3dqc2taTlVrZWN5OW54MzdHQW9GZ1lucTBmMGczOGJuREFDY2JxdDlQUDZDaFkxZU9SNVFlVU9IUko2d0QwQzdQbWUydm9QYUl1LWJUeVIwODQ?oc=5"
+    "title": "War in the Middle East Is Testing Saudi Arabia’s Oil Pipeline",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb3lHSmdPbllLS0ZiZVBpM2dqMnFOREVqUVY3R3Q4YU0wMl9SbFJDMGoxay1FS3NIbUNDOUh5clVDSk05ZjlmTDdqYnZIMkdMb2E3ZC1Jb1g4aUE2Xzl2MWxncmo2MjVNMlFTTDdVeXF3aWh2Mm9Sa0JUSV84ZGJFTkoxMktDT1N2WldtaHptUUtobnFpSnJMUVFBWHFZbEowRnFRX1VJS0RsSnZ6M1pSX1J2bEpwdWdUc3c?oc=5"
    },
    {
     "date": "2026-09-28",
-    "published": "2026-09-28T12:47:00+00:00",
+    "published": "2026-09-28T16:32:08+00:00",
     "source": "Bloomberg",
-    "title": "Saudi Arabia’s Key Oil Pipeline Starts Exports After Repairs",
+    "title": "Saudi Arabia’s Crucial Oil Pipeline Starts Exports After Repairs",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWG4wbWZuVUlMby1wTk1zSURXY2tUM1NtM1BlVVRlUjF0UDJ1bmgxOEgyOE9MMjZWX09vRmhaWElGQ0VmNTJDX1dycHctS2xmTU04VUZrLUQ5emttVEZzdm5kMUJnMFlIY3FvVEgzd2RMTFg0RlpSM2hYTk11Uk1INDA2SlVoWEtPZlhGQjlNYmR0RUY5T2hrZGtmXzhrNDFpcjREckR4UTJ5X0RJRkw0dDZXdFFtQQ?oc=5"
    },
    {
     "date": "2026-09-28",
-    "published": "2026-09-28T06:40:19+00:00",
-    "source": "DW",
-    "title": "Yemen: Houthis report deadly Saudi strikes on Taiz market",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tiTmtOT3NLUTZvN1hYZHlETHUySG5iMnRvU0ltVS03QXAzWmtocndacEhvVGViM2xnbnFFbkhQLWt6eDlkQVhoUWtMRHNrSVBoS2l3VzlCQzVJTXdPTTVNZVg5WHF5eGdSZzN0ZmNBQlRZeDhmSkNOd3VJRElmbDU4aFVCUFFBTDFVLXl2U01OemfSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5"
+    "published": "2026-09-28T16:20:37+00:00",
+    "source": "The New York Times",
+    "title": "Over 800 Killed in Renewed Houthi-Saudi War in Yemen, W.H.O. Says",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVHF5aTM3T1BqMlF6dGdCa1A5bXYzNVB0SnNuZDRhQ1Jvblk3NDBGMk9aQlFJMWRlTHNVSFdwVlZwNXUwRVRCYUlFeENhdk00N2tib1A2TzRXa29aWkFHbUhZeUxSZ2lNSzRiT3FrdEJjbFowVzA2TTR0c2FWbTNRdg?oc=5"
    },
    {
     "date": "2026-09-28",
-    "published": "2026-09-28T00:17:00+00:00",
+    "published": "2026-09-28T13:45:26+00:00",
     "source": "Reuters",
-    "title": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHV0WUlQdWJ2UVdjY2FzaFliQU1TaEEtYmJQUzVUbjUwcWJkNkhZSXYwV1BwbkFqY3Z6MVRkT21jbWhCUEg0eGY0TnFnY25XVjFiQzBMbE5yOXJlbzZVYVZ3UTJMc1BjLUFtb0FVaDRWVW9jRVFUZDQ0N2hGX19NREk0MHhZZVNSekNVb01JLWVPR0gzdm9fQ1ZTbFlHa2hYSDFBY2JpdkpmeDRFM0dpU0VmdHluNzZGbkpZ?oc=5"
+    "title": "Saudi Aramco considering discounts for Oman STS crude to counter high freight rates, sources say",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXp6ZHpWZDhSTHRFM0JsM2ktZXdHQTRucFRQVFVCZFlIdjdpR1VpNVRObXhkQkxsRUpHYkgxTDFxOVNkWUJubE9VQk1OSnhhTFJ4TjRvUG8tNWtoVEpKTlFFcDhwT0Nlb2JVbmpHN0ExaUdrWEF5NFBsYnZLcnJxaGc4NVp2SUUtQ0hhMW5pbEFndEdqM3dXWDNXcTJ4bVRlTmlqTkpMNGlVSUNyT01OLWhPbVNfNExTNVhsS214Sjc0Q3FpQ0o4?oc=5"
    },
    {
-    "date": "2026-09-27",
-    "published": "2026-09-27T12:06:41+00:00",
-    "source": "Al Jazeera",
-    "title": "Yemen government forces widen attacks against Houthis: What we know",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONGVIbjJTVHlFbzBZdEp6ano2SzlFaFBxTXM0YnhrNThlN2dubVFwSmU3RlBHbjVCU056bWxTVVYxTnNZbnFlbFRveUdnM3BMTjMzbEdfVWhKd2ZUalhKTVhpV2RWN2dyY3R6ckdhcmszUGdzYlZRWVJLaVdjUzRENlEyZHdlRzlQZmtseE9oNmtNUlUyZWM2ZDVaX2FvUXBUM2JaNzEta2ZZVTjSAbABQVVfeXFMTmtZQ0p2ajhMWXZxOEFaRFU0b2U2aFZQWGZ4U181ZUJGbDNBcG1rWXlEd0FxdDN0ZTh0S3hnTXctOEk1SkhHaU1qZ0ZYa3drZGtoNUUza2tORGsyY2NaMGJwTG14eHFZZDZHOWJETHlCby1Id1ppRk85aUtkZ0pNNmlOZU1kSVltY3pWNnNzbEtRN2NBaUgwQUhuV0NUdGxCek5qYkpFVjlvcFVmOWI0UlI?oc=5"
+    "date": "2026-09-28",
+    "published": "2026-09-28T12:47:06+00:00",
+    "source": "DW",
+    "title": "Yemen: Houthis report deadly Saudi strikes on Taiz market",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2tiTmtOT3NLUTZvN1hYZHlETHUySG5iMnRvU0ltVS03QXAzWmtocndacEhvVGViM2xnbnFFbkhQLWt6eDlkQVhoUWtMRHNrSVBoS2l3VzlCQzVJTXdPTTVNZVg5WHF5eGdSZzN0ZmNBQlRZeDhmSkNOd3VJRElmbDU4aFVCUFFBTDFVLXl2U01OemfSAZMBQVVfeXFMTVJmck1SdmphcTFYLXhiV1U5ZHI5TzZMcVFjZDBZMFk4NTQ5U1RJSHVyM3pFU3pFZTlsTmNiTUQyODU4VFNRU2FOMGZuSVBfVjlfOXpQZk8zZlJWUDBDZmtmVG1CUHhKamZEVnpuTUoyU253U1g3cS05cWZMWHdMZXBkYXEzUTZsT19lNjg0dW1EcVc0?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-28T15:19:59Z"
+  "last_ok_at": "2026-09-28T21:53:21Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-28T15:20:00Z",
+  "fetched_at": "2026-09-28T21:53:22Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 35,
+  "count": 25,
   "baseline": null,
   "baseline_n": 2,
   "tier": "정상",
@@ -2537,14 +2509,15 @@
    "2026-09-27T22": 29,
    "2026-09-28T00": 39,
    "2026-09-28T06": 27,
-   "2026-09-28T15": 35
+   "2026-09-28T15": 35,
+   "2026-09-28T21": 25
   },
-  "last_ok_at": "2026-09-28T15:20:00Z"
+  "last_ok_at": "2026-09-28T21:53:22Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-28T15:20:00Z",
-  "last_ok_at": "2026-09-28T15:20:00Z"
+  "fetched_at": "2026-09-28T21:53:22Z",
+  "last_ok_at": "2026-09-28T21:53:22Z"
  }
 }
