@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T01:49:12Z",
+ "generated_at": "2026-09-29T08:21:06Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T01:49:12Z",
+  "fetched_at": "2026-09-29T08:21:06Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 0,
   "baseline": 1.5,
   "tier": "평시",
-  "last_ok_at": "2026-09-29T01:49:12Z"
+  "last_ok_at": "2026-09-29T08:21:06Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T01:49:32Z",
+  "fetched_at": "2026-09-29T08:21:21Z",
   "events": [
    {
     "date": "2026-09-27",
@@ -508,20 +508,6 @@
    },
    {
     "date": "2026-09-19",
-    "time": "15:53",
-    "iso": "2026-09-19T15:53:19+03:00",
-    "city": "리야드",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "Saudi Arabia says it intercepted Houthi ballistic missile targeting Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQenBISkpadHcyMlJ0ZExvby1nMGJIT3Y4Q0NwM1FRS1huT3lXUldya2dCWkFQR2lwM1kzS2ViSHBrc0JhRy1LZVVBR1I0eDBTQXlCQ3BKWTdLY2VGRFMzVS1BWk1TNXFpTzYzcDBCdGVZRWlpRTFFNWF4MWxlRmxKak9GYWRjeW1CdUd2T054ZktnbGxxeVV5cFBMTDNhb2pxWmRjcXpwdEkxRnFwamJUVjZKVVpTVlJfXzJJ?oc=5",
-    "source": "Anadolu",
-    "outlets": 2
-   },
-   {
-    "date": "2026-09-19",
     "time": "13:55",
     "iso": "2026-09-19T13:55:02+03:00",
     "city": "리야드",
@@ -533,6 +519,20 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvMFRwSWstSTNBblR5ek5lU0dHTHA2cV9kVnp6QUR0aXRwa2dEZG1FbWQyV3djWWg1ck9xMmpmREExNlhPSXdUbV9GQnZlZ3BhWU9kWGFhbG5qS0FDMVk3ctIBYEFVX3lxTFBvMFRwSWstSTNBblR5ek5lU0dHTHA2cV9kVnp6QUR0aXRwa2dEZG1FbWQyV3djWWg1ck9xMmpmREExNlhPSXdUbV9GQnZlZ3BhWU9kWGFhbG5qS0FDMVk3cg?oc=5",
     "source": "연합뉴스",
     "outlets": 3
+   },
+   {
+    "date": "2026-09-19",
+    "time": "10:00",
+    "iso": "2026-09-19T10:00:00+03:00",
+    "city": "리야드",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Saudi Arabia says it intercepted Houthi ballistic missile targeting Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQenBISkpadHcyMlJ0ZExvby1nMGJIT3Y4Q0NwM1FRS1huT3lXUldya2dCWkFQR2lwM1kzS2ViSHBrc0JhRy1LZVVBR1I0eDBTQXlCQ3BKWTdLY2VGRFMzVS1BWk1TNXFpTzYzcDBCdGVZRWlpRTFFNWF4MWxlRmxKak9GYWRjeW1CdUd2T054ZktnbGxxeVV5cFBMTDNhb2pxWmRjcXpwdEkxRnFwamJUVjZKVVpTVlJfXzJJ?oc=5",
+    "source": "Anadolu",
+    "outlets": 2
    },
    {
     "date": "2026-09-19",
@@ -933,12 +933,12 @@
   "history_days": 19,
   "history_since": "2026-09-11",
   "today": "2026-09-29",
-  "last_ok_at": "2026-09-29T01:49:32Z"
+  "last_ok_at": "2026-09-29T08:21:21Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T01:49:33Z",
+  "fetched_at": "2026-09-29T08:21:22Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1455,132 +1455,20 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 9,
-   "지잔": 7,
    "타이프": 7,
+   "지잔": 7,
    "나즈란": 4,
    "얀부": 3,
    "리야드": 3
   },
-  "last_ok_at": "2026-09-29T01:49:33Z"
+  "last_ok_at": "2026-09-29T08:21:22Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T01:49:33Z",
+  "fetched_at": "2026-09-29T08:21:23Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
-   {
-    "lat": 21.16285,
-    "lon": 39.51788,
-    "frp": 3.85,
-    "date": "2026-09-21",
-    "time": "1140",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.18859,
-    "lon": 49.1427,
-    "frp": 2.16,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.07511,
-    "lon": 49.57486,
-    "frp": 2.26,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.86032,
-    "lon": 49.4399,
-    "frp": 1.17,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.85934,
-    "lon": 49.43707,
-    "frp": 1.31,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.77824,
-    "lon": 50.00042,
-    "frp": 1.01,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.15742,
-    "lon": 50.66647,
-    "frp": 1.12,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.82403,
-    "lon": 50.13608,
-    "frp": 2.7,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.94372,
-    "lon": 47.06173,
-    "frp": 2.13,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.94308,
-    "lon": 47.0668,
-    "frp": 2.13,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.87958,
-    "lon": 46.81347,
-    "frp": 4.02,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.70782,
-    "lon": 39.03146,
-    "frp": 3.28,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.55404,
-    "lon": 39.43526,
-    "frp": 1.33,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 16.58183,
-    "lon": 42.96558,
-    "frp": 1.12,
-    "date": "2026-09-21",
-    "time": "2229",
-    "confidence": "nominal"
-   },
    {
     "lat": 22.55258,
     "lon": 39.43198,
@@ -1657,6 +1545,22 @@
     "lat": 24.1471,
     "lon": 46.23386,
     "frp": 0.53,
+    "date": "2026-09-22",
+    "time": "2210",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.53768,
+    "lon": 53.928,
+    "frp": 1.97,
+    "date": "2026-09-22",
+    "time": "2210",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.53594,
+    "lon": 53.93976,
+    "frp": 1.81,
     "date": "2026-09-22",
     "time": "2210",
     "confidence": "nominal"
@@ -1742,14 +1646,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.95051,
-    "lon": 38.26579,
-    "frp": 11.44,
-    "date": "2026-09-23",
-    "time": "1104",
-    "confidence": "low"
-   },
-   {
     "lat": 27.19135,
     "lon": 49.14071,
     "frp": 2.04,
@@ -1779,6 +1675,22 @@
     "frp": 1.5,
     "date": "2026-09-23",
     "time": "2150",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.96571,
+    "lon": 49.22911,
+    "frp": 1.24,
+    "date": "2026-09-23",
+    "time": "2150",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.96658,
+    "lon": 49.23185,
+    "frp": 1.87,
+    "date": "2026-09-23",
+    "time": "2329",
     "confidence": "nominal"
    },
    {
@@ -1942,22 +1854,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.95168,
-    "lon": 38.26568,
-    "frp": 2.28,
-    "date": "2026-09-24",
-    "time": "2312",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.94994,
-    "lon": 38.27765,
-    "frp": 3.11,
-    "date": "2026-09-24",
-    "time": "2312",
-    "confidence": "nominal"
-   },
-   {
     "lat": 26.15602,
     "lon": 50.66811,
     "frp": 0.75,
@@ -1993,14 +1889,6 @@
     "lat": 22.55373,
     "lon": 39.43485,
     "frp": 4.91,
-    "date": "2026-09-24",
-    "time": "2314",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.57821,
-    "lon": 39.08639,
-    "frp": 1.44,
     "date": "2026-09-24",
     "time": "2314",
     "confidence": "nominal"
@@ -2054,33 +1942,9 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.95062,
-    "lon": 38.2664,
-    "frp": 2.35,
-    "date": "2026-09-25",
-    "time": "2254",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.94958,
-    "lon": 38.27543,
-    "frp": 2.6,
-    "date": "2026-09-25",
-    "time": "2254",
-    "confidence": "nominal"
-   },
-   {
     "lat": 22.70611,
     "lon": 39.03273,
     "frp": 1.04,
-    "date": "2026-09-25",
-    "time": "2254",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.57989,
-    "lon": 39.0868,
-    "frp": 2.4,
     "date": "2026-09-25",
     "time": "2254",
     "confidence": "nominal"
@@ -2113,6 +1977,14 @@
     "lat": 27.1326,
     "lon": 49.2052,
     "frp": 1.52,
+    "date": "2026-09-26",
+    "time": "2233",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.01066,
+    "lon": 49.55847,
+    "frp": 2.49,
     "date": "2026-09-26",
     "time": "2233",
     "confidence": "nominal"
@@ -2166,6 +2038,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 22.53776,
+    "lon": 53.93972,
+    "frp": 2.13,
+    "date": "2026-09-26",
+    "time": "2233",
+    "confidence": "nominal"
+   },
+   {
     "lat": 23.9493,
     "lon": 38.26477,
     "frp": 6.45,
@@ -2182,9 +2062,25 @@
     "confidence": "nominal"
    },
    {
+    "lat": 27.01025,
+    "lon": 49.55955,
+    "frp": 4.82,
+    "date": "2026-09-27",
+    "time": "2214",
+    "confidence": "nominal"
+   },
+   {
     "lat": 26.1996,
     "lon": 50.6772,
     "frp": 0.62,
+    "date": "2026-09-27",
+    "time": "2216",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.96659,
+    "lon": 49.22821,
+    "frp": 1.76,
     "date": "2026-09-27",
     "time": "2216",
     "confidence": "nominal"
@@ -2198,17 +2094,17 @@
     "confidence": "nominal"
    },
    {
-    "lat": 22.55639,
-    "lon": 39.43486,
-    "frp": 1.81,
+    "lat": 22.53545,
+    "lon": 53.94035,
+    "frp": 2.24,
     "date": "2026-09-27",
-    "time": "2356",
+    "time": "2216",
     "confidence": "nominal"
    },
    {
-    "lat": 22.57874,
-    "lon": 39.08509,
-    "frp": 1.68,
+    "lat": 22.55639,
+    "lon": 39.43486,
+    "frp": 1.81,
     "date": "2026-09-27",
     "time": "2356",
     "confidence": "nominal"
@@ -2246,6 +2142,22 @@
     "confidence": "nominal"
    },
    {
+    "lat": 27.00941,
+    "lon": 49.55786,
+    "frp": 3.09,
+    "date": "2026-09-28",
+    "time": "2155",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.00919,
+    "lon": 49.55793,
+    "frp": 2.64,
+    "date": "2026-09-28",
+    "time": "2155",
+    "confidence": "nominal"
+   },
+   {
     "lat": 26.93874,
     "lon": 49.47504,
     "frp": 2.44,
@@ -2260,21 +2172,154 @@
     "date": "2026-09-28",
     "time": "2155",
     "confidence": "nominal"
+   },
+   {
+    "lat": 25.96624,
+    "lon": 49.22758,
+    "frp": 0.94,
+    "date": "2026-09-28",
+    "time": "2155",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.96684,
+    "lon": 49.23001,
+    "frp": 0.66,
+    "date": "2026-09-28",
+    "time": "2155",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.03301,
+    "lon": 49.61318,
+    "frp": 5.5,
+    "date": "2026-09-28",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.03384,
+    "lon": 49.60688,
+    "frp": 4.68,
+    "date": "2026-09-28",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.03196,
+    "lon": 49.61376,
+    "frp": 2.88,
+    "date": "2026-09-28",
+    "time": "2335",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.28135,
+    "lon": 37.56821,
+    "frp": 1.64,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.98068,
+    "lon": 38.22523,
+    "frp": 3.46,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97782,
+    "lon": 38.24024,
+    "frp": 2.15,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.98168,
+    "lon": 38.22361,
+    "frp": 6.96,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.98076,
+    "lon": 38.22861,
+    "frp": 6.0,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.9789,
+    "lon": 38.23863,
+    "frp": 6.25,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.70663,
+    "lon": 39.03567,
+    "frp": 0.95,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.55571,
+    "lon": 39.43603,
+    "frp": 2.07,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.27286,
+    "lon": 39.17376,
+    "frp": 1.29,
+    "date": "2026-09-28",
+    "time": "2337",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-29T01:49:33Z"
+  "last_ok_at": "2026-09-29T08:21:23Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T01:49:35Z",
+  "fetched_at": "2026-09-29T08:21:26Z",
   "kr": [
    {
     "date": "2026-09-29",
-    "published": "2026-09-29T01:29:00+00:00",
+    "published": "2026-09-29T07:00:00+00:00",
+    "source": "한겨레",
+    "title": "미-이란, 중재국 ‘물밑 협상’ 이어져…사우디 동서송유관 복구",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82c2t0SGpsU0k5bkJBeHFkTFdXQVVzUEZVcWNiR3VJMEZVR2VHWG1iWFJKaXR5d1F3UGxyY0pMZ3ItTGFSLUdpcVpCMmNkYzg1cjhxdWFSOFZaT0pfZDZYUUNuQXp1MGJNa0FFbjktMGU2a0E?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T06:14:00+00:00",
+    "source": "한국일보",
+    "title": "사우디 송유관 복구·호르무즈 회복... 중동 원유수송 80% 반등",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HWGpmRFV6SDRMbkZuWWNfVUQzaXBPdkV0RWpYVElwMXQ4b2hUYXRqdE02WXBmeTYxeWU3TEZiYTd1aGFqSmpuQmpFZzhYcVZxVkhFVzVLMnJ3eWx1LTljMEwtTWNUU2ptWVhGWmw0T1NHQnfSAXNBVV95cUxNR1hqZkRVekg0TG5GblljX1VEM2lwT3ZFdEVqWFRJcDF0OG9oVGF0anRNNllwZnk2MXllN0xGYmE3dWhhakpqbkJqRWc4WHFWcVZIRVc1SzJyd3lsdS05YzBMLU1jVFNqbVlYRlpsNE9TR0J3?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T01:47:00+00:00",
     "source": "연합뉴스",
-    "title": "사우디, 폭격 맞은 송유관 복구…홍해 원유 수출 재개",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NMHlqOUxTVThLeEFQZ19VVWNackV0XzNEZnpXeXNCbllOc3BHdFJoNDgtVWxHRHNhYkxlNUVqUVpYTHV6dVVHekNEY1RhN3NWN2IxbzNnZkg0YkxIM3c5M3UzSG1GSFk?oc=5"
+    "title": "UAE, 사우디 초청에 화답…후티 공동대응 주목",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoZlYxWFZ5XzV4UHNPcGhzTDNMcTZyVGtvc01kTUlYN0NnX2hmd1FSaVlYcjFWTENJbUNuSngyVzlfXzZYTU9kdk5KRjBVaTN1cnBld010M3RBT1hycEFxMHVONDFMWUU?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T01:31:35+00:00",
+    "source": "연합뉴스",
+    "title": "UAE, 마찰음 빚던 사우디 초청에 화답…후티 공동대응 주목(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoT0VlZ3BOLXlCb3k0dWI2NElha2ZicVJ2alY5SEVsclFIdF9uTV9SV0hzM2RqRkRoemRJdk1QczZ5WjI0Q1RrZXhfSWpPUjNQRXZQcmt1WkQtUlHSAWBBVV95cUxQTzN1cXBodDVZSElHSG05SElZVURGX1BNa1I2WW1sUnRPNEtCVDBNR2Jfczl1MHdqREpWZi1KX0RkVjFIeTBUdGVyUEhGTjJRT19iNVp4SlNwdXV4MjRicjE?oc=5"
    },
    {
     "date": "2026-09-29",
@@ -2282,33 +2327,26 @@
     "source": "MBC",
     "title": "사우디, 홍해 원유수출 재개‥폭격받은 동서 송유관 복구완료",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvX0JLNWgxeW1Lb1pHQV9oMnVhTFA2VVo5eWp0MnBnR0RZWFpjaDk4UEF6X2pPT1NaNGVtdTFUS2FLVHFIQXZabUtzYmhxQ3BLUklSS2RKeFhFTHhaMzRiV1FBZDJTVjgtVDdIbUxEU293cERu0gF0QVVfeXFMUGpxT1NXZXdqb0FseldyTHJqQ3FyV29wYUdUUk5SVW53UkQxR29zV2NYam1rbk43UnNRNDFxVHI4OWQxV3BoMk1kckkxaFlxTnB6emlQVlBOanl1b0NyZkFiRE1QRnFDZGQzRU51WEJCdDI0dlU?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T00:07:00+00:00",
-    "source": "KBS",
-    "title": "사우디, 홍해 원유 수출 재개…피격 ‘동서 송유관’ 복구 완료",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjSHVxWkNzQ1lmMlRTbXpnOG50TzlRT3pKenFHb0xpT2Utamc0Rkc2NDNJdVNmR1NqNkhUclVEMHd6endDOTZRenUzZTIzUEpfUUdNMk03X3BDZGc?oc=5"
-   },
-   {
-    "date": "2026-09-28",
-    "published": "2026-09-28T23:50:28+00:00",
-    "source": "뉴스1",
-    "title": "사우디, 드론 피격 동서송유관 복구…호르무즈 우회 수출 재개(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pUWpXc0N6NlJYRVAzZXk2SjQxM1BCTzE5MHFCU1JHWDBaQjNCcDh6V3ZXcGJGazR6NHhlZlVfUlduUEdQUDZUejFxcEVJdHFXZXI5TzlaWUttcXNSQUc2emtB0gFnQVVfeXFMT3lrZHlnU2xRREhLQkYwUlJRTzRoTjNSeEx4c0FWODY2dlZiVTdsa2ZWQnpUVm9MSUJ5T1ZVdTI1U0pURXd3cmtNUlNrVTd3RXlmaHA0RWJLYmUzVV9nSGJ4djh2cS15OA?oc=5"
-   },
-   {
-    "date": "2026-09-28",
-    "published": "2026-09-28T20:13:51+00:00",
-    "source": "뉴스1",
-    "title": "WTI 0.2% 상승 마감…사우디 송유관 재가동에 상승폭 대부분 반납",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGX0tQaGt4eFdBdFBfeVJqcDREdFE2elJZU0tiUGtNYlNzcW5sdE1zeGlUa25xLVNyLUhMMkVRejZXcDcxRERtcXpqUWhwVENrblRZTDUyRmJzQlFJR2NGZHluVFRHMGdLdVFCMdIBbEFVX3lxTFBGX0tQaGt4eFdBdFBfeVJqcDREdFE2elJZU0tiUGtNYlNzcW5sdE1zeGlUa25xLVNyLUhMMkVRejZXcDcxRERtcXpqUWhwVENrblRZTDUyRmJzQlFJR2NGZHluVFRHMGdLdVFCMQ?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-09-29",
-    "published": "2026-09-29T01:02:47+00:00",
+    "published": "2026-09-29T07:33:20+00:00",
+    "source": "Bloomberg",
+    "title": "Watch Saudi Arabia Restores Key Oil Pipeline as Hormuz Talks Stall",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN1Myc0Znc1NEcmF1YjFncW5Xa0ctS2hZR3BDU21hNDdrc25sUjRKZEQ3Y29Fc0hFSjhqb0J4eVhBZjdVWDg4RUJGWFZQZE9pX2J0RnVfRlZIOWZwdTBiMF9QWmQ2UWJKNElHR01QSDYzOHhpVkZWVUJXT29MaURrS0hDRUp4N0ZjY2lUcTRKZjdRNjNWOTJJ?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T06:35:00+00:00",
+    "source": "Reuters",
+    "title": "Saudi resumes Yanbu oil loading after pipeline restart",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNE80QTVVd2tvbHZWR1VLTzh5enAxOUZGMUVGNnQxcXhHeVJiYzU2S2NaZWVReFdmaF83cjJ1dGFVRGREalh4aWFtaWxuR1hLUFdtSTRmb0dsM0ZDQkVOX1RxdG1FNDItMlN0Y0lPN1JlSTAxdXRncndISmxYc3hnaWZKekpVVDZ5RlJOLTNQS3RJSXFhY29RV2psazdPOTlpajFJVVVUc09hZw?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T05:32:48+00:00",
     "source": "Bloomberg",
     "title": "War in the Middle East Is Testing Saudi Arabia’s Oil Pipeline",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb3lHSmdPbllLS0ZiZVBpM2dqMnFOREVqUVY3R3Q4YU0wMl9SbFJDMGoxay1FS3NIbUNDOUh5clVDSk05ZjlmTDdqYnZIMkdMb2E3ZC1Jb1g4aUE2Xzl2MWxncmo2MjVNMlFTTDdVeXF3aWh2Mm9Sa0JUSV84ZGJFTkoxMktDT1N2WldtaHptUUtobnFpSnJMUVFBWHFZbEowRnFRX1VJS0RsSnZ6M1pSX1J2bEpwdWdUc3c?oc=5"
@@ -2322,36 +2360,22 @@
    },
    {
     "date": "2026-09-28",
-    "published": "2026-09-28T13:45:26+00:00",
-    "source": "Reuters",
-    "title": "Saudi Aramco considering discounts for Oman STS crude to counter high freight rates, sources say",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXp6ZHpWZDhSTHRFM0JsM2ktZXdHQTRucFRQVFVCZFlIdjdpR1VpNVRObXhkQkxsRUpHYkgxTDFxOVNkWUJubE9VQk1OSnhhTFJ4TjRvUG8tNWtoVEpKTlFFcDhwT0Nlb2JVbmpHN0ExaUdrWEF5NFBsYnZLcnJxaGc4NVp2SUUtQ0hhMW5pbEFndEdqM3dXWDNXcTJ4bVRlTmlqTkpMNGlVSUNyT01OLWhPbVNfNExTNVhsS214Sjc0Q3FpQ0o4?oc=5"
-   },
-   {
-    "date": "2026-09-28",
-    "published": "2026-09-28T11:17:05+00:00",
-    "source": "Bloomberg",
-    "title": "Saudi Arabia’s Crucial Oil Pipeline Starts Exports After Repairs",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWG4wbWZuVUlMby1wTk1zSURXY2tUM1NtM1BlVVRlUjF0UDJ1bmgxOEgyOE9MMjZWX09vRmhaWElGQ0VmNTJDX1dycHctS2xmTU04VUZrLUQ5emttVEZzdm5kMUJnMFlIY3FvVEgzd2RMTFg0RlpSM2hYTk11Uk1INDA2SlVoWEtPZlhGQjlNYmR0RUY5T2hrZGtmXzhrNDFpcjREckR4UTJ5X0RJRkw0dDZXdFFtQQ?oc=5"
-   },
-   {
-    "date": "2026-09-27",
-    "published": "2026-09-27T23:58:57+00:00",
-    "source": "CNBC",
-    "title": "Oil prices off highs after reports Saudi pipeline ramping back up",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iS25pUWtaQlhIVkNyU2oyYjg1enVuSE9EV3VvR1RnM1NkeUFBTzNoZW1WZDhkTERTQm5WZmUyYkxMczhLLUVXaExhMEhyc3RCcHlxZHMxNk5JSjNJamZmSklPTXVHWWhwVE80YWR2Y3ZZS0FKakFTQzhGQWhmd9IBgwFBVV95cUxPRkh5X0phRnhfLXYzbGtUbXU2UTA0UVowTU5hTzZKNzJEZHZ2SUZXb1VwSUR5M2lwU0x4Qk9EUU9XeW9pREVrdmRMZjVRZXM1MWZ1NFR0d2xaS0Vzc3dWUnQzVWFfUUE2WTdDcC0xSzZETm1VZ0w0N2pCQjJvbXFjLV9UNA?oc=5"
+    "published": "2026-09-28T16:20:37+00:00",
+    "source": "The New York Times",
+    "title": "Over 800 Killed in Renewed Houthi-Saudi War in Yemen, W.H.O. Says",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVHF5aTM3T1BqMlF6dGdCa1A5bXYzNVB0SnNuZDRhQ1Jvblk3NDBGMk9aQlFJMWRlTHNVSFdwVlZwNXUwRVRCYUlFeENhdk00N2tib1A2TzRXa29aWkFHbUhZeUxSZ2lNSzRiT3FrdEJjbFowVzA2TTR0c2FWbTNRdg?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-29T01:49:35Z"
+  "last_ok_at": "2026-09-29T08:21:26Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T01:49:36Z",
+  "fetched_at": "2026-09-29T08:21:27Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 28,
-  "baseline": 31.0,
-  "baseline_n": 4,
+  "count": 41,
+  "baseline": null,
+  "baseline_n": 1,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2422,14 +2446,15 @@
    "2026-09-28T06": 27,
    "2026-09-28T15": 35,
    "2026-09-28T21": 25,
-   "2026-09-29T01": 28
+   "2026-09-29T01": 28,
+   "2026-09-29T08": 41
   },
-  "last_ok_at": "2026-09-29T01:49:36Z"
+  "last_ok_at": "2026-09-29T08:21:27Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-29T01:49:36Z",
-  "last_ok_at": "2026-09-29T01:49:36Z"
+  "fetched_at": "2026-09-29T08:21:27Z",
+  "last_ok_at": "2026-09-29T08:21:27Z"
  }
 }
