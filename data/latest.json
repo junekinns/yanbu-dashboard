@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T19:08:56Z",
+ "generated_at": "2026-09-30T23:41:39Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-09-30T19:08:56Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +188,16 @@
   "last7d": 0,
   "baseline": 2.0,
   "tier": "평시",
-  "last_ok_at": "2026-09-30T19:08:56Z"
+  "last_ok_at": "2026-09-30T19:08:56Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f026584d8e0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-09-30T23:41:39Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-30T19:09:11Z",
+  "fetched_at": "2026-09-30T23:42:40Z",
   "events": [
    {
     "date": "2026-09-30",
@@ -280,6 +281,20 @@
     "title": "Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUlQ2OUdEdmE0UXNkLU02aUFtejNhem5nTWd0U1RpRE12eXAzeEdwZnBZaDdxWjlDVmFNTHJuOGVuMFJxSjRiQU1yRXFsakNTRnhLRExaeEIwZ3JaQkZTUFF6T3JwTWtQYjctLUFaVVMwS1Z5MUpIcU1iRDVuM2tvdlh0Z0l3cHJ3Z25SQTVBdWNyaVpGRlRvdnZhZi1WSThDRGNMY0o1aGppVkZJekhpbHd30gG3AUFVX3lxTFB6Z3dhUTRSSERaWEg1ckhoRjJfZERIVWNJaTN3QTctZ1NmYjdZaDlweWtSdEZJcEdTSUVDbklKMVB5Z212YUhXTDdPMkdhSUk5aVhFbjVxRHE3aWphZ2I2bnEtT3dULTVEQkxhbGFfdFcwNndWdm13VkpIM3NwWlhVeVVheEVsbnB0aXFURTRDNzU5TDgtdWdNdjR4clNSSUJacG03aHJnY3JRNC1CeWYtUHNFek5jZw?oc=5",
     "source": "Al Jazeera",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-25",
+    "time": "21:28",
+    "iso": "2026-09-25T21:28:08+03:00",
+    "city": "메카",
+    "type": "피격",
+    "weapon": null,
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "Pakistan PM calls Houthi Mecca attacks 'red line' at UN",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWlEzRFlMMWZXOXRIaGlJdWl0SEQzaFc0N1JUN0dRX1ZRbllSRmx2cWFOVXhsYmZMOV93MWVCVmRLa1Y4MWRpQzZhcjRSWkF5ZG11X05abFI3ekRnYzVYWExrb19KNE52ZkUyTmJMLUxLdk1kRnE3SHV1d3JPc29waDhjMW43MmdDVExFdnphalp6b0JVOG0ySFFUcXU3QkhHMWc?oc=5",
+    "source": "France 24",
     "outlets": 1
    },
    {
@@ -814,14 +829,14 @@
   "tempo": {
    "얀부": {
     "7d": {
-     "피격": 2,
+     "피격": 1
+    },
+    "total7d": 1,
+    "prev7d": {
+     "피격": 4,
      "요격": 1
     },
-    "total7d": 3,
-    "prev7d": {
-     "피격": 3
-    },
-    "prev_total": 3
+    "prev_total": 5
    },
    "제다": {
     "7d": {},
@@ -851,14 +866,14 @@
    },
    "메카": {
     "7d": {
-     "경보": 1
+     "피격": 1
     },
     "total7d": 1,
     "prev7d": {
-     "피격": 4,
-     "요격": 1
+     "경보": 1,
+     "피격": 3
     },
-    "prev_total": 5
+    "prev_total": 4
    },
    "타이프": {
     "7d": {
@@ -872,16 +887,16 @@
     "7d": {
      "공습": 1,
      "피격": 2,
-     "요격": 2
+     "요격": 1
     },
-    "total7d": 5,
+    "total7d": 4,
     "prev7d": {
+     "요격": 3,
      "경보": 3,
      "공습": 2,
-     "요격": 2,
      "피격": 2
     },
-    "prev_total": 9
+    "prev_total": 10
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -932,12 +947,12 @@
     "prev_total": 0
    },
    "지잔": {
-    "7d": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": {
      "피격": 1
     },
-    "total7d": 1,
-    "prev7d": {},
-    "prev_total": 0
+    "prev_total": 1
    },
    "아브하": {
     "7d": {},
@@ -958,15 +973,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 20,
+  "history_days": 21,
   "history_since": "2026-09-11",
-  "today": "2026-09-30",
-  "last_ok_at": "2026-09-30T19:09:11Z"
+  "today": "2026-10-01",
+  "last_ok_at": "2026-09-30T23:42:40Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-30T19:09:12Z",
+  "fetched_at": "2026-09-30T23:42:42Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1401,106 +1416,6 @@
     "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 37 غارة جوية بطائرات نوع \"F15\" أقلعت من قاعدة خميس مشيط الجوية واستهدفت محافظات تعز وحجة وخلفت شهداء وجرحى من المدنيين. http://t.me/army21ye",
     "text_ko": null,
     "url": "https://t.me/army21ye/3732"
-   },
-   {
-    "time": "2026-09-16 20:55",
-    "iso": "2026-09-16T20:55:23+03:00",
-    "places": [
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 40 غارة جوية بطائرات \"F15\" أقلعت من قاعدة خميس مشيط مستهدفاً محافظات تعز ومأرب وحجة. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 카미스 무샤이트 기지에서 이륙한 \"F15\" 항공기와 함께 타이즈, 마리브 및 하자 주지사를 겨냥한 40회의 공습을 시작했습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3731"
-   },
-   {
-    "time": "2026-09-16 20:07",
-    "iso": "2026-09-16T20:07:52+03:00",
-    "places": [
-     "카미스무샤이트"
-    ],
-    "text_ar": "بعون الله وتوفيقه تمكنت القوات المسلحة اليمنية وعند الساعة 18:40 من اعتراض تشكيلين حربيين سعوديين نوع \"F15\" أقلعت من قاعدة خميس مشيط فوق أجواء المخا بمحافظة تعز بعدد من صواريخ أرض جو محلية الصنع وتم إجبارها على المغادرة فوراً قبل تنفيذ أى عمل عدائي بفضل الله. http://t.me/army21ye",
-    "text_ko": "알라의 도움과 성공으로 예멘군은 18:40 에 수 많은 수제 지대공 미사일로 타이즈 (Taiz) 주 모카 (Mokha) 영공의 카미스 무샤이트 (Khamis Mushait) 기지에서 이륙한 두 개의 사우디 군대 \"F15\" 를 요격할 수 있었고 알라 덕분에 적대적인 행동을 수행하기 직전에 즉시 떠날 수밖에 없었습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3730"
-   },
-   {
-    "time": "2026-09-16 17:27",
-    "iso": "2026-09-16T17:27:14+03:00",
-    "places": [],
-    "text_ar": "بعون الله وتوفيقه تمكنت القوات المسلحة اليمنية قبل قليل من إسقاط طائرة استطلاع مسلح نوع \"وينق لونق2\" تابعة للعدو السعودي المجرم أثناء قيامها بأعمال عدائية في أجواء محافظة مأرب وذلك بسلاح مناسب. http://t.me/army21ye",
-    "text_ko": "알라의 도움과 성공으로 예멘 군대는 얼마 전 마리브 주 영공에서 적절한 무기로 적대 행위를 수행하면서 범죄 사우디 적의 무장 정찰기 \"Wing Long 2\" 를 격추시킬 수있었습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3729"
-   },
-   {
-    "time": "2026-09-16 14:40",
-    "iso": "2026-09-16T14:40:15+03:00",
-    "places": [
-     "얀부",
-     "카미스무샤이트"
-    ],
-    "text_ar": "The criminal Saudi enemy continues its unjust aggression and oppressive siege against our country and our people for twelve years, and has escalated its aggression this week by launching more than 450 airstrikes targeting most Yemeni governorates. In response to this brutal aggression against our country and people, the Yemeni Armed Forces, with Allah's help, carried out two qualitative military o…",
-    "text_ko": "범죄자인 사우디아라비아의 적은 12년 동안 우리나라와 국민에 대한 부당한 침략과 억압적인 포위 공격을 계속하고 있으며, 이번 주에는 대부분의 예멘 총독부를 겨냥한 450회 이상의 공습을 감행하여 침략을 확대했다. 우리 나라와 국민에 대한 이러한 잔인한 침략에 대응하여 예멘군은 알라의 도움으로 두 가지 질적인 군대를 수행했습니다...",
-    "url": "https://t.me/army21ye/3722"
-   },
-   {
-    "time": "2026-09-16 14:40",
-    "iso": "2026-09-16T14:40:15+03:00",
-    "places": [
-     "얀부",
-     "카미스무샤이트"
-    ],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عمليتين عسكريتين أولاهما استهدفت شركة أرامكو في ينبع بعشرات الصواريخ الباليستية والطائرات المسيرة، والأخرى استهدفت قاعدة خميس مشيط الجوية بعدد من الصواريخ الباليستية. جودة متوسطة http://t.me/army21ye",
-    "text_ko": "두 가지 군사 작전의 시행에 대한 예멘 군의 성명서. 첫 번째는 수십 개의 탄도 미사일과 드론으로 얀부의 아람코를 표적으로 삼았고 다른 하나는 여러 개의 탄도 미사일로 카미스 무샤이트 공군 기지를 표적으로 삼았습니다. medium quality http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3723"
-   },
-   {
-    "time": "2026-09-16 14:40",
-    "iso": "2026-09-16T14:40:14+03:00",
-    "places": [
-     "카미스무샤이트"
-    ],
-    "text_ar": "بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيمُ يواصلُ العدوُّ السعوديُّ المجرمُ عدوانَـهُ الظالمَ وحصارَـهُ الغاشمَ على بلدِنا وشعبِنا منذُ اثْنَيْ عشرَ عامًا، وصعَّدَ مِنْ عدوانِـهِ خلالَ هذا الأسبوعِ بشنِّـهِ لأكثرَ مِنْ 450 غارةً جويةً مستهدفًا بها معظمَ المحافظاتِ اليمنيةِ. ورَدًّا على هذا العدوانِ ال…",
-    "text_ko": "전능하신 알라의 이름으로, 자비로우시고 자비로우신 알라의 이름으로 말씀하시길: {누구든지 당신을 공격한 다음, 이전과는 달리 그를 공격했습니다.} 알라의 위대한 진실은 사우디의 적인 범죄자가 12년 전 우리나라와 우리 국민에 대한 부당한 침략과 잔인한 포위 공격을 계속하고 있으며, 이번 주에 대부분의 예멘 총독부를 겨냥한 450회 이상의 공습을 감행함으로써 그의 침략을 확대시켰다는 것입니다. 이 공격에 대한 대응으로...",
-    "url": "https://t.me/army21ye/3721"
-   },
-   {
-    "time": "2026-09-16 13:01",
-    "iso": "2026-09-16T13:01:53+03:00",
-    "places": [],
-    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية في العمق السعودي في تمام الساعة 2:40 عصراً. http://t.me/army21ye",
-    "text_ko": "사우디아라비아에서 오후 2시 40분에 여러 군사 작전을 발표하겠다는 예멘 군의 중요한 성명서. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3720"
-   },
-   {
-    "time": "2026-09-16 08:32",
-    "iso": "2026-09-16T08:32:49+03:00",
-    "places": [
-     "메카",
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text_ar": "بيانٌ صادرٌ عنِ القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: { یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ إِن تَنصُرُوا۟ ٱللَّهَ یَنصُرۡكُمۡ وَیُثَبِّتۡ أَقۡدَامَكُمۡ } صدقَ اللهُ العظيم شنَّ الطيرانُ الحربيُّ السعوديُّ خلالَ هذا الأسبوعِ أكثرَ من 450 غارةٍ جويةٍ من خلالِ طائراتِ \"F15\" و \"تايفون\" أقلعتْ من قاعدتيْ خميسِ مشيطٍ والطائفِ استهدفتْ محافظاتِ تعزَ ولحجَ والجوفِ وحجةَ ومأربَ …",
-    "text_ko": "전능하신 알라, 자비로우시고 자애로우신 알라의 이름으로 예멘군이 발표한 성명서에서 그는 다음과 같이 말했습니다. {전능하신 알라는 사우디의 전투기가 이번 주 동안 카미스 무샤이트와 타이프 기지에서 이륙한 \"F15\" 와 \"타이푼\" 항공기를 통해 450회 이상의 공습을 시작했음을 확인했습니다.",
-    "url": "https://t.me/army21ye/3716"
-   },
-   {
-    "time": "2026-09-16 08:32",
-    "iso": "2026-09-16T08:32:49+03:00",
-    "places": [
-     "메카",
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text_ar": "This week, Saudi warplanes launched more than 450 airstrikes using F-15 and Typhoon fighter jets, which took off from Khamis Mushait and Taif airbases, these airstrikes targeted the governorates of Taiz, Lahj, Al-Jawf, Hajjah, Ma'rib, Sa'dah, and Al-Bayda, resulting in martyrs and wounded of civilian casualties In the face of this brutal aggression against our country and people, the Yemeni Armed …",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3717"
-   },
-   {
-    "time": "2026-09-16 08:30",
-    "iso": "2026-09-16T08:30:40+03:00",
-    "places": [],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن إسقاط طائرة حربية سعودية نوع \"F15\" أثناء قيامها بأعمال عدائية دعما للتحشيدات السعودية في محافظة مأرب. جودة متوسطة http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3714"
    }
   ],
   "mentions7d": {
@@ -1508,15 +1423,15 @@
    "지잔": 8,
    "타이프": 6,
    "나즈란": 5,
-   "리야드": 3,
-   "얀부": 3
+   "얀부": 3,
+   "리야드": 3
   },
-  "last_ok_at": "2026-09-30T19:09:12Z"
+  "last_ok_at": "2026-09-30T23:42:42Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-30T19:09:14Z",
+  "fetched_at": "2026-09-30T23:42:42Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2440,12 +2355,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-30T19:09:14Z"
+  "last_ok_at": "2026-09-30T23:42:42Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-30T19:09:18Z",
+  "fetched_at": "2026-09-30T23:42:44Z",
   "kr": [
    {
     "date": "2026-09-30",
@@ -2456,7 +2371,7 @@
    },
    {
     "date": "2026-09-30",
-    "published": "2026-09-30T07:41:00+00:00",
+    "published": "2026-09-30T06:57:00+00:00",
     "source": "한겨레",
     "title": "‘앙숙’ UAE와 파키스탄까지…사우디 도울 ‘후티 대항 연합 전선’ 관심",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wN3lWT2IxbF9fcE9uSjhtSldFQkZNUFdINFh3WVRRbUdWY1RQWWpMS3FZNFZTMGRhM1I3RFktTC1paWozSnk0Y09nWEJPTXFxekNkODhTd2RVSjkwWllPdU5mNkpSY2hFZmpjWFZjSG1XRkk?oc=5"
@@ -2486,7 +2401,14 @@
   "en": [
    {
     "date": "2026-09-30",
-    "published": "2026-09-30T17:26:15+00:00",
+    "published": "2026-09-30T19:37:17+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLThfd1Q3em1qOGdmckYybUVCcmdtNW84RFRIMjJtM1p5SE5Kc1B3cE5zLUZLbXZpdzhuVVRILVF2SUZSazRua0pjdGl2RjhlcHk5WjBWcEZTcXJfRS1KdkpVYjVhSlNKSVFBaS0tSlE4WFY0MkFvenFtSHNLZEtWUzdIeFBXTUpUWUljaXBPRFg2c2ZQcXJYNVRlN1B6WE1SVVk5b3B3elBDUXZIMHNKNGstczZwUdIBuwFBVV95cUxNWmx5clBfR1lkSXZhb2p1cjh6dFU2OW1mTjBfVlphR20zOUVYR2tWUUNlSGRENTJQTjZiUmJQTE5aVGZLSU9uSGthS2Z6ZXgzVVZiNkR6dHAxZUE4WF90MG9maHdQTWNEVUE0Nkg3c0ZuT0RjY3lQc0NucmI2TlQ0a2R6QkVHNFRKYkswc1Q5TjExUDVVWXVXcGhsNFAxbWRWRVZHSDgycHBxazAyZDNJU2JtUHhzNHdnSWlv?oc=5"
+   },
+   {
+    "date": "2026-09-30",
+    "published": "2026-09-30T17:26:24+00:00",
     "source": "DW",
     "title": "Houthi attacks threaten more than oil infrastructure — but its unclear how the Saudis can stop them.",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZW5BdDl0U3JZMUJoMlByaFFRRWhZb1ZhdDVtVmI0YWtEZ01ueDBwSzdjclg3WFBkWHZYVjI3SjFhQmtJUTMyWXNUamdVMHJVaXkxV2htaEtidzVsTGx4TC1hQzE3YWs0QmFHMzNTY1BTNGxFbm1lU1otd19ORHlVQmxHONIBgwFBVV95cUxOb3hwMGQ3aDRCQmVhRjFuNWtGb2Jpd2ticExUVXB6Mk9nZWNNS05wSlBkNVVmeEZjYTA1REU1QmZNeVdZMEtmWFBQUGJiZnl3Ykt1Y3NBOHRlNUpNTS1DYmhjOHlYNWJXWU1hTUVWSldUbE5qUml2QjROM09iQV9ZVlU0Yw?oc=5"
@@ -2500,35 +2422,28 @@
    },
    {
     "date": "2026-09-29",
+    "published": "2026-09-29T18:57:00+00:00",
+    "source": "The Guardian",
+    "title": "Saudi Arabia urged to reconcile with UAE to drive back Houthi separatists in Yemen",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcjZoOXpydjhlR2ozUXp5UlVJN0RJLW1LeFhLOXZWUThKbGMxWVprR0t3NDNDTDE3S3Z4SVc0YlV3UDFKTmQ1QXRKdk42enhHcm9rUUw2Nmwya25WOE9Sc3kzRXgybEppdHVpTlhJckNDQmF5eFRKbFBSd1dWbnZvbWJxX2pZUGNuazhyZ1hLbzMzODI2SW5XYVBSaXRlRm5nbTV6Vi1tcGV0TEJLRTdVeEQyTzlTU3FtQnpsUXhRU0dLcGdablM0?oc=5"
+   },
+   {
+    "date": "2026-09-29",
     "published": "2026-09-29T16:29:22+00:00",
     "source": "The New York Times",
     "title": "Tankers Are Loading Oil Again From a Vital Saudi Pipeline",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdFNXVWJfZHpCT0NnS2t4MnRJMFNVbjlEb0xidV85S0xqVHRCc0JfczVydHFBVEhLc212OGpJRGhhS2NjWFZWN08zaHFGeG1Ta2plcFV3bWlUMUNYMk8wQlF4dGpGVG5rVGVVMy13VGpjVHpTTk5iR1ZudVkwbXlHUlN4OA?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T13:25:59+00:00",
-    "source": "Al Jazeera",
-    "title": "Are Houthis using new modified cruise missiles in Yemen’s war?",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa3h6NTdxaWU0WU1NWE1YTk5GUGtaTWtWOWM5UUFEYi1FenZwUmxablJtUzJjQVphR180WUp0OFJPcnFHb0dRREhWX1VqbU1LQW9xQ0haRzRWVm11MFprNTU3My16Z196d3c0c2dCMlFYZmV0Zy04NTBILVF1Y1ZVVHU1TlZpY1ZyRUdHQzFvdl9rSnV2SnM2R0lWRlhCTWRjWXoxMHcxMmLSAa4BQVVfeXFMT0dCWC1DeUlfclZIX0tYOUlOWWhVZ0w4Vm5nODJUTkJsMmxOSHQ2ZFlXZTR1WWlNUW85NFRGcXM2YzJYemx2ekVuOTFnTjFVUkpid1lLcVFoVTFJMzNMd044MTdELXlkazdrS21fU0pEaXFCXzEwRklMeWMtYkk1ZURxN1FTTnRVX1hjMGtnWmRzWjZnVUhNOGhIRGxmaFBmaDZsMjBTS3cySzJNWW13?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T06:35:00+00:00",
-    "source": "Reuters",
-    "title": "Saudi Arabia resumes Yanbu oil loading after pipeline restart",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNE80QTVVd2tvbHZWR1VLTzh5enAxOUZGMUVGNnQxcXhHeVJiYzU2S2NaZWVReFdmaF83cjJ1dGFVRGREalh4aWFtaWxuR1hLUFdtSTRmb0dsM0ZDQkVOX1RxdG1FNDItMlN0Y0lPN1JlSTAxdXRncndISmxYc3hnaWZKekpVVDZ5RlJOLTNQS3RJSXFhY29RV2psazdPOTlpajFJVVVUc09hZw?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-30T19:09:18Z"
+  "last_ok_at": "2026-09-30T23:42:44Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-30T19:09:19Z",
+  "fetched_at": "2026-09-30T23:42:46Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 41,
-  "baseline": 37,
+  "baseline": 45,
   "baseline_n": 3,
   "tier": "정상",
   "history": {
@@ -2607,14 +2522,15 @@
    "2026-09-30T00": 43,
    "2026-09-30T06": 43,
    "2026-09-30T13": 44,
-   "2026-09-30T19": 41
+   "2026-09-30T19": 41,
+   "2026-09-30T23": 41
   },
-  "last_ok_at": "2026-09-30T19:09:19Z"
+  "last_ok_at": "2026-09-30T23:42:46Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-30T19:09:19Z",
-  "last_ok_at": "2026-09-30T19:09:19Z"
+  "fetched_at": "2026-09-30T23:42:46Z",
+  "last_ok_at": "2026-09-30T23:42:46Z"
  }
 }
