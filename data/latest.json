@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T20:41:30Z",
+ "generated_at": "2026-09-30T00:20:17Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T20:41:30Z",
+  "fetched_at": "2026-09-30T00:20:17Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -189,14 +189,14 @@
    }
   ],
   "last7d": 0,
-  "baseline": 1.5,
+  "baseline": 2.0,
   "tier": "평시",
-  "last_ok_at": "2026-09-29T20:41:30Z"
+  "last_ok_at": "2026-09-30T00:20:17Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T20:41:48Z",
+  "fetched_at": "2026-09-30T00:20:34Z",
   "events": [
    {
     "date": "2026-09-29",
@@ -805,9 +805,9 @@
     },
     "total7d": 3,
     "prev7d": {
-     "피격": 4
+     "피격": 3
     },
-    "prev_total": 4
+    "prev_total": 3
    },
    "제다": {
     "7d": {},
@@ -837,16 +837,14 @@
    },
    "메카": {
     "7d": {
-     "경보": 1,
-     "피격": 1
-    },
-    "total7d": 2,
-    "prev7d": {
-     "피격": 4,
-     "요격": 2,
      "경보": 1
     },
-    "prev_total": 7
+    "total7d": 1,
+    "prev7d": {
+     "피격": 4,
+     "요격": 1
+    },
+    "prev_total": 5
    },
    "타이프": {
     "7d": {},
@@ -944,15 +942,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 19,
+  "history_days": 20,
   "history_since": "2026-09-11",
-  "today": "2026-09-29",
-  "last_ok_at": "2026-09-29T20:41:48Z"
+  "today": "2026-09-30",
+  "last_ok_at": "2026-09-30T00:20:34Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T20:41:49Z",
+  "fetched_at": "2026-09-30T00:20:35Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1465,17 +1463,6 @@
     "text_ar": "بيان القوات المسلحة اليمنية بشأن إسقاط طائرة حربية سعودية نوع \"F15\" أثناء قيامها بأعمال عدائية دعما للتحشيدات السعودية في محافظة مأرب. جودة متوسطة http://t.me/army21ye",
     "text_ko": null,
     "url": "https://t.me/army21ye/3714"
-   },
-   {
-    "time": "2026-09-15 20:31",
-    "iso": "2026-09-15T20:31:12+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي 52 غارة جوية خلال الـ24 ساعة الماضية بطائرات \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائفْ، استهدفت الأعيان المدنية من مدارس وجسور وطرقات في محافظة تعز مع استهداف أعيان مدنية أخرى في محافظات الجوف والبيضاء وصعدة وعمران. هذه الاعتداءات الوحشية لن تمر دون رد بإذن الله تعالى. http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3712"
    }
   ],
   "mentions7d": {
@@ -1486,12 +1473,12 @@
    "얀부": 3,
    "리야드": 3
   },
-  "last_ok_at": "2026-09-29T20:41:49Z"
+  "last_ok_at": "2026-09-30T00:20:35Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T20:41:52Z",
+  "fetched_at": "2026-09-30T00:20:36Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2463,13 +2450,27 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-09-29T20:41:52Z"
+  "last_ok_at": "2026-09-30T00:20:36Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T20:41:54Z",
+  "fetched_at": "2026-09-30T00:20:39Z",
   "kr": [
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T21:11:00+00:00",
+    "source": "조선일보",
+    "title": "韓 개최 아람코 시리즈, 3년 만에 문 닫는다…사우디 PIF, 유럽 여자 투어 지원 중단 선언",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE44M0VaZ2JXNmxkRm43bU9LZjAtbXRrSWRVU1dYdncxYzRDTDFmdzNaY05DdDFlSFRJWnRjaURIMVdBNVpXdUJBVzBUeEpEMEtlbV9mNW9rOW5NbnNpZ3RMX3JhelU0Qm5ENnVhbjNycW9rTUVNb1dfbTI0aXNBZw?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T20:54:00+00:00",
+    "source": "SBS",
+    "title": "사우디, 송유관 재가동·원유 선적 재개…美·이란은 다시 설전",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TVXNJR2xUUC05TmpibWJ3ekY3OGF4MGstdVA5TElrLXF2LVBsTVNHY1hkbnlUaFhucWJ5VnEzMk02VmU3YUJPMDFYQ2JNWUdKTWxFb3FZbVPSAVhBVV95cUxOU1VzSUdsVFAtOU5qYm1id3pGNzhheDBrLXVQOUxJay1xdi1QbE1TR2NYZG55VGhYbnFieVZxMzJNNlZlN2FCTzAxWENiTVlHSk1sRW9xWW1T?oc=5"
+   },
    {
     "date": "2026-09-29",
     "published": "2026-09-29T20:21:02+00:00",
@@ -2479,54 +2480,26 @@
    },
    {
     "date": "2026-09-29",
+    "published": "2026-09-29T20:12:08+00:00",
+    "source": "연합뉴스",
+    "title": "사우디 홍해 원유 수출 재개에 WTI 3.5%↓…8월 31일 이후 최저",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xSDNKYkd3X0hTYzNCT05CU1cwaFBaRHNCd1F6NFQ0WmYyZWNBVWtPbkVwaGc4XzV0c3E3SDU5cWNsYVlTNTczamJHaE1TdkwtMGIyT2l3S3pRVlhhSlVBNNIBYEFVX3lxTE8xSDNKYkd3X0hTYzNCT05CU1cwaFBaRHNCd1F6NFQ0WmYyZWNBVWtPbkVwaGc4XzV0c3E3SDU5cWNsYVlTNTczamJHaE1TdkwtMGIyT2l3S3pRVlhhSlVBNA?oc=5"
+   },
+   {
+    "date": "2026-09-29",
     "published": "2026-09-29T20:05:00+00:00",
     "source": "KBS",
     "title": "“사우디, ‘피격’ 송유관 재가동해 얀부항 원유 선적 재개”",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MUElVeDlKTG83c1B6YlZmTUxQU29jQXVjUERCZFdqeDU0d09VSXhISzlVRGU0dGp0TjFvWG5UQktMenA3akVpSXg4YkN6eGRsdXNCRU9zTjAtZ28?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T15:50:26+00:00",
-    "source": "연합뉴스",
-    "title": "\"사우디, 드론 피격 송유관 재가동 후 얀부항 원유 선적 재개\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fVWVMT3dlQzFyMFl3LUtHdFFVMGJuVU9leE91MHpmYXdwTUYyTXJzdDZtblZFOVU0MzRyQmpmNkMzdkZPN0RibERtU1k0S21GR3NXZC1ZYkZXaV9vZEVvQ9IBYEFVX3lxTE9fVWVMT3dlQzFyMFl3LUtHdFFVMGJuVU9leE91MHpmYXdwTUYyTXJzdDZtblZFOVU0MzRyQmpmNkMzdkZPN0RibERtU1k0S21GR3NXZC1ZYkZXaV9vZEVvQw?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T06:39:00+00:00",
-    "source": "한겨레",
-    "title": "미-이란, 중재국 통해 협상 계속…사우디 송유관은 가동 재개",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82c2t0SGpsU0k5bkJBeHFkTFdXQVVzUEZVcWNiR3VJMEZVR2VHWG1iWFJKaXR5d1F3UGxyY0pMZ3ItTGFSLUdpcVpCMmNkYzg1cjhxdWFSOFZaT0pfZDZYUUNuQXp1MGJNa0FFbjktMGU2a0E?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T06:14:00+00:00",
-    "source": "한국일보",
-    "title": "사우디 송유관 복구·호르무즈 회복... 중동 원유수송 80% 반등",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HWGpmRFV6SDRMbkZuWWNfVUQzaXBPdkV0RWpYVElwMXQ4b2hUYXRqdE02WXBmeTYxeWU3TEZiYTd1aGFqSmpuQmpFZzhYcVZxVkhFVzVLMnJ3eWx1LTljMEwtTWNUU2ptWVhGWmw0T1NHQnfSAXNBVV95cUxNR1hqZkRVekg0TG5GblljX1VEM2lwT3ZFdEVqWFRJcDF0OG9oVGF0anRNNllwZnk2MXllN0xGYmE3dWhhakpqbkJqRWc4WHFWcVZIRVc1SzJyd3lsdS05YzBMLU1jVFNqbVlYRlpsNE9TR0J3?oc=5"
    }
   ],
   "en": [
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T20:15:59+00:00",
-    "source": "Reuters",
-    "title": "UAE vice president visits Saudi Arabia in first visit since rift",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdzR2NEpSUUY2Z0lEcGVnNE1lSWliUFgxVVBVYkNlVGpMZk9KM0N6SG9Ud0hOeVB0VndVcW5RVW5IbnpTWl9pajNaTnRrNXlFQWF5Wnd2VGlhUjUtdzdwMExKaE1TUGR5c0pJdjdfZlY3OEFpajJlTTJwTFdqTlRBbE1vbGdPNU4zM19uZ2tmbXVfRGdNTHpwQ3l2ZllrdXcyTHhPREMwTXY5MjJ3RFFicnhHbk15dw?oc=5"
-   },
    {
     "date": "2026-09-29",
     "published": "2026-09-29T18:57:00+00:00",
     "source": "The Guardian",
     "title": "Saudi Arabia urged to reconcile with UAE to drive back Houthi separatists in Yemen",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcjZoOXpydjhlR2ozUXp5UlVJN0RJLW1LeFhLOXZWUThKbGMxWVprR0t3NDNDTDE3S3Z4SVc0YlV3UDFKTmQ1QXRKdk42enhHcm9rUUw2Nmwya25WOE9Sc3kzRXgybEppdHVpTlhJckNDQmF5eFRKbFBSd1dWbnZvbWJxX2pZUGNuazhyZ1hLbzMzODI2SW5XYVBSaXRlRm5nbTV6Vi1tcGV0TEJLRTdVeEQyTzlTU3FtQnpsUXhRU0dLcGdablM0?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T16:29:22+00:00",
-    "source": "The New York Times",
-    "title": "Tankers Are Loading Oil Again From a Vital Saudi Pipeline",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdFNXVWJfZHpCT0NnS2t4MnRJMFNVbjlEb0xidV85S0xqVHRCc0JfczVydHFBVEhLc212OGpJRGhhS2NjWFZWN08zaHFGeG1Ta2plcFV3bWlUMUNYMk8wQlF4dGpGVG5rVGVVMy13VGpjVHpTTk5iR1ZudVkwbXlHUlN4OA?oc=5"
    },
    {
     "date": "2026-09-29",
@@ -2541,18 +2514,32 @@
     "source": "Al Jazeera",
     "title": "Are Houthis using new modified cruise missiles in Yemen’s war?",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa3h6NTdxaWU0WU1NWE1YTk5GUGtaTWtWOWM5UUFEYi1FenZwUmxablJtUzJjQVphR180WUp0OFJPcnFHb0dRREhWX1VqbU1LQW9xQ0haRzRWVm11MFprNTU3My16Z196d3c0c2dCMlFYZmV0Zy04NTBILVF1Y1ZVVHU1TlZpY1ZyRUdHQzFvdl9rSnV2SnM2R0lWRlhCTWRjWXoxMHcxMmLSAa4BQVVfeXFMT0dCWC1DeUlfclZIX0tYOUlOWWhVZ0w4Vm5nODJUTkJsMmxOSHQ2ZFlXZTR1WWlNUW85NFRGcXM2YzJYemx2ekVuOTFnTjFVUkpid1lLcVFoVTFJMzNMd044MTdELXlkazdrS21fU0pEaXFCXzEwRklMeWMtYkk1ZURxN1FTTnRVX1hjMGtnWmRzWjZnVUhNOGhIRGxmaFBmaDZsMjBTS3cySzJNWW13?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T06:35:00+00:00",
+    "source": "Reuters",
+    "title": "Saudi Arabia resumes Yanbu oil loading after pipeline restart",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNE80QTVVd2tvbHZWR1VLTzh5enAxOUZGMUVGNnQxcXhHeVJiYzU2S2NaZWVReFdmaF83cjJ1dGFVRGREalh4aWFtaWxuR1hLUFdtSTRmb0dsM0ZDQkVOX1RxdG1FNDItMlN0Y0lPN1JlSTAxdXRncndISmxYc3hnaWZKekpVVDZ5RlJOLTNQS3RJSXFhY29RV2psazdPOTlpajFJVVVUc09hZw?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T01:30:00+00:00",
+    "source": "CNBC",
+    "title": "Oil prices fall as crude exports recover at Saudi Arabia's Red Sea ports",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kSktEczQ1cU5VX0RyU21RTFFyVFlsSFJyMkhBYmtjSGtxMk5uT0FqMjFSSzkyUk1VY0pFNHpRaW51dWN2bVpnRU1YX0U2by1oRDRJTkNhekFncUhicGlLdEd5YzhSenE0R3NyY0h6VmNUczhwWEs3Y0930gF_QVVfeXFMTThHUHBKazFqa1M4UUh0THhoN1JBUkFxOURNQlpxbXRHeVBzNThjaDlXZVNRS1NPVnFVMEpfWGFzQm1nX1JCRThpWjhXMS1HRzlUUG5ESGtkRHowU3E3U1FPbXlIRDMxc1M2ZHFiTDVFTm5UVzRoTkUtRnhTM0xMSQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-09-29T20:41:54Z"
+  "last_ok_at": "2026-09-30T00:20:39Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-09-29T20:41:55Z",
+  "fetched_at": "2026-09-30T00:20:40Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 25,
-  "baseline": 37,
-  "baseline_n": 3,
+  "count": 43,
+  "baseline": 42.0,
+  "baseline_n": 4,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2626,14 +2613,15 @@
    "2026-09-29T01": 28,
    "2026-09-29T08": 41,
    "2026-09-29T15": 40,
-   "2026-09-29T20": 25
+   "2026-09-29T20": 25,
+   "2026-09-30T00": 43
   },
-  "last_ok_at": "2026-09-29T20:41:55Z"
+  "last_ok_at": "2026-09-30T00:20:40Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-09-29T20:41:56Z",
-  "last_ok_at": "2026-09-29T20:41:56Z"
+  "fetched_at": "2026-09-30T00:20:40Z",
+  "last_ok_at": "2026-09-30T00:20:40Z"
  }
 }
