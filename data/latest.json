@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T05:40:57Z",
+ "generated_at": "2026-10-01T13:02:19Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T05:40:57Z",
+  "fetched_at": "2026-10-01T13:02:19Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 0,
   "baseline": 2.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-01T05:40:57Z"
+  "last_ok_at": "2026-10-01T13:02:19Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T05:41:16Z",
+  "fetched_at": "2026-10-01T13:02:35Z",
   "events": [
    {
     "date": "2026-09-30",
@@ -975,12 +975,12 @@
   "history_days": 21,
   "history_since": "2026-09-11",
   "today": "2026-10-01",
-  "last_ok_at": "2026-10-01T05:41:16Z"
+  "last_ok_at": "2026-10-01T13:02:35Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T05:41:18Z",
+  "fetched_at": "2026-10-01T13:02:36Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1422,15 +1422,15 @@
    "지잔": 8,
    "타이프": 6,
    "나즈란": 5,
-   "얀부": 3,
-   "리야드": 3
+   "리야드": 3,
+   "얀부": 3
   },
-  "last_ok_at": "2026-10-01T05:41:18Z"
+  "last_ok_at": "2026-10-01T13:02:36Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T05:41:18Z",
+  "fetched_at": "2026-10-01T13:02:37Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2394,19 +2394,26 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-01T05:41:18Z"
+  "last_ok_at": "2026-10-01T13:02:37Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T05:41:21Z",
+  "fetched_at": "2026-10-01T13:02:39Z",
   "kr": [
    {
     "date": "2026-09-30",
-    "published": "2026-09-30T16:15:10+00:00",
-    "source": "뉴스1",
-    "title": "EU 항공안전청, 후티 공격 증가에 \"사우디 영공 피하라\"",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11ZExaUHZIUTFnRGNvYjFtNE1VM1ZOQ2Y1Wmk1ZlotZ1oxbFYxZVh5eDZNc1VDWEF0Zk92OEdianJ1bE4tT0xmWmJkbDRUSldIXzJr0gFYQVVfeXFMTXQ1ZTUtaVRRUDZvUDVRMkdpSlMxTl9wWWNNc3FuYTlNVUt4V285SFZ4NHJyX2N2VnVHZDRGMGV5VzluNzRVNUptREZyNWlKLVpaNHJFaTdkSg?oc=5"
+    "published": "2026-09-30T10:21:00+00:00",
+    "source": "동아일보",
+    "title": "中지원 등에 업은 후티, 홍해 넘어 인도양도 위협한다",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFelZZcmdrQUFfTS1BM3FBXzRJVWtmWVlrU3hiQ0FZelRrNEIxaGVGbDQ1X01Md2syNERfZ0JBMzZYMlZybjV6TGdlTDU2Wk5EWk14UHFUVEJxV3R4T0VERWdYVHFadnJCRnRaLXdCbng4UFHSAWZBVV95cUxOTUF5VER5NTkzQS1NSFM2RkFXZUs0Sl9KVEhsUTFKenM1NFpzOG1yVFJheFpxa3BuRXJfY1FQR0pudmhXWGNVcGpmdzJzVFF1bGdMWV80WDBIYlhCWm1HSE1aTmxCM2c?oc=5"
+   },
+   {
+    "date": "2026-09-30",
+    "published": "2026-09-30T07:41:00+00:00",
+    "source": "한겨레",
+    "title": "‘앙숙’ UAE와 파키스탄까지…사우디 도울 ‘후티 대항 연합 전선’ 관심",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wN3lWT2IxbF9fcE9uSjhtSldFQkZNUFdINFh3WVRRbUdWY1RQWWpMS3FZNFZTMGRhM1I3RFktTC1paWozSnk0Y09nWEJPTXFxekNkODhTd2RVSjkwWllPdU5mNkpSY2hFZmpjWFZjSG1XRkk?oc=5"
    },
    {
     "date": "2026-09-30",
@@ -2428,22 +2435,15 @@
     "source": "MBC",
     "title": "후티 공세 몰린 사우디, 불편해진 UAE와 화해 추진",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yQ3lHc3B6Y3Q1N2EzZDQ1N0pxNFNQYVJ6ZUxyTnZaaXF0cnk3aWpNQjUtRENnWHZnbkpWMHBmTWtJcE5ZeGNYUVVGeXV0Nm5RcjZkMGMxVi1xMHUxUGE5bTJEd05BRVNWcVljNFZVWEV5QUJG0gF0QVVfeXFMTmlPRWZrbldMU1BtSDZDRms4bWJZd0dLTmJJWXpTcWhQYW53MHFDV3dtTXhRNk16NkRKZFlZUmdFVDJPdXRtd0RuX1J2a3BVc29DeElja09BU1l3Q3RtT2o4ZVVWX0ZYVDZRTkp5M2tNSEZEN0M?oc=5"
-   },
-   {
-    "date": "2026-09-30",
-    "published": "2026-09-30T02:20:14+00:00",
-    "source": "연합뉴스",
-    "title": "사우디, 후티 공세 탓 앙숙돼가던 UAE와 화해 추진",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UN2xwOVlScEhqenpuNUptUVVpU2RMOXBlNTJ3TEZKbFdacWlrS21zM2Mzb2hoUDFPUGlLcFFKNUhyYk13YWs3ZHliZm1aRmU2dW5qNFpqb0hVYXlzRmZNTNIBYEFVX3lxTE9UN2xwOVlScEhqenpuNUptUVVpU2RMOXBlNTJ3TEZKbFdacWlrS21zM2Mzb2hoUDFPUGlLcFFKNUhyYk13YWs3ZHliZm1aRmU2dW5qNFpqb0hVYXlzRmZNTA?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-09-30",
-    "published": "2026-09-30T21:12:43+00:00",
-    "source": "DW",
-    "title": "Houthi attacks threaten more than oil infrastructure — but its unclear how the Saudis can stop them.",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZW5BdDl0U3JZMUJoMlByaFFRRWhZb1ZhdDVtVmI0YWtEZ01ueDBwSzdjclg3WFBkWHZYVjI3SjFhQmtJUTMyWXNUamdVMHJVaXkxV2htaEtidzVsTGx4TC1hQzE3YWs0QmFHMzNTY1BTNGxFbm1lU1otd19ORHlVQmxHONIBgwFBVV95cUxOb3hwMGQ3aDRCQmVhRjFuNWtGb2Jpd2ticExUVXB6Mk9nZWNNS05wSlBkNVVmeEZjYTA1REU1QmZNeVdZMEtmWFBQUGJiZnl3Ykt1Y3NBOHRlNUpNTS1DYmhjOHlYNWJXWU1hTUVWSldUbE5qUml2QjROM09iQV9ZVlU0Yw?oc=5"
+    "date": "2026-10-01",
+    "published": "2026-10-01T09:30:09+00:00",
+    "source": "Reuters",
+    "title": "Saudi Aramco and Sonatrach raise LPG prices for October",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUNkbmxVTVd0aEl5NnpISTdkdUpBaGl5Mkc2Vzc1YWJRV29GeVhwZzMzNmpqc0dZMXk3RXJnT2RjODYzV0FvQjY4Ui10OHhtLTlDbE9UR3NVeGRUMklrenEwQVZOQnphUmhDQl95bGc3TWNNMmlOVGtjNktQOWh1SHNTWDBJbWkyQUljSDZ4QUsxMlNnVlNPWHo5Q2d3RWxH?oc=5"
    },
    {
     "date": "2026-09-30",
@@ -2451,6 +2451,13 @@
     "source": "Al Jazeera",
     "title": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLThfd1Q3em1qOGdmckYybUVCcmdtNW84RFRIMjJtM1p5SE5Kc1B3cE5zLUZLbXZpdzhuVVRILVF2SUZSazRua0pjdGl2RjhlcHk5WjBWcEZTcXJfRS1KdkpVYjVhSlNKSVFBaS0tSlE4WFY0MkFvenFtSHNLZEtWUzdIeFBXTUpUWUljaXBPRFg2c2ZQcXJYNVRlN1B6WE1SVVk5b3B3elBDUXZIMHNKNGstczZwUdIBuwFBVV95cUxNWmx5clBfR1lkSXZhb2p1cjh6dFU2OW1mTjBfVlphR20zOUVYR2tWUUNlSGRENTJQTjZiUmJQTE5aVGZLSU9uSGthS2Z6ZXgzVVZiNkR6dHAxZUE4WF90MG9maHdQTWNEVUE0Nkg3c0ZuT0RjY3lQc0NucmI2TlQ0a2R6QkVHNFRKYkswc1Q5TjExUDVVWXVXcGhsNFAxbWRWRVZHSDgycHBxazAyZDNJU2JtUHhzNHdnSWlv?oc=5"
+   },
+   {
+    "date": "2026-09-29",
+    "published": "2026-09-29T18:57:00+00:00",
+    "source": "The Guardian",
+    "title": "Saudi Arabia urged to reconcile with UAE to drive back Houthi separatists in Yemen",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcjZoOXpydjhlR2ozUXp5UlVJN0RJLW1LeFhLOXZWUThKbGMxWVprR0t3NDNDTDE3S3Z4SVc0YlV3UDFKTmQ1QXRKdk42enhHcm9rUUw2Nmwya25WOE9Sc3kzRXgybEppdHVpTlhJckNDQmF5eFRKbFBSd1dWbnZvbWJxX2pZUGNuazhyZ1hLbzMzODI2SW5XYVBSaXRlRm5nbTV6Vi1tcGV0TEJLRTdVeEQyTzlTU3FtQnpsUXhRU0dLcGdablM0?oc=5"
    },
    {
     "date": "2026-09-29",
@@ -2465,25 +2472,18 @@
     "source": "Reuters",
     "title": "Saudi Arabia resumes Yanbu oil loading after pipeline restart",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNE80QTVVd2tvbHZWR1VLTzh5enAxOUZGMUVGNnQxcXhHeVJiYzU2S2NaZWVReFdmaF83cjJ1dGFVRGREalh4aWFtaWxuR1hLUFdtSTRmb0dsM0ZDQkVOX1RxdG1FNDItMlN0Y0lPN1JlSTAxdXRncndISmxYc3hnaWZKekpVVDZ5RlJOLTNQS3RJSXFhY29RV2psazdPOTlpajFJVVVUc09hZw?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T13:58:42+00:00",
-    "source": "Financial Times",
-    "title": "Saudi crown prince holds talks with senior Emirati royal in push to mend rift",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQkNQZjhwRXZCazNZVUNIZ0F6U3dqc0Jhd1cwa3FNanNKT2pkMU13S2NmOHpSV3FUV1dnU2M4SVJPUVdHZURJekNDa1puZTRObm1JQ2JHUC1fcC1MY0VvSElWNVV2M0NnUHhXVG5Pb3JtTW9xMTdGQ1FRN3p6RzVjekk2QUQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-01T05:41:21Z"
+  "last_ok_at": "2026-10-01T13:02:39Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T05:41:22Z",
+  "fetched_at": "2026-10-01T13:02:40Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 24,
-  "baseline": null,
-  "baseline_n": 2,
+  "count": 31,
+  "baseline": 33,
+  "baseline_n": 5,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2563,14 +2563,15 @@
    "2026-09-30T13": 44,
    "2026-09-30T19": 41,
    "2026-09-30T23": 41,
-   "2026-10-01T05": 24
+   "2026-10-01T05": 24,
+   "2026-10-01T13": 31
   },
-  "last_ok_at": "2026-10-01T05:41:22Z"
+  "last_ok_at": "2026-10-01T13:02:40Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-01T05:41:22Z",
-  "last_ok_at": "2026-10-01T05:41:22Z"
+  "fetched_at": "2026-10-01T13:02:41Z",
+  "last_ok_at": "2026-10-01T13:02:41Z"
  }
 }
