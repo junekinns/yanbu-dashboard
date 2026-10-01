@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T18:48:56Z",
+ "generated_at": "2026-10-01T23:06:23Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-01T18:48:56Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +188,31 @@
   "last7d": 0,
   "baseline": 2.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-01T18:48:56Z"
+  "last_ok_at": "2026-10-01T18:48:56Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fdd31789df0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-10-01T23:06:23Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T18:49:15Z",
+  "fetched_at": "2026-10-01T23:07:23Z",
   "events": [
+   {
+    "date": "2026-10-02",
+    "time": "00:39",
+    "iso": "2026-10-02T00:39:04+03:00",
+    "city": "메디나",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.47,
+    "lon": 39.61,
+    "title": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjZNTVNkQV80ZkpaSG03OV9reW10bTZDaFdGbldBMkJhQlRBV1p4RjM3LVk5cWowVjJPUTRNdjcyOGVFUThUUnNmQnducGtJcDlFQlFKUWJERTFmZktYZWs0MzBnRGlWbU9DRE9MTGxpa1RlaUhhODVDV0wyVk1fcmg5bTU0NHhCZ0l4NHBQa09xOElzZFhBcDEwZG54UVAyUXZ0a0w2RE8zYWJSUTlxV3htRdIBuAFBVV95cUxPcU1jOUF2TUZkaldaYlhFNjhtX0ZPeXZKM0VtbUUtMFlHYkpWeThaLUltUVZKc0JKZGhBTzdUTndGVXFnS3VKUTJ1Z0Z5cmczZlZvLU5oN3hiUGZkNF9iMVFxN2VGMmZjNlk1UlZNZDUzc1JSYzdYWGg5Sy03dnk3ZVAyVkFwWV93ZXJ6RG1zcXlfdURJOFVBdjNZWGE1dGE4YjVrY2VOdVpaXzZNMHVGc2E2eWptdU5f?oc=5",
+    "source": "Al Jazeera",
+    "outlets": 1
+   },
    {
     "date": "2026-10-01",
     "time": "19:44",
@@ -859,9 +874,9 @@
    },
    "메디나": {
     "7d": {
-     "피격": 2
+     "피격": 3
     },
-    "total7d": 2,
+    "total7d": 3,
     "prev7d": {},
     "prev_total": 0
    },
@@ -878,13 +893,11 @@
     "prev_total": 0
    },
    "메카": {
-    "7d": {
-     "피격": 1
-    },
-    "total7d": 1,
+    "7d": {},
+    "total7d": 0,
     "prev7d": {
-     "경보": 1,
-     "피격": 3
+     "피격": 3,
+     "경보": 1
     },
     "prev_total": 4
    },
@@ -899,17 +912,16 @@
    "리야드": {
     "7d": {
      "공습": 1,
-     "피격": 2,
-     "요격": 1
+     "피격": 2
     },
-    "total7d": 4,
+    "total7d": 3,
     "prev7d": {
-     "요격": 3,
+     "요격": 4,
      "경보": 3,
      "공습": 2,
      "피격": 2
     },
-    "prev_total": 10
+    "prev_total": 11
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -986,15 +998,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 21,
+  "history_days": 22,
   "history_since": "2026-09-11",
-  "today": "2026-10-01",
-  "last_ok_at": "2026-10-01T18:49:15Z"
+  "today": "2026-10-02",
+  "last_ok_at": "2026-10-01T23:07:23Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T18:49:16Z",
+  "fetched_at": "2026-10-01T23:07:24Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1331,132 +1343,20 @@
     "text_ar": "أمام حقائق إصرار العدو السعودي كل الإصرار في مواصلة ظلمه.. لن يتوقف مسار تحرر اليمنيين وخلاصهم.. وهم أكثر يقينية بخيارهم المشروع أمام خزعبلات يائسة واتهامات باطلة بمزاعم استهداف مكة المكرمة. من مليونية \" دعم القوات المسلحة ومعادلة الحصار بالحصار، وفضح أكذوبة استهداف مكة \" #صنعاء #ميدان_السبعين http://t.me/army21ye",
     "text_ko": "부당함을 계속하겠다는 사우디 적의 결의에 직면하여 예멘의 해방과 구원의 길은 멈추지 않을 것입니다. 그들은 메카를 겨냥한 혐의에 대한 필사적 인 말도 안되고 거짓 비난에 직면하여 합법적 인 선택을 확신합니다. 백만에서 \"군대를 지원하고 포위 공격을 포위 공격과 동일시하며 메카를 겨냥한 거짓말을 폭로\" # Sana 'a # Al-Sabeen_Square http://t.me/army21ye",
     "url": "https://t.me/army21ye/3743"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:16+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: السعودية تستنجد بالخارج وتختلق الذرائع ضد اليمن #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
-    "text_ko": "Mr. Leader: 사우디 아라비아는 예멘을 상대로 해외에서 호소하고 구실을 하고 있습니다 # Say_and_do_master # Our_souls_redemption_for_the_Holy_Mecca # Saudi_fading http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3738"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:16+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: السعودية تنفذ العدوان مباشرة وتتنصل منه بغباء #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
-    "text_ko": "Mr. Leader: 사우디 아라비아는 침략을 직접 시행하고 어리석게 거부합니다. # Master_of_words_and_deeds # Our_souls_redemption_for_the_Holy_Mecca # Saudi_fading http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3739"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:16+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: أوقفوا العدوان والحصار ولن نتخلى عن فلسطين #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
-    "text_ko": "미스터 리더: 침략과 포위를 멈추면 우리는 팔레스타인을 포기하지 않을 것입니다 # Master_of_words_and_deeds # Our_lives_redemption_for_the_Holy_Mecca # Saudi_Bahtan http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3740"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:16+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: أبناء المحافظات الجنوبية والشرقية ليسوا هدفًا والمستهدف هي تحشيدات العدو السعودي #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
-    "text_ko": "사령관님: 남부와 동부 지방의 사람들은 목표가 아니며, 목표는 사우디 적의 동원입니다 # Say_and_do_master # Our_souls_redemption_for_the_Holy_Mecca # Saudi_fading http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3741"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:16+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: لن نسكت عن البهتان السعودي وشعبنا سيخرج بالملايين #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
-    "text_ko": "미스터 리더: 우리는 사우디의 퇴색에 대해 침묵하지 않을 것이며 우리 국민은 수백만 명으로 나올 것입니다 # Master_of_words_and_deeds # Our_souls_redemption_for_the_Holy_Mecca # Saudi_fading http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3742"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:15+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: الاتهام باستهداف مكة انتهاك لمكة وإساءة لشرفنا الإسلامي وشعبنا الحامل لراية الإسلام. #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة http://t.me/army21ye",
-    "text_ko": "사령관님: 메카를 겨냥했다는 비난은 메카를 위반한 것이며 이슬람의 명예와 이슬람의 깃발을 든 우리 국민에 대한 모욕입니다. # Say_and_do_master # 거룩한_메카를_위한_우리의_구속_영혼들 http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3733"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:15+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: نحن من نفتدي مكة بأرواحنا وأنفسنا والنظام السعودي هو من ينتهك قدسيتها. #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3734"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:15+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: تلقف الاتهام السعودي وإصدار إدانات هي شهادة زور وشراكة في البهتان مقابل الدولار والبترو دولار. #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3735"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:15+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: شعبنا بقواته المسلحة يحتفظ بحقه الشرعي والقانوني والأخلاقي تجاه الإساءة له #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3736"
-   },
-   {
-    "time": "2026-09-17 22:52",
-    "iso": "2026-09-17T22:52:15+03:00",
-    "places": [
-     "메카"
-    ],
-    "text_ar": "السيد القائد: السعودية تحرف بوصلة العداء وتخدم العدو الصهيوني.. #سيد_القول_والفعل #أرواحنا_الفداء_لمكة_المكرمة #البهتان_السعودي http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3737"
-   },
-   {
-    "time": "2026-09-17 21:34",
-    "iso": "2026-09-17T21:34:06+03:00",
-    "places": [
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 37 غارة جوية بطائرات نوع \"F15\" أقلعت من قاعدة خميس مشيط الجوية واستهدفت محافظات تعز وحجة وخلفت شهداء وجرحى من المدنيين. http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3732"
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 10,
-   "타이프": 7,
-   "지잔": 5,
-   "나즈란": 5,
-   "리야드": 3,
-   "얀부": 3
+   "카미스무샤이트": 8,
+   "타이프": 5,
+   "지잔": 3,
+   "나즈란": 3
   },
-  "last_ok_at": "2026-10-01T18:49:16Z"
+  "last_ok_at": "2026-10-01T23:07:24Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T18:49:18Z",
+  "fetched_at": "2026-10-01T23:07:25Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2412,26 +2312,26 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-01T18:49:18Z"
+  "last_ok_at": "2026-10-01T23:07:25Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T18:49:20Z",
+  "fetched_at": "2026-10-01T23:07:28Z",
   "kr": [
+   {
+    "date": "2026-10-01",
+    "published": "2026-10-01T19:28:00+00:00",
+    "source": "KBS",
+    "title": "사우디 주도 연합군 “후티, 성지 메디나에 전력공급하는 배전소 공격”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MZ0ZMVG1ET2lEel96bHlQSkRuU0VVVE81am1UY0JuUVhLRThjYnhPVm1kdnA5ei1GWGFIdDdhSHgzX1poNHp4ZXM1WTRRX1pFX2lJVE02UVJyYkE?oc=5"
+   },
    {
     "date": "2026-09-30",
     "published": "2026-09-30T16:15:10+00:00",
     "source": "뉴스1",
     "title": "EU 항공안전청, 후티 공격 증가에 \"사우디 영공 피하라\"",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11ZExaUHZIUTFnRGNvYjFtNE1VM1ZOQ2Y1Wmk1ZlotZ1oxbFYxZVh5eDZNc1VDWEF0Zk92OEdianJ1bE4tT0xmWmJkbDRUSldIXzJr0gFYQVVfeXFMTXQ1ZTUtaVRRUDZvUDVRMkdpSlMxTl9wWWNNc3FuYTlNVUt4V285SFZ4NHJyX2N2VnVHZDRGMGV5VzluNzRVNUptREZyNWlKLVpaNHJFaTdkSg?oc=5"
-   },
-   {
-    "date": "2026-09-30",
-    "published": "2026-09-30T10:21:00+00:00",
-    "source": "동아일보",
-    "title": "中지원 등에 업은 후티, 홍해 넘어 인도양도 위협한다",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFelZZcmdrQUFfTS1BM3FBXzRJVWtmWVlrU3hiQ0FZelRrNEIxaGVGbDQ1X01Md2syNERfZ0JBMzZYMlZybjV6TGdlTDU2Wk5EWk14UHFUVEJxV3R4T0VERWdYVHFadnJCRnRaLXdCbng4UFHSAWZBVV95cUxOTUF5VER5NTkzQS1NSFM2RkFXZUs0Sl9KVEhsUTFKenM1NFpzOG1yVFJheFpxa3BuRXJfY1FQR0pudmhXWGNVcGpmdzJzVFF1bGdMWV80WDBIYlhCWm1HSE1aTmxCM2c?oc=5"
    },
    {
     "date": "2026-09-30",
@@ -2458,6 +2358,13 @@
   "en": [
    {
     "date": "2026-10-01",
+    "published": "2026-10-01T21:39:04+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjZNTVNkQV80ZkpaSG03OV9reW10bTZDaFdGbldBMkJhQlRBV1p4RjM3LVk5cWowVjJPUTRNdjcyOGVFUThUUnNmQnducGtJcDlFQlFKUWJERTFmZktYZWs0MzBnRGlWbU9DRE9MTGxpa1RlaUhhODVDV0wyVk1fcmg5bTU0NHhCZ0l4NHBQa09xOElzZFhBcDEwZG54UVAyUXZ0a0w2RE8zYWJSUTlxV3htRdIBuAFBVV95cUxPcU1jOUF2TUZkaldaYlhFNjhtX0ZPeXZKM0VtbUUtMFlHYkpWeThaLUltUVZKc0JKZGhBTzdUTndGVXFnS3VKUTJ1Z0Z5cmczZlZvLU5oN3hiUGZkNF9iMVFxN2VGMmZjNlk1UlZNZDUzc1JSYzdYWGg5Sy03dnk3ZVAyVkFwWV93ZXJ6RG1zcXlfdURJOFVBdjNZWGE1dGE4YjVrY2VOdVpaXzZNMHVGc2E2eWptdU5f?oc=5"
+   },
+   {
+    "date": "2026-10-01",
     "published": "2026-10-01T09:30:09+00:00",
     "source": "Reuters",
     "title": "Saudi Aramco and Sonatrach raise LPG prices for October",
@@ -2472,10 +2379,10 @@
    },
    {
     "date": "2026-09-30",
-    "published": "2026-09-30T17:18:02+00:00",
-    "source": "DW",
-    "title": "Houthi attacks threaten more than oil infrastructure — but its unclear how the Saudis can stop them.",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZW5BdDl0U3JZMUJoMlByaFFRRWhZb1ZhdDVtVmI0YWtEZ01ueDBwSzdjclg3WFBkWHZYVjI3SjFhQmtJUTMyWXNUamdVMHJVaXkxV2htaEtidzVsTGx4TC1hQzE3YWs0QmFHMzNTY1BTNGxFbm1lU1otd19ORHlVQmxHONIBgwFBVV95cUxOb3hwMGQ3aDRCQmVhRjFuNWtGb2Jpd2ticExUVXB6Mk9nZWNNS05wSlBkNVVmeEZjYTA1REU1QmZNeVdZMEtmWFBQUGJiZnl3Ykt1Y3NBOHRlNUpNTS1DYmhjOHlYNWJXWU1hTUVWSldUbE5qUml2QjROM09iQV9ZVlU0Yw?oc=5"
+    "published": "2026-09-30T11:06:24+00:00",
+    "source": "Bloomberg",
+    "title": "Bloomberg expands Saudi Arabia presence with new office in King Abdullah Financial District | Press | % Bloomberg LP",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSzkzNnpxYU9WUFpCeWp1NWw1NFZwR1QwUjJubEFfdXBoRzQ2NTNJeFNXSXhkZmszeVJLUVZETFBJbnpwOVBiWXpPbUlMV1JvTm1oSlhHbUlFTy0weWlvTGVRQ183NDQ3QldnWmR6Yjd4SnFLYkNRUFEzUnRDd3pCSGxNUENyRTVtTVh4MWhpa1pTdHkxaUNCdHhTRlB0MUNNMzF0SlZoOUJ0NThQaEZFVGFGWl9VX01KX2p5R01TdVpHNzZaRTNkTFk2UnM?oc=5"
    },
    {
     "date": "2026-09-29",
@@ -2483,25 +2390,18 @@
     "source": "The Guardian",
     "title": "Saudi Arabia urged to reconcile with UAE to drive back Houthi separatists in Yemen",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcjZoOXpydjhlR2ozUXp5UlVJN0RJLW1LeFhLOXZWUThKbGMxWVprR0t3NDNDTDE3S3Z4SVc0YlV3UDFKTmQ1QXRKdk42enhHcm9rUUw2Nmwya25WOE9Sc3kzRXgybEppdHVpTlhJckNDQmF5eFRKbFBSd1dWbnZvbWJxX2pZUGNuazhyZ1hLbzMzODI2SW5XYVBSaXRlRm5nbTV6Vi1tcGV0TEJLRTdVeEQyTzlTU3FtQnpsUXhRU0dLcGdablM0?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T16:29:22+00:00",
-    "source": "The New York Times",
-    "title": "Tankers Are Loading Oil Again From a Vital Saudi Pipeline",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdFNXVWJfZHpCT0NnS2t4MnRJMFNVbjlEb0xidV85S0xqVHRCc0JfczVydHFBVEhLc212OGpJRGhhS2NjWFZWN08zaHFGeG1Ta2plcFV3bWlUMUNYMk8wQlF4dGpGVG5rVGVVMy13VGpjVHpTTk5iR1ZudVkwbXlHUlN4OA?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-01T18:49:20Z"
+  "last_ok_at": "2026-10-01T23:07:28Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T18:49:21Z",
+  "fetched_at": "2026-10-01T23:07:29Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 40,
-  "baseline": 31,
-  "baseline_n": 5,
+  "count": 31,
+  "baseline": 43.0,
+  "baseline_n": 4,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2583,14 +2483,15 @@
    "2026-09-30T23": 41,
    "2026-10-01T05": 24,
    "2026-10-01T13": 31,
-   "2026-10-01T18": 40
+   "2026-10-01T18": 40,
+   "2026-10-01T23": 31
   },
-  "last_ok_at": "2026-10-01T18:49:21Z"
+  "last_ok_at": "2026-10-01T23:07:29Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-01T18:49:21Z",
-  "last_ok_at": "2026-10-01T18:49:21Z"
+  "fetched_at": "2026-10-01T23:07:29Z",
+  "last_ok_at": "2026-10-01T23:07:29Z"
  }
 }
