@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T09:38:55Z",
+ "generated_at": "2026-10-02T16:13:51Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-10-02T16:13:51Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -188,16 +191,12 @@
   "last7d": 0,
   "baseline": 2.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-02T02:11:16Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f9998a89fd0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-10-02T09:38:55Z",
-  "stale": true
+  "last_ok_at": "2026-10-02T16:13:51Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T09:39:56Z",
+  "fetched_at": "2026-10-02T16:14:13Z",
   "events": [
    {
     "date": "2026-10-02",
@@ -355,20 +354,6 @@
    },
    {
     "date": "2026-09-24",
-    "time": "18:30",
-    "iso": "2026-09-24T18:30:30+03:00",
-    "city": "지잔",
-    "type": "피격",
-    "weapon": "드론",
-    "lat": 16.89,
-    "lon": 42.57,
-    "title": "Yemen’s Houthis claim missile, drone attack on Saudi military sites in Jazan",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU25zN2FFaVg4cGJ3NE1FSS1HTE5lejhYS0hHZGhSeEhFTU1rWTU2dXdvYm9ZNmdNSFhQMDJRR0IxOXJieW5QR0gzUnFERG5MOGIyY1JqV3N0OTZlRWExYkdwV3hlVWR5NWd5YWNhM2hGVjR2NVdxblBVZEFSZ1lESkNlSTRZaXZTM3pfUW9uVEFreUhWaHZiR3RMZE04cTB2YnJ1ZkJGYURjSWw3clFMbzdTeEJKUVlVb1JrWg?oc=5",
-    "source": "Anadolu",
-    "outlets": 1
-   },
-   {
-    "date": "2026-09-24",
     "time": "14:54",
     "iso": "2026-09-24T14:54:44+03:00",
     "city": "얀부",
@@ -407,6 +392,20 @@
     "title": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
     "source": "Reuters",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-24",
+    "time": "10:00",
+    "iso": "2026-09-24T10:00:00+03:00",
+    "city": "지잔",
+    "type": "피격",
+    "weapon": "드론",
+    "lat": 16.89,
+    "lon": 42.57,
+    "title": "Yemen’s Houthis claim missile, drone attack on Saudi military sites in Jazan",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU25zN2FFaVg4cGJ3NE1FSS1HTE5lejhYS0hHZGhSeEhFTU1rWTU2dXdvYm9ZNmdNSFhQMDJRR0IxOXJieW5QR0gzUnFERG5MOGIyY1JqV3N0OTZlRWExYkdwV3hlVWR5NWd5YWNhM2hGVjR2NVdxblBVZEFSZ1lESkNlSTRZaXZTM3pfUW9uVEFreUhWaHZiR3RMZE04cTB2YnJ1ZkJGYURjSWw3clFMbzdTeEJKUVlVb1JrWg?oc=5",
+    "source": "Anadolu",
     "outlets": 1
    },
    {
@@ -1001,12 +1000,12 @@
   "history_days": 22,
   "history_since": "2026-09-11",
   "today": "2026-10-02",
-  "last_ok_at": "2026-10-02T09:39:56Z"
+  "last_ok_at": "2026-10-02T16:14:13Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T09:39:58Z",
+  "fetched_at": "2026-10-02T16:14:14Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1346,17 +1345,17 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 8,
-   "타이프": 5,
+   "카미스무샤이트": 7,
+   "타이프": 4,
    "지잔": 3,
-   "나즈란": 3
+   "나즈란": 2
   },
-  "last_ok_at": "2026-10-02T09:39:58Z"
+  "last_ok_at": "2026-10-02T16:14:14Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T09:39:58Z",
+  "fetched_at": "2026-10-02T16:14:14Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2230,14 +2229,62 @@
     "date": "2026-10-02",
     "time": "0022",
     "confidence": "nominal"
+   },
+   {
+    "lat": 25.40949,
+    "lon": 49.40754,
+    "frp": 2.24,
+    "date": "2026-10-02",
+    "time": "0954",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.65684,
+    "lon": 49.2959,
+    "frp": 3.08,
+    "date": "2026-10-02",
+    "time": "0956",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.66025,
+    "lon": 49.2952,
+    "frp": 3.08,
+    "date": "2026-10-02",
+    "time": "0956",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.7809,
+    "lon": 49.50996,
+    "frp": 3.08,
+    "date": "2026-10-02",
+    "time": "0956",
+    "confidence": "low"
+   },
+   {
+    "lat": 26.0347,
+    "lon": 50.55775,
+    "frp": 2.66,
+    "date": "2026-10-02",
+    "time": "0956",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.18797,
+    "lon": 49.64959,
+    "frp": 2.25,
+    "date": "2026-10-02",
+    "time": "0956",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-02T09:39:58Z"
+  "last_ok_at": "2026-10-02T16:14:14Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T09:40:01Z",
+  "fetched_at": "2026-10-02T16:14:17Z",
   "kr": [
    {
     "date": "2026-10-02",
@@ -2257,15 +2304,15 @@
     "date": "2026-10-02",
     "published": "2026-10-02T06:30:00+00:00",
     "source": "채널A",
-    "title": "‘번쩍’하며 폭발…사우디, 후티 반군 점령한 예맨에 반격 공습 [현장영상]",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1CWEFacFJHWmZrWGRLR3F5b0h3OHlwM3pNX2VGVlNaZ3lrQW5yMV9zY3V6MjJOdVRqamR0NHJlbWNSLWkzdi1fTjY2X0lSVmZGdW1WNXphUEVETTZBY294eHNLUdIBY0FVX3lxTE1CWEFacFJHWmZrWGRLR3F5b0h3OHlwM3pNX2VGVlNaZ3lrQW5yMV9zY3V6MjJOdVRqamR0NHJlbWNSLWkzdi1fTjY2X0lSVmZGdW1WNXphUEVETTZBY294eHNLUQ?oc=5"
+    "title": "‘번쩍’하며 폭발…사우디, 후티 반군 점령한 예멘에 반격 공습 [현장영상]",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QVTlVTERPV2toU3lFTDJXX09qVXJMQTBqNzROczhUNnh3WndzMGYxYmZTcU1Gc25RLXlFV1dlUDNndzRKeThWM3hESmpNcU9uYWlfbUpjdVlKMnczSWfSAWNBVV95cUxNQlhBWnBSR1pma1hkS0dxeW9Idzh5cDN6TV9lRlZTWmd5a0FucjFfc2N1ejIyTnVUampkdDRyZW1jUi1pM3YtX042Nl9JUlZmRnVtVjV6YVBFRE02QWNveHhzS1E?oc=5"
    },
    {
     "date": "2026-10-02",
     "published": "2026-10-02T00:46:00+00:00",
     "source": "SBS",
     "title": "'공습 격화' 사우디·후티, 상대편 수도 타격전",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BTTZ4ZWtnclJWbmR1d0F4NnZEdEpfajJMSGQtaVcwSV9wTVJKS1pPbEYyRzc4b1NyeDkxQ0o3dEMzT2phLXlWV0JBSDdMLU5xYjNB0gFYQVVfeXFMTXJZUHZhRGY5bXFHcm9GdVc1ejNIYTd4bUw5eGIxVTN1V3NDOFdib2JkQ1JmeFNtTDBtR3IzR21Qc21EbnlsenVaUUJWTmlkMzl0aldkYjN0cQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yWVB2YURmOW1xR3JvRnVXNXozSGE3eG1MOXhiMVUzdVdzQzhXYm9iZENSZnhTbUwwbUdyM0dtUHNtRG55bHp1WlFCVk5pZDM5dGpXZGIzdHHSAVhBVV95cUxNcllQdmFEZjltcUdyb0Z1VzV6M0hhN3htTDl4YjFVM3VXc0M4V2JvYmRDUmZ4U21MMG1HcjNHbVBzbURueWx6dVpRQlZOaWQzOXRqV2RiM3Rx?oc=5"
    },
    {
     "date": "2026-10-01",
@@ -2277,47 +2324,47 @@
   ],
   "en": [
    {
+    "date": "2026-10-02",
+    "published": "2026-10-02T16:05:43+00:00",
+    "source": "Reuters",
+    "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUVJialJyWHg0VzlHXzBiaTU3elZhbWEtQzd0TjhNOGNsWFFZNTYyMGFqODJGcVc3aVBaYVY3QkRzWWpEZDlQNEpJeVp6ZjMxYkZKYi1nZ0FUenFUSFRFRTNCb3NaTmdCaTJ1WWV1RmlqcmhSZGtsZWZobE5jSHp3RkJiVXpueWdVOHJmbDhzUEEzVXB6OF9jYkJHcnpfQklTNDVHZ20yS1J6QQ?oc=5"
+   },
+   {
+    "date": "2026-10-02",
+    "published": "2026-10-02T11:33:51+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Arabia Hikes Oil Flow on Key Pipeline to Over 80% Capacity",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMVFoRHBobVlibHVtNk16T1NGRG9YVnozSm50ZEZnOGhZZkhULXRmUlhQeTJhLVYycnJIMEJRYXVhUm0xZlQ5ZURZVF9xREgxSG50Nm9xb295NFlQRTkySVlUazdzalg1WklCcUZhbU1mWkEwazRuVmxFeS1NWDVlTFlkTVU4OEdScXpHOFZqcWx4YU9obnZiNzdvNHk2T0lING1HQ1VyS1V4R2NfdDE2Rlg4Qkw?oc=5"
+   },
+   {
+    "date": "2026-10-02",
+    "published": "2026-10-02T08:32:15+00:00",
+    "source": "Euronews",
+    "title": "Houthis deny Saudi accusations of targeting Medina's holy sites",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV25MaDF6YVFPZHo5N1VabHlUbmhSbFc4VXk4Rjc5OXhRd1lYbVFuWkhDaTRxZ21lOEZjV1o4ekc0Z2x1VVVoRDR1ZDhFRHNFbUFpZklJalhuM29rQWJyRVVpakwwOERrTTZvcnZ2Y3UxbXl1SEtNZTg4X2RlM1FRS2RuU21qTVFyclBmTy1UZDJiQzMxWXVoMk5DM2R6aUU?oc=5"
+   },
+   {
+    "date": "2026-10-02",
+    "published": "2026-10-02T02:39:43+00:00",
+    "source": "France 24",
+    "title": "Saudi-led coalition accuses Houthis of striking Medina power station",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmIyOHM4bWtqTGdCenhBd1EwYm9hV21PbmhfWFYwX0lVZlNyYW00Q3JiNldsMEwxcDVzYmdFdEhXc0F0cmp3enEydDk2TVlzOEFuaGlaQlNhN2V1MXNHQ29YNWJmZk9wNXRfeGVIWWwtZWNEX09QUklQTEZUZUR1NVVaLTBjbTFCZ3A4V3hWNGttdjdBMWpuLWN0ajY0UDJFTHZUM3RwWm0ydw?oc=5"
+   },
+   {
     "date": "2026-10-01",
     "published": "2026-10-01T21:39:04+00:00",
     "source": "Al Jazeera",
     "title": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjZNTVNkQV80ZkpaSG03OV9reW10bTZDaFdGbldBMkJhQlRBV1p4RjM3LVk5cWowVjJPUTRNdjcyOGVFUThUUnNmQnducGtJcDlFQlFKUWJERTFmZktYZWs0MzBnRGlWbU9DRE9MTGxpa1RlaUhhODVDV0wyVk1fcmg5bTU0NHhCZ0l4NHBQa09xOElzZFhBcDEwZG54UVAyUXZ0a0w2RE8zYWJSUTlxV3htRdIBuAFBVV95cUxPcU1jOUF2TUZkaldaYlhFNjhtX0ZPeXZKM0VtbUUtMFlHYkpWeThaLUltUVZKc0JKZGhBTzdUTndGVXFnS3VKUTJ1Z0Z5cmczZlZvLU5oN3hiUGZkNF9iMVFxN2VGMmZjNlk1UlZNZDUzc1JSYzdYWGg5Sy03dnk3ZVAyVkFwWV93ZXJ6RG1zcXlfdURJOFVBdjNZWGE1dGE4YjVrY2VOdVpaXzZNMHVGc2E2eWptdU5f?oc=5"
-   },
-   {
-    "date": "2026-10-01",
-    "published": "2026-10-01T16:58:00+00:00",
-    "source": "Reuters",
-    "title": "Saudi-led coalition says Houthis attacked power station for Prophet's Mosque in Medina",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZnZXZzBwRDQtUGJYZWxuelowY3BQM2prQm43eC0yOTVELWRadi1GRmJWcXAtOU9RXzlrX3ctd3ZmckFmVEtNLXhtQzRhRDNSWkJyc1djUGJ0NFhPUTZPbDR6OVd4QTBlUDh6bEhqUlZEanMzUlRpOVdKeUtyVnRVaHJPT0ZCQy1jcEZwc05aZ0dPY2l3VF9fVmJCZ3BHNGIxUXppQUNlMGlGV1I1SUhPMXYyMHo?oc=5"
-   },
-   {
-    "date": "2026-10-01",
-    "published": "2026-10-01T09:30:09+00:00",
-    "source": "Reuters",
-    "title": "Saudi Aramco and Sonatrach raise LPG prices for October",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUNkbmxVTVd0aEl5NnpISTdkdUpBaGl5Mkc2Vzc1YWJRV29GeVhwZzMzNmpqc0dZMXk3RXJnT2RjODYzV0FvQjY4Ui10OHhtLTlDbE9UR3NVeGRUMklrenEwQVZOQnphUmhDQl95bGc3TWNNMmlOVGtjNktQOWh1SHNTWDBJbWkyQUljSDZ4QUsxMlNnVlNPWHo5Q2d3RWxH?oc=5"
-   },
-   {
-    "date": "2026-09-30",
-    "published": "2026-09-30T19:37:17+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi Arabia not to compromise on security as Houthis choose ‘chaos’: MBS",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLThfd1Q3em1qOGdmckYybUVCcmdtNW84RFRIMjJtM1p5SE5Kc1B3cE5zLUZLbXZpdzhuVVRILVF2SUZSazRua0pjdGl2RjhlcHk5WjBWcEZTcXJfRS1KdkpVYjVhSlNKSVFBaS0tSlE4WFY0MkFvenFtSHNLZEtWUzdIeFBXTUpUWUljaXBPRFg2c2ZQcXJYNVRlN1B6WE1SVVk5b3B3elBDUXZIMHNKNGstczZwUdIBuwFBVV95cUxNWmx5clBfR1lkSXZhb2p1cjh6dFU2OW1mTjBfVlphR20zOUVYR2tWUUNlSGRENTJQTjZiUmJQTE5aVGZLSU9uSGthS2Z6ZXgzVVZiNkR6dHAxZUE4WF90MG9maHdQTWNEVUE0Nkg3c0ZuT0RjY3lQc0NucmI2TlQ0a2R6QkVHNFRKYkswc1Q5TjExUDVVWXVXcGhsNFAxbWRWRVZHSDgycHBxazAyZDNJU2JtUHhzNHdnSWlv?oc=5"
-   },
-   {
-    "date": "2026-09-30",
-    "published": "2026-09-30T17:26:24+00:00",
-    "source": "DW",
-    "title": "Houthi attacks threaten more than oil infrastructure — but its unclear how the Saudis can stop them.",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZW5BdDl0U3JZMUJoMlByaFFRRWhZb1ZhdDVtVmI0YWtEZ01ueDBwSzdjclg3WFBkWHZYVjI3SjFhQmtJUTMyWXNUamdVMHJVaXkxV2htaEtidzVsTGx4TC1hQzE3YWs0QmFHMzNTY1BTNGxFbm1lU1otd19ORHlVQmxHONIBgwFBVV95cUxOb3hwMGQ3aDRCQmVhRjFuNWtGb2Jpd2ticExUVXB6Mk9nZWNNS05wSlBkNVVmeEZjYTA1REU1QmZNeVdZMEtmWFBQUGJiZnl3Ykt1Y3NBOHRlNUpNTS1DYmhjOHlYNWJXWU1hTUVWSldUbE5qUml2QjROM09iQV9ZVlU0Yw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-02T09:40:01Z"
+  "last_ok_at": "2026-10-02T16:14:17Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T09:40:02Z",
+  "fetched_at": "2026-10-02T16:14:19Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 30,
   "baseline": 35,
@@ -2406,14 +2453,15 @@
    "2026-10-01T18": 40,
    "2026-10-01T23": 31,
    "2026-10-02T02": 37,
-   "2026-10-02T09": 30
+   "2026-10-02T09": 30,
+   "2026-10-02T16": 30
   },
-  "last_ok_at": "2026-10-02T09:40:02Z"
+  "last_ok_at": "2026-10-02T16:14:19Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-02T09:40:02Z",
-  "last_ok_at": "2026-10-02T09:40:02Z"
+  "fetched_at": "2026-10-02T16:14:19Z",
+  "last_ok_at": "2026-10-02T16:14:19Z"
  }
 }
