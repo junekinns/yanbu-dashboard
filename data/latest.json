@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T23:06:23Z",
+ "generated_at": "2026-10-02T02:11:16Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-10-02T02:11:16Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -188,16 +191,12 @@
   "last7d": 0,
   "baseline": 2.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-01T18:48:56Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fdd31789df0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-10-01T23:06:23Z",
-  "stale": true
+  "last_ok_at": "2026-10-02T02:11:16Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T23:07:23Z",
+  "fetched_at": "2026-10-02T02:11:37Z",
   "events": [
    {
     "date": "2026-10-02",
@@ -225,7 +224,7 @@
     "title": "Saudi-led coalition blames Houthis for drone attack on Medina power station",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTmRNUUlrMUplQUxMWWNRZVBpUGtRY25uenYtR3FMRnFwNXN2eUswVGU0UUpjeVhIUkRFaTNTZ2pjOERxZTVRazY3THJlQlNKVHdGX1BnNTBpWWhDYk0zaHVpLURzTl96VGxPSVZBS2MxMDhBaTh6eVdQSGJKUFFqejhuWHFWYVJoeG9oUEQ0NXJnM3dXbzdyVXNycVR1YVNHdUxuQ2pEUXk2LUFyeUtGM1hYRktBbXZwTEtjNg?oc=5",
     "source": "Anadolu",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-09-30",
@@ -1001,12 +1000,12 @@
   "history_days": 22,
   "history_since": "2026-09-11",
   "today": "2026-10-02",
-  "last_ok_at": "2026-10-01T23:07:23Z"
+  "last_ok_at": "2026-10-02T02:11:37Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T23:07:24Z",
+  "fetched_at": "2026-10-02T02:11:38Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1351,12 +1350,12 @@
    "지잔": 3,
    "나즈란": 3
   },
-  "last_ok_at": "2026-10-01T23:07:24Z"
+  "last_ok_at": "2026-10-02T02:11:38Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T23:07:25Z",
+  "fetched_at": "2026-10-02T02:11:38Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2310,15 +2309,108 @@
     "date": "2026-10-01",
     "time": "1013",
     "confidence": "low"
+   },
+   {
+    "lat": 27.07594,
+    "lon": 49.57587,
+    "frp": 2.0,
+    "date": "2026-10-01",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.95537,
+    "lon": 49.58784,
+    "frp": 2.41,
+    "date": "2026-10-01",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.15709,
+    "lon": 50.66814,
+    "frp": 0.99,
+    "date": "2026-10-01",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.78054,
+    "lon": 49.50742,
+    "frp": 3.74,
+    "date": "2026-10-01",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.77991,
+    "lon": 49.51129,
+    "frp": 2.09,
+    "date": "2026-10-01",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.41927,
+    "lon": 47.01148,
+    "frp": 1.9,
+    "date": "2026-10-01",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.9113,
+    "lon": 53.95112,
+    "frp": 2.33,
+    "date": "2026-10-01",
+    "time": "2240",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.73969,
+    "lon": 38.5024,
+    "frp": 1.0,
+    "date": "2026-10-01",
+    "time": "2242",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 17.34714,
+    "lon": 42.61412,
+    "frp": 1.09,
+    "date": "2026-10-01",
+    "time": "2244",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-01T23:07:25Z"
+  "last_ok_at": "2026-10-02T02:11:38Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T23:07:28Z",
+  "fetched_at": "2026-10-02T02:11:40Z",
   "kr": [
+   {
+    "date": "2026-10-02",
+    "published": "2026-10-02T00:46:00+00:00",
+    "source": "SBS",
+    "title": "'공습 격화' 사우디·후티, 상대편 수도 타격전",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BTTZ4ZWtnclJWbmR1d0F4NnZEdEpfajJMSGQtaVcwSV9wTVJKS1pPbEYyRzc4b1NyeDkxQ0o3dEMzT2phLXlWV0JBSDdMLU5xYjNB0gFYQVVfeXFMTXJZUHZhRGY5bXFHcm9GdVc1ejNIYTd4bUw5eGIxVTN1V3NDOFdib2JkQ1JmeFNtTDBtR3IzR21Qc21EbnlsenVaUUJWTmlkMzl0aldkYjN0cQ?oc=5"
+   },
+   {
+    "date": "2026-10-01",
+    "published": "2026-10-01T23:55:00+00:00",
+    "source": "KBS",
+    "title": "“사우디, 후티 수도 공습”…양측 원거리 공방 지속",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83amo4YUlQSW9rWmlSTElPdnVUYTE2V1RuelVlRG9RMXRuLThpdjJRSy1zUUljMFZCUG41ODFVMkU0SGsxbGEtZXRxWGZaZktYcnlFTm9aTEZnR1U?oc=5"
+   },
+   {
+    "date": "2026-10-01",
+    "published": "2026-10-01T23:50:57+00:00",
+    "source": "연합뉴스",
+    "title": "사우디·후티 서로 질세라 수도 겨냥 원거리 타격전",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LazZ5cGVsVk44djR1X0JwUVNWaFhOZDdaNk01bV9yRDFMel95S2xsdEN0LWg5NTRsLWJ0QmxHSU54WXlEMUxLal80N3pSU3IxQk9hSXBieXJkYTjSAWBBVV95cUxPckt2THNfNjlmYUJhVnVEQ3ZFZXZhN25sQkpmbkI0eHMxV1RoVHpBcGpEZmFjMk1fTU8yODdnTjBZQlNVbjVyTU5LTHZvNVBodGo1U3FxSFR2cVF2RUtUaXA?oc=5"
+   },
    {
     "date": "2026-10-01",
     "published": "2026-10-01T19:28:00+00:00",
@@ -2332,27 +2424,6 @@
     "source": "뉴스1",
     "title": "EU 항공안전청, 후티 공격 증가에 \"사우디 영공 피하라\"",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11ZExaUHZIUTFnRGNvYjFtNE1VM1ZOQ2Y1Wmk1ZlotZ1oxbFYxZVh5eDZNc1VDWEF0Zk92OEdianJ1bE4tT0xmWmJkbDRUSldIXzJr0gFYQVVfeXFMTXQ1ZTUtaVRRUDZvUDVRMkdpSlMxTl9wWWNNc3FuYTlNVUt4V285SFZ4NHJyX2N2VnVHZDRGMGV5VzluNzRVNUptREZyNWlKLVpaNHJFaTdkSg?oc=5"
-   },
-   {
-    "date": "2026-09-30",
-    "published": "2026-09-30T07:41:00+00:00",
-    "source": "한겨레",
-    "title": "‘앙숙’ UAE와 파키스탄까지…사우디 도울 ‘후티 대항 연합 전선’ 관심",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wN3lWT2IxbF9fcE9uSjhtSldFQkZNUFdINFh3WVRRbUdWY1RQWWpMS3FZNFZTMGRhM1I3RFktTC1paWozSnk0Y09nWEJPTXFxekNkODhTd2RVSjkwWllPdU5mNkpSY2hFZmpjWFZjSG1XRkk?oc=5"
-   },
-   {
-    "date": "2026-09-30",
-    "published": "2026-09-30T06:39:44+00:00",
-    "source": "중앙일보",
-    "title": "후티 공세에 사우디·UAE, 급화해 모드…美·이란 협상은 제자리",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4MFA0ZFVLSDk4SzZmTGN2N2NOOThXZkNEdWVxR19vUUhqcmlfdHZsZnIyTkxkdkFERTB4Y3N0RjBTUmg0Y3pRLTMyTHRYNGRLeXN0THRn?oc=5"
-   },
-   {
-    "date": "2026-09-30",
-    "published": "2026-09-30T06:05:35+00:00",
-    "source": "뉴시스",
-    "title": "파키스탄 \"사우디 후티 방어에 모든 수단 동원\"…참전은 불분명",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xSDR3WHN0ZFlTZ2tma0lWV1gwMmpDbDhyeTZzSzVTcFZZLWstUjVyWGN2S19hbmRpRXlOREdrUFBDZF9rbkRfd1NtR2I2THpUWERUYkJBTnFxTkV5VlN4bG1vemhqbzByb1F3WWhoV0psWkhfampYStIBeEFVX3lxTE1xSDR3WHN0ZFlTZ2tma0lWV1gwMmpDbDhyeTZzSzVTcFZZLWstUjVyWGN2S19hbmRpRXlOREdrUFBDZF9rbkRfd1NtR2I2THpUWERUYkJBTnFxTkV5VlN4bG1vemhqbzByb1F3WWhoV0psWkhfampYSg?oc=5"
    }
   ],
   "en": [
@@ -2362,6 +2433,13 @@
     "source": "Al Jazeera",
     "title": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNjZNTVNkQV80ZkpaSG03OV9reW10bTZDaFdGbldBMkJhQlRBV1p4RjM3LVk5cWowVjJPUTRNdjcyOGVFUThUUnNmQnducGtJcDlFQlFKUWJERTFmZktYZWs0MzBnRGlWbU9DRE9MTGxpa1RlaUhhODVDV0wyVk1fcmg5bTU0NHhCZ0l4NHBQa09xOElzZFhBcDEwZG54UVAyUXZ0a0w2RE8zYWJSUTlxV3htRdIBuAFBVV95cUxPcU1jOUF2TUZkaldaYlhFNjhtX0ZPeXZKM0VtbUUtMFlHYkpWeThaLUltUVZKc0JKZGhBTzdUTndGVXFnS3VKUTJ1Z0Z5cmczZlZvLU5oN3hiUGZkNF9iMVFxN2VGMmZjNlk1UlZNZDUzc1JSYzdYWGg5Sy03dnk3ZVAyVkFwWV93ZXJ6RG1zcXlfdURJOFVBdjNZWGE1dGE4YjVrY2VOdVpaXzZNMHVGc2E2eWptdU5f?oc=5"
+   },
+   {
+    "date": "2026-10-01",
+    "published": "2026-10-01T16:58:00+00:00",
+    "source": "Reuters",
+    "title": "Saudi-led coalition says Houthis attacked power station for Prophet's Mosque in Medina",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZnZXZzBwRDQtUGJYZWxuelowY3BQM2prQm43eC0yOTVELWRadi1GRmJWcXAtOU9RXzlrX3ctd3ZmckFmVEtNLXhtQzRhRDNSWkJyc1djUGJ0NFhPUTZPbDR6OVd4QTBlUDh6bEhqUlZEanMzUlRpOVdKeUtyVnRVaHJPT0ZCQy1jcEZwc05aZ0dPY2l3VF9fVmJCZ3BHNGIxUXppQUNlMGlGV1I1SUhPMXYyMHo?oc=5"
    },
    {
     "date": "2026-10-01",
@@ -2379,29 +2457,22 @@
    },
    {
     "date": "2026-09-30",
-    "published": "2026-09-30T11:06:24+00:00",
-    "source": "Bloomberg",
-    "title": "Bloomberg expands Saudi Arabia presence with new office in King Abdullah Financial District | Press | % Bloomberg LP",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSzkzNnpxYU9WUFpCeWp1NWw1NFZwR1QwUjJubEFfdXBoRzQ2NTNJeFNXSXhkZmszeVJLUVZETFBJbnpwOVBiWXpPbUlMV1JvTm1oSlhHbUlFTy0weWlvTGVRQ183NDQ3QldnWmR6Yjd4SnFLYkNRUFEzUnRDd3pCSGxNUENyRTVtTVh4MWhpa1pTdHkxaUNCdHhTRlB0MUNNMzF0SlZoOUJ0NThQaEZFVGFGWl9VX01KX2p5R01TdVpHNzZaRTNkTFk2UnM?oc=5"
-   },
-   {
-    "date": "2026-09-29",
-    "published": "2026-09-29T18:57:00+00:00",
-    "source": "The Guardian",
-    "title": "Saudi Arabia urged to reconcile with UAE to drive back Houthi separatists in Yemen",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcjZoOXpydjhlR2ozUXp5UlVJN0RJLW1LeFhLOXZWUThKbGMxWVprR0t3NDNDTDE3S3Z4SVc0YlV3UDFKTmQ1QXRKdk42enhHcm9rUUw2Nmwya25WOE9Sc3kzRXgybEppdHVpTlhJckNDQmF5eFRKbFBSd1dWbnZvbWJxX2pZUGNuazhyZ1hLbzMzODI2SW5XYVBSaXRlRm5nbTV6Vi1tcGV0TEJLRTdVeEQyTzlTU3FtQnpsUXhRU0dLcGdablM0?oc=5"
+    "published": "2026-09-30T14:07:39+00:00",
+    "source": "PBS",
+    "title": "U.S. military says its withdrawal of troops from Iraq for Islamic State fight is complete",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRndXWXE0QUNqN084ZWlhSHp6alNFcjQ3ZjljdXlnWWVJSmh4b2lqU3ZmajVmZXFwOHotSmJCMTgyUEg5MllSeHRwZXZaTTlMdkJWQVpQZEFXUkVaZzRBUkdHZEt6T0RETE9NbGRpWXJ2MmhaUnYtMUtVVm44YnZXM0ZKYVk1Q3lyQTNtM1pCb2VyNV9ua0ctQUlBWUtJVVM1cUhpNHpYQldtZThrY3lsN0NnaWRvRXRSVmFXYzI5bkvSAcYBQVVfeXFMT2YzNHZoNWFlTEtlR0oxSDNKYzdkZEpKcktKX1FIVUl1VDFBcVZrUTRRUXVyakEzNzBZMkNETWtMOUlYYXdCZWYtb1ltN0FLLTFBX2dZQmoxWFh3RmM5d3FoaGFKZTBtY0EwX0d1UGZUUk1iekRsOVRrc0UxVU1FbS1PSTlrZ09SZFhLNDNCLXB4Zk5VMXFPOHdHMld2QkUzZEkwR0stdkFraGFWZDRqNmZla3dKLUJEaUJGRXdRSVNkZGdNc0Z3?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-01T23:07:28Z"
+  "last_ok_at": "2026-10-02T02:11:40Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-01T23:07:29Z",
+  "fetched_at": "2026-10-02T02:11:41Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 31,
-  "baseline": 43.0,
-  "baseline_n": 4,
+  "count": 37,
+  "baseline": null,
+  "baseline_n": 1,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2484,14 +2555,15 @@
    "2026-10-01T05": 24,
    "2026-10-01T13": 31,
    "2026-10-01T18": 40,
-   "2026-10-01T23": 31
+   "2026-10-01T23": 31,
+   "2026-10-02T02": 37
   },
-  "last_ok_at": "2026-10-01T23:07:29Z"
+  "last_ok_at": "2026-10-02T02:11:41Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-01T23:07:29Z",
-  "last_ok_at": "2026-10-01T23:07:29Z"
+  "fetched_at": "2026-10-02T02:11:41Z",
+  "last_ok_at": "2026-10-02T02:11:41Z"
  }
 }
