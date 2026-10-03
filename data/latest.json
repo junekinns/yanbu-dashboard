@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T12:27:15Z",
+ "generated_at": "2026-10-03T17:11:59Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-03T12:27:15Z",
+  "fetched_at": "2026-10-03T17:11:59Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 0,
   "baseline": 2.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-03T12:27:15Z"
+  "last_ok_at": "2026-10-03T17:11:59Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-03T12:27:37Z",
+  "fetched_at": "2026-10-03T17:12:18Z",
   "events": [
    {
     "date": "2026-10-02",
@@ -1002,14 +1002,26 @@
   "history_days": 23,
   "history_since": "2026-09-11",
   "today": "2026-10-03",
-  "last_ok_at": "2026-10-03T12:27:37Z"
+  "last_ok_at": "2026-10-03T17:12:18Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-03T12:27:38Z",
+  "fetched_at": "2026-10-03T17:12:19Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-03 19:42",
+    "iso": "2026-10-03T19:42:56+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 60 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات صنعاء وصعدة وتعز وحجة ومأرب وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد 1410 غارات جوية وصواريخ. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 사나, 사다, 타이즈, 하지야 및 마리브 주지사의 민간 물체를 겨냥한 60회의 공습과 미사일 공습을 시작했습니다. 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 1410회입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3788"
+   },
    {
     "time": "2026-10-02 20:03",
     "iso": "2026-10-02T20:03:37+03:00",
@@ -1333,15 +1345,15 @@
   "mentions7d": {
    "카미스무샤이트": 8,
    "타이프": 5,
-   "지잔": 4,
-   "나즈란": 3
+   "나즈란": 4,
+   "지잔": 4
   },
-  "last_ok_at": "2026-10-03T12:27:38Z"
+  "last_ok_at": "2026-10-03T17:12:19Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-03T12:27:38Z",
+  "fetched_at": "2026-10-03T17:12:21Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -1689,14 +1701,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.94972,
-    "lon": 38.26884,
-    "frp": 1.09,
-    "date": "2026-09-28",
-    "time": "2337",
-    "confidence": "nominal"
-   },
-   {
     "lat": 22.70663,
     "lon": 39.03567,
     "frp": 0.95,
@@ -1921,14 +1925,6 @@
     "confidence": "low"
    },
    {
-    "lat": 23.94966,
-    "lon": 38.26833,
-    "frp": 10.19,
-    "date": "2026-09-30",
-    "time": "1032",
-    "confidence": "low"
-   },
-   {
     "lat": 25.84147,
     "lon": 49.22503,
     "frp": 13.03,
@@ -2145,14 +2141,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.95208,
-    "lon": 38.26688,
-    "frp": 1.59,
-    "date": "2026-10-01",
-    "time": "2242",
-    "confidence": "nominal"
-   },
-   {
     "lat": 23.73969,
     "lon": 38.5024,
     "frp": 1.0,
@@ -2271,21 +2259,106 @@
     "date": "2026-10-03",
     "time": "0005",
     "confidence": "nominal"
+   },
+   {
+    "lat": 24.51309,
+    "lon": 46.8625,
+    "frp": 4.31,
+    "date": "2026-10-03",
+    "time": "0937",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.51234,
+    "lon": 46.85915,
+    "frp": 2.86,
+    "date": "2026-10-03",
+    "time": "0937",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.52194,
+    "lon": 46.87798,
+    "frp": 17.37,
+    "date": "2026-10-03",
+    "time": "0937",
+    "confidence": "low"
+   },
+   {
+    "lat": 24.52119,
+    "lon": 46.87463,
+    "frp": 17.37,
+    "date": "2026-10-03",
+    "time": "0937",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.52045,
+    "lon": 46.87128,
+    "frp": 10.28,
+    "date": "2026-10-03",
+    "time": "0937",
+    "confidence": "low"
+   },
+   {
+    "lat": 26.78278,
+    "lon": 49.95633,
+    "frp": 9.88,
+    "date": "2026-10-03",
+    "time": "0937",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.83362,
+    "lon": 49.57984,
+    "frp": 12.01,
+    "date": "2026-10-03",
+    "time": "0937",
+    "confidence": "low"
+   },
+   {
+    "lat": 22.17676,
+    "lon": 39.31405,
+    "frp": 2.16,
+    "date": "2026-10-03",
+    "time": "1115",
+    "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-03T12:27:38Z"
+  "last_ok_at": "2026-10-03T17:12:21Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-03T12:27:41Z",
+  "fetched_at": "2026-10-03T17:12:24Z",
   "kr": [
    {
     "date": "2026-10-03",
-    "published": "2026-10-03T10:10:04+00:00",
+    "published": "2026-10-03T15:32:52+00:00",
+    "source": "SBS",
+    "title": "\"예멘 수도서 폭음\"…사우디 아람코 시설에서도 화염·연기",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVm9JdEJJSExLQ3dtazFzVHVXZlZUM2EzeUxWWnRXZzJHQ3FrQ0VOaHBINWdQb2xtYk5rbmg2cWpOSjhzQW95OEJaWnFYOE0tUE1GemUwS0NOY2IwSklwM21zUzdiSi1JRFNVSGtVUVFwRVN5dU9haEJLR19Uc1kxbllxd1E3QQ?oc=5"
+   },
+   {
+    "date": "2026-10-03",
+    "published": "2026-10-03T14:31:00+00:00",
+    "source": "KBS",
+    "title": "예멘 수도서 폭음…사우디 아람코 시설에서도 화염",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lUXZwclJoenZJSTUzQllKU3FiMVFkSC1xWkxZSE5LRGh6T0pPdjdaMF9yYTZodDc0eVVVTGNMaHYxQXBlbWduSUhKMXZVTDZGQjVKZzY3R1d2WDA?oc=5"
+   },
+   {
+    "date": "2026-10-03",
+    "published": "2026-10-03T13:56:00+00:00",
     "source": "연합뉴스",
-    "title": "[속보] 北김여정 \"오늘 동해상 전략무기 발사훈련…중거리전략미사일\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HZmxFZ2RmdWFQVDk2R1gzLWFCWHNLMjdoLVI2a3V0d2xaUXBuRWpnSTI4VDZwVXIxSUJPckhiNVJJUk5GVnZEWmxDamp0QW1td181N1VOSUl0dFZJeExNSdIBYEFVX3lxTE1HZmxFZ2RmdWFQVDk2R1gzLWFCWHNLMjdoLVI2a3V0d2xaUXBuRWpnSTI4VDZwVXIxSUJPckhiNVJJUk5GVnZEWmxDamp0QW1td181N1VOSUl0dFZJeExNSQ?oc=5"
+    "title": "예멘 수도서 폭발음…사우디 아람코에도 화염",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9yejJ0NklZQ1VZeWIybXBmSmJMY0pXSDQycWpYLURTZGwzdmppcHlsb1JhQmV5MFhPQTdsQmRDN0Q0SHplSm8yVmc5bGFSczlxaG5vSHRldFpMYldiZTEwME5qb2xTdHM?oc=5"
+   },
+   {
+    "date": "2026-10-03",
+    "published": "2026-10-03T13:51:00+00:00",
+    "source": "연합뉴스",
+    "title": "사우디, 거듭 후티 공습 요청했지만…미국, 참전 거부",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xaFpBd0pNeU9FVnNwa2doVzhVNVBfc1NpZjhodWdwTVR2WXo3RXVpazdrSjMzem5VWkhZblJvMlpaYVJ6Smx4Wkg4TkgwWTA2dG14WEtVQk5qMXNhQVQ0SWZldWFuajQ?oc=5"
    },
    {
     "date": "2026-10-03",
@@ -2293,36 +2366,29 @@
     "source": "서울신문",
     "title": "터키·파키스탄도 무기 보탰다…사우디, 후티 반군에 10만 대공세 ‘초읽기’ [밀리터리노트]",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYkpaNTh5WVI0TUVwT0NKbG5ObVJzTHZ1M0gyWVlRaW10WlBfVklGUklPQXVwNzEzVkZDUkJwVXZjVlBodDNhUHdFeU5PVFljUjc1VjZpdjY3SjFhRHUxWl9IaHB2QUxNR2NpT3pCRVlHN2lMLXR3Z3J0c0VwUUJiX21uRkhZeExYakg3Z0VUMA?oc=5"
-   },
-   {
-    "date": "2026-10-03",
-    "published": "2026-10-03T08:08:00+00:00",
-    "source": "SBS",
-    "title": "\"사우디-예멘 정부군, 후티 대공세 준비…최대 10만 명 동원\"",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81c0htRGhiMWt4TTdpV3RkRWg1RjVkdXdScjlGNU55eWRvbHc2dG11Wmw3WWdKbnBDcm1rSjRQeGNnbE9QemROOG5jUGlfeWxCNEpCUWpjc0JtVGtSUHFFa1VTdUc4dw?oc=5"
-   },
-   {
-    "date": "2026-10-03",
-    "published": "2026-10-03T07:42:00+00:00",
-    "source": "한국일보",
-    "title": "\"사우디-예멘, 후티 대공세 계획\"…10만 명 동원 설까지",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxbzZKci15OG0zSmh6YVRuTEFNREwyWUNLVS01YzlfVzNJa1JGblE5N2x0ZWZ6bm8wZUcyZnlOSmw2cDFjZkhvaHYwREF4RHRHQmU4OUtiRi1DRkZWWWFXR05RRzVUTklQVF9sLXg0ZGJfWjDSAXNBVV95cUxQcW82SnIteThtM0poemFUbkxBTURMMllDS1UtNWM5X1czSWtSRm5ROTdsdGVmem5vMGVHMmZ5TkpsNnAxY2ZIb2h2MERBeER0R0JlODlLYkYtQ0ZGVllhV0dOUUc1VE5JUFRfbC14NGRiX1ow?oc=5"
-   },
-   {
-    "date": "2026-10-03",
-    "published": "2026-10-03T07:39:00+00:00",
-    "source": "연합뉴스",
-    "title": "\"사우디-예멘 정부군, 후티 공세 준비…10만 명 동원 가능성\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yTlJhbEhvb0FuakRFWGRHd2V5MngtbThLcUtYZjlnT0VjeE81RXMtZ1ladEpGRXZKZzh5RDlYRW1KdWx2VzRBVDdLVk5rM29kWkdLMzhxTEREYnREb2YzV1NodWg1WU0?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-10-02",
-    "published": "2026-10-02T18:34:37+00:00",
-    "source": "Arab News",
-    "title": "Yemen coalition forces intercept 3 Houthi missiles targeting Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWmQtZ1Izd0ptdDY2ZWN3SzFwNTlaSE9sNktPU3FPR2FSeHJqX3M4MVpwbW1jLUhnaUZiTTYwMVcxMllHdlRzMHRvZ0I2am93d2dOdUFiLWpmYzhiOHg5T3hrMkVfZjR6VjM3aVM2ZE9COThvSFgxLU9OMTlxWUlCSEtESEdJQktNOUZRLTZybEZVNjcyVG9ZZTRSOGxqN2ZJdUN2LU9SQ2NJWGZYS0lxSkZrZmU1dWxiSjln?oc=5"
+    "date": "2026-10-03",
+    "published": "2026-10-03T15:22:45+00:00",
+    "source": "France 24",
+    "title": "Houthis say Saudi Arabia launches dozens of strikes on Yemen capital",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYVZlLXJDUm5ZeFhMRUdTUHlsX1V2SWZ2WkNNdmMwNHByQ2puR0s1UjNiS2d1ZFFPZ05XaURpMkdiTnFLV3NwNEY3Q1JtdVBkckJYeG51YzF5ak1iZGhwd2Ytb0N3UFhSak1OSE1wWlliR0t3MDBBWnRhRWhkQWlXVFRfQWY0ell0elkzVUtBQWZ0eGRBeWd2ekRSYWFFRUxfUGRUVmxXNS1PTXNjcFhOaW9FM0RLQQ?oc=5"
+   },
+   {
+    "date": "2026-10-03",
+    "published": "2026-10-03T14:31:30+00:00",
+    "source": "France 24",
+    "title": "Houthis blame Saudi air strikes as loud blasts rock Yemen's capital Sanaa",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXFOZ19fTnRLdFoybW8zNWJ2OTAxT2xQd3poMTVzcFpvQTFMV2Q1SnhnaHhLSUY5OXBXZGN5NXlEVWVqTGZMQkVUelZQUkZORWtONUtqNFpjTlV5cTM2Vk9YbHVZZ0lQQ3BuTy1vM2dVY2xReWgxWWR1LUY1TUtRWDlfUUFoZEFkOUdybkVFQXZJZHVMalJiNm1hX3M2a2ZYOHlVc0xPV0p1RDU2YjN1M2wtSGtvY2w1?oc=5"
+   },
+   {
+    "date": "2026-10-03",
+    "published": "2026-10-03T13:38:10+00:00",
+    "source": "Reuters",
+    "title": "Fire, smoke seen near Aramco facility in Riyadh, witness says",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5"
    },
    {
     "date": "2026-10-02",
@@ -2333,36 +2399,22 @@
    },
    {
     "date": "2026-10-02",
-    "published": "2026-10-02T18:06:54+00:00",
-    "source": "The New York Times",
-    "title": "Fighting Intensifies in Yemen, Raising Fresh Fears of All-Out War",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmlxQjEtWS04S2hkc2t4a3VKRWxSZUg1SVl2ZE80ZTN2eUdDUTVPTEZPWmJUYWRhMVAySW1JMEcyaUNPRHpDdkZyTTU1YXRWcG05eGU1aUJWeUNCck1PTjNZZHVjUkFrb2FsNGRlSGN1SkxTZ0Z6aWdZLVp3Mm0tQ0ZPV2VMeHE1NVM4Rkc3ZmMtTnFjX201QTFB?oc=5"
-   },
-   {
-    "date": "2026-10-02",
     "published": "2026-10-02T11:33:51+00:00",
     "source": "Bloomberg",
     "title": "Saudi Arabia Hikes Oil Flow on Key Pipeline to Over 80% Capacity",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMVFoRHBobVlibHVtNk16T1NGRG9YVnozSm50ZEZnOGhZZkhULXRmUlhQeTJhLVYycnJIMEJRYXVhUm0xZlQ5ZURZVF9xREgxSG50Nm9xb295NFlQRTkySVlUazdzalg1WklCcUZhbU1mWkEwazRuVmxFeS1NWDVlTFlkTVU4OEdScXpHOFZqcWx4YU9obnZiNzdvNHk2T0lING1HQ1VyS1V4R2NfdDE2Rlg4Qkw?oc=5"
-   },
-   {
-    "date": "2026-10-02",
-    "published": "2026-10-02T08:32:15+00:00",
-    "source": "Euronews",
-    "title": "Houthis deny Saudi accusations of targeting Medina's holy sites",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV25MaDF6YVFPZHo5N1VabHlUbmhSbFc4VXk4Rjc5OXhRd1lYbVFuWkhDaTRxZ21lOEZjV1o4ekc0Z2x1VVVoRDR1ZDhFRHNFbUFpZklJalhuM29rQWJyRVVpakwwOERrTTZvcnZ2Y3UxbXl1SEtNZTg4X2RlM1FRS2RuU21qTVFyclBmTy1UZDJiQzMxWXVoMk5DM2R6aUU?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-03T12:27:41Z"
+  "last_ok_at": "2026-10-03T17:12:24Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-03T12:27:42Z",
+  "fetched_at": "2026-10-03T17:12:25Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 42,
   "baseline": null,
-  "baseline_n": 0,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2452,14 +2504,15 @@
    "2026-10-02T21": 26,
    "2026-10-03T01": 26,
    "2026-10-03T06": 42,
-   "2026-10-03T12": 42
+   "2026-10-03T12": 42,
+   "2026-10-03T17": 42
   },
-  "last_ok_at": "2026-10-03T12:27:42Z"
+  "last_ok_at": "2026-10-03T17:12:25Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-03T12:27:42Z",
-  "last_ok_at": "2026-10-03T12:27:42Z"
+  "fetched_at": "2026-10-03T17:12:25Z",
+  "last_ok_at": "2026-10-03T17:12:25Z"
  }
 }
