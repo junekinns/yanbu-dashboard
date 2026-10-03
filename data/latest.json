@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T21:16:57Z",
+ "generated_at": "2026-10-03T01:05:40Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T21:16:57Z",
+  "fetched_at": "2026-10-03T01:05:40Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 0,
   "baseline": 2.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-02T21:16:57Z"
+  "last_ok_at": "2026-10-03T01:05:40Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T21:17:17Z",
+  "fetched_at": "2026-10-03T01:05:57Z",
   "events": [
    {
     "date": "2026-10-02",
@@ -1002,12 +1002,12 @@
   "history_days": 23,
   "history_since": "2026-09-11",
   "today": "2026-10-03",
-  "last_ok_at": "2026-10-02T21:17:17Z"
+  "last_ok_at": "2026-10-03T01:05:57Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T21:17:18Z",
+  "fetched_at": "2026-10-03T01:05:58Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1336,12 +1336,12 @@
    "지잔": 4,
    "나즈란": 3
   },
-  "last_ok_at": "2026-10-02T21:17:18Z"
+  "last_ok_at": "2026-10-03T01:05:58Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T21:17:21Z",
+  "fetched_at": "2026-10-03T01:05:59Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2265,13 +2265,20 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-02T21:17:21Z"
+  "last_ok_at": "2026-10-03T01:05:59Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T21:17:23Z",
+  "fetched_at": "2026-10-03T01:06:02Z",
   "kr": [
+   {
+    "date": "2026-10-02",
+    "published": "2026-10-02T08:29:27+00:00",
+    "source": "연합뉴스",
+    "title": "[영상] 사우디·후티, 보복에 재보복…상대방 수도까지 전선 확대",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HdEx1M1hweUxwVk5rbThwbkFsUjBZamZFeTg5OS1LRko0QV9rRUNMWkQ0UnJta05wdGJBd00tVjJQdnN1REVJS0J6M01aSDZDdWJzOWFwaDlDWGdrR3ZOddIBYEFVX3lxTE9HdEx1M1hweUxwVk5rbThwbkFsUjBZamZFeTg5OS1LRko0QV9rRUNMWkQ0UnJta05wdGJBd00tVjJQdnN1REVJS0J6M01aSDZDdWJzOWFwaDlDWGdrR3ZOdQ?oc=5"
+   },
    {
     "date": "2026-10-02",
     "published": "2026-10-02T06:32:00+00:00",
@@ -2299,13 +2306,6 @@
     "source": "뉴스1",
     "title": "美, 사우디·카타르에 패트리엇 추가 배치…이란 재공격 대비",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zZXIxYXpjUEJ1akdZTExzbEx2ZUROaVJmTGNOeXExbUFyX0ZDNUo0cUhDbldVeUg3MGZrT081MjAyTEpfZ2pJQjhtemR4RTQ1MWJpWV9BZ07SAV5BVV95cUxOXzhUQ2ptOGZSbVZrdWFjQWpEU2FCWVNXSkYwcThNSml2MWM1Z3FBZnhyUlVtQldKRXpLQlp4SkE2NjlKLWx0N2dHWnl5TkNTUW1XekJMSjlYVTZqR1hR?oc=5"
-   },
-   {
-    "date": "2026-10-02",
-    "published": "2026-10-02T00:46:00+00:00",
-    "source": "SBS",
-    "title": "'공습 격화' 사우디·후티, 상대편 수도 타격전",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1yWVB2YURmOW1xR3JvRnVXNXozSGE3eG1MOXhiMVUzdVdzQzhXYm9iZENSZnhTbUwwbUdyM0dtUHNtRG55bHp1WlFCVk5pZDM5dGpXZGIzdHHSAVhBVV95cUxNcllQdmFEZjltcUdyb0Z1VzV6M0hhN3htTDl4YjFVM3VXc0M4V2JvYmRDUmZ4U21MMG1HcjNHbVBzbURueWx6dVpRQlZOaWQzOXRqV2RiM3Rx?oc=5"
    }
   ],
   "en": [
@@ -2318,17 +2318,10 @@
    },
    {
     "date": "2026-10-02",
-    "published": "2026-10-02T14:28:34+00:00",
+    "published": "2026-10-02T18:06:53+00:00",
     "source": "The New York Times",
     "title": "Fighting Intensifies in Yemen, Raising Fresh Fears of All-Out War",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmlxQjEtWS04S2hkc2t4a3VKRWxSZUg1SVl2ZE80ZTN2eUdDUTVPTEZPWmJUYWRhMVAySW1JMEcyaUNPRHpDdkZyTTU1YXRWcG05eGU1aUJWeUNCck1PTjNZZHVjUkFrb2FsNGRlSGN1SkxTZ0Z6aWdZLVp3Mm0tQ0ZPV2VMeHE1NVM4Rkc3ZmMtTnFjX201QTFB?oc=5"
-   },
-   {
-    "date": "2026-10-02",
-    "published": "2026-10-02T14:11:44+00:00",
-    "source": "Reuters",
-    "title": "Pakistan says Mecca pact members to hold emergency talks on engaging Houthis",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWExYaGpkaTdfbjMzM1pEc1EzVFA4emhFbVFYbEpteVNRMU94cG1lOG9WclVRQjdiaHJoSjlwcFU1M2Qxcnl1VndaM0h0c3pvZDdtOHEzQjNvLWhOYVM2a2tSZUw1MzRTV01Wb0hRVWMyVnNIbHdTY282MGFsWURpSGJfcUhuRDJHRjBpMU5xVzVOT1F6UFkwTnN1NFo4ckxNc3hWbzllUFZBYWItNGJRZEdITnFZV3A4aHh6RllfR0NXZw?oc=5"
    },
    {
     "date": "2026-10-02",
@@ -2343,18 +2336,25 @@
     "source": "Euronews",
     "title": "Houthis deny Saudi accusations of targeting Medina's holy sites",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV25MaDF6YVFPZHo5N1VabHlUbmhSbFc4VXk4Rjc5OXhRd1lYbVFuWkhDaTRxZ21lOEZjV1o4ekc0Z2x1VVVoRDR1ZDhFRHNFbUFpZklJalhuM29rQWJyRVVpakwwOERrTTZvcnZ2Y3UxbXl1SEtNZTg4X2RlM1FRS2RuU21qTVFyclBmTy1UZDJiQzMxWXVoMk5DM2R6aUU?oc=5"
+   },
+   {
+    "date": "2026-10-02",
+    "published": "2026-10-02T02:39:43+00:00",
+    "source": "France 24",
+    "title": "Saudi-led coalition accuses Houthis of striking Medina power station",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmIyOHM4bWtqTGdCenhBd1EwYm9hV21PbmhfWFYwX0lVZlNyYW00Q3JiNldsMEwxcDVzYmdFdEhXc0F0cmp3enEydDk2TVlzOEFuaGlaQlNhN2V1MXNHQ29YNWJmZk9wNXRfeGVIWWwtZWNEX09QUklQTEZUZUR1NVVaLTBjbTFCZ3A4V3hWNGttdjdBMWpuLWN0ajY0UDJFTHZUM3RwWm0ydw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-02T21:17:23Z"
+  "last_ok_at": "2026-10-03T01:06:02Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-02T21:17:24Z",
+  "fetched_at": "2026-10-03T01:06:03Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 26,
-  "baseline": 30,
-  "baseline_n": 3,
+  "baseline": 31,
+  "baseline_n": 5,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2441,14 +2441,15 @@
    "2026-10-02T02": 37,
    "2026-10-02T09": 30,
    "2026-10-02T16": 30,
-   "2026-10-02T21": 26
+   "2026-10-02T21": 26,
+   "2026-10-03T01": 26
   },
-  "last_ok_at": "2026-10-02T21:17:24Z"
+  "last_ok_at": "2026-10-03T01:06:03Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-02T21:17:24Z",
-  "last_ok_at": "2026-10-02T21:17:24Z"
+  "fetched_at": "2026-10-03T01:06:03Z",
+  "last_ok_at": "2026-10-03T01:06:03Z"
  }
 }
