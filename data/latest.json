@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T00:33:18Z",
+ "generated_at": "2026-10-04T06:46:14Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T00:33:18Z",
+  "fetched_at": "2026-10-04T06:46:14Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 0,
   "baseline": 1.5,
   "tier": "평시",
-  "last_ok_at": "2026-10-04T00:33:18Z"
+  "last_ok_at": "2026-10-04T06:46:14Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T00:33:38Z",
+  "fetched_at": "2026-10-04T06:46:29Z",
   "events": [
    {
     "date": "2026-10-02",
@@ -999,12 +999,12 @@
   "history_days": 24,
   "history_since": "2026-09-11",
   "today": "2026-10-04",
-  "last_ok_at": "2026-10-04T00:33:38Z"
+  "last_ok_at": "2026-10-04T06:46:29Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T00:33:39Z",
+  "fetched_at": "2026-10-04T06:46:30Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1329,12 +1329,9 @@
    "지잔": 4,
    "리야드": 3
   },
-  "last_ok_at": "2026-10-04T00:33:39Z"
+  "last_ok_at": "2026-10-04T06:46:30Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-04T00:33:40Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2306,70 +2303,74 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-04T00:33:40Z"
+  "last_ok_at": "2026-10-04T00:33:40Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-10-04T06:46:31Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T00:33:41Z",
+  "fetched_at": "2026-10-04T06:47:31Z",
   "kr": [
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T04:34:00+00:00",
+    "source": "한겨레",
+    "title": "‘수도 맹폭’ 주고받은 사우디-후티…예멘 정부군 ‘10만 총공세’ 예고",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tVDRORGN1WklGYWFtQ2dmR1RfQ1RmOW9ZQ3RTdDU0b2U5bmRCVlRfb1JPdnBiaThuUTVtWEt2UHdjb2xuTzlqdVdxZDRHeVAtSFViQlVGcjBqc2lqTmpGRzFwWkpxWHdmMlQ1UEVUdnY0ZXc?oc=5"
+   },
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T02:39:00+00:00",
+    "source": "채널A",
+    "title": "사우디 아람코 정유 시설 또 ‘펑’…후티 반군 “군사 기지도 폭격했다” 또 다시 중동 불안 [현장영상]",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83ZHFac0xoS3RJRk05Tk9FTEMzNUpkN1JlS2o3Y3BRSGd5NUVHRExnZ09McHdtMXpQemFzcFBoamdJbGNYNmJoc2F6dGY1d2lhRkFEbno5dzNDNWF4S0xaMWdMVdIBY0FVX3lxTE83ZHFac0xoS3RJRk05Tk9FTEMzNUpkN1JlS2o3Y3BRSGd5NUVHRExnZ09McHdtMXpQemFzcFBoamdJbGNYNmJoc2F6dGY1d2lhRkFEbno5dzNDNWF4S0xaMWdMVQ?oc=5"
+   },
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T02:00:27+00:00",
+    "source": "MBC",
+    "title": "예멘 수도 연일 폭음‥아람코 피격 다음날 후티 거점에 맞불 공습",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSN1dsMUxaT0RRUTBNNXlNWXVvYkEwVkVkMFlNd21mTmNHZWQ3T25hLVZYdmUwcnIwVlVUbm1hY2VzZjliTkpKRmdwZE9FalllTC1maVlzalJqdFY4MFlhX1NUdjdRTmRzcnNsc21fMzVKa1Vr0gF0QVVfeXFMUFI3V2wxTFpPRFFRME01eU1ZdW9iQTBWRWQwWU13bWZOY0dlZDdPbmEtVlh2ZTBycjBWVVRubWFjZXNmOWJOSkpGZ3BkT0VqWWVMLWZpWXNqUmp0VjgwWWFfU1R2N1FOZHNyc2xzbV8zNUprVWs?oc=5"
+   },
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T00:13:00+00:00",
+    "source": "연합뉴스",
+    "title": "예멘 수도서 폭음…사우디 아람코서도 연기",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91NUxNSHZkVzQ1VWtxTGI0czhzUm8wbWtEeWx6XzlqOTFseHpnQ3RoaVFWNlkxQ1ZpQU9tSExlVXFVQ1dwamRpT0RJdTNHQTNZX3pjc3pYYmhzNnhBTmxOS2RHWVp4a3M?oc=5"
+   },
    {
     "date": "2026-10-03",
     "published": "2026-10-03T23:58:00+00:00",
     "source": "한국일보",
     "title": "공습 주고 받는 사우디·후티 반군… \"대규모 지상전 임박\"",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Vbk0zdmlaS1RCWnZxdnExZUprSmYzRWViLU1DQjd4NWRBcUw1aWRZVDVwYmhpNXlQY29fbUJRbmtsTjdFenRacjU2TzQ4Vmljc2xtM1BJNHNxT0lQQVRTTWFvaG80bGJlN0FwZ3B3?oc=5"
-   },
-   {
-    "date": "2026-10-03",
-    "published": "2026-10-03T23:19:00+00:00",
-    "source": "채널A",
-    "title": "예멘 수도서 폭음…사우디 석유 시설에서도 화염",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2ck9sVmctWGltbGRIa3ltcXJCTEIxYzJUZmptTEQ1aFIxMjN3V2xlX1VFNFp6dlBKVnpXUkR5V1o2WXR4WnBBQ3BYWk1QRHNUYUd2bjQwNFhIOGFuemVsMGpDWdIBY0FVX3lxTFA2ck9sVmctWGltbGRIa3ltcXJCTEIxYzJUZmptTEQ1aFIxMjN3V2xlX1VFNFp6dlBKVnpXUkR5V1o2WXR4WnBBQ3BYWk1QRHNUYUd2bjQwNFhIOGFuemVsMGpDWQ?oc=5"
-   },
-   {
-    "date": "2026-10-03",
-    "published": "2026-10-03T22:31:00+00:00",
-    "source": "YTN",
-    "title": "간곡한 요청에도 등 돌린 트럼프...사우디, 분노의 칼자루 뽑나 [자막뉴스]",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SZ3dORDI4WWFyM1lQSGZKX2pyZkxIak5HMTZFRGFVMzNYYTBDT2QtcDNPLVlhV3hfMlowMnNoWVRIX0QxTTF0bDBrOEFHMFgwTTZ0M2l4aWo2dElCOGc?oc=5"
-   },
-   {
-    "date": "2026-10-03",
-    "published": "2026-10-03T22:06:44+00:00",
-    "source": "MBC",
-    "title": "예멘 수도서 폭음‥사우디 아람코 시설도 화염",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oVUMzaVR1bXczS1A1U2c3SlI0OFRHQjZIOHhSX0stTG5CYXZ0eUxxNHhDZEZQY1k2VjRPNUpJSkpMSUJwS3JGWThsRzQ2blpndkR2WWdGaFJGOGZuTkFpTzluU0N1WXhfeVVYSkhCNnEzTkZ2TC1JT19n0gF6QVVfeXFMTWs4RlZHSXRnNmxLVm5ibE5vQk9zemZOV2tyR01Wbl9Rb0IzTWdvZmw5alBpRXEtWnVBVFlyeF9KdHdsVzBsZkZqZ3FiUU16eWlZd3UzUHE1dWRTdWhrVGtlcjZKejBZN0otcXNNVmNPWVhvcVRPS2NlZUE?oc=5"
-   },
-   {
-    "date": "2026-10-03",
-    "published": "2026-10-03T20:15:00+00:00",
-    "source": "YTN",
-    "title": "사우디-후티 또 폭격전...\"사우디, 며칠 내 대대적 공세\"",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jQTZXT1BCeTJ6R1NQak1lZVlOdmg2ZHRnVHV3WTFPVHZNb1ZoYVJta1pHcHhoR3JOOHlXT3dwQlNySFIzcHRGNUg3XzVfN3hGQk1EYzVUQS1UWllXdUJsYXItcnVOdFU1clBBaTlQQQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LeFVVX3ZCckx4eERSVjBTQldqbVdrZGlEVUZJaThfLVExdFlxdVlJblpnZE9OM0pFMTJidG1LVmYwMGVkVFlUbHJoLS05UGZiUHZaTXZJOVNYbzN6aExXV3pBUU8wZkZPOXpqanAxWmJ0cVE?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-10-03",
-    "published": "2026-10-03T21:00:00+00:00",
+    "date": "2026-10-04",
+    "published": "2026-10-04T06:00:00+00:00",
     "source": "Al Jazeera",
     "title": "Yemen’s army says targets Houthis in hundreds of strikes, killing 700",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS2JvMzdKWGlzOXIzVTV3Y2E0ajEza2kzSE5icF9wWGJrTC1Sc051Y3JYNEVQZlo5YmVIZS0zcnZ6b3Y5Q0E4dTQ1SFJ6YTQwOWdoYmlUSDNBTjd6Z3RrQ195Sk12akk0UHludWJMZk12ZWgzUUphOVdrRU50bVpnMjh4VEJpN2xkWThvdlJvWHZtd3JSZmN5d0tUZ2RCRWpRak4xSdIBqgFBVV95cUxQMXRObHY1T2JOSWZQMFZ5STlNMHZyYzc3MmFhQV9RaDRWLVdJTy1KLXNLckY4cXVqSm5QWnJqcHdWaWxBckZzU2JKNHRBV0ZzS3VPZklOUTVUNkg4UlU4c0pCTWtLcDhwbHl4c3ZfWWlWU3R4blZaTFVnZ0hOZElILXYyRzZldGpjY3NCZDZXU2VuVWJGN0pmd05tWm1jUTd6WTBMeW5Xb0c0UQ?oc=5"
    },
    {
-    "date": "2026-10-03",
-    "published": "2026-10-03T20:51:59+00:00",
-    "source": "Reuters",
-    "title": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5"
+    "date": "2026-10-04",
+    "published": "2026-10-04T04:09:28+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-backed Yemeni army says 700 Houthis killed in 24 hours",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbkV0SWVZbnFjYk5INnlDal9OLXVtdzVVOVhjeGt4NlF5bmdOMkVLR2EyaTBtMF9wQlZEOEJRX3ExM0hWaElac1pQclZ3VjZyRnBYUW5fZ0Fyb0VjcVdnVkNrWGhLVkJKV1FNQWFYWllMblFlWGlUWndFY1ZxQ3g5ZE5Bd2tqeV8xbnF1VXpBOHBGdi1BRjQ5WEc2RTh2VTFDMjVwWmw4VVc3RGpHM1hwTtIBtgFBVV95cUxOSWZQcm1LQm80RWZRdi00LVNkbUdYcUNETW85X1M5d2FBMUtnSmY2VFdtSjNyeXRSUkdnOTJFT0ppcG95R2daZkNsUFBIRHZKb3hvaWIyOHZhMmZKTEdJVFFKRVhSblpvMjVtN0FIUVc3aGgwTGd1QXR3dER0dDJxWklIeXZNV3dnWm41WDZIcEY1dHdZc1hwM0twWHhmRkNZLUhXMkNJVl95VzhuWkNtdkhtMGRSQQ?oc=5"
    },
    {
     "date": "2026-10-03",
-    "published": "2026-10-03T14:31:30+00:00",
-    "source": "France 24",
-    "title": "Houthis claim strike on oil facilty near Riyadh, accuse Saudi forces of pounding Yemen's capital",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWXFOZ19fTnRLdFoybW8zNWJ2OTAxT2xQd3poMTVzcFpvQTFMV2Q1SnhnaHhLSUY5OXBXZGN5NXlEVWVqTGZMQkVUelZQUkZORWtONUtqNFpjTlV5cTM2Vk9YbHVZZ0lQQ3BuTy1vM2dVY2xReWgxWWR1LUY1TUtRWDlfUUFoZEFkOUdybkVFQXZJZHVMalJiNm1hX3M2a2ZYOHlVc0xPV0p1RDU2YjN1M2wtSGtvY2w1?oc=5"
+    "published": "2026-10-03T11:48:00+00:00",
+    "source": "Reuters",
+    "title": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUmVOVEVCTVdITFV4aHd1aWM4aC1lZzBQTUIxcG9zSkU0ZXJKbHVRdTRWTUVsRWVsRmZHYlI2ZW01dnp3NlQ4WEV3Wnp0YXpVV2VCQ2RmeVBQQ3BUN0E3S1ZrRkw0ODdkVVJsSnFWWVM5YWVZZExacUlwdGRrc3h1LVJkNHNWY1dZS1F2UE1aR1JHYzNkX0ktS0RIQW4zX3RJUWV4eVBqVFd6X0t1?oc=5"
    },
    {
     "date": "2026-10-02",
@@ -2380,22 +2381,22 @@
    },
    {
     "date": "2026-10-02",
-    "published": "2026-10-02T14:28:34+00:00",
-    "source": "The New York Times",
-    "title": "Fighting Intensifies in Yemen, Raising Fresh Fears of All-Out War",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmlxQjEtWS04S2hkc2t4a3VKRWxSZUg1SVl2ZE80ZTN2eUdDUTVPTEZPWmJUYWRhMVAySW1JMEcyaUNPRHpDdkZyTTU1YXRWcG05eGU1aUJWeUNCck1PTjNZZHVjUkFrb2FsNGRlSGN1SkxTZ0Z6aWdZLVp3Mm0tQ0ZPV2VMeHE1NVM4Rkc3ZmMtTnFjX201QTFB?oc=5"
+    "published": "2026-10-02T11:33:51+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Arabia Hikes Oil Flow on Key Pipeline to Over 80% Capacity",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMVFoRHBobVlibHVtNk16T1NGRG9YVnozSm50ZEZnOGhZZkhULXRmUlhQeTJhLVYycnJIMEJRYXVhUm0xZlQ5ZURZVF9xREgxSG50Nm9xb295NFlQRTkySVlUazdzalg1WklCcUZhbU1mWkEwazRuVmxFeS1NWDVlTFlkTVU4OEdScXpHOFZqcWx4YU9obnZiNzdvNHk2T0lING1HQ1VyS1V4R2NfdDE2Rlg4Qkw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-04T00:33:41Z"
+  "last_ok_at": "2026-10-04T06:47:31Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T00:33:42Z",
+  "fetched_at": "2026-10-04T06:47:32Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 43,
-  "baseline": 43,
-  "baseline_n": 5,
+  "count": 33,
+  "baseline": 35.0,
+  "baseline_n": 6,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2488,14 +2489,15 @@
    "2026-10-03T12": 42,
    "2026-10-03T17": 42,
    "2026-10-03T21": 30,
-   "2026-10-04T00": 43
+   "2026-10-04T00": 43,
+   "2026-10-04T06": 33
   },
-  "last_ok_at": "2026-10-04T00:33:42Z"
+  "last_ok_at": "2026-10-04T06:47:32Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-04T00:33:43Z",
-  "last_ok_at": "2026-10-04T00:33:43Z"
+  "fetched_at": "2026-10-04T06:47:32Z",
+  "last_ok_at": "2026-10-04T06:47:32Z"
  }
 }
