@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T18:05:44Z",
+ "generated_at": "2026-10-04T21:18:37Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T18:05:44Z",
+  "fetched_at": "2026-10-04T21:18:37Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 1,
   "baseline": 1.5,
   "tier": "평시",
-  "last_ok_at": "2026-10-04T18:05:44Z"
+  "last_ok_at": "2026-10-04T21:18:37Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T18:06:02Z",
+  "fetched_at": "2026-10-04T21:18:58Z",
   "events": [
    {
     "date": "2026-10-02",
@@ -860,10 +860,10 @@
     },
     "total7d": 1,
     "prev7d": {
-     "피격": 2,
+     "피격": 1,
      "요격": 1
     },
-    "prev_total": 3
+    "prev_total": 2
    },
    "제다": {
     "7d": {},
@@ -916,10 +916,9 @@
     "prev7d": {
      "공습": 1,
      "피격": 2,
-     "요격": 2,
-     "경보": 1
+     "요격": 2
     },
-    "prev_total": 6
+    "prev_total": 5
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -996,15 +995,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 24,
+  "history_days": 25,
   "history_since": "2026-09-11",
-  "today": "2026-10-04",
-  "last_ok_at": "2026-10-04T18:06:02Z"
+  "today": "2026-10-05",
+  "last_ok_at": "2026-10-04T21:18:58Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T18:06:03Z",
+  "fetched_at": "2026-10-04T21:18:59Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1349,17 +1348,6 @@
     "text_ar": "في تصعيد كبير استهدف العدو السعودي المجرم محافظات الجوف وتعز وصعدة ومأرب بـ 157 غارةً جويةً وصاروخاً، من خلال طائراته الحربية نوع \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران وجيزان. ليبلغ إجمالي غارات العدوان منذ بدء التصعيد 917 غارةً وصاروخاً. هذا العدوان الكبير لن يمر دون رد بإذن الله تعالى. http://t.me/army21ye",
     "text_ko": "대규모 격상에서 범죄자인 사우디 적은 카미스 무샤이트와 타이프 기지에서 이륙한 F15 및 태풍 전투기와 나즈란과 지잔의 미사일 공격을 통해 157번의 공중 및 미사일 공격으로 알자우프, 타이즈, 사다, 마리브 주지사를 표적으로 삼았습니다. 에스컬레이션이 시작된 이후 침략 습격의 총 수는 917개의 습격과 미사일입니다. 이 큰 침략은 대답하지 않을 것입니다. 신의 뜻입니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3754"
-   },
-   {
-    "time": "2026-09-20 20:44",
-    "iso": "2026-09-20T20:44:56+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 28 غارة جوية من خلال طائرات \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف استهدفت محافظات تعز والجوف ومأرب ليبلغ إجمالي الغارات منذ بدء التصعيد السعودي على بلدِنا وشعبنا 760 غارة جوية. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 (Khamis Mushait) 와 타이프 (Taif) 기지에서 타이즈 (Taiz), 알자우프 (Al-Jawf), 마리브 (Marib) 주지사를 겨냥한 \"F15\" 와 \"타이푼 (Typhoon)\" 항공기를 통해 28회의 공습을 시작하여 사우디가 우리나라와 국민을 760회의 공습으로 격상시킨 이래 총 공습 횟수를 기록했습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3753"
    }
   ],
   "mentions7d": {
@@ -1369,12 +1357,12 @@
    "리야드": 5,
    "지잔": 4
   },
-  "last_ok_at": "2026-10-04T18:06:03Z"
+  "last_ok_at": "2026-10-04T21:18:59Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T18:06:05Z",
+  "fetched_at": "2026-10-04T21:18:59Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2498,33 +2486,26 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-04T18:06:05Z"
+  "last_ok_at": "2026-10-04T21:18:59Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T18:06:08Z",
+  "fetched_at": "2026-10-04T21:19:02Z",
   "kr": [
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T19:04:00+00:00",
+    "source": "연합뉴스",
+    "title": "예멘 정부 \"영토 탈환 작전 개시\"…후티 \"사우디 석유시설 공격\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PWUVHUzBKekl4a2dYbnBEckNaMDZzWHJhTmF1WENvRmNLS3RfbGZHU1JHZzN2WjN6SWw0MUZtYWxwRmdxMF9CandnbUhpcHVORTBEb1BhM282NzRRcjg5TGdaeWw2NDA?oc=5"
+   },
    {
     "date": "2026-10-04",
     "published": "2026-10-04T16:40:00+00:00",
     "source": "동아일보",
     "title": "“사우디-예멘, 며칠내 후티 총공격… 10만명 동원 지상-공중전”",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aVGlzVE5GNWlmRU1DdE1qUmJRTXJ1djJDS2tkNl9DZUU3bEJNa18zcGJzWDU5LXI2YzQ1T3ZtQnVYb1FvaG40QjY3cHN1YTlzZTNQWUZPbDdZUEM3SVBOZy05SlB5Z9IBZkFVX3lxTE5aVGlzVE5GNWlmRU1DdE1qUmJRTXJ1djJDS2tkNl9DZUU3bEJNa18zcGJzWDU5LXI2YzQ1T3ZtQnVYb1FvaG40QjY3cHN1YTlzZTNQWUZPbDdZUEM3SVBOZy05SlB5Zw?oc=5"
-   },
-   {
-    "date": "2026-10-04",
-    "published": "2026-10-04T15:45:35+00:00",
-    "source": "연합뉴스",
-    "title": "예멘 정부 \"영토 탈환 작전 개시\"…후티 \"사우디 석유시설 공격\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oTmN0aThoMHJqN2x2YVUwcVRRT0prWm5xcDFFZUMxblE0cFVlV0JDQW9Pb0Y0cWVWZGFvNEIybjkzajc2VVVSNnV4d0JVeERybmJHSDBWcllDRjlaQlUzZdIBYEFVX3lxTE5oTmN0aThoMHJqN2x2YVUwcVRRT0prWm5xcDFFZUMxblE0cFVlV0JDQW9Pb0Y0cWVWZGFvNEIybjkzajc2VVVSNnV4d0JVeERybmJHSDBWcllDRjlaQlUzZQ?oc=5"
-   },
-   {
-    "date": "2026-10-04",
-    "published": "2026-10-04T14:43:03+00:00",
-    "source": "중앙일보",
-    "title": "사우디, 후티에 ‘대공세’ 임박? 10만 병력 동원해 원유 수송로 탈환노린다",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40a2Y1MFBtazNiUWU4ODlVYXExSTJVTFF4dlJoYUlyMDcxdk0wZTNzVzBrSDZpaENNb0VERWw0Y1V6U2k3dnZmOG9LVDZtX2xyODJIUEh3?oc=5"
    },
    {
     "date": "2026-10-04",
@@ -2539,15 +2520,36 @@
     "source": "한겨레",
     "title": "예멘 “후티 장악지 탈환 위한 군사작전 개시”",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOa3laR3RxcmIzcjhfeFZqbWYzVVQtbTNCdlBRVGtMVEI4cnVFSnpZb0lYeDdzWU44MDA1SHByRVI0MWlYNFNXaEh0WTdvSHBOWllZS0tnRU1QdFdsTXBCY3F0cGZveFo2WEpEcjBXbEhFSTQ1bkdNUnFDOUo4UmtrdzZR?oc=5"
+   },
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T09:46:00+00:00",
+    "source": "채널A",
+    "title": "26차례 공습 vs 아람코에 보복",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Xc0dGWHJMdk9XMmNnMGtQOFF6U3c2QTI3T3htRnpvRUx4Qk5HM0x3Slc2OG53LXpTQW03ZTR5eHBBOE9KSEJqTlAtRlNKLWpjdzZreGd0YVNuRFI1aUlvYkxqUdIBY0FVX3lxTE9Xc0dGWHJMdk9XMmNnMGtQOFF6U3c2QTI3T3htRnpvRUx4Qk5HM0x3Slc2OG53LXpTQW03ZTR5eHBBOE9KSEJqTlAtRlNKLWpjdzZreGd0YVNuRFI1aUlvYkxqUQ?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-04",
-    "published": "2026-10-04T16:59:40+00:00",
+    "published": "2026-10-04T20:02:03+00:00",
     "source": "Al Jazeera",
     "title": "Saudi-led coalition dismisses ‘misleading’ Houthi claim of Riyadh attack",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR2UxTng5TmFXNVZNcHBNT3BOVHlLN0djMkJJUHhQa19lV1hjTWw0a2ZzaXBiWDlfam5XOTRzdTZqd3NVYzAxU0xXc0htOEI5M0hYSENiM1RkNzFxaDJzRWJSQTZJLU83MVJOakhRVG9KN0ZCR3M5TU9MT3RvaWdXNEJVa0VvbktwLXdiYlFQVWVRNVZJMjlYUmtDUDhOU2Zs0gGmAUFVX3lxTE0wTjlFb1FMSXBZS21QVGNvUE9JTXY4cUhONEtxWnNQR0FTUVBpdVpzMTd4VzhucWxWejNUTzU2N2ZDbWVNZldfS1VQT05ETDl1ZjU2cDU2TUlueXgtUk9Dd1o2NGF2VEQtNnM2Y05xVWxCQUxQVGJDRnM0c3gzd3g2MzlZcnk1cTk2ZFpPeWxNd1V2cXp5SUk3UFYxZjZGMVY3UGx6UFE?oc=5"
+   },
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T19:56:27+00:00",
+    "source": "Al Jazeera",
+    "title": "Why is fighting intensifying in Yemen’s Taiz governorate?",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMnczemg4eTVoNU1yVFI4UFdYbkRyTFVVSVNsVUNCa2ZVUXVKSmczSklWRG9qd3JpWXVTMW1VSnFrb3N0X284TGFWS3lXVWx2bVpHMGFrYzR5SEM1aldtSUdyZzltM3pHRVRhdWRabUp3ckNhcjluMzZQZGZPb0NaUVpNSlY0MzR2cHpZVjZmTExqa2RfSTdkUk9XdzbSAaIBQVVfeXFMTUJhRmZyc1FtdEFmVk45LUlORmdwRFZRTUUwbkNmT0Rzck1SemxZdEtnTkhsa3h4ZDdfRHNBcUdFMU1mbk1jVUcyVENDX2dJQkVhWmdBZTBxMFFRZGRBTFpwdU5DTWZoMXVQM3M1VHF0Wnd1LVJYT2gwTEdDWEQxdS0wb0hMdVZyOUhWalotUmU1dFhVX2h1M3J6T3F2Wl93TlRR?oc=5"
+   },
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T19:46:37+00:00",
+    "source": "Reuters",
+    "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaHV2QlVZQUd1RW4zNFRzUzQ3ZlZlcHJHWHlRbm8yRjlBWGlkQ3BSek9GS0ZwOVJ0SnMtMDV5N3FsZjVsRm9EaUgwcGVhNVdaS1RCTDRqVjh5blN0NXhGenAxVlY3ZUhKQUpNN0J2ajJ2S0tlRXZyMmRaNG9VWTlXY3VpUlRWMVhKSjV3QTJXZW42OHZhaldrdzJxR2I1aDZrRDRMVHlYa2tOVW5GR2J4VWM2RjVPcjdqNUwzMUdsSVhPbDhqd0ttdmN4TUlTQWM?oc=5"
    },
    {
     "date": "2026-10-04",
@@ -2558,36 +2560,22 @@
    },
    {
     "date": "2026-10-04",
-    "published": "2026-10-04T16:36:29+00:00",
-    "source": "Reuters",
-    "title": "Yemeni government launches offensive to seize all areas from Iran-backed Houthis",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaHV2QlVZQUd1RW4zNFRzUzQ3ZlZlcHJHWHlRbm8yRjlBWGlkQ3BSek9GS0ZwOVJ0SnMtMDV5N3FsZjVsRm9EaUgwcGVhNVdaS1RCTDRqVjh5blN0NXhGenAxVlY3ZUhKQUpNN0J2ajJ2S0tlRXZyMmRaNG9VWTlXY3VpUlRWMVhKSjV3QTJXZW42OHZhaldrdzJxR2I1aDZrRDRMVHlYa2tOVW5GR2J4VWM2RjVPcjdqNUwzMUdsSVhPbDhqd0ttdmN4TUlTQWM?oc=5"
-   },
-   {
-    "date": "2026-10-04",
-    "published": "2026-10-04T16:18:45+00:00",
-    "source": "Al Jazeera",
-    "title": "Yemen’s leader announces military operation to retake Houthi-held territory",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPei1GRWxVZ0U1T1hGZTJ6YmxVVTJtd19DWENYaDRLUDhIQjFYUDVVNjA1VVp0U1g2VmhDbjBxRXYxcDRYMmloSmxqNDdkOVNEWG9hRGpxb2RKWEhSM0l3bnNrNHprMmh1QkhZUGVZRUg0QnppdHpOWkN2ZWNjdTlwQ0JZU3FZMEh0TE9zeG16cmNBM21UOV9LTnRqYkFEMUR0TldEVWtsY2NIY0RYZnlNeU81cGxSZ9IBuwFBVV95cUxQZE52dGFBalJDa01aMldXQWlUYVhZRnJHXzBZWThsRTZIZEE2LUtjM1NTSFdFTWhMZ1hqY01Pc0xyX1BqWi12RHhrSVBlNy1EMi1GU3pGVHhKNjVTUDZ2OWE5R2dkTzdhQ0xGR2d5NGFpUF9WaEtHd3VzSE5uamlxLWVUODdxb3RGeXlxb2k0aUZDNDFVV3gycGl5dEEzbDU4ZTlvYi12Wnd3bEROYnpRNW8wSUdoTTFmaWt3?oc=5"
-   },
-   {
-    "date": "2026-10-04",
-    "published": "2026-10-04T16:03:37+00:00",
-    "source": "The New York Times",
-    "title": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdC1jenhXS0RLMXFaaTNaUTVsTVJrcDNLdDZKLVR6SWVYOEdRNWdqRjktRktWSEFRTG1DbEhYd3ZvSGpGd1ZtTEVNNDdMd09SQ3pXdHJMMXlodWVQRjlySVBpNXVlTlRZUDVDdlpjTk12TEw4WVhUaU9rODlnV3RRVUR1OE1UVlJVUjlKa0NNV2MzN2dQUldvUzFn?oc=5"
+    "published": "2026-10-04T14:08:35+00:00",
+    "source": "CNN",
+    "title": "Saudi-led coalition pledges support for Yemeni offensive against Iran-backed Houthis",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hdkdCTGNrOXhaMEo4eEsxbk1jSVhhTjVfcTdDMWpXWmFZTTZJMzNvVGtlZUtuSTNKWXdZaFhCcUhmc0ZsTF9NMG94YkxPQmhVaDRxX0FzNmtoQ3NBSUJkWEJ2OV9fOUttWnpKSjFvUXRfMGJJMFpHaVhR?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-04T18:06:08Z"
+  "last_ok_at": "2026-10-04T21:19:02Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-04T18:06:09Z",
+  "fetched_at": "2026-10-04T21:19:03Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 30,
-  "baseline": 31.0,
-  "baseline_n": 6,
+  "count": 36,
+  "baseline": 30,
+  "baseline_n": 5,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2683,14 +2671,15 @@
    "2026-10-04T00": 43,
    "2026-10-04T06": 33,
    "2026-10-04T13": 34,
-   "2026-10-04T18": 30
+   "2026-10-04T18": 30,
+   "2026-10-04T21": 36
   },
-  "last_ok_at": "2026-10-04T18:06:09Z"
+  "last_ok_at": "2026-10-04T21:19:03Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-04T18:06:09Z",
-  "last_ok_at": "2026-10-04T18:06:09Z"
+  "fetched_at": "2026-10-04T21:19:03Z",
+  "last_ok_at": "2026-10-04T21:19:03Z"
  }
 }
