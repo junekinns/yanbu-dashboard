@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T15:54:43Z",
+ "generated_at": "2026-10-05T22:33:20Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-05T15:54:43Z",
+  "fetched_at": "2026-10-05T22:33:20Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +191,27 @@
   "last7d": 1,
   "baseline": 2.5,
   "tier": "평시",
-  "last_ok_at": "2026-10-05T15:54:43Z"
+  "last_ok_at": "2026-10-05T22:33:20Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-05T15:55:00Z",
+  "fetched_at": "2026-10-05T22:33:39Z",
   "events": [
+   {
+    "date": "2026-10-06",
+    "time": "00:31",
+    "iso": "2026-10-06T00:31:00+03:00",
+    "city": "리야드",
+    "type": "공습",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "[속보] 후티 “공습” 발표 후… 사우디 수도 리야드서 잇단 폭발음",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeExOOU15allDR29IWlNtbURKaFY1WlpUSGF6M1RuZjlKTGcyMzhDR1ZYdmUwWXVDamJFcEplNVg0Tm5DZnlXMk9rcGpITlBSTF9sbWhnZ1Z5OGJ6MU1aRnBjZmNkbTZISHhXUWtmRjYtUjUzMmlVWTZ3TGw0cXFBNVltOHNfYXRH0gFsQVVfeXFMTUROTGR0Sk41dDhIVjFiNUdlUnRQTl8yU3FTMnJfZmFkNUlkU3BRZC1wVzVOUU9lTzhSSkEzNGltMXZtdEkzMGhaVDNhRS1UWS1kNkloOVRyeVVkUU9zaVhteUVNYzNodDh6a01K?oc=5",
+    "source": "국민일보",
+    "outlets": 1
+   },
    {
     "date": "2026-10-05",
     "time": "12:32",
@@ -897,15 +911,13 @@
   ],
   "tempo": {
    "얀부": {
-    "7d": {
-     "피격": 1
-    },
-    "total7d": 1,
+    "7d": {},
+    "total7d": 0,
     "prev7d": {
-     "피격": 1,
+     "피격": 2,
      "요격": 1
     },
-    "prev_total": 2
+    "prev_total": 3
    },
    "제다": {
     "7d": {},
@@ -954,9 +966,9 @@
    },
    "리야드": {
     "7d": {
-     "공습": 1
+     "공습": 2
     },
-    "total7d": 1,
+    "total7d": 2,
     "prev7d": {
      "공습": 1,
      "피격": 2,
@@ -1039,17 +1051,74 @@
     "prev_total": 0
    }
   },
-  "history_days": 25,
+  "history_days": 26,
   "history_since": "2026-09-11",
-  "today": "2026-10-05",
-  "last_ok_at": "2026-10-05T15:55:00Z"
+  "today": "2026-10-06",
+  "last_ok_at": "2026-10-05T22:33:39Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-05T15:55:01Z",
+  "fetched_at": "2026-10-05T22:33:40Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-05 23:10",
+    "iso": "2026-10-05T23:10:16+03:00",
+    "places": [
+     "메디나",
+     "라비그",
+     "메카",
+     "리야드",
+     "지잔",
+     "아브하",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم في إطارِ الردِّ على العدوانِ السعوديِّ على بلدِنا والذي شنَّ خلالَ الـ24 ساعةً الماضيةَ 60 غارةً جويةً وصاروخًا مستهدفًا بها العاصمةَ صنعاءَ ومحافظاتِ الجوفَ وتعزَ وحجةَ وصعدةَ ومأربَ، وخلَّفت شهداءَ وجرحى من المدنيينَ …",
+    "text_ko": "예멘군이 자비로우시고 자애로우신 알라의 이름으로 발표한 성명서에는 다음과 같은 내용이 담겨 있습니다. {누가 당신을 공격했든, 그들은 당신을 공격하지 않은 것처럼 그를 공격했습니다} 전능하신 알라는 지난 24시간 동안 수도 사나, 알자우프, 타이즈, 하자, 사다, 마리브의 주지사들을 겨냥한 60회의 공습과 미사일 공습을 감행하고 순교자들과 부상당한 민간인들을 남긴 우리 나라에 대한 사우디의 침략에 대한 대응을 믿었습니다...",
+    "url": "https://t.me/army21ye/3817"
+   },
+   {
+    "time": "2026-10-05 23:10",
+    "iso": "2026-10-05T23:10:16+03:00",
+    "places": [
+     "메디나",
+     "라비그",
+     "메카",
+     "리야드",
+     "지잔",
+     "아브하",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "In response to the Saudi aggression against our country, which launched 60 airstrikes and missile attacks in the past 24 hours, targeting the capital Sana'a and the governorates of Al-Jawf, Taiz, Hajjah, Sa'dah, and Ma'rib, resulting in civilian casualties, including women and children. Which makes the total number of Saudi enemy airstrikes and missile attacks on our country since the start of the…",
+    "text_ko": "지난 24시간 동안 수도 사나와 알자우프, 타이즈, 하자, 사다, 마립 총독을 겨냥해 60회의 공습과 미사일 공격을 감행한 사우디아라비아에 대한 공격에 대응하여 여성과 어린이를 포함한 민간인 사상자가 발생했습니다. 이로 인해 사우디의 적 공습과 미사일 공격의 총 수는...",
+    "url": "https://t.me/army21ye/3818"
+   },
+   {
+    "time": "2026-10-05 23:10",
+    "iso": "2026-10-05T23:10:01+03:00",
+    "places": [
+     "라비그",
+     "리야드",
+     "지잔",
+     "아브하",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ ثلاث عمليات عسكرية استهدفت الأولى مطار الملك خالد في الرياض، والثانية استهدفت شركة أرامكو في رابغ، فيما استهدفت الثالثة مطار أبها وقاعدة خميس مشيط ومعسكر عاكفة في عسير ومواقع أخرى حساسة في نجران وجيزان، وقد حققت العمليات أهدافَها بنجاح بفضل الله. جودة متوسطة http://t.me/army21ye",
+    "text_ko": "세 가지 군사 작전의 실행에 대한 예멘 군의 성명서. 그 중 첫 번째는 리야드의 킹 칼리드 공항, 두 번째는 라비 (Rabigh) 의 아람코 (Aramco), 세 번째는 아바 (Abha) 공항, 카미스 무샤이트 기지, 아시르 (Asir) 의 캠프 아케파 (Camp Akefah) 및 나지란 (Najran) 과 지잔 (Jizan) 의 기타 민감한 장소를 대상으로했으며, 알라 (Allah) 덕분에 작전은 성공적으로 목표를 달성했습니다. medium quality http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3815"
+   },
+   {
+    "time": "2026-10-05 22:03",
+    "iso": "2026-10-05T22:03:55+03:00",
+    "places": [],
+    "text_ar": "بيان مرتقب للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي. http://t.me/army21ye",
+    "text_ko": "사우디아라비아 깊이의 질적 군사 작전을 발표하기 위한 예멘 군의 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3813"
+   },
    {
     "time": "2026-10-05 18:03",
     "iso": "2026-10-05T18:03:30+03:00",
@@ -1093,6 +1162,16 @@
     "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 106 غارات جوية وصواريخ، استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وعمران وحجة وصعدة وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 1516 غارةً جويةً وصاروخاً. http://t.me/army21ye",
     "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 수도 사나와 알자우프, 타이즈, 암란, 하지야 및 사다 주지사의 민간 물체를 겨냥하여 106회의 공습과 미사일을 발사했습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 총 침략 습격 수는 1,516 건의 공습 및 미사일 습격에 도달했습니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3807"
+   },
+   {
+    "time": "2026-10-04 16:03",
+    "iso": "2026-10-04T16:03:58+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عمليتين عسكريتين أولاهما استهدفت شركة أرامكو في عاصمة العدو السعودي الرياض، والأخرى استهدفت شركة أرامكو في منطقة خريص، وذلك ردا على العدوان السعودي الظالم بالغارات الجوية والقصف الصاروخي على العاصمة صنعاء ومحافظات الجوف وتعز وعمران وحجة وصعدة. جودة منخفضة http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3803"
    },
    {
     "time": "2026-10-04 16:00",
@@ -1431,34 +1510,25 @@
     "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 19 غارة جوية من خلال طائرات \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، استهدفت محافظات تعز والجوف ومأرب وخلفت شهداء وجرحى بينهم أطفال ونساء ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا العزيز 936 غارةً وصاروخاً. إن المجازر التي ارتكبها العدو السعودي المجرم بحق أبناء شعبنا ستكون عواقبها عليه وخيمة بإذن الله وقوته. http://t.…",
     "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F15\" 와 \"타이푼\" 항공기를 통해 19번의 공습을 시작하여 타이즈, 알자우프, 마리브의 주지사를 겨냥하여 어린이와 여성을 포함한 순교자와 부상자를 남겼으며, 친애하는 우리나라가 936번의 공습과 미사일로 격상된 이후 사우디아라비아 침략 공습의 총계를 가져왔습니다. 범죄자인 사우디아라비아의 적이 우리 국민을 상대로 저지른 학살은 신의 뜻과 힘으로 끔찍한 결과를 초래할 것입니다. http://t.…",
     "url": "https://t.me/army21ye/3757"
-   },
-   {
-    "time": "2026-09-21 19:37",
-    "iso": "2026-09-21T19:37:19+03:00",
-    "places": [
-     "타이프",
-     "지잔",
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "في تصعيد كبير استهدف العدو السعودي المجرم محافظات الجوف وتعز وصعدة ومأرب بـ 157 غارةً جويةً وصاروخاً، من خلال طائراته الحربية نوع \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران وجيزان. ليبلغ إجمالي غارات العدوان منذ بدء التصعيد 917 غارةً وصاروخاً. هذا العدوان الكبير لن يمر دون رد بإذن الله تعالى. http://t.me/army21ye",
-    "text_ko": "대규모 격상에서 범죄자인 사우디 적은 카미스 무샤이트와 타이프 기지에서 이륙한 F15 및 태풍 전투기와 나즈란과 지잔의 미사일 공격을 통해 157번의 공중 및 미사일 공격으로 알자우프, 타이즈, 사다, 마리브 주지사를 표적으로 삼았습니다. 에스컬레이션이 시작된 이후 침략 습격의 총 수는 917개의 습격과 미사일입니다. 이 큰 침략은 대답하지 않을 것입니다. 신의 뜻입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3754"
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 7,
-   "리야드": 7,
-   "타이프": 6,
-   "나즈란": 5,
-   "지잔": 4
+   "리야드": 11,
+   "카미스무샤이트": 9,
+   "나즈란": 7,
+   "지잔": 6,
+   "타이프": 5,
+   "아브하": 3,
+   "라비그": 3,
+   "메카": 2,
+   "메디나": 2
   },
-  "last_ok_at": "2026-10-05T15:55:01Z"
+  "last_ok_at": "2026-10-05T22:33:40Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-05T15:55:07Z",
+  "fetched_at": "2026-10-05T22:33:47Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2862,13 +2932,27 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-05T15:55:07Z"
+  "last_ok_at": "2026-10-05T22:33:47Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-05T15:55:10Z",
+  "fetched_at": "2026-10-05T22:33:49Z",
   "kr": [
+   {
+    "date": "2026-10-05",
+    "published": "2026-10-05T20:42:00+00:00",
+    "source": "연합뉴스",
+    "title": "후티 공세에 ’방위협정’ 가동…튀르키예·파키스탄, 사우디 병력 지원",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qb1EyZ1hoYmJLUmxSV29Lb3RWQUdkS0FhMWQtUUVmMGxHSFNrRTBMa3RZbmQ0SDJBc28xcjM3enpHSGJpY0ZTTEs5OFZzZEFkUlhNNmdEcDBNZE1nNkRVN2JaeUhMT2M?oc=5"
+   },
+   {
+    "date": "2026-10-05",
+    "published": "2026-10-05T20:15:11+00:00",
+    "source": "연합뉴스",
+    "title": "튀르키예·파키스탄, 후티 공격받는 사우디에 병력 보낸다",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HckVSV0Y3SE1QT2FXUGxUUGd3SVlTUTQ5MVplcG9JQUdsZnhtbks2OXNHVjM4d1pBSWtfZTM3LUdVeTZacTlhYW9LNzdTOTBmOGZzbndPSEZ6eXPSAWBBVV95cUxNVHRIaE5JZjFCaWxxcE1ERk9qUjVPT0RSNHZULVNrZlRBb0RzckRiUGRzanQyVmN4eFJJNEtwRGlOS2kzLWJEc1hIZno5VlA3U2FxNU4tdHI3WjV1TVpjTUc?oc=5"
+   },
    {
     "date": "2026-10-05",
     "published": "2026-10-05T08:12:00+00:00",
@@ -2877,81 +2961,67 @@
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkRFRHRXZMQks1ckNBVHZ3UGxySXR2akVYV3pkbVh4NFZudEVSb184V1RpZDFsLS0ySlpTa2haWXB2aXR6ZGp4dUtpYnA4MFhibVczaGV5VWFwOG1uUk9n0gFfQVVfeXFMUGREVEdFdkxCSzVyQ0FUdndQbHJJdHZqRVhXemRtWHg0Vm50RVJvXzhXVGlkMWwtLTJKWlNraFpZcHZpdHpkanh1S2licDgwWGJtVzNoZXlVYXA4bW5ST2c?oc=5"
    },
    {
-    "date": "2026-10-05",
-    "published": "2026-10-05T03:55:11+00:00",
-    "source": "연합뉴스",
-    "title": "예멘군, 미국·사우디 지원받아 친이란 후티에 총반격 돌입(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vRFpPMUJhbGxPODVsQ1dkcmFNMWF4UExMUEZ6MldyZVFtUzE2VWpmMjNIa2tENXhiTmJxeFlIbjRTN21jeUEzWmdqTG1VUm5HVm0tYmpnYllBUzDSAWBBVV95cUxQUDBEVjJCVW1ybmVTakpWalZjSW9NTGhEQmpINk9wTDBkYUp2UUs0U1NYTllqVkVmODhyOHN3cWtiOWZJelF6amdNTDdsM1VicjdqY1VIMGJQdVFJV2Q3X2Y?oc=5"
-   },
-   {
-    "date": "2026-10-05",
-    "published": "2026-10-05T02:25:49+00:00",
-    "source": "연합뉴스",
-    "title": "사우디, 11월 아시아 공급용 원유가 대폭 인하",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxRXZBemtlMHdJNUxvZ2pGWnItbUlBUTh1MVJqYXBCVW1Sdmo2Wk03WlJLNjBhaWlnYzBGU3Jpek8xdzBMeWRSZndyT1FjalAzMmg3Mk8yazZvdG42TUV5NdIBYEFVX3lxTFAxRXZBemtlMHdJNUxvZ2pGWnItbUlBUTh1MVJqYXBCVW1Sdmo2Wk03WlJLNjBhaWlnYzBGU3Jpek8xdzBMeWRSZndyT1FjalAzMmg3Mk8yazZvdG42TUV5NQ?oc=5"
-   },
-   {
-    "date": "2026-10-05",
-    "published": "2026-10-05T01:37:41+00:00",
-    "source": "뉴스1",
-    "title": "사우디 지원 예멘 정부, 후티 반군에 전면전 선포…중동 정세 격화(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSWmZ5Q2cxWFFYTHVid2hQMHB1RUVSQ1VQWkNQaTY4a3NGcDZEam9mMGhfZHVCTThZaFFIMjJGekNpTGhvQzZNRWJ2aml1RVNvSWNtZ2dhbmhxQml5dHfSAV5BVV95cUxQUlpmeUNnMVhRWEx1YndoUDBwdUVFUkNVUFpDUGk2OGtzRnA2RGpvZjBoX2R1Qk04WWhRSDIyRnpDaUxob0M2TUVidmppdUVTb0ljbWdnYW5ocUJpeXR3?oc=5"
-   },
-   {
     "date": "2026-10-04",
     "published": "2026-10-04T23:47:00+00:00",
     "source": "YTN",
     "title": "언제 터질지 모르는 '시한폭탄'...특단의 조치 내린 사우디 [자막뉴스]",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01bUxWbEZQNUpuWXc0T0Z6M3hoaGQ2RThQMVZibDk1M2dVTy1OZWJSTm8xQWUyVUpYdmhFREtXNV9pM0hhVl9VSXdQSGFJeTJsSHNjVl91T0FKbzVzSnNiaU16VmNYVVpmTVF5U1hERllYbDV3NlE?oc=5"
+   },
+   {
+    "date": "2026-10-04",
+    "published": "2026-10-04T22:27:00+00:00",
+    "source": "YTN",
+    "title": "사우디-예멘군, 후티 대공세 개시...중동 위기 고조",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1nal9pelZPOW95NVlFa3JNcGoxUGl2b0pGRG55WkdSc2tXQjh5QjB5TER3em5vQWRiVlVnTm9kWGVOLU81NVk5VnVtcFBhcDM4RmZYU3hnXzBRZl9pcTVWVFVaSF9XOG0tUWdLTUM1bw?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-05",
-    "published": "2026-10-05T14:23:28+00:00",
+    "published": "2026-10-05T22:07:30+00:00",
+    "source": "Al Jazeera",
+    "title": "Yemen government forces report recapture of Mocha from Houthis",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUR2N0t5WlpTWk9kYkljOWdERTlyUlo3RFcyS0dWQmFxUXpMZVBUcm95aDByRWhHbkpNWlhQN3R2RTNHa0hiYXgwRk9NWUN4UGRiNVJvZ1NMcWhkWDV2ZlFNZWtSN1kwN3pvQlhzSXpDRHNKMVRudlROa09jS1A0Y0dnUU9DMV9xNk84ZUFwWHhoOUw3b1VCTzJtVEdZVl9PVWZxUUFEQVRrNDY1cElWSDBIc9IBuAFBVV95cUxOS2JNb1hvM2hkdXIwZ0hyWnJkQk01blV5U0d6LW52MTVwbXBrdFZoeE55enZCaGJmQmdLWmVCdnlfVXBkSm1hWlVsQndOOHlqLVdoVEJfUnQ1aDdXSldDdVlqZWRRVmVuV2ZGa0lBbF9CVV9fUFNBbWdCS2I4bHA2ZTAyQ2dZNDhWYzJfU2w3WU9zbFByelRzMl81UlVBQUs5cVZodEdRTnJrUVl6a0huYkU4RlZkWUdQ?oc=5"
+   },
+   {
+    "date": "2026-10-05",
+    "published": "2026-10-05T21:45:02+00:00",
     "source": "The New York Times",
-    "title": "Saudi and Yemeni Forces Attack to Retake Control of Red Sea Coast",
+    "title": "Burst of Attacks in Gulf Heightens Fears Over Fragile Energy Trade",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4ajBtams1a2R0aEhOYkdTOGcwbGU0Vm9vTDQ4Q0ZrU2tFRFdQN2FSdHBNWlJUTEw5SHg4WS1BbHk2VTRlUlFMcFJ0aFFjSFZzcElxaWJyRURFQnhrZE5ZY2t3UTA5VU9mZVc5S3NZcVh2VmNiTVM0Z0JlR3k2U2M?oc=5"
+   },
+   {
+    "date": "2026-10-05",
+    "published": "2026-10-05T21:22:29+00:00",
+    "source": "The New York Times",
+    "title": "Saudi and Yemeni Forces Attack Houthis to Retake Control of Red Sea Coast",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOc2RibF95eEl3dHVrdlVwc2pZMkRjaldLRzUwWkN6U3c0SVQ3QjVzVjBtYTk5a3FoUzZBS0E2cm11VkIzT1Iya1JtUmhiU1duZGtDeHRleWlNUW51Zkt0SFBDRGp5N0xUUGFzSmNSdzloUUpVSldSeXRIS3ZxQ1dWRThCR3ZVLUJReGVfM194a0JVS1VPVGxJQy04T0d0Z2Nuc21MUEdwZw?oc=5"
    },
    {
     "date": "2026-10-05",
-    "published": "2026-10-05T13:38:23+00:00",
+    "published": "2026-10-05T19:48:16+00:00",
     "source": "Reuters",
-    "title": "Replenishing crude and fuel stocks could take two years, Saudi Aramco CEO says",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRFBWUXdRbEpSdW95M2JsWlZMNF9VRXhZdUp2eVBoSXJYYllUbmZ2anNWMFFrQ3lGWFU2cnNxUW1zWTk2alRMS2VhVUtqdndlVi0xc21BT3Fwa2hnd0tjZWxQZDJtaGNvQk41c2lfSWZQR0FaampUcHpFQXdvbG1vUElBZmhuU3FRbC1fNW9MZ2c3eS12dHM5a05QeHVtR3VCYXhmcTZ3TW9CYjdZa1JhdlZWLWVMOHNGM1dQVUhHNTVCQi1fNkE?oc=5"
+    "title": "Yemeni government forces drive Houthis from Bab el-Mandeb Strait",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSVotTm16YzZEU2xvWHNOcjllZVU1RlNYZjBoUnMzWThDbHRLUmJpUE16d0lSR00xcXRBNXppSGcwZHpjNGd6azFjeVBWSHV5T3lZWG9mZEdMRmhBYzVhMF9seTQ2UnZTa201X3hHb2o1ZHN5alNJRmFPcUdvaWVnX1ZKWFZVYmwyS2huNHg2bG1TNlVNT3RuUk5Mbi1naHRFaFQ0YjRKZ0YtVVUta3V2Q1dmQzN5bTlkZmpV?oc=5"
    },
    {
     "date": "2026-10-05",
-    "published": "2026-10-05T10:00:48+00:00",
-    "source": "Al Jazeera",
-    "title": "Houthis claim strike on Aramco site as Yemen fighting intensifies",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONmY5RE5ILWt6MWtRZTJBS2VXVzdQdERuNHZFbk9PVHVuZFNfTVhjdm1yTWdUSTR0Q0xlNTN2eGhOUkE2WThVcXdDZ1pEcDAtQWJWWUFQbUM2RE9pbmtCa2lfM2t2RUxxVF9kUkJxd0htRjA0aXprc0NEQWZlNHVQTWpPVDdPNDVmZ25sNXFISGhaa0MxdEJzNEQxekE1ZVRoZWFkVEZsOElNR1g1amRXRFdkZm85RnPSAbwBQVVfeXFMUHdUakUzMklBc1VSRGZwMXN1X2M1NVg3b1dmUFZ5aXUtX2tmbW84UHNSckw2TlBmS1pXdmx1VE4tclZ6cGpSSFU1WTZRRmg3c3V2N3lYME1BRmUwa0RHZS1rd1BINkowa0xrMHNReUxXdmZyRzduTkN0TTlpVWV4c0p2Um5uWHRlNG14b0MwNF8zd2JTMHppaHlnN0tHMWJJTlhKMTltOE5MN0ktQVdoNGhRekg1RmhoVVBrdGM?oc=5"
-   },
-   {
-    "date": "2026-10-05",
-    "published": "2026-10-05T09:46:10+00:00",
-    "source": "CNBC",
-    "title": "Saudi Aramco chief says replenishing global oil stockpiles could take two years",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN18wRFVzT1VScWNqS1RUNlp3dGZOS1AySGtqMlFyMUZJa1hrb3c5eGhjLTl2MElwRlZuVzZMZWVhX2ZYQW0zeVd4b293T1ZYdWlESE1MdGh5dlJ0ZUsyZTFNWnRmTXM0bHp4cHhCMmx1RGFTQkxmSk9jdFY1N1p1S2hkS3dWd9IBiwFBVV95cUxQLWE2RGNCekRwb2tuUnVaMzBNam9OZWJEU0xBY3JlRkUyMTlxVmx2X085YmZMUWJyZ3hONVVIaUYtUGNubGdGU0I5bUYybUtxQnB6eWhZbmZiSHZPREtyamxFeUo3RjY4TmJmczk5N3p5bHMzTTBuNUkzWkctWm1sZjFaWnEyUEREVnl3?oc=5"
-   },
-   {
-    "date": "2026-10-05",
-    "published": "2026-10-05T08:52:11+00:00",
-    "source": "Bloomberg",
-    "title": "Saudi East-West Oil Pipeline Is Said to Be Flowing as Normal",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS09FeVUxTUo1S3JIS2x6RHF5Q1ZWcnowa2FROVE2WkwwZ1YxUWlISzF2cGdtQnhGMjd4clRxZmxvRWVLbkZIZTNlR010RjFXMDF1YTA3X3lvMjlaQXRWQ2pKZlJBZ2pwMWktVTlyZFJBZG5aNmlFRm1fa284dGgzNy1wUTBVSXNKWS12bFJBNGVxbHBKR2pXRnJQek05YnNIbU9oODlpblNCWWhUTlhtdw?oc=5"
+    "published": "2026-10-05T19:44:00+00:00",
+    "source": "The Guardian",
+    "title": "Saudi-backed forces recapture key areas around strait from Houthis in Yemen",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN25nR0ZCeVJZY1YtSUtrVmRIQ3htcy05RGc3ZkRMRkxqVmxBd011TnFzNXh3bTF0NllTSG1FcVpMWTJXdU5oZ1R0OUJRQ2FxTXprZlF0TTFZYkVwUzl1eFp0VUdNU1Jmam1UeVJuSkpvYUxHT1k5dUtNV21tNHdabUVnQ3JEOWpERWNwWjROc084QWVubTR2Mmh1VjVKMXRn?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-05T15:55:10Z"
+  "last_ok_at": "2026-10-05T22:33:49Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-05T15:55:11Z",
+  "fetched_at": "2026-10-05T22:33:50Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 50,
-  "baseline": 36.0,
-  "baseline_n": 4,
+  "count": 29,
+  "baseline": 39.5,
+  "baseline_n": 6,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3051,14 +3121,15 @@
    "2026-10-04T21": 36,
    "2026-10-05T00": 46,
    "2026-10-05T06": 25,
-   "2026-10-05T15": 50
+   "2026-10-05T15": 50,
+   "2026-10-05T22": 29
   },
-  "last_ok_at": "2026-10-05T15:55:11Z"
+  "last_ok_at": "2026-10-05T22:33:50Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-05T15:55:11Z",
-  "last_ok_at": "2026-10-05T15:55:11Z"
+  "fetched_at": "2026-10-05T22:33:50Z",
+  "last_ok_at": "2026-10-05T22:33:50Z"
  }
 }
