@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T16:45:35Z",
+ "generated_at": "2026-10-06T21:35:42Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T16:45:35Z",
+  "fetched_at": "2026-10-06T21:35:42Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 3,
   "baseline": 3.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-06T16:45:35Z"
+  "last_ok_at": "2026-10-06T21:35:42Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T16:45:57Z",
+  "fetched_at": "2026-10-06T21:36:04Z",
   "events": [
    {
     "date": "2026-10-06",
@@ -951,18 +951,18 @@
     "7d": {},
     "total7d": 0,
     "prev7d": {
-     "피격": 2,
+     "피격": 1,
      "경보": 1
     },
-    "prev_total": 3
+    "prev_total": 2
    },
    "타이프": {
-    "7d": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": {
      "경보": 1
     },
-    "total7d": 1,
-    "prev7d": {},
-    "prev_total": 0
+    "prev_total": 1
    },
    "리야드": {
     "7d": {
@@ -1051,17 +1051,30 @@
     "prev_total": 0
    }
   },
-  "history_days": 26,
+  "history_days": 27,
   "history_since": "2026-09-11",
-  "today": "2026-10-06",
-  "last_ok_at": "2026-10-06T16:45:57Z"
+  "today": "2026-10-07",
+  "last_ok_at": "2026-10-06T21:36:04Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T16:45:58Z",
+  "fetched_at": "2026-10-06T21:36:05Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-06 20:28",
+    "iso": "2026-10-06T20:28:14+03:00",
+    "places": [
+     "타이프",
+     "지잔",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 66 غارة جوية وصاروخا، استهدف بها الأعيان المدنية في محافظات الجوف وتعز ومأرب والحديدة وحجة وصعدة وذلك من خلال طائرات \"F-15\" و \"تايفون\" وطائرات استطلاعية مسلحة، أقلعت من قواعده في خميس مشيط والطائف وقاعدة الملك فيصل البحرية، والعدوان الصاروخي من جيزان ونجران، وخلفت عددا من الشهداء والجرحى في صفوف المدنيين معظمهم نساء وأطفال. ليبلغ إجمالي غارات العدو…",
+    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 F-15 항공기, 태풍 및 무장 정찰기를 통해 자우프 (Jawf), 타이즈 (Taiz), 마리브 (Marib), 호데이다 (Hodeidah), 하지야 (Hajjah) 및 사다 (Sa 'dah) 주지사의 민간인 물체를 겨냥하여 66번의 공습과 미사일 공습을 감행했으며, 카미스 무샤이트 (Khamis Mushait), 타이프 (Taif) 및 파이잘 왕 (King Faisal) 해군 기지의 기지에서 이륙했으며, 지잔 (Jizan) 과 나즈란 (Najran) 의 미사일 공격으로 다수의 순교자와 부상자를 남겼습니다. 적의 총 습격 횟수를 가져오는 중...",
+    "url": "https://t.me/army21ye/3834"
+   },
    {
     "time": "2026-10-06 19:31",
     "iso": "2026-10-06T19:31:56+03:00",
@@ -1593,36 +1606,25 @@
     "text_ar": "تمكنت القوات المسلحة اليمنية بفضل الله من إسقاط طائرة استطلاع مسلح نوع \"وينق لونق 2\" (Wing Loong II) تابعة للعدو السعودي وذلك أثناء قيامها بمهام عدائية في أجواء المخا بمحافظة تعز، وقد تم استهدافها بسلاح مناسب. http://t.me/army21ye",
     "text_ko": "알라의 은총으로 예멘군은 타이즈 주 모카 영공에서 적대적 임무를 수행하는 동안 사우디 적의 무장 정찰기 \"윙 룽 II\" 를 격추시킬 수 있었고 적절한 무기로 표적이 되었습니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3758"
-   },
-   {
-    "time": "2026-09-22 19:35",
-    "iso": "2026-09-22T19:35:11+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 19 غارة جوية من خلال طائرات \"F15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، استهدفت محافظات تعز والجوف ومأرب وخلفت شهداء وجرحى بينهم أطفال ونساء ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا العزيز 936 غارةً وصاروخاً. إن المجازر التي ارتكبها العدو السعودي المجرم بحق أبناء شعبنا ستكون عواقبها عليه وخيمة بإذن الله وقوته. http://t.…",
-    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F15\" 와 \"타이푼\" 항공기를 통해 19번의 공습을 시작하여 타이즈, 알자우프, 마리브의 주지사를 겨냥하여 어린이와 여성을 포함한 순교자와 부상자를 남겼으며, 친애하는 우리나라가 936번의 공습과 미사일로 격상된 이후 사우디아라비아 침략 공습의 총계를 가져왔습니다. 범죄자인 사우디아라비아의 적이 우리 국민을 상대로 저지른 학살은 신의 뜻과 힘으로 끔찍한 결과를 초래할 것입니다. http://t.…",
-    "url": "https://t.me/army21ye/3757"
    }
   ],
   "mentions7d": {
    "리야드": 11,
    "카미스무샤이트": 9,
-   "지잔": 7,
-   "나즈란": 7,
+   "지잔": 8,
+   "나즈란": 8,
    "타이프": 5,
    "아브하": 4,
    "메디나": 3,
    "메카": 3,
    "라비그": 3
   },
-  "last_ok_at": "2026-10-06T16:45:58Z"
+  "last_ok_at": "2026-10-06T21:36:05Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T16:46:07Z",
+  "fetched_at": "2026-10-06T21:36:08Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2938,50 +2940,57 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-06T16:46:07Z"
+  "last_ok_at": "2026-10-06T21:36:08Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T16:46:08Z",
+  "fetched_at": "2026-10-06T21:36:09Z",
   "kr": [
    {
     "date": "2026-10-06",
-    "published": "2026-10-06T14:04:26+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 공항·정유시설에 후티 공습…韓기업 가까운 지역도 피격",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwajE1dzBBYngyemFzSFByRjFQc0hEa2N6Z1NoUU5sTDBOal9waEVzNVh2RlVJUFRZeFQ1UVljQXFVZjBnUzVsMUxoM1E5bF92Z2JlOHdXeVBlMTjSAWBBVV95cUxOdTB0cDc3b0VFQThVZXlXWjg2VHd6XzlsMXdyTHYzVjlVeDI0TkEzdjJMT3ZhWHg2X3NFUnFnVFZfS05LcFZqVzBTUFViZlhhbzFsZ0lQQUp2ZVpjcjVkRUs?oc=5"
+    "published": "2026-10-06T19:30:00+00:00",
+    "source": "동아일보",
+    "title": "사우디, 후티 장악 요충지 탈환… ‘중동판 나토’도 가동",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54Y2tvWEpPQ2VURlI5dGhuSWk1T29kOEZoVnBXYl9wLW9qbU9rcUN1NWdSSkt2U0x6eWlqejhfTXdFR1RRQ3ltNWtJeElaWlpJcVVOWVpPOWpQMkM0Tmo5S1ZxYXB6LUFwbGg4b1pQRzVKZFHSAWZBVV95cUxPUGwxa0VES2NkLWt1WUFtY0Q4cTh1czlpNlZoOGtrV0IyWFgwajdmZE9yOXhDVEsxb25KaFhuUy10cTAtUTZ1SFc2bFFCSi1xWjFaaFBWV2d2a0FNMDAwazBYM3JOZUE?oc=5"
    },
    {
     "date": "2026-10-06",
-    "published": "2026-10-06T12:30:03+00:00",
+    "published": "2026-10-06T19:15:33+00:00",
     "source": "연합뉴스",
-    "title": "[그래픽] 사우디 연합군-후티 반군 무력 충돌 상황",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xVkZHSFh2M2FrYmdPYzBCdUF2V2szNUl0OHdvU1JabW5YOFlQRzlyVVFXd09aVUxtM0JqUHZIUVNQZmFJYUJIY01USEVOR3NNR3p2RmNCMjJHUm_SAWBBVV95cUxQMkYwclpGSWpQOTVEaWcySFF0Vmo1Q0t3clZjaWtYdTZJS2QtSkFWMWhzM3NZd3NkS0NOWUJMLWNKSVkyakhjSVlHLTc0VHRKc040Ukc2TXRWQ1dsSHh4b1g?oc=5"
+    "title": "사우디 공항·정유시설에 후티 공습…韓기업 가까운 지역도 피격(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82Ujc2RjB4S21JNW8xSGJlOFp4S2J3S0pOUGRpdEtLRUEzUkwtcTQ2R2lFVWZjRjlVTWlTZGQwN0x6S3gxQVMyODlpZmR6T1RjTG1iVms3a0JSVkF3MGRJS9IBYEFVX3lxTE82Ujc2RjB4S21JNW8xSGJlOFp4S2J3S0pOUGRpdEtLRUEzUkwtcTQ2R2lFVWZjRjlVTWlTZGQwN0x6S3gxQVMyODlpZmR6T1RjTG1iVms3a0JSVkF3MGRJSw?oc=5"
+   },
+   {
+    "date": "2026-10-06",
+    "published": "2026-10-06T18:48:25+00:00",
+    "source": "연합뉴스",
+    "title": "\"튀르키예, 몇주 내로 사우디에 병력·방공시스템 배치\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RRDZWdlRwdWZsVFhpSnVxVF8zdk5PNXlGeWpyTFA0cVJmZmNfTGVpVkR3czlEdXZPci1KQjZ0MkZuSlJHSDBjUVNzYTQxQ29tSUpQYlVlcHBLekNYcC1hQtIBYEFVX3lxTE5RRDZWdlRwdWZsVFhpSnVxVF8zdk5PNXlGeWpyTFA0cVJmZmNfTGVpVkR3czlEdXZPci1KQjZ0MkZuSlJHSDBjUVNzYTQxQ29tSUpQYlVlcHBLekNYcC1hQg?oc=5"
+   },
+   {
+    "date": "2026-10-06",
+    "published": "2026-10-06T14:31:00+00:00",
+    "source": "JTBC",
+    "title": "현대차·한전 등 한국 기업 진출 사우디 도시, 후티반군 공격받아",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoTjBPN0tDZmVBYzV2SEtuMGhGN3YtQUVqMVg3UmRpZDJfRWk0VzIxWWhhQ0FSekVob3N5a1BCZ21nNHNFV1Mwbk02cE5IdW0xYjktcg?oc=5"
    },
    {
     "date": "2026-10-06",
     "published": "2026-10-06T10:32:00+00:00",
     "source": "채널A",
     "title": "사우디 연합군, 전투기 100대 대대적 반격…후티, 국제공항 공습",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMbkZQbzFfYVBrVVBBTW1rUmw4QVlmN2VNRlUyM0pNcUpxMTFmcmd1Wl9YQm1BalpnTWFlOVRMSmVzdFRmRnp3S005QS1ET29NV0txRlNiNjFVZ0lVVEHSAWNBVV95cUxOMElpcjZ4cGd5TkFQUnp5YmU4aEFGbmZxQTRNVGdBR094YWJCZDdyNHUtTjB0YjZlVFV1MzhmQVJqa2tUSXE1NFNoSXJXN1NLbk9JVFZUQzhPODZzUkdLUzN0R1U?oc=5"
-   },
-   {
-    "date": "2026-10-06",
-    "published": "2026-10-06T02:36:15+00:00",
-    "source": "서울신문",
-    "title": "‘24시간 동안 60차례 폭격’에 보복 나선 후티… 사우디 연합군 “홍해서 승리” 맞불 [밀리터리노트]",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX19tQUVteE54V3NJWDNzMmZZa20wbHdtQlU0TXluM3h2ZVJCTmlRWHdmZG9ORmk4ZG4tZkJpS0xwTU9QQVFoYVZWZ25UOHN0UUlpN1hnQVU0VGY1SUlYd25kLV84cEIxRGJ3VUYzc2ZHZGMyZkh0VERuVWpXOW5MQ19ocXBXbHZuUXNobFl1dw?oc=5"
-   },
-   {
-    "date": "2026-10-06",
-    "published": "2026-10-06T02:24:28+00:00",
-    "source": "MBC",
-    "title": "사우디 연합군, 요충지 3곳 탈환‥파키스탄·튀르키예 파병",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XR0NhNWNuQVhaYlZiYzJ6bDQyOUpCdXNCb0k0SmFUbldDYVpSZV9fS3YzVXhZcWk3T0RpTnpqMHByYmcyY0tUZ3ZncGlja09UUDNlMnk3cU81Zjk2UEJmNlYyVFRYS2VLaGc5SjE3U09seDNu0gF0QVVfeXFMT1dHQ2E1Y25BWFpiVmJjMnpsNDI5SkJ1c0JvSTRKYVRuV0NhWlJlX19LdjNVeFlxaTdPRGlOemowcHJiZzJjS1RndmdwaWNrT1RQM2UyeTdxTzVmOTZQQmY2VjJUVFhLZUtoZzlKMTdTT2x4M24?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wSWlyNnhwZ3lOQVBSenliZThoQUZuZnFBNE1UZ0FHT3hhYkJkN3I0dS1OMHRiNmVUVXUzOGZBUmpra1RJcTU0U2hJclc3U0tuT0lUVlRDOE84NnNSR0tTM3RHVdIBY0FVX3lxTE4wSWlyNnhwZ3lOQVBSenliZThoQUZuZnFBNE1UZ0FHT3hhYkJkN3I0dS1OMHRiNmVUVXUzOGZBUmpra1RJcTU0U2hJclc3U0tuT0lUVlRDOE84NnNSR0tTM3RHVQ?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-06",
+    "published": "2026-10-06T20:43:50+00:00",
+    "source": "Reuters",
+    "title": "Yemeni government fighters shown driving vehicles over Houthi opponents",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdTUtR05NTWVJVFBWcjJmSVZRb0RuVXl6Zk5ocVBacHBIMm1yeWo2VWQ4U2ZqNVFPcTFqeExXUjFyMlpONkU5blQyekxfbGpwM3ZBay05dFU4WkRqZ3lIcmw3VG9UQ3NxSWczQU9qMjFRbHV3QVd3LXl3ZElxaHVRMkFVdHVfajl5SV81YkF1X1ZYX0ZNbW0yMFdjUWFnY3JTLXhZd1gzSU5pNTR5MU1mT0RneVlsLU1uaVdEd1lSRnd0M19Yd1JF?oc=5"
+   },
    {
     "date": "2026-10-06",
     "published": "2026-10-06T12:45:29+00:00",
@@ -2998,36 +3007,29 @@
    },
    {
     "date": "2026-10-06",
+    "published": "2026-10-06T11:18:26+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi Arabia says three wounded in attacks on airports near Yemen border",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWHVKeVJtVklCdVVISmNIb3NVbk9kV1dRYmtMX1dxRTlWWThPNmRzTkIzUlF2WGdVYWxST3JqU3p0akJDUU9jWm84clpuSkEyMG94ZmpoNzN4MkFaa3BjcnRxWnpGSlZBdFlUZ1R2YVFpM1dWdVJqeHAwaWNnRjhzNWx1SWNDb1R1c2pILWdrQ3U4TEZiN2pYdG5HN0s1dTRDMnBKTndzVjVFa2FQSlJqVkVXSdIBuAFBVV95cUxOYW9TMV9wZEVndkZNZlhUSEtmdGYxbktLalVSY3RPOE9tVlM3U041VndUR1VRTTNla2FpYlZvbDdzRjUtM0QxNnpOWmpQdl9LbkhMZG5iM0pBOENqR2Z2eTI4dVRIWC1lV1Z0OWVxZTBLdzB5Wk1oR241bGpKenFoVDdVQmlBSUZhTXNkX09wUmJ2MW5VMG85b1dPdU1ncXN0TWoybzh0bHR2RzdwODZLdEJSb3Z1dkt4?oc=5"
+   },
+   {
+    "date": "2026-10-06",
     "published": "2026-10-06T10:02:17+00:00",
     "source": "Financial Times",
     "title": "Saudi Arabia, Pakistan and Turkey trigger mutual defence pact",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT0hxVEJjckxGX2pXVTNXNHpTZFpja3U2eVA3V3VULWg4Q3dtUHpiZVlxcUNtU3N6NC1Cc281a1NyRnBCYnloNF9rNThnTkc1a3d5SVl1am0xT0g0SnNXUHE4b3M1T255NTE2TE9rS0lEeWVEQ1diZ3V2eS1jaWQwUnNRaGQ?oc=5"
-   },
-   {
-    "date": "2026-10-06",
-    "published": "2026-10-06T09:39:09+00:00",
-    "source": "Bloomberg",
-    "title": "Key Saudi Pipeline Flows at 5.8 Million Barrels, Minister Says",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd0VpbEstckJlaEthVFZwRHhMVmk4NWRKYjI0SFVUUFZPcjRZaXhRY0ZxWWpPUDJmWDd6b0JfNXVIQ3FCUVZ3ZUgxRExNbVhnR1M4QnpKTEhnS2xabnpCSHZZdGFSaXRYakdxZXFrN2pramlxZ0tRMW1zaWVvV1A5YUdmcGp3dkxkbXpoSFd5TXd6YUg0RVo5U2RvNDIwb3NHeXlYZlZDYlpxN1lEbGs2SFR3?oc=5"
-   },
-   {
-    "date": "2026-10-06",
-    "published": "2026-10-06T07:43:07+00:00",
-    "source": "BBC",
-    "title": "Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPSVpSb2x4aXJkbUtyZlVvVzVBNlFOYjdJcVozSlBRd1JrVG1mUzljU0VvYktuaDdjYXFPWTNlQnZZRFA4c2RRWmx2eEhfWng0MnJhLW1fM09Vazg?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-06T16:46:08Z"
+  "last_ok_at": "2026-10-06T21:36:09Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T16:46:09Z",
+  "fetched_at": "2026-10-06T21:36:10Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 36,
-  "baseline": 32.5,
-  "baseline_n": 4,
+  "count": 43,
+  "baseline": 30.0,
+  "baseline_n": 6,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3131,14 +3133,15 @@
    "2026-10-05T22": 29,
    "2026-10-06T02": 32,
    "2026-10-06T10": 37,
-   "2026-10-06T16": 36
+   "2026-10-06T16": 36,
+   "2026-10-06T21": 43
   },
-  "last_ok_at": "2026-10-06T16:46:09Z"
+  "last_ok_at": "2026-10-06T21:36:10Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-06T16:46:10Z",
-  "last_ok_at": "2026-10-06T16:46:10Z"
+  "fetched_at": "2026-10-06T21:36:11Z",
+  "last_ok_at": "2026-10-06T21:36:11Z"
  }
 }
