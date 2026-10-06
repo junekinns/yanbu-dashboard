@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T10:06:53Z",
+ "generated_at": "2026-10-06T16:45:35Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T10:06:53Z",
+  "fetched_at": "2026-10-06T16:45:35Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -170,33 +170,33 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-10-06",
+    "title": "라빅 정유시설 화재 및 사우디 남부 인명피해 발생 관련 신변 유의",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321114/detail2?ntnCd=107",
+    "summary": "ㅇ 10.5(월) 오일프라이스, 타스님 통신 등의 매체는 라빅 내 페트로 라빅 정유시설이 대형 화재가 발생했다고 보도하였고, 이에 대한 사우디측의 공식 확인은 아직 없으나 같은 날 후티 반군은 자신들이 동 시설을 공격하였다고 주장하였습니다. ㅇ 또한, 10.6(화) 사우디 민간항공청은 지난 밤 자잔 공항, 나즈란 공항을 겨냥한 후티 반군의 공격으로 인해 3…"
+   },
+   {
+    "date": "2026-10-06",
+    "title": "중동 지역 정세 관련 안전 유의 안내(10.6.)",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321113/detail2?ntnCd=107",
+    "summary": "10.5.(월) 후티 반군이 사우디아라비아 내 공항 등 일부 시설에 대한 공격을 주장하는 등 중동지역 내 군사적 긴장이 지속되고 있는 상황입니다. 사우디에 체류하거나 방문 중인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ 군사·에너지 관련 주요 시설 주변 접근 가급적 자제 ㅇ 미사일·드론 경보 또는 폭발음 등이 발생할 경우 창문에서 떨…"
+   },
+   {
     "date": "2026-10-04",
     "title": "후티 반군의 사우디 서부, 남부 공격 빈발 관련 안전 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321112/detail2?ntnCd=107",
     "summary": "ㅇ 최근 예멘 내전이 격화되고 있는 가운데 , 사우디 방위군 및 아랍연합군은 △9.29(화) 메디나 외곽 타이바 변전소 피격 △10.1(목) 자잔, 카미스 무샤이트 겨냥 탄도미사일 2기 요격 △10.2(금) 카미스 무샤이트 겨냥 탄도미사일 4기 요격 △10.3(금) 아하드 라피다(카미스 무샤이트 인근) 탄도미사일 1기 요격 및 요격 파편에 따른 부상자 1명…"
-   },
-   {
-    "date": "2026-09-22",
-    "title": "중동 지역 긴장 고조 관련 안전 유의 안내(9.22.)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321111/detail2?ntnCd=107",
-    "summary": "최근 중동지역 내 군사적 긴장이 지속되고 있으며, 사우디아라비아 내에서도 미사일·드론 공격 등 돌발 상황이 발생할 가능성을 배제할 수 없습니다. 사우디에 체류하거나 방문 중인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ 군사·에너지 관련 주요 시설 및 다중밀집지역 주변 방문 가급적 자제 ㅇ 미사일·드론 경보 또는 폭발음 등이 발생할 경…"
-   },
-   {
-    "date": "2026-09-19",
-    "title": "주의 사우디아라비아 중부(리야드) 일대 공습경보 발령 관련 안전공지(9.19.)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048647/detail",
-    "summary": "9.19.(토) 오전 3시 및 5시경 리야드 및 알카르지 지역에 두 차례에 걸쳐 사우디아라비아 민방위청의 공습경보가 발령되었습니다. (현재는 모두 해제) 이와 같이 최근 후티 반군, 이라크 내 친이란 반군 등에 의한 간헐적 공격 시도가 계속되면서 역내 긴장이 고조되고 있습니다. 우리 재외국민 분들께서는 유사시를 대비하여 이번 전쟁의 주요 목표가 된 전례가 …"
    }
   ],
-  "last7d": 1,
+  "last7d": 3,
   "baseline": 3.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-06T10:06:53Z"
+  "last_ok_at": "2026-10-06T16:45:35Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T10:07:12Z",
+  "fetched_at": "2026-10-06T16:45:57Z",
   "events": [
    {
     "date": "2026-10-06",
@@ -1054,14 +1054,62 @@
   "history_days": 26,
   "history_since": "2026-09-11",
   "today": "2026-10-06",
-  "last_ok_at": "2026-10-06T10:07:12Z"
+  "last_ok_at": "2026-10-06T16:45:57Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T10:07:13Z",
+  "fetched_at": "2026-10-06T16:45:58Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-06 19:31",
+    "iso": "2026-10-06T19:31:56+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من التصدي لعدد من محاولات تحشيدات العدو السعودي التقدم باتجاه باب المندب وطردها وإجبارها على التراجع ولم تحرز أي تقدم، وتم استهداف تجمعات تلك التحشيدات بعشرة صواريخ باليستية وأدت عملية التصدي والاستهداف إلى مصرع وإصابة العشرات، وتدمير عدد كبير من الآليات. http://t.me/army21ye",
+    "text_ko": "하느님 덕분에 우리 군대는 사우디 적을 동원하여 바브 알 만다브로 진격하고 추방하고 퇴각시키려는 여러 시도에 맞설 수 있었습니다. 그들은 아무런 진전도 이루지 못했고, 이러한 동원의 집결은 10개의 탄도 미사일로 표적이 되었고, 맞서고 표적화하는 과정에서 수십 명이 사망하고 부상을 입었고, 많은 차량이 파괴되었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3833"
+   },
+   {
+    "time": "2026-10-06 19:31",
+    "iso": "2026-10-06T19:31:45+03:00",
+    "places": [],
+    "text_ar": "مشاهد نوعية لعمليات ضرب التحشيدات التابعة للعدو السعودي في عدة جبهات بطائرات شواظ الانقضاضية - 06 أكتوبر 2026م",
+    "text_ko": "잠수 그림자 항공기로 여러 전선에서 사우디 적의 군중을 공격하는 작전의 질적 장면 - 2026년 10월 6일",
+    "url": "https://t.me/army21ye/3832"
+   },
+   {
+    "time": "2026-10-06 18:48",
+    "iso": "2026-10-06T18:48:11+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من التصدي وطرد تحشيدات العدو السعودي أثناء محاولتها التقدم باتجاه مواقع قواتنا جنوب غربي الوازعية ولم تحرز أي تقدم بفضل الله، وتم تدمير عدد من الآليات والمدرعات التابعة لها وسقوط العشرات بين قتيل وجريح. وتم بعون الله استهداف التجمعات التي حاول العدو التعزيز بها لإنقاذ من تبقى من تحشيداته بعدد من الصواريخ الباليستية، وكانت الإصابات دقيقة ومباشرة بفضل الله وخلفت عددا م…",
+    "text_ko": "우리 군대는 하느님 덕분에 알와지야 남서부로 진격하는 동안 사우디 적의 동원에 맞서고 추방할 수 있었고 하느님 덕분에 아무런 진전도 이루지 못했고 많은 차량과 장갑차가 파괴되었고 수십 명이 사망하고 부상당했습니다. 알라의 도움으로 적군이 나머지 집회를 구하기 위해 강화하려고 했던 집회는 수많은 탄도 미사일의 표적이 되었고, 알라 덕분에 부상은 정확하고 직접적이었으며 많은 사상자를 남겼습니다.",
+    "url": "https://t.me/army21ye/3831"
+   },
+   {
+    "time": "2026-10-06 18:37",
+    "iso": "2026-10-06T18:37:00+03:00",
+    "places": [],
+    "text_ar": "ترقبوا السابعة مساءً مشاهد نوعية لعمليات ضرب التحشيدات التابعة للعدو السعودي في عدة جبهات بطائرات شواظ الانقضاضية المحلية",
+    "text_ko": "현지 잠수 파편 항공기로 여러 전선에서 사우디 적의 폭격 작전의 질적 장면을 주시하십시오",
+    "url": "https://t.me/army21ye/3830"
+   },
+   {
+    "time": "2026-10-06 15:34",
+    "iso": "2026-10-06T15:34:16+03:00",
+    "places": [],
+    "text_ar": "مشاهد استهداف التحشيدات التابعة للعدو السعودي في رأس العارة بصواريخ باليستية - 06 أكتوبر 2026م",
+    "text_ko": "탄도 미사일로 라스 알 아라에 있는 사우디 적의 증원군을 겨냥하는 장면 - 2026년 10월 6일",
+    "url": "https://t.me/army21ye/3829"
+   },
+   {
+    "time": "2026-10-06 13:42",
+    "iso": "2026-10-06T13:42:56+03:00",
+    "places": [],
+    "text_ar": "ترقبوا الساعة الرابعة عصرا مشاهد لاستهداف التحشيدات التابعة للعدو السعودي في رأس العارة بصواريخ بالستية",
+    "text_ko": "탄도 미사일로 라스 알 아라에서 사우디 적의 증원군을 겨냥하는 장면을 오후 4시까지 계속 지켜봐 주십시오.",
+    "url": "https://t.me/army21ye/3828"
+   },
    {
     "time": "2026-10-06 12:19",
     "iso": "2026-10-06T12:19:29+03:00",
@@ -1565,16 +1613,16 @@
    "나즈란": 7,
    "타이프": 5,
    "아브하": 4,
-   "메카": 3,
    "메디나": 3,
+   "메카": 3,
    "라비그": 3
   },
-  "last_ok_at": "2026-10-06T10:07:13Z"
+  "last_ok_at": "2026-10-06T16:45:58Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T10:07:21Z",
+  "fetched_at": "2026-10-06T16:46:07Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2872,28 +2920,58 @@
     "date": "2026-10-05",
     "time": "2307",
     "confidence": "nominal"
+   },
+   {
+    "lat": 22.70284,
+    "lon": 39.04163,
+    "frp": 4.64,
+    "date": "2026-10-06",
+    "time": "1019",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.41095,
+    "lon": 49.40578,
+    "frp": 1.68,
+    "date": "2026-10-06",
+    "time": "1019",
+    "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-06T10:07:21Z"
+  "last_ok_at": "2026-10-06T16:46:07Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T10:07:23Z",
+  "fetched_at": "2026-10-06T16:46:08Z",
   "kr": [
    {
     "date": "2026-10-06",
-    "published": "2026-10-06T08:12:00+00:00",
-    "source": "YTN",
-    "title": "홍해 길목 되찾은 예멘 정부군...후티 \"사우디 영공도 전쟁터\"",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoSUtXMUluc2NrZFVIWXYteDlFLV95UUJtZ0hPMTRqM1Q2d19iN1o0Tzd5ODk3NjNmNmZjd25yUUNHbTFVNGZIY3RSOTNyMFdkdmtVWHNoYkNaYUhucG95ZVkySnNVeVlVN2xJWGVkZ2ZVc1ZCTGc?oc=5"
+    "published": "2026-10-06T14:04:26+00:00",
+    "source": "연합뉴스",
+    "title": "사우디 공항·정유시설에 후티 공습…韓기업 가까운 지역도 피격",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwajE1dzBBYngyemFzSFByRjFQc0hEa2N6Z1NoUU5sTDBOal9waEVzNVh2RlVJUFRZeFQ1UVljQXFVZjBnUzVsMUxoM1E5bF92Z2JlOHdXeVBlMTjSAWBBVV95cUxOdTB0cDc3b0VFQThVZXlXWjg2VHd6XzlsMXdyTHYzVjlVeDI0TkEzdjJMT3ZhWHg2X3NFUnFnVFZfS05LcFZqVzBTUFViZlhhbzFsZ0lQQUp2ZVpjcjVkRUs?oc=5"
    },
    {
     "date": "2026-10-06",
-    "published": "2026-10-06T04:54:07+00:00",
+    "published": "2026-10-06T12:30:03+00:00",
     "source": "연합뉴스",
-    "title": "[영상] 사우디 연합군 \"홍해 요충지 탈환\"…후티는 사우디 공항 공습",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jU0d4N0l1WWJ0SE9RMmJpUEVmbWtreUQxd3NZQXlDU09LSmtaXzlSU1BPZEFXVy0wLTBTVmJtWkRZYVpwSlpTQW1kU0tXaXpoTjF5VFFSamVpcUdYSEc5eEExdEg5Q29Xb0RndkxRQ0JWbWVm?oc=5"
+    "title": "[그래픽] 사우디 연합군-후티 반군 무력 충돌 상황",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xVkZHSFh2M2FrYmdPYzBCdUF2V2szNUl0OHdvU1JabW5YOFlQRzlyVVFXd09aVUxtM0JqUHZIUVNQZmFJYUJIY01USEVOR3NNR3p2RmNCMjJHUm_SAWBBVV95cUxQMkYwclpGSWpQOTVEaWcySFF0Vmo1Q0t3clZjaWtYdTZJS2QtSkFWMWhzM3NZd3NkS0NOWUJMLWNKSVkyakhjSVlHLTc0VHRKc040Ukc2TXRWQ1dsSHh4b1g?oc=5"
+   },
+   {
+    "date": "2026-10-06",
+    "published": "2026-10-06T10:32:00+00:00",
+    "source": "채널A",
+    "title": "사우디 연합군, 전투기 100대 대대적 반격…후티, 국제공항 공습",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMbkZQbzFfYVBrVVBBTW1rUmw4QVlmN2VNRlUyM0pNcUpxMTFmcmd1Wl9YQm1BalpnTWFlOVRMSmVzdFRmRnp3S005QS1ET29NV0txRlNiNjFVZ0lVVEHSAWNBVV95cUxOMElpcjZ4cGd5TkFQUnp5YmU4aEFGbmZxQTRNVGdBR094YWJCZDdyNHUtTjB0YjZlVFV1MzhmQVJqa2tUSXE1NFNoSXJXN1NLbk9JVFZUQzhPODZzUkdLUzN0R1U?oc=5"
+   },
+   {
+    "date": "2026-10-06",
+    "published": "2026-10-06T02:36:15+00:00",
+    "source": "서울신문",
+    "title": "‘24시간 동안 60차례 폭격’에 보복 나선 후티… 사우디 연합군 “홍해서 승리” 맞불 [밀리터리노트]",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX19tQUVteE54V3NJWDNzMmZZa20wbHdtQlU0TXluM3h2ZVJCTmlRWHdmZG9ORmk4ZG4tZkJpS0xwTU9QQVFoYVZWZ25UOHN0UUlpN1hnQVU0VGY1SUlYd25kLV84cEIxRGJ3VUYzc2ZHZGMyZkh0VERuVWpXOW5MQ19ocXBXbHZuUXNobFl1dw?oc=5"
    },
    {
     "date": "2026-10-06",
@@ -2901,69 +2979,55 @@
     "source": "MBC",
     "title": "사우디 연합군, 요충지 3곳 탈환‥파키스탄·튀르키예 파병",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XR0NhNWNuQVhaYlZiYzJ6bDQyOUpCdXNCb0k0SmFUbldDYVpSZV9fS3YzVXhZcWk3T0RpTnpqMHByYmcyY0tUZ3ZncGlja09UUDNlMnk3cU81Zjk2UEJmNlYyVFRYS2VLaGc5SjE3U09seDNu0gF0QVVfeXFMT1dHQ2E1Y25BWFpiVmJjMnpsNDI5SkJ1c0JvSTRKYVRuV0NhWlJlX19LdjNVeFlxaTdPRGlOemowcHJiZzJjS1RndmdwaWNrT1RQM2UyeTdxTzVmOTZQQmY2VjJUVFhLZUtoZzlKMTdTT2x4M24?oc=5"
-   },
-   {
-    "date": "2026-10-06",
-    "published": "2026-10-06T02:09:00+00:00",
-    "source": "YTN",
-    "title": "예멘 정부군 \"바브엘만데브 탈환\" vs 후티 \"사우디 본토 공격\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CZFhVOXN4MUlnRDhIZ2lQa1dpZ08xOVFQbzRIekw1SU8zTkd4Zks5eF8zenp1OXc3cmhMZXkxSFdxekVia0xJSGpmaFV1R0xhamhKdmNuVFVZS3JCMnc?oc=5"
-   },
-   {
-    "date": "2026-10-06",
-    "published": "2026-10-06T00:07:04+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 연합군, 주요 지역 탈환…후티는 사우디 공항 공습 반격",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYNnFTQW5lSkpqX0NEV3dad3JFeVhLdnF4bVFnQUtPM1pYdXRPRk13ZC11MFhCLWNVb0RFSEhyODVaRzhzRlhXSWk4NTFrVHN6YWc2a1FMbS1xY21nek5DX9IBYEFVX3lxTFBYNnFTQW5lSkpqX0NEV3dad3JFeVhLdnF4bVFnQUtPM1pYdXRPRk13ZC11MFhCLWNVb0RFSEhyODVaRzhzRlhXSWk4NTFrVHN6YWc2a1FMbS1xY21nek5DXw?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-06",
-    "published": "2026-10-06T09:42:09+00:00",
-    "source": "Reuters",
-    "title": "Saudi energy minister says oil pumped through East-West pipeline reached 5.8 million barrels",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOGhwS0d6Y0FFQWI2RTNHYXE1eG1RRTBWWWp2SDFrZUVMSG1EcHNwN3lpMURoaktVTHh0bEQ2eDMyUkg0ZGMzUldHV1ZTSXFYbXo0UFI2Vmk3SWU2NzdTYk9WZUlqZmpCam9uVFl1TjRST0FlY1hRSjVFVkt3TGU5NTNDczZvS2hMUldFbGRaQ2c2QlJTdUFRbUtGRmhBaUFiOFh4ZW0yR2hvUEUyNlZXQkxNZDJfNDMyVXVPX21LN0lGbWRUOGc?oc=5"
+    "published": "2026-10-06T12:45:29+00:00",
+    "source": "Bloomberg",
+    "title": "Pakistan Says Mecca Pact Is Supporting Saudi Arabia With Houthis",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT0ZZalNEWVlMTDF1dlZsUlh4Z0pCeVNXTUdUaWNiSnBzeGcxbHNXOVJ4a05iQ0tITGNmS3YzUGZVb1E0NHdlc1NHLTl1Y1NqVUk1Y2taZ29UUV91Vk5VODFmWUpmWmRHeTJ4aWFsTUxKaWJQTHBYbDk5TER6MnNwbDI2VmhXNHhzdHhXeHpjanNJeVNMNHRiOTVsR2tud0lLZjFZWkxGSERCakctSF96Q1NWcFAtaWlpLXNrbkR6NW4zZw?oc=5"
+   },
+   {
+    "date": "2026-10-06",
+    "published": "2026-10-06T12:29:38+00:00",
+    "source": "Al Jazeera",
+    "title": "Pakistan, Turkiye and Saudi deterrence against Houthis: What that means",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNkpoUUZuenNMd3htZWdsd3VoSGVkdnlZZmVNVFVLa1A3MzJaa2ZwVi1SWkRuZmJ2RWxKNWlwdkhNNkR0NWRHNHNxaFdfRnBRc1dYVmR5RXFVNWlZZkRaemJMNmduN0dPWFdMTjJYRGZIVHZNa3RRUUlqUjA3TldqSzZHVzI2bnJRaTZfaTR4clItVS1PWEpGT1J3WnpsSjdrbjcxRjJaeEJiQkZGV1ZyX9IBtgFBVV95cUxQUFkyWkpDTU5Nb3lNQmtkVnlPMzVWTThPbXlmLWN0UTUyM0tfYjZBOUVjWnBPMHcxMHhVUUo3WW9BVV9ZdzUyMTMxZUU1cFZyZ0ZVbk9GbWtPSV9yMjlBa0JRdVE5cjI0WlV5MXdSR3dGS2IyVDVRSlBKb1NseURDb3RDSDJxR0VOQUpFdEozYzFGU1hTZk1zWkpWU0U4MlIzV0dPX1JlLWxZY0hTR3VraHZPYWlRUQ?oc=5"
+   },
+   {
+    "date": "2026-10-06",
+    "published": "2026-10-06T10:02:17+00:00",
+    "source": "Financial Times",
+    "title": "Saudi Arabia, Pakistan and Turkey trigger mutual defence pact",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT0hxVEJjckxGX2pXVTNXNHpTZFpja3U2eVA3V3VULWg4Q3dtUHpiZVlxcUNtU3N6NC1Cc281a1NyRnBCYnloNF9rNThnTkc1a3d5SVl1am0xT0g0SnNXUHE4b3M1T255NTE2TE9rS0lEeWVEQ1diZ3V2eS1jaWQwUnNRaGQ?oc=5"
    },
    {
     "date": "2026-10-06",
     "published": "2026-10-06T09:39:09+00:00",
     "source": "Bloomberg",
-    "title": "Key Saudi Arabia Pipeline Flows at 5.8 Million Barrels, Minister Says",
+    "title": "Key Saudi Pipeline Flows at 5.8 Million Barrels, Minister Says",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd0VpbEstckJlaEthVFZwRHhMVmk4NWRKYjI0SFVUUFZPcjRZaXhRY0ZxWWpPUDJmWDd6b0JfNXVIQ3FCUVZ3ZUgxRExNbVhnR1M4QnpKTEhnS2xabnpCSHZZdGFSaXRYakdxZXFrN2pramlxZ0tRMW1zaWVvV1A5YUdmcGp3dkxkbXpoSFd5TXd6YUg0RVo5U2RvNDIwb3NHeXlYZlZDYlpxN1lEbGs2SFR3?oc=5"
    },
    {
     "date": "2026-10-06",
-    "published": "2026-10-06T01:31:00+00:00",
-    "source": "The Guardian",
-    "title": "Air campaign against Houthis under way in Yemen, says Saudi-led coalition",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNFo2VzQ3cmh5a1lKNFJEc1ZpSzhhWk9WTkp5S2JaZUxmcVI1ejF3T243Y1dNalFXdFRfRjBSODFXUUZHTHpFaW1nUXNRdlZCd0FSQXBxRHhOcVJRdTVDMEE4NHBiOWhvaVpZMHptaE0zME1BSF9mYkRBM0FmZUlkbDVTY3FZVGlxZzVrUVRvY3ZTdHljclRV?oc=5"
-   },
-   {
-    "date": "2026-10-05",
-    "published": "2026-10-05T23:10:32+00:00",
-    "source": "The New York Times",
-    "title": "Burst of Attacks in Gulf Heightens Fears Over Fragile Energy Trade",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4ajBtams1a2R0aEhOYkdTOGcwbGU0Vm9vTDQ4Q0ZrU2tFRFdQN2FSdHBNWlJUTEw5SHg4WS1BbHk2VTRlUlFMcFJ0aFFjSFZzcElxaWJyRURFQnhrZE5ZY2t3UTA5VU9mZVc5S3NZcVh2VmNiTVM0Z0JlR3k2U2M?oc=5"
-   },
-   {
-    "date": "2026-10-05",
-    "published": "2026-10-05T19:44:00+00:00",
-    "source": "The Guardian",
-    "title": "Saudi-backed forces recapture key areas around strait from Houthis in Yemen",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN25nR0ZCeVJZY1YtSUtrVmRIQ3htcy05RGc3ZkRMRkxqVmxBd011TnFzNXh3bTF0NllTSG1FcVpMWTJXdU5oZ1R0OUJRQ2FxTXprZlF0TTFZYkVwUzl1eFp0VUdNU1Jmam1UeVJuSkpvYUxHT1k5dUtNV21tNHdabUVnQ3JEOWpERWNwWjROc084QWVubTR2Mmh1VjVKMXRn?oc=5"
+    "published": "2026-10-06T07:43:07+00:00",
+    "source": "BBC",
+    "title": "Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPSVpSb2x4aXJkbUtyZlVvVzVBNlFOYjdJcVozSlBRd1JrVG1mUzljU0VvYktuaDdjYXFPWTNlQnZZRFA4c2RRWmx2eEhfWng0MnJhLW1fM09Vazg?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-06T10:07:23Z"
+  "last_ok_at": "2026-10-06T16:46:08Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T10:07:24Z",
+  "fetched_at": "2026-10-06T16:46:09Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 37,
-  "baseline": null,
-  "baseline_n": 1,
+  "count": 36,
+  "baseline": 32.5,
+  "baseline_n": 4,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3066,14 +3130,15 @@
    "2026-10-05T15": 50,
    "2026-10-05T22": 29,
    "2026-10-06T02": 32,
-   "2026-10-06T10": 37
+   "2026-10-06T10": 37,
+   "2026-10-06T16": 36
   },
-  "last_ok_at": "2026-10-06T10:07:24Z"
+  "last_ok_at": "2026-10-06T16:46:09Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-06T10:07:25Z",
-  "last_ok_at": "2026-10-06T10:07:25Z"
+  "fetched_at": "2026-10-06T16:46:10Z",
+  "last_ok_at": "2026-10-06T16:46:10Z"
  }
 }
