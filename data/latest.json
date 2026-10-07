@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T21:35:42Z",
+ "generated_at": "2026-10-07T01:26:53Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T21:35:42Z",
+  "fetched_at": "2026-10-07T01:26:53Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -189,14 +189,11 @@
    }
   ],
   "last7d": 3,
-  "baseline": 3.0,
-  "tier": "평시",
-  "last_ok_at": "2026-10-06T21:35:42Z"
+  "baseline": 2.0,
+  "tier": "증가",
+  "last_ok_at": "2026-10-07T01:26:53Z"
  },
  "events": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-06T21:36:04Z",
   "events": [
    {
     "date": "2026-10-06",
@@ -1054,12 +1051,16 @@
   "history_days": 27,
   "history_since": "2026-09-11",
   "today": "2026-10-07",
-  "last_ok_at": "2026-10-06T21:36:04Z"
+  "last_ok_at": "2026-10-06T21:36:04Z",
+  "ok": false,
+  "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28intercepted%20OR%20intercepts%20OR%20%22shot%20down%22%20OR%20destroyed%20OR%20strikes%20OR%20struck%20OR%20attack%20OR%20airstrike%20OR%20alert%20OR%20siren%29%20%28Houthi%20OR%20coalition%20OR%20Saudi%29%20%28Yanbu%20OR%20Jeddah%20OR%20Medina%20OR%20Mecca%20OR%20Taif%20OR%20Jazan%20OR%20Abha%20OR%20%22Khamis%20Mushait%22%20OR%20Najran%20OR%20Riyadh%20OR%20Dammam%20OR%20Dhahran%20OR%20Jubail%20OR%20%22Ras%20Tanura%22%20OR%20Abqaiq%20OR%20pipeline%20OR%20Rabigh%29%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
+  "fetched_at": "2026-10-07T01:27:14Z",
+  "stale": true
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T21:36:05Z",
+  "fetched_at": "2026-10-07T01:27:20Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1615,16 +1616,16 @@
    "나즈란": 8,
    "타이프": 5,
    "아브하": 4,
-   "메디나": 3,
    "메카": 3,
+   "메디나": 3,
    "라비그": 3
   },
-  "last_ok_at": "2026-10-06T21:36:05Z"
+  "last_ok_at": "2026-10-07T01:27:20Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T21:36:08Z",
+  "fetched_at": "2026-10-07T01:27:21Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2940,12 +2941,9 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-06T21:36:08Z"
+  "last_ok_at": "2026-10-07T01:27:21Z"
  },
  "news": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-06T21:36:09Z",
   "kr": [
    {
     "date": "2026-10-06",
@@ -3020,14 +3018,18 @@
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT0hxVEJjckxGX2pXVTNXNHpTZFpja3U2eVA3V3VULWg4Q3dtUHpiZVlxcUNtU3N6NC1Cc281a1NyRnBCYnloNF9rNThnTkc1a3d5SVl1am0xT0g0SnNXUHE4b3M1T255NTE2TE9rS0lEeWVEQ1diZ3V2eS1jaWQwUnNRaGQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-06T21:36:09Z"
+  "last_ok_at": "2026-10-06T21:36:09Z",
+  "ok": false,
+  "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%82%AC%EC%9A%B0%EB%94%94%20%28%ED%9B%84%ED%8B%B0%20OR%20%EA%B3%B5%EA%B2%A9%20OR%20%EB%93%9C%EB%A1%A0%20OR%20%EB%AF%B8%EC%82%AC%EC%9D%BC%20OR%20%EA%B5%90%EB%AF%BC%20OR%20%EC%86%A1%EC%9C%A0%EA%B4%80%20OR%20%EC%96%80%EB%B6%80%20OR%20%EC%A0%9C%EB%8B%A4%20OR%20%EB%A6%AC%EC%95%BC%EB%93%9C%20OR%20%EB%8B%B4%EB%A7%98%20OR%20%EC%95%84%EB%9E%8C%EC%BD%94%29%20when%3A7d&hl=ko&gl=KR&ceid=KR:ko",
+  "fetched_at": "2026-10-07T01:27:22Z",
+  "stale": true
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-06T21:36:10Z",
+  "fetched_at": "2026-10-07T01:27:28Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 43,
+  "count": 33,
   "baseline": 30.0,
   "baseline_n": 6,
   "tier": "정상",
@@ -3134,14 +3136,15 @@
    "2026-10-06T02": 32,
    "2026-10-06T10": 37,
    "2026-10-06T16": 36,
-   "2026-10-06T21": 43
+   "2026-10-06T21": 43,
+   "2026-10-07T01": 33
   },
-  "last_ok_at": "2026-10-06T21:36:10Z"
+  "last_ok_at": "2026-10-07T01:27:28Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-06T21:36:11Z",
-  "last_ok_at": "2026-10-06T21:36:11Z"
+  "fetched_at": "2026-10-07T01:27:28Z",
+  "last_ok_at": "2026-10-07T01:27:28Z"
  }
 }
