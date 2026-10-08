@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T01:50:01Z",
+ "generated_at": "2026-10-08T08:50:56Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-08T01:50:01Z",
+  "fetched_at": "2026-10-08T08:50:56Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 3,
   "baseline": 3.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-08T01:50:01Z"
+  "last_ok_at": "2026-10-08T08:50:56Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-08T01:50:17Z",
+  "fetched_at": "2026-10-08T08:51:17Z",
   "events": [
    {
     "date": "2026-10-08",
@@ -266,7 +266,7 @@
     "title": "사우디 \"후티 탄도미사일 요격\"…후티는 \"리야드 공항 타격 성공\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YRUZlcEtjM180MjJ5OWUxZnoyS3plaEVqZHJ1M1FoVjRoSFVBenVUWFg4OW1iLXZtcXZsaW4tdDRlV1FLZGZENHJ0WWE0eTBpWGJOU0EycDRxMEItaGhycXZn?oc=5",
     "source": "뉴스1",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-10-06",
@@ -1122,14 +1122,42 @@
   "history_days": 28,
   "history_since": "2026-09-11",
   "today": "2026-10-08",
-  "last_ok_at": "2026-10-08T01:50:17Z"
+  "last_ok_at": "2026-10-08T08:51:17Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-08T01:50:18Z",
+  "fetched_at": "2026-10-08T08:51:18Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-08 05:52",
+    "iso": "2026-10-08T05:52:27+03:00",
+    "places": [
+     "메디나",
+     "메카",
+     "리야드"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من استهداف مطار الملك خالد في الرياض بصاروخ باليستي وقد أصاب هدفه بدقة وتسبب في تعطيل حركة المطار. نجدد دعوتنا وتحذيرنا _للمرة الأخيرة_ لكافة شركات الطيران العالمية من مغبة استمرارها في تسيير رحلاتها في الأجواء السعودية كونها أصبحت مسرحا لعملياتنا العسكرية باستثناء أجواء المناطق المقدسة في مكة المكرمة والمدينة المنورة. http://t.me/army21ye",
+    "text_ko": "알라의 은총으로 우리 군대는 리야드의 킹 칼리드 공항을 탄도 미사일로 공략할 수 있었으며, 이는 목표물을 정확하게 타격하여 공항의 움직임을 방해했습니다. 우리는 메카와 메디나의 신성한 지역 분위기를 제외하고 사우디 영공에서 계속 운항하는 것이 군사 작전의 현장이 되었을 때의 결과에 대해 모든 국제 항공사에 마지막으로 전화와 경고를 갱신합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3847"
+   },
+   {
+    "time": "2026-10-08 05:39",
+    "iso": "2026-10-08T05:39:15+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة _بفضل الله_ من استهداف تجمعات وتحشيدات تابعة للعدو السعودي في معسكر قعوة بمنطقة رأس العارة بعدد من الصواريخ الباليستية وكانت الإصابات مباشرة بفضل الله وخلفت العديد من القتلى والجرحى واحتراق بعض مخازن الأسلحة. وقد تزامن مع هذا الاستهداف استهداف آخر لتجمعات وتحشيدات العدو السعودي جنوبي باب المندب ومنطقة السقيا ورأس العارة وذلك بعدد من الصواريخ الباليستية وقد حققت أهدافها بنجاح و…",
+    "text_ko": "우리 군대는 신 덕분에 라스 알 아라 지역의 카와 캠프에 있는 사우디 적의 집합과 동원을 여러 탄도 미사일로 겨냥할 수 있었습니다. 신 덕분에 사상자는 직접적이었고 많은 사람들이 죽고 부상당했으며 일부 무기 상점은 불에 탔습니다. 이 표적은 여러 탄도 미사일에 의해 Bab al-Mandab, Suqia 지역 및 Ras al-Ara 남쪽의 사우디 적의 다른 집회 및 집중을 표적으로 삼았으며 성공적으로 목표를 달성했습니다...",
+    "url": "https://t.me/army21ye/3846"
+   },
+   {
+    "time": "2026-10-08 05:17",
+    "iso": "2026-10-08T05:17:38+03:00",
+    "places": [],
+    "text_ar": "تمكنت القوات المسلحة بفضل الله من إسقاط طائرة استطلاع مسلحة \"بيرقدار أكنجي\" تركية الصنع تابعة للعدو السعودي وذلك أثناء قيامِها بتنفيذ أعمال عدائية في أجواء محافظة تعز، وقد تم إسقاطها بسلاح مناسب. http://t.me/army21ye",
+    "text_ko": "알라의 은총으로 무장 세력은 타이즈 주 영공에서 적대 행위를 수행하면서 사우디아라비아 적의 터키제 정찰기 \"바이락타르 아킨치\" 를 격추시킬 수 있었고, 적절한 무기로 격추되었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3845"
+   },
    {
     "time": "2026-10-07 20:45",
     "iso": "2026-10-07T20:45:53+03:00",
@@ -1751,22 +1779,19 @@
    }
   ],
   "mentions7d": {
-   "리야드": 13,
+   "리야드": 14,
    "카미스무샤이트": 10,
    "지잔": 9,
    "나즈란": 8,
    "타이프": 6,
    "아브하": 5,
-   "메카": 3,
-   "메디나": 3,
+   "메디나": 4,
+   "메카": 4,
    "라비그": 3
   },
-  "last_ok_at": "2026-10-08T01:50:18Z"
+  "last_ok_at": "2026-10-08T08:51:18Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-08T01:50:19Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2778,97 +2803,101 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-08T01:50:19Z"
+  "last_ok_at": "2026-10-08T01:50:19Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-10-08T08:51:23Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-08T01:50:22Z",
+  "fetched_at": "2026-10-08T08:52:23Z",
   "kr": [
+   {
+    "date": "2026-10-08",
+    "published": "2026-10-08T07:57:13+00:00",
+    "source": "한겨레",
+    "title": "후티, 예멘 공항·사우디 정유시설 공습…사우디, 전투기 동원 맞불",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zekk0Q0tuOS1lYW41eDRaUm14bzkzNC1MWGgwZVlONnpMZExkd0FDR25icmRRSkRPS0I0OUtlVnNUUDZJTFhfem0zNlN1RTFUV09ZZ3k0RFF1TzZNM1NvRnBuT1JDN2ZBLVBFWUw3eUNINGM?oc=5"
+   },
+   {
+    "date": "2026-10-08",
+    "published": "2026-10-08T05:51:18+00:00",
+    "source": "중앙일보",
+    "title": "후티 반군, 사우디 공항 또 미사일 공격 주장…“전 공역이 표적”",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wS2F2MUJaQk45TFpYUkNIWjRva1NGa182OWtVeWtaOFhuM2F4YlhMQUMxcDYzNV92MDB1Rm1YaWlZeUI0bFp0clltaDdWeExoU2dFR1pB?oc=5"
+   },
+   {
+    "date": "2026-10-08",
+    "published": "2026-10-08T04:38:19+00:00",
+    "source": "MBC",
+    "title": "후티, 사우디 공항 추가 미사일 공격 주장‥\"모든 공역 표적\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uSzZBMHhkdDUtTmFSdnU0d3VDVVlUTGw4OHhhZmNCVTlwRE9wYmVBbnEtMHdLWmw3Zk9VME5jZ0pNNV9nYVRkc0o0amhfdlNqcFVaUWlrZUdDalpCMkM5NkZqR2d5WEphLTZwak55OTVkT2ti?oc=5"
+   },
+   {
+    "date": "2026-10-08",
+    "published": "2026-10-08T04:02:00+00:00",
+    "source": "연합뉴스",
+    "title": "사우디·후티 맞불…미, 선거 전 이란 공습 나서나",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54cWs5Zzk5QmNhS0ttc05xSG03MGNJZUNSVmItaFdrV2JJdmcyekd1NHhmZ092cWhzd2Z6ODV1QzZ6c1ZSSXNJQWVucHV0STRORDFscnZPY3I3cUE1dTZQVWctVnVQYmc?oc=5"
+   },
    {
     "date": "2026-10-08",
     "published": "2026-10-08T01:15:49+00:00",
     "source": "뉴스1",
     "title": "\"시리아, 사우디에 군사 지원 검토…후티 격퇴 파병 요청받아\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TYkpGbW5XVGxJcWVnZnlFN195Y1g3emxMNnBPN1VqVnk4bVBNTFVYb2NRVFlGeWlobm5aM2U3SXpldDQxR3BNdExKVGxKN2JDQ3YtU2dPaDU5YXVLT0ZTekFB?oc=5"
-   },
-   {
-    "date": "2026-10-08",
-    "published": "2026-10-08T00:34:00+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 공항 피격에 3명 사망…후티 공습 주장",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HRzRiNVYzZHZ1SlhkcWJxdTBVeXlDRnN5VlZJVzlNV2o3UjJORWlJTkdPV1Jva2QwWi1Ub3VtUnlZZ1BsU005R0dySEdWSXJfeV84LWxEREEtek1BVFd3azhmSk5LaHM?oc=5"
-   },
-   {
-    "date": "2026-10-07",
-    "published": "2026-10-07T23:24:09+00:00",
-    "source": "연합뉴스",
-    "title": "\"시리아, 예멘 후티 격퇴전 파병 검토…미국도 반대 안 해\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YUXd5SVRLbmo5MWRybzBabDJFNlpWdV9Id1V5Q3VDSlE4SGZYdWxabmlvQjJDT3dvME5Yby0xRmQzWnZuMmN4TmRLVWFIRkRmVTQ3eU42RERWaGdCSkNoag?oc=5"
-   },
-   {
-    "date": "2026-10-07",
-    "published": "2026-10-07T23:18:56+00:00",
-    "source": "동아일보",
-    "title": "사우디군, 후티의 사우디 공습에 82개 후티거점 보복 공격",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vdUtoWDlsbTBnbkxNZmxLR3NZelRMRXd3bnZRN2JBVTNSOFlNQzY1SlVicXY3TWxweDhjR0dJYVFMN0RoRzkxVm1JUF9sUzFtMU9qZzN0T2NPS3RRdFFYUGJqdVJvQdIBZkFVX3lxTE5vdUtoWDlsbTBnbkxNZmxLR3NZelRMRXd3bnZRN2JBVTNSOFlNQzY1SlVicXY3TWxweDhjR0dJYVFMN0RoRzkxVm1JUF9sUzFtMU9qZzN0T2NPS3RRdFFYUGJqdVJvQQ?oc=5"
-   },
-   {
-    "date": "2026-10-07",
-    "published": "2026-10-07T22:57:00+00:00",
-    "source": "YTN",
-    "title": "미·이란 '핵 농축' 평행선...후티 공습에 사우디 3명 사망",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hUXVWNTNjRzdHWmN5emJhTEp6cFNGck5NM0FZU1dvWUx0Y1c1bld6TVZRUmtUX0NBS2plTm9pSjQ2ekxjMEFya1ZLeFRxOUJ5dW9ndmN2TXlYTGdfOVE?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-08",
-    "published": "2026-10-08T00:16:39+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi Arabia confirms three dead in Houthi strikes on its airports",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbHdRemZWWkEzdDBwRmFBaVFadkxJN0Zza2VFUnIzU1JjX1VHT1MyUlVEcjNMR0xfZDJZTVk5TWVVVV90WlFSX0RNbDh2Zk5nUS16elpCOGFDTkY4ejlYakI0MXpSMVh0enAyQk9sQldpRnZ6dXVSQmxVQWZpT1FOMm1Nb3R0WnVnbHd6eWN5RHlYakpnRUJKeEVBa3ZCeG1FZjJKY18xbFBnNm5UVlVGNTVoZ2lPZUxB0gG-AUFVX3lxTE9MRmhCeGNhNVp0dWZSWWhWNlVUVTRETmNkblB6ZXRUYTNTdERyWTZGbjFTWG1XTlBPb0NYTXBvb29fRC1fNEY0d1BrZTM5U0ttSlY1TzVXMGV2ekxqQ3dlakhrUkZxZ2JFdDhyOGltSlFfLVBiSUp2UWJrU2ZFdGpfMjlOdGRhS1JLRlAxZG1iUThZZFgtWFNZaG9wc280U3ZOX29xZXJTd0k3S1NmUHdIejVXMVQzNzZ3TUZGalE?oc=5"
+    "published": "2026-10-08T08:29:54+00:00",
+    "source": "Euronews",
+    "title": "Breaking news. - Houthis claim missile strike on Riyadh as explosions heard in capital",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSGloUDMyUGkxaElFaDFGV3FMMkdKNWUzclF0OG5EQzZaOXBFSnJ3ZW12UHlaN2ZPcFFSZGpRQkt2X0FXTkIzQXJPQnV3U0RJdi16M3ZfWWZRV0xDQ1NCUEZYY0NVYWpyX25oWEcwcXJ3RkpsS3B2cnFKc1EwcDRGQ0dzX0dIbWxYeWN4QWlBeGQxM3o1cHhvTE1LZTZKcjF4cExNXy1tQjVVRUZoeHBBV0luMDNHVlRfWlI0?oc=5"
    },
    {
     "date": "2026-10-08",
-    "published": "2026-10-08T00:01:45+00:00",
-    "source": "Al Jazeera",
-    "title": "Three killed, 36 injured in Houthi attacks on Saudi airports, Riyadh says",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWGE5MllDaks0WF9pdmNsMUZpYngxMGtCUjdaVXVyVWRSeHlCYm5tRlRFNExWcGd2Tkh4U3FLM053LWR3T1pmQ05pSnBKRG1mQ1p4WGs3NzhDbURuMFJfOWJnbW1STzBpUHlpMDRnZVZIUUEtNXFCMzlkY0RIWFU3dXAxdEZWSWlxakdOOWhFLWFwVWZtNUFKMFRLcnFhRWlEUFdiT1NBbXlqRHU4N0dNbEx30gG3AUFVX3lxTE1OMXhCclFmR1VCN3ZzSEZnYXcyaU91cGJJbDl4ZUtEazVuQUVfLVE1ZHNueW0zckszaHRjTmo0b2l1bEJzMnNsYnA0b0hBYUhINm5TTUg0ZWhoeE5zbU5vWDhtTVlmMHMzak1yQ1hIQUYwMUZtRDNDMi1QcF9FVkRGZVUtNGdmdUFrd3hNc1VyckhCVC1OLW1LVWlGNnZ6MVlQenIzU0hDM0pmTlREMXFtYWNPV256TQ?oc=5"
+    "published": "2026-10-08T05:25:53+00:00",
+    "source": "DW",
+    "title": "Yemen's Houthis claim strike on Riyadh airport, three killed",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTTBqYm5ieEYxMmtVT1NYVkNxSkRYUWVCU1BOUnlXOVdYUWJ6QzJ0b05KZjRmMmpRd3dQWjZYcW0tQVV5OFB1YlJ1YTJra0dpNUYwV19keElHY0xuekx5T1otd3BvQUx0OHB2WnNDSmdybnk3bS1oQXFISjk4d1NhZ1lDS0ZBb3Z5VlNacjhpTUJUNGxKVWfSAZYBQVVfeXFMUG9vME91ck1jWHVzc010Yk5WQUZFTlhnOFhnS21HVGloZ3Jadnp1OUZPUXBYMWhVVHY5dG96TndDbjNXdFlZSWtzMGZfM2tmSDEyZTVoZXV6cWN4aEtMOVlZVXVKVXk1eF92eTRoQnVCZ2xiMFBmWEJmT1FERVI1VXp2bFpzNnREX1I0R3RNRFpLXzJzeE5R?oc=5"
    },
    {
-    "date": "2026-10-07",
-    "published": "2026-10-07T23:03:48+00:00",
-    "source": "The New York Times",
-    "title": "3 Killed and Dozens Injured in Attacks on Saudi Airports, as Houthis Claim Strikes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTGtGdUZWSDI3TnZmeTFqeGxJbDdSYWlJOVVHblozNFdWamU1N1JYNnF4SU4zS3Rxa0xxV3E2TTJWay10a2pLYjctYTJvZFNDMGIxX3VCbGdRNE8tVmF3OVk2TGJEN0RYU3VLUXVDOF81MEdsUHdTZXZCX0N5TDdGV3NIMFB2c0xpSFhUenR0cw?oc=5"
+    "date": "2026-10-08",
+    "published": "2026-10-08T03:32:35+00:00",
+    "source": "BBC",
+    "title": "Three people killed in Houthi attacks on Saudi Arabia airports, officials say",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zblRvQUw5OGc1dXJMZTdYSnRVNUJHakNCX1RZY2NtSHprQW4zWkVUVTI0QS1VejJWT1cxLS1leGNySEszblVWcnlnc2tpSlhOY0plZElKOTdRTkk?oc=5"
    },
    {
-    "date": "2026-10-07",
-    "published": "2026-10-07T22:48:00+00:00",
-    "source": "AP News",
-    "title": "Attacks on Saudi airports claimed by Houthi rebels kill 3 people, officials say",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSUpvM0tkSFpDT2ZLRGFMcjJjVHdTcHFEc19valhyWEVFanpGWTNRa3hxVkRnRVpMY1BEendVZXRyS2lmSUd6NERTUWl1Q0ZtWU5NMGFfalhWS3M0MVFzTjNrSVJ6ZDBCc3FuR2FJcW1kWnc1amZZZGlkMkRzUlhpTUxVdXRUenR1Wndfd1EwcVNtSXBvVUk1ajJVUlBMUjJF?oc=5"
+    "date": "2026-10-08",
+    "published": "2026-10-08T03:03:00+00:00",
+    "source": "Reuters",
+    "title": "Yemen's Houthis say they attacked Riyadh airport with ballistic missile",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPREc3b1M4OVVFbEtXWE45ZWpjeDNiNGpGVnZIdEJQSUU2R2dmdzF4V3hFZ1RMSlgyX0Fmc295aXo3bGtsbHpYSlM5MUVjLXJsM1ZISFV4NVFQN04wY0M4ZFRud3pzVUd2ZjN4S1dRSzNkenVacC1naWFmdUMtRUVYUlQ3MWY4dHRyOHRkTThCcUYxV0NFOU9qNE5fUW92RmlfYmk3Z0ZqWDlfc2VmNVhHS0tPX2k2Ql94SHlCeThTUzJBUQ?oc=5"
    },
    {
-    "date": "2026-10-07",
-    "published": "2026-10-07T22:17:10+00:00",
-    "source": "Bloomberg",
-    "title": "Houthi Attacks Kill Three at Saudi Airports, Including in Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbWpKUGwyVVJhd1FTQW9JM0tod2dBajhkakNvcG56ci1nTG5UcmZxUTZac1NGbUJiQ2VqZGhnUU9nMVdCZnVkUzZjcGlSeWhQNHJYNElJVURVS29TaXF3QkJ5R05ZYjBCRnZYYVU3eEhTenZYUF9xaG9HX2UtQmtkRkFqUVRnZ25PZzdDbWZCSXhFOXJFemhxTTVUYm1qNGFTZDV2Y0hJanhXSmtEZ21XcWJB?oc=5"
+    "date": "2026-10-08",
+    "published": "2026-10-08T03:02:35+00:00",
+    "source": "France 24",
+    "title": "Saudi Arabia says it will retaliate after deadly Houthi attacks on airports",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYkFnUFNFSnpNWkZUYklpSEg3eTdoX3dPTmNPY0FpdTBmNzVOVVdkRi1FMWlJd3pyc3NKUEs3YVJldjJrQmttYnlIbW1QZFJWNGhNVG4zWEJfM2ZzNDZJeVFEVGpQRWNnZDRWdEFZR3ZYUWtGT0ZKanc2YzdxX3lyQWVEVEhJemMzUmhpblFPUE9EbTV6WDNMbmNHdXNpUGlaVXc?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-08T01:50:22Z"
+  "last_ok_at": "2026-10-08T08:52:23Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-08T01:50:23Z",
+  "fetched_at": "2026-10-08T08:52:24Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 33,
-  "baseline": 31,
-  "baseline_n": 7,
-  "tier": "정상",
+  "count": 25,
+  "baseline": 38,
+  "baseline_n": 3,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -2977,14 +3006,15 @@
    "2026-10-07T08": 38,
    "2026-10-07T16": 35,
    "2026-10-07T21": 28,
-   "2026-10-08T01": 33
+   "2026-10-08T01": 33,
+   "2026-10-08T08": 25
   },
-  "last_ok_at": "2026-10-08T01:50:23Z"
+  "last_ok_at": "2026-10-08T08:52:24Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-08T01:50:23Z",
-  "last_ok_at": "2026-10-08T01:50:23Z"
+  "fetched_at": "2026-10-08T08:52:25Z",
+  "last_ok_at": "2026-10-08T08:52:25Z"
  }
 }
