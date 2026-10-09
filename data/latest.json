@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T08:54:17Z",
+ "generated_at": "2026-10-09T16:07:00Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T08:54:17Z",
+  "fetched_at": "2026-10-09T16:07:00Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,13 +191,27 @@
   "last7d": 4,
   "baseline": 2.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-09T08:54:17Z"
+  "last_ok_at": "2026-10-09T16:07:00Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T08:54:32Z",
+  "fetched_at": "2026-10-09T16:07:22Z",
   "events": [
+   {
+    "date": "2026-10-09",
+    "time": "12:36",
+    "iso": "2026-10-09T12:36:20+03:00",
+    "city": "리야드",
+    "type": "공습",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "후티 반군 리야드 공항 공습에 사우디 기장 등 3명 사망",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rMl9QdmtUWERCeHNiM2k2d3hzV0xjTmU1TzZlcldnNjJIZEw3N0VnQUlaRnVOaEhWRTJPSHJRNVFrZDRhUURheEgyTklyMU9QY3dvMmtaYlVqaGVkMVYzUUJ3?oc=5",
+    "source": "뉴스1",
+    "outlets": 1
+   },
    {
     "date": "2026-10-09",
     "time": "00:19",
@@ -210,7 +224,7 @@
     "title": "이틀 연속 리야드 공항 피격…튀르키예, 사우디에 방공 지원 검토",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16LXRzZktmQ1RrRkNob01uWnA1OGxSWU9mbklUZDk2RW1YMm40ZGpRY01kWkU0c3I4NFFaYzdERVVRdGNkU0JYYmxYOGlld2w5SlJIcG95TlBNVzA?oc=5",
     "source": "KBS",
-    "outlets": 3
+    "outlets": 4
    },
    {
     "date": "2026-10-08",
@@ -354,8 +368,8 @@
    },
    {
     "date": "2026-10-01",
-    "time": "19:44",
-    "iso": "2026-10-01T19:44:00+03:00",
+    "time": "10:00",
+    "iso": "2026-10-01T10:00:00+03:00",
     "city": "메디나",
     "type": "피격",
     "weapon": "드론",
@@ -508,20 +522,6 @@
    },
    {
     "date": "2026-09-24",
-    "time": "14:54",
-    "iso": "2026-09-24T14:54:44+03:00",
-    "city": "얀부",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 24.09,
-    "lon": 38.06,
-    "title": "Saudi coalition says it shot down six ballistic missiles fired by Houthis at Taif and Yanbu",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX253OU9jLS1BYXl3VVEweWh2bjFsUlpvLWpvMmFhZE0zcWtna2NvUXNkWm9XQ3VZa19pVldfcG55clpzUGJPMFVGNG8zc3MxVDBxY0lxcVlfcUdOajFIMlU2WWtTbFJQRTFZX3R3Q2pWSHNIMERsU1R4R1JNNWo1Nk5DVVhUYjFyaWtvNi1NVkc3anNCMTR4d1ZIQ1pxTmcxNTg5dGt3TDN0UHJydkticE5SU1ZCMHozeWNkWDlkUUh6VlpZal96aUFHYWhwSndfejQ0?oc=5",
-    "source": "The Times of Israel",
-    "outlets": 1
-   },
-   {
-    "date": "2026-09-24",
     "time": "12:33",
     "iso": "2026-09-24T12:33:00+03:00",
     "city": "리야드",
@@ -532,6 +532,20 @@
     "title": "Saudi Arabia says it intercepted Houthi missiles; group claims strikes on Riyadh, Aramco",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLW1IRmRaem1xSHEwTjd1VldSMmNqZk55VmdmZkh4QnNhU21SM0ZtWGg4RDdxSkNOM1F6ZUJ4LUYybUlzcWx6S01zbzd5N3BRSWRTc0N6eExNa2RFQXVTYlM3RmtXOFlDUk1Yc2Q0LXNkTEFPQlpCNjgzZHNlbkZXWGtXT1NRNFZ3a2lvWWNxVkk1Rng0Q2ZtNUk4TzZ0YXpNdDFaRUZQa2lBVHpnV05pV1QtZVlJSjJpTFFPTA?oc=5",
     "source": "Reuters",
+    "outlets": 1
+   },
+   {
+    "date": "2026-09-24",
+    "time": "10:00",
+    "iso": "2026-09-24T10:00:00+03:00",
+    "city": "얀부",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "Saudi coalition says it shot down six ballistic missiles fired by Houthis at Taif and Yanbu",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX253OU9jLS1BYXl3VVEweWh2bjFsUlpvLWpvMmFhZE0zcWtna2NvUXNkWm9XQ3VZa19pVldfcG55clpzUGJPMFVGNG8zc3MxVDBxY0lxcVlfcUdOajFIMlU2WWtTbFJQRTFZX3R3Q2pWSHNIMERsU1R4R1JNNWo1Nk5DVVhUYjFyaWtvNi1NVkc3anNCMTR4d1ZIQ1pxTmcxNTg5dGt3TDN0UHJydkticE5SU1ZCMHozeWNkWDlkUUh6VlpZal96aUFHYWhwSndfejQ0?oc=5",
+    "source": "The Times of Israel",
     "outlets": 1
    },
    {
@@ -1060,11 +1074,11 @@
    },
    "리야드": {
     "7d": {
+     "공습": 5,
      "피격": 3,
-     "공습": 4,
      "요격": 1
     },
-    "total7d": 8,
+    "total7d": 9,
     "prev7d": {
      "공습": 1,
      "피격": 2
@@ -1147,14 +1161,42 @@
   "history_days": 29,
   "history_since": "2026-09-11",
   "today": "2026-10-09",
-  "last_ok_at": "2026-10-09T08:54:32Z"
+  "last_ok_at": "2026-10-09T16:07:22Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T08:54:33Z",
+  "fetched_at": "2026-10-09T16:07:23Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-09 17:31",
+    "iso": "2026-10-09T17:31:43+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله وعونه وتأييده _وللمرة الثانية خلال ساعات_ من التصدي وطرد التحشيدات التابعة للعدو السعودي التى حاولت التقدم من جهة لحج باتجاه باب المندب ولم تحرز أي تقدم بفضل الله، وتم استهدافها بعدد كبير من الصواريخ الباليستية و الإسناد المدفعي وبالأسلحة الثقيلة وتدمير أكثر من 22 مدرعة ومصرع وإصابة العشرات بينهم عدد من القادة ووصول أكثر من 30 سيارة إسعاف إلى عدن تنقل القتلى والجرحى …",
+    "text_ko": "하나님의 도움과 지원 덕분에 우리 군대는 사우디 적의 동원에 대항하여 몇 시간 만에 두 번째로 추방 할 수있었습니다. 사우디는 라흐즈 (Lahj) 측면에서 바브 알 만다브 (Bab al-Mandab) 로 진격하려고 시도했지만 하나님 께 진전을 이루지 못했고 많은 수의 탄도 미사일, 포병 지원 및 중화기, 22 개 이상의 장갑차 파괴, 다수의 지휘관을 포함한 수십 명의 사망 및 부상, 30 대 이상의 구급차가 아덴 (Aden) 에 도착하여 사망자와 부상자를 수송했습니다...",
+    "url": "https://t.me/army21ye/3856"
+   },
+   {
+    "time": "2026-10-09 17:02",
+    "iso": "2026-10-09T17:02:46+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "Humanitarian flights to/from Riyadh Airport will be permitted for all flights authorized by the Humanitarian Operations Coordination Center (HOCC) based in the capital, Sana'a. http://t.me/army21ye",
+    "text_ko": "리야드 공항을 오가는 인도주의 항공편은 수도 사나에 위치한 인도주의 운영 조정 센터 (HOCC) 에서 승인한 모든 항공편에 허용됩니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3855"
+   },
+   {
+    "time": "2026-10-09 15:52",
+    "iso": "2026-10-09T15:52:38+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "سيتم السماح للرحلات الإنسانية من وإلى مطار الرياض لجميع الرحلات الحاصلة على تصريح من مركز تنسيق العمليات الإنسانية في العاصمة صنعاء. http://t.me/army21ye",
+    "text_ko": "리야드 공항을 오가는 인도주의 항공편은 수도 사나의 인도주의 조정 센터에서 운항하는 모든 항공편에 허용됩니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3854"
+   },
    {
     "time": "2026-10-08 21:04",
     "iso": "2026-10-08T21:04:51+03:00",
@@ -1763,22 +1805,22 @@
    }
   ],
   "mentions7d": {
-   "리야드": 15,
+   "리야드": 17,
    "카미스무샤이트": 11,
    "나즈란": 10,
    "지잔": 8,
    "타이프": 6,
    "아브하": 5,
-   "메카": 4,
    "메디나": 4,
+   "메카": 4,
    "라비그": 3
   },
-  "last_ok_at": "2026-10-09T08:54:33Z"
+  "last_ok_at": "2026-10-09T16:07:23Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T08:54:34Z",
+  "fetched_at": "2026-10-09T16:07:28Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2780,98 +2822,122 @@
     "date": "2026-10-08",
     "time": "2352",
     "confidence": "nominal"
+   },
+   {
+    "lat": 22.90984,
+    "lon": 53.95093,
+    "frp": 2.81,
+    "date": "2026-10-09",
+    "time": "0922",
+    "confidence": "low"
+   },
+   {
+    "lat": 17.47362,
+    "lon": 44.16118,
+    "frp": 1.52,
+    "date": "2026-10-09",
+    "time": "1102",
+    "confidence": "low"
+   },
+   {
+    "lat": 24.05264,
+    "lon": 47.29853,
+    "frp": 0.92,
+    "date": "2026-10-09",
+    "time": "1104",
+    "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-09T08:54:34Z"
+  "last_ok_at": "2026-10-09T16:07:28Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T08:54:37Z",
+  "fetched_at": "2026-10-09T16:07:30Z",
   "kr": [
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T10:15:00+00:00",
+    "source": "채널A",
+    "title": "후티, 사우디 국제공항에 미사일…기장 포함 3명 사망",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rTmZEdEFtUXlQVjFUeGNRMDlMLUQ5T1lwektYYjNQdmp2cWt4RGN1ZVNtVk11SG5ZYVhETzZkMlNmSWRMNlJoZTBQTTc2cG9WdFRlMUxnVGoxa21pd0hYTzNTY9IBY0FVX3lxTE1rTmZEdEFtUXlQVjFUeGNRMDlMLUQ5T1lwektYYjNQdmp2cWt4RGN1ZVNtVk11SG5ZYVhETzZkMlNmSWRMNlJoZTBQTTc2cG9WdFRlMUxnVGoxa21pd0hYTzNTYw?oc=5"
+   },
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T09:40:47+00:00",
+    "source": "MBC",
+    "title": "사우디 리야드 공항 피격으로 여객기 기장 등 3명 사망",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jRnI2Y2QzcXluVTlhRzJDeFhZN0pWRks0ZXM4WE1Mb3NaNTg0ZmgzREVqNk9seXA5aF90SkxlTFNTQ1ZCMTdYanJVZHU3M1ltR1dOTjBnMVo4S1JFRHk1eExOU1hYdF9KN2hiNmtuMmFhXy1O0gF0QVVfeXFMTmNGcjZjZDNxeW5VOWFHMkN4WFk3SlZGSzRlczhYTUxvc1o1ODRmaDNERWo2T2x5cDloX3RKTGVMU1NDVkIxN1hqclVkdTczWW1HV05OMGcxWjhLUkVEeTV4TE5TWFh0X0o3aGI2a24yYWFfLU4?oc=5"
+   },
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T08:46:28+00:00",
+    "source": "연합뉴스",
+    "title": "리야드 공항 피격에 사우디아항공 기장 포함 3명 사망",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNbjNRaklaaW1TUGVRZDZlRFNESXpiZTZhcE96MUJuTXlYQjFkek5GdVBBa1dQWmxCS3RsdFdHUjhJNmRJQkhuX1Y4emlxMTBxVEkyRERqUzRoU1NWZGlyb9IBYEFVX3lxTFBNbjNRaklaaW1TUGVRZDZlRFNESXpiZTZhcE96MUJuTXlYQjFkek5GdVBBa1dQWmxCS3RsdFdHUjhJNmRJQkhuX1Y4emlxMTBxVEkyRERqUzRoU1NWZGlybw?oc=5"
+   },
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T06:40:00+00:00",
+    "source": "연합뉴스",
+    "title": "사우디 공항 연속 피격…항공사 운항 차질",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5URl9oSDZEUEdLcmVEQTJVbk5GbmNicUFFeW9kZXYwdm54ZVh4NEJPTGVobS10blMzSC13UmhDM1VhZVBiZFF2VXpLR2J2ZGRDMXdhRFRFV0NKSW1ZeURMVXUzQmNndlU?oc=5"
+   },
    {
     "date": "2026-10-09",
     "published": "2026-10-09T06:21:00+00:00",
     "source": "YTN",
     "title": "사우디-후티 충돌 격화...푸틴 \"중동전 종식 위해 모든 노력\"",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tMWZKaXVnUmR2YjFodXpIblFXM0VDYWhpckZpNmFlRnpUcXFIUGJublQ3cnlqU2JHV29hYVUxWXlEbnphWW9ZS2ZJWERCODk3b0RtaG9COWRybzdrTnc?oc=5"
-   },
-   {
-    "date": "2026-10-09",
-    "published": "2026-10-09T01:30:00+00:00",
-    "source": "연합뉴스",
-    "title": "\"사우디 리야드 공항서 항공기 파손\"…잇단 운항 중단",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95N2tGZHBrWkJrb2JuQUFfeHRWMHJ4Y25qTWN1WjVqNFZTT0twdDNmVS1HSmZwcEY3ZExBTi10bEJoOHVicE5OUzZtTTlPZTZZRm9WZDZUR1VWS25sc19aVkZna09tN0k?oc=5"
-   },
-   {
-    "date": "2026-10-08",
-    "published": "2026-10-08T22:19:07+00:00",
-    "source": "MBC",
-    "title": "\"사우디 리야드 공항서 항공기 파손\"‥항공사들 잇단 운항 중단",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Zb1FGbFlZMFlLY0VpQ3BwWDZjR2xUa1I0bmloTEFZUnVMNEUyR0tGSnlUaVpGU3I4ckpVeEoxY0lVX241cmREQjVCanZGOXdVY1A5WVBQOEFkYU5PaUVqTGlDbVNWYm1zSjVDb3BmSW1hZ29T0gF0QVVfeXFMTzhfcTU2ZVVMTW5MVmxLbm9DZWVzVEViTVZoa1dza3JtMFVEN0MtUGM4M2MtTEdYSktXa0lyZGtDeDduWjZ6WEFURXgwX2JHN203XzhSaW9VZnRqVXpINWEzZVFDQnRHdXRBRW9GY1FCSi1DeDc?oc=5"
-   },
-   {
-    "date": "2026-10-08",
-    "published": "2026-10-08T16:40:00+00:00",
-    "source": "동아일보",
-    "title": "시리아, 사우디 ‘후티 격퇴 작전’에 2만명 파병 검토",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNGdwQWpEQ3k1WnYzUGRrenYzUWJzeWhzdHRYRl82UFRlM09sSGp2TFBZNWpxOVVHQ3V5YmthSmZheEJINlRIUUtIY0Juei1aY05ZOXdnS2dKckUzQXgxdEtTY1R2QdIBZkFVX3lxTE5NNGdwQWpEQ3k1WnYzUGRrenYzUWJzeWhzdHRYRl82UFRlM09sSGp2TFBZNWpxOVVHQ3V5YmthSmZheEJINlRIUUtIY0Juei1aY05ZOXdnS2dKckUzQXgxdEtTY1R2QQ?oc=5"
-   },
-   {
-    "date": "2026-10-08",
-    "published": "2026-10-08T13:41:01+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 공항에 발 묶인 한국인 부부 \"폭발음 들리더니 연기\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zQzZmQ0VMRnlia25sM1EtQjhIY0ZyXzh1Rng3SWtpNUYyYWJOeU9uOWFNZEZCdHhwV2ROV2JlSUU4alQyTWthNmR0ajVPQ0ZfRnVtWWk0Yy1RS19Ya3B2YdIBYEFVX3lxTE0zQzZmQ0VMRnlia25sM1EtQjhIY0ZyXzh1Rng3SWtpNUYyYWJOeU9uOWFNZEZCdHhwV2ROV2JlSUU4alQyTWthNmR0ajVPQ0ZfRnVtWWk0Yy1RS19Ya3B2YQ?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-09",
-    "published": "2026-10-09T07:47:20+00:00",
+    "published": "2026-10-09T14:57:00+00:00",
+    "source": "AP News",
+    "title": "Attacks on Riyadh's international airport killed 3 Saudi citizens, and other Mideast developments",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOE41bDdZUkd4WTRORVRLZWQyaTl0TGstUkFmX283ejlqR3dzRHh3MVBZNUJYaVRpWmxsUWZRdnkzOUI1NFNLLU9ZT0xWY2lsQ3VuUmJ6OC1XMjdoTnktQ0RjWlZsUmNXVHExR09UQVV1TkI2N092M0stelctd0h2MEw4d0h1SmFiQmg1cEVmNnRXZV9LSnYzeTduempPa1ljZ0dablBDRGphdHI3VE1WaA?oc=5"
+   },
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T14:05:56+00:00",
+    "source": "DW",
+    "title": "Saudi-backed forces vow 'firm' response after attack on Riyadh airport kills 3",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa0l5RUo5bHNPRHVrV01BdGwtbjl2ZW45ZzlJdmpGd2NrNHJWdWNTQ3BnbFhQX2FlQTJfeVYzNWtxcEpIemRSU0ZNaFlFSDNZR3Rsc0hIOWtHNHllR0xGdDJTRV9jWmlRNFhNM3NoUWRSZDQ4cHVLeVAzckd2UkxTc05mNjFoNkYwWXNBcm9tN3huN0l5M2ZJQkFqU3DSAZwBQVVfeXFMUFlWYzRjWHNnTWtmUWUzSGNUM25ZY0M3aHl4QkstWHVlOFFYQXFzWVZUbWV6VU1CSWwyb1g4aEdiNUJIRmdTTHhqYUpPazlnZ2V5QUJxdTJ6Yzk5VVNSVU5lRHhQOTllMERMYy0yY21iQndTTXg3QWF1T0djQjdKNm5YNHdOVVlqanV3el80WDhaNkJGZ0k0QW1lN3NJ?oc=5"
+   },
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T14:03:51+00:00",
     "source": "Reuters",
-    "title": "Three killed in attacks on Riyadh airport, Saudi aviation authority says",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSHNYa055VWx5WldTdndPaXJnREN3Q1BDX1hzTVE4cEdwNmM0bU9YbE1oc0Ryb2VOenROdjd3NDlaRy1hOGU1MnlxVE9nWk45Znh5Rm1iVXE3TGpjY2ZXRGhmWV9QbkhGeURIRXBDRTdLWElZeG9mRldGbE9wSnV4V1QyU0xFUFlKUXFna3RFYlpVc2JHS2RXOS1GNEkxQmZiWFZxU01VNk0yZ25ieF9ydWN4Ry1nVk54bFhR?oc=5"
+    "title": "EU aviation body widens Saudi airspace warning after Houthi strikes",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObUF1S2Y0LTFHM0JDbXRLY05aMmVvUDJqOU1ZNjEtLVlDdFVMelgyTlN0d3BvY0lrLVJkZEc4VGI0eEMtWTVnbDBGQnNVSGx1bklCQkxiNEs3RzFlWklGSWtoMFpyLV9zb2N6Y1VlVjQ2b2pqMy1ld0IyZ2RQMGt3YmFRaWQyUFBrYnVua2VyWGdyQW4wU0xGWm91d2prUlRLSHZrZXNwZjl0MVBuQV9ZeFZmZi15Nmh1VGFvV25xeVJfYkNGWkE?oc=5"
    },
    {
     "date": "2026-10-09",
-    "published": "2026-10-09T03:19:00+00:00",
-    "source": "The Guardian",
-    "title": "Houthis claim attack on Riyadh airport as airlines suspend flights to Saudi capital",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOE5hMVMtZW5rMU9xblVNLUNVRkhITXNRSzYyUzJnOEZ6M2k5WGlURjdNUzVoSFdyX0VsT0lvSGZhWWFmdGRuZjI3UHNiN0hYeXJ2NzB1TzZVUXpwM2FZanZQem5WSkNQSkNZOWV2c2puU1l0SUJQc3lRTFRTd25VVVdkaE04Q01BQ19KR2ZMR0FiLTROT1ROaWdaRjBOQmM5?oc=5"
-   },
-   {
-    "date": "2026-10-09",
-    "published": "2026-10-09T01:18:00+00:00",
+    "published": "2026-10-09T13:44:00+00:00",
     "source": "AP News",
-    "title": "Explosions heard in Saudi capital and Riyadh airport, and other Mideast developments",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYkFUbF9FbC1veUxQMDBaX0t1MkVRQlY2SWlTRGJ2Uk1YRy1hRElJN1FxMHRIREN3M19WQ2k4SjFvMWc1ODVSb2g4eUVJQ2cxMURIRHg2TVM1WTB3NGlJX1F1cURJQ2hHVy1vbXZQSUMzSGQ0M0V0YWNvWXFGU08wWWNZMUE5QnZTMTNWSVdKbEluV2FJUFBhUWhCUElZRWl2dWxCTk05aWcwVzg?oc=5"
+    "title": "Saudi authorities say 3 killed in Houthi-claimed attacks on Riyadh airport",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbmJMRkQ0Z1poSUd4YmFBT3JJN3RoNklMUGV3UFJSbmdPaFN3NEc4b0NxZnRBM0hBWTE1TEZPYWZtaVFXNkR1dGpYU2lyQmN1elEyQ2Q5RHdQY0UwbVVKVEVFRG1Mcmc1TXhLY3lVOEp6Q0RSbGw1dGV0OEx2amhwLVhVRUFkalR6SlQtaHFSWXQ2QQ?oc=5"
    },
    {
-    "date": "2026-10-08",
-    "published": "2026-10-08T20:59:45+00:00",
+    "date": "2026-10-09",
+    "published": "2026-10-09T12:21:53+00:00",
     "source": "Al Jazeera",
-    "title": "Saudi-led coalition says it intercepts three Houthi ballistic missiles",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOVZYbmpfbnphWTVmWTVLVTBDRlg3VTE5X0JRSndqZVVYdllSUjdqXzdQNDFkWE1vWTMzM3BUTU8zNkFBUWN3SnU4d3dsdVFreEdaSU0xc3dtM2tSMTdGRmRtTGpaa3BVYlFKdzJDTV9pdDF5NXowcjQ2Y0tONHVPZWdsMC1xVW15WUpvVXpONXI4MElEYTFlOHFTams3SFJTSFBSS3lpUnJoanV2ZE43LdIBtgFBVV95cUxNU3pYN1VPY0E4ZjdKdVJuRmVZSXpRa0ROOWNlbWpNSnpDa1BuQ3Q3eGtsaXRiYVFBT2piOE9vNTFHQkxNQjRlRHVHbEIyUmxNb1E1dHhraFczeWp1alBoV0lnUFZaNklKRndTbDZibmVOY05NeTQ4UEtHVTJXZ3RWekJnMXlNaVRudklVbmtqMnc4VDdnOEJXOVpXX3dpNnZycUJHYVlXWGVnb1lSY3RDY0puUWpsZw?oc=5"
-   },
-   {
-    "date": "2026-10-08",
-    "published": "2026-10-08T19:25:00+00:00",
-    "source": "AP News",
-    "title": "Lufthansa, Indian airlines suspend Riyadh service after explosions hit Saudi capital",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOai1sVmp3ODM2cUNaOTVzOVRYRFZNSmJ2SVhyeTUtcDlvVnE5bk02Z0NDVmV3WmZ3RGxwbEZxRm9hVi15WUN6dDZ3dC13OUJKUTJYaV9JR00zZzRzWXJJZVlsYjU4Q1Rudk8zRGdRaTVHOTlYWG1rTFRlZ29VdGk5YVVCVGVWbFFBWXV2NGlBR0JjOUxDOWlOTEFZTC0zOVJFcURSeUNMZkx0dw?oc=5"
+    "title": "Saudi Arabia reopens Riyadh airport after Houthi attack kills three",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaEs0b2JJSTY4WW14cmV3aC1STjd5QzhRNTE0MC10RmRyRkljdmdKcFlNQWtpSWtIVmczWk11czRkQzhRS3MybWpDeWdMQmQ3d25fczh1Y19oSmY3Y3NDTDVvSkZGOHVEajJPbkd0X2RxR3hhMWFJcmxmM0hCcHZZUU1seHNMcHE1azhRYkVQY2tlN3ptM0hSQVg5SUlUci0zWUZua3pTZXJjVW9x0gGyAUFVX3lxTE03WmdZZThkRU9KRFlCWTBxaDd3c3FEVW9pdUxRX3BTSWhvdGM4LVlGZXI3VnFJOXZyUmkxanlYaDhfbE1JZjVsSzNWYzVjUVFlMGdQWWxZblctd0UxU0JxdFRJRTk1b2lRRDBNdGJZaC10MmlPU2FwYkJEZ1pLcHpuQ2o3ZmdYTVdXRF9na2s4dHNKQkdfQzJEcXZ4TENZR3VZYmVabURFMU1MVDJWTF9sQXc?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-09T08:54:37Z"
+  "last_ok_at": "2026-10-09T16:07:30Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T08:54:38Z",
+  "fetched_at": "2026-10-09T16:07:31Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 27,
-  "baseline": 33.5,
-  "baseline_n": 4,
+  "count": 28,
+  "baseline": 35,
+  "baseline_n": 7,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2986,14 +3052,15 @@
    "2026-10-08T16": 23,
    "2026-10-08T22": 32,
    "2026-10-09T02": 34,
-   "2026-10-09T08": 27
+   "2026-10-09T08": 27,
+   "2026-10-09T16": 28
   },
-  "last_ok_at": "2026-10-09T08:54:38Z"
+  "last_ok_at": "2026-10-09T16:07:31Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-09T08:54:38Z",
-  "last_ok_at": "2026-10-09T08:54:38Z"
+  "fetched_at": "2026-10-09T16:07:32Z",
+  "last_ok_at": "2026-10-09T16:07:32Z"
  }
 }
