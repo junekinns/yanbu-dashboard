@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T16:07:00Z",
+ "generated_at": "2026-10-09T20:51:07Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T16:07:00Z",
+  "fetched_at": "2026-10-09T20:51:07Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +191,12 @@
   "last7d": 4,
   "baseline": 2.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-09T16:07:00Z"
+  "last_ok_at": "2026-10-09T20:51:07Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T16:07:22Z",
+  "fetched_at": "2026-10-09T20:51:25Z",
   "events": [
    {
     "date": "2026-10-09",
@@ -1161,14 +1161,34 @@
   "history_days": 29,
   "history_since": "2026-09-11",
   "today": "2026-10-09",
-  "last_ok_at": "2026-10-09T16:07:22Z"
+  "last_ok_at": "2026-10-09T20:51:25Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T16:07:23Z",
+  "fetched_at": "2026-10-09T20:51:28Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-09 20:27",
+    "iso": "2026-10-09T20:27:13+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 77 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات مأرب وصعدة والجوف وحجة وتعز وعمران وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدنا 1934 غارةً جويةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 수도 사나와 마리브, 사다, 알자우프, 하지야, 타이즈, 암란 총독부의 민간 물체를 겨냥한 77회의 공중 및 미사일 공습을 시작했습니다. 사우디아라비아 침략 공습이 1,934건의 공습과 미사일 공습으로 시작되었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3858"
+   },
+   {
+    "time": "2026-10-09 19:20",
+    "iso": "2026-10-09T19:20:05+03:00",
+    "places": [],
+    "text_ar": "احتشاد شعبنا المليوني في العاصمة #صنعاء وساحات المحافظات رسالة جهوزية واستعداد لخوض المعركة وإسناد القوات المسلحة في طريق واضحة تؤكد أن كل حق لشعبنا لا يملك أحدٌ أن يصادره ولا يستطيع أي كائن أن يمنعه من حقوقه. مليونية \"ثباتا مع فلسطين.. واستنفارا في مواجهة عدوان وحصار وبهتان العدو السعودي\" #صنعاء #ميدان_السبعين http://t.me/army21ye",
+    "text_ko": "수도 # Sana 'a와 주지사 광장에서 백만 명의 사람들을 동원하는 것은 우리 국민의 모든 권리가 몰수될 수 없으며 아무도 그 권리를 막을 수 없다는 것을 확인하는 명확한 방법으로 전투를 싸우고 군대를 지원할 준비와 준비의 메시지입니다. 백만 \"팔레스타인에 대한 꾸준함... 사우디 적의 침략, 포위 공격 및 퇴색에 대한 경계심\" # Sana' a # 70_Square http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3857"
+   },
    {
     "time": "2026-10-09 17:31",
     "iso": "2026-10-09T17:31:43+03:00",
@@ -1808,19 +1828,19 @@
    "리야드": 17,
    "카미스무샤이트": 11,
    "나즈란": 10,
-   "지잔": 8,
+   "지잔": 7,
    "타이프": 6,
    "아브하": 5,
    "메디나": 4,
    "메카": 4,
    "라비그": 3
   },
-  "last_ok_at": "2026-10-09T16:07:23Z"
+  "last_ok_at": "2026-10-09T20:51:28Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T16:07:28Z",
+  "fetched_at": "2026-10-09T20:51:32Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2848,13 +2868,20 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-09T16:07:28Z"
+  "last_ok_at": "2026-10-09T20:51:32Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T16:07:30Z",
+  "fetched_at": "2026-10-09T20:51:35Z",
   "kr": [
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T14:17:00+00:00",
+    "source": "YTN",
+    "title": "사우디-후티 충돌 격화...푸틴 \"중동전 종식 위해 모든 노력\"",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9EQ3FjOHo5ZVRZel9XbWFwVm1pclBIME1tUjBSV1hPVDRmUUZQaHVJb3ZNQzJJd2tQUlJBSEpMd0V6aGlwM2w2Snk1TFBIejdRcU5scVNDRG9HTHBvRkE?oc=5"
+   },
    {
     "date": "2026-10-09",
     "published": "2026-10-09T10:15:00+00:00",
@@ -2882,16 +2909,30 @@
     "source": "연합뉴스",
     "title": "사우디 공항 연속 피격…항공사 운항 차질",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5URl9oSDZEUEdLcmVEQTJVbk5GbmNicUFFeW9kZXYwdm54ZVh4NEJPTGVobS10blMzSC13UmhDM1VhZVBiZFF2VXpLR2J2ZGRDMXdhRFRFV0NKSW1ZeURMVXUzQmNndlU?oc=5"
-   },
-   {
-    "date": "2026-10-09",
-    "published": "2026-10-09T06:21:00+00:00",
-    "source": "YTN",
-    "title": "사우디-후티 충돌 격화...푸틴 \"중동전 종식 위해 모든 노력\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1tMWZKaXVnUmR2YjFodXpIblFXM0VDYWhpckZpNmFlRnpUcXFIUGJublQ3cnlqU2JHV29hYVUxWXlEbnphWW9ZS2ZJWERCODk3b0RtaG9COWRybzdrTnc?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T18:51:00+00:00",
+    "source": "AP News",
+    "title": "Saudi authorities say 3 killed in Houthi-claimed attacks on Riyadh airport",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbmJMRkQ0Z1poSUd4YmFBT3JJN3RoNklMUGV3UFJSbmdPaFN3NEc4b0NxZnRBM0hBWTE1TEZPYWZtaVFXNkR1dGpYU2lyQmN1elEyQ2Q5RHdQY0UwbVVKVEVFRG1Mcmc1TXhLY3lVOEp6Q0RSbGw1dGV0OEx2amhwLVhVRUFkalR6SlQtaHFSWXQ2QQ?oc=5"
+   },
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T16:25:01+00:00",
+    "source": "Reuters",
+    "title": "EU aviation body widens Saudi airspace warning after Houthi strikes",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObUF1S2Y0LTFHM0JDbXRLY05aMmVvUDJqOU1ZNjEtLVlDdFVMelgyTlN0d3BvY0lrLVJkZEc4VGI0eEMtWTVnbDBGQnNVSGx1bklCQkxiNEs3RzFlWklGSWtoMFpyLV9zb2N6Y1VlVjQ2b2pqMy1ld0IyZ2RQMGt3YmFRaWQyUFBrYnVua2VyWGdyQW4wU0xGWm91d2prUlRLSHZrZXNwZjl0MVBuQV9ZeFZmZi15Nmh1VGFvV25xeVJfYkNGWkE?oc=5"
+   },
+   {
+    "date": "2026-10-09",
+    "published": "2026-10-09T15:05:11+00:00",
+    "source": "Bloomberg",
+    "title": "Aramco to Supply Full Oil Volumes to Europe Customers Next Month",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbkVDOU5QZGZQSnRyd2Q5UElrdUgxWEVtdW5mUnEtTUVsV3JFcThFRVBvYllkSkxDY1JKQlZnRlFwS0RuWEI2YUhFV0sxSmVtOGxRcS1VdGRncjJZUHZ3YmZoclgxejBFLTZRRTJINEd5aUhjdTJ5Y2lJckxmTllST1pMMDlENEZMVU9KeGpIVEV6Mk1reDJRYUZoUnpfTlNVeEUwZXgzZXFNdWE5aFpISzJyQ3NCUQ?oc=5"
+   },
    {
     "date": "2026-10-09",
     "published": "2026-10-09T14:57:00+00:00",
@@ -2901,43 +2942,22 @@
    },
    {
     "date": "2026-10-09",
-    "published": "2026-10-09T14:05:56+00:00",
-    "source": "DW",
-    "title": "Saudi-backed forces vow 'firm' response after attack on Riyadh airport kills 3",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa0l5RUo5bHNPRHVrV01BdGwtbjl2ZW45ZzlJdmpGd2NrNHJWdWNTQ3BnbFhQX2FlQTJfeVYzNWtxcEpIemRSU0ZNaFlFSDNZR3Rsc0hIOWtHNHllR0xGdDJTRV9jWmlRNFhNM3NoUWRSZDQ4cHVLeVAzckd2UkxTc05mNjFoNkYwWXNBcm9tN3huN0l5M2ZJQkFqU3DSAZwBQVVfeXFMUFlWYzRjWHNnTWtmUWUzSGNUM25ZY0M3aHl4QkstWHVlOFFYQXFzWVZUbWV6VU1CSWwyb1g4aEdiNUJIRmdTTHhqYUpPazlnZ2V5QUJxdTJ6Yzk5VVNSVU5lRHhQOTllMERMYy0yY21iQndTTXg3QWF1T0djQjdKNm5YNHdOVVlqanV3el80WDhaNkJGZ0k0QW1lN3NJ?oc=5"
-   },
-   {
-    "date": "2026-10-09",
-    "published": "2026-10-09T14:03:51+00:00",
+    "published": "2026-10-09T14:56:54+00:00",
     "source": "Reuters",
-    "title": "EU aviation body widens Saudi airspace warning after Houthi strikes",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObUF1S2Y0LTFHM0JDbXRLY05aMmVvUDJqOU1ZNjEtLVlDdFVMelgyTlN0d3BvY0lrLVJkZEc4VGI0eEMtWTVnbDBGQnNVSGx1bklCQkxiNEs3RzFlWklGSWtoMFpyLV9zb2N6Y1VlVjQ2b2pqMy1ld0IyZ2RQMGt3YmFRaWQyUFBrYnVua2VyWGdyQW4wU0xGWm91d2prUlRLSHZrZXNwZjl0MVBuQV9ZeFZmZi15Nmh1VGFvV25xeVJfYkNGWkE?oc=5"
-   },
-   {
-    "date": "2026-10-09",
-    "published": "2026-10-09T13:44:00+00:00",
-    "source": "AP News",
-    "title": "Saudi authorities say 3 killed in Houthi-claimed attacks on Riyadh airport",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbmJMRkQ0Z1poSUd4YmFBT3JJN3RoNklMUGV3UFJSbmdPaFN3NEc4b0NxZnRBM0hBWTE1TEZPYWZtaVFXNkR1dGpYU2lyQmN1elEyQ2Q5RHdQY0UwbVVKVEVFRG1Mcmc1TXhLY3lVOEp6Q0RSbGw1dGV0OEx2amhwLVhVRUFkalR6SlQtaHFSWXQ2QQ?oc=5"
-   },
-   {
-    "date": "2026-10-09",
-    "published": "2026-10-09T12:21:53+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi Arabia reopens Riyadh airport after Houthi attack kills three",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaEs0b2JJSTY4WW14cmV3aC1STjd5QzhRNTE0MC10RmRyRkljdmdKcFlNQWtpSWtIVmczWk11czRkQzhRS3MybWpDeWdMQmQ3d25fczh1Y19oSmY3Y3NDTDVvSkZGOHVEajJPbkd0X2RxR3hhMWFJcmxmM0hCcHZZUU1seHNMcHE1azhRYkVQY2tlN3ptM0hSQVg5SUlUci0zWUZua3pTZXJjVW9x0gGyAUFVX3lxTE03WmdZZThkRU9KRFlCWTBxaDd3c3FEVW9pdUxRX3BTSWhvdGM4LVlGZXI3VnFJOXZyUmkxanlYaDhfbE1JZjVsSzNWYzVjUVFlMGdQWWxZblctd0UxU0JxdFRJRTk1b2lRRDBNdGJZaC10MmlPU2FwYkJEZ1pLcHpuQ2o3ZmdYTVdXRF9na2s4dHNKQkdfQzJEcXZ4TENZR3VZYmVabURFMU1MVDJWTF9sQXc?oc=5"
+    "title": "Houthi strikes on Riyadh airport killed three Saudis as war escalates",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEFCQWZhWGJXa25ZeDBOZlE3b3RWQldSSUM5MmRDd1JqdFNvbl83R19nc014ek1YTW1iQlBqbW1paUlManF3UzlNT21BTl81cG5NNGQ5MWhWOWZOMnpQamN6TmxrUFVLVXRCaTl2T0JYclhVc3dvLUpNeG5wY3JSci02OHVtWmRpemp2UExRUGRoTnpyN3lKUGlRQ3FHdS1pZDNvNVM0bWE2djAzNzNvNTg4RVdXVEhw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-09T16:07:30Z"
+  "last_ok_at": "2026-10-09T20:51:35Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-09T16:07:31Z",
+  "fetched_at": "2026-10-09T20:51:38Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 28,
-  "baseline": 35,
-  "baseline_n": 7,
+  "count": 27,
+  "baseline": 33.0,
+  "baseline_n": 4,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3053,14 +3073,15 @@
    "2026-10-08T22": 32,
    "2026-10-09T02": 34,
    "2026-10-09T08": 27,
-   "2026-10-09T16": 28
+   "2026-10-09T16": 28,
+   "2026-10-09T20": 27
   },
-  "last_ok_at": "2026-10-09T16:07:31Z"
+  "last_ok_at": "2026-10-09T20:51:38Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-09T16:07:32Z",
-  "last_ok_at": "2026-10-09T16:07:32Z"
+  "fetched_at": "2026-10-09T20:51:38Z",
+  "last_ok_at": "2026-10-09T20:51:38Z"
  }
 }
