@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T08:41:48Z",
+ "generated_at": "2026-10-11T15:34:55Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-11T08:41:48Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -191,12 +188,16 @@
   "last7d": 4,
   "baseline": 1.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-11T08:41:48Z"
+  "last_ok_at": "2026-10-11T08:41:48Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f379029ad80>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-10-11T15:34:55Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T08:42:07Z",
+  "fetched_at": "2026-10-11T15:35:56Z",
   "events": [
    {
     "date": "2026-10-11",
@@ -210,7 +211,7 @@
     "title": "사우디 리야드 공항 또 공격받아‥“공항 운영 잠정 중단”",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KTU9oQnY3cXEtNlpoZWFTTEEwS0djVkV3dHctT1Z1VzNvLWxtenBwd2ZXenJfRXUwVkdndjRLc3IyUFhlQzlXVXl6bGp1d1FyamVRRnBweVhzM2lmQUNqOXBYd9IBY0FVX3lxTE1KTU9oQnY3cXEtNlpoZWFTTEEwS0djVkV3dHctT1Z1VzNvLWxtenBwd2ZXenJfRXUwVkdndjRLc3IyUFhlQzlXVXl6bGp1d1FyamVRRnBweVhzM2lmQUNqOXBYdw?oc=5",
     "source": "채널A",
-    "outlets": 6
+    "outlets": 8
    },
    {
     "date": "2026-10-11",
@@ -224,7 +225,7 @@
     "title": "리야드 공항 후티 공습에 최소 12명 사망...트럼프, 공격 동참 시사",
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83ZXJOSXByOV9mcTZQUU5vU1RwNzJDY2FsZ1B3R3M2Q1ctaUVSTGlxWU9uc0FmZ093cHdfQUI3OXljZHVIaTNUX3FwNGc3MUVnMkV0LU1HNXNOSUU4cWZUeDYxcnhTbnVpcGMzQ1J1aw?oc=5",
     "source": "YTN",
-    "outlets": 4
+    "outlets": 5
    },
    {
     "date": "2026-10-10",
@@ -1216,14 +1217,22 @@
   "history_days": 31,
   "history_since": "2026-09-11",
   "today": "2026-10-11",
-  "last_ok_at": "2026-10-11T08:42:07Z"
+  "last_ok_at": "2026-10-11T15:35:56Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T08:42:08Z",
+  "fetched_at": "2026-10-11T15:35:58Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-11 17:28",
+    "iso": "2026-10-11T17:28:05+03:00",
+    "places": [],
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي وعمليات أخرى، في تمام الساعة السابعة مساء اليوم. http://t.me/army21ye",
+    "text_ko": "오늘 저녁 7시에 사우디 내부의 여러 질적 군사 작전 및 기타 작전을 발표하겠다는 예멘 군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3863"
+   },
    {
     "time": "2026-10-11 10:21",
     "iso": "2026-10-11T10:21:25+03:00",
@@ -1876,9 +1885,9 @@
    }
   ],
   "mentions7d": {
-   "리야드": 13,
    "카미스무샤이트": 10,
    "나즈란": 9,
+   "리야드": 9,
    "지잔": 7,
    "메카": 5,
    "메디나": 5,
@@ -1886,12 +1895,12 @@
    "아브하": 5,
    "라비그": 3
   },
-  "last_ok_at": "2026-10-11T08:42:08Z"
+  "last_ok_at": "2026-10-11T15:35:58Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T08:42:10Z",
+  "fetched_at": "2026-10-11T15:36:01Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3149,97 +3158,153 @@
     "date": "2026-10-10",
     "time": "2314",
     "confidence": "nominal"
+   },
+   {
+    "lat": 25.43823,
+    "lon": 49.35437,
+    "frp": 2.73,
+    "date": "2026-10-11",
+    "time": "1026",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.72228,
+    "lon": 49.43667,
+    "frp": 6.35,
+    "date": "2026-10-11",
+    "time": "1026",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.72182,
+    "lon": 49.43256,
+    "frp": 5.26,
+    "date": "2026-10-11",
+    "time": "1026",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.71859,
+    "lon": 49.40389,
+    "frp": 39.02,
+    "date": "2026-10-11",
+    "time": "1026",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.87408,
+    "lon": 49.2432,
+    "frp": 17.36,
+    "date": "2026-10-11",
+    "time": "1026",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.87361,
+    "lon": 49.23918,
+    "frp": 10.19,
+    "date": "2026-10-11",
+    "time": "1026",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.96281,
+    "lon": 49.23096,
+    "frp": 31.99,
+    "date": "2026-10-11",
+    "time": "1026",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-11T08:42:10Z"
+  "last_ok_at": "2026-10-11T15:36:01Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T08:42:13Z",
+  "fetched_at": "2026-10-11T15:36:03Z",
   "kr": [
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T08:17:00+00:00",
+    "published": "2026-10-11T15:20:41+00:00",
+    "source": "동아일보",
+    "title": "후티, 사우디 제2공항 공격해 12명 사망… 트럼프 “개입 검토”",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUa2hqNUwwdUV2Q1ZVcTZqVnhIcjg0YnV5b2ZKSU5vLXNyWVNZY1lJWTQwOFdtU0N5b21SYlBsN21oOF9JS2tqZTl6SnhIaElTRG9Jdk9aWW5UcVZFRHlIRXBwVlNKd1BzU1MwRHRzQzZaNTTSAWZBVV95cUxOYnpYM1ZJeVRzRTEzQncta3AwYi1fZDJCQlpWN0ExejBtenRzdm9Gb0V1NDM2QmxscTJ1M25HcllWX0tVNE10cUhrZDB4U2xiT3V3TEh1enRmUUM5Ry1xcnJaOWZ1ZkE?oc=5"
+   },
+   {
+    "date": "2026-10-11",
+    "published": "2026-10-11T14:45:01+00:00",
     "source": "연합뉴스",
-    "title": "후티 \"사우디 공항·영공 이용 말라…성지 빼고 모두 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vSHF2TGdYOUNsSG1VM1NJbW9lNzIwTGFsZGY1UV9HQUU2Ni1TQi1PM1ZwZUJEdDVMazNPU3JqT1RLeG8zUGdSc2hOV2RLTFEtaTZFc1RiUl9DeVZvZlNlNDVlM05yRmM?oc=5"
+    "title": "\"예멘 사나·사우디 리야드 공항 피격\"…사우디-후티 '난타전'",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HWGIxcm0tOXQxa01GazlrNVNfdy1IbGlNNVpIMXg2UGV2dDFUZERxNTJPcms3S0FYRXc1YVpnd2NtY2FXalQ0cExxMi1WM3c5WTNmZTI4Sk1tUTTSAWBBVV95cUxNSHZiSUt5cXVaeFdTZFRVdjVXa000ZHBRek9DRG9tc1FoRVZKOFgzUENpazJYOHhmZGJHLW9qZ2ZnaDdmbTdZb1BrOTZrYXk3N0t3UEkyc211ajI0dENVdmY?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T06:09:48+00:00",
+    "published": "2026-10-11T13:46:44+00:00",
+    "source": "서울신문",
+    "title": "사우디 리야드 공항 피격에 320여명 사상… 트럼프 “참전 검토”",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbExrdTVtRTFMZEhRSXFNRXZBcG5Ld19fc3FZdk1mcEw2bk10NV9DaXlMRlFZTDBPYWo0NnlzUlRRa1JzUnVOQ3BOZXBTY2llSExIMHlnNXlJaHFDdmZzeE02dVZkLTh1ZkRlQlJ4elZsU3U4d0QtTjRGUWNPRUFnNW1Fekc1Y2VucTd1V0U5Yw?oc=5"
+   },
+   {
+    "date": "2026-10-11",
+    "published": "2026-10-11T13:27:16+00:00",
     "source": "연합뉴스",
-    "title": "[그래픽] 최근 예멘 후티 반군 사우디 공항 공격 현황",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11VjdRV0JrR19UcFlwVGVaMlI1UXRpbzBOZmJJeUgzbmUtWjFJZTRtb2ozdDdzSFUyekJTOXplV0VYOVpMN1dYQ29wVmxmTGVaRW9pZnQ2ekQzTTM4LTVPetIBYEFVX3lxTE11VjdRV0JrR19UcFlwVGVaMlI1UXRpbzBOZmJJeUgzbmUtWjFJZTRtb2ozdDdzSFUyekJTOXplV0VYOVpMN1dYQ29wVmxmTGVaRW9pZnQ2ekQzTTM4LTVPeg?oc=5"
+    "title": "후티 공세에 쩔쩔매는 사우디…'비전 2030' 투자유치도 '먹구름'",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02dDlLbERQVXBDaXR0amZHWThrOC03UVktY3VDdi10WVNHU1p1UmhleFpHR2ZWZ25iQ3A2THNTZU1ZRmg2cHgyQ0dTZmVxVVBXLWpMRzdIQjNEd1FjenZKadIBYEFVX3lxTE02dDlLbERQVXBDaXR0amZHWThrOC03UVktY3VDdi10WVNHU1p1UmhleFpHR2ZWZ25iQ3A2THNTZU1ZRmg2cHgyQ0dTZmVxVVBXLWpMRzdIQjNEd1FjenZKaQ?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T04:30:00+00:00",
-    "source": "채널A",
-    "title": "후티의 ‘폭주’ 어디까지…사우디 리야드 국제공항 또 폭격 “최소 62명 사상…올해 중동 최대 피해 공습” [현장영상]",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUVXlOR2U4QktVZGVZbXhSWGNxSExPbXdXWTFrNWU5RHVLemxFbEQxVkxVdEtEYTNXOUtkU1FzX2xLOGQ2NmxLbEFyMU40WDA3bW84dXNVUU5ndXZlUTBSU2oxc9IBY0FVX3lxTFBUVXlOR2U4QktVZGVZbXhSWGNxSExPbXdXWTFrNWU5RHVLemxFbEQxVkxVdEtEYTNXOUtkU1FzX2xLOGQ2NmxLbEFyMU40WDA3bW84dXNVUU5ndXZlUTBSU2oxcw?oc=5"
-   },
-   {
-    "date": "2026-10-11",
-    "published": "2026-10-11T03:03:00+00:00",
-    "source": "KBS",
-    "title": "사우디 공항 또 피격 12명 사망…미, 개입 가능성 언급",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sNjA0N2pncF9KY29aVUFYWGNHd2VmLTMxVGl3NU96MU1rOUpTOVR1OUlXdXgyQi1MZ05udVN3UWU0LWxieXZvc3hzbVNjYXJYTHZwT3hYRkp0MUd2NjZqdnVrZm1MUQ?oc=5"
-   },
-   {
-    "date": "2026-10-11",
-    "published": "2026-10-11T02:50:00+00:00",
+    "published": "2026-10-11T13:14:00+00:00",
     "source": "한겨레",
-    "title": "후티, 사우디 공항 공습…12명 사망·309명 부상",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOemJ2cE42VGRkQVNDMm5Lb1F1b0t0NlYtQjFjV1Q1QUhmRjFmZDlSc05zTE9pakdEUkd6Q25iN3J6YURoSlZ5OHg4X3FRTGdKc2FUWnlNS1lFS2VMbE1RMEF6T2NCTUxudHprR18xdWNuUnNma2toNTItWUxrcFJjejZ3?oc=5"
+    "title": "후티, 사우디 공항 공격 ‘12명 사망’…미국, 확전 우려 속 개입 딜레마",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNajh6Xy1YdVJQS2FILVVEZUpfWkpTeTFqZkxlTjlTZWhJaFJzTmszTjFmOUh5c282c0hPTFZkTC1XOFY4eWFzN0tvUmJITExqX21mOUxoRDRkSFpDSkRsMDZWQmZNeHdFWWxIYXNQMjF3cjJjbzBhOXVJcTdEZVlGOHlB?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T08:09:53+00:00",
-    "source": "Al Jazeera",
-    "title": "World condemns deadly Houthi attack on Saudi Arabia’s Riyadh airport",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLWVoSG40NmNyb1B5YkpTVUlpc1l3b1FaYTdlczcwUURLTkt2R2FUX2dfTGFsc2pJS2lfSDY0Tzd5RUpVWjFZdEw1R0o4UUhkdEJSSWpsd0hIRTU5eTZpRkRhV2IyazRnRVc4dzk4STlZWVpobkF1am84bGtHOXZFbk9Kdk5rMU9yR0pGajk1STBYTkdGZFhVbzM1MU1hdV9Rcm11d1ZrdFdCWG96VHfSAbMBQVVfeXFMTmpLZWNQZ1RyWXk2Q0VHMUs3cUpwUGtUQVRJdGgxd01rV1RsbWg0ZkdQTGtyNTlVRFRDcXVGWU5lQTd0VXZYV0FKSlQzWDh2MmZyeWFiNlVYRHBPcTJoTnRLQVRfWFVBb09UUDduNFBfdktFM1k2UDByaFFtNnV6c1l4SHg5bXkyYXQ0a0dDU3hFUFcyUDUtdzNNMHdYTnFCbkFYa2hIeWZfd1BCTjltNktXanc?oc=5"
-   },
-   {
-    "date": "2026-10-11",
-    "published": "2026-10-11T07:51:43+00:00",
-    "source": "Reuters",
-    "title": "Saudi stocks slide after attack on Riyadh airport",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEliNzFKYlR3T0NNakk4TWxXWGJ0UlJfQ0JLdFVIRnlESENoRW4zdjNSWW02UjFJOFozRmlZdVZ2ZlFaOTFSdEc5RGd6QWVVaFFMNi1QRTdMSVg2dFQxaHROcjhjbnI4ekhnZUZVbXlmYVBQaDZ3TG1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXc?oc=5"
-   },
-   {
-    "date": "2026-10-11",
-    "published": "2026-10-11T05:40:57+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi Arabia says 12 killed, 300 wounded in Houthi attack on Riyadh airport",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGcxd2Q2QXhUSGFCZ3NmdUotNFR2bkxvZ0t5dUN3ZGFoWnEyeVVMaXU3YmxST3daXzhOeVpCcDRIbXJhYlJ2MUdsOEhNYVcwcThEZlQyZUFGQWFpeklPYlY2T0FZb3hQY0liUkRfZ3hpT3pOUTRkb2hhSUhkdmJSTmtrSURzZEhMdllIa1pqNm9mUDhCT3hnM1k5cDQ4bjh0OVBaNk9YMHpJd9IBrwFBVV95cUxOeEY5RWlrVmxYUFllYXkyMk5QeUZQZGZ6OGNGZ2dvVlo5cXB3STlBbnMxWmFpQUJYQ200VFZoaVdmM0lTRFpKTWRWMXRQUDhuc1lSdjduZHhSSXRLQjZNalhjNXdiYjhwd2xhbzlqbUF3RnN4bmV2U1hFdHJKYTZlWkllancybkk4Y0Rkc2tSZ0dPZlFiZzAyT0EzX29wMEJ0WnRGR3JUdU80aWU2TU00?oc=5"
-   },
-   {
-    "date": "2026-10-11",
-    "published": "2026-10-11T04:08:00+00:00",
+    "published": "2026-10-11T15:22:41+00:00",
     "source": "The Washington Post",
-    "title": "12 killed, hundreds injured in Saudi Arabia airport attack as Houthi strikes intensify",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5"
+    "title": "Saudi Arabia vows major response after Houthi strike on airport kills 12, injures 309",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T00:38:00+00:00",
-    "source": "CBS News",
-    "title": "At least 12 killed, over 300 injured after strike on Riyadh airport, Saudi officials say",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVGQtajROLXJZd0NHOEp1XzF6S1dpUUVoTmhmVHpNY0NrQVZDekZxdHV3NkpSTVZ1Mm4yU3dvbnlLemdKVHNMMHFVb3dYMkFlbHRTRXZoOUk4MjJvX2hMZzBwMVRzV2pYY3hOVHdSMG5MZFl3dndlRUlkbEp0cW1MaWU5YmZyNENCOHd1QVlINDY4RWlMS0dGOXd0eUlCc2xtOTA5SWN6MlhvY3ZqdmQ5VHZ2NWZ0VElt?oc=5"
+    "published": "2026-10-11T14:57:33+00:00",
+    "source": "DW",
+    "title": "What now for Saudi Arabia after Riyadh airport attack?",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQakNNZXBFeGZueDJURGd2c0Nhb2Y5bzJoVVIzb2stakQ4bzZBVnQ0VU5PRk4yRTUwVXpGTF8tR21pOXk1NEV2R0RqR0Z6YUJNSHNNSFczUy03LW5mdWlzZ21wa2ItdzV3SFBYaUNlNGVlS2VwVXFQZDdNbTNZMmo5YUJvTXI2LWg3LTZxbE1qMkdYNTF2bU56VGlOSWloUHc?oc=5"
+   },
+   {
+    "date": "2026-10-11",
+    "published": "2026-10-11T14:50:28+00:00",
+    "source": "CNN",
+    "title": "Saudi Arabia will have to respond to Houthi airport attack - but the choices are stark",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVzdoSmctcGQ4eHMycEViSEZOOTNQek42Z09DQjlNNzhydGpfV21JU0hpY3dsYUtZRFEzeXV3VExYbkhJTlc4ZDEySkduV0tJZ3g3Mnd2NDRpZzFHc0dXYXNEblhRWVFXd2E1V0I0bkRtU3ZoWHNwSTFRQlFweXNXNVdhTHVxc1JUbnc?oc=5"
+   },
+   {
+    "date": "2026-10-11",
+    "published": "2026-10-11T14:47:50+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Arabia’s Main Riyadh Airport Comes Under Further Attack",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY3FCZjNKaVVJeTgtSnhRZHZLVGo3eFNmNEVXeGUyM2cyRFlGZGV1Yjh0MzFNY2RSTUJxRm5NMHlJZlR6bzBheUp0VjItdHhYcVhSeGszYVpEa3ZpNmtrRVJaNnIxZUxUODFidEh2LUFDbUlIWlhDWnAxeVd5MjRtalBBdG03Z1I0ajZJVEhUV013X3ZHdEtZR2c0Sjg5MUVuUHRxQlU0WnRHVzRpRVNnNkhB?oc=5"
+   },
+   {
+    "date": "2026-10-11",
+    "published": "2026-10-11T14:25:00+00:00",
+    "source": "The Guardian",
+    "title": "Saudi coalition vows retaliation after deadly Houthi attack on Riyadh airport",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVjlrc2t5SHJ4aGYtclhmaXhoVHcxaDJ1TTdIVkk1bXpNT0tnOWtIRFI4ZjNraVZGWG9pNTQ5LWlWdjFQbnlSdnlCQU4yYjNtX0FFZ1RQMFZTMmVmS3V6eHhmNzV0eWFvNnR6a1VpaENvOVNkZWFRaDJLckU0UFU3TVVkYkh1bTdSVEVRb3lQVlVEVUpRRXVMdElkdERBb0lNdG40Yg?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-11T08:42:13Z"
+  "last_ok_at": "2026-10-11T15:36:03Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T08:42:14Z",
+  "fetched_at": "2026-10-11T15:36:05Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 34,
-  "baseline": 29,
+  "count": 30,
+  "baseline": 37,
   "baseline_n": 5,
   "tier": "정상",
   "history": {
@@ -3364,14 +3429,15 @@
    "2026-10-10T18": 29,
    "2026-10-10T22": 33,
    "2026-10-11T01": 37,
-   "2026-10-11T08": 34
+   "2026-10-11T08": 34,
+   "2026-10-11T15": 30
   },
-  "last_ok_at": "2026-10-11T08:42:14Z"
+  "last_ok_at": "2026-10-11T15:36:05Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-11T08:42:14Z",
-  "last_ok_at": "2026-10-11T08:42:14Z"
+  "fetched_at": "2026-10-11T15:36:06Z",
+  "last_ok_at": "2026-10-11T15:36:06Z"
  }
 }
