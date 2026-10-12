@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T20:11:25Z",
+ "generated_at": "2026-10-12T00:27:38Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,17 +8,15 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-10-12T00:27:38Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
     "level_name": "출국권고",
     "level": 3,
-    "regions": "사우디-예멘 국경 인근 180km 지역(지잔 주, 아브하(Abha), 카미스 무샤이트(Khamis Mushait)시 포함),샤이바 유전,프린스술탄 공군기지,라스 타누라,얀부, 주베일"
-   },
-   {
-    "level_name": "특별여행주의보",
-    "level": 2.5,
-    "regions": "3단계 지정 지역을 제외한 지역"
+    "regions": "전 지역"
    }
   ],
   "places": [
@@ -26,141 +24,141 @@
     "name": "얀부",
     "lat": 24.09,
     "lon": 38.06,
-    "level": 3,
-    "level_name": "출국권고"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "제다",
     "lat": 21.49,
     "lon": 39.19,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "메디나",
     "lat": 24.47,
     "lon": 39.61,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "라비그",
     "lat": 22.8,
     "lon": 39.03,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "킹압둘라항",
     "lat": 22.52,
     "lon": 39.1,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "메카",
     "lat": 21.39,
     "lon": 39.86,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "타이프",
     "lat": 21.27,
     "lon": 40.42,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "리야드",
     "lat": 24.71,
     "lon": 46.68,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "프린스술탄 공군기지",
     "lat": 24.06,
     "lon": 47.58,
-    "level": 3,
-    "level_name": "출국권고"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "담맘",
     "lat": 26.43,
     "lon": 50.1,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "다란",
     "lat": 26.29,
     "lon": 50.11,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "라스타누라",
     "lat": 26.64,
     "lon": 50.16,
-    "level": 3,
-    "level_name": "출국권고"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "주아이마",
     "lat": 26.8,
     "lon": 49.98,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "주베일",
     "lat": 27.01,
     "lon": 49.66,
-    "level": 3,
-    "level_name": "출국권고"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "아브카이크",
     "lat": 25.94,
     "lon": 49.67,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "샤이바 유전",
     "lat": 22.52,
     "lon": 53.97,
-    "level": 3,
-    "level_name": "출국권고"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "지잔",
     "lat": 16.89,
     "lon": 42.57,
-    "level": 3,
-    "level_name": "출국권고"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "아브하",
     "lat": 18.22,
     "lon": 42.51,
-    "level": 3,
-    "level_name": "출국권고"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "카미스무샤이트",
     "lat": 18.31,
     "lon": 42.73,
-    "level": 3,
-    "level_name": "출국권고"
+    "level": null,
+    "level_name": null
    },
    {
     "name": "나즈란",
     "lat": 17.49,
     "lon": 44.13,
-    "level": 2.5,
-    "level_name": "특별여행주의보"
+    "level": null,
+    "level_name": null
    }
   ],
   "changes": [],
@@ -186,19 +184,29 @@
    }
   ],
   "last7d": 4,
-  "baseline": 1.5,
+  "baseline": 2.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-11T08:41:48Z",
-  "stale": true,
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fab0fc0f110>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-10-11T20:11:25Z"
+  "last_ok_at": "2026-10-12T00:27:38Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T20:12:26Z",
+  "fetched_at": "2026-10-12T00:27:54Z",
   "events": [
+   {
+    "date": "2026-10-12",
+    "time": "00:23",
+    "iso": "2026-10-12T00:23:34+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "'12명 사망' 하루 만에‥사우디 리야드 공항 또 미사일 피격",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BQ2IzZTZSYkpRLXRYbWV2b09Sb3dqeGRlS1FtRFlCcEVCellCbnFnQnVPMFdpN0YwQ1p3amVUWks3M1prMWVuMW1GbmNtYmxxc0pubnAyRnY0LVRJZ09kQllWdjJiZHp3eGxsVkFVTU02V1BN0gF0QVVfeXFMT243OWpOd3cwLWNBSXBuUjAwVmNraDNsbDViY08zTVR6YlR1cWx6dWU2aHhTemtxSl94dmRXSnVUcWpjWmJxUjhPbHotbVNuTG5QWlhKMWdfU2ZLZUxRZTFtbDRvTTdrc2JDTS04TXc1VlI2dEY?oc=5",
+    "source": "MBC",
+    "outlets": 6
+   },
    {
     "date": "2026-10-11",
     "time": "02:21",
@@ -1076,20 +1084,6 @@
     "source": "Al Jazeera",
     "outlets": 2,
     "weapon": "드론"
-   },
-   {
-    "date": "2026-09-11",
-    "time": "10:00",
-    "iso": "2026-09-11T10:00:00+03:00",
-    "city": "송유관",
-    "type": "피격",
-    "weapon": null,
-    "lat": null,
-    "lon": null,
-    "title": "Saudi oil pipeline shut down after attack triggers fires",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdTBNQ1lITW5CMjlZTFM3UktsZUNsaHFyb29zZ1VVMmc4b1N4dTVGMVZjM0FpSTR5eTk2N2hGOGZTSVBaTVlPWG1ZLUhJNUg4MUMzcVo2QUJWVl9aRWRvdUpzOTJndDNTN3NMdk55NWZMdXVRZUtJS0RZTXowZThEOE5BeDFJWlFmY2V1T0Jfc2liY29kdDNVX21NQXJhZjFtc01ORA?oc=5",
-    "source": "CNN",
-    "outlets": 1
    }
   ],
   "tempo": {
@@ -1145,11 +1139,11 @@
    },
    "리야드": {
     "7d": {
-     "피격": 5,
+     "피격": 6,
      "공습": 6,
      "요격": 1
     },
-    "total7d": 12,
+    "total7d": 13,
     "prev7d": {
      "공습": 1
     },
@@ -1229,14 +1223,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-09-11",
-  "today": "2026-10-11",
-  "last_ok_at": "2026-10-11T20:12:26Z"
+  "history_since": "2026-09-12",
+  "today": "2026-10-12",
+  "last_ok_at": "2026-10-12T00:27:54Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T20:12:27Z",
+  "fetched_at": "2026-10-12T00:27:55Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1913,51 +1907,26 @@
     "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 38 غارةً جويةً وصاروخاً من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وجيزان استهدف العدو بها محافظات تعز وصعدة وحجة وخلفت شهداء وجرحى من المدنيين بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد 1123 غارةً وصاروخاً. http://t.me/army21ye",
     "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 (Khamis Mushait) 와 타이프 (Taif) 기지에서 이륙한 \"F-15\" 와 \"타이푼 (Typhoon)\" 항공기와 적군이 타이즈 (Taiz), 사다 (Saada), 하자 (Hajjah) 주지사를 겨냥한 나지란 (Najran) 과 지잔 (Jizan) 의 미사일 공격을 통해 38번의 공습과 미사일 공습을 감행하여 순교자들과 여성과 어린이를 포함한 부상당한 민간인들을 남겼습니다. 이관이 시작된 이후 사우디의 총 침략 습격 횟수를 1,123회의 습격과 미사일로 끌어올렸습니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3783"
-   },
-   {
-    "time": "2026-09-27 19:31",
-    "iso": "2026-09-27T19:31:44+03:00",
-    "places": [
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 26 غارة جوية من خلال طائرات \"F15\" أقلعت من قاعدة خميس مشيط واستهدفت محافظات تعز والجوف ومأرب وذمار وصعدة. وخلفت عشرات الشهداء والجرحى من المدنيين ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد 1085 غارة جويةً وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 기지에서 이륙하여 타이즈, 알자우프, 마리브, 다마르, 사다의 주지사를 겨냥한 \"F15\" 항공기를 통해 26회의 공습을 시작했습니다. 이로 인해 수십 명의 민간인이 사망하고 부상을 입었으며, 이관이 시작된 이후 사우디의 총 침략 습격 횟수는 1,085회의 공습과 미사일 습격으로 늘어났습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3782"
-   },
-   {
-    "time": "2026-09-27 16:02",
-    "iso": "2026-09-27T16:02:38+03:00",
-    "places": [
-     "카미스무샤이트"
-    ],
-    "text_ar": "اليوم الأحد بتاريخ 27 سبتمبر 2026م وعند الساعة (11:00 صباحا) اتجه تشكيل حربي سعودي نوع \"F15\" من قاعدة خميس مشيط باتجاه محافظة تعز وشن غارتين على سوق تعز في مفرق ماوية عند الساعة (11:29صباحا) مرتكبا جريمة نكراء بحق المدنيين خلفت قرابة الــ50 ما بين شهيد وجريح كحصيلة أولية، ثم غادر أجواء تعز في تمام الساعة (11:37صباحا) متوجها إلى محافظة الجوف وشن أربع غارات على مديرية خب والشعف، ثم غادر محافظة الجوف…",
-    "text_ko": "2026년 9월 27일 일요일 오전 11시, 사우디아라비아의 군사 조직 \"F15\" 가 카미스 무샤이트 기지에서 타이즈 주 (Taiz Governorate) 로 향했고, 오전 11시 29분에 타이즈 시장에 두 차례 습격을 가했고, 약 50명의 순교자와 부상을 예비 통행료로 남긴 채 민간인에 대한 극악한 범죄를 저질렀으며, 오전 11시 37분에 타이즈 영공을 떠나 알자우프 주 (Al-Jawf Governorate) 로 향했고, 카브와 알샤프 국장 (Directorate of Khab and Al-Shaaf) 에 네 차례 습격을 가한 후 알자우프 주 (Al-Jawf Governorate) 를 떠났습니다...",
-    "url": "https://t.me/army21ye/3781"
-   },
-   {
-    "time": "2026-09-27 15:38",
-    "iso": "2026-09-27T15:38:14+03:00",
-    "places": [],
-    "text_ar": "تمكنت القوات المسلحة اليمنية بعون الله تعالى من إسقاط طائرة استطلاع مسلح نوع \"كاريال\" تابعة للعدو السعودي وذلك أثناء قيامها بأعمال عدائية في أجواء منطقة الطينة بمحافظة حجة، وتم إسقاطها بسلاح مناسب. http://t.me/army21ye",
-    "text_ko": "예멘군은 전능하신 하나님의 도움으로 하자 주 티나 지역의 영공에서 적대 행위를 수행하면서 사우디아라비아 적의 무장 정찰기 \"캐리얼\" 을 격추시켰고, 적절한 무기로 격추되었습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3780"
    }
   ],
   "mentions7d": {
    "리야드": 12,
    "카미스무샤이트": 9,
    "나즈란": 8,
-   "메디나": 7,
    "메카": 7,
+   "메디나": 7,
    "지잔": 7,
    "아브하": 5,
    "타이프": 4,
    "담맘": 3,
    "라비그": 3
   },
-  "last_ok_at": "2026-10-11T20:12:27Z"
+  "last_ok_at": "2026-10-12T00:27:55Z"
  },
  "firms": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-10-12T00:27:56Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3273,100 +3242,96 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-11T15:36:01Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-  "fetched_at": "2026-10-11T20:12:35Z",
-  "stale": true
+  "last_ok_at": "2026-10-12T00:27:56Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T20:13:35Z",
+  "fetched_at": "2026-10-12T00:27:58Z",
   "kr": [
    {
-    "date": "2026-10-11",
-    "published": "2026-10-11T19:01:14+00:00",
+    "date": "2026-10-12",
+    "published": "2026-10-12T00:14:01+00:00",
     "source": "뉴스1",
-    "title": "사우디 담맘 공항도 공격당해…리야드 공항 사망자 13명으로 증가",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6dUxfNnRwdU9UczkxV3lZS2xJSlNDbHRmbHUwNUFIQzRQRjJZd3dERGxWVm1sRzhSeVh6akUxZnM5QWRPM3hSc1lHVldHd25JdzRZM0VCZjRWanRScXltZ0tR?oc=5"
+    "title": "'세계 8위 국방비' 사우디, 후티 반군에 고전…문제는 무기가 아니다",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ib1pOcVNaZGgxWnRBdE5YZmpRemlYSXdlekVCa1NnMm5Kd2NVY1NnSmkxSTV3eTUycHB4Z3FaSURRUERXMlFvS3JCWWx0YlhLZ0J4VW55ZnNBNVFHaW45SDBR?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T18:44:00+00:00",
+    "published": "2026-10-11T23:51:34+00:00",
+    "source": "연합뉴스",
+    "title": "사우디 공항까지 미사일 표적…유럽·아시아 잇는 항공로 '흔들'",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HaVJtMWNHYUFJdGwtQS00RV9raDZySWxhOHE3cmY0QlJBbDFUenRyNEljVDJ6Y29CSzlDdlpzMjZsVWUwSFd3SGsyczV3T3Q0dlhoTjdFNHJ6cVHSAWBBVV95cUxPYWNLRm5mcjJUM3JsZGdza213VFdkMWNoR0oyNUdfSmJzR1RuenNMNVA1S0dfWHZ1UGtMUl9uSXB5Tm14TzcwVVlDZktEWHJraTNJNjl1OENIS3Y0S0FFM2k?oc=5"
+   },
+   {
+    "date": "2026-10-11",
+    "published": "2026-10-11T23:18:00+00:00",
+    "source": "연합뉴스",
+    "title": "사우디·이란 외교수장, 후티의 사우디 공격 속 첫 접촉",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGb2RuVEJuWEhpY3JuOHRVSU5TaXdhUU9iZThLbUFKZmZNVTk0ajlnRlJ2b0tjbV9LVWdrXzg0N3g1RnVPUVktVU9lOEFmV1dyM29lakR2WkJ4b3VSeVpiaE1uZ2lEVGc?oc=5"
+   },
+   {
+    "date": "2026-10-11",
+    "published": "2026-10-11T23:17:00+00:00",
     "source": "KBS",
-    "title": "‘12명 사망’ 하루 만에 사우디 리야드 공항 또 피격",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oLWdtYVJhN1NEdkdRYmc3bVJRN1hDY2JRbTliOGtFQlFpQm1Vd0d1Yld1M204aXpXbUM1WE1OYlF4OWg0MlFEZE95RkZ6V1NvSHJQa3A5V081b1E?oc=5"
+    "title": "후티의 사우디 공격 격화 속 사우디·이란 외교수장 첫 접촉",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KRlJrMTJWWWR4Q01WLUlDZk1rVzdNa1lfd1V6ZnVwSmZzTklNYlAxR0pGUmppWnF1TmthYTc0MFBZRUp6WXpaZUlpcDhyRWdSbkZoTWxIRmhRbEE?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T18:34:15+00:00",
-    "source": "연합뉴스",
-    "title": "네타냐후, 후티의 사우디 공격 속 안보회의 소집…\"끔찍한 테러\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yTzVmaW1pM2k4cWlsa0VSekFpdW52TFhYblZkcVkxRkpJU01qdWJrNEJ5bjd2Rlh2TkhSb2p3dWxGS2wyTktuV1kzRVlZUlh1TXQ5WXczN2Z3bXVUdmRSR9IBYEFVX3lxTE4yTzVmaW1pM2k4cWlsa0VSekFpdW52TFhYblZkcVkxRkpJU01qdWJrNEJ5bjd2Rlh2TkhSb2p3dWxGS2wyTktuV1kzRVlZUlh1TXQ5WXczN2Z3bXVUdmRSRw?oc=5"
-   },
-   {
-    "date": "2026-10-11",
-    "published": "2026-10-11T16:48:26+00:00",
-    "source": "연합뉴스",
-    "title": "'12명 사망' 하루만에 미사일 '쾅'…사우디 리야드 공항 또 피격(종합2보)",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83ZnZuQ2d4RUVGdVpDZVF5a2Y1TzFHeUtmNzExX1BoVzZxNmFVYnB3N1QxZnlhVFQxRXJ0NVpybDlCcmhnRDlhdnl6V09pZjV3cTQtbUdKUzN1V011cThLV9IBYEFVX3lxTE83ZnZuQ2d4RUVGdVpDZVF5a2Y1TzFHeUtmNzExX1BoVzZxNmFVYnB3N1QxZnlhVFQxRXJ0NVpybDlCcmhnRDlhdnl6V09pZjV3cTQtbUdKUzN1V011cThLVw?oc=5"
-   },
-   {
-    "date": "2026-10-11",
-    "published": "2026-10-11T15:20:00+00:00",
-    "source": "동아일보",
-    "title": "후티, 사우디 제2공항 공격해 12명 사망… 트럼프 “개입 검토”",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ielgzVkl5VHNFMTNCdy1rcDBiLV9kMkJCWlY3QTF6MG16dHN2b0ZvRXU0MzZCbGxxMnUzbkdyWVZfS1U0TXRxSGtkMHhTbGJPdXdMSHV6dGZRQzlHLXFyclo5ZnVmQdIBZkFVX3lxTE5ielgzVkl5VHNFMTNCdy1rcDBiLV9kMkJCWlY3QTF6MG16dHN2b0ZvRXU0MzZCbGxxMnUzbkdyWVZfS1U0TXRxSGtkMHhTbGJPdXdMSHV6dGZRQzlHLXFyclo5ZnVmQQ?oc=5"
+    "published": "2026-10-11T23:04:00+00:00",
+    "source": "YTN",
+    "title": "트럼프, 후티 공격 동참할까...이란 \"사우디-예멘 대화 중재\"",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjZHA5YWo4Q2tDb2tFMW1ESXVrT2Z5aHQ1ME1vUDdERGxVVTBwMEtqVDROVzR4d0E5aEFlaFZjWWlSLU12QUJIT1FVcWJMMnBWcU9fUk9WYlY1NlI5SWc?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-10-11",
-    "published": "2026-10-11T20:00:54+00:00",
-    "source": "Al Jazeera",
-    "title": "Yemen fighting expands as Houthis attack Saudi airport again: What to know",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDVTS1ZGSF8wX1ZNRk8wdUFmVFd5SmkyNWlkZmktVFRNNUxqSWxwUF8tT01GN2d0RzNtWmxSY0Y5aHJ1YlBWWHB3cjh4OXRjczc0UlNtWlJFc3JpUzlPMkZTS0laSDVOakFxZTVpNVZ0U19JUi03RTVvWVZGVlY0U0JUcDlPODJMZ1paTW9VUUp2M3VaSUFKVl91TENySDVHYXQ0RVQ0SlBEWUlTOUHSAbMBQVVfeXFMTVRZSG13RHl2RzVyQWtTSE9pb09YdldWYXcwSXBBOXRDeERqRGdwQXZFd2NfS2tjY0NxbDJwbTgybXFHeldfOHBaeVo5RGNRVnBsOXRya3JTTHc4T0RYS09BdGIydkFpMHlKX056NDhLc2w3a1o0ZHJzQkdRamtfMmZyQjB4MWktOEZqVXRfRXhfNWVwQVdwSUozemRzemkwR2puUmxBRFVDSHZBQXFZeUVIRDA?oc=5"
+    "date": "2026-10-12",
+    "published": "2026-10-12T00:22:41+00:00",
+    "source": "The Washington Post",
+    "title": "Saudi Arabia vows retaliation against Houthis after airport strike kills at least 12",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T18:18:11+00:00",
+    "published": "2026-10-11T22:45:41+00:00",
     "source": "Reuters",
     "title": "Saudi Arabia reports injuries in new attack at Riyadh airport, day after strike kills 13",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSEo0VkFTZkY2VzMzeFV0OVRVbWN4aHFzaXFjV0FBN05uaEFONHhQVTN2a3JJM09NdFBzY1R3MnRrUFZOeFZfUDItOUd1NkxiT3dfOWduTHJKTlBzSGsyN3VCYTNkWG1ZTWlZMUpzbDdrc1dOZUs3VDRwa0lHN21tNnFNdFhQYUxoNmdfN1Zyb3FMRm04RzRVei0zY3FKN0FoY2JYTGFodjYtemdITVpKVXk3NlR2QXFIMU9YMnUtX004QW1GZ0UzZA?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T17:30:41+00:00",
-    "source": "NBC News",
-    "title": "Saudi airport struck again a day after deadly attack",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd3M5MTVOZmhBYU5OT0RNMHd6dmN0RWgzb2hNRnRaYmRlbFZnQzB3TTVZWUZucDZXekNkSlFxS21TS2JhNUxJSElTNms1Q0hGOGYzUk9vWndFWHVoVlQ2emF1bFhMOWFZOGdGVDQ5Q0NsMHlUa1NIQ2t2SmpNTmcwWkFBSGE2aTRkanoyUF9iWk5xMUxqVGE5bFhmeFl0bFA5cWpV?oc=5"
+    "published": "2026-10-11T22:40:00+00:00",
+    "source": "AP News",
+    "title": "Saudi airport passenger terminal is struck again, a day after 12 were killed",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObXk0VFduYU1ldGM0N3RTZGlUVEFiOV9GdHBJTExieVVQT0preW1GRGVHLUZHN3VyZ3pYUzdXbGYzVHdHdUsweFFUekY3Nk13LTl3dWtmdmpiMDh5ZXR3Sm9kZ1VvbFlZNFU3UXgzYlJEaml0VGNHS09ia0E3QUJERDcwRkRsd2UzNWZYWjZlUDJWYUtoZlh6Ng?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T17:03:30+00:00",
-    "source": "DW",
-    "title": "Houthis warn airlines after deadly Riyadh airport strike",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSXBfMW9EeVV6ci1RZnZuSjhkQ3RlekhSdXoxeHUyMDVvUEJya2lFRXNtWWRsQmZ1ZjcwXzR6OEZKbUJFX3dETTByNlFNdTdBZkdnUG84UlhQNTk0R3E3VGdQRFZNcXc2UHpGeVJfWUEta3hQTnhtRUJ6WnVrWlFsTld1Z1hBUldyQ01lRllXTm5GdGFFNEpRWA?oc=5"
+    "published": "2026-10-11T22:12:34+00:00",
+    "source": "Reuters",
+    "title": "FAA tells US airlines to exercise caution in Saudi Arabia flights, citing safety risks",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZEo2X2hOdlFVcmxza3ZQRmsxQnJlQ3JHbTN3WGZLWGhYRllIS2lOR0hUYkJwQWtJbkJFUTFWUzdiS005ZkgxR2pDY0dqQnQweGZ3Qm1qMHN3aUhCVzZxSzlyTVltbGVudkFvc2xaZFRBSzRZaFJQUlRQZWp4UlVrckxzcW9QUWlMaDN1ZjZ0UklUc1dWTi1yTjB5eFJYX19zeWdJX3lfTmZFTUh5OGZwb0Z3NnVIY1cxOE0tR1RvSE1pLUhkXzdEYV9GZUQtdw?oc=5"
    },
    {
     "date": "2026-10-11",
-    "published": "2026-10-11T16:52:41+00:00",
-    "source": "The Washington Post",
-    "title": "Saudi Arabia vows major response after Houthi strike on airport kills 12, injures 309",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR094dC1TQTlURWVUOFpLQUc0a1kxa1cwM1h5aDQ3bmxzdk9jdk50VU9UaEVNbjFtVHpWNGZ5STNpeFB2RlJBUGxheVYza29vbnowUXMzYUh5VmVzTVR2WjhFQjU5M0RlZE9DWkI0UGtCZDEtMF9wUG9vcmtPalI1REsxYXNOYzhNNTJmaGh6Y2tVdVF6Z2F2WXdWMHEtbC11R1dXdnpyZmhkZmQtNWNpZFBvM2tkeS01WC1oRVVfRQ?oc=5"
+    "published": "2026-10-11T20:00:54+00:00",
+    "source": "Al Jazeera",
+    "title": "Yemen fighting expands as Houthis attack Saudi airport again: What to know",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDVTS1ZGSF8wX1ZNRk8wdUFmVFd5SmkyNWlkZmktVFRNNUxqSWxwUF8tT01GN2d0RzNtWmxSY0Y5aHJ1YlBWWHB3cjh4OXRjczc0UlNtWlJFc3JpUzlPMkZTS0laSDVOakFxZTVpNVZ0U19JUi03RTVvWVZGVlY0U0JUcDlPODJMZ1paTW9VUUp2M3VaSUFKVl91TENySDVHYXQ0RVQ0SlBEWUlTOUHSAbMBQVVfeXFMTVRZSG13RHl2RzVyQWtTSE9pb09YdldWYXcwSXBBOXRDeERqRGdwQXZFd2NfS2tjY0NxbDJwbTgybXFHeldfOHBaeVo5RGNRVnBsOXRya3JTTHc4T0RYS09BdGIydkFpMHlKX056NDhLc2w3a1o0ZHJzQkdRamtfMmZyQjB4MWktOEZqVXRfRXhfNWVwQVdwSUozemRzemkwR2puUmxBRFVDSHZBQXFZeUVIRDA?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-11T20:13:35Z"
+  "last_ok_at": "2026-10-12T00:27:58Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-11T20:13:36Z",
+  "fetched_at": "2026-10-12T00:27:59Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 30,
-  "baseline": 29,
-  "baseline_n": 5,
+  "count": 37,
+  "baseline": 43.0,
+  "baseline_n": 8,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3492,14 +3457,15 @@
    "2026-10-11T01": 37,
    "2026-10-11T08": 34,
    "2026-10-11T15": 30,
-   "2026-10-11T20": 30
+   "2026-10-11T20": 30,
+   "2026-10-12T00": 37
   },
-  "last_ok_at": "2026-10-11T20:13:36Z"
+  "last_ok_at": "2026-10-12T00:27:59Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-11T20:13:36Z",
-  "last_ok_at": "2026-10-11T20:13:36Z"
+  "fetched_at": "2026-10-12T00:28:00Z",
+  "last_ok_at": "2026-10-12T00:28:00Z"
  }
 }
