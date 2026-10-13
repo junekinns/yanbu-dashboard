@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T07:38:40Z",
+ "generated_at": "2026-10-13T15:53:16Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T07:38:40Z",
+  "fetched_at": "2026-10-13T15:53:16Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 6,
   "baseline": 2.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-13T07:38:40Z"
+  "last_ok_at": "2026-10-13T15:53:16Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T07:38:55Z",
+  "fetched_at": "2026-10-13T15:53:31Z",
   "events": [
    {
     "date": "2026-10-13",
@@ -233,7 +233,7 @@
     "title": "후티 반군, 사우디 리야드 또 공격…연합군 \"미사일 요격해\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uQ2ZGWnh6YzgyYTdKaXB5ZHgyUXdESzRGQTVqaVU1b3NxbzVzTDlkZC1ScUEya05Ha2xnUXY3aHhtOXRfcWRPZFF3MlVuRmJIeVozakI1NTAyS0VTZGRVYmtn?oc=5",
     "source": "뉴스1",
-    "outlets": 1
+    "outlets": 5
    },
    {
     "date": "2026-10-12",
@@ -1295,14 +1295,51 @@
   "history_days": 31,
   "history_since": "2026-09-13",
   "today": "2026-10-13",
-  "last_ok_at": "2026-10-13T07:38:55Z"
+  "last_ok_at": "2026-10-13T15:53:31Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T07:38:57Z",
+  "fetched_at": "2026-10-13T15:53:33Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-13 16:58",
+    "iso": "2026-10-13T16:58:24+03:00",
+    "places": [],
+    "text_ar": "قواتنا المسلحة تتصدى في هذه الأثناء لتشكيلات العدو السعودي القتالية التى تستهدف العاصمة صنعاء. http://t.me/army21ye",
+    "text_ko": "그동안 우리 군대는 수도 사나를 목표로 사우디아라비아 적의 전투 조직과 대치하고 있습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3880"
+   },
+   {
+    "time": "2026-10-13 16:15",
+    "iso": "2026-10-13T16:15:01+03:00",
+    "places": [
+     "리야드",
+     "담맘"
+    ],
+    "text_ar": "تهيب القوات المسلحة اليمنية بجميع المواطنين بالإخلاء الفوري والابتعاد عن الأهداف التي ستقوم قواتنا المسلحة باستهدافها في حال أقدم العدو السعودي على استهداف ما أعلن عنه في العاصمة صنعاء مقر شركة أرامكو في الدمام مطار خالد في الرياض مصفاة الرياض التابعة لشركة أرامكو http://t.me/army21ye",
+    "text_ko": "예멘 군은 사우디의 적이 담맘의 아람코 본사, 리야드의 칼리드 공항, 아람코의 리야드 정유소에서 발표된 것을 목표로 삼을 경우 모든 시민들에게 즉시 대피하고 우리 군이 목표로 삼을 목표에서 멀리 떨어져 있으라고 촉구합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3878"
+   },
+   {
+    "time": "2026-10-13 15:52",
+    "iso": "2026-10-13T15:52:15+03:00",
+    "places": [],
+    "text_ar": "القوات المسلحة اليمنية تجدد تحذيرها لجميع الموظفين من الخبراء والمهندسين والعمال في جميع المنشآت النفطية السعودية من التواجد في الأماكن التي تمثل أهدافا لقواتنا حتى لا يعرضوا حياتهم للخطر سواء التي تم استهدافُها من قبل أو غيرها كما تجدد تحذيرها لشركات الملاحة الجوية في المجالات والمطارات والمسافرين والعاملين فيها التي تم الإعلان عنها سابقا. http://t.me/army21ye",
+    "text_ko": "예멘군은 모든 사우디 석유 시설의 전문가, 엔지니어 및 근로자의 모든 직원에게 이전에 표적이 되었든 다른 사람이 표적이 되었든 자신의 생명을 위협하지 않도록 우리 군의 표적이 되는 장소에 있지 말라는 경고를 갱신합니다. 또한 이전에 발표된 분야, 공항, 여행자 및 근로자의 항공 항법 회사에 대한 경고도 갱신합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3877"
+   },
+   {
+    "time": "2026-10-13 15:11",
+    "iso": "2026-10-13T15:11:40+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "القوات المسلحة اليمنية تحذر العدو السعودي بأن أي استهدافات في العاصمة صنعاء ستقابل برد قاس ومؤلم في عاصمة العدو السعودي الرياض. http://t.me/army21ye",
+    "text_ko": "예멘 군대는 사우디아라비아 적에게 사우디아라비아 적 리야드의 수도 사나의 모든 목표물이 가혹하고 고통스러운 대응을 받게 될 것이라고 경고합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3875"
+   },
    {
     "time": "2026-10-13 05:57",
     "iso": "2026-10-13T05:57:07+03:00",
@@ -2009,22 +2046,22 @@
    }
   ],
   "mentions7d": {
-   "리야드": 10,
+   "리야드": 12,
    "카미스무샤이트": 8,
-   "메디나": 6,
-   "메카": 6,
    "나즈란": 6,
+   "메카": 5,
+   "메디나": 5,
    "타이프": 5,
-   "지잔": 5,
-   "담맘": 3,
-   "아브하": 2
+   "담맘": 4,
+   "지잔": 4,
+   "아브하": 1
   },
-  "last_ok_at": "2026-10-13T07:38:57Z"
+  "last_ok_at": "2026-10-13T15:53:33Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T07:38:59Z",
+  "fetched_at": "2026-10-13T15:53:39Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3388,97 +3425,97 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-13T07:38:59Z"
+  "last_ok_at": "2026-10-13T15:53:39Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T07:39:02Z",
+  "fetched_at": "2026-10-13T15:53:43Z",
   "kr": [
    {
     "date": "2026-10-13",
-    "published": "2026-10-13T03:16:46+00:00",
+    "published": "2026-10-13T13:41:07+00:00",
     "source": "MBC",
-    "title": "사우디 \"후티 미사일 요격\"‥후티 \"미국 개입 말라\"",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yeC01c0NzN1BYSmw1dGliYjhGMmVaUmo4aXAzYlVfUzgyMmhqQ1h2RDFPZldCN2FCUG1LdjdBWkJ5V0FDM0xZTEM3eWM0R1k4dUNEamswVkhzLVJfQ3lCVG5wZmQ1eFhGY0ZDU3RiUGRKeG5lZmxqUdIBeEFVX3lxTFBhc0c5aHZucVFDblNtZnlWUkhvX2JDNFAzTzB6Zl81LVM0LWpGWmNQbmF4VFMtbTZvMjRCaEVfemRMd2xMbVZ3Ums5MFZaUVg5OE03aHkwM3pGLWUtaW9CTHp6THhyLURISENGTEJWamxkdHExS2hLTA?oc=5"
+    "title": "'난타전' 사우디-후티, 석유 시설 공습 맞경고",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1idmRmellvaVcwSXFvcVg2dFhZNXkxTWxKX2U0MnlKZ0RpWnFhWUktTTVMemFSNFE0bTJ1dW9TaFBKLWlBdlFaLVRUa2wxaXVleHdSNUNEYy1kbnB4RGdNWkZCRXVGZHdBai1jc3EtZ1Y2Y0l30gF0QVVfeXFMTndJVkRRSkEtbWxONWpZeEJGQ2JNcEx5ejUxZ2JONjdzWkZNa0VmYnRZdmp0OWlqYy1fUEJYdXBVelVna3NONGpMR3NLVzR5NUprV0hmajU2eUoxWWNodjRrOGQzZEpSWHZobzJnTFZ3OGhmR2I?oc=5"
    },
    {
     "date": "2026-10-13",
-    "published": "2026-10-13T01:59:51+00:00",
-    "source": "뉴스1",
-    "title": "\"후티, 이란전으로 美개입 여력 없다 판단해 사우디 공격 강화\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZX1hyQXdtRWE4ZTFZWnJBN2Fka1hFUzJUSlFXOUZBRE5xNzNWT3A0ZmtUQllwVFpYdGlSZ2hYcFg0RklLLTVQZWZWNjhwaUFhZnc5cVZqVHMyeGY5TmNyQWdR?oc=5"
-   },
-   {
-    "date": "2026-10-13",
-    "published": "2026-10-13T01:58:00+00:00",
-    "source": "YTN",
-    "title": "사우디-후티, 수도 맞공습 계속...\"개입 검토\"vs\"중재\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ERWtpdElHZXo4Vm5tck4tMTllUjNfMkExZ1doTU0yVnRpYnZMM1RQbHhBUWVON181TmxXdzlMT1FtZG1wREs2M3lsUVF4VnR3c0VMc05EeWNQbGViX3c?oc=5"
-   },
-   {
-    "date": "2026-10-13",
-    "published": "2026-10-13T01:40:00+00:00",
+    "published": "2026-10-13T12:29:00+00:00",
     "source": "연합뉴스",
-    "title": "후티, 사우디 공항 또 타격…\"미 개입시 보복\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XWlhmNWNtak1SMnRXOEItUWxzSmwwUDJTd2tnV2RMdzRraG5XLTIyd0hZbEhkWS02WkFJX0k5d0VkNjZqS1dXcE55aTFXQlA0cWlWOG1CcDUwajJJYW8wdEFGMTBnY3c?oc=5"
+    "title": "사우디 \"리야드서 드론 3대 요격\"…후티 \"예멘 3차례 공습\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11ZnNOZXlvWjBmWlZzMV9nYzUtVFIxZ0hDNTV0TmJhdXdMV0VLeWFfVG9qekpCTlQ3X2Z0M0lDajBwaEhld2tvWG91ZWNEVzBpWDZkRnpHZWg4ZHFSaWlKTExfSUVkcmM?oc=5"
    },
    {
     "date": "2026-10-13",
-    "published": "2026-10-13T01:27:00+00:00",
-    "source": "YTN",
-    "title": "트럼프, 후티의 사우디 공세에도 개입 망설이는 이유 [이슈톺]",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91UUFxMjBkeEpIOWV0cEl0aEx6ZXBxcFdyUksyTFZfa2puSG5XVEdVVTUzOXBMT0EtZWNSUFJFcmRlZVZvbV9sdlBIS0xaTk1hVGkxN0IyRVVaQzdzaXc?oc=5"
+    "published": "2026-10-13T12:23:33+00:00",
+    "source": "연합뉴스",
+    "title": "사우디 주도 연합군 \"리야드 북부서 드론 3대 요격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pREV2MWRDME5HaU5MX2NucWRkdExKMGVFSzhvQWNjVFRybHhLT2RYeDhtby1ab3ZvUzF3dHhyamZRZ2Y1bFF0Q0R1WFQ3LVI5Um9SSTM1SXFzZGR6eFJzV9IBYEFVX3lxTE1pREV2MWRDME5HaU5MX2NucWRkdExKMGVFSzhvQWNjVFRybHhLT2RYeDhtby1ab3ZvUzF3dHhyamZRZ2Y1bFF0Q0R1WFQ3LVI5Um9SSTM1SXFzZGR6eFJzVw?oc=5"
+   },
+   {
+    "date": "2026-10-13",
+    "published": "2026-10-13T11:22:00+00:00",
+    "source": "한겨레",
+    "title": "이란 지원 받은 후티, 사우디 공항 연일 공습…미사일·드론 섞어쏴",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjc0haenYteU8yYzY1bndkWlh4blFwVkRybmUtWThwTGZtWldFQkRuZWhYVWMwX3FCWHJWWVZ1Q1lXTDkzNjBtZFNzN0VEck9rNGJwYUpnUF9BeGxZNVpjeE54VVVubUU5RVI0XzY4YWJLNE0?oc=5"
+   },
+   {
+    "date": "2026-10-13",
+    "published": "2026-10-13T09:49:44+00:00",
+    "source": "MBC",
+    "title": "후티 드론에 교란된 사우디 방공망‥'대응 실패' 자체 조사",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMb25weHp2dG9JYWxPTkprYUM4ZElyd0tFSTFmblNXSkFvWDdldXF0dXRyc1ZpRXBGejQ4QkpFLXkwSDdhc1hPVktMMVloUHZOcmtNRTh1dk1ZMEtaS0VIMlZBQWFmbHNCeXRaUnpWSmsybnBU0gF0QVVfeXFMUHU3WDZOUzN3RlM4STh5eDlZQ0h0VUtTa1ZLVzVUX1k0UU5XR0JlbHJuVFAwb0l3elFpdkdOeldyTThPT1d2bmVsempaWVZiaUFva0lOa01HNlR3ZGRaSE5TakxZMjY1Mlh3LWs0NE1jejBheU4?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-13",
-    "published": "2026-10-13T04:30:09+00:00",
-    "source": "BBC",
-    "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5"
+    "published": "2026-10-13T15:26:09+00:00",
+    "source": "CNN",
+    "title": "Why billions spent on defense haven’t shielded Saudi Arabia from Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOalAxZ2ZJLU1qbnBGcDh3OHRPWnhxUDI2dGNYb2N0ejZ2YVFhYXBTQWJ4WGhBbzl0ZXhVT3hZU2tYSy1hNjlOb2pZSDZyb0lKSmtjRWZKcDNCM0NBUmRVRWZ4VTNWbURIa0FBbzF0NmNiMDhEQ0UxVHYxOWQtc1U4SmV2cVdPVkhmYlE?oc=5"
    },
    {
     "date": "2026-10-13",
-    "published": "2026-10-13T03:45:00+00:00",
-    "source": "CNBC",
-    "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54ZkU0elVpRTVVZkFtMGJtbm05b2padDh0eVJVdjBfZk9XNHN0aDBYZV9tU2JTdHlwMnY5VGRSN043MkUxU1RTVEN3Vk1JV1pfRkJkT3ZlZXNQVERBR0pOaHVIeFVPbGRGakNvWmthQ1FsNEtzTlg3cFpn0gF_QVVfeXFMTnBkQlZnZkpDYTRoY2ZaMHlnWWp4eFF5LUNZTTF5ZHNQaFlqem01T3hPUGI1VHBUc0VMdW1mREp4elRwSmEzVFd5NTRuOHNFMTVrelh5cGJwYTlsQ2N0NGhZRk1hZVpxbGV6bzdQVjAwX3JtNnBLVTAwYVQ1NzlSWQ?oc=5"
+    "published": "2026-10-13T15:04:37+00:00",
+    "source": "The Washington Post",
+    "title": "As Houthis strike Riyadh, Saudi Arabia confronts the costs of U.S. war on Iran",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXU0Wi0tVm5aMk5WYWZNYTBlLW9uVktRN2VyRUxPQUpUazM3cXVLRnZNMF9ad01tVWFZUlBRWV9WVU9BOGoxXzdFWWMyQndhclVId3R5VlBIeTBOTF9JbnN4eVdnWThmd19ZWktfYlJwYTdHNkRZaGFtX3Roci12TWR3OE5EVi1ERDhWOHlGSV9XTDRScG9uakVjRlVzTnBpYk0zZWthdHg4SG9tRmVkVkZsWDM?oc=5"
    },
    {
     "date": "2026-10-13",
-    "published": "2026-10-13T03:08:35+00:00",
-    "source": "Al Jazeera",
-    "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanVwNWhNU0N5c0tUNUlMQk84TEVXSlJNZnplNjE1VEhrbDFaZnVPeFN0VURnMXBuWENaR3Y2ODdnY3dIc0xmaHpnUjVXM0dTcFZxcndxamo2VE1VbWsycklpNmVoUGg2MWhzV0I0MzlGVUUzdEVmUWg5bWN4TEk3VzdhaW9JcVR2LU42cm9zeTJ6elVaRmlUU0VHYjVzRHBFVXNtaFdiMTJSS0pHMVAzVVBNaHRhd9IBuwFBVV95cUxPNlVqVV9MaVV3c2VNWG51TWhwQ1k1Y1NxVmlULTdtUmsyRmk5QWFFdGV3Z2RVMEZaQ1RlZzEzYjBKWVBCVmNjcW0yMkotMXk4ekctZ3hrZm5vWXFFYmR0dUpZdHhiRlJyT09nNVRoN2lISWhtemExdHNmajVfZmRSRllma01nRTEzWjdWQml1cTB2OXVPWVI3WHJzVU92VEdYcHFhTlB4QW91WXRaWl9lbmNHQ1k0bVR3Q2xr?oc=5"
+    "published": "2026-10-13T13:59:12+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Arabia Intercepts New Houthi Attacks as Conflict Drags On",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMmFPdkk2bElFdDJEQ3l3NWdMWGwzSEEyNWVLb0pHajNQSGlQMDdHblpDX2pSVzZoRG96MzU5TzA2clhlWWxHcGxQUkh4UmlRbkJBelRkZks1dlQxOWhQZFpMNVRDano4MWpSQ0N2c1dndksyYk1wUU40MVcwMFQ3Q0dhaUVubjlrUjR0Z01NY2ZJZ1ZncFo5TXkzbzVLRFpkdnJYSDdvcWlpclV0eVJZb2R2blc?oc=5"
    },
    {
-    "date": "2026-10-12",
-    "published": "2026-10-12T23:39:00+00:00",
+    "date": "2026-10-13",
+    "published": "2026-10-13T13:58:56+00:00",
     "source": "Reuters",
-    "title": "Saudi warning system stayed silent before deadly airport attacks",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGUtWGlRWGVfTVVCaFlXbDQ3UTA4bmlUN2QxdV9yT19EOUZGTkhKNW5xR2hQcDJmaE1pX1F1Tmg4TEZ6VTMxcWl5QzdHdVdZa2U1ZDF5Vm5ONGhhNDFPd00xLXZKNXVSaXJGYTB2QVV6dkJ6WmtBS29uMTNyNko5dlptaEdjWngxR2gxa3FfNTc4bzdmaElUOHVzZTVfN0oxeXhwdExKLWxycEpBRGNna0QzM2N5NGRfaVE?oc=5"
+    "title": "Saudi-led coalition orders evacuation of Yemen oil facility in Sanaa ahead of operation",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUHZtMnk3dUVFWmVkT2FmZVRqNWNrUUc5YkNkWVJMOEhWMmo1dnc2S3FlUlExbjFscTdlY3NQcExPejdxUlF1clZ5S1BKQ1JLdjhzaFdXT2l1YVBmN2VVSkFOSlJNNmlTR2w5d082MDR2b3RkY1VrTTlwWFhuclBteVRaTmtMRUczY0VPaWxBeVV1RE9vUE9kRFZaUlZEX0NnOXZqVnNtNlJIcFU3cnE2VVFTNzhfNVZ0TzZiQWFtSUJCdXJXYU5rU0JB?oc=5"
    },
    {
-    "date": "2026-10-12",
-    "published": "2026-10-12T22:54:00+00:00",
-    "source": "AP News",
-    "title": "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlFmZ0kwWmYtTnNQeVZ5dklfNXNiZlFLRDh6TEZrUEpLYmtFMk1IckdOeHBUb1YyQV9pbXRPeUpib1VXMEV3dHJtYWs5V1BDMnQzM0ZsSTk2cXVFQ0xYbGplWUlUSEhrZlpHbzZTX05xdElackFubFV0YUhudVFFNUo4cVpLazRFaUlINkcySkVVcWJFU3ZIRHVB?oc=5"
+    "date": "2026-10-13",
+    "published": "2026-10-13T13:51:23+00:00",
+    "source": "France 24",
+    "title": "French embassy in Riyadh tells citizens to avoid Saudi airports targeted by Houthis",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObWhXbnpvdEJ1cUFVcjQ0RGxHdU9MRVcxSlJtdnB6cUw5cnV1SUFGR1IzTzFWaFVOWFJKQ19tbG1WWUQ3cG5pZ0VaNTk2XzQ4OXdPN3ViM1pVTkxOa2hJRVpTME05X3kyV0l1RWt0bnljb3FvajE4M042LVVVc1YwWGJtRDQ2Vk5QdlZJQmNyQV9oN01xTkNockN1U0J1WllRaXpla0JQMndkcFI1N1Y2aDFjMTdwY21FbWV4TWxFYXRmelotVzlLX01WVHo?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-13T07:39:02Z"
+  "last_ok_at": "2026-10-13T15:53:43Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T07:39:03Z",
+  "fetched_at": "2026-10-13T15:53:44Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 21,
-  "baseline": 33,
-  "baseline_n": 3,
-  "tier": "감소",
+  "count": 30,
+  "baseline": 36.0,
+  "baseline_n": 6,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3608,14 +3645,15 @@
    "2026-10-12T07": 33,
    "2026-10-12T17": 28,
    "2026-10-13T00": 42,
-   "2026-10-13T07": 21
+   "2026-10-13T07": 21,
+   "2026-10-13T15": 30
   },
-  "last_ok_at": "2026-10-13T07:39:03Z"
+  "last_ok_at": "2026-10-13T15:53:44Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-13T07:39:03Z",
-  "last_ok_at": "2026-10-13T07:39:03Z"
+  "fetched_at": "2026-10-13T15:53:44Z",
+  "last_ok_at": "2026-10-13T15:53:44Z"
  }
 }
