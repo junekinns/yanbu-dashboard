@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T00:33:00Z",
+ "generated_at": "2026-10-13T07:38:40Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T00:33:00Z",
+  "fetched_at": "2026-10-13T07:38:40Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -165,38 +165,38 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-10-13",
+    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321119/detail2?ntnCd=107",
+    "summary": "최근 사우디아라비아 내 미사일·무인기 공격이 지속되고 있는바, 현지 체류 및 방문 예정인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ (여행경보 3단계) 외교부는 10.11.(일)부로 사우디아라비아 전역의 여행경보를 3단계(출국권고) 로 상향 조정하였습니다. 사우디 방문을 계획 중인 우리 국민께서는 불요불급한 방문을 취소하거나 연기하여…"
+   },
+   {
+    "date": "2026-10-13",
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321118/detail2?ntnCd=107",
+    "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
+   },
+   {
     "date": "2026-10-12",
     "title": "주의 리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048658/detail",
     "summary": "(작성자: 주사우디대사관, 작성일: (SST) 26.10.10) 10.8.(목) 및 10.10.(토) 리야드 킹칼리드 국제공항에 대한 공격이 발생하였으며, 이로 인해 항공편 결항 및 회항 등 운항 차질이 발생하고 있습니다. 이에 주사우디아라비아 대한민국 대사관은 우리 국민 여러분께 당분간 킹칼리드 국제공항 및 주변 지역에 대한 접근을 가급적 피하실 것을 권…"
-   },
-   {
-    "date": "2026-10-11",
-    "title": "리야드 킹칼리드 국제공항 피격 관련 안전공지(10.10.)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321116/detail2?ntnCd=107",
-    "summary": "10.8.(목) 및 10.10.(토) 리야드 킹칼리드 국제공항에 대한 공격이 발생하였으며, 이로 인해 항공편 결항 및 회항 등 운항 차질이 발생하고 있습니다. 이에 주사우디아라비아 대한민국 대사관은 우리 국민 여러분께 당분간 킹칼리드 국제공항 및 주변 지역에 대한 접근을 가급적 피하실 것을 권고 드리며, 아래 안전수칙을 준수하여 주시기 바랍니다. ㅇ 리야드…"
-   },
-   {
-    "date": "2026-10-08",
-    "title": "후티 반군의 중부지역 공격 관련 안전 유의 안내(10.8.)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321115/detail2?ntnCd=107",
-    "summary": "10.7.(수) 사우디 민간항공청(GACA)은 후티 반군의 리야드 인근에 대한 공격 결과로 킹칼리드 국제공항 인근에서 사망자 1명, 부상자 8명 등 인명피해가 발생했다고 발표하였습니다. 이렇듯 최근 사우디 내 공항 등 주요 시설에 대한 공격이 이어지고 있는 만큼, 사우디에 체류하거나 방문 중인 우리 국민께서는 신변안전에 각별히 유의하여 주시기 바랍니다. ㅇ…"
    }
   ],
-  "last7d": 3,
+  "last7d": 6,
   "baseline": 2.5,
-  "tier": "평시",
-  "last_ok_at": "2026-10-13T00:33:00Z"
+  "tier": "증가",
+  "last_ok_at": "2026-10-13T07:38:40Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T00:33:21Z",
+  "fetched_at": "2026-10-13T07:38:55Z",
   "events": [
    {
     "date": "2026-10-13",
-    "time": "02:18",
-    "iso": "2026-10-13T02:18:31+03:00",
+    "time": "01:54",
+    "iso": "2026-10-13T01:54:29+03:00",
     "city": "리야드",
     "type": "경보",
     "weapon": null,
@@ -205,21 +205,21 @@
     "title": "리야드에 공습 경보…호날두의 알나스르 ACLE 경기 1시간 지연",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Zb083dU1GT0hEWDBoa2dIRm9uWG9Nc2RQSWhVSnFISTA1QUNSU01xa3ZWS2lZMnRMbWg5THcybld5SkJFWDJmbzNqcUw4d2RsdkwtaURGNGozQjVFNlBSZTBJZHhlQVRKWFE?oc=5",
     "source": "SBS",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-10-13",
-    "time": "01:57",
-    "iso": "2026-10-13T01:57:19+03:00",
+    "time": "01:32",
+    "iso": "2026-10-13T01:32:00+03:00",
     "city": "리야드",
     "type": "피격",
-    "weapon": null,
+    "weapon": "미사일",
     "lat": 24.71,
     "lon": 46.68,
     "title": "후티 공격 여파에 사우디 리야드 공항 폐쇄 연장…17일까지 중단",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HcWJEMThMaXU5WkpsNlFEVHlGVGV2alJ1ZndraWJuTlJzSHVCQ3haUGY4OVlpaTA1dmFKUFl4V0hRZC04SHhxR1FoQ2FBQUNLSzUxbGpGXzBza0dfdEptatIBeEFVX3lxTFBSNFZNUENmYW9mWTY0SFdTVHFHQjFKOTB4eEpkYWVvQU5taUt0VlBsR0luQlQ3WjhJYzlKcEcxMWxXakdBMVNpdk9SLVBkcWZRN3AzOV8wTlEwU2xoaW0wTjZNV18yNHhFWVFPUFZTTkV5YXBFbDBISw?oc=5",
     "source": "뉴시스",
-    "outlets": 1
+    "outlets": 5
    },
    {
     "date": "2026-10-13",
@@ -1295,14 +1295,22 @@
   "history_days": 31,
   "history_since": "2026-09-13",
   "today": "2026-10-13",
-  "last_ok_at": "2026-10-13T00:33:21Z"
+  "last_ok_at": "2026-10-13T07:38:55Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T00:33:22Z",
+  "fetched_at": "2026-10-13T07:38:57Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-13 05:57",
+    "iso": "2026-10-13T05:57:07+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من إسقاط طائرة استطلاع مسلح نوع \"وينق لونق 2\" (Wing Loong II) تابعة للعدو السعودي وذلك أثناء قيامها بمهام عدائية في أجواء محافظة صعدة، وقد تم استهدافها بسلاح مناسب. http://t.me/army21ye",
+    "text_ko": "신 덕분에 우리 군은 사우디아라비아 영공에서 적대적 임무를 수행하는 동안 사우디 적의 무장 정찰기 \"Wing Loong II\" 를 격추시킬 수 있었고 적절한 무기로 표적이 되었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3874"
+   },
    {
     "time": "2026-10-12 22:02",
     "iso": "2026-10-12T22:02:25+03:00",
@@ -2011,196 +2019,20 @@
    "담맘": 3,
    "아브하": 2
   },
-  "last_ok_at": "2026-10-13T00:33:22Z"
+  "last_ok_at": "2026-10-13T07:38:57Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T00:33:25Z",
+  "fetched_at": "2026-10-13T07:38:59Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
-    "lat": 26.69351,
-    "lon": 50.08385,
-    "frp": 5.17,
-    "date": "2026-10-05",
-    "time": "0858",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 17.2871,
-    "lon": 43.59988,
-    "frp": 27.17,
-    "date": "2026-10-05",
-    "time": "1036",
-    "confidence": "low"
-   },
-   {
-    "lat": 23.86289,
-    "lon": 47.45533,
-    "frp": 5.94,
-    "date": "2026-10-05",
-    "time": "1038",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.86343,
-    "lon": 47.45624,
-    "frp": 5.12,
-    "date": "2026-10-05",
-    "time": "1038",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.63274,
-    "lon": 49.42605,
-    "frp": 1.18,
-    "date": "2026-10-05",
-    "time": "1038",
-    "confidence": "low"
-   },
-   {
-    "lat": 25.96227,
-    "lon": 49.23174,
-    "frp": 2.11,
-    "date": "2026-10-05",
-    "time": "1041",
-    "confidence": "low"
-   },
-   {
-    "lat": 26.48544,
-    "lon": 49.95818,
-    "frp": 2.25,
-    "date": "2026-10-05",
-    "time": "1041",
-    "confidence": "low"
-   },
-   {
-    "lat": 26.7808,
-    "lon": 49.95623,
-    "frp": 2.37,
-    "date": "2026-10-05",
-    "time": "1041",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.78611,
-    "lon": 49.95569,
-    "frp": 2.37,
-    "date": "2026-10-05",
-    "time": "1041",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.53205,
-    "lon": 49.1376,
-    "frp": 2.79,
-    "date": "2026-10-05",
-    "time": "2303",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.53154,
-    "lon": 49.1395,
-    "frp": 2.64,
-    "date": "2026-10-05",
-    "time": "2303",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.95256,
-    "lon": 49.60754,
-    "frp": 2.67,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.78394,
-    "lon": 49.95572,
-    "frp": 1.93,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.07152,
-    "lon": 50.54305,
-    "frp": 1.56,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.96434,
-    "lon": 49.23209,
-    "frp": 1.65,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.63639,
-    "lon": 49.42556,
-    "frp": 5.41,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.63199,
-    "lon": 49.42443,
-    "frp": 3.58,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.29223,
-    "lon": 46.30727,
-    "frp": 2.04,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.54538,
-    "lon": 53.91665,
-    "frp": 31.48,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "high"
-   },
-   {
-    "lat": 22.54614,
-    "lon": 53.91858,
-    "frp": 26.45,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.97771,
-    "lon": 38.23938,
-    "frp": 1.77,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.62991,
-    "lon": 39.04628,
-    "frp": 2.54,
-    "date": "2026-10-05",
-    "time": "2305",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 16.73402,
-    "lon": 43.05262,
-    "frp": 0.89,
-    "date": "2026-10-05",
-    "time": "2307",
+    "lat": 22.70284,
+    "lon": 39.04163,
+    "frp": 4.64,
+    "date": "2026-10-06",
+    "time": "1019",
     "confidence": "nominal"
    },
    {
@@ -2252,6 +2084,22 @@
     "confidence": "nominal"
    },
    {
+    "lat": 22.70593,
+    "lon": 39.031,
+    "frp": 5.25,
+    "date": "2026-10-06",
+    "time": "2248",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.70469,
+    "lon": 39.03396,
+    "frp": 4.59,
+    "date": "2026-10-06",
+    "time": "2248",
+    "confidence": "nominal"
+   },
+   {
     "lat": 24.5984,
     "lon": 46.57512,
     "frp": 1.39,
@@ -2265,6 +2113,14 @@
     "frp": 1.51,
     "date": "2026-10-06",
     "time": "2248",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.70365,
+    "lon": 39.03228,
+    "frp": 2.16,
+    "date": "2026-10-07",
+    "time": "1002",
     "confidence": "nominal"
    },
    {
@@ -2372,6 +2228,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 22.55499,
+    "lon": 39.43537,
+    "frp": 2.05,
+    "date": "2026-10-07",
+    "time": "2229",
+    "confidence": "nominal"
+   },
+   {
     "lat": 21.10792,
     "lon": 39.23421,
     "frp": 1.15,
@@ -2394,6 +2258,14 @@
     "date": "2026-10-08",
     "time": "0941",
     "confidence": "nominal"
+   },
+   {
+    "lat": 22.55444,
+    "lon": 39.43576,
+    "frp": 1.97,
+    "date": "2026-10-08",
+    "time": "1121",
+    "confidence": "low"
    },
    {
     "lat": 27.19062,
@@ -3172,6 +3044,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 22.55368,
+    "lon": 39.4351,
+    "frp": 2.52,
+    "date": "2026-10-10",
+    "time": "2314",
+    "confidence": "nominal"
+   },
+   {
     "lat": 21.78493,
     "lon": 39.23948,
     "frp": 0.34,
@@ -3388,6 +3268,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 22.70589,
+    "lon": 39.0335,
+    "frp": 1.09,
+    "date": "2026-10-11",
+    "time": "2254",
+    "confidence": "nominal"
+   },
+   {
     "lat": 22.62912,
     "lon": 39.04642,
     "frp": 2.03,
@@ -3500,97 +3388,97 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-13T00:33:25Z"
+  "last_ok_at": "2026-10-13T07:38:59Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T00:33:27Z",
+  "fetched_at": "2026-10-13T07:39:02Z",
   "kr": [
    {
-    "date": "2026-10-12",
-    "published": "2026-10-12T23:43:20+00:00",
-    "source": "연합뉴스",
-    "title": "주미대사관 국정감사…후티, 사흘 연속 사우디 공격",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmQjRySzE2bFlyT1dNVDJYbEZMM0tBYUJSQWlpQ25OUXZDQzVmWlg4c2tVNHVCd0JyYXVFNDFidktCNFlBSWQzUThIcVhndlpqby02S1RMS1J6LWJtMTZRQXZtV3JxNUJLTkt6MUFpeWxNNXB5?oc=5"
-   },
-   {
-    "date": "2026-10-12",
-    "published": "2026-10-12T22:38:44+00:00",
-    "source": "연합뉴스",
-    "title": "후티, 사흘 연속 사우디 공격…미·러 '경유딜' 후폭풍",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CaVVhT2lzbWNnRmFCTlBGYWIxNTU4TlhFS0k4QXVUblJwNldMcXFac2pWMzk2TlFYYmpHNXd3eTVYX1ktbFRPYnc1cjd6R3NVSi1oWnk1eHV2TEt6U1ZWa2RoRGV5S2g4c0ljbjVIZ2poRXZz?oc=5"
-   },
-   {
-    "date": "2026-10-12",
-    "published": "2026-10-12T21:15:00+00:00",
-    "source": "KBS",
-    "title": "후티 또 공격, 사우디는 요격…“미국 개입하면 보복”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00MWpVSEl0eW1wTVdHZVNCZUJ3aG44VGZ4TE8tdmxRRm5sZE9DTV96alRubEwyVU5NakRVeWZ6eTNOYXRKSGN2Mi1sd1JjVWJjcG9QeXVvWndWZVk?oc=5"
-   },
-   {
-    "date": "2026-10-12",
-    "published": "2026-10-12T21:14:46+00:00",
+    "date": "2026-10-13",
+    "published": "2026-10-13T03:16:46+00:00",
     "source": "MBC",
     "title": "사우디 \"후티 미사일 요격\"‥후티 \"미국 개입 말라\"",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GQnJfQUU2YWlPYjRZcUFfS3c2amh0XzFsdVNfblJqUllFbGNPSUVkWkhsZURMWWRJaUZ1UDlpSkdOcHVHekF3ZjMxS1ROaVZsbzlZRHZqN2pjTU1QZlQ3bHJMSmhfZFVuTXRBQjN3M3Ywa3BrTmxDVXRR0gF6QVVfeXFMT09wdVRLZDhWcEdNcW5DRW9GV3NzNFpNa0RTbGFYdXRScU8tUTVjUVBMclRzYUgxa3QxWFNnY1VTVGhqa1BHMkp6WXcxTG1YdmRRbUJwV2JvTk5SOGFHa18xZDBUWG5qTDdRTm0yMGZnSWhkclhldUZveGc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yeC01c0NzN1BYSmw1dGliYjhGMmVaUmo4aXAzYlVfUzgyMmhqQ1h2RDFPZldCN2FCUG1LdjdBWkJ5V0FDM0xZTEM3eWM0R1k4dUNEamswVkhzLVJfQ3lCVG5wZmQ1eFhGY0ZDU3RiUGRKeG5lZmxqUdIBeEFVX3lxTFBhc0c5aHZucVFDblNtZnlWUkhvX2JDNFAzTzB6Zl81LVM0LWpGWmNQbmF4VFMtbTZvMjRCaEVfemRMd2xMbVZ3Ums5MFZaUVg5OE03aHkwM3pGLWUtaW9CTHp6THhyLURISENGTEJWamxkdHExS2hLTA?oc=5"
    },
    {
-    "date": "2026-10-12",
-    "published": "2026-10-12T20:37:00+00:00",
-    "source": "국민일보",
-    "title": "“사우디 전역 공항 이용말라”… 후티, 리야드 공항 또 미사일 공격",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVzZCUTExWncwX2F4VWNKYnZULWUyZHAwVjVINzFtVXoxanFJd2VCTHVXbWlGSzBpNFYzc3hJUFBpU2o2X29FLW1BQllVOGg2aFZrVXJ4LTRuZVpWMnBQNXlCTmpDeVd5bjI2VzFOVkhzS2ZTem9IcnJxalhzNHA0dXdBajJHLWdfY0ZLdFUySdIBbEFVX3lxTE9HRW5JQkpiRVFzX2RMSzk1TFdfZ3QyNVZoVEJpUVB5S2pGQS1VcmZBdlNsUEVyQWR6WWNqdDI5bC1BNFRuSWJ0Z0ZZMTh4UDhwazhOazRwTl9nTm1HR21USm5TeWVneW5uUU9HWA?oc=5"
+    "date": "2026-10-13",
+    "published": "2026-10-13T01:59:51+00:00",
+    "source": "뉴스1",
+    "title": "\"후티, 이란전으로 美개입 여력 없다 판단해 사우디 공격 강화\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZX1hyQXdtRWE4ZTFZWnJBN2Fka1hFUzJUSlFXOUZBRE5xNzNWT3A0ZmtUQllwVFpYdGlSZ2hYcFg0RklLLTVQZWZWNjhwaUFhZnc5cVZqVHMyeGY5TmNyQWdR?oc=5"
+   },
+   {
+    "date": "2026-10-13",
+    "published": "2026-10-13T01:58:00+00:00",
+    "source": "YTN",
+    "title": "사우디-후티, 수도 맞공습 계속...\"개입 검토\"vs\"중재\"",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ERWtpdElHZXo4Vm5tck4tMTllUjNfMkExZ1doTU0yVnRpYnZMM1RQbHhBUWVON181TmxXdzlMT1FtZG1wREs2M3lsUVF4VnR3c0VMc05EeWNQbGViX3c?oc=5"
+   },
+   {
+    "date": "2026-10-13",
+    "published": "2026-10-13T01:40:00+00:00",
+    "source": "연합뉴스",
+    "title": "후티, 사우디 공항 또 타격…\"미 개입시 보복\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XWlhmNWNtak1SMnRXOEItUWxzSmwwUDJTd2tnV2RMdzRraG5XLTIyd0hZbEhkWS02WkFJX0k5d0VkNjZqS1dXcE55aTFXQlA0cWlWOG1CcDUwajJJYW8wdEFGMTBnY3c?oc=5"
+   },
+   {
+    "date": "2026-10-13",
+    "published": "2026-10-13T01:27:00+00:00",
+    "source": "YTN",
+    "title": "트럼프, 후티의 사우디 공세에도 개입 망설이는 이유 [이슈톺]",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91UUFxMjBkeEpIOWV0cEl0aEx6ZXBxcFdyUksyTFZfa2puSG5XVEdVVTUzOXBMT0EtZWNSUFJFcmRlZVZvbV9sdlBIS0xaTk1hVGkxN0IyRVVaQzdzaXc?oc=5"
    }
   ],
   "en": [
    {
+    "date": "2026-10-13",
+    "published": "2026-10-13T04:30:09+00:00",
+    "source": "BBC",
+    "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5"
+   },
+   {
+    "date": "2026-10-13",
+    "published": "2026-10-13T03:45:00+00:00",
+    "source": "CNBC",
+    "title": "Oil prices fall as traders assess Russian diesel supply prospects and Saudi-Houthi conflict",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE54ZkU0elVpRTVVZkFtMGJtbm05b2padDh0eVJVdjBfZk9XNHN0aDBYZV9tU2JTdHlwMnY5VGRSN043MkUxU1RTVEN3Vk1JV1pfRkJkT3ZlZXNQVERBR0pOaHVIeFVPbGRGakNvWmthQ1FsNEtzTlg3cFpn0gF_QVVfeXFMTnBkQlZnZkpDYTRoY2ZaMHlnWWp4eFF5LUNZTTF5ZHNQaFlqem01T3hPUGI1VHBUc0VMdW1mREp4elRwSmEzVFd5NTRuOHNFMTVrelh5cGJwYTlsQ2N0NGhZRk1hZVpxbGV6bzdQVjAwX3JtNnBLVTAwYVQ1NzlSWQ?oc=5"
+   },
+   {
+    "date": "2026-10-13",
+    "published": "2026-10-13T03:08:35+00:00",
+    "source": "Al Jazeera",
+    "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOanVwNWhNU0N5c0tUNUlMQk84TEVXSlJNZnplNjE1VEhrbDFaZnVPeFN0VURnMXBuWENaR3Y2ODdnY3dIc0xmaHpnUjVXM0dTcFZxcndxamo2VE1VbWsycklpNmVoUGg2MWhzV0I0MzlGVUUzdEVmUWg5bWN4TEk3VzdhaW9JcVR2LU42cm9zeTJ6elVaRmlUU0VHYjVzRHBFVXNtaFdiMTJSS0pHMVAzVVBNaHRhd9IBuwFBVV95cUxPNlVqVV9MaVV3c2VNWG51TWhwQ1k1Y1NxVmlULTdtUmsyRmk5QWFFdGV3Z2RVMEZaQ1RlZzEzYjBKWVBCVmNjcW0yMkotMXk4ekctZ3hrZm5vWXFFYmR0dUpZdHhiRlJyT09nNVRoN2lISWhtemExdHNmajVfZmRSRllma01nRTEzWjdWQml1cTB2OXVPWVI3WHJzVU92VEdYcHFhTlB4QW91WXRaWl9lbmNHQ1k0bVR3Q2xr?oc=5"
+   },
+   {
     "date": "2026-10-12",
-    "published": "2026-10-12T23:41:09+00:00",
+    "published": "2026-10-12T23:39:00+00:00",
     "source": "Reuters",
     "title": "Saudi warning system stayed silent before deadly airport attacks",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGUtWGlRWGVfTVVCaFlXbDQ3UTA4bmlUN2QxdV9yT19EOUZGTkhKNW5xR2hQcDJmaE1pX1F1Tmg4TEZ6VTMxcWl5QzdHdVdZa2U1ZDF5Vm5ONGhhNDFPd00xLXZKNXVSaXJGYTB2QVV6dkJ6WmtBS29uMTNyNko5dlptaEdjWngxR2gxa3FfNTc4bzdmaElUOHVzZTVfN0oxeXhwdExKLWxycEpBRGNna0QzM2N5NGRfaVE?oc=5"
    },
    {
     "date": "2026-10-12",
-    "published": "2026-10-12T20:54:09+00:00",
-    "source": "BBC",
-    "title": "Saudi minister vows 'serious response' to Houthi attacks on airports",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44dHg4TlJXbElwYnhKaHdJc2xlZ25lR3ZHTmRPMEtSVlBCUjA3enJQUUYteTVleU9HOU82OE9pWTVpNUFyaUxVUWt4N1U3aldHSkVWYUt3V1F4dmM?oc=5"
-   },
-   {
-    "date": "2026-10-12",
-    "published": "2026-10-12T19:36:35+00:00",
-    "source": "Reuters",
-    "title": "Saudi capital's airport to remain shut this week as airlines cancel services",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObGszbTdESk0xU0twcE1ZOHg4VFpzN2lzeWQ0ZDJseVpKczh6cE44eTNOb3ZDS3dnVnZJN3RCNE1wVDI0djVodU41LTN3WkVIemI0NWlucWpKY0tvU3JMeEM2YVN1OTBsdW5mZDVXeWhFcXdyQ1pGRjBVNTR6SmpBSXhzSXRObWtSTjlYcEJzOUxsX2Ezb28yZ1FrU083bzNpNmd2VlpjUkxnaE5PdEliNWpxeU5QNkp1V1JmcXlFdUJ1S01zcHc?oc=5"
-   },
-   {
-    "date": "2026-10-12",
-    "published": "2026-10-12T18:33:12+00:00",
-    "source": "France 24",
-    "title": "The Debate - How exposed is Saudi Arabia? Yemen's Houthis scale up drone and missile attacks",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRDZhZnVVTVk0RzlRWkh3clZ2enhSTkVNd1lRTzRVVVg3SXJQcUtyU0Q3QTJRMjJLZUhnejVfNGkxaGJmVFdrZEhCVkFTWUx5aDJSZGxscGR0RFVjS3YtMDJaLUdacEFBU080bXg4Sk84Mlo4dHA3eUc0ZDUwY0lKQkRRaDAwbTJnRmFVcVFodF9IcXJLbzJIcUxWeEVJQkpKUG1OcWFKeno1c2Rvam5fMlh6em9XUzFqemxhOENTTUFZUDdvdkhzYWt1V1RrXzky?oc=5"
-   },
-   {
-    "date": "2026-10-12",
-    "published": "2026-10-12T17:51:00+00:00",
-    "source": "The Guardian",
-    "title": "Why are the Houthis attacking Saudi airports and how are the missiles getting through?",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORnJnYXRDbWtzWG1hWXFTczhaQU04Z3NFbW1nclFrdk9DV2U1SzkycFV2VGFpcXNKbkxrUl9XX1l0YUl2YjRJTnNFeWVFMUNmaktERFBiWHQwMzdQTy1VVEVIODdqNE8zTmxfaEw2cmZfYU1LOUpPS3VTbENWc09oMUxFcWJpU1ZCWEF4TjhnRnljRkpERC04cUdNNmxrTHd2OGc2b093?oc=5"
+    "published": "2026-10-12T22:54:00+00:00",
+    "source": "AP News",
+    "title": "Saudis probe how defense systems failed to stop deadly Houthi attack on Riyadh airport",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVlFmZ0kwWmYtTnNQeVZ5dklfNXNiZlFLRDh6TEZrUEpLYmtFMk1IckdOeHBUb1YyQV9pbXRPeUpib1VXMEV3dHJtYWs5V1BDMnQzM0ZsSTk2cXVFQ0xYbGplWUlUSEhrZlpHbzZTX05xdElackFubFV0YUhudVFFNUo4cVpLazRFaUlINkcySkVVcWJFU3ZIRHVB?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-13T00:33:27Z"
+  "last_ok_at": "2026-10-13T07:39:02Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-13T00:33:28Z",
+  "fetched_at": "2026-10-13T07:39:03Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 42,
-  "baseline": 43,
-  "baseline_n": 9,
-  "tier": "정상",
+  "count": 21,
+  "baseline": 33,
+  "baseline_n": 3,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3719,14 +3607,15 @@
    "2026-10-12T00": 37,
    "2026-10-12T07": 33,
    "2026-10-12T17": 28,
-   "2026-10-13T00": 42
+   "2026-10-13T00": 42,
+   "2026-10-13T07": 21
   },
-  "last_ok_at": "2026-10-13T00:33:28Z"
+  "last_ok_at": "2026-10-13T07:39:03Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-13T00:33:28Z",
-  "last_ok_at": "2026-10-13T00:33:28Z"
+  "fetched_at": "2026-10-13T07:39:03Z",
+  "last_ok_at": "2026-10-13T07:39:03Z"
  }
 }
