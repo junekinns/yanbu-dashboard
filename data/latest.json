@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:37:17Z",
+ "generated_at": "2026-10-14T18:30:51Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-14T13:37:17Z",
+  "fetched_at": "2026-10-14T18:30:51Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 7,
   "baseline": 2.0,
   "tier": "급증",
-  "last_ok_at": "2026-10-14T13:37:17Z"
+  "last_ok_at": "2026-10-14T18:30:51Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-14T13:37:39Z",
+  "fetched_at": "2026-10-14T18:31:07Z",
   "events": [
    {
     "date": "2026-10-14",
@@ -1311,14 +1311,36 @@
   "history_days": 31,
   "history_since": "2026-09-14",
   "today": "2026-10-14",
-  "last_ok_at": "2026-10-14T13:37:39Z"
+  "last_ok_at": "2026-10-14T18:31:07Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-14T13:37:41Z",
+  "fetched_at": "2026-10-14T18:31:08Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-14 20:36",
+    "iso": "2026-10-14T20:36:48+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله وعونه من استهداف مطار خالد الدولي في عاصمة العدو السعودي الرياض بصاروخ باليستي وكانت الإصابة دقيقة ومباشرة. وفي سياق آخر نفذت قواتنا المسلحة عملية استهداف لعدد من تحشيدات العدو السعودي في منطقة رأس العارة والمضاربة بثلاثة صواريخ بالستية وكانت الإصابات دقيقة بفضل الله وخلفت عددا كبيرا من القتلى والجرحى وإعطاب عدد من الآليات. http://t.me/army21ye",
+    "text_ko": "알라의 도움 덕분에 우리 군대는 사우디 적 리야드의 수도에 있는 칼리드 국제공항을 탄도 미사일로 공략할 수 있었고, 부상은 정확하고 직접적이었다. 또 다른 맥락에서, 우리 군은 라스 알 아라 (Ras Al-Ara) 와 무다라바 (Mudaraba) 지역에 사우디 적의 집중을 목표로 3 개의 탄도 미사일로 작전을 수행했습니다. 부상은 정확하고 하나님 께 감사하며 많은 사망자와 부상자를 남기고 많은 차량을 손상 시켰습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3895"
+   },
+   {
+    "time": "2026-10-14 20:15",
+    "iso": "2026-10-14T20:15:15+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 42 غارة جوية وصاروخا استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات تعز ولحج ومأرب وعمران وجزيرة ميون من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 2323 غارة جوية وصاروخاً. إن استهداف جزيرة ميون بالقصف الجوي والصاروخي من قبل العدو ال…",
+    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 수도 사나와 타이즈, 라즈, 마리브, 암란 및 마윤 섬의 총독부에서 민간 물체를 겨냥한 42회의 공습과 미사일 공습을 감행했다. 사우디아라비아 침공이 시작된 이래 우리나라에 대한 공격 횟수는 총 2323회이며, 공습과 미사일은 2323회입니다. 적의 공습과 미사일 폭격으로 마욘 섬을 노리는 것…",
+    "url": "https://t.me/army21ye/3894"
+   },
    {
     "time": "2026-10-14 16:10",
     "iso": "2026-10-14T16:10:07+03:00",
@@ -2123,22 +2145,19 @@
    }
   ],
   "mentions7d": {
-   "리야드": 14,
+   "리야드": 15,
    "카미스무샤이트": 7,
    "나즈란": 6,
    "타이프": 5,
    "담맘": 5,
-   "메카": 5,
    "메디나": 5,
+   "메카": 5,
    "다란": 3,
-   "지잔": 2
+   "지잔": 1
   },
-  "last_ok_at": "2026-10-14T13:37:41Z"
+  "last_ok_at": "2026-10-14T18:31:08Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-14T13:37:48Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3470,13 +3489,24 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-14T13:37:48Z"
+  "last_ok_at": "2026-10-14T13:37:48Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-10-14T18:31:12Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-14T13:37:50Z",
+  "fetched_at": "2026-10-14T18:32:12Z",
   "kr": [
+   {
+    "date": "2026-10-14",
+    "published": "2026-10-14T14:00:28+00:00",
+    "source": "연합뉴스",
+    "title": "후티 \"사우디 아람코·공항에 미사일·드론 공격\"…1명 부상(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tcm9MNUw1SmxwQ2RRNUVsVm54a1QyUE5WcFZYS05KUkkzbTNzVVpLdjRvZlZVMDVEN3gxZHRBSXFKVnZRTjFKLWtSWk1idVJzdVBYM0htZU5lNHdmaXhDLdIBYEFVX3lxTE4tcm9MNUw1SmxwQ2RRNUVsVm54a1QyUE5WcFZYS05KUkkzbTNzVVpLdjRvZlZVMDVEN3gxZHRBSXFKVnZRTjFKLWtSWk1idVJzdVBYM0htZU5lNHdmaXhDLQ?oc=5"
+   },
    {
     "date": "2026-10-14",
     "published": "2026-10-14T10:20:35+00:00",
@@ -3504,63 +3534,56 @@
     "source": "연합뉴스",
     "title": "후티 \"사우디 정유시설·공항 공격…며칠간 계속할 것\"",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hVHFRdWZOZllNem1qX3JpMHZTMVpwVFhjZ2NOcmhkekRtWUJnWTUydWp0d1dZN1NuN2VJaU1oSkowVTItRGI0M0VtQjd0aG84a0h5cWh2dXhZS1JtSzNCZTVTNTFCakE?oc=5"
-   },
-   {
-    "date": "2026-10-14",
-    "published": "2026-10-14T07:28:35+00:00",
-    "source": "연합뉴스",
-    "title": "정부, 후티 반군의 사우디 민간시설 공격 규탄…\"중단 촉구\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DdjRRNFozMkxfczlJNzNwSmdWRzNwSVZyajZVR1piY0pEc2dfM0pzZ3ZzV3R1TUFfNWNSeS1GR0VJT0ZfNV9BN1pKZzd2MkVmZ0ltOHZXNWlvLTd4VjJKNtIBYEFVX3lxTE1DdjRRNFozMkxfczlJNzNwSmdWRzNwSVZyajZVR1piY0pEc2dfM0pzZ3ZzV3R1TUFfNWNSeS1GR0VJT0ZfNV9BN1pKZzd2MkVmZ0ltOHZXNWlvLTd4VjJKNg?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-14",
-    "published": "2026-10-14T12:20:01+00:00",
+    "published": "2026-10-14T16:21:53+00:00",
+    "source": "France 24",
+    "title": "Houthis threaten escalation after strike on Saudi oil giant Aramco",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZnFoblRlOGxWWTJiWTZITTk2eWd4akYwQVVBOUVXeGMtbkxkLThkV3dpZnZDSEZ5Q2VMR2lQSEdYckhBanVaaWdkOFBpQmhZRld0aGhEYU5Kb2MyRGtqaDZwdWhUT0tkTUlibU9xVGxQREpwakNHTHA4T0l3bzdPOXNZY25tWWlacUdkMFdkRFBfTHZYN29BVmpWN2p5S0NtYVl2azRMNG8tcTFsZUZPUVdRZUk2UGtTbzNnTVhiLU8?oc=5"
+   },
+   {
+    "date": "2026-10-14",
+    "published": "2026-10-14T16:07:00+00:00",
+    "source": "AP News",
+    "title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
+   },
+   {
+    "date": "2026-10-14",
+    "published": "2026-10-14T16:03:43+00:00",
+    "source": "Reuters",
+    "title": "Pilgrims caught up in Houthi strikes on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTWUzYUQwXzFUVGJsY2RZTUhiY055eFFGRGtYMDR0TkU0TkRLaWZaQ1VLdnhNbTFkOTBFOW1ZVEJTWWEwWDFBZHBPZTgyY19MZURTTVExR1hvRWtub2hZUGtTNWs2Z3JLMFZYVWhvZ0FrQmxSRWVrYkxyc1VzWWk3RUZGajF5OFRxZHJWZTBvdWJ2VFRhM0IyZkZwRXBHd2F1SUE?oc=5"
+   },
+   {
+    "date": "2026-10-14",
+    "published": "2026-10-14T15:09:46+00:00",
     "source": "Reuters",
     "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5"
    },
    {
     "date": "2026-10-14",
-    "published": "2026-10-14T12:13:46+00:00",
-    "source": "CNBC",
-    "title": "Iran says it’s ‘counting the moments’ until it can attack U.S. warships; Saudi Aramco facilities attacked",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBNUFJM2owdTNnTkFfdE5lZnZtTG1yYVpHUTVwdnVlMnFZblRnNjhLczM4QncwNlhpS01LM3BXWEdNSGphX3dsaUo4VE1lSjJZS1c2ZFVyUGYxWldZUURNMnRYZkkyb0Z4R19uZ3AzYlB3VFVYaFHSAXtBVV95cUxQQnVidjVNVXRTS0hOVUpyMThmOTRCaHhRRDNKUU55TFg4QWhicXlTZGd3SDRXQzJoX2ZMT2F3XzJ4LU5kQlgzak9IbG5QXzRCMnM3dk9RdUJqSXd5OGRDUlNGN3ZQQlAzS3R6US10UDNWRFdNcnBsSDktcHM?oc=5"
-   },
-   {
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:44:34+00:00",
-    "source": "DW",
-    "title": "Houthis launch fresh wave of missiles across Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbVJ2WVgxOVVKWmpNZjB2MUxXY3pxNmZqVEpvVWw2SVM1UXRZSHljbUVmR0tFUjlTbWJGeDVWSjhwQzliMk9mWVgzVTl6UHZpcHNJbURSWXdJSHJzcWtHQWJLWGFueUxwY0g4cVppeDh5bExmQjdsQkhfSUdHVzlFYWk3VE5oc2RicjByMndCSjFDMWhNU2JodGJNekg?oc=5"
-   },
-   {
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:43:12+00:00",
-    "source": "Reuters",
-    "title": "Saudi Aramco headquarters suffered extensive damage in Houthi attack, sources say",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTEY0UDJsbGo1MXFVX1FoY1RIdkFLeW96R3hMOEkwQTNRTFpLby1wZEFGRy10SThxSkhSaXZKQ1psYmdiQVZQd19uaDFtZFBZa1pJZzZCT0dsd0lSdmV1UWV0dExiRmU2Y2lVUS1SaWs1UzNkZ25lUnRJaklfWnlOeEFVQTg2dDVQTWF4UWp1aTcyR2JsUWN5d0JzSWRqMlp1ZDY3OXpncUZDN2FuVk9tN0VuaGtIMVpXM1F4RU5QX00xek9q?oc=5"
-   },
-   {
-    "date": "2026-10-14",
-    "published": "2026-10-14T11:42:05+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWkdFQnE4VXFUbGJlcS1VaTFHbjQ0RGFIM1Z4SlhUbHlWQXpUTUtHWTB1Z1hZWGg3Y2I5R2lIYzJKUkYwT0VrRVB5Wi1uUkhnTGQxbm9iamMwaktyVnluQlRVdm10bnpMZC1jNUNqQzVfVUNjUnUydm9XR0N4R3NpdUEtNkFKZzdCendFTkRJRWhiMl9CVU5manRteVpYbk9nUEZZamVpTTZLU0xtN1JzNNIBtgFBVV95cUxNUFJyamdZU1BmR2pxcWd1VGQ0aUVEZzhOM292OWMxQ3FfcjNEX19BWEJuMEtnVFNpa3R1RThmQnZCWjNIZnpCNTNTV1NYN1VFVVhIRmQtdjFHNjM1Y0Exc1V5a1hiWkF6bHAzNEh0NGNYZl9ocXhMemxad2tmN0pRN2MyZ1IzZmZXcERxTElEX1FnYnNSMTROZnNUd3hpbFRmdDlvR3NDUUMzdzRMN0gyZDhyQlZfZw?oc=5"
+    "published": "2026-10-14T13:00:40+00:00",
+    "source": "Bloomberg",
+    "title": "Aramco HQ Hit as Houthis Widen Attacks on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLTM3MUJoRVBma0lBNlpQa0hKSkxCalhRMkUtQThqdy1sTVNjcnN4a0dIV0UwczhyUklLUkZCLTZ2MF9FSmhIMDRUQXlWcFFkRHo4R0MyMFJIRzlYejg1TksxS1NkSFJEUy1OT2FKWnVBT1FXVThyNDI4WXRXN1UwM1NIbWUtQTVxTmRqelNIN0FjT05aM0U2dkhXMHBpdF84ZG9IUHFmak1qbnBJQ3FYbmZSYWJtQQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-14T13:37:50Z"
+  "last_ok_at": "2026-10-14T18:32:12Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-14T13:37:51Z",
+  "fetched_at": "2026-10-14T18:32:14Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 29,
-  "baseline": 33.5,
+  "count": 18,
+  "baseline": 30.5,
   "baseline_n": 8,
-  "tier": "정상",
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3695,14 +3718,15 @@
    "2026-10-13T21": 17,
    "2026-10-14T01": 27,
    "2026-10-14T07": 20,
-   "2026-10-14T13": 29
+   "2026-10-14T13": 29,
+   "2026-10-14T18": 18
   },
-  "last_ok_at": "2026-10-14T13:37:51Z"
+  "last_ok_at": "2026-10-14T18:32:14Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-14T13:37:51Z",
-  "last_ok_at": "2026-10-14T13:37:51Z"
+  "fetched_at": "2026-10-14T18:32:14Z",
+  "last_ok_at": "2026-10-14T18:32:14Z"
  }
 }
