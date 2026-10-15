@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T13:20:22Z",
+ "generated_at": "2026-10-15T18:13:14Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T13:20:22Z",
+  "fetched_at": "2026-10-15T18:13:14Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -165,34 +165,48 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-10-15",
+    "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321121/detail2?ntnCd=107",
+    "summary": "ㅇ 10.15(목) 사우디 주도 아랍연합군은 메디나주 내 순항미사일 1기를 요격*했다고 발표했습니다. 이에 대한 후티 반군측의 발표는 상금 없으나, 후티 반군은 메카, 메디나를 제외한 사우디 영공에 대한 공격 가능성을 지속 경고하고 있습니다. * 메디나주 내 구체 요격 지점 등 미언급 ㅇ 현재 사우디 전역에 여행경보 3단계(출국권고)가 발령 중입니다. 사우…"
+   },
+   {
+    "date": "2026-10-15",
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.15)",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321120/detail2?ntnCd=107",
+    "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
+   },
+   {
     "date": "2026-10-14",
     "title": "주의 사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048661/detail",
     "summary": "(작성자: 주사우디대사관, 작성일: 26.10.13) 최근 사우디아라비아 내 미사일·무인기 공격이 지속되고 있는바, 현지 체류 및 방문 예정인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ (여행경보 3단계) 외교부는 10.11.(일)부로 사우디아라비아 전역의 여행경보를 3단계(출국권고)로 상향 조정하였습니다. 사우디 방문을 계획 중인 …"
-   },
-   {
-    "date": "2026-10-13",
-    "title": "사우디아라비아 여행경보 및 안전 유의 안내(10.13.)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321119/detail2?ntnCd=107",
-    "summary": "최근 사우디아라비아 내 미사일·무인기 공격이 지속되고 있는바, 현지 체류 및 방문 예정인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ (여행경보 3단계) 외교부는 10.11.(일)부로 사우디아라비아 전역의 여행경보를 3단계(출국권고) 로 상향 조정하였습니다. 사우디 방문을 계획 중인 우리 국민께서는 불요불급한 방문을 취소하거나 연기하여…"
-   },
-   {
-    "date": "2026-10-13",
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321118/detail2?ntnCd=107",
-    "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
    }
   ],
-  "last7d": 6,
+  "last7d": 8,
   "baseline": 3.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-15T13:20:22Z"
+  "last_ok_at": "2026-10-15T18:13:14Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T13:20:37Z",
+  "fetched_at": "2026-10-15T18:13:30Z",
   "events": [
+   {
+    "date": "2026-10-15",
+    "time": "17:15",
+    "iso": "2026-10-15T17:15:00+03:00",
+    "city": "메디나",
+    "type": "피격",
+    "weapon": "미사일",
+    "lat": 24.47,
+    "lon": 39.61,
+    "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVQzNWxwVUxqYThJN1JqdEg5dXpXU3ZKVjZ4Z3BiSWpick5JOHNMSnY3ZjhfcGcxd25uZHRObmVhb2hCOWlKaEdSckJZLXJhb0xLaloxb2lOQXZ4X3lPTWZ2LU1acVlMeUZNYUtZNlRsQWhlaTRpOExSVnA5MlVyaThMOVlzRFRsNXNnUnJ0ZjViaS1LYURnOWNVX2gwSXJBWjAtSXZzcw?oc=5",
+    "source": "AP News",
+    "outlets": 1
+   },
    {
     "date": "2026-10-15",
     "time": "12:08",
@@ -219,7 +233,7 @@
     "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격‥명중\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43RmotV2ZFcFhTeTJvOHFCU0dySmJCdDdMWmMyVXpzOXRJaVpPOXY5WlZsQWEzUnA3bkl2UDlCY0ZHMDFGemdyVFB5UVd2OVYtZkxURXh4MmpnR0JhTno0WDQxQVVLNndMbGxlLVc0QVByN3ln0gF0QVVfeXFMTjJzOGRuYmdvcTNwMm5pVndWdVNMUE1ZRktHVDRVN1NmNTZFMnVYMzN3dUxyek43bjhGRnhLclo5U2IyU05IZkFTc29UOEtTSk1PekktaGxlakdsZkJEOS1UWXhfMXZIT0ZMX0Z3dGVfWWRBdTM?oc=5",
     "source": "MBC",
-    "outlets": 3
+    "outlets": 6
    },
    {
     "date": "2026-10-14",
@@ -1213,10 +1227,10 @@
    },
    "메디나": {
     "7d": {
-     "요격": 1,
-     "피격": 1
+     "피격": 2,
+     "요격": 1
     },
-    "total7d": 2,
+    "total7d": 3,
     "prev7d": {
      "피격": 1
     },
@@ -1339,14 +1353,22 @@
   "history_days": 31,
   "history_since": "2026-09-15",
   "today": "2026-10-15",
-  "last_ok_at": "2026-10-15T13:20:37Z"
+  "last_ok_at": "2026-10-15T18:13:30Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T13:20:39Z",
+  "fetched_at": "2026-10-15T18:13:32Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-15 17:58",
+    "iso": "2026-10-15T17:58:15+03:00",
+    "places": [],
+    "text_ar": "قصف مقر العمليات الحربية للعدو السعودي في عدن يأتي في سياق المعادلة المعلنة بضرب التحشيدات السعودية أينما كانت، واعتبار أي تواجد عسكري للعدو السعودي هدفاً مشروعاً لقواتنا أينما كانت. http://t.me/army21ye",
+    "text_ko": "아덴에서 사우디 적의 전쟁 작전 본부가 폭격당하는 것은 그들이 어디에 있든 사우디 군대를 공격하는 방정식의 맥락에서 비롯되며, 사우디 적의 군사적 존재를 그들이 어디에 있든 우리 군대의 합법적 인 목표로 간주합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3899"
+   },
    {
     "time": "2026-10-15 12:08",
     "iso": "2026-10-15T12:08:13+03:00",
@@ -2181,22 +2203,22 @@
    }
   ],
   "mentions7d": {
-   "리야드": 14,
-   "카미스무샤이트": 7,
-   "타이프": 6,
-   "나즈란": 6,
+   "리야드": 13,
    "메디나": 5,
+   "타이프": 5,
+   "카미스무샤이트": 5,
    "담맘": 5,
+   "나즈란": 4,
    "메카": 4,
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-15T13:20:39Z"
+  "last_ok_at": "2026-10-15T18:13:32Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T13:20:41Z",
+  "fetched_at": "2026-10-15T18:13:34Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3622,35 +3644,74 @@
     "date": "2026-10-15",
     "time": "0911",
     "confidence": "nominal"
+   },
+   {
+    "lat": 16.4352,
+    "lon": 42.88457,
+    "frp": 3.8,
+    "date": "2026-10-15",
+    "time": "1049",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.2298,
+    "lon": 39.19865,
+    "frp": 7.62,
+    "date": "2026-10-15",
+    "time": "1049",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97374,
+    "lon": 48.13029,
+    "frp": 1.46,
+    "date": "2026-10-15",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97273,
+    "lon": 48.13066,
+    "frp": 2.08,
+    "date": "2026-10-15",
+    "time": "1051",
+    "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-15T13:20:41Z"
+  "last_ok_at": "2026-10-15T18:13:34Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T13:20:44Z",
+  "fetched_at": "2026-10-15T18:13:38Z",
   "kr": [
    {
     "date": "2026-10-15",
-    "published": "2026-10-15T12:37:00+00:00",
-    "source": "연합뉴스",
-    "title": "EU, 후티 공세에 사우디서 예정된 걸프국 정상회의 연기",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91RjV6RmxRQkRMekhlYV80bzFlbzFpdFBlcjJZX09sd0VzcUhNNlRzM2Z6dDRzaXJMUDBjcVhkMFFWcE1VTjlRbkFKMUxiRndUY0lORXVtLWpKQWRCeTgyU09OVDFkMjA?oc=5"
+    "published": "2026-10-15T16:01:25+00:00",
+    "source": "MBC",
+    "title": "사우디 \"후티 반군, 10월 리야드 공항 20회 공격‥17명 사망\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zVEtWYkd2LUo1YjdyWmhpYXJzbkRBZTgzaXB0bjNVTElOQlBZYXdMS3RJS3JzVmQwXy11dkpvV2FNMHhoVUs1RG1WNWNvX2ZOb2dDdVFkTDRfd1N3d2MyM294NW5YX3NpbDl1VEZueWNBR3cw0gF0QVVfeXFMUEdEUlQ0aWp3bzk0WjQ2N0F4YlJGVXVlOVVoRVNuVno5cFZZNFV3QU0zaFZRN2dLUEd0eGt6c05iN1Q1d1ItckF5R3ZEMmZicllfMzRrV2Z3bk5OcC1LR1pTZWNjc2lZUmZaRjlwRDMtc2ZBYWc?oc=5"
    },
    {
     "date": "2026-10-15",
-    "published": "2026-10-15T10:06:00+00:00",
+    "published": "2026-10-15T15:01:27+00:00",
     "source": "연합뉴스",
-    "title": "후티, 이슬람 성지까지 공격?…사우디 \"순항미사일 요격\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0LUdoaGo3LXBFQUwtN1p6dVZZcXlnd0MwcUZPZ3lUYmJZU1ZKSF92dC1zM1RQVmJyNjZkRzREX2w4TlUtU2FJTC1PVnBFMmxXNG5yQnhxa0pyT3N2TEVBcGNGaHg3NUk?oc=5"
+    "title": "사우디 \"후티 반군, 10월 리야드 공항 20회 공격…17명 사망\"(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xeUMyRVAyMEwxSTVja0w3aGM2bGtGNHZDRGRTamk1NC1RSzZyaEpnT3JWcnpzekFLSmMzUzdkUWM4b25NVWY2MzRuMDhKZ0VfSk9jY2pYb045S3fSAWBBVV95cUxNT2hqUmg5RlNhM0ExQXk3bjZfdnJRTXV0bUNJdlRBMV9saElHNng5SnNnaXNHblRJcnlOeE03VGRiWmRKbGl0ZTdHQ0pNTW94a2dSMFpYLVVFNEh5ODhSUmk?oc=5"
    },
    {
     "date": "2026-10-15",
-    "published": "2026-10-15T09:12:35+00:00",
-    "source": "서울신문",
-    "title": "사우디 리야드 차량에 떨어진 미사일 파편",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYXQzR1U3X3piSC1va3NlWTBXZWR6WThJVk1jOVV6eEFaMmx0RVRncU8yN0ZsQlJ1MkJUS0ItVlRScWVtMGE5SkUzcDViNkMzME9FN2lvaDJMN1NpdEhWcDBtUmlHdlNERS1WRWluQXQ2N3RtRmhpM1BSelNmeVhYRVBNN2FKMVE4cHd4bk0xUQ?oc=5"
+    "published": "2026-10-15T13:50:50+00:00",
+    "source": "연합뉴스",
+    "title": "후티, 성지까지 공격했나…사우디 \"순항미사일 요격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45SlZGLVo3YkxILXdDRlc0MFRtY0xpbWVWY3V1TWlKNElnWEJJdC1SN1IxX1JtSm9vdkI2b0pLc0x6LXRLMnAzR2NDeXlwendKbU9BWm1LMmFJSzAzODJoR9IBYEFVX3lxTE45SlZGLVo3YkxILXdDRlc0MFRtY0xpbWVWY3V1TWlKNElnWEJJdC1SN1IxX1JtSm9vdkI2b0pLc0x6LXRLMnAzR2NDeXlwendKbU9BWm1LMmFJSzAzODJoRw?oc=5"
+   },
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T13:15:00+00:00",
+    "source": "한겨레",
+    "title": "사우디, ‘이슬람 성지’ 메디나서 미사일 요격…후티 “거짓말”",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jcjVGLWFqOXAyaXhWWVNybTFGdDBSeENNcEppeWhabndkWnlKRjA5amVGWjYyM0haVlQ4aC1JS1QwalFENW5VT3liTGxsVnFzcERhVWRxWWdxa3NPLUp1MEY3NmdXT0N3bW5rMmQ5a1QzTFk?oc=5"
    },
    {
     "date": "2026-10-15",
@@ -3658,22 +3719,36 @@
     "source": "MBC",
     "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격‥명중\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43RmotV2ZFcFhTeTJvOHFCU0dySmJCdDdMWmMyVXpzOXRJaVpPOXY5WlZsQWEzUnA3bkl2UDlCY0ZHMDFGemdyVFB5UVd2OVYtZkxURXh4MmpnR0JhTno0WDQxQVVLNndMbGxlLVc0QVByN3ln0gF0QVVfeXFMTjJzOGRuYmdvcTNwMm5pVndWdVNMUE1ZRktHVDRVN1NmNTZFMnVYMzN3dUxyek43bjhGRnhLclo5U2IyU05IZkFTc29UOEtTSk1PekktaGxlakdsZkJEOS1UWXhfMXZIT0ZMX0Z3dGVfWWRBdTM?oc=5"
-   },
-   {
-    "date": "2026-10-14",
-    "published": "2026-10-14T22:27:00+00:00",
-    "source": "채널A",
-    "title": "후티 “사우디 아람코·공항에 미사일·드론 공격”…1명 부상",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44TjQycjhEaWVjeld5YXAxWE9FMHlVSXVSbnlDaU56MnBVS1dMZDlzcmF4QmlyZmRjdGUtbkVRcUJKX1FUQl90Z2VPOWNEMnhjbGpmZFZOR3dnWm1NcWFmeHZ3VdIBY0FVX3lxTE44TjQycjhEaWVjeld5YXAxWE9FMHlVSXVSbnlDaU56MnBVS1dMZDlzcmF4QmlyZmRjdGUtbkVRcUJKX1FUQl90Z2VPOWNEMnhjbGpmZFZOR3dnWm1NcWFmeHZ3VQ?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-15",
-    "published": "2026-10-15T11:49:28+00:00",
+    "published": "2026-10-15T17:00:51+00:00",
+    "source": "The New York Times",
+    "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks?",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5"
+   },
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T16:57:37+00:00",
     "source": "Reuters",
-    "title": "Saudi Aramco offers extra spot crude cargoes to Europe, sources say",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMmt6QTFrSlZDUkhGXzhYa2RkMEwtY3YxalljNnNQN3M4Nm1oRi03dnRwc3BpMlppTDJCa3hUcEJicF9iamJJQmFqYmNRc29TRGtKQ05PejFlMUJ6eHRsbUdoX1EzLXNsTzNic2dyZ0ZvSGNHdy1oUUhsWldVRzVtcWNzcWFEY3RsUGNINkozOXBZR0F4M0h3VnNmYUN4bnNEV0xHNGt6N29KSkZpcU5EenRYZ3h3QQ?oc=5"
+    "title": "How Aramco learned to keep pumping oil under fire",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEo4RHMzbGVMLUpQcnFqT28tSlU2Q0FBUlZtc2MzaUZSLXpsd3o3X1VGQXplLWJUaUJuQ1BCbFdVbzZwZUk0OURuZ0dmcWVkaWNaclNBcHBlRGR1bWViNWROR21UV2pSRTdqNDZfUVFDdHR2TG9lUDd5eDlNRzVtWHRVNFI5d3I4MUtQdG04SVA1OURzQzI5WXk3N3ItUEE?oc=5"
+   },
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T16:40:27+00:00",
+    "source": "Reuters",
+    "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGVvZWRvRzA4MGlxRTRTLU95S2ZWTnB2LVZ1ZDBPQTdxbW53SmViQk96X3FpTlVXNEtZaTRvMld4akRJUm9vOU56NjJfSnROV3pCeURHQ3BCcTBYbW1KVVZyLVBaT0VXaE55WGc0WGI5c2RRdC1RaVZiT092ZU9RaTBRdmluamFTQ0JuRWRWNTNYdzhOa1dfNWVBNV9RcVMydFZoaHpFMlJnSHhrckl2cnRyZC0xc0xMcW5Idw?oc=5"
+   },
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T14:15:00+00:00",
+    "source": "AP News",
+    "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVQzNWxwVUxqYThJN1JqdEg5dXpXU3ZKVjZ4Z3BiSWpick5JOHNMSnY3ZjhfcGcxd25uZHRObmVhb2hCOWlKaEdSckJZLXJhb0xLaloxb2lOQXZ4X3lPTWZ2LU1acVlMeUZNYUtZNlRsQWhlaTRpOExSVnA5MlVyaThMOVlzRFRsNXNnUnJ0ZjViaS1LYURnOWNVX2gwSXJBWjAtSXZzcw?oc=5"
    },
    {
     "date": "2026-10-15",
@@ -3681,38 +3756,17 @@
     "source": "Al Jazeera",
     "title": "Fighting in Yemen intensifies: What’s the latest on the battlefield?",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeTU5VVFnZTBlUnlrRWQ4Z2VEQWxac25aYUN1YlpMM3IyOEdZcTF4LUFwMXFYdnNxTTBndDlISWxucERjRWZGczhPbFMwZ2NDVlltZF84TXYtRGxmRGxlZVZuQTFtY3hHTmpQeEtvaGFvcXV1UHNwUmNYTlZmalM5Z1FzS0RKdjFrSWkyc0ZRQnFMZFpneVFTa09nMFdVSGtfdUpSalNZc0VLYzjSAbABQVVfeXFMTm5kcDd2cjk1OEE5TWIyUmhWcy0yYnVIUXdVZFdWS1A4SER4QW0xZ1VFYV9BdmRlZklxZzJjVmNlYlZvSk1GT0h0VXlFaFlPRFhvazhYYnhqYW5hV2puczlzekVyUHRRYmpkX0hvaHdBWkZBOVRvbm5kTDBnUS1BZURiakEtVzdydUJiZGE5WHcwU0pmamFncTVFMFZyeGZ3RHhTTFVuZk9vOE93UGxZTW0?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T10:24:35+00:00",
-    "source": "France 24",
-    "title": "Houthis deny targeting holy city of Medina after Saudi Arabia says it intercepted missile",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcTVCdFhPdlp3eUZGWDJpaXJaNzZwV1FJNEJFd0p5QkU5bVJjUFpqaDVPblJVT2pRMjJ0U2tkbElLLWtmak9DVTM0MmY5RWJTVy01U21NeENFZWtvc24xNW44MU9FOVEtMm05SWIxcjduRm9jWm1QOWZLMXJmZ1FLZ1h1cnkxbm1UOVdkTmRFQWtxYUEtSVBWdXp3OW5YZVE3anM0RlZxdFhXZTRVY2Q4NUY0M2RRMnV6by1OODhmdklRRFFTSnQ3QnFwSFM?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T04:01:10+00:00",
-    "source": "The New York Times",
-    "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks?",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T02:59:00+00:00",
-    "source": "AP News",
-    "title": "Iran-backed Houthis strike Saudi oil company Aramco’s headquarters, officials say",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1ZldXo2RjBfTlF2NHFDZDQ3NnJnejktNnl3NVJVcnFVM1FjQ3FQN0x5SjFpZDRBeXplS0lTN2tUdWVZVWVKZm5LaUxkMVFQcmFRX1RRbFJIMm1zOTZDU3l2elZkb0twUkFnU3ZYM1pHYmRhYXRlVlluMHJkcWZITXRSQmMzNnF5d3dBcGl4a043MWkxUlZ5RmNqQ1l3UUxTbGRKOVdHSHhIQlRLZjlv?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-15T13:20:44Z"
+  "last_ok_at": "2026-10-15T18:13:38Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T13:20:45Z",
+  "fetched_at": "2026-10-15T18:13:39Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 36,
-  "baseline": 33,
+  "count": 27,
+  "baseline": 30,
   "baseline_n": 9,
   "tier": "정상",
   "history": {
@@ -3854,14 +3908,15 @@
    "2026-10-14T22": 24,
    "2026-10-15T01": 29,
    "2026-10-15T07": 18,
-   "2026-10-15T13": 36
+   "2026-10-15T13": 36,
+   "2026-10-15T18": 27
   },
-  "last_ok_at": "2026-10-15T13:20:45Z"
+  "last_ok_at": "2026-10-15T18:13:39Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-15T13:20:45Z",
-  "last_ok_at": "2026-10-15T13:20:45Z"
+  "fetched_at": "2026-10-15T18:13:39Z",
+  "last_ok_at": "2026-10-15T18:13:39Z"
  }
 }
