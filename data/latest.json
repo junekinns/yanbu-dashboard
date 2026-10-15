@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T18:13:14Z",
+ "generated_at": "2026-10-15T22:09:52Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-15T18:13:14Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +183,31 @@
   "last7d": 8,
   "baseline": 3.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-15T18:13:14Z"
+  "last_ok_at": "2026-10-15T18:13:14Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fcfe26a77a0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-10-15T22:09:52Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T18:13:30Z",
+  "fetched_at": "2026-10-15T22:10:53Z",
   "events": [
+   {
+    "date": "2026-10-16",
+    "time": "00:13",
+    "iso": "2026-10-16T00:13:00+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "후티 반군, 예멘 대통령궁 공격…사우디 “후티, 리야드 공항 20번 겨냥”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0akU2ZE93QnpHamhUQnd6Q2VNTFRhVV9RU2RsUUljdXFfZmZuaVVTc2c1eWhsX3VQX0Y3bWNuTG1VRGdQeW1LSGF5bzk5Y0ZQcmd5WTVfa3Y2eEk?oc=5",
+    "source": "KBS",
+    "outlets": 1
+   },
    {
     "date": "2026-10-15",
     "time": "17:15",
@@ -205,7 +220,7 @@
     "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVQzNWxwVUxqYThJN1JqdEg5dXpXU3ZKVjZ4Z3BiSWpick5JOHNMSnY3ZjhfcGcxd25uZHRObmVhb2hCOWlKaEdSckJZLXJhb0xLaloxb2lOQXZ4X3lPTWZ2LU1acVlMeUZNYUtZNlRsQWhlaTRpOExSVnA5MlVyaThMOVlzRFRsNXNnUnJ0ZjViaS1LYURnOWNVX2gwSXJBWjAtSXZzcw?oc=5",
     "source": "AP News",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-10-15",
@@ -1163,51 +1178,6 @@
     "source": "조선일보",
     "outlets": 2,
     "weapon": null
-   },
-   {
-    "date": "2026-09-15",
-    "time": "14:13",
-    "iso": "2026-09-15T14:13:00+03:00",
-    "city": "제다",
-    "region": "west",
-    "type": "경보",
-    "lat": 21.49,
-    "lon": 39.19,
-    "title": "사우디-후티 교전 속 성지 메카·한인 거주 제다에 ’위협 경보’",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yWEM0QjYwRE9WZWJiR1I1RWlJRVdTRk1ydzdaUEdKMnFzRGRnOVkwUFhNdVpPSmhfNjdSRVA0LTMxLU85bnVHZUVwYTJGV2xZRnhNOXVCNnJPVWxkLTMxQmFhcVAwdVE?oc=5",
-    "source": "연합뉴스",
-    "outlets": 1,
-    "weapon": null
-   },
-   {
-    "date": "2026-09-15",
-    "time": "14:03",
-    "iso": "2026-09-15T14:03:46+03:00",
-    "city": "메카",
-    "region": "west",
-    "type": "경보",
-    "lat": 21.39,
-    "lon": 39.86,
-    "title": "사우디-후티 교전 격화…성지 메카에도 첫 위협경보",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NNW5rVUZrOVN5Vm1FMmlaMXdBeE5rczc0LXQ3V0RMZnJyaFZKb0lBVkV3VUdJUkZfZTlybC0wNW5vV1pLRl9HTFRNTkZHbGNpSUI3aWp5N0habzTSAWBBVV95cUxPZXdJcHAtazdWNmFJQjN5WTh6V09FZUMyeERHMkhKS21SVGZXRm5IY3h0bXl6MThvU29fV2xYNS1UUWVmSmRpdm5RVkFKTktSVUJMaDlabUc0MmVmQUE5MFU?oc=5",
-    "source": "연합뉴스",
-    "outlets": 2,
-    "weapon": null
-   },
-   {
-    "date": "2026-09-15",
-    "time": "04:53",
-    "iso": "2026-09-15T04:53:39+03:00",
-    "city": "송유관",
-    "region": null,
-    "type": "피격",
-    "lat": null,
-    "lon": null,
-    "title": "사우디 송유관 피격에 11월 이후 국내 원유 수급 '빨간불'",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TcEpmbC1SdV8yci1SSEFaUEVhSjJ3Y2ZNYmJXNUZLSHUzR2ZyVUpfbkFXVUNTd1Y3NEctSF85aDk2V0pJSXNQOVRCTmlnakpjNzFscFN2cDdCR1HSAWBBVV95cUxOV1JCZjdaTmVXdndmdUtidjRkdWN3NlZKcUtxWGQ4MFFNalA4WWhpbVpFcGZDSWpoQzl3dDFqM2pjYTh5SzhWcm1oVklwSkxDVmVHSkZ6X0ZTRXRPLThhaUM?oc=5",
-    "source": "연합뉴스",
-    "outlets": 3,
-    "weapon": null
    }
   ],
   "tempo": {
@@ -1231,10 +1201,8 @@
      "요격": 1
     },
     "total7d": 3,
-    "prev7d": {
-     "피격": 1
-    },
-    "prev_total": 1
+    "prev7d": {},
+    "prev_total": 0
    },
    "라비그": {
     "7d": {},
@@ -1267,15 +1235,15 @@
      "피격": 7,
      "경보": 2,
      "요격": 2,
-     "공습": 3
+     "공습": 2
     },
-    "total7d": 14,
+    "total7d": 13,
     "prev7d": {
-     "공습": 4,
-     "피격": 2,
+     "공습": 5,
+     "피격": 3,
      "요격": 1
     },
-    "prev_total": 7
+    "prev_total": 9
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1351,14 +1319,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-09-15",
-  "today": "2026-10-15",
-  "last_ok_at": "2026-10-15T18:13:30Z"
+  "history_since": "2026-09-16",
+  "today": "2026-10-16",
+  "last_ok_at": "2026-10-15T22:10:53Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T18:13:32Z",
+  "fetched_at": "2026-10-15T22:10:54Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2188,18 +2156,6 @@
     "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 94 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات صنعاء وصعدة وتعز وحجة وعمران وإب وخلفت شهداء وجرحى من المدنيين، وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وجيزان . ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد 1350 غارةً جويةً وصاروخاً. http://t.me/army21ye",
     "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 와 \"타이푼\" 항공기와 나즈란과 지잔의 미사일 공격을 통해 순교자와 부상당한 민간인을 남겨두고 사나, 사다, 타이즈, 하지야, 암란, 입브 주에서 민간인 물체를 겨냥한 94회의 공습과 미사일 공습을 감행했다. 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 1,350회의 공습과 미사일 습격입니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3787"
-   },
-   {
-    "time": "2026-10-01 20:43",
-    "iso": "2026-10-01T20:43:50+03:00",
-    "places": [
-     "타이프",
-     "지잔",
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 47 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية من شبكات اتصالات ومدارس وغيرها في محافظات تعز وصعدة والجوف من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من جيزان. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد 1256 غارةً جويةً وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 지잔의 미사일 공격을 통해 타이즈, 사다, 알자프 주지사의 통신망, 학교 및 기타 민간 물체를 겨냥한 47회의 공중 및 미사일 공습을 시작했습니다. 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 1,256회입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3786"
    }
   ],
   "mentions7d": {
@@ -2213,12 +2169,12 @@
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-15T18:13:32Z"
+  "last_ok_at": "2026-10-15T22:10:54Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T18:13:34Z",
+  "fetched_at": "2026-10-15T22:10:55Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3678,13 +3634,27 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-15T18:13:34Z"
+  "last_ok_at": "2026-10-15T22:10:55Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T18:13:38Z",
+  "fetched_at": "2026-10-15T22:10:58Z",
   "kr": [
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T21:13:00+00:00",
+    "source": "KBS",
+    "title": "후티 반군, 예멘 대통령궁 공격…사우디 “후티, 리야드 공항 20번 겨냥”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0akU2ZE93QnpHamhUQnd6Q2VNTFRhVV9RU2RsUUljdXFfZmZuaVVTc2c1eWhsX3VQX0Y3bWNuTG1VRGdQeW1LSGF5bzk5Y0ZQcmd5WTVfa3Y2eEk?oc=5"
+   },
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T18:35:28+00:00",
+    "source": "연합뉴스",
+    "title": "첨단 무기체계 구축했지만…후티 '가성비 드론'에 사우디 '굴욕'",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZWHM5YkZMT3ktMV9EOGxOeF9Id0tveDB5dmYtLWoxdFhIWTVGd1Z5a0hmZTdDY1g4dGVPMW5sc3loeXZUQXEzWWpMVFJFV29KSlR0LUdKN0tQNkXSAWBBVV95cUxQWi1sVk9iX3VyT190VW9zYVJOSXBucWxmWE5VMDJrUkxzQi1hTnVwa3RzeTBFcThILUZFTzZUZDdkOXE3ZGZQUEQ4dml2M3pyeFBYaC14NVg1Y1VXY3dVQkQ?oc=5"
+   },
    {
     "date": "2026-10-15",
     "published": "2026-10-15T16:01:25+00:00",
@@ -3701,27 +3671,27 @@
    },
    {
     "date": "2026-10-15",
-    "published": "2026-10-15T13:50:50+00:00",
-    "source": "연합뉴스",
-    "title": "후티, 성지까지 공격했나…사우디 \"순항미사일 요격\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45SlZGLVo3YkxILXdDRlc0MFRtY0xpbWVWY3V1TWlKNElnWEJJdC1SN1IxX1JtSm9vdkI2b0pLc0x6LXRLMnAzR2NDeXlwendKbU9BWm1LMmFJSzAzODJoR9IBYEFVX3lxTE45SlZGLVo3YkxILXdDRlc0MFRtY0xpbWVWY3V1TWlKNElnWEJJdC1SN1IxX1JtSm9vdkI2b0pLc0x6LXRLMnAzR2NDeXlwendKbU9BWm1LMmFJSzAzODJoRw?oc=5"
-   },
-   {
-    "date": "2026-10-15",
     "published": "2026-10-15T13:15:00+00:00",
     "source": "한겨레",
     "title": "사우디, ‘이슬람 성지’ 메디나서 미사일 요격…후티 “거짓말”",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jcjVGLWFqOXAyaXhWWVNybTFGdDBSeENNcEppeWhabndkWnlKRjA5amVGWjYyM0haVlQ4aC1JS1QwalFENW5VT3liTGxsVnFzcERhVWRxWWdxa3NPLUp1MEY3NmdXT0N3bW5rMmQ5a1QzTFk?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T00:38:38+00:00",
-    "source": "MBC",
-    "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격‥명중\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43RmotV2ZFcFhTeTJvOHFCU0dySmJCdDdMWmMyVXpzOXRJaVpPOXY5WlZsQWEzUnA3bkl2UDlCY0ZHMDFGemdyVFB5UVd2OVYtZkxURXh4MmpnR0JhTno0WDQxQVVLNndMbGxlLVc0QVByN3ln0gF0QVVfeXFMTjJzOGRuYmdvcTNwMm5pVndWdVNMUE1ZRktHVDRVN1NmNTZFMnVYMzN3dUxyek43bjhGRnhLclo5U2IyU05IZkFTc29UOEtTSk1PekktaGxlakdsZkJEOS1UWXhfMXZIT0ZMX0Z3dGVfWWRBdTM?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T20:19:00+00:00",
+    "source": "AP News",
+    "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVQzNWxwVUxqYThJN1JqdEg5dXpXU3ZKVjZ4Z3BiSWpick5JOHNMSnY3ZjhfcGcxd25uZHRObmVhb2hCOWlKaEdSckJZLXJhb0xLaloxb2lOQXZ4X3lPTWZ2LU1acVlMeUZNYUtZNlRsQWhlaTRpOExSVnA5MlVyaThMOVlzRFRsNXNnUnJ0ZjViaS1LYURnOWNVX2gwSXJBWjAtSXZzcw?oc=5"
+   },
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T17:42:36+00:00",
+    "source": "Reuters",
+    "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGVvZWRvRzA4MGlxRTRTLU95S2ZWTnB2LVZ1ZDBPQTdxbW53SmViQk96X3FpTlVXNEtZaTRvMld4akRJUm9vOU56NjJfSnROV3pCeURHQ3BCcTBYbW1KVVZyLVBaT0VXaE55WGc0WGI5c2RRdC1RaVZiT092ZU9RaTBRdmluamFTQ0JuRWRWNTNYdzhOa1dfNWVBNV9RcVMydFZoaHpFMlJnSHhrckl2cnRyZC0xc0xMcW5Idw?oc=5"
+   },
    {
     "date": "2026-10-15",
     "published": "2026-10-15T17:00:51+00:00",
@@ -3738,36 +3708,22 @@
    },
    {
     "date": "2026-10-15",
-    "published": "2026-10-15T16:40:27+00:00",
-    "source": "Reuters",
-    "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGVvZWRvRzA4MGlxRTRTLU95S2ZWTnB2LVZ1ZDBPQTdxbW53SmViQk96X3FpTlVXNEtZaTRvMld4akRJUm9vOU56NjJfSnROV3pCeURHQ3BCcTBYbW1KVVZyLVBaT0VXaE55WGc0WGI5c2RRdC1RaVZiT092ZU9RaTBRdmluamFTQ0JuRWRWNTNYdzhOa1dfNWVBNV9RcVMydFZoaHpFMlJnSHhrckl2cnRyZC0xc0xMcW5Idw?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T14:15:00+00:00",
-    "source": "AP News",
-    "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVQzNWxwVUxqYThJN1JqdEg5dXpXU3ZKVjZ4Z3BiSWpick5JOHNMSnY3ZjhfcGcxd25uZHRObmVhb2hCOWlKaEdSckJZLXJhb0xLaloxb2lOQXZ4X3lPTWZ2LU1acVlMeUZNYUtZNlRsQWhlaTRpOExSVnA5MlVyaThMOVlzRFRsNXNnUnJ0ZjViaS1LYURnOWNVX2gwSXJBWjAtSXZzcw?oc=5"
-   },
-   {
-    "date": "2026-10-15",
     "published": "2026-10-15T10:55:04+00:00",
     "source": "Al Jazeera",
     "title": "Fighting in Yemen intensifies: What’s the latest on the battlefield?",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeTU5VVFnZTBlUnlrRWQ4Z2VEQWxac25aYUN1YlpMM3IyOEdZcTF4LUFwMXFYdnNxTTBndDlISWxucERjRWZGczhPbFMwZ2NDVlltZF84TXYtRGxmRGxlZVZuQTFtY3hHTmpQeEtvaGFvcXV1UHNwUmNYTlZmalM5Z1FzS0RKdjFrSWkyc0ZRQnFMZFpneVFTa09nMFdVSGtfdUpSalNZc0VLYzjSAbABQVVfeXFMTm5kcDd2cjk1OEE5TWIyUmhWcy0yYnVIUXdVZFdWS1A4SER4QW0xZ1VFYV9BdmRlZklxZzJjVmNlYlZvSk1GT0h0VXlFaFlPRFhvazhYYnhqYW5hV2puczlzekVyUHRRYmpkX0hvaHdBWkZBOVRvbm5kTDBnUS1BZURiakEtVzdydUJiZGE5WHcwU0pmamFncTVFMFZyeGZ3RHhTTFVuZk9vOE93UGxZTW0?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-15T18:13:38Z"
+  "last_ok_at": "2026-10-15T22:10:58Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T18:13:39Z",
+  "fetched_at": "2026-10-15T22:10:59Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 27,
-  "baseline": 30,
-  "baseline_n": 9,
+  "count": 29,
+  "baseline": 35.0,
+  "baseline_n": 10,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3909,14 +3865,15 @@
    "2026-10-15T01": 29,
    "2026-10-15T07": 18,
    "2026-10-15T13": 36,
-   "2026-10-15T18": 27
+   "2026-10-15T18": 27,
+   "2026-10-15T22": 29
   },
-  "last_ok_at": "2026-10-15T18:13:39Z"
+  "last_ok_at": "2026-10-15T22:10:59Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-15T18:13:39Z",
-  "last_ok_at": "2026-10-15T18:13:39Z"
+  "fetched_at": "2026-10-15T22:10:59Z",
+  "last_ok_at": "2026-10-15T22:10:59Z"
  }
 }
