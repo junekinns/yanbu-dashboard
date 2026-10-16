@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T22:09:52Z",
+ "generated_at": "2026-10-16T01:12:42Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-10-16T01:12:42Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -181,18 +184,14 @@
    }
   ],
   "last7d": 8,
-  "baseline": 3.0,
-  "tier": "증가",
-  "last_ok_at": "2026-10-15T18:13:14Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7fcfe26a77a0>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-10-15T22:09:52Z",
-  "stale": true
+  "baseline": 2.5,
+  "tier": "급증",
+  "last_ok_at": "2026-10-16T01:12:42Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T22:10:53Z",
+  "fetched_at": "2026-10-16T01:13:00Z",
   "events": [
    {
     "date": "2026-10-16",
@@ -206,7 +205,7 @@
     "title": "후티 반군, 예멘 대통령궁 공격…사우디 “후티, 리야드 공항 20번 겨냥”",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0akU2ZE93QnpHamhUQnd6Q2VNTFRhVV9RU2RsUUljdXFfZmZuaVVTc2c1eWhsX3VQX0Y3bWNuTG1VRGdQeW1LSGF5bzk5Y0ZQcmd5WTVfa3Y2eEk?oc=5",
     "source": "KBS",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-10-15",
@@ -1321,12 +1320,12 @@
   "history_days": 31,
   "history_since": "2026-09-16",
   "today": "2026-10-16",
-  "last_ok_at": "2026-10-15T22:10:53Z"
+  "last_ok_at": "2026-10-16T01:13:00Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T22:10:54Z",
+  "fetched_at": "2026-10-16T01:13:02Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2169,12 +2168,12 @@
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-15T22:10:54Z"
+  "last_ok_at": "2026-10-16T01:13:02Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T22:10:55Z",
+  "fetched_at": "2026-10-16T01:13:02Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2237,14 +2236,6 @@
     "lat": 24.33324,
     "lon": 46.98901,
     "frp": 0.99,
-    "date": "2026-10-08",
-    "time": "2210",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.53722,
-    "lon": 53.92993,
-    "frp": 1.5,
     "date": "2026-10-08",
     "time": "2210",
     "confidence": "nominal"
@@ -3394,14 +3385,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 22.53673,
-    "lon": 53.93764,
-    "frp": 2.44,
-    "date": "2026-10-13",
-    "time": "2216",
-    "confidence": "nominal"
-   },
-   {
     "lat": 23.97735,
     "lon": 38.23987,
     "frp": 5.16,
@@ -3509,14 +3492,6 @@
     "lat": 23.97199,
     "lon": 48.13047,
     "frp": 0.77,
-    "date": "2026-10-14",
-    "time": "2157",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.5358,
-    "lon": 53.93853,
-    "frp": 2.5,
     "date": "2026-10-14",
     "time": "2157",
     "confidence": "nominal"
@@ -3632,25 +3607,42 @@
     "date": "2026-10-15",
     "time": "1051",
     "confidence": "low"
+   },
+   {
+    "lat": 27.07592,
+    "lon": 49.57299,
+    "frp": 4.25,
+    "date": "2026-10-15",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.54555,
+    "lon": 53.91499,
+    "frp": 13.81,
+    "date": "2026-10-15",
+    "time": "2138",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.54521,
+    "lon": 53.91843,
+    "frp": 13.81,
+    "date": "2026-10-15",
+    "time": "2138",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-15T22:10:55Z"
+  "last_ok_at": "2026-10-16T01:13:02Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T22:10:58Z",
+  "fetched_at": "2026-10-16T01:13:04Z",
   "kr": [
    {
     "date": "2026-10-15",
-    "published": "2026-10-15T21:13:00+00:00",
-    "source": "KBS",
-    "title": "후티 반군, 예멘 대통령궁 공격…사우디 “후티, 리야드 공항 20번 겨냥”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0akU2ZE93QnpHamhUQnd6Q2VNTFRhVV9RU2RsUUljdXFfZmZuaVVTc2c1eWhsX3VQX0Y3bWNuTG1VRGdQeW1LSGF5bzk5Y0ZQcmd5WTVfa3Y2eEk?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T18:35:28+00:00",
+    "published": "2026-10-15T22:22:09+00:00",
     "source": "연합뉴스",
     "title": "첨단 무기체계 구축했지만…후티 '가성비 드론'에 사우디 '굴욕'",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZWHM5YkZMT3ktMV9EOGxOeF9Id0tveDB5dmYtLWoxdFhIWTVGd1Z5a0hmZTdDY1g4dGVPMW5sc3loeXZUQXEzWWpMVFJFV29KSlR0LUdKN0tQNkXSAWBBVV95cUxQWi1sVk9iX3VyT190VW9zYVJOSXBucWxmWE5VMDJrUkxzQi1hTnVwa3RzeTBFcThILUZFTzZUZDdkOXE3ZGZQUEQ4dml2M3pyeFBYaC14NVg1Y1VXY3dVQkQ?oc=5"
@@ -3675,9 +3667,30 @@
     "source": "한겨레",
     "title": "사우디, ‘이슬람 성지’ 메디나서 미사일 요격…후티 “거짓말”",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9jcjVGLWFqOXAyaXhWWVNybTFGdDBSeENNcEppeWhabndkWnlKRjA5amVGWjYyM0haVlQ4aC1JS1QwalFENW5VT3liTGxsVnFzcERhVWRxWWdxa3NPLUp1MEY3NmdXT0N3bW5rMmQ5a1QzTFk?oc=5"
+   },
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T00:38:38+00:00",
+    "source": "MBC",
+    "title": "후티 반군 \"사우디 리야드 국제공항 탄도미사일로 공격‥명중\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43RmotV2ZFcFhTeTJvOHFCU0dySmJCdDdMWmMyVXpzOXRJaVpPOXY5WlZsQWEzUnA3bkl2UDlCY0ZHMDFGemdyVFB5UVd2OVYtZkxURXh4MmpnR0JhTno0WDQxQVVLNndMbGxlLVc0QVByN3ln0gF0QVVfeXFMTjJzOGRuYmdvcTNwMm5pVndWdVNMUE1ZRktHVDRVN1NmNTZFMnVYMzN3dUxyek43bjhGRnhLclo5U2IyU05IZkFTc29UOEtTSk1PekktaGxlakdsZkJEOS1UWXhfMXZIT0ZMX0Z3dGVfWWRBdTM?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T23:16:23+00:00",
+    "source": "PBS",
+    "title": "Saudi diplomat says Iran is encouraging Houthi escalation of attacks on the kingdom",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS0FDU1ExUF92WHRTM2l3dUdwZkJVckQ1YlpFbXV2emFXRlBVWi02YWQyS1hSXzRrN1J6YVY1d2d5TElFQXJiNXNUZjFMYVlMMkN2NmtVQXA3MjhBWEdqWjZEaEVRQUYtUTRBcnR1UGFfNHU0cTFBcWpWak9FWmM1R1RQN1hyUDZ1WWctcHRRSWkyMnRXWVd3Z2tQZUttT1J5dmozdFQ0c2RYS1pjMEZRa3hJa1UxYi1wTk9USks0a9IBvwFBVV95cUxPS0FDU1ExUF92WHRTM2l3dUdwZkJVckQ1YlpFbXV2emFXRlBVWi02YWQyS1hSXzRrN1J6YVY1d2d5TElFQXJiNXNUZjFMYVlMMkN2NmtVQXA3MjhBWEdqWjZEaEVRQUYtUTRBcnR1UGFfNHU0cTFBcWpWak9FWmM1R1RQN1hyUDZ1WWctcHRRSWkyMnRXWVd3Z2tQZUttT1J5dmozdFQ0c2RYS1pjMEZRa3hJa1UxYi1wTk9USks0aw?oc=5"
+   },
+   {
+    "date": "2026-10-15",
+    "published": "2026-10-15T20:28:00+00:00",
+    "source": "The Guardian",
+    "title": "Houthi missiles strike Saudi-led forces HQ at presidential palace in Aden",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkFOY3lPYnZzY2JhR0RfeEUtQU1lZDVLU1N4a254d1Z6ZmlLM25LUm12Q2tudk1VOU9oR0xSaW92aUJEUlgyWWJ5NVQzVEJNb0dzU21MWWlXcU5JNkVKWlE5eVBteEItT3RXSHRvY2djQTFkOGNIUFVuVXRERUItcnMtSl9hdw?oc=5"
+   },
    {
     "date": "2026-10-15",
     "published": "2026-10-15T20:19:00+00:00",
@@ -3698,32 +3711,18 @@
     "source": "The New York Times",
     "title": "Why Does Saudi Arabia Struggle to Stop Houthi Attacks?",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVlGa1lUdkZRb3JRU3NWRS1jeExIdWIzZDVWLU1sZW0tdlp6a25TMHpmUUluOUFUS3A2UGN4NFdRM1A4WlQ2ejctSmhUQm9jR051Wml3cG1qaFZoX0N0SDRFNHN6YWlNUTZIUlpVS0g1UnhVc1BQVkdWUHRXSWJZVlphX2dVV3RtdUZFRWhiSzhsaXFPbjhoZnNiS0VFbEE?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:57:37+00:00",
-    "source": "Reuters",
-    "title": "How Aramco learned to keep pumping oil under fire",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEo4RHMzbGVMLUpQcnFqT28tSlU2Q0FBUlZtc2MzaUZSLXpsd3o3X1VGQXplLWJUaUJuQ1BCbFdVbzZwZUk0OURuZ0dmcWVkaWNaclNBcHBlRGR1bWViNWROR21UV2pSRTdqNDZfUVFDdHR2TG9lUDd5eDlNRzVtWHRVNFI5d3I4MUtQdG04SVA1OURzQzI5WXk3N3ItUEE?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T10:55:04+00:00",
-    "source": "Al Jazeera",
-    "title": "Fighting in Yemen intensifies: What’s the latest on the battlefield?",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeTU5VVFnZTBlUnlrRWQ4Z2VEQWxac25aYUN1YlpMM3IyOEdZcTF4LUFwMXFYdnNxTTBndDlISWxucERjRWZGczhPbFMwZ2NDVlltZF84TXYtRGxmRGxlZVZuQTFtY3hHTmpQeEtvaGFvcXV1UHNwUmNYTlZmalM5Z1FzS0RKdjFrSWkyc0ZRQnFMZFpneVFTa09nMFdVSGtfdUpSalNZc0VLYzjSAbABQVVfeXFMTm5kcDd2cjk1OEE5TWIyUmhWcy0yYnVIUXdVZFdWS1A4SER4QW0xZ1VFYV9BdmRlZklxZzJjVmNlYlZvSk1GT0h0VXlFaFlPRFhvazhYYnhqYW5hV2puczlzekVyUHRRYmpkX0hvaHdBWkZBOVRvbm5kTDBnUS1BZURiakEtVzdydUJiZGE5WHcwU0pmamFncTVFMFZyeGZ3RHhTTFVuZk9vOE93UGxZTW0?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-15T22:10:58Z"
+  "last_ok_at": "2026-10-16T01:13:04Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-15T22:10:59Z",
+  "fetched_at": "2026-10-16T01:13:06Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 29,
-  "baseline": 35.0,
-  "baseline_n": 10,
+  "count": 25,
+  "baseline": 31,
+  "baseline_n": 11,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3866,14 +3865,15 @@
    "2026-10-15T07": 18,
    "2026-10-15T13": 36,
    "2026-10-15T18": 27,
-   "2026-10-15T22": 29
+   "2026-10-15T22": 29,
+   "2026-10-16T01": 25
   },
-  "last_ok_at": "2026-10-15T22:10:59Z"
+  "last_ok_at": "2026-10-16T01:13:06Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-15T22:10:59Z",
-  "last_ok_at": "2026-10-15T22:10:59Z"
+  "fetched_at": "2026-10-16T01:13:06Z",
+  "last_ok_at": "2026-10-16T01:13:06Z"
  }
 }
