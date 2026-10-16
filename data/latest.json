@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T07:03:19Z",
+ "generated_at": "2026-10-16T12:19:00Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T07:03:19Z",
+  "fetched_at": "2026-10-16T12:19:00Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -165,6 +165,12 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-10-16",
+    "title": "주의 중동지역 정세 악화에 따른 출국 및 여행 취소·연기 권고",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048664/detail",
+    "summary": "중동전쟁으로 사우디아라비아, 이란, 쿠웨이트, 바레인, 아랍에미리트(UAE), 카타르 등 중동 지역 대부분의 국가에 3단계(출국권고) 또는 4단계(여행금지) 여행경보가 발령되어 있습니다. 역내 안보 상황이 사전 예고 없이 급격하게 악화될 수 있고 이 경우 지난 3월과 같이 영공 폐쇄나 항공편 취소 등으로 발이 묶일 수 있으니, 현지에 체류 중인 우리 국민들…"
+   },
+   {
     "date": "2026-10-15",
     "title": "메디나주 내 순항미사일 요격 관련 신변 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321121/detail2?ntnCd=107",
@@ -175,23 +181,17 @@
     "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.15)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321120/detail2?ntnCd=107",
     "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
-   },
-   {
-    "date": "2026-10-14",
-    "title": "주의 사우디 여행경보 및 안전 유의 안내(사우디 서(남)부 지역 공항 이용 주의사항)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048661/detail",
-    "summary": "(작성자: 주사우디대사관, 작성일: 26.10.13) 최근 사우디아라비아 내 미사일·무인기 공격이 지속되고 있는바, 현지 체류 및 방문 예정인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ (여행경보 3단계) 외교부는 10.11.(일)부로 사우디아라비아 전역의 여행경보를 3단계(출국권고)로 상향 조정하였습니다. 사우디 방문을 계획 중인 …"
    }
   ],
-  "last7d": 8,
+  "last7d": 9,
   "baseline": 2.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-16T07:03:19Z"
+  "last_ok_at": "2026-10-16T12:19:00Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T07:03:34Z",
+  "fetched_at": "2026-10-16T12:19:17Z",
   "events": [
    {
     "date": "2026-10-16",
@@ -1320,12 +1320,12 @@
   "history_days": 31,
   "history_since": "2026-09-16",
   "today": "2026-10-16",
-  "last_ok_at": "2026-10-16T07:03:34Z"
+  "last_ok_at": "2026-10-16T12:19:17Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T07:03:36Z",
+  "fetched_at": "2026-10-16T12:19:18Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2176,12 +2176,12 @@
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-16T07:03:36Z"
+  "last_ok_at": "2026-10-16T12:19:18Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T07:03:38Z",
+  "fetched_at": "2026-10-16T12:19:19Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3617,13 +3617,27 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-16T07:03:38Z"
+  "last_ok_at": "2026-10-16T12:19:19Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T07:03:41Z",
+  "fetched_at": "2026-10-16T12:19:21Z",
   "kr": [
+   {
+    "date": "2026-10-16",
+    "published": "2026-10-16T07:51:43+00:00",
+    "source": "연합뉴스",
+    "title": "첨단무기 보유 사우디가 쩔쩔매는 후티의 무기체계는",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZVk1XWFVvMm14ZGR6WFQyampIeUhPQnVPaENJNXRSRC1yZ3d6TFZVd0JleHNQQVBIT0ZFeExtZExKWWN5aUREdnU1dC1rbTdCNmNSQ0JVTmpDZ3fSAWBBVV95cUxNZkduMm9BNXVQdThpbXltUmZhUE5RM0N0Y0g3LWhUaFYxSGV6S09KQmxxZElTb1hMTDRfV0E4NmNoT2ZuS2w0SENvNGdST0x1OHBFN0Y4SlRxbk8yajFWYlc?oc=5"
+   },
+   {
+    "date": "2026-10-16",
+    "published": "2026-10-16T03:20:00+00:00",
+    "source": "KBS",
+    "title": "후티 반군, 예멘 대통령궁 공격…사우디 “후티, 리야드 공항 20번 겨냥”",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PSXBHM0RjdXk3YkxodnRHdlhYVGRHNTdhWVo5ZEFHbndDSWhabGhYSlFoeml5RlhlMHIwZ09GWjVieHQ1dGJaSWF3ekJTYXlIVG5wT2FtLUE1OXFMOTdBV29KX282QQ?oc=5"
+   },
    {
     "date": "2026-10-16",
     "published": "2026-10-16T02:47:44+00:00",
@@ -3633,31 +3647,17 @@
    },
    {
     "date": "2026-10-16",
+    "published": "2026-10-16T02:27:00+00:00",
+    "source": "한겨레",
+    "title": "후티, 예멘 대통령궁 공격으로 최소 5명 사망…사우디 “이란이 확전 부추겨”",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeGlxMERVbnpnaUkzVkx4bFZMRDJHTl8yaFV0U0dTY0pvSGNVeU9oQlNuMGZSaU9qR1RjTUVPOGtjclhkRTJ2aTFYbzRhMXJBQW9kYThKQXVrQ1NuOGtrSWJYTldPOXgyUUo1U3FnNmhVRVlPbmMwMlVpY0JZbm5vOXN3?oc=5"
+   },
+   {
+    "date": "2026-10-16",
     "published": "2026-10-16T00:55:00+00:00",
     "source": "JTBC",
     "title": "속수무책으로 당하는 사우디…후티 \"타이푼 격추 성공\" 주장",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XYTVKUWlTSzdWaEVtWV82SW9UckdIemJRazUxLTh4M051R0RpZ3JVN0tJaGdrS1ZWTnZEZTdicTZQdkdGQjJOeDZsUmZCSENPRkh5aA?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T00:53:00+00:00",
-    "source": "YTN",
-    "title": "\"공격 계속 이어갈 것\"...집중 타깃 된 사우디 리야드 공항 [자막뉴스]",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Xenh0dmlvRzhFQTlQQUYzVGYtbUg2ZWNWSzlxWjEyWDI2Xy1iU01OdVNXZ2lHeXY0eDRBcjhGeWZRdnVSNllxYTJQeGhqWmJnenZwcWVkcW1tSUVDTFE?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T23:53:00+00:00",
-    "source": "연합뉴스",
-    "title": "[월드앤이슈] 사우디 \"성지서 미사일 요격\"…후티는 공격 부인",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42a1JnN0RENEprdjB6eDRWb1J4X0M0aUhSWEUwem1lT3BhbHB3V3RyMzV0bEYtc3hUbENhZ2JOZ0JfdmlQaGlWX01sdzBKWWowa3RRbWs4Zk9WRzNsNDhMZm1jdzFtdW8?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T22:07:00+00:00",
-    "source": "KBS",
-    "title": "후티 반군, 예멘 대통령궁 공격…사우디 “후티, 리야드 공항 20번 겨냥”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBER0RfOGdyd0Z3MUFYUmZDbkxwaVlFcDZPcjZBU3hkNVJCSk1BcjEyNzZwOVJNTHFRcm1ZWU5PdzRQdmtWNTZ6WVFyczVBMjluTnJqQXdrVkNvRzg?oc=5"
    }
   ],
   "en": [
@@ -3697,16 +3697,16 @@
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEo4RHMzbGVMLUpQcnFqT28tSlU2Q0FBUlZtc2MzaUZSLXpsd3o3X1VGQXplLWJUaUJuQ1BCbFdVbzZwZUk0OURuZ0dmcWVkaWNaclNBcHBlRGR1bWViNWROR21UV2pSRTdqNDZfUVFDdHR2TG9lUDd5eDlNRzVtWHRVNFI5d3I4MUtQdG04SVA1OURzQzI5WXk3N3ItUEE?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-16T07:03:41Z"
+  "last_ok_at": "2026-10-16T12:19:21Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T07:03:42Z",
+  "fetched_at": "2026-10-16T12:19:23Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 28,
-  "baseline": 25.5,
-  "baseline_n": 6,
+  "count": 30,
+  "baseline": null,
+  "baseline_n": 1,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3851,14 +3851,15 @@
    "2026-10-15T18": 27,
    "2026-10-15T22": 29,
    "2026-10-16T01": 25,
-   "2026-10-16T07": 28
+   "2026-10-16T07": 28,
+   "2026-10-16T12": 30
   },
-  "last_ok_at": "2026-10-16T07:03:42Z"
+  "last_ok_at": "2026-10-16T12:19:23Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-16T07:03:42Z",
-  "last_ok_at": "2026-10-16T07:03:42Z"
+  "fetched_at": "2026-10-16T12:19:23Z",
+  "last_ok_at": "2026-10-16T12:19:23Z"
  }
 }
