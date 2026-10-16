@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:20:41Z",
+ "generated_at": "2026-10-16T20:58:12Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T17:20:41Z",
+  "fetched_at": "2026-10-16T20:58:12Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 9,
   "baseline": 2.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-16T17:20:41Z"
+  "last_ok_at": "2026-10-16T20:58:12Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T17:21:02Z",
+  "fetched_at": "2026-10-16T20:58:27Z",
   "events": [
    {
     "date": "2026-10-16",
@@ -205,7 +205,7 @@
     "title": "후티, 사우디 리야드·얀부 공격…연합군 \"미사일·드론 요격\"",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MNIBYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MA?oc=5",
     "source": "연합뉴스",
-    "outlets": 4
+    "outlets": 5
    },
    {
     "date": "2026-10-16",
@@ -1336,14 +1336,26 @@
   "history_days": 31,
   "history_since": "2026-09-16",
   "today": "2026-10-16",
-  "last_ok_at": "2026-10-16T17:21:02Z"
+  "last_ok_at": "2026-10-16T20:58:27Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T17:21:03Z",
+  "fetched_at": "2026-10-16T20:58:28Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-16 21:02",
+    "iso": "2026-10-16T21:02:18+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 101 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الضالع وتعز والحديدة وذمار ومأرب وصعدة والجوف وعمران ولحج من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت شهداء وجرحى من المدنيين بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 2489 غارة…",
+    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 수도 사나와 달리, 타이즈, 호데이다, 다마르, 마리브, 사다, 알자우프, 암란, 라즈 총독의 민간인 물체를 겨냥한 101회의 공습과 미사일 공습을 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 와 \"타이푼\" 항공기와 나즈란에서 미사일 공격을 통해 시작하여 순교자와 부상당한 민간인 (여성과 어린이 포함) 을 남겼습니다. 우리 나라에 대한 이관 시작 이후 사우디의 총 침략 습격 횟수를 2489회로 늘렸습니다...",
+    "url": "https://t.me/army21ye/3901"
+   },
    {
     "time": "2026-10-16 05:10",
     "iso": "2026-10-16T05:10:34+03:00",
@@ -2183,21 +2195,21 @@
   ],
   "mentions7d": {
    "리야드": 11,
-   "메디나": 5,
-   "타이프": 5,
    "카미스무샤이트": 5,
+   "타이프": 5,
+   "메디나": 5,
    "담맘": 5,
    "나즈란": 4,
    "메카": 4,
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-16T17:21:03Z"
+  "last_ok_at": "2026-10-16T20:58:28Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T17:21:03Z",
+  "fetched_at": "2026-10-16T20:58:31Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3641,13 +3653,27 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-16T17:21:03Z"
+  "last_ok_at": "2026-10-16T20:58:31Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T17:21:05Z",
+  "fetched_at": "2026-10-16T20:58:34Z",
   "kr": [
+   {
+    "date": "2026-10-16",
+    "published": "2026-10-16T19:00:00+00:00",
+    "source": "연합뉴스",
+    "title": "이란, 후티의 사우디 공격 배후설 부인…\"신빙성 없어\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PSWFTOWk2WG1FdFZDaUJVelNBRWtrTWV2YVlHSU1oQ2NxY3hsNmVMOElxWTExNUNGd0lVVXFZcFZ5Q3Q0dnpUbzVnZmZLZUR2NGlaUjNJOUhmV3RwZm5qUVRQWmREZVE?oc=5"
+   },
+   {
+    "date": "2026-10-16",
+    "published": "2026-10-16T18:18:50+00:00",
+    "source": "연합뉴스",
+    "title": "이란 외무부, 후티 반군의 사우디 공격 배후설 전면 부인",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyVGRCMnNjZnBxTlFGbnByZ2Q4VUcwVXlQTkdlbzJlRXF3aVVnU2hsdlJmME5maDhRSTBleEl0VkNtTEJWQ19jVVZablBhLW1jYl9zT1FYcWd0Mlo0enhyVdIBYEFVX3lxTFAyVGRCMnNjZnBxTlFGbnByZ2Q4VUcwVXlQTkdlbzJlRXF3aVVnU2hsdlJmME5maDhRSTBleEl0VkNtTEJWQ19jVVZablBhLW1jYl9zT1FYcWd0Mlo0enhyVQ?oc=5"
+   },
    {
     "date": "2026-10-16",
     "published": "2026-10-16T15:22:43+00:00",
@@ -3657,17 +3683,10 @@
    },
    {
     "date": "2026-10-16",
-    "published": "2026-10-16T14:46:32+00:00",
-    "source": "MBC",
-    "title": "후티, 사우디 리야드·얀부 공격‥연합군 \"미사일·드론 요격\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aYVhTY1VQeHRYUXk0S0dKM2lqWkZhdmxyYXVpRjBodmpjY1A4TlF5dHd0dkpWYVNfQmU5Q0dmSEItTDlmcHJfdTVfNXR2UE1QM1BvcUZINWRKVU5kUHRXbUpGT2FoczJRZ2F6ZUZFdnBGeFd30gF0QVVfeXFMTy1QZ1hTZVlRZHVhNXVvbzluYUZSdDJqX0EwM1dPRG5aZHFfUmExa01uOEIteGRyLWQzZkd0SHZMRVJ5MmtyV2dPaXVjcndJS1c2N3lIWHRVdGtwSERyeGVPT0NfUlY2VmpUT05GeHJ1LTduTDQ?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T07:51:43+00:00",
-    "source": "연합뉴스",
-    "title": "첨단무기 보유 사우디가 쩔쩔매는 후티의 무기체계는",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZVk1XWFVvMm14ZGR6WFQyampIeUhPQnVPaENJNXRSRC1yZ3d6TFZVd0JleHNQQVBIT0ZFeExtZExKWWN5aUREdnU1dC1rbTdCNmNSQ0JVTmpDZ3fSAWBBVV95cUxNZkduMm9BNXVQdThpbXltUmZhUE5RM0N0Y0g3LWhUaFYxSGV6S09KQmxxZElTb1hMTDRfV0E4NmNoT2ZuS2w0SENvNGdST0x1OHBFN0Y4SlRxbk8yajFWYlc?oc=5"
+    "published": "2026-10-16T14:50:00+00:00",
+    "source": "KBS",
+    "title": "후티, 사우디 리야드·얀부 공격…연합군 “미사일·드론 요격”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKVDl4dFpnelEtTHFWQ1A0NWdjc2Fqc2lncVlBelZzQWZDZ0pFRDJLSHJXRnRaWVV3QVd6S29saW9ZbHU2QmVTdTZvTmo1MEF4VUh2eEVpU3FyYU0?oc=5"
    },
    {
     "date": "2026-10-16",
@@ -3675,19 +3694,12 @@
     "source": "KBS",
     "title": "후티 반군, 예멘 대통령궁 공격…사우디 “후티, 리야드 공항 20번 겨냥”",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PSXBHM0RjdXk3YkxodnRHdlhYVGRHNTdhWVo5ZEFHbndDSWhabGhYSlFoeml5RlhlMHIwZ09GWjVieHQ1dGJaSWF3ekJTYXlIVG5wT2FtLUE1OXFMOTdBV29KX282QQ?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T02:47:44+00:00",
-    "source": "연합뉴스",
-    "title": "[영상] 사우디 지휘본부 노리고…후티, 예멘 대통령궁 미사일 공격",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yYmpjdzl5UFZHb1Z6eEpUTTA3VEpmeTA5NDY3c2tMWUJLMnY0LWhLVU16ampJVDNIeVg0VlBXX1h1cXpvalp3Nk40M3ZMenprZXVaYVI0eGVlYzMwR1RyT9IBYEFVX3lxTE4yYmpjdzl5UFZHb1Z6eEpUTTA3VEpmeTA5NDY3c2tMWUJLMnY0LWhLVU16ampJVDNIeVg0VlBXX1h1cXpvalp3Nk40M3ZMenprZXVaYVI0eGVlYzMwR1RyTw?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-16",
-    "published": "2026-10-16T14:05:51+00:00",
+    "published": "2026-10-16T14:23:44+00:00",
     "source": "DW",
     "title": "Houthi attacks on Saudi Arabia threaten Riyadh's regional leadership and economic ambitions",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTUNQWGRNcVlpS1NrcHZyemxsd3FTaENKZ2NiSWxvLXF2c3RYY1FQX1l4N0pkb0VlZm51S19lOE9TR1hhME1qMjN6WkxEVjUwQkRNaVJ6LVplT21aYWRZZWRKdUt3ZkhWV0pNbXdCRHA5OVZCZl9obVMtbk9McDJPMGxGQlB1MG9URlN1TTJZVi01elJ2Z3AyWjE5YzZzOXhEYVdHTXQ5SjRzZlhZRkRBQ0VONW5JdkVsN0tpNE04Q1VIZUhLSlM2MkMyd19fd9IBzgFBVV95cUxNSl9YTloxVURMZ3BpanQxTWh3WnlPc2dHa0ZOQTQta2l6MmpuVWVSOVlxMjFHV25kcTFMN1Y2OXVfRTFOa0N2cWxLa2VidkRHM2x1dmtaWVBjdGVIWlNScU40aER0Q05VU01FbDBFX1AtLTk4enMyeVU3ZHhzbnVicDR1WV82VUg0ZkM2eUhrMG5ENXNxNThZeGdLNk0zTUpzV1NrTWtFbEhoazhVenRQeUQyVnhmcUsteEM3aXl0WlNBQmd4NmUyRURFTUxNdw?oc=5"
@@ -3721,16 +3733,16 @@
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkFOY3lPYnZzY2JhR0RfeEUtQU1lZDVLU1N4a254d1Z6ZmlLM25LUm12Q2tudk1VOU9oR0xSaW92aUJEUlgyWWJ5NVQzVEJNb0dzU21MWWlXcU5JNkVKWlE5eVBteEItT3RXSHRvY2djQTFkOGNIUFVuVXRERUItcnMtSl9hdw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-16T17:21:05Z"
+  "last_ok_at": "2026-10-16T20:58:34Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T17:21:06Z",
+  "fetched_at": "2026-10-16T20:58:35Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 22,
-  "baseline": 39.5,
-  "baseline_n": 4,
+  "count": 15,
+  "baseline": 29.5,
+  "baseline_n": 6,
   "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
@@ -3877,14 +3889,15 @@
    "2026-10-16T01": 25,
    "2026-10-16T07": 28,
    "2026-10-16T12": 30,
-   "2026-10-16T17": 22
+   "2026-10-16T17": 22,
+   "2026-10-16T20": 15
   },
-  "last_ok_at": "2026-10-16T17:21:06Z"
+  "last_ok_at": "2026-10-16T20:58:35Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-16T17:21:06Z",
-  "last_ok_at": "2026-10-16T17:21:06Z"
+  "fetched_at": "2026-10-16T20:58:35Z",
+  "last_ok_at": "2026-10-16T20:58:35Z"
  }
 }
