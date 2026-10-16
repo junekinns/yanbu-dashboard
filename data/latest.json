@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T12:19:00Z",
+ "generated_at": "2026-10-16T17:20:41Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T12:19:00Z",
+  "fetched_at": "2026-10-16T17:20:41Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 9,
   "baseline": 2.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-16T12:19:00Z"
+  "last_ok_at": "2026-10-16T17:20:41Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T12:19:17Z",
+  "fetched_at": "2026-10-16T17:21:02Z",
   "events": [
+   {
+    "date": "2026-10-16",
+    "time": "17:27",
+    "iso": "2026-10-16T17:27:42+03:00",
+    "city": "얀부",
+    "type": "요격",
+    "weapon": "드론",
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "후티, 사우디 리야드·얀부 공격…연합군 \"미사일·드론 요격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MNIBYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MA?oc=5",
+    "source": "연합뉴스",
+    "outlets": 4
+   },
    {
     "date": "2026-10-16",
     "time": "00:13",
@@ -1181,8 +1195,10 @@
   ],
   "tempo": {
    "얀부": {
-    "7d": {},
-    "total7d": 0,
+    "7d": {
+     "요격": 1
+    },
+    "total7d": 1,
     "prev7d": {},
     "prev_total": 0
    },
@@ -1320,12 +1336,12 @@
   "history_days": 31,
   "history_since": "2026-09-16",
   "today": "2026-10-16",
-  "last_ok_at": "2026-10-16T12:19:17Z"
+  "last_ok_at": "2026-10-16T17:21:02Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T12:19:18Z",
+  "fetched_at": "2026-10-16T17:21:03Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2166,7 +2182,7 @@
    }
   ],
   "mentions7d": {
-   "리야드": 13,
+   "리야드": 11,
    "메디나": 5,
    "타이프": 5,
    "카미스무샤이트": 5,
@@ -2176,12 +2192,12 @@
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-16T12:19:18Z"
+  "last_ok_at": "2026-10-16T17:21:03Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T12:19:19Z",
+  "fetched_at": "2026-10-16T17:21:03Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3615,15 +3631,37 @@
     "date": "2026-10-15",
     "time": "2320",
     "confidence": "nominal"
+   },
+   {
+    "lat": 25.96225,
+    "lon": 49.22955,
+    "frp": 10.56,
+    "date": "2026-10-16",
+    "time": "1032",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-16T12:19:19Z"
+  "last_ok_at": "2026-10-16T17:21:03Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T12:19:21Z",
+  "fetched_at": "2026-10-16T17:21:05Z",
   "kr": [
+   {
+    "date": "2026-10-16",
+    "published": "2026-10-16T15:22:43+00:00",
+    "source": "뉴스1",
+    "title": "사우디, 후티 미사일·드론 요격…리야드·얀부 겨냥",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFTnRYS2ZITDNyQTFFU3k1bzRDelhXYnNHTm9lRFBidkxXeVdSMDFTRm1MWTBlRGVjTWlXSTFXNGZkM3ZEN2ZpWnNUdzZlTVNibkhvMlRZSGthNGZfbVdpZHRR?oc=5"
+   },
+   {
+    "date": "2026-10-16",
+    "published": "2026-10-16T14:46:32+00:00",
+    "source": "MBC",
+    "title": "후티, 사우디 리야드·얀부 공격‥연합군 \"미사일·드론 요격\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aYVhTY1VQeHRYUXk0S0dKM2lqWkZhdmxyYXVpRjBodmpjY1A4TlF5dHd0dkpWYVNfQmU5Q0dmSEItTDlmcHJfdTVfNXR2UE1QM1BvcUZINWRKVU5kUHRXbUpGT2FoczJRZ2F6ZUZFdnBGeFd30gF0QVVfeXFMTy1QZ1hTZVlRZHVhNXVvbzluYUZSdDJqX0EwM1dPRG5aZHFfUmExa01uOEIteGRyLWQzZkd0SHZMRVJ5MmtyV2dPaXVjcndJS1c2N3lIWHRVdGtwSERyeGVPT0NfUlY2VmpUT05GeHJ1LTduTDQ?oc=5"
+   },
    {
     "date": "2026-10-16",
     "published": "2026-10-16T07:51:43+00:00",
@@ -3644,23 +3682,23 @@
     "source": "연합뉴스",
     "title": "[영상] 사우디 지휘본부 노리고…후티, 예멘 대통령궁 미사일 공격",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yYmpjdzl5UFZHb1Z6eEpUTTA3VEpmeTA5NDY3c2tMWUJLMnY0LWhLVU16ampJVDNIeVg0VlBXX1h1cXpvalp3Nk40M3ZMenprZXVaYVI0eGVlYzMwR1RyT9IBYEFVX3lxTE4yYmpjdzl5UFZHb1Z6eEpUTTA3VEpmeTA5NDY3c2tMWUJLMnY0LWhLVU16ampJVDNIeVg0VlBXX1h1cXpvalp3Nk40M3ZMenprZXVaYVI0eGVlYzMwR1RyTw?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T02:27:00+00:00",
-    "source": "한겨레",
-    "title": "후티, 예멘 대통령궁 공격으로 최소 5명 사망…사우디 “이란이 확전 부추겨”",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeGlxMERVbnpnaUkzVkx4bFZMRDJHTl8yaFV0U0dTY0pvSGNVeU9oQlNuMGZSaU9qR1RjTUVPOGtjclhkRTJ2aTFYbzRhMXJBQW9kYThKQXVrQ1NuOGtrSWJYTldPOXgyUUo1U3FnNmhVRVlPbmMwMlVpY0JZbm5vOXN3?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T00:55:00+00:00",
-    "source": "JTBC",
-    "title": "속수무책으로 당하는 사우디…후티 \"타이푼 격추 성공\" 주장",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XYTVKUWlTSzdWaEVtWV82SW9UckdIemJRazUxLTh4M051R0RpZ3JVN0tJaGdrS1ZWTnZEZTdicTZQdkdGQjJOeDZsUmZCSENPRkh5aA?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-16",
+    "published": "2026-10-16T14:05:51+00:00",
+    "source": "DW",
+    "title": "Houthi attacks on Saudi Arabia threaten Riyadh's regional leadership and economic ambitions",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTUNQWGRNcVlpS1NrcHZyemxsd3FTaENKZ2NiSWxvLXF2c3RYY1FQX1l4N0pkb0VlZm51S19lOE9TR1hhME1qMjN6WkxEVjUwQkRNaVJ6LVplT21aYWRZZWRKdUt3ZkhWV0pNbXdCRHA5OVZCZl9obVMtbk9McDJPMGxGQlB1MG9URlN1TTJZVi01elJ2Z3AyWjE5YzZzOXhEYVdHTXQ5SjRzZlhZRkRBQ0VONW5JdkVsN0tpNE04Q1VIZUhLSlM2MkMyd19fd9IBzgFBVV95cUxNSl9YTloxVURMZ3BpanQxTWh3WnlPc2dHa0ZOQTQta2l6MmpuVWVSOVlxMjFHV25kcTFMN1Y2OXVfRTFOa0N2cWxLa2VidkRHM2x1dmtaWVBjdGVIWlNScU40aER0Q05VU01FbDBFX1AtLTk4enMyeVU3ZHhzbnVicDR1WV82VUg0ZkM2eUhrMG5ENXNxNThZeGdLNk0zTUpzV1NrTWtFbEhoazhVenRQeUQyVnhmcUsteEM3aXl0WlNBQmd4NmUyRURFTUxNdw?oc=5"
+   },
+   {
+    "date": "2026-10-16",
+    "published": "2026-10-16T10:31:00+00:00",
+    "source": "CBS News",
+    "title": "Ships in Strait of Hormuz still face \"indiscriminate attacks,\" maritime monitor warns",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?oc=5"
+   },
    {
     "date": "2026-10-15",
     "published": "2026-10-15T23:16:23+00:00",
@@ -3681,33 +3719,19 @@
     "source": "The Guardian",
     "title": "Houthi missiles strike Yemen presidential palace, killing five",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkFOY3lPYnZzY2JhR0RfeEUtQU1lZDVLU1N4a254d1Z6ZmlLM25LUm12Q2tudk1VOU9oR0xSaW92aUJEUlgyWWJ5NVQzVEJNb0dzU21MWWlXcU5JNkVKWlE5eVBteEItT3RXSHRvY2djQTFkOGNIUFVuVXRERUItcnMtSl9hdw?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T17:42:36+00:00",
-    "source": "Reuters",
-    "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGVvZWRvRzA4MGlxRTRTLU95S2ZWTnB2LVZ1ZDBPQTdxbW53SmViQk96X3FpTlVXNEtZaTRvMld4akRJUm9vOU56NjJfSnROV3pCeURHQ3BCcTBYbW1KVVZyLVBaT0VXaE55WGc0WGI5c2RRdC1RaVZiT092ZU9RaTBRdmluamFTQ0JuRWRWNTNYdzhOa1dfNWVBNV9RcVMydFZoaHpFMlJnSHhrckl2cnRyZC0xc0xMcW5Idw?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T16:57:37+00:00",
-    "source": "Reuters",
-    "title": "How Aramco learned to keep pumping oil under fire",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEo4RHMzbGVMLUpQcnFqT28tSlU2Q0FBUlZtc2MzaUZSLXpsd3o3X1VGQXplLWJUaUJuQ1BCbFdVbzZwZUk0OURuZ0dmcWVkaWNaclNBcHBlRGR1bWViNWROR21UV2pSRTdqNDZfUVFDdHR2TG9lUDd5eDlNRzVtWHRVNFI5d3I4MUtQdG04SVA1OURzQzI5WXk3N3ItUEE?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-16T12:19:21Z"
+  "last_ok_at": "2026-10-16T17:21:05Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-16T12:19:23Z",
+  "fetched_at": "2026-10-16T17:21:06Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 30,
-  "baseline": null,
-  "baseline_n": 1,
-  "tier": "정상",
+  "count": 22,
+  "baseline": 39.5,
+  "baseline_n": 4,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3852,14 +3876,15 @@
    "2026-10-15T22": 29,
    "2026-10-16T01": 25,
    "2026-10-16T07": 28,
-   "2026-10-16T12": 30
+   "2026-10-16T12": 30,
+   "2026-10-16T17": 22
   },
-  "last_ok_at": "2026-10-16T12:19:23Z"
+  "last_ok_at": "2026-10-16T17:21:06Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-16T12:19:23Z",
-  "last_ok_at": "2026-10-16T12:19:23Z"
+  "fetched_at": "2026-10-16T17:21:06Z",
+  "last_ok_at": "2026-10-16T17:21:06Z"
  }
 }
