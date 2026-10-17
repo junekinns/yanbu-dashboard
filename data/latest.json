@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T17:02:55Z",
+ "generated_at": "2026-10-17T19:16:42Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T17:02:55Z",
+  "fetched_at": "2026-10-17T19:16:42Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 9,
   "baseline": 1.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-17T17:02:55Z"
+  "last_ok_at": "2026-10-17T19:16:42Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T17:03:14Z",
+  "fetched_at": "2026-10-17T19:17:04Z",
   "events": [
    {
     "date": "2026-10-16",
@@ -1276,14 +1276,24 @@
   "history_days": 31,
   "history_since": "2026-09-17",
   "today": "2026-10-17",
-  "last_ok_at": "2026-10-17T17:03:14Z"
+  "last_ok_at": "2026-10-17T19:17:04Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T17:03:15Z",
+  "fetched_at": "2026-10-17T19:17:05Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-17 20:51",
+    "iso": "2026-10-17T20:51:36+03:00",
+    "places": [
+     "나즈란"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله وعونه من إسقاط طائرة أباتشي تابعة للعدو السعودي قبالة نجران وذلك أثناء قيامها بأعمال عدائية باتجاه مواقع قواتنا في الحدود، وتم إسقاطها بسلاح مناسب. http://t.me/army21ye",
+    "text_ko": "알라의 도움 덕분에 우리 군대는 사우디 적의 아파치 항공기가 국경에서 우리 군대의 위치에 대해 적대적인 행동을 취하는 동안 나지란에서 격추시킬 수 있었고 적절한 무기로 격추되었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3904"
+   },
    {
     "time": "2026-10-17 19:42",
     "iso": "2026-10-17T19:42:50+03:00",
@@ -2141,21 +2151,21 @@
   ],
   "mentions7d": {
    "리야드": 11,
-   "카미스무샤이트": 6,
    "타이프": 6,
+   "카미스무샤이트": 6,
+   "나즈란": 5,
    "메디나": 5,
    "담맘": 5,
-   "나즈란": 4,
    "메카": 4,
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-17T17:03:15Z"
+  "last_ok_at": "2026-10-17T19:17:05Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T17:03:19Z",
+  "fetched_at": "2026-10-17T19:17:07Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3639,12 +3649,12 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-17T17:03:19Z"
+  "last_ok_at": "2026-10-17T19:17:07Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T17:03:21Z",
+  "fetched_at": "2026-10-17T19:17:09Z",
   "kr": [
    {
     "date": "2026-10-17",
@@ -3685,6 +3695,13 @@
   "en": [
    {
     "date": "2026-10-17",
+    "published": "2026-10-17T16:46:15+00:00",
+    "source": "The New York Times",
+    "title": "Yemen Fighting Rages as Civilian Toll From Houthi-Saudi Conflict Worsens",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMC04Nl92SDhGOGxsRGEtMDBvX3p5LWJtU0lkSHd4ZG43MUVoWE9YTWdvbUVFb2RtTkdBUEZwX1FtV0RuNmRURmVBaTRZTkY3ZFFPei15VUdCUzhVZGhuVzNOMkhCOUhSQzNWUUFXTmNOTFF0SDF5Uk93ZUVyMTlvSHhwaXFIOGI1TmN5cmdZVQ?oc=5"
+   },
+   {
+    "date": "2026-10-17",
     "published": "2026-10-17T15:28:00+00:00",
     "source": "The Guardian",
     "title": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
@@ -3692,7 +3709,7 @@
    },
    {
     "date": "2026-10-17",
-    "published": "2026-10-17T11:57:00+00:00",
+    "published": "2026-10-17T14:46:00+00:00",
     "source": "The Guardian",
     "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXhkalJBQ2xwVFhIUExTLWw3UTRGbHdXVlhIQ0ZLaEVOREFzNUQ3MkJqSlMtOWQ1aDRwazFhaVA3ajdqNTREZFN1andxLV9QaE4yUWk4T0ZGeXJfZDIwb0JhMDRwOHN4Qlowbl9ET0x4cVMtZU1zdjBXY3J4bEp3VHAtdDItcUhzM3FfWmNaVFljamJ4enBhb1I3dTZUWVl5Z3c?oc=5"
@@ -3710,26 +3727,19 @@
     "source": "Financial Times",
     "title": "Houthis encircle new target in conflict with Saudi-backed forces",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRkRNLU15bDkyendiZktWRV9Na2VhYUJMUUFWeDhmZmZ5TnZxck95dW1jS09kc0gwLU91S2NTNDlKWkhqMjhWRzczd2xVSURYcVdmZE05a2dwaGRFckxkd3pSM0s5UnRzcHBQdzZERGlCa3gzY2pRT0VmUVpfU3FHenJfYnM?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T14:40:45+00:00",
-    "source": "DW",
-    "title": "Houthi attacks on Saudi Arabia threaten Riyadh's regional leadership and economic ambitions",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTUNQWGRNcVlpS1NrcHZyemxsd3FTaENKZ2NiSWxvLXF2c3RYY1FQX1l4N0pkb0VlZm51S19lOE9TR1hhME1qMjN6WkxEVjUwQkRNaVJ6LVplT21aYWRZZWRKdUt3ZkhWV0pNbXdCRHA5OVZCZl9obVMtbk9McDJPMGxGQlB1MG9URlN1TTJZVi01elJ2Z3AyWjE5YzZzOXhEYVdHTXQ5SjRzZlhZRkRBQ0VONW5JdkVsN0tpNE04Q1VIZUhLSlM2MkMyd19fd9IBzgFBVV95cUxNSl9YTloxVURMZ3BpanQxTWh3WnlPc2dHa0ZOQTQta2l6MmpuVWVSOVlxMjFHV25kcTFMN1Y2OXVfRTFOa0N2cWxLa2VidkRHM2x1dmtaWVBjdGVIWlNScU40aER0Q05VU01FbDBFX1AtLTk4enMyeVU3ZHhzbnVicDR1WV82VUg0ZkM2eUhrMG5ENXNxNThZeGdLNk0zTUpzV1NrTWtFbEhoazhVenRQeUQyVnhmcUsteEM3aXl0WlNBQmd4NmUyRURFTUxNdw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-17T17:03:21Z"
+  "last_ok_at": "2026-10-17T19:17:09Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T17:03:22Z",
+  "fetched_at": "2026-10-17T19:17:10Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 17,
-  "baseline": 38,
-  "baseline_n": 5,
-  "tier": "감소",
+  "count": 39,
+  "baseline": 39.0,
+  "baseline_n": 4,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3881,14 +3891,15 @@
    "2026-10-17T04": 18,
    "2026-10-17T09": 27,
    "2026-10-17T13": 33,
-   "2026-10-17T17": 17
+   "2026-10-17T17": 17,
+   "2026-10-17T19": 39
   },
-  "last_ok_at": "2026-10-17T17:03:22Z"
+  "last_ok_at": "2026-10-17T19:17:10Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-17T17:03:23Z",
-  "last_ok_at": "2026-10-17T17:03:23Z"
+  "fetched_at": "2026-10-17T19:17:10Z",
+  "last_ok_at": "2026-10-17T19:17:10Z"
  }
 }
