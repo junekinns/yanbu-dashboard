@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T13:38:51Z",
+ "generated_at": "2026-10-17T17:02:55Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T13:38:51Z",
+  "fetched_at": "2026-10-17T17:02:55Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 9,
   "baseline": 1.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-17T13:38:51Z"
+  "last_ok_at": "2026-10-17T17:02:55Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T13:39:12Z",
+  "fetched_at": "2026-10-17T17:03:14Z",
   "events": [
    {
     "date": "2026-10-16",
@@ -1276,14 +1276,33 @@
   "history_days": 31,
   "history_since": "2026-09-17",
   "today": "2026-10-17",
-  "last_ok_at": "2026-10-17T13:39:12Z"
+  "last_ok_at": "2026-10-17T17:03:14Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T13:39:13Z",
+  "fetched_at": "2026-10-17T17:03:15Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-17 19:42",
+    "iso": "2026-10-17T19:42:50+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 53 غارة جوية استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات تعز وإب ولحج وصعدة وعمران من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف وخلفت عددا كبير من الشهداء والجرحى جلهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 2542 غارة جوية وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 와 \"타이푼\" 항공기를 통해 수도 사나와 타이즈, Ibb, 라흐즈, 사다, 암란의 총독부에서 민간인 물체를 겨냥한 53회의 공습을 감행하여 많은 순교자와 부상자, 대부분 여성과 어린이를 남겼다. 사우디아라비아 침략 공습이 우리나라에서 시작된 이래로 총 2,542회의 공습과 미사일 공습이 있었다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3903"
+   },
+   {
+    "time": "2026-10-17 17:11",
+    "iso": "2026-10-17T17:11:55+03:00",
+    "places": [],
+    "text_ar": "مشاهد ضرب تحشيدات تابعة للعدو السعودي في اليتمة شمالي الجوف وتدمير واغتنام عدد من الآليات - 17 أكتوبر 2026م",
+    "text_ko": "알자우프 북쪽의 고아원에서 사우디 적의 진영을 공격하고 여러 대의 차량을 파괴하고 점령하는 장면 - 2026년 10월 17일",
+    "url": "https://t.me/army21ye/3902"
+   },
    {
     "time": "2026-10-16 21:02",
     "iso": "2026-10-16T21:02:18+03:00",
@@ -2122,8 +2141,8 @@
   ],
   "mentions7d": {
    "리야드": 11,
-   "카미스무샤이트": 5,
-   "타이프": 5,
+   "카미스무샤이트": 6,
+   "타이프": 6,
    "메디나": 5,
    "담맘": 5,
    "나즈란": 4,
@@ -2131,12 +2150,12 @@
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-17T13:39:13Z"
+  "last_ok_at": "2026-10-17T17:03:15Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T13:39:13Z",
+  "fetched_at": "2026-10-17T17:03:19Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3602,21 +3621,44 @@
     "date": "2026-10-16",
     "time": "2301",
     "confidence": "nominal"
+   },
+   {
+    "lat": 25.67767,
+    "lon": 49.39857,
+    "frp": 3.31,
+    "date": "2026-10-17",
+    "time": "1013",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.67887,
+    "lon": 49.39928,
+    "frp": 3.22,
+    "date": "2026-10-17",
+    "time": "1013",
+    "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-17T13:39:13Z"
+  "last_ok_at": "2026-10-17T17:03:19Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T13:39:15Z",
+  "fetched_at": "2026-10-17T17:03:21Z",
   "kr": [
    {
     "date": "2026-10-17",
-    "published": "2026-10-17T10:29:00+00:00",
+    "published": "2026-10-17T15:05:08+00:00",
+    "source": "MBC",
+    "title": "이란 외무 \"사우디·후티 갈등 정치로 풀어야\"‥중재 의지 재확인",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYY0QzN0sxa3RGdUpHakpNVzlmVGh4cWlhR1B2OGFBeWloUnRQZHNBTjhqSlNlNG5BY0NFNGR4VS1CRGxxZzBfaUFIR2gwUDJOUlFkaGN6WDlZcFVQX2RRUmhVbEtwRkJvMzZScnZySU41QzZu0gF0QVVfeXFMT3ZIYXdjWXNXdnVpby1OTWZVWjVudGt0aGg5NnJjUFZ1R3FlTkhKMFZWaTgyRGFjN1lxc1hLUXZib28ycF9OTzlNWXN1VTZUR1RCRV9GQXYzN0ttSkNndUZab2YyMVI1Z1RMSzBXUGZoU1FSYnE?oc=5"
+   },
+   {
+    "date": "2026-10-17",
+    "published": "2026-10-17T10:29:48+00:00",
     "source": "연합뉴스",
     "title": "\"이란, 후티에 사우디 공격 정보 제공으로 도움\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmN3ZUbERxR0Jud2l2aU91cnNoWUVGeXdGQUxWQUJ0TWZSd0xqUWljZnZVbjBLOFlfWE9IQzlsdldCRGpnMzlGQ2QzbWlwRFo4MFd2a2FPZEV6ZnBFOWx5Q1Q5ZkwyRmM?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WNlJyNTVxbkRRQ3gwSFppcVZfcGk2bXhvUVI5NnFWdXM3Z0dhNDkzUnZrOUphNUhkNFAxNEpxbk5YQ0VqVGlEVENuTE9uM3hzUnk1MGtoNzRuakhiMXFRTmIwZVNtaF9PUjlCb2VPTkJ5M3VX?oc=5"
    },
    {
     "date": "2026-10-17",
@@ -3638,16 +3680,16 @@
     "source": "조선일보",
     "title": "WSJ \"이란, 후티에 사우디 어디 어떻게 때릴지 알려줘\"",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNXAwRzhqRGtjdkdNc1VpZzZBb0t4SFAxYlFtR2xWcjRZbEZqdUpHX2w3UEtDUFppb29vY3pNZzJOU1puY3RRejNNemluekI1OTNxWGtNUHpIN2pmMm11X0piejZiYUd2dDEzbUVIOW0zS19JbGlxdHo0QnEzTUdjZXltMFRESkhTb1hycGowcGdtUjdBc1Z6WHlxMlA?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T21:04:21+00:00",
-    "source": "MBC",
-    "title": "이란 외무부, 후티 반군의 사우디 공격 배후설 전면 부인",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzSDB2LXByV3VlQ2lIRUpjVGNFaVQ5M0Q2UjlJOGRmamhodURzcVdYVExDUmozamtSd3djS3g2QlJDYlZsR0V1cXU3RGxSc2h3OFR6WEV5dV9uUGVLQW1IVTZPMWhLR2UtZ2F0bHFWN1lNRVRl0gF0QVVfeXFMUEREYmstR3R6MFVyRndOZ1JBSlo4amVFc0pSaXRBUjkyM05kRDZ5YTRycW9oOEtlZktSUHVUSE1yZ09odHNUZ3l5NGY3YW10c1R3TVRkS3B5S0gyN0l0MlRJejNsc0ZRVHlvcEpQNnAyVEtLRlA?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-17",
+    "published": "2026-10-17T15:28:00+00:00",
+    "source": "The Guardian",
+    "title": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeThKTnpfbXp5UnI4RXVoWEVIU0FYem50WTRETlRWSHJPbTIxa2pIRXRhb1lFOWNOYUtxWGdHQVl4VGxkR2l4T0trUWVUTm5YMTNKbHJYTGNsYWtfNGROUkpIemZPNVBPN1NudnR6M0Fxa1RPTkM0Z2g2ZTdLcXBMMGdYUW1KanRGZjgxaEM4eXgyQ25YVDJWVUZ1ZWRTRjVRM2ZSQk5VMkZKOGhha2pSdW10M1cyVERZSld1MU9IQkI?oc=5"
+   },
    {
     "date": "2026-10-17",
     "published": "2026-10-17T11:57:00+00:00",
@@ -3664,14 +3706,7 @@
    },
    {
     "date": "2026-10-17",
-    "published": "2026-10-17T07:00:00+00:00",
-    "source": "The Guardian",
-    "title": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeThKTnpfbXp5UnI4RXVoWEVIU0FYem50WTRETlRWSHJPbTIxa2pIRXRhb1lFOWNOYUtxWGdHQVl4VGxkR2l4T0trUWVUTm5YMTNKbHJYTGNsYWtfNGROUkpIemZPNVBPN1NudnR6M0Fxa1RPTkM0Z2g2ZTdLcXBMMGdYUW1KanRGZjgxaEM4eXgyQ25YVDJWVUZ1ZWRTRjVRM2ZSQk5VMkZKOGhha2pSdW10M1cyVERZSld1MU9IQkI?oc=5"
-   },
-   {
-    "date": "2026-10-17",
-    "published": "2026-10-17T04:00:30+00:00",
+    "published": "2026-10-17T04:00:54+00:00",
     "source": "Financial Times",
     "title": "Houthis encircle new target in conflict with Saudi-backed forces",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRkRNLU15bDkyendiZktWRV9Na2VhYUJMUUFWeDhmZmZ5TnZxck95dW1jS09kc0gwLU91S2NTNDlKWkhqMjhWRzczd2xVSURYcVdmZE05a2dwaGRFckxkd3pSM0s5UnRzcHBQdzZERGlCa3gzY2pRT0VmUVpfU3FHenJfYnM?oc=5"
@@ -3684,17 +3719,17 @@
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTUNQWGRNcVlpS1NrcHZyemxsd3FTaENKZ2NiSWxvLXF2c3RYY1FQX1l4N0pkb0VlZm51S19lOE9TR1hhME1qMjN6WkxEVjUwQkRNaVJ6LVplT21aYWRZZWRKdUt3ZkhWV0pNbXdCRHA5OVZCZl9obVMtbk9McDJPMGxGQlB1MG9URlN1TTJZVi01elJ2Z3AyWjE5YzZzOXhEYVdHTXQ5SjRzZlhZRkRBQ0VONW5JdkVsN0tpNE04Q1VIZUhLSlM2MkMyd19fd9IBzgFBVV95cUxNSl9YTloxVURMZ3BpanQxTWh3WnlPc2dHa0ZOQTQta2l6MmpuVWVSOVlxMjFHV25kcTFMN1Y2OXVfRTFOa0N2cWxLa2VidkRHM2x1dmtaWVBjdGVIWlNScU40aER0Q05VU01FbDBFX1AtLTk4enMyeVU3ZHhzbnVicDR1WV82VUg0ZkM2eUhrMG5ENXNxNThZeGdLNk0zTUpzV1NrTWtFbEhoazhVenRQeUQyVnhmcUsteEM3aXl0WlNBQmd4NmUyRURFTUxNdw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-17T13:39:15Z"
+  "last_ok_at": "2026-10-17T17:03:21Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T13:39:16Z",
+  "fetched_at": "2026-10-17T17:03:22Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 33,
-  "baseline": 33.5,
-  "baseline_n": 10,
-  "tier": "정상",
+  "count": 17,
+  "baseline": 38,
+  "baseline_n": 5,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3845,14 +3880,15 @@
    "2026-10-16T23": 31,
    "2026-10-17T04": 18,
    "2026-10-17T09": 27,
-   "2026-10-17T13": 33
+   "2026-10-17T13": 33,
+   "2026-10-17T17": 17
   },
-  "last_ok_at": "2026-10-17T13:39:16Z"
+  "last_ok_at": "2026-10-17T17:03:22Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-17T13:39:16Z",
-  "last_ok_at": "2026-10-17T13:39:16Z"
+  "fetched_at": "2026-10-17T17:03:23Z",
+  "last_ok_at": "2026-10-17T17:03:23Z"
  }
 }
