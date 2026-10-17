@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T09:12:59Z",
+ "generated_at": "2026-10-17T13:38:51Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T09:12:59Z",
+  "fetched_at": "2026-10-17T13:38:51Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 9,
   "baseline": 1.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-17T09:12:59Z"
+  "last_ok_at": "2026-10-17T13:38:51Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T09:13:18Z",
+  "fetched_at": "2026-10-17T13:39:12Z",
   "events": [
    {
     "date": "2026-10-16",
@@ -1276,12 +1276,12 @@
   "history_days": 31,
   "history_since": "2026-09-17",
   "today": "2026-10-17",
-  "last_ok_at": "2026-10-17T09:13:18Z"
+  "last_ok_at": "2026-10-17T13:39:12Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T09:13:20Z",
+  "fetched_at": "2026-10-17T13:39:13Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2122,8 +2122,8 @@
   ],
   "mentions7d": {
    "리야드": 11,
-   "타이프": 5,
    "카미스무샤이트": 5,
+   "타이프": 5,
    "메디나": 5,
    "담맘": 5,
    "나즈란": 4,
@@ -2131,12 +2131,12 @@
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-17T09:13:20Z"
+  "last_ok_at": "2026-10-17T13:39:13Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T09:13:20Z",
+  "fetched_at": "2026-10-17T13:39:13Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3604,13 +3604,27 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-17T09:13:20Z"
+  "last_ok_at": "2026-10-17T13:39:13Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T09:13:21Z",
+  "fetched_at": "2026-10-17T13:39:15Z",
   "kr": [
+   {
+    "date": "2026-10-17",
+    "published": "2026-10-17T10:29:00+00:00",
+    "source": "연합뉴스",
+    "title": "\"이란, 후티에 사우디 공격 정보 제공으로 도움\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmN3ZUbERxR0Jud2l2aU91cnNoWUVGeXdGQUxWQUJ0TWZSd0xqUWljZnZVbjBLOFlfWE9IQzlsdldCRGpnMzlGQ2QzbWlwRFo4MFd2a2FPZEV6ZnBFOWx5Q1Q5ZkwyRmM?oc=5"
+   },
+   {
+    "date": "2026-10-17",
+    "published": "2026-10-17T07:50:11+00:00",
+    "source": "동아일보",
+    "title": "“후티의 사우디 공격 어떻게 정교해졌나…이란이 표적 정보 제공”",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91ZjQ0bVl3TEI0NWhKdmVPcnNEUjllOHNPRWVsbzhUTDdyVUJzNDU3cHNQTWNDUlNiWlVZQXVETHkyb2ZPVHRWSU1RYTNIMFJXcXRZV2dwc2dHX2JvX1hUNGFuV2FoVUJiWGYyS2cxOE1vR0HSAWZBVV95cUxQY284YmZPU3hPUUgyMmlWT3BHZF9XWVZxOWRpb2wxZjVNb2tXLWZuZExXTk04bkFyLUU4cFhvVGFyMnJJSGlEYU9TM0FTN0VNc0JyREoxd2xZcTdRekhfNEdEemdoakE?oc=5"
+   },
    {
     "date": "2026-10-17",
     "published": "2026-10-17T04:48:00+00:00",
@@ -3626,74 +3640,60 @@
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNXAwRzhqRGtjdkdNc1VpZzZBb0t4SFAxYlFtR2xWcjRZbEZqdUpHX2w3UEtDUFppb29vY3pNZzJOU1puY3RRejNNemluekI1OTNxWGtNUHpIN2pmMm11X0piejZiYUd2dDEzbUVIOW0zS19JbGlxdHo0QnEzTUdjZXltMFRESkhTb1hycGowcGdtUjdBc1Z6WHlxMlA?oc=5"
    },
    {
-    "date": "2026-10-17",
-    "published": "2026-10-17T03:54:45+00:00",
-    "source": "연합뉴스",
-    "title": "\"이란, 후티에 사우디 어디 어떻게 때릴지 가르쳐줬다\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ad2dvUmNDclhiM2cyY2JpVXBlUmwzX19hUXFsUDlQVnM4T0VSR25QaURlQnhLc0ZETURveDFJamFuVzVwQ25ZZ0taOXJlRE1VTEdyLTh6djA5VEnSAWBBVV95cUxOVlZxSHI5Z3hrcjROcDRWdTFfcGw5T0g2OTFka0JXQjhsOW9IcEtBcFpKeWNUNGpDU3o5VlU0eXdVM3VnTDEwR0ZzakNGRUJpX1Q1Y3BYVzByX0NaR3k0S2c?oc=5"
-   },
-   {
     "date": "2026-10-16",
     "published": "2026-10-16T21:04:21+00:00",
     "source": "MBC",
     "title": "이란 외무부, 후티 반군의 사우디 공격 배후설 전면 부인",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzSDB2LXByV3VlQ2lIRUpjVGNFaVQ5M0Q2UjlJOGRmamhodURzcVdYVExDUmozamtSd3djS3g2QlJDYlZsR0V1cXU3RGxSc2h3OFR6WEV5dV9uUGVLQW1IVTZPMWhLR2UtZ2F0bHFWN1lNRVRl0gF0QVVfeXFMUEREYmstR3R6MFVyRndOZ1JBSlo4amVFc0pSaXRBUjkyM05kRDZ5YTRycW9oOEtlZktSUHVUSE1yZ09odHNUZ3l5NGY3YW10c1R3TVRkS3B5S0gyN0l0MlRJejNsc0ZRVHlvcEpQNnAyVEtLRlA?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T20:00:49+00:00",
-    "source": "뉴스1",
-    "title": "이란, 후티 반군의 사우디 공격 관여 부인…\"자체 판단에 따른 행동\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iWHA2aWVpVjlHUnZpVDZEQU5qem5XTzdFbkVzV2xGbHlZeDFaT3hBLWV6TzlrOW9RRUlyTVg0SmxiQkNkVHdXR1RWQ2JLN1c1V1BiNjVaV3FvVjh4OVdJM0RB?oc=5"
    }
   ],
   "en": [
    {
+    "date": "2026-10-17",
+    "published": "2026-10-17T11:57:00+00:00",
+    "source": "The Guardian",
+    "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXhkalJBQ2xwVFhIUExTLWw3UTRGbHdXVlhIQ0ZLaEVOREFzNUQ3MkJqSlMtOWQ1aDRwazFhaVA3ajdqNTREZFN1andxLV9QaE4yUWk4T0ZGeXJfZDIwb0JhMDRwOHN4Qlowbl9ET0x4cVMtZU1zdjBXY3J4bEp3VHAtdDItcUhzM3FfWmNaVFljamJ4enBhb1I3dTZUWVl5Z3c?oc=5"
+   },
+   {
+    "date": "2026-10-17",
+    "published": "2026-10-17T07:19:00+00:00",
+    "source": "AP News",
+    "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVE5nRDF3WG9JZEEtTWpyWVUyaVR6MlVfbTRxNVZpNGJFdmdXVHlXZzh6WXBZazVCcDdfSTNjaFpkMmhlZjhObHJRVUk5RkYxdFhicXhmblhpWkVBc2ZfX1FRSWthVnBDUUxPenVjSUxsTWJMS3pNX3RWS3BZZmJ0LUxnTllfaTVZYnpRVmt0SWI3YXZyUHZWQ2dMcDZ4V1VrYXlpbWZPMjM?oc=5"
+   },
+   {
+    "date": "2026-10-17",
+    "published": "2026-10-17T07:00:00+00:00",
+    "source": "The Guardian",
+    "title": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeThKTnpfbXp5UnI4RXVoWEVIU0FYem50WTRETlRWSHJPbTIxa2pIRXRhb1lFOWNOYUtxWGdHQVl4VGxkR2l4T0trUWVUTm5YMTNKbHJYTGNsYWtfNGROUkpIemZPNVBPN1NudnR6M0Fxa1RPTkM0Z2g2ZTdLcXBMMGdYUW1KanRGZjgxaEM4eXgyQ25YVDJWVUZ1ZWRTRjVRM2ZSQk5VMkZKOGhha2pSdW10M1cyVERZSld1MU9IQkI?oc=5"
+   },
+   {
+    "date": "2026-10-17",
+    "published": "2026-10-17T04:00:30+00:00",
+    "source": "Financial Times",
+    "title": "Houthis encircle new target in conflict with Saudi-backed forces",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRkRNLU15bDkyendiZktWRV9Na2VhYUJMUUFWeDhmZmZ5TnZxck95dW1jS09kc0gwLU91S2NTNDlKWkhqMjhWRzczd2xVSURYcVdmZE05a2dwaGRFckxkd3pSM0s5UnRzcHBQdzZERGlCa3gzY2pRT0VmUVpfU3FHenJfYnM?oc=5"
+   },
+   {
     "date": "2026-10-16",
-    "published": "2026-10-16T20:36:22+00:00",
+    "published": "2026-10-16T14:40:45+00:00",
     "source": "DW",
     "title": "Houthi attacks on Saudi Arabia threaten Riyadh's regional leadership and economic ambitions",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTUNQWGRNcVlpS1NrcHZyemxsd3FTaENKZ2NiSWxvLXF2c3RYY1FQX1l4N0pkb0VlZm51S19lOE9TR1hhME1qMjN6WkxEVjUwQkRNaVJ6LVplT21aYWRZZWRKdUt3ZkhWV0pNbXdCRHA5OVZCZl9obVMtbk9McDJPMGxGQlB1MG9URlN1TTJZVi01elJ2Z3AyWjE5YzZzOXhEYVdHTXQ5SjRzZlhZRkRBQ0VONW5JdkVsN0tpNE04Q1VIZUhLSlM2MkMyd19fd9IBzgFBVV95cUxNSl9YTloxVURMZ3BpanQxTWh3WnlPc2dHa0ZOQTQta2l6MmpuVWVSOVlxMjFHV25kcTFMN1Y2OXVfRTFOa0N2cWxLa2VidkRHM2x1dmtaWVBjdGVIWlNScU40aER0Q05VU01FbDBFX1AtLTk4enMyeVU3ZHhzbnVicDR1WV82VUg0ZkM2eUhrMG5ENXNxNThZeGdLNk0zTUpzV1NrTWtFbEhoazhVenRQeUQyVnhmcUsteEM3aXl0WlNBQmd4NmUyRURFTUxNdw?oc=5"
-   },
-   {
-    "date": "2026-10-16",
-    "published": "2026-10-16T10:31:00+00:00",
-    "source": "CBS News",
-    "title": "Ships in Strait of Hormuz still face \"indiscriminate attacks,\" maritime monitor warns",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T23:16:23+00:00",
-    "source": "PBS",
-    "title": "Saudi diplomat says Iran is encouraging Houthi escalation of attacks on the kingdom",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS0FDU1ExUF92WHRTM2l3dUdwZkJVckQ1YlpFbXV2emFXRlBVWi02YWQyS1hSXzRrN1J6YVY1d2d5TElFQXJiNXNUZjFMYVlMMkN2NmtVQXA3MjhBWEdqWjZEaEVRQUYtUTRBcnR1UGFfNHU0cTFBcWpWak9FWmM1R1RQN1hyUDZ1WWctcHRRSWkyMnRXWVd3Z2tQZUttT1J5dmozdFQ0c2RYS1pjMEZRa3hJa1UxYi1wTk9USks0a9IBvwFBVV95cUxPS0FDU1ExUF92WHRTM2l3dUdwZkJVckQ1YlpFbXV2emFXRlBVWi02YWQyS1hSXzRrN1J6YVY1d2d5TElFQXJiNXNUZjFMYVlMMkN2NmtVQXA3MjhBWEdqWjZEaEVRQUYtUTRBcnR1UGFfNHU0cTFBcWpWak9FWmM1R1RQN1hyUDZ1WWctcHRRSWkyMnRXWVd3Z2tQZUttT1J5dmozdFQ0c2RYS1pjMEZRa3hJa1UxYi1wTk9USks0aw?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T20:19:00+00:00",
-    "source": "AP News",
-    "title": "Saudi Arabia says it thwarted a missile strike on Medina, and other Middle East developments",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVQzNWxwVUxqYThJN1JqdEg5dXpXU3ZKVjZ4Z3BiSWpick5JOHNMSnY3ZjhfcGcxd25uZHRObmVhb2hCOWlKaEdSckJZLXJhb0xLaloxb2lOQXZ4X3lPTWZ2LU1acVlMeUZNYUtZNlRsQWhlaTRpOExSVnA5MlVyaThMOVlzRFRsNXNnUnJ0ZjViaS1LYURnOWNVX2gwSXJBWjAtSXZzcw?oc=5"
-   },
-   {
-    "date": "2026-10-15",
-    "published": "2026-10-15T20:00:00+00:00",
-    "source": "The Guardian",
-    "title": "Houthi missiles strike Yemen presidential palace, killing five",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkFOY3lPYnZzY2JhR0RfeEUtQU1lZDVLU1N4a254d1Z6ZmlLM25LUm12Q2tudk1VOU9oR0xSaW92aUJEUlgyWWJ5NVQzVEJNb0dzU21MWWlXcU5JNkVKWlE5eVBteEItT3RXSHRvY2djQTFkOGNIUFVuVXRERUItcnMtSl9hdw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-17T09:13:21Z"
+  "last_ok_at": "2026-10-17T13:39:15Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T09:13:22Z",
+  "fetched_at": "2026-10-17T13:39:16Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 27,
-  "baseline": 34.0,
-  "baseline_n": 4,
+  "count": 33,
+  "baseline": 33.5,
+  "baseline_n": 10,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3844,14 +3844,15 @@
    "2026-10-16T20": 15,
    "2026-10-16T23": 31,
    "2026-10-17T04": 18,
-   "2026-10-17T09": 27
+   "2026-10-17T09": 27,
+   "2026-10-17T13": 33
   },
-  "last_ok_at": "2026-10-17T09:13:22Z"
+  "last_ok_at": "2026-10-17T13:39:16Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-17T09:13:23Z",
-  "last_ok_at": "2026-10-17T09:13:23Z"
+  "fetched_at": "2026-10-17T13:39:16Z",
+  "last_ok_at": "2026-10-17T13:39:16Z"
  }
 }
