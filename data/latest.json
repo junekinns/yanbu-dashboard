@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T18:01:14Z",
+ "generated_at": "2026-10-18T20:33:07Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T18:01:14Z",
+  "fetched_at": "2026-10-18T20:33:07Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 8,
   "baseline": 1.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-18T18:01:14Z"
+  "last_ok_at": "2026-10-18T20:33:07Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T18:01:30Z",
+  "fetched_at": "2026-10-18T20:33:28Z",
   "events": [
+   {
+    "date": "2026-10-18",
+    "time": "21:56",
+    "iso": "2026-10-18T21:56:07+03:00",
+    "city": "리야드",
+    "type": "공습",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "사우디·예멘 후티 반군 공습 주고받아…리야드 업무·학교 마비",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IU0c3c2ZBZDdiVzg2OVVTOWI5Nk5YdU9NamJJRHZyMnFBaXp4YU1UcGNWLXZlZTNydWI1YWx0Y1JDeHNCTDlqRGxJZ2hKcldxYjN0bTNmSkh6NzNtM0d5Y3B3?oc=5",
+    "source": "뉴스1",
+    "outlets": 1
+   },
    {
     "date": "2026-10-18",
     "time": "14:04",
@@ -1172,11 +1186,12 @@
    },
    "리야드": {
     "7d": {
+     "공습": 1,
      "피격": 5,
      "경보": 2,
      "요격": 2
     },
-    "total7d": 9,
+    "total7d": 10,
     "prev7d": {
      "피격": 5,
      "공습": 6,
@@ -1260,12 +1275,12 @@
   "history_days": 31,
   "history_since": "2026-09-18",
   "today": "2026-10-18",
-  "last_ok_at": "2026-10-18T18:01:30Z"
+  "last_ok_at": "2026-10-18T20:33:28Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T18:01:31Z",
+  "fetched_at": "2026-10-18T20:33:29Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2173,12 +2188,12 @@
    "담맘": 1,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-18T18:01:31Z"
+  "last_ok_at": "2026-10-18T20:33:29Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T18:01:34Z",
+  "fetched_at": "2026-10-18T20:33:29Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3150,26 +3165,33 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-18T18:01:34Z"
+  "last_ok_at": "2026-10-18T20:33:29Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T18:01:36Z",
+  "fetched_at": "2026-10-18T20:33:31Z",
   "kr": [
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T19:30:00+00:00",
+    "source": "동아일보",
+    "title": "후티 세력 확장에… 껄끄럽던 UAE-사우디 손잡아",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XNGFEYmEzZE12Q2JzaFBoNEFvUVFpMDAzWUVWR3l2MTYybVA4ZmtrWlEwNFZ6NnV6eEMyUWhBWU05TExTZjhQVnpPMVl2YVRhQy1OamxuaHBjYUpFUWpxeGFOcWc0dXFuOTV6SEZWUkJ0QVHSAWZBVV95cUxNczY3dDNsdjhfUDBrNk5BaUhaU0tmQi1GeWlsMXdLS1pwQkl4VFowR2lrNG1MRmxKV25oTXZFZ3N0RXg4Ri12RzVlV3VMVVdWc0QtWDYxS0NkNmFSUFFPY1RMdG9DaXc?oc=5"
+   },
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T16:37:52+00:00",
+    "source": "연합뉴스",
+    "title": "사우디군 헬기 추락 2명 숨져…예멘 북부선 수십명 사상(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iLVFpWExjVkFsTlB1TzJ3eVAwVEZwb0k4d01NcjVoOTZhRjhkVlMyWTFHM1FNc2I0NDR4c05lQVJUUmMtdzkyem1FcVRSaHA4cmo0bTRvbE1Lb1XSAWBBVV95cUxQdFZfZ0lSWVNMejlabUdsNF93cXdRemd2YzhiQ3FiRFR4QTlHT0tFOVlOYTl5cng2UXhJaTBEdjhyWnh2d0YyR1U0QWZIeWtkOFpITktPYi15dlRPY1Bqdl8?oc=5"
+   },
    {
     "date": "2026-10-18",
     "published": "2026-10-18T16:12:00+00:00",
     "source": "한겨레",
     "title": "이집트 “사우디 보호 모든 조치”…‘반후티 전선’ 참전 뜻 밝혀",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcE96UWk0MVRiOVhrbzZ4VGZRRnF6RWw2Y3JlNkFpeUh0UXFGRksyT3oyVkxybTNUNEhmRTN6SXN6c2t0aGFVYm12UXl2QVJQcjJfMlJtUm5NRTQ4TnA5Q0loeWR6VGJTUEFuZ1pMa2lnWFE?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T12:50:00+00:00",
-    "source": "동아일보",
-    "title": "후티 공세에 갈등 빚던 사우디·UAE 손잡았다…이집트·파키스탄·튀르키예도 지원",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QeldCTmx6cUkzYVFVNk5YaVV2TDNTNDBNLS1EUTlDQ3lXNnhMOWdJdDZ6STEzaW1ZVjNBbXBqbkozelA5dmx4S1NjWTE4R0JJYkhZakstcVlmVERIdFlkVmFhR0VSRy11ZHZxZmwtR3BoQTjSAWZBVV95cUxNVWZvWWxxRWF4dWVaUnRFWTE2a1BZS3ZTWmI1aHcxVnZPbXVmVUp2OW1MYXVvcTFkek1Sa25wU1hPNVBrN3JFTDRUcENRbGJhSkZGZFpscFlPMFI4aUF0NEdveTRxekE?oc=5"
    },
    {
     "date": "2026-10-18",
@@ -3184,16 +3206,16 @@
     "source": "YTN",
     "title": "예멘 후티 반군, 정부군·사우디 공세 강화...호르무즈 유조선 피해 급증",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TVWtYR09vQnhnNjZSWmJWbE54NlZSVWVISmpGOE9HWHAxNEhTVmVocDBLVDlWV21PWDAwRlBQY1hCMlROMzZVaWxiZDBpVnJQelVSVUF5NFJEa0VIS3c?oc=5"
-   },
-   {
-    "date": "2026-10-17",
-    "published": "2026-10-17T22:57:20+00:00",
-    "source": "연합뉴스",
-    "title": "UAE, 후티 공세 막으려 예멘 재개입…사우디와 갈등 완화 신호",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEVG0tNTAyX0ozNDVkRzVRMjVDZVNrakZxZ054dGRTM1J1LU5pTGJkeVpKaF9ycXpBbTFVaTRjN2ZRRHJoWld2a1JKbzU2cTJnX3pkcTRXVjc4TTTSAWBBVV95cUxOcU9yVThFanB5bTIzbUJ5TTBpb2hOTXJESGN5dGp3YWtWSEZNQ0J0N3Z1YjFmeGRJVE1fejEtalIzaTdnamdQUTRyU2VaNFU3Tm0wejg4a1ZILUJfb2lFckQ?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T18:16:00+00:00",
+    "source": "AP News",
+    "title": "Egypt’s top security body agrees to help Saudi Arabia defend itself against Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1hsZ1ZMdXFsZmM1WHRVeFRpV0dzUEpwcFlNVjAyUnBfUjVGb0JjVFFmY1dZeVd1ekw0MGhsSWNtNE9pQ1hCangwSFpaOG9Ec1JJWWtwS0pXbTJBT0tkVm5qS2FPTVdleUlZVWNmNjZiVi14NzAwc2JHOFh6TXU0WGsxNVBpajdHaEhYSmhoWWV0dnNXdlpn?oc=5"
+   },
    {
     "date": "2026-10-18",
     "published": "2026-10-18T16:36:02+00:00",
@@ -3210,13 +3232,6 @@
    },
    {
     "date": "2026-10-18",
-    "published": "2026-10-18T15:00:02+00:00",
-    "source": "The New York Times",
-    "title": "Egypt’s Defense Chiefs Pledge to Support Saudi Arabia After Houthi Attacks",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVXQzM0U1RmdHTFJHa2xSTUxxVWl6eTY4ZFdIbDN0QkJuQTA0aTd2RFI1UDg0T0dnU0w0cEVVVjduenlhRGhhdUpKOUtqNk44RlozZFpRcFVwWTNEOW1MZHNfQlo2bnFsNDVZazFwZF9uNlowVElReUtTTEd5bnd2QURiLVppRG5wWXhtdg?oc=5"
-   },
-   {
-    "date": "2026-10-18",
     "published": "2026-10-18T14:31:31+00:00",
     "source": "Reuters",
     "title": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict",
@@ -3224,22 +3239,22 @@
    },
    {
     "date": "2026-10-18",
-    "published": "2026-10-18T11:49:25+00:00",
-    "source": "Al Jazeera",
-    "title": "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdE1va1c1b1lELXRZM0w2akJhSzhDTlZVNXhyZ2JiT1RrRGQ2MlN2M09BazE3Snp4MFpUN1VaX3ViZnJrNjUxa2h0OUJOcWpDSmNVTUJQYk16VE5vMnkyT3dwaVFpZEN3UTFkd3pyUjBYcUVkaGxkak05bFFNZkp3M0hTOU1lY0NzdmU3Z0ltZUptclNhY1ZUR1hTb2NUT2FtQzhvU9IBqgFBVV95cUxNLWF0M0dkVUhrblpKX0d0RTN2NWJVV2NpbWh3UWFKNHhUSXFkQ3p1R0RKem45LWNZNHJCRUZlQUxKOENQS1U3bGZhOGhyeFFlVVJRMmtzeUxUTjZJTnVnM2RYcTNITmFQVjdoSXdENXRDdnlLREhKYUxhd21NeUVPM3h3Tm5oTnh2dW45ekluTE9jSFBmaE5OVU8tOTNpVTZjMG1tVE4xWXRudw?oc=5"
+    "published": "2026-10-18T11:49:38+00:00",
+    "source": "The New York Times",
+    "title": "Egypt’s Defense Chiefs Pledge to Support Saudi Arabia After Houthi Attacks",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVXQzM0U1RmdHTFJHa2xSTUxxVWl6eTY4ZFdIbDN0QkJuQTA0aTd2RFI1UDg0T0dnU0w0cEVVVjduenlhRGhhdUpKOUtqNk44RlozZFpRcFVwWTNEOW1MZHNfQlo2bnFsNDVZazFwZF9uNlowVElReUtTTEd5bnd2QURiLVppRG5wWXhtdg?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-18T18:01:36Z"
+  "last_ok_at": "2026-10-18T20:33:31Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T18:01:37Z",
+  "fetched_at": "2026-10-18T20:33:32Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 27,
-  "baseline": 30.0,
-  "baseline_n": 10,
+  "count": 20,
+  "baseline": 29,
+  "baseline_n": 7,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3399,14 +3414,15 @@
    "2026-10-18T05": 22,
    "2026-10-18T10": 32,
    "2026-10-18T14": 29,
-   "2026-10-18T18": 27
+   "2026-10-18T18": 27,
+   "2026-10-18T20": 20
   },
-  "last_ok_at": "2026-10-18T18:01:37Z"
+  "last_ok_at": "2026-10-18T20:33:32Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-18T18:01:38Z",
-  "last_ok_at": "2026-10-18T18:01:38Z"
+  "fetched_at": "2026-10-18T20:33:33Z",
+  "last_ok_at": "2026-10-18T20:33:33Z"
  }
 }
