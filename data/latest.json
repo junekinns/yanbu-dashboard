@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T20:33:07Z",
+ "generated_at": "2026-10-18T23:01:54Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T20:33:07Z",
+  "fetched_at": "2026-10-18T23:01:54Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 8,
   "baseline": 1.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-18T20:33:07Z"
+  "last_ok_at": "2026-10-18T23:01:54Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T20:33:28Z",
+  "fetched_at": "2026-10-18T23:02:09Z",
   "events": [
    {
     "date": "2026-10-18",
@@ -1116,20 +1116,6 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aM0Vhc0Nfc1hMNXJuSGQ0ZmV5SmUycXNNdlZqb28xcHpialBRMkJXQTJaRlJWV3RENGxENzVCYVd4RnM0aXBEQlZKQmIxUGx0Smk2bHZhS0Y2YlV3a05wRw?oc=5",
     "source": "뉴시스",
     "outlets": 1
-   },
-   {
-    "date": "2026-09-18",
-    "time": "03:46",
-    "iso": "2026-09-18T03:46:43+03:00",
-    "city": "메카",
-    "type": "피격",
-    "weapon": null,
-    "lat": 21.39,
-    "lon": 39.86,
-    "title": "후티군 \"성지 메카공격 계획한 적 없다\".. 거짓말· 모함이라 주장",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Nc1dLQi1QTHd3bTFOdjVTYmdzYVNjSUZEVVVEQ2lUek05TW9CdHN0dzJOam54T1hRd2NTczZCT2Z2MUVqaFJudHAzOFU4M3JSbXozdEF0end2TV9DVWRSRNIBeEFVX3lxTE95cXNMUUNicF9sTnVQR2RrUW1hcC0yTjhFUVlRdS00SEdhSUxDdzBhTDdGY0RFVXdlOEh6TjM4eDhiQlV1YlJueV9IN2dCeVRfQUVuZ1hJY1FVWHNWOUxGYWQzcDAwWV9jLVo2Qm85ZXdrY3Rlc0MteA?oc=5",
-    "source": "뉴시스",
-    "outlets": 1
    }
   ],
   "tempo": {
@@ -1151,12 +1137,14 @@
    },
    "메디나": {
     "7d": {
-     "피격": 2,
+     "피격": 1,
      "요격": 1
     },
-    "total7d": 3,
-    "prev7d": {},
-    "prev_total": 0
+    "total7d": 2,
+    "prev7d": {
+     "피격": 1
+    },
+    "prev_total": 1
    },
    "라비그": {
     "7d": {},
@@ -1187,17 +1175,18 @@
    "리야드": {
     "7d": {
      "공습": 1,
-     "피격": 5,
-     "경보": 2,
-     "요격": 2
-    },
-    "total7d": 10,
-    "prev7d": {
-     "피격": 5,
-     "공습": 6,
+     "피격": 4,
+     "경보": 1,
      "요격": 1
     },
-    "prev_total": 12
+    "total7d": 7,
+    "prev7d": {
+     "요격": 2,
+     "경보": 1,
+     "피격": 6,
+     "공습": 6
+    },
+    "prev_total": 15
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1273,14 +1262,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-09-18",
-  "today": "2026-10-18",
-  "last_ok_at": "2026-10-18T20:33:28Z"
+  "history_since": "2026-09-19",
+  "today": "2026-10-19",
+  "last_ok_at": "2026-10-18T23:02:09Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T20:33:29Z",
+  "fetched_at": "2026-10-18T23:02:11Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2115,66 +2104,6 @@
     "text_ar": "تمكنت القوات المسلحة اليمنية بفضل الله من إسقاط طائرة استطلاع مسلح نوع \"وينق لونق 2 Wing Loong II) تابعة للعدو السعودي وذلك أثناء قيامها بمهام عدائية في أجواء محافظة تعز، وقد تم استهدافها بسلاح مناسب. http://t.me/army21ye",
     "text_ko": "알라의 은총으로 예멘군은 타이즈 영공에서 적대적 임무를 수행하는 동안 사우디 적의 무장 정찰기 (윙룽 II) 를 격추시킬 수 있었고 적절한 무기로 표적이 되었습니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3808"
-   },
-   {
-    "time": "2026-10-04 20:50",
-    "iso": "2026-10-04T20:50:31+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 106 غارات جوية وصواريخ، استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وعمران وحجة وصعدة وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 1516 غارةً جويةً وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 수도 사나와 알자우프, 타이즈, 암란, 하지야 및 사다 주지사의 민간 물체를 겨냥하여 106회의 공습과 미사일을 발사했습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 총 침략 습격 수는 1,516 건의 공습 및 미사일 습격에 도달했습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3807"
-   },
-   {
-    "time": "2026-10-04 16:03",
-    "iso": "2026-10-04T16:03:58+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عمليتين عسكريتين أولاهما استهدفت شركة أرامكو في عاصمة العدو السعودي الرياض، والأخرى استهدفت شركة أرامكو في منطقة خريص، وذلك ردا على العدوان السعودي الظالم بالغارات الجوية والقصف الصاروخي على العاصمة صنعاء ومحافظات الجوف وتعز وعمران وحجة وصعدة. جودة منخفضة http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3803"
-   },
-   {
-    "time": "2026-10-04 16:00",
-    "iso": "2026-10-04T16:00:52+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "The criminal Saudi enemy continues its unjust aggression against our people by launching more aggressive raids, which in the past 12 hours amounted to 50 airstrikes and missile attacks targeting the capital, Sana'a, and the governorates of Al-Jawf, Taiz, Amran, Hajjah, and Sa'dah. This brings the total number of its aggressive raids against our people since the beginning of the escalation up to 1,…",
-    "text_ko": "범죄자인 사우디아라비아의 적은 지난 12시간 동안 수도 사나와 알자우프, 타이즈, 암란, 하지야, 사다 주지사를 겨냥한 50건의 공습과 미사일 공격에 달하는 더 공격적인 습격을 가함으로써 우리 국민에 대한 부당한 공격을 계속하고 있습니다. 이로 인해 에스컬레이션이 시작된 이래 우리 국민에 대한 공격적인 습격의 총 수는 1,...",
-    "url": "https://t.me/army21ye/3802"
-   },
-   {
-    "time": "2026-10-04 16:00",
-    "iso": "2026-10-04T16:00:52+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم يواصلُ العدوُّ السعوديُّ المجرمُ عدوانَه الظالمَ على شعبِنا بشنِّه المزيدَ من الغاراتِ العدوانيةِ والتي بلغت خلالَ 12 ساعةً الماضيةَ 50 غارةً جويةً وصاروخًا استهدفَ بها العاصمةَ صنعاءَ والمحافظاتِ الجوفَ وتعزَ وعمرانَ و…",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3801"
-   },
-   {
-    "time": "2026-10-04 16:00",
-    "iso": "2026-10-04T16:00:50+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عمليتين عسكريتين أولاهما استهدفت شركة أرامكو في عاصمة العدو السعودي الرياض، والأخرى استهدفت شركة أرامكو في منطقة خريص، وذلك ردا على العدوان السعودي الظالم بالغارات الجوية والقصف الصاروخي على العاصمة صنعاء ومحافظات الجوف وتعز وعمران وحجة وصعدة. جودة متوسطة http://t.me/army21ye",
-    "text_ko": "사우디아라비아의 적 리야드의 수도 아람코와 쿠라이스 지역의 다른 아람코를 겨냥한 두 가지 군사 작전의 시행에 대한 예멘군의 성명서. 예멘군은 수도 사나와 알자우프, 타이즈, 암란, 하지야 및 사다의 주지사에 대한 공습과 미사일 포격으로 부당한 사우디아라비아의 침략에 대응하여 아람코를 겨냥했다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3799"
-   },
-   {
-    "time": "2026-10-04 15:09",
-    "iso": "2026-10-04T15:09:44+03:00",
-    "places": [],
-    "text_ar": "تمكنت قواتنا المسلحة _بفضل الله تعالى_ من طرد واستهداف تحشيدات العدو السعودي من شرقي الجوف إثر محاولات فاشلة للتقدم باتجاه مواقع قواتنا المسلحة ونتج عن عملية الاستهداف والطرد ما يلي: -إحراق عدد كبير من الآليات التابعة لتحشيدات العدو السعودي. -مصرع وإصابة العشرات من تلك التحشيدات. -ملاحقة ومطاردة من تبقى منهم في صحراء الجوف. -استهداف تجمعات تلك التحشيدات بعدد من الصواريخ الباليستية والطائرات المسيّ…",
-    "text_ko": "전능하신 하느님 덕분에 우리 군대는 알자우프 동부에서 사우디 적의 군중을 추방하고 목표로 삼을 수 있었습니다. 무장 세력의 위치로 진격하려는 시도는 실패했습니다. 표적화와 추방은 다음과 같은 결과를 초래했습니다. - 사우디 적의 군중이 소유한 많은 차량의 불타는 것. - 수십 명의 군중이 사망하고 부상당했습니다. - 알 자우프 사막에 남아있는 사람들을 추구하고 추적합니다. - 다수의 탄도 미사일과 무인 공중 차량으로 군중의 모임을 겨냥...",
-    "url": "https://t.me/army21ye/3797"
    }
   ],
   "mentions7d": {
@@ -2188,12 +2117,12 @@
    "담맘": 1,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-18T20:33:29Z"
+  "last_ok_at": "2026-10-18T23:02:11Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T20:33:29Z",
+  "fetched_at": "2026-10-18T23:02:11Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3165,19 +3094,19 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-18T20:33:29Z"
+  "last_ok_at": "2026-10-18T23:02:11Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T20:33:31Z",
+  "fetched_at": "2026-10-18T23:02:14Z",
   "kr": [
    {
     "date": "2026-10-18",
-    "published": "2026-10-18T19:30:00+00:00",
-    "source": "동아일보",
-    "title": "후티 세력 확장에… 껄끄럽던 UAE-사우디 손잡아",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XNGFEYmEzZE12Q2JzaFBoNEFvUVFpMDAzWUVWR3l2MTYybVA4ZmtrWlEwNFZ6NnV6eEMyUWhBWU05TExTZjhQVnpPMVl2YVRhQy1OamxuaHBjYUpFUWpxeGFOcWc0dXFuOTV6SEZWUkJ0QVHSAWZBVV95cUxNczY3dDNsdjhfUDBrNk5BaUhaU0tmQi1GeWlsMXdLS1pwQkl4VFowR2lrNG1MRmxKV25oTXZFZ3N0RXg4Ri12RzVlV3VMVVdWc0QtWDYxS0NkNmFSUFFPY1RMdG9DaXc?oc=5"
+    "published": "2026-10-18T20:57:00+00:00",
+    "source": "연합뉴스",
+    "title": "이집트, ’후티 공세’ 사우디에 “군사 지원“",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kZUVTenZoNkJPM1liVEVwU2xNZGEweEVSTGhrS3VVWnJBaXp3bWJ0QS1RWmFCQ2dhbDZicHJHMFpGS0lsV2pZelZjMjlwbWxGWllsRXJpMG9ZT2JpNmw1WXRzTktITkk?oc=5"
    },
    {
     "date": "2026-10-18",
@@ -3195,26 +3124,26 @@
    },
    {
     "date": "2026-10-18",
+    "published": "2026-10-18T15:44:00+00:00",
+    "source": "조선일보",
+    "title": "후티 공세에 코너 몰린 사우디 구하려… 중동 수니파 뭉쳤다",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLXA1M1BFeTdCZUZNTEpDVkJIbEZpbDU5VHp5MGFjMlpkZi1ZOW1wRFUxbzAtNUc4MzAyQlZBTnR1bmZ6c1VubXZpSEJ4WHE5ZDBlQjItZjBxMm1DdXcxN0ctNVlUbFNPTUthS1hESnA3Sk5EWkdrRm1SQ3k0NC1NUm1xbzNXNXNsTlktaUR5Nkl4ZlJWdVVsMHU2U0w?oc=5"
+   },
+   {
+    "date": "2026-10-18",
     "published": "2026-10-18T12:07:00+00:00",
     "source": "경향신문",
     "title": "UAE·이집트도 가세…‘반후티’로 뭉치는 걸프국",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSdHozWEFMSDNNUm5nd3FNWXlEejc2Mmhwa1ozdEhmT04zTXJsYzVmWWNrXzNLS2NJM0RtcVBudnhuZ2lvRllmdExNbmlHNEQtbmdKNGFNemVYUdIBX0FVX3lxTE1ISTNXQTV6VmpEaElHMmlOS1hPVTQzRm1vNnBPOWFkNmNpMk5IZ01JcGQxNHVlMUp3UGxtdDNwWU5HMDdfN0VOc3h4alJPQlhaOHNwUllHQ09YaGU5Y29F?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T05:30:00+00:00",
-    "source": "YTN",
-    "title": "예멘 후티 반군, 정부군·사우디 공세 강화...호르무즈 유조선 피해 급증",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TVWtYR09vQnhnNjZSWmJWbE54NlZSVWVISmpGOE9HWHAxNEhTVmVocDBLVDlWV21PWDAwRlBQY1hCMlROMzZVaWxiZDBpVnJQelVSVUF5NFJEa0VIS3c?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-18",
-    "published": "2026-10-18T18:16:00+00:00",
-    "source": "AP News",
-    "title": "Egypt’s top security body agrees to help Saudi Arabia defend itself against Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1hsZ1ZMdXFsZmM1WHRVeFRpV0dzUEpwcFlNVjAyUnBfUjVGb0JjVFFmY1dZeVd1ekw0MGhsSWNtNE9pQ1hCangwSFpaOG9Ec1JJWWtwS0pXbTJBT0tkVm5qS2FPTVdleUlZVWNmNjZiVi14NzAwc2JHOFh6TXU0WGsxNVBpajdHaEhYSmhoWWV0dnNXdlpn?oc=5"
+    "published": "2026-10-18T21:04:38+00:00",
+    "source": "Reuters",
+    "title": "Egypt says ready to back Saudi Arabia in war against Iran-allied Houthis",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
    },
    {
     "date": "2026-10-18",
@@ -3225,36 +3154,36 @@
    },
    {
     "date": "2026-10-18",
-    "published": "2026-10-18T16:00:00+00:00",
-    "source": "The Washington Post",
-    "title": "As Iran war spills over, Saudis and Houthis see fighting as only path ahead",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcEJaeEpsVGVjMFo4YlNuNXhoMXBpLVF3OXNWNDFRSnphZzJ2dGRlMnJKRFl0WlR6SDJoODFSZ1cta2tHTmJQQUtYX1NzVlVRVTNLUGVCYVNadVh4NVV3b0JJOWg4eUtUb2dKbmV6cVo4ZTJrN0k1UUZvM1BERFotSFVQVnNndHJOVjFfTWFMSDBzQkM0bFlKbWVaNFE2Vld1cnlzN3FOeWwwLXhEaXVxcUxkbw?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T14:31:31+00:00",
-    "source": "Reuters",
-    "title": "Egypt says ready to give Saudi Arabia necessary support amid Houthi conflict",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T11:49:38+00:00",
+    "published": "2026-10-18T15:00:02+00:00",
     "source": "The New York Times",
     "title": "Egypt’s Defense Chiefs Pledge to Support Saudi Arabia After Houthi Attacks",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVXQzM0U1RmdHTFJHa2xSTUxxVWl6eTY4ZFdIbDN0QkJuQTA0aTd2RFI1UDg0T0dnU0w0cEVVVjduenlhRGhhdUpKOUtqNk44RlozZFpRcFVwWTNEOW1MZHNfQlo2bnFsNDVZazFwZF9uNlowVElReUtTTEd5bnd2QURiLVppRG5wWXhtdg?oc=5"
+   },
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T11:49:25+00:00",
+    "source": "Al Jazeera",
+    "title": "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdE1va1c1b1lELXRZM0w2akJhSzhDTlZVNXhyZ2JiT1RrRGQ2MlN2M09BazE3Snp4MFpUN1VaX3ViZnJrNjUxa2h0OUJOcWpDSmNVTUJQYk16VE5vMnkyT3dwaVFpZEN3UTFkd3pyUjBYcUVkaGxkak05bFFNZkp3M0hTOU1lY0NzdmU3Z0ltZUptclNhY1ZUR1hTb2NUT2FtQzhvU9IBqgFBVV95cUxNLWF0M0dkVUhrblpKX0d0RTN2NWJVV2NpbWh3UWFKNHhUSXFkQ3p1R0RKem45LWNZNHJCRUZlQUxKOENQS1U3bGZhOGhyeFFlVVJRMmtzeUxUTjZJTnVnM2RYcTNITmFQVjdoSXdENXRDdnlLREhKYUxhd21NeUVPM3h3Tm5oTnh2dW45ekluTE9jSFBmaE5OVU8tOTNpVTZjMG1tVE4xWXRudw?oc=5"
+   },
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T11:13:21+00:00",
+    "source": "Al Jazeera",
+    "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMzhqQlNqYWdrQzFNTHpobVpTUndWZ3NoOWpxRXVoNUdYckdDaDVkSmtwbXJ4Y2RnZDN6OTZ0VjFLM1FfNHRZTGVOSXA4T19lamlwb3ZPQWFXd082VmNlWEJhQ082OHJvalJCdFNXa3B1NW9pVkhYVkZ6eG9uWk9YMTBzMlRQQV9QN19WclB5aWtwdjBKRlhyY1I2cFBoQUVZRlVvcVlCbHNpUG4wcGlSWdIBtgFBVV95cUxOR0tmR1ctSUduRlQ1Z3A4SlNJMUwtT28zSWNWYWRvWDM5d0dIaFcxQ3pvQnFRTTFlSHA0ODlJeEo5UHdzSC1hNDFLazEyUUN3T0JWMlFlTjlnZjFGTTVtNWVfSEwtbkhRd1BnR19VblIzTElFc1I2NXgyT1YyNElQYmxtTWJ3RmdDWldvdV9CYi0xaGZ4ZXJraXd1M2R1VGtmMFJWQXhmOERBYmpSYXEySGEzMDZ5Zw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-18T20:33:31Z"
+  "last_ok_at": "2026-10-18T23:02:14Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T20:33:32Z",
+  "fetched_at": "2026-10-18T23:02:15Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 20,
-  "baseline": 29,
-  "baseline_n": 7,
+  "count": 26,
+  "baseline": 38.5,
+  "baseline_n": 6,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3415,14 +3344,15 @@
    "2026-10-18T10": 32,
    "2026-10-18T14": 29,
    "2026-10-18T18": 27,
-   "2026-10-18T20": 20
+   "2026-10-18T20": 20,
+   "2026-10-18T23": 26
   },
-  "last_ok_at": "2026-10-18T20:33:32Z"
+  "last_ok_at": "2026-10-18T23:02:15Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-18T20:33:33Z",
-  "last_ok_at": "2026-10-18T20:33:33Z"
+  "fetched_at": "2026-10-18T23:02:16Z",
+  "last_ok_at": "2026-10-18T23:02:16Z"
  }
 }
