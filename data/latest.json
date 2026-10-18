@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T22:12:28Z",
+ "generated_at": "2026-10-18T00:54:06Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T22:12:28Z",
+  "fetched_at": "2026-10-18T00:54:06Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,16 +183,30 @@
     "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
    }
   ],
-  "last7d": 9,
+  "last7d": 7,
   "baseline": 1.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-17T22:12:28Z"
+  "last_ok_at": "2026-10-18T00:54:06Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T22:12:45Z",
+  "fetched_at": "2026-10-18T00:54:25Z",
   "events": [
+   {
+    "date": "2026-10-17",
+    "time": "00:51",
+    "iso": "2026-10-17T00:51:00+03:00",
+    "city": "얀부",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
+    "source": "Reuters",
+    "outlets": 1
+   },
    {
     "date": "2026-10-16",
     "time": "17:27",
@@ -1093,9 +1107,9 @@
   "tempo": {
    "얀부": {
     "7d": {
-     "요격": 1
+     "요격": 2
     },
-    "total7d": 1,
+    "total7d": 2,
     "prev7d": {},
     "prev_total": 0
    },
@@ -1232,14 +1246,22 @@
   "history_days": 31,
   "history_since": "2026-09-18",
   "today": "2026-10-18",
-  "last_ok_at": "2026-10-17T22:12:45Z"
+  "last_ok_at": "2026-10-18T00:54:25Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T22:12:46Z",
+  "fetched_at": "2026-10-18T00:54:26Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-18 01:39",
+    "iso": "2026-10-18T01:39:26+03:00",
+    "places": [],
+    "text_ar": "بفضل الله وعونه تمكنت قواتنا المسلحة من إسقاط طائرة استطلاع مسلح نوع \"كاريال\" تابعة للعدو السعودي أثناء قيامها بأعمال عدائية في أجواء محافظة حجة وتم إسقاطها بسلاح مناسب. وتعتبر هذه هي الطائرة الرابعة التي يتم إسقاطها من هذا النوع منذ بدء التصعيد الأخير والسابعة منذ دخولها الأجواء اليمنية. http://t.me/army21ye",
+    "text_ko": "하느님과 그분의 도움 덕분에 우리 군대는 하자 주 영공에서 적대 행위를 수행하면서 사우디 적의 무장 정찰기 \"캐리얼\" 을 격추할 수 있었고 적절한 무기로 격추되었습니다. 이것은 마지막 에스컬레이션이 시작된 이후 이 유형의 항공기가 격추된 네 번째 항공기이며 예멘 영공에 진입한 이후 일곱 번째 항공기입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3905"
+   },
    {
     "time": "2026-10-17 20:51",
     "iso": "2026-10-17T20:51:36+03:00",
@@ -2055,8 +2077,8 @@
   ],
   "mentions7d": {
    "리야드": 11,
-   "카미스무샤이트": 6,
    "타이프": 6,
+   "카미스무샤이트": 6,
    "나즈란": 5,
    "메디나": 5,
    "담맘": 5,
@@ -2064,12 +2086,12 @@
    "다란": 3,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-17T22:12:46Z"
+  "last_ok_at": "2026-10-18T00:54:26Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T22:12:47Z",
+  "fetched_at": "2026-10-18T00:54:28Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3553,12 +3575,12 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-17T22:12:47Z"
+  "last_ok_at": "2026-10-18T00:54:28Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T22:12:49Z",
+  "fetched_at": "2026-10-18T00:54:30Z",
   "kr": [
    {
     "date": "2026-10-17",
@@ -3606,7 +3628,7 @@
    },
    {
     "date": "2026-10-17",
-    "published": "2026-10-17T11:57:00+00:00",
+    "published": "2026-10-17T14:46:00+00:00",
     "source": "The Guardian",
     "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXhkalJBQ2xwVFhIUExTLWw3UTRGbHdXVlhIQ0ZLaEVOREFzNUQ3MkJqSlMtOWQ1aDRwazFhaVA3ajdqNTREZFN1andxLV9QaE4yUWk4T0ZGeXJfZDIwb0JhMDRwOHN4Qlowbl9ET0x4cVMtZU1zdjBXY3J4bEp3VHAtdDItcUhzM3FfWmNaVFljamJ4enBhb1I3dTZUWVl5Z3c?oc=5"
@@ -3627,22 +3649,22 @@
    },
    {
     "date": "2026-10-17",
-    "published": "2026-10-17T04:00:30+00:00",
+    "published": "2026-10-17T04:00:54+00:00",
     "source": "Financial Times",
     "title": "Houthis encircle new target in conflict with Saudi-backed forces",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRkRNLU15bDkyendiZktWRV9Na2VhYUJMUUFWeDhmZmZ5TnZxck95dW1jS09kc0gwLU91S2NTNDlKWkhqMjhWRzczd2xVSURYcVdmZE05a2dwaGRFckxkd3pSM0s5UnRzcHBQdzZERGlCa3gzY2pRT0VmUVpfU3FHenJfYnM?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-17T22:12:49Z"
+  "last_ok_at": "2026-10-18T00:54:30Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-17T22:12:51Z",
+  "fetched_at": "2026-10-18T00:54:32Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 23,
-  "baseline": 33,
-  "baseline_n": 11,
+  "count": 29,
+  "baseline": 42.5,
+  "baseline_n": 10,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3797,14 +3819,15 @@
    "2026-10-17T13": 33,
    "2026-10-17T17": 17,
    "2026-10-17T19": 39,
-   "2026-10-17T22": 23
+   "2026-10-17T22": 23,
+   "2026-10-18T00": 29
   },
-  "last_ok_at": "2026-10-17T22:12:51Z"
+  "last_ok_at": "2026-10-18T00:54:32Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-17T22:12:51Z",
-  "last_ok_at": "2026-10-17T22:12:51Z"
+  "fetched_at": "2026-10-18T00:54:32Z",
+  "last_ok_at": "2026-10-18T00:54:32Z"
  }
 }
