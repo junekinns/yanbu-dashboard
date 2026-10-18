@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T05:46:18Z",
+ "generated_at": "2026-10-18T10:54:50Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T05:46:18Z",
+  "fetched_at": "2026-10-18T10:54:50Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 7,
   "baseline": 1.5,
   "tier": "급증",
-  "last_ok_at": "2026-10-18T05:46:18Z"
+  "last_ok_at": "2026-10-18T10:54:50Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T05:46:34Z",
+  "fetched_at": "2026-10-18T10:55:06Z",
   "events": [
    {
     "date": "2026-10-17",
@@ -461,8 +461,8 @@
    },
    {
     "date": "2026-10-10",
-    "time": "18:05",
-    "iso": "2026-10-10T18:05:55+03:00",
+    "time": "10:00",
+    "iso": "2026-10-10T10:00:00+03:00",
     "city": "리야드",
     "type": "피격",
     "weapon": null,
@@ -1246,14 +1246,34 @@
   "history_days": 31,
   "history_since": "2026-09-18",
   "today": "2026-10-18",
-  "last_ok_at": "2026-10-18T05:46:34Z"
+  "last_ok_at": "2026-10-18T10:55:06Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T05:46:35Z",
+  "fetched_at": "2026-10-18T10:55:07Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-18 12:18",
+    "iso": "2026-10-18T12:18:47+03:00",
+    "places": [
+     "나즈란"
+    ],
+    "text_ar": "مشاهد استهداف طائرة مروحية سعودية هجومية نوع AH_6i واسقاطها بصاروخ أرض جو محلي الصنع أثناء قيامها بأعمال عدائية قبالة نجران - 18 أكتوبر 2026م",
+    "text_ko": "사우디아라비아 AH_6i 공격 헬리콥터가 나지란에서 적대 행위를 수행하던 중 수제 지대공 미사일에 의해 표적이 되고 격추되는 장면 - 2026년 10월 18일",
+    "url": "https://t.me/army21ye/3907"
+   },
+   {
+    "time": "2026-10-18 11:14",
+    "iso": "2026-10-18T11:14:45+03:00",
+    "places": [
+     "나즈란"
+    ],
+    "text_ar": "ترقبوا الساعة 11:30ص مشاهد إسقاط مروحية سعودية هجومية نوع Ah_6i في نجران",
+    "text_ko": "오전 11시 30분 나지란에서 사우디 아_6i 공격 헬리콥터가 격추될 예정이니 많은 관심 부탁드립니다.",
+    "url": "https://t.me/army21ye/3906"
+   },
    {
     "time": "2026-10-18 01:39",
     "iso": "2026-10-18T01:39:26+03:00",
@@ -1320,6 +1340,17 @@
     "url": "https://t.me/army21ye/3899"
    },
    {
+    "time": "2026-10-15 16:58",
+    "iso": "2026-10-15T16:58:51+03:00",
+    "places": [
+     "메디나",
+     "메카"
+    ],
+    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم ما سرده ناطق العدوان السعودي قبل قليل يمارس العدو السعودي المجرم أضعافه بكثير على بلدِنا منذ اثني عشر عاما بإجمالى أكثر من 274302 غارة جوية ارتكب بها كل أنواع الجرائم والمجازر. ومنذ بداية استئناف العمليات العدوانية والت…",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3898"
+   },
+   {
     "time": "2026-10-15 12:08",
     "iso": "2026-10-15T12:08:13+03:00",
     "places": [
@@ -1368,6 +1399,17 @@
     "text_ar": "مشاهد نوعية لطرد تحشيدات تابعة للعدو السعودي في مطار ذوباب وإحراق واغتنام عدد من آلياته وأسر عدد منهم - 14 أكتوبر 2026م",
     "text_ko": "도밥 공항에서 사우디아라비아 적의 동원을 축출하고, 여러 대의 차량을 불태우고 압수하고, 여러 대를 포획하는 질적 장면 - 2026년 10월 14일",
     "url": "https://t.me/army21ye/3893"
+   },
+   {
+    "time": "2026-10-14 11:40",
+    "iso": "2026-10-14T11:40:31+03:00",
+    "places": [
+     "리야드",
+     "다란"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عملية عسكرية نوعية استهدفت شركة أرامكو في الظهران بالمنطقة الشرقية ومطار خالد الدولي ومصفاة أرامكو في الرياض بعدد كبير من الصواريخ الباليستية والمجنحة والطائرات المسيرة وحققت العملية إصابة دقيقة بفضل الله وتسببت بدمار وبنشوب حرائق في المواقع المستهدفة. جودة عالية http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3889"
    },
    {
     "time": "2026-10-14 11:40",
@@ -2076,22 +2118,22 @@
    }
   ],
   "mentions7d": {
-   "리야드": 11,
+   "리야드": 12,
+   "나즈란": 7,
    "카미스무샤이트": 6,
    "타이프": 6,
-   "나즈란": 5,
    "메디나": 5,
    "담맘": 5,
    "메카": 4,
-   "다란": 3,
+   "다란": 4,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-18T05:46:35Z"
+  "last_ok_at": "2026-10-18T10:55:07Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T05:46:36Z",
+  "fetched_at": "2026-10-18T10:55:11Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3071,13 +3113,20 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-18T05:46:36Z"
+  "last_ok_at": "2026-10-18T10:55:11Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T05:46:38Z",
+  "fetched_at": "2026-10-18T10:55:13Z",
   "kr": [
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T09:32:00+00:00",
+    "source": "한겨레",
+    "title": "이집트 “사우디 보호 모든 조치”…‘반후티 전선’ 참전 뜻 밝혀",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcE96UWk0MVRiOVhrbzZ4VGZRRnF6RWw2Y3JlNkFpeUh0UXFGRksyT3oyVkxybTNUNEhmRTN6SXN6c2t0aGFVYm12UXl2QVJQcjJfMlJtUm5NRTQ4TnA5Q0loeWR6VGJTUEFuZ1pMa2lnWFE?oc=5"
+   },
    {
     "date": "2026-10-18",
     "published": "2026-10-18T05:30:00+00:00",
@@ -3105,29 +3154,22 @@
     "source": "MBC",
     "title": "이란 외무 \"사우디·후티 갈등 정치로 풀어야\"‥중재 의지 재확인",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92SGF3Y1lzV3Z1aW8tTk1mVVo1bnRrdGhoOTZyY1BWdUdxZU5ISjBWVmk4MkRhYzdZcXNYS1F2Ym9vMnBfTk85TVlzdVU2VEdUQkVfRkF2MzdLbUpDZ3VGWm9mMjFSNWdUTEswV1BmaFNRUmJx0gF0QVVfeXFMT3ZIYXdjWXNXdnVpby1OTWZVWjVudGt0aGg5NnJjUFZ1R3FlTkhKMFZWaTgyRGFjN1lxc1hLUXZib28ycF9OTzlNWXN1VTZUR1RCRV9GQXYzN0ttSkNndUZab2YyMVI1Z1RMSzBXUGZoU1FSYnE?oc=5"
-   },
-   {
-    "date": "2026-10-17",
-    "published": "2026-10-17T10:29:48+00:00",
-    "source": "연합뉴스",
-    "title": "\"이란, 후티에 사우디 공격 정보 제공으로 도움\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WNlJyNTVxbkRRQ3gwSFppcVZfcGk2bXhvUVI5NnFWdXM3Z0dhNDkzUnZrOUphNUhkNFAxNEpxbk5YQ0VqVGlEVENuTE9uM3hzUnk1MGtoNzRuakhiMXFRTmIwZVNtaF9PUjlCb2VPTkJ5M3VX?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T01:13:07+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTkp6amhHMk5rdjhLTWxhaXdRanpXQnBPZmtkOFIxU2MteXFTSzdCRFlUdUFHZUk1Y0VUeHg0dGRVaUdQb05VQkxsY183Y3ExVTE1al9MZGkzYzdHQnVpV0hkLU1pSnJOVW0xWlF3TU5tdzAtTkRrLV9ORm9pZVpESUZ1RmZBTnVIMVFxcUxYV2lSc19CaEduNmVJcS1STnBNNk1OUEh2S2RLNEhFRWVJTXBHSnlDQ3RBUkHSAb8BQVVfeXFMTldCMFJTcU5MRVV4WTFpd05IX2RRTFBpNDdtRC1FV1ZjcU9tc1dmeVZNNVczamM1OTJ4cEpaYzVIYXdIVzVZT2ZhWXh5Nk41MEd2YVcyTUlBbUtVcEREeUEwaUgtbXVhZ2ZNY2ExUWNsUlpmeHNuY2dKN3RRWGYtRDBVX0tMbUphbTV6djlDVVNYNVAwWVc1alBmSDdDWmQzRmpMOFFjLUExZk80c1lFbEVrUlhqeklWZEhlTGVDYnM?oc=5"
+   },
    {
     "date": "2026-10-17",
     "published": "2026-10-17T23:26:53+00:00",
     "source": "Al Jazeera",
     "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObzE5OEQ1YmtRaTQzMEN4ZC16UVlZOXRXTm9kZm93dldxWmxwUkMwYVJPMkx4YktUcm15d2ZzbHJVbFNaZUZ5RDl3V1lxVzY2eDA0OHFhT2RINHhNMU9GRFNiQ1RRUmo0akRHOEhieFZiZkYxOEEtSkFWUkMwQ3UxdWF0VVFSanNMY3M1RDVBSzk0ZE5lRVd0R2U1TE9HOTEtRmxEOEduRlowLUpv0gGyAUFVX3lxTFBsajZwTGFfQ0YyU0hzT2drU2xPM1haeGl5V1JOamM5TXFDeGQ0VmlCQnBNWDNkanNELVBBZWJTREhPSVRUd0tJM1d3T1pKRzlvZTk0VVdQTHlJdVJUdWhndUFrbnFvcXJoaWwwVVNDM3kwWEtBdWN5Smt0b1dtZ3lFYkFIbTE2Z0Yzb0FXRVNSVUlhWHRJRENRT21EMnVjN3N0c3IxTjBHT2dqemFJZ1VIeVE?oc=5"
-   },
-   {
-    "date": "2026-10-17",
-    "published": "2026-10-17T21:04:33+00:00",
-    "source": "PBS",
-    "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels' growing strength",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON3ctZzVVZmROUF9ucW82clpVMWMzUXVUQ0xFendFWlh1U1lEbXRmTlh4TUJKR1lHT0FpLUNiUWZ1aDRkTjM0ak52X0QzR2thSGNKSUptNXdXOTQxM1gtYk9zZkJTN1Jjek9LY2Y5M2RWcERwZ2RheV9DSXBCZEItaFNWYlR2ZXp0c3dMVS1YQnJkY3F1TjVDaEJpZFVCcFYyTTJwNXZmTEvSAa4BQVVfeXFMUFNuYkZZWEZjUnIwMTZCNWVaTXEtMmh4OXZPWjRWVmkwS3liMHVMcEJmeHBocEJFQ2Z5d013RkVZOXQxWjc2emNMNTdTY0N2WDVmVDMzTUNhVkVXU1NQSk9kSUlwdDNibGs5eF91dGNSMVhZV2k3enN0cUE5X0piZ2E3dHlhZTkwOWp0S2FJTkdLd1Zub1lNRmR3WlNPMHBoUElxUm0yV1RYaFhkV253?oc=5"
    },
    {
     "date": "2026-10-17",
@@ -3138,10 +3180,10 @@
    },
    {
     "date": "2026-10-17",
-    "published": "2026-10-17T14:46:00+00:00",
-    "source": "The Guardian",
-    "title": "UAE agrees with Saudi Arabia to re-enter Yemen conflict amid Houthi gains",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWXhkalJBQ2xwVFhIUExTLWw3UTRGbHdXVlhIQ0ZLaEVOREFzNUQ3MkJqSlMtOWQ1aDRwazFhaVA3ajdqNTREZFN1andxLV9QaE4yUWk4T0ZGeXJfZDIwb0JhMDRwOHN4Qlowbl9ET0x4cVMtZU1zdjBXY3J4bEp3VHAtdDItcUhzM3FfWmNaVFljamJ4enBhb1I3dTZUWVl5Z3c?oc=5"
+    "published": "2026-10-17T07:19:00+00:00",
+    "source": "AP News",
+    "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVE5nRDF3WG9JZEEtTWpyWVUyaVR6MlVfbTRxNVZpNGJFdmdXVHlXZzh6WXBZazVCcDdfSTNjaFpkMmhlZjhObHJRVUk5RkYxdFhicXhmblhpWkVBc2ZfX1FRSWthVnBDUUxPenVjSUxsTWJMS3pNX3RWS3BZZmJ0LUxnTllfaTVZYnpRVmt0SWI3YXZyUHZWQ2dMcDZ4V1VrYXlpbWZPMjM?oc=5"
    },
    {
     "date": "2026-10-17",
@@ -3151,16 +3193,16 @@
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRkRNLU15bDkyendiZktWRV9Na2VhYUJMUUFWeDhmZmZ5TnZxck95dW1jS09kc0gwLU91S2NTNDlKWkhqMjhWRzczd2xVSURYcVdmZE05a2dwaGRFckxkd3pSM0s5UnRzcHBQdzZERGlCa3gzY2pRT0VmUVpfU3FHenJfYnM?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-18T05:46:38Z"
+  "last_ok_at": "2026-10-18T10:55:13Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T05:46:39Z",
+  "fetched_at": "2026-10-18T10:55:14Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 22,
-  "baseline": 28,
-  "baseline_n": 3,
+  "count": 32,
+  "baseline": null,
+  "baseline_n": 2,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3317,14 +3359,15 @@
    "2026-10-17T19": 39,
    "2026-10-17T22": 23,
    "2026-10-18T00": 29,
-   "2026-10-18T05": 22
+   "2026-10-18T05": 22,
+   "2026-10-18T10": 32
   },
-  "last_ok_at": "2026-10-18T05:46:39Z"
+  "last_ok_at": "2026-10-18T10:55:14Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-18T05:46:40Z",
-  "last_ok_at": "2026-10-18T05:46:40Z"
+  "fetched_at": "2026-10-18T10:55:15Z",
+  "last_ok_at": "2026-10-18T10:55:15Z"
  }
 }
