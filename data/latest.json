@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T23:01:54Z",
+ "generated_at": "2026-10-19T01:06:57Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T23:01:54Z",
+  "fetched_at": "2026-10-19T01:06:57Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,15 +183,15 @@
     "summary": "ㅇ 10.15(목) 사우디 주도 아랍연합군은 메디나주 내 순항미사일 1기를 요격*했다고 발표했습니다. 이에 대한 후티 반군측의 발표는 상금 없으나, 후티 반군은 메카, 메디나를 제외한 사우디 영공에 대한 공격 가능성을 지속 경고하고 있습니다. * 메디나주 내 구체 요격 지점 등 미언급 ㅇ 현재 사우디 전역에 여행경보 3단계(출국권고)가 발령 중입니다. 사우…"
    }
   ],
-  "last7d": 8,
-  "baseline": 1.5,
+  "last7d": 7,
+  "baseline": 2.0,
   "tier": "급증",
-  "last_ok_at": "2026-10-18T23:01:54Z"
+  "last_ok_at": "2026-10-19T01:06:57Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T23:02:09Z",
+  "fetched_at": "2026-10-19T01:07:15Z",
   "events": [
    {
     "date": "2026-10-18",
@@ -1264,12 +1264,12 @@
   "history_days": 31,
   "history_since": "2026-09-19",
   "today": "2026-10-19",
-  "last_ok_at": "2026-10-18T23:02:09Z"
+  "last_ok_at": "2026-10-19T01:07:15Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T23:02:11Z",
+  "fetched_at": "2026-10-19T01:07:17Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2117,12 +2117,12 @@
    "담맘": 1,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-18T23:02:11Z"
+  "last_ok_at": "2026-10-19T01:07:17Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T23:02:11Z",
+  "fetched_at": "2026-10-19T01:07:17Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2366,14 +2366,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 17.59801,
-    "lon": 44.33656,
-    "frp": 1.84,
-    "date": "2026-10-11",
-    "time": "2257",
-    "confidence": "nominal"
-   },
-   {
     "lat": 17.49797,
     "lon": 44.17155,
     "frp": 3.44,
@@ -2438,14 +2430,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 27.53278,
-    "lon": 49.13864,
-    "frp": 1.56,
-    "date": "2026-10-13",
-    "time": "2214",
-    "confidence": "nominal"
-   },
-   {
     "lat": 26.95546,
     "lon": 49.59616,
     "frp": 1.62,
@@ -2467,14 +2451,6 @@
     "frp": 6.21,
     "date": "2026-10-13",
     "time": "2216",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 17.60044,
-    "lon": 44.33772,
-    "frp": 0.42,
-    "date": "2026-10-13",
-    "time": "2218",
     "confidence": "nominal"
    },
    {
@@ -2686,14 +2662,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 27.53346,
-    "lon": 49.13906,
-    "frp": 1.54,
-    "date": "2026-10-15",
-    "time": "2318",
-    "confidence": "nominal"
-   },
-   {
     "lat": 27.07535,
     "lon": 49.57656,
     "frp": 2.39,
@@ -2894,14 +2862,6 @@
     "confidence": "low"
    },
    {
-    "lat": 27.53478,
-    "lon": 49.13887,
-    "frp": 2.42,
-    "date": "2026-10-17",
-    "time": "2240",
-    "confidence": "nominal"
-   },
-   {
     "lat": 27.13128,
     "lon": 49.2053,
     "frp": 1.96,
@@ -3054,14 +3014,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 17.59675,
-    "lon": 44.3365,
-    "frp": 0.91,
-    "date": "2026-10-17",
-    "time": "2244",
-    "confidence": "nominal"
-   },
-   {
     "lat": 17.70766,
     "lon": 44.45156,
     "frp": 5.47,
@@ -3092,15 +3044,110 @@
     "date": "2026-10-18",
     "time": "0956",
     "confidence": "nominal"
+   },
+   {
+    "lat": 27.1919,
+    "lon": 49.14212,
+    "frp": 2.59,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.19063,
+    "lon": 49.14078,
+    "frp": 2.19,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.01462,
+    "lon": 49.582,
+    "frp": 3.69,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.78615,
+    "lon": 50.0197,
+    "frp": 3.54,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.86078,
+    "lon": 49.43793,
+    "frp": 1.15,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.78194,
+    "lon": 49.99477,
+    "frp": 2.18,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.15728,
+    "lon": 50.66841,
+    "frp": 3.53,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.11616,
+    "lon": 50.60543,
+    "frp": 3.8,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.03637,
+    "lon": 50.55812,
+    "frp": 1.38,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.91563,
+    "lon": 49.95401,
+    "frp": 1.27,
+    "date": "2026-10-18",
+    "time": "2222",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.71556,
+    "lon": 39.82484,
+    "frp": 1.56,
+    "date": "2026-10-18",
+    "time": "2225",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-18T23:02:11Z"
+  "last_ok_at": "2026-10-19T01:07:17Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T23:02:14Z",
+  "fetched_at": "2026-10-19T01:07:19Z",
   "kr": [
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T00:16:00+00:00",
+    "source": "한겨레",
+    "title": "사우디 헬기 추락해 군인 2명 사망…후티 “격추” 주장",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vTlFGTkJoSVV3QlVKblhlOUVEMGp3bXlNamdXd3lRNS1kLVdoZ3NBblgzVTRVTnk2cThWaG91MkJWMWRUQmF3ZWo0UFpXSnBVcVIxMlNrc1NvbDU2UHdIWTBOWXRqLTkwVDVEeWs3VU1adEE?oc=5"
+   },
    {
     "date": "2026-10-18",
     "published": "2026-10-18T20:57:00+00:00",
@@ -3128,13 +3175,6 @@
     "source": "조선일보",
     "title": "후티 공세에 코너 몰린 사우디 구하려… 중동 수니파 뭉쳤다",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLXA1M1BFeTdCZUZNTEpDVkJIbEZpbDU5VHp5MGFjMlpkZi1ZOW1wRFUxbzAtNUc4MzAyQlZBTnR1bmZ6c1VubXZpSEJ4WHE5ZDBlQjItZjBxMm1DdXcxN0ctNVlUbFNPTUthS1hESnA3Sk5EWkdrRm1SQ3k0NC1NUm1xbzNXNXNsTlktaUR5Nkl4ZlJWdVVsMHU2U0w?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T12:07:00+00:00",
-    "source": "경향신문",
-    "title": "UAE·이집트도 가세…‘반후티’로 뭉치는 걸프국",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSdHozWEFMSDNNUm5nd3FNWXlEejc2Mmhwa1ozdEhmT04zTXJsYzVmWWNrXzNLS2NJM0RtcVBudnhuZ2lvRllmdExNbmlHNEQtbmdKNGFNemVYUdIBX0FVX3lxTE1ISTNXQTV6VmpEaElHMmlOS1hPVTQzRm1vNnBPOWFkNmNpMk5IZ01JcGQxNHVlMUp3UGxtdDNwWU5HMDdfN0VOc3h4alJPQlhaOHNwUllHQ09YaGU5Y29F?oc=5"
    }
   ],
   "en": [
@@ -3144,6 +3184,20 @@
     "source": "Reuters",
     "title": "Egypt says ready to back Saudi Arabia in war against Iran-allied Houthis",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
+   },
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T18:55:47+00:00",
+    "source": "Al Jazeera",
+    "title": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHJ3dEdCUGlGZm5HdVp3X0czYnJoMm5UMk5seFBHYTBqSlNfb3IxWXg3a1c4UmRGVDdxLWdWQ2tFLUdiWGF6S1A4NXNHWUg0czBhQWNHYkZEZUVNTV90Y3lWTjJwSnBkdGF6Wk1mTzd3andpbG5NQlpHcDVvLU4zM3E4MHhIa1h5ZlZpR3FhQUVLQjRnUFVKM1E0VWRpVGU3SDhGNmszc1ZBS25xTkdOUDNKUnVnQdIBuwFBVV95cUxNTHFsSHVrVWoxZXpaUGdYUm44UV9ad252MjhWcTJ0djNhUVNJN2tIeHZlcGgybEVsQnFWX3A4RVBkOGNOOVNMWDFJRWxwQlh4R3pneFlPT3JvU0Z6UXUyNXB3dkIycVNZY1ZJbGJRRURFbXE5TGZjVy1oWU1nTHplU0U1b25DbklqSDNSMTNGdHZ2eTdjN3FvakxmSzNDMlliN29VSE43a2ZCUG8xdVpIdEdpY0NIUElYU180?oc=5"
+   },
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T18:40:00+00:00",
+    "source": "AP News",
+    "title": "Egypt’s top security body agrees to help Saudi Arabia defend itself against Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1hsZ1ZMdXFsZmM1WHRVeFRpV0dzUEpwcFlNVjAyUnBfUjVGb0JjVFFmY1dZeVd1ekw0MGhsSWNtNE9pQ1hCangwSFpaOG9Ec1JJWWtwS0pXbTJBT0tkVm5qS2FPTVdleUlZVWNmNjZiVi14NzAwc2JHOFh6TXU0WGsxNVBpajdHaEhYSmhoWWV0dnNXdlpn?oc=5"
    },
    {
     "date": "2026-10-18",
@@ -3158,32 +3212,18 @@
     "source": "The New York Times",
     "title": "Egypt’s Defense Chiefs Pledge to Support Saudi Arabia After Houthi Attacks",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVXQzM0U1RmdHTFJHa2xSTUxxVWl6eTY4ZFdIbDN0QkJuQTA0aTd2RFI1UDg0T0dnU0w0cEVVVjduenlhRGhhdUpKOUtqNk44RlozZFpRcFVwWTNEOW1MZHNfQlo2bnFsNDVZazFwZF9uNlowVElReUtTTEd5bnd2QURiLVppRG5wWXhtdg?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T11:49:25+00:00",
-    "source": "Al Jazeera",
-    "title": "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdE1va1c1b1lELXRZM0w2akJhSzhDTlZVNXhyZ2JiT1RrRGQ2MlN2M09BazE3Snp4MFpUN1VaX3ViZnJrNjUxa2h0OUJOcWpDSmNVTUJQYk16VE5vMnkyT3dwaVFpZEN3UTFkd3pyUjBYcUVkaGxkak05bFFNZkp3M0hTOU1lY0NzdmU3Z0ltZUptclNhY1ZUR1hTb2NUT2FtQzhvU9IBqgFBVV95cUxNLWF0M0dkVUhrblpKX0d0RTN2NWJVV2NpbWh3UWFKNHhUSXFkQ3p1R0RKem45LWNZNHJCRUZlQUxKOENQS1U3bGZhOGhyeFFlVVJRMmtzeUxUTjZJTnVnM2RYcTNITmFQVjdoSXdENXRDdnlLREhKYUxhd21NeUVPM3h3Tm5oTnh2dW45ekluTE9jSFBmaE5OVU8tOTNpVTZjMG1tVE4xWXRudw?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T11:13:21+00:00",
-    "source": "Al Jazeera",
-    "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMzhqQlNqYWdrQzFNTHpobVpTUndWZ3NoOWpxRXVoNUdYckdDaDVkSmtwbXJ4Y2RnZDN6OTZ0VjFLM1FfNHRZTGVOSXA4T19lamlwb3ZPQWFXd082VmNlWEJhQ082OHJvalJCdFNXa3B1NW9pVkhYVkZ6eG9uWk9YMTBzMlRQQV9QN19WclB5aWtwdjBKRlhyY1I2cFBoQUVZRlVvcVlCbHNpUG4wcGlSWdIBtgFBVV95cUxOR0tmR1ctSUduRlQ1Z3A4SlNJMUwtT28zSWNWYWRvWDM5d0dIaFcxQ3pvQnFRTTFlSHA0ODlJeEo5UHdzSC1hNDFLazEyUUN3T0JWMlFlTjlnZjFGTTVtNWVfSEwtbkhRd1BnR19VblIzTElFc1I2NXgyT1YyNElQYmxtTWJ3RmdDWldvdV9CYi0xaGZ4ZXJraXd1M2R1VGtmMFJWQXhmOERBYmpSYXEySGEzMDZ5Zw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-18T23:02:14Z"
+  "last_ok_at": "2026-10-19T01:07:19Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-18T23:02:15Z",
+  "fetched_at": "2026-10-19T01:07:20Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 26,
-  "baseline": 38.5,
-  "baseline_n": 6,
+  "count": 24,
+  "baseline": 30.0,
+  "baseline_n": 12,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3345,14 +3385,15 @@
    "2026-10-18T14": 29,
    "2026-10-18T18": 27,
    "2026-10-18T20": 20,
-   "2026-10-18T23": 26
+   "2026-10-18T23": 26,
+   "2026-10-19T01": 24
   },
-  "last_ok_at": "2026-10-18T23:02:15Z"
+  "last_ok_at": "2026-10-19T01:07:20Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-18T23:02:16Z",
-  "last_ok_at": "2026-10-18T23:02:16Z"
+  "fetched_at": "2026-10-19T01:07:20Z",
+  "last_ok_at": "2026-10-19T01:07:20Z"
  }
 }
