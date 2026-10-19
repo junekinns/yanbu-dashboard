@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T06:08:56Z",
+ "generated_at": "2026-10-19T14:36:25Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T06:08:56Z",
+  "fetched_at": "2026-10-19T14:36:25Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -165,10 +165,10 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
-    "date": "2026-10-18",
-    "title": "사우디 공항 및 항공편 운항 현황(10.18. 오후 기준) ​",
+    "date": "2026-10-19",
+    "title": "사우디 공항 및 항공편 운항 현황(10.19. 오후 기준) ​",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321122/detail2?ntnCd=107",
-    "summary": "사우디아라비아 내 공항 및 항공편 운항 관련 현황을 아래와 같이 공지드립니다. ㅇ (리야드) 최근 미사일·무인기 공격 여파로 운영이 중단되었던 킹칼리드 국제공항은 10.18.(일) 현재 항공편 이착륙 시 사전승인이 필요한 제한적 운영 상태로, 결항·지연 등 운항 차질이 지속되고 있음. ㅇ (여타 공항) 젯다, 담맘 등 주요 공항은 일부 국내선 및 국제선 운…"
+    "summary": "사우디아라비아 내 공항 및 항공편 운항 관련 현황을 아래와 같이 공지드립니다. ㅇ (리야드) 리야드 킹칼리드 공항의 공식적 운영 중단은 10.18.자로 해제되었으나, 실질적으로는 현재까지도 운영되지 않고 있는 상태임. ㅇ (여타 공항) 젯다, 담맘 등 주요 공항은 일부 국내선 및 국제선 운항을 유지하고 있으나, 항공사별 결항·지연 등 일부 운항 차질이 지속…"
    },
    {
     "date": "2026-10-16",
@@ -186,12 +186,12 @@
   "last7d": 7,
   "baseline": 2.0,
   "tier": "급증",
-  "last_ok_at": "2026-10-19T06:08:56Z"
+  "last_ok_at": "2026-10-19T14:36:25Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T06:09:18Z",
+  "fetched_at": "2026-10-19T14:36:45Z",
   "events": [
    {
     "date": "2026-10-18",
@@ -205,6 +205,20 @@
     "title": "사우디·예멘 후티 반군 공습 주고받아…리야드 업무·학교 마비",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IU0c3c2ZBZDdiVzg2OVVTOWI5Nk5YdU9NamJJRHZyMnFBaXp4YU1UcGNWLXZlZTNydWI1YWx0Y1JDeHNCTDlqRGxJZ2hKcldxYjN0bTNmSkh6NzNtM0d5Y3B3?oc=5",
     "source": "뉴스1",
+    "outlets": 1
+   },
+   {
+    "date": "2026-10-18",
+    "time": "14:51",
+    "iso": "2026-10-18T14:51:41+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Saudi airport worker ignores wounds to rescue passengers during Riyadh attack",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQUdxMWpzVDFOTkxxSmlmbEtVX2dBRVUwWUJvRS1TMXQ5cDlIb0Y0VTJEdTNBQk50WTBaZlUya3l3WmdRZFNPMXVtc2xIczQ0TmpTNE9jb1AzaGF2ZFBtbkNxdmJjU0p4UmpualMtdms0QzJMV1pCc3I3RnFoY0U2V1lZSG1sYk13NTZQRlJxUVlqdGxBRmtoTlBseHNpVDVYVEdveGtISzBILTBrbUdNN0MxZVZBaHE0TldGSXNJUEI?oc=5",
+    "source": "Arab News",
     "outlets": 1
    },
    {
@@ -1175,11 +1189,11 @@
    "리야드": {
     "7d": {
      "공습": 1,
-     "피격": 4,
+     "피격": 5,
      "경보": 1,
      "요격": 1
     },
-    "total7d": 7,
+    "total7d": 8,
     "prev7d": {
      "요격": 2,
      "경보": 1,
@@ -1264,14 +1278,38 @@
   "history_days": 31,
   "history_since": "2026-09-19",
   "today": "2026-10-19",
-  "last_ok_at": "2026-10-19T06:09:18Z"
+  "last_ok_at": "2026-10-19T14:36:45Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T06:09:19Z",
+  "fetched_at": "2026-10-19T14:36:46Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-19 16:48",
+    "iso": "2026-10-19T16:48:11+03:00",
+    "places": [],
+    "text_ar": "نفذت قواتنا المسلحة بعون الله عملية استهداف لستة تجمعات لتحشيدات العدو السعودي في منطقة السقيا ورأس العارة بستة صواريخ باليستية وكانت الإصابات دقيقة بفضل الله وخلفت عشرات القتلى والجرحى وتدمير عدد من الآليات. http://t.me/army21ye",
+    "text_ko": "우리 군은 신의 도움으로 수키아와 라스 알 아라 지역에서 6개의 탄도 미사일로 사우디 적의 6개 집단을 목표로 작전을 수행했습니다. 신 덕분에 부상은 정확했고 수십 대의 사망자와 부상자를 남기고 여러 대의 차량을 파괴했습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3912"
+   },
+   {
+    "time": "2026-10-19 16:41",
+    "iso": "2026-10-19T16:41:58+03:00",
+    "places": [],
+    "text_ar": "استهدفت قواتنا المسلحة تحشيدات العدو السعودي في معسكر العلم الذي يديره ضباط سعوديون في المناطق الشرقية. أسفر الاستهداف عن سقوط عشرات القتلى والجرحى من تحشيدات العدو السعودي بينهم ضباط سعوديون. نحذر المخدوعين من الاستجابة لدعوات العدو السعودي لاستجلابهم بأمواله المدنسة إلى محارق الموت، واسترخاصهم بدلا عن جنوده غير مكترث بحياتهم. http://t.me/army21ye",
+    "text_ko": "우리 군은 동부 지역의 사우디 장교들이 운영하는 캠프 플래그에서 사우디 적의 동원을 목표로 삼았습니다. 이 표적은 사우디 장교를 포함한 사우디 적의 동원으로 인해 수십 명의 사망자와 부상을 입혔다. 우리는 속임수에 빠진 사람들에게 사우디 적의 부름에 응답하지 말고 부정한 돈으로 그들을 죽음의 화장터로 데려와 병사들 대신 민영화하고 그들의 삶에 신경 쓰지 말라고 경고합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3911"
+   },
+   {
+    "time": "2026-10-19 16:04",
+    "iso": "2026-10-19T16:04:06+03:00",
+    "places": [],
+    "text_ar": "مشاهد ضرب تحشيدات تابعة للعدو السعودي وتدمير وإحراق عدد من آلياتهم شرقي الجوف - 19 أكتوبر 2026م",
+    "text_ko": "사우디 적의 대형을 타격하고 알 주프 동쪽에서 차량을 파괴하고 불태우는 장면 - 2026년 10월 19일",
+    "url": "https://t.me/army21ye/3910"
+   },
    {
     "time": "2026-10-18 20:27",
     "iso": "2026-10-18T20:27:57+03:00",
@@ -2109,20 +2147,20 @@
   "mentions7d": {
    "리야드": 9,
    "나즈란": 8,
-   "타이프": 7,
    "카미스무샤이트": 7,
+   "타이프": 7,
    "다란": 5,
    "메디나": 3,
    "메카": 2,
    "담맘": 1,
    "지잔": 1
   },
-  "last_ok_at": "2026-10-19T06:09:19Z"
+  "last_ok_at": "2026-10-19T14:36:46Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T06:09:19Z",
+  "fetched_at": "2026-10-19T14:36:51Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2510,14 +2548,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.96225,
-    "lon": 49.22955,
-    "frp": 10.56,
-    "date": "2026-10-16",
-    "time": "1032",
-    "confidence": "nominal"
-   },
-   {
     "lat": 22.52714,
     "lon": 54.04747,
     "frp": 1.14,
@@ -2742,14 +2772,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.96406,
-    "lon": 49.23135,
-    "frp": 0.48,
-    "date": "2026-10-17",
-    "time": "2240",
-    "confidence": "nominal"
-   },
-   {
     "lat": 25.6796,
     "lon": 49.51806,
     "frp": 4.02,
@@ -2878,14 +2900,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.96267,
-    "lon": 49.2297,
-    "frp": 11.09,
-    "date": "2026-10-18",
-    "time": "0956",
-    "confidence": "nominal"
-   },
-   {
     "lat": 17.59995,
     "lon": 44.33533,
     "frp": 1.43,
@@ -2996,14 +3010,30 @@
     "date": "2026-10-19",
     "time": "0005",
     "confidence": "nominal"
+   },
+   {
+    "lat": 23.86359,
+    "lon": 47.45414,
+    "frp": 1.86,
+    "date": "2026-10-19",
+    "time": "0937",
+    "confidence": "low"
+   },
+   {
+    "lat": 22.09035,
+    "lon": 39.29631,
+    "frp": 3.25,
+    "date": "2026-10-19",
+    "time": "1115",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-19T06:09:19Z"
+  "last_ok_at": "2026-10-19T14:36:51Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T06:09:21Z",
+  "fetched_at": "2026-10-19T14:36:53Z",
   "kr": [
    {
     "date": "2026-10-19",
@@ -3011,6 +3041,13 @@
     "source": "한겨레",
     "title": "사우디 헬기 추락해 군인 2명 사망…후티 “격추” 주장",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vTlFGTkJoSVV3QlVKblhlOUVEMGp3bXlNamdXd3lRNS1kLVdoZ3NBblgzVTRVTnk2cThWaG91MkJWMWRUQmF3ZWo0UFpXSnBVcVIxMlNrc1NvbDU2UHdIWTBOWXRqLTkwVDVEeWs3VU1adEE?oc=5"
+   },
+   {
+    "date": "2026-10-18",
+    "published": "2026-10-18T21:45:00+00:00",
+    "source": "YTN",
+    "title": "후티 \"사우디, 사다 지역 민가 타격...9명 사망·19명 부상\"",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xbmNGbFVlVDZROGpzbVZNS19SM1hHb2NZcHVadHlOVjFvMlRXeUxIUnJpaWNES2FXNVhHZ2M1bGNTTlNESk8zWlhpZjFaMmhGRDd4MTU4THRvRFdseUE?oc=5"
    },
    {
     "date": "2026-10-18",
@@ -3032,16 +3069,30 @@
     "source": "한겨레",
     "title": "이집트 “사우디 보호 모든 조치”…‘반후티 전선’ 참전 뜻 밝혀",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcE96UWk0MVRiOVhrbzZ4VGZRRnF6RWw2Y3JlNkFpeUh0UXFGRksyT3oyVkxybTNUNEhmRTN6SXN6c2t0aGFVYm12UXl2QVJQcjJfMlJtUm5NRTQ4TnA5Q0loeWR6VGJTUEFuZ1pMa2lnWFE?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T15:44:00+00:00",
-    "source": "조선일보",
-    "title": "후티 공세에 코너 몰린 사우디 구하려… 중동 수니파 뭉쳤다",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLXA1M1BFeTdCZUZNTEpDVkJIbEZpbDU5VHp5MGFjMlpkZi1ZOW1wRFUxbzAtNUc4MzAyQlZBTnR1bmZ6c1VubXZpSEJ4WHE5ZDBlQjItZjBxMm1DdXcxN0ctNVlUbFNPTUthS1hESnA3Sk5EWkdrRm1SQ3k0NC1NUm1xbzNXNXNsTlktaUR5Nkl4ZlJWdVVsMHU2U0w?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T14:05:43+00:00",
+    "source": "Reuters",
+    "title": "Houthi attack kills 53 at Yemen government training camp, officials say",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSXFqMTJmVlRrSjR1NmNocW1VRWFpV1pSMjlNZDh1YXBsS2gyRkE0c19uRXJCQXN4Nklqajh6Tk4yeHhlRWRpWG81WXJMRVJmWXREaXZ2UkJfT3FNOFJndW9PNHBTZFRvVGJnbmFkeU10ZDlWdWY2N0kzVkFDVTh5NG0zZlZiM0N3bWthZmF2LUJjUXlEd29WOVRLZFdodFA0YlcwRl9fX0ptQ2dyN2I5RjVfRWJxRW1vYmF6VURGWQ?oc=5"
+   },
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T10:57:02+00:00",
+    "source": "Al Jazeera",
+    "title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVlNET3hzZkR6WThWY0ZMbkpUYjVCY1pqWG5GQm1CSlNiXzNzWXJTbFAyZEhROXljekhHenNVcEZfVjgyQ3VvcmRuS2VNWjVvYVRMWGxaaXVoUEZPZFZNV1NPUHBtRUFRMUZCTWhTT2g3cEtDZWJabGVLdDhDVGN0UjJwNGVCUWZGVnFYZ2Z3WkZqVllVWDI2eHRZaXozY1dLdVdyUjd5Q2ZuNlJOaTFhUF9pVEF5VnR00gG-AUFVX3lxTFBzaVFoRXFEcWhGVFVLaGo5OGUwWnNicXhwSzdhQ0lJT3VfNk5ySFBXcFhpQkotdnpKNzBSeWVJd3ZKaTBFRE9aRmFfTjcxRk5fLXZfdU5oX205VWVNX1dzS0g1R0RjTG9nTXptLWNKWUcwQW1VN1VwOF9QTkNGaUE2SGFYcFB2N1lDcmdzbzJUS0pMZ0tUSkxYNnExMmFrR2NFcktfMC1YS05mOFBnZmN5ZWhMUEQtOF9rYi1IbGc?oc=5"
+   },
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T05:27:24+00:00",
+    "source": "Bloomberg",
+    "title": "Watch Mullman: Houthi Attacks Impose Near-Term Costs on Saudi",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSWFUVGoza0V1bUxXb2paM2NhU0p6aktDa0dYSDIydHVrOEpTOFBsS19HSElsYmlHZTVEcGk3X25RVERPR094cDd2UEgzYkkyeURxSUhwMnl2NEV6WGNJZFZhNWlIdFdYamFQTDZzZWgyZTgySkQ3bkVlaVFXNmZEUjlTd05uV3NNeWNDbXptM01BVl91RzBTMU0teE1nX3hiMENwRXVSRnAxaHhZdlE?oc=5"
+   },
    {
     "date": "2026-10-18",
     "published": "2026-10-18T21:04:38+00:00",
@@ -3051,44 +3102,23 @@
    },
    {
     "date": "2026-10-18",
-    "published": "2026-10-18T18:40:00+00:00",
-    "source": "AP News",
-    "title": "Egypt’s top security body agrees to help Saudi Arabia defend itself against Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1hsZ1ZMdXFsZmM1WHRVeFRpV0dzUEpwcFlNVjAyUnBfUjVGb0JjVFFmY1dZeVd1ekw0MGhsSWNtNE9pQ1hCangwSFpaOG9Ec1JJWWtwS0pXbTJBT0tkVm5qS2FPTVdleUlZVWNmNjZiVi14NzAwc2JHOFh6TXU0WGsxNVBpajdHaEhYSmhoWWV0dnNXdlpn?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T15:00:03+00:00",
-    "source": "The New York Times",
-    "title": "Egypt’s Defense Chiefs Pledge to Support Saudi Arabia After Houthi Attacks",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVXQzM0U1RmdHTFJHa2xSTUxxVWl6eTY4ZFdIbDN0QkJuQTA0aTd2RFI1UDg0T0dnU0w0cEVVVjduenlhRGhhdUpKOUtqNk44RlozZFpRcFVwWTNEOW1MZHNfQlo2bnFsNDVZazFwZF9uNlowVElReUtTTEd5bnd2QURiLVppRG5wWXhtdg?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T11:49:25+00:00",
-    "source": "Al Jazeera",
-    "title": "Egypt to provide ‘necessary’ support to Saudi Arabia amid Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdE1va1c1b1lELXRZM0w2akJhSzhDTlZVNXhyZ2JiT1RrRGQ2MlN2M09BazE3Snp4MFpUN1VaX3ViZnJrNjUxa2h0OUJOcWpDSmNVTUJQYk16VE5vMnkyT3dwaVFpZEN3UTFkd3pyUjBYcUVkaGxkak05bFFNZkp3M0hTOU1lY0NzdmU3Z0ltZUptclNhY1ZUR1hTb2NUT2FtQzhvU9IBqgFBVV95cUxNLWF0M0dkVUhrblpKX0d0RTN2NWJVV2NpbWh3UWFKNHhUSXFkQ3p1R0RKem45LWNZNHJCRUZlQUxKOENQS1U3bGZhOGhyeFFlVVJRMmtzeUxUTjZJTnVnM2RYcTNITmFQVjdoSXdENXRDdnlLREhKYUxhd21NeUVPM3h3Tm5oTnh2dW45ekluTE9jSFBmaE5OVU8tOTNpVTZjMG1tVE4xWXRudw?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T11:13:21+00:00",
-    "source": "Al Jazeera",
-    "title": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMzhqQlNqYWdrQzFNTHpobVpTUndWZ3NoOWpxRXVoNUdYckdDaDVkSmtwbXJ4Y2RnZDN6OTZ0VjFLM1FfNHRZTGVOSXA4T19lamlwb3ZPQWFXd082VmNlWEJhQ082OHJvalJCdFNXa3B1NW9pVkhYVkZ6eG9uWk9YMTBzMlRQQV9QN19WclB5aWtwdjBKRlhyY1I2cFBoQUVZRlVvcVlCbHNpUG4wcGlSWdIBtgFBVV95cUxOR0tmR1ctSUduRlQ1Z3A4SlNJMUwtT28zSWNWYWRvWDM5d0dIaFcxQ3pvQnFRTTFlSHA0ODlJeEo5UHdzSC1hNDFLazEyUUN3T0JWMlFlTjlnZjFGTTVtNWVfSEwtbkhRd1BnR19VblIzTElFc1I2NXgyT1YyNElQYmxtTWJ3RmdDWldvdV9CYi0xaGZ4ZXJraXd1M2R1VGtmMFJWQXhmOERBYmpSYXEySGEzMDZ5Zw?oc=5"
+    "published": "2026-10-18T19:02:00+00:00",
+    "source": "CBS News",
+    "title": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-19T06:09:21Z"
+  "last_ok_at": "2026-10-19T14:36:53Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T06:09:22Z",
+  "fetched_at": "2026-10-19T14:36:54Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 19,
-  "baseline": 32,
-  "baseline_n": 9,
-  "tier": "감소",
+  "count": 10,
+  "baseline": 42,
+  "baseline_n": 5,
+  "tier": "끊김",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3251,14 +3281,15 @@
    "2026-10-18T20": 20,
    "2026-10-18T23": 26,
    "2026-10-19T01": 24,
-   "2026-10-19T06": 19
+   "2026-10-19T06": 19,
+   "2026-10-19T14": 10
   },
-  "last_ok_at": "2026-10-19T06:09:22Z"
+  "last_ok_at": "2026-10-19T14:36:54Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-19T06:09:22Z",
-  "last_ok_at": "2026-10-19T06:09:22Z"
+  "fetched_at": "2026-10-19T14:36:54Z",
+  "last_ok_at": "2026-10-19T14:36:54Z"
  }
 }
