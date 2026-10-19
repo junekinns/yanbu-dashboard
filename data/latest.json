@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T14:36:25Z",
+ "generated_at": "2026-10-19T20:32:11Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T14:36:25Z",
+  "fetched_at": "2026-10-19T20:32:11Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 7,
   "baseline": 2.0,
   "tier": "급증",
-  "last_ok_at": "2026-10-19T14:36:25Z"
+  "last_ok_at": "2026-10-19T20:32:11Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T14:36:45Z",
+  "fetched_at": "2026-10-19T20:32:31Z",
   "events": [
+   {
+    "date": "2026-10-19",
+    "time": "19:55",
+    "iso": "2026-10-19T19:55:46+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "후티 반군 \"사우디 아람코·리야드 공항 등 6곳 대규모 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02cmNwNEdtOVZsZWxNY3dpV0lBUXhDcmlQeHIzdDF5MkFES2J1LS05M1VTSmtFM3N2enJuRmtYMGJOSHViNm1KcXpKOHdLMzJYZzJpVzV5UmF4NUHSAWBBVV95cUxNNWc5ZGZPRmk2dUwyVG9DdlhQYUd4Q2k2R2p0S1BvUEF3dHJMbGFuWTI0SGxQTURaZXdvUlRMNEdRcVpQbHBseV9hZloyVUhxQkRqLUxfU3c3a1R5VkVqZU8?oc=5",
+    "source": "연합뉴스",
+    "outlets": 1
+   },
    {
     "date": "2026-10-18",
     "time": "21:56",
@@ -1188,12 +1202,12 @@
    },
    "리야드": {
     "7d": {
+     "피격": 6,
      "공습": 1,
-     "피격": 5,
      "경보": 1,
      "요격": 1
     },
-    "total7d": 8,
+    "total7d": 9,
     "prev7d": {
      "요격": 2,
      "경보": 1,
@@ -1278,14 +1292,64 @@
   "history_days": 31,
   "history_since": "2026-09-19",
   "today": "2026-10-19",
-  "last_ok_at": "2026-10-19T14:36:45Z"
+  "last_ok_at": "2026-10-19T20:32:31Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T14:36:46Z",
+  "fetched_at": "2026-10-19T20:32:32Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-19 19:30",
+    "iso": "2026-10-19T19:30:40+03:00",
+    "places": [
+     "얀부",
+     "리야드",
+     "샤이바 유전",
+     "아브하",
+     "카미스무샤이트"
+    ],
+    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم في إطارِ الردِّ على العدوانِ السعوديِّ الغاشمِ الذي يستهدفُ بلدَنا وشعبَنا والذي شنَّ خلالَ الـ48 ساعةً الماضيةَ أكثر من مائتي غارةٍ جويةٍ وصاروخٍ استهدفَ بها الأعيانَ المدنيةَ في العاصمةِ صنعاءَ والمحافظاتِ الحرةِ وخلّ…",
+    "text_ko": "예멘 군대가 가장 자비로우시고 자비로우시며 가장 높으신 알라의 이름으로 발표한 성명서에서 다음과 같이 말했습니다. {당신을 폭행한 자는 당신처럼 그를 폭행한 것입니다} 전능하신 알라는 우리 나라와 국민을 겨냥한 잔인한 사우디아라비아의 침략에 대응하여 진실을 말씀하셨습니다. 지난 48시간 동안 수도 사나, 자유 주지사, 식초의 민간인 물체를 겨냥한 200개 이상의 공습과 미사일을 발사했습니다...",
+    "url": "https://t.me/army21ye/3914"
+   },
+   {
+    "time": "2026-10-19 19:30",
+    "iso": "2026-10-19T19:30:40+03:00",
+    "places": [
+     "얀부",
+     "리야드",
+     "샤이바 유전",
+     "아브하",
+     "카미스무샤이트"
+    ],
+    "text_ar": "In retaliation to the brutal Saudi aggression targeting our country and people, which has launched more than two hundred airstrikes and missile attacks during the past 48 hours, targeting civilian infrastructure in the capital, Sana'a, and the liberated provinces, leaving dozens of martyrs and wounded, most of whom are women and children, that makes the total number of Saudi aggression attacks sin…",
+    "text_ko": "지난 48시간 동안 2백 건이 넘는 공습과 미사일 공격을 감행한 우리나라와 국민을 겨냥한 잔인한 사우디의 침략에 대한 보복으로, 수도 사나와 해방된 지방의 민간 인프라를 겨냥하여 수십 명의 순교자와 부상자를 남겼으며, 그 중 대부분은 여성과 어린이들이며, 이는 사우디의 총 침략 공격 횟수를 죄짓게 합니다...",
+    "url": "https://t.me/army21ye/3915"
+   },
+   {
+    "time": "2026-10-19 19:30",
+    "iso": "2026-10-19T19:30:40+03:00",
+    "places": [
+     "얀부",
+     "리야드",
+     "샤이바 유전",
+     "아브하",
+     "카미스무샤이트"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ ست عمليات عسكرية نوعية، الأولى استهدفت شركة أرامكو في ينبع، والثانية استهدفت حقل الشيبة النفطي، والثالثة استهدفت مطار خالد الدولي في الرياض، والعملية الرابعة استهدفت مطار أبها الدولي وقاعدة خميس مشيط الجوية ورادرات في جبلي الحصن والرحمة، والعملية الخامسة استهدفت معسكر قوة الواجب البحرية السعودية، فيما استهدفت العملية السادسة رادارا للعدو السعودي في بئر عسكر، …",
+    "text_ko": "6개의 특정 군사 작전 수행에 대한 예멘 군의 성명서, 첫 번째는 얀부의 아람코를 표적으로, 두 번째는 샤이바 유전, 세 번째는 리야드의 칼레드 국제공항, 네 번째는 아바 국제공항, 카미스 무샤이트 공군 기지 및 자발 알호슨과 알라흐마의 레이더를 표적으로, 다섯 번째는 사우디아라비아 해군 특무부대 캠프를 표적으로, 여섯 번째는 비르 아스카르의 사우디아라비아 적 레이더를 표적으로 삼았다.",
+    "url": "https://t.me/army21ye/3916"
+   },
+   {
+    "time": "2026-10-19 19:12",
+    "iso": "2026-10-19T19:12:06+03:00",
+    "places": [],
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي، في تمام الساعة 7:30م، بعد قليل. http://t.me/army21ye",
+    "text_ko": "곧 오후 7시 30 분에 사우디 내부의 여러 질적 군사 작전을 발표하기위한 예멘 군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3913"
+   },
    {
     "time": "2026-10-19 16:48",
     "iso": "2026-10-19T16:48:11+03:00",
@@ -2145,22 +2209,24 @@
    }
   ],
   "mentions7d": {
-   "리야드": 9,
-   "나즈란": 8,
-   "카미스무샤이트": 7,
-   "타이프": 7,
+   "리야드": 11,
+   "카미스무샤이트": 8,
+   "나즈란": 7,
+   "타이프": 6,
    "다란": 5,
-   "메디나": 3,
-   "메카": 2,
-   "담맘": 1,
-   "지잔": 1
+   "샤이바 유전": 3,
+   "아브하": 3,
+   "얀부": 3,
+   "메디나": 2,
+   "메카": 1,
+   "담맘": 1
   },
-  "last_ok_at": "2026-10-19T14:36:46Z"
+  "last_ok_at": "2026-10-19T20:32:32Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T14:36:51Z",
+  "fetched_at": "2026-10-19T20:32:39Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3028,97 +3094,97 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-19T14:36:51Z"
+  "last_ok_at": "2026-10-19T20:32:39Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T14:36:53Z",
+  "fetched_at": "2026-10-19T20:32:41Z",
   "kr": [
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T20:24:00+00:00",
+    "source": "연합뉴스",
+    "title": "후티 반군 \"사우디 석유시설·공항 등 6곳 대규모 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6Y0RuVHAwWHJINlpqcklPTXoxM05HbmluWnI1S29GNjF6TDFqSXlDTjdpOWNaUGJLUEdSSW9VdC15MTVlSW9XdlBqc0tXZzB0ck1vamxfUWhKd3hrZlpiRGpVUWdPMWc?oc=5"
+   },
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T18:02:28+00:00",
+    "source": "연합뉴스",
+    "title": "후티 공세에 결국…사우디 '사막의 다보스' 내년으로 전격 연기",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmNUJrN2kwRkFVV0RWejZJUU1GNThCNDJCbnAzTFRiMlVWc3hNU3ZEVTMxR3VkNjlXQVNhUTd3WDNJSXo1amVpZTZDZ0xrWVFiYkZBYWlYRlhMZDU5Z015Q9IBYEFVX3lxTFBmNUJrN2kwRkFVV0RWejZJUU1GNThCNDJCbnAzTFRiMlVWc3hNU3ZEVTMxR3VkNjlXQVNhUTd3WDNJSXo1amVpZTZDZ0xrWVFiYkZBYWlYRlhMZDU5Z015Qw?oc=5"
+   },
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T17:09:33+00:00",
+    "source": "뉴스1",
+    "title": "사우디, 후티 공습에 '사막의 다보스포럼' 내년으로 연기",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPQ0tQMzAxcTR5Uk5OX0I4VmpKLXZQM0FkcjdpbVUyRmd5QUZRNEVld1daZUhlUjhiaXBZNVkxVWZrZXVTX2Zrem5Mdkh3ZEcxdzhyRFhSNWRrb3l0NW9fMXJn?oc=5"
+   },
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T06:47:23+00:00",
+    "source": "뉴시스",
+    "title": "걸프 6개국, 후티의 사우디 공격 규탄…예멘 식량·의료난 심화",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1HLWIzNWN1Tm1Ib25ELUVCWEtveXBZTC1YUTNsTi01cUtobk94dzVWT1RWd0p3T2NkUXFwUmZDS0V6LUlQaUN5SGJEUG1FZ2ZQZmJYMWdGSjJHdThXalh5OFo0c1QwVWpxZ0ZUX0JSeTVvQ1BoWW5JbdIBeEFVX3lxTE1HLWIzNWN1Tm1Ib25ELUVCWEtveXBZTC1YUTNsTi01cUtobk94dzVWT1RWd0p3T2NkUXFwUmZDS0V6LUlQaUN5SGJEUG1FZ2ZQZmJYMWdGSjJHdThXalh5OFo0c1QwVWpxZ0ZUX0JSeTVvQ1BoWW5JbQ?oc=5"
+   },
    {
     "date": "2026-10-19",
     "published": "2026-10-19T00:16:00+00:00",
     "source": "한겨레",
     "title": "사우디 헬기 추락해 군인 2명 사망…후티 “격추” 주장",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vTlFGTkJoSVV3QlVKblhlOUVEMGp3bXlNamdXd3lRNS1kLVdoZ3NBblgzVTRVTnk2cThWaG91MkJWMWRUQmF3ZWo0UFpXSnBVcVIxMlNrc1NvbDU2UHdIWTBOWXRqLTkwVDVEeWs3VU1adEE?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T21:45:00+00:00",
-    "source": "YTN",
-    "title": "후티 \"사우디, 사다 지역 민가 타격...9명 사망·19명 부상\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xbmNGbFVlVDZROGpzbVZNS19SM1hHb2NZcHVadHlOVjFvMlRXeUxIUnJpaWNES2FXNVhHZ2M1bGNTTlNESk8zWlhpZjFaMmhGRDd4MTU4THRvRFdseUE?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T20:58:01+00:00",
-    "source": "연합뉴스",
-    "title": "이집트, '후티 공세' 사우디에 \"군사 지원\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoMnYwMWRDMVZrNXJHZ3hrLWhXWGlWVTBfanNnSXpzLVNkTF9TOGxkM1k0WDhoYTJQVjhJOEcxMFd6a3hXZWgxaHJ4N1prblNlV2k0ZjlGcXdQbUpCMVdNSnczRWFMaWxjcXFpY0tFa0NhMjlG?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T16:37:52+00:00",
-    "source": "연합뉴스",
-    "title": "사우디군 헬기 추락 2명 숨져…예멘 북부선 수십명 사상(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1iLVFpWExjVkFsTlB1TzJ3eVAwVEZwb0k4d01NcjVoOTZhRjhkVlMyWTFHM1FNc2I0NDR4c05lQVJUUmMtdzkyem1FcVRSaHA4cmo0bTRvbE1Lb1XSAWBBVV95cUxQdFZfZ0lSWVNMejlabUdsNF93cXdRemd2YzhiQ3FiRFR4QTlHT0tFOVlOYTl5cng2UXhJaTBEdjhyWnh2d0YyR1U0QWZIeWtkOFpITktPYi15dlRPY1Bqdl8?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T16:12:00+00:00",
-    "source": "한겨레",
-    "title": "이집트 “사우디 보호 모든 조치”…‘반후티 전선’ 참전 뜻 밝혀",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GcE96UWk0MVRiOVhrbzZ4VGZRRnF6RWw2Y3JlNkFpeUh0UXFGRksyT3oyVkxybTNUNEhmRTN6SXN6c2t0aGFVYm12UXl2QVJQcjJfMlJtUm5NRTQ4TnA5Q0loeWR6VGJTUEFuZ1pMa2lnWFE?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-19",
-    "published": "2026-10-19T14:05:43+00:00",
-    "source": "Reuters",
-    "title": "Houthi attack kills 53 at Yemen government training camp, officials say",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSXFqMTJmVlRrSjR1NmNocW1VRWFpV1pSMjlNZDh1YXBsS2gyRkE0c19uRXJCQXN4Nklqajh6Tk4yeHhlRWRpWG81WXJMRVJmWXREaXZ2UkJfT3FNOFJndW9PNHBTZFRvVGJnbmFkeU10ZDlWdWY2N0kzVkFDVTh5NG0zZlZiM0N3bWthZmF2LUJjUXlEd29WOVRLZFdodFA0YlcwRl9fX0ptQ2dyN2I5RjVfRWJxRW1vYmF6VURGWQ?oc=5"
+    "published": "2026-10-19T18:21:01+00:00",
+    "source": "The New York Times",
+    "title": "Saudi Arabia Postpones Its FII Investment Event After Houthi Attacks",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdWxSYW5DN0dmY1FZeU1qUmhBbERZNTVGb3ZGdGh0clVUeUpEQ05lRy02TXplRDRIangtempxS1pWa0QtX3I0emFNZ0pmYlFTbHNHR3ZPTVRCcUJQNzVEQ2k1Q3VZbklES2RFbVFhb2xyY3I3S1djeDlfZ3hFNG1TaWc0TQ?oc=5"
    },
    {
     "date": "2026-10-19",
-    "published": "2026-10-19T10:57:02+00:00",
+    "published": "2026-10-19T17:34:43+00:00",
+    "source": "Reuters",
+    "title": "Saudi Arabia postpones its 'Davos in the Desert' conference after attacks",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXJvV3ktdmE4WU9ZNjVBcDRBYW9yNXJVYVI3MV83aWtIV0pYN0lGNzM4UlNRZDdpRGs1bGsxR18wcjY5STVhU1Q1VEZJUmRKWFZPUnoxSlpFaThtMzhjRlVIZGl2VVVYYTlYM181N0Jyb0h4ZWRrM2FVZFZsSFRBT1haU0QtdEp5QlZ6dVg2VVpyX2RsaDEzbnN2Q1NvSFc5WW5jT2VmVQ?oc=5"
+   },
+   {
+    "date": "2026-10-19",
+    "published": "2026-10-19T16:04:30+00:00",
     "source": "Al Jazeera",
-    "title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVlNET3hzZkR6WThWY0ZMbkpUYjVCY1pqWG5GQm1CSlNiXzNzWXJTbFAyZEhROXljekhHenNVcEZfVjgyQ3VvcmRuS2VNWjVvYVRMWGxaaXVoUEZPZFZNV1NPUHBtRUFRMUZCTWhTT2g3cEtDZWJabGVLdDhDVGN0UjJwNGVCUWZGVnFYZ2Z3WkZqVllVWDI2eHRZaXozY1dLdVdyUjd5Q2ZuNlJOaTFhUF9pVEF5VnR00gG-AUFVX3lxTFBzaVFoRXFEcWhGVFVLaGo5OGUwWnNicXhwSzdhQ0lJT3VfNk5ySFBXcFhpQkotdnpKNzBSeWVJd3ZKaTBFRE9aRmFfTjcxRk5fLXZfdU5oX205VWVNX1dzS0g1R0RjTG9nTXptLWNKWUcwQW1VN1VwOF9QTkNGaUE2SGFYcFB2N1lDcmdzbzJUS0pMZ0tUSkxYNnExMmFrR2NFcktfMC1YS05mOFBnZmN5ZWhMUEQtOF9rYi1IbGc?oc=5"
+    "title": "Houthi attack on Yemen army camp in Shabwa kills at least 53: reports",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURxelJpODVFeDRIVWZNaEk5cFZlYXpMdUxxa2owdTRGbmV4SHI2a2JHaDluMzRTNFdobDdNeUN3ZHFuR1hfQ1lmSU1aWXFJc0hVaklCaWw1cEJjUno5Uk1Dc3FCcktyZV9rX3J4Rkd0UDZtMXV5NGhacDRHTTdoZGRkRGJNcG1QajFvYXk0Mkt3MS1UeDN5eW03U05COXVzOWFPbncyZFV2UkZVb1RMadIBtgFBVV95cUxQb1pVOUxXRU1SdmVLRmRkVE5qRDJ1dzdoM3JfZFlZSmxKa2d3a28yTXVReGFyWEtqNVN3ZmRIX1ZseWpsNzRscDVLZWFiellubjJsOW9iM1ZyT0FkUF9MUWljckF4WFdrSmhwd3pBWG15dGl4cXJyV2ZBY2RveFdkS01xT1hkc3JHMXFzNXFfVy1MUk9vNk1ocEVKTGFnMjROcVlMVmF1X3NYcVU4Rkd3TDNsTG1Ldw?oc=5"
    },
    {
     "date": "2026-10-19",
-    "published": "2026-10-19T05:27:24+00:00",
-    "source": "Bloomberg",
-    "title": "Watch Mullman: Houthi Attacks Impose Near-Term Costs on Saudi",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSWFUVGoza0V1bUxXb2paM2NhU0p6aktDa0dYSDIydHVrOEpTOFBsS19HSElsYmlHZTVEcGk3X25RVERPR094cDd2UEgzYkkyeURxSUhwMnl2NEV6WGNJZFZhNWlIdFdYamFQTDZzZWgyZTgySkQ3bkVlaVFXNmZEUjlTd05uV3NNeWNDbXptM01BVl91RzBTMU0teE1nX3hiMENwRXVSRnAxaHhZdlE?oc=5"
+    "published": "2026-10-19T15:25:00+00:00",
+    "source": "The Guardian",
+    "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbkJSbjJvNXlfZno4WTB1WThtaVBPamI4NU1aanB4TVdGUUtVUzNIX2xObWVuQ1FxZkY0TDVkUlpqRE1sZDRvVFpZMVdidWRRcWpFYXFaZUxrV2JFbklqczBzYk0xRkRoR0t0MEh3LVduQ0lQX3RKQV90bzF1bGhRZEE2aDZHQV9vS1JmNjVMWTF4VS1fZWN4NGxlVmJaeTNqWUREMUs5S3h2bTRMTkgzYWRET2NSTGM?oc=5"
    },
    {
-    "date": "2026-10-18",
-    "published": "2026-10-18T21:04:38+00:00",
-    "source": "Reuters",
-    "title": "Egypt says ready to back Saudi Arabia in war against Iran-allied Houthis",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
-   },
-   {
-    "date": "2026-10-18",
-    "published": "2026-10-18T19:02:00+00:00",
-    "source": "CBS News",
-    "title": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?oc=5"
+    "date": "2026-10-19",
+    "published": "2026-10-19T15:14:20+00:00",
+    "source": "CNBC",
+    "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSmloanhGMkdyYXFXR2FtNlhRUGw3SW5mSzFWUXRCRWFzSjBsSHlqbGlWeFV2bWs3dlJjT25QRmRYN3REblJPb2VVMHpLRjVPazhqQ2RTbGdEWG5LUEtoTE5wT2cydGoyWVQtOW5LcTh2X2Z4VmpaXzczdEw4blVsbHdiWjRnYThsQjQ3VllvbGNsUzllR3fSAZsBQVVfeXFMTVlUQW9jVVRlaXI4cUJOUDE3NWJNcjVYcElWM2ZoLWJfMTdJeEgta2FHcnRSODNnZFg3b1pzamJXNDNwcFhKX29vZ1VPaFpIMVhHYkFvQUlJc2FmQnowOXRXdGF2bmpBSDNNbVQwb1ZocEd0V1p4TG9mM1ZhU3hhTHotZjFzUmhKZk90b1lKRTBSamJDbS02TlVBb0U?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-19T14:36:53Z"
+  "last_ok_at": "2026-10-19T20:32:41Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-19T14:36:54Z",
+  "fetched_at": "2026-10-19T20:32:42Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 10,
-  "baseline": 42,
-  "baseline_n": 5,
-  "tier": "끊김",
+  "count": 15,
+  "baseline": 28.0,
+  "baseline_n": 8,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3282,14 +3348,15 @@
    "2026-10-18T23": 26,
    "2026-10-19T01": 24,
    "2026-10-19T06": 19,
-   "2026-10-19T14": 10
+   "2026-10-19T14": 10,
+   "2026-10-19T20": 15
   },
-  "last_ok_at": "2026-10-19T14:36:54Z"
+  "last_ok_at": "2026-10-19T20:32:42Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-19T14:36:54Z",
-  "last_ok_at": "2026-10-19T14:36:54Z"
+  "fetched_at": "2026-10-19T20:32:42Z",
+  "last_ok_at": "2026-10-19T20:32:42Z"
  }
 }
