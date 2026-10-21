@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T10:01:56Z",
+ "generated_at": "2026-10-21T15:06:38Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T10:01:56Z",
+  "fetched_at": "2026-10-21T15:06:38Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 4,
   "baseline": 2.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-21T10:01:56Z"
+  "last_ok_at": "2026-10-21T15:06:38Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T10:02:14Z",
+  "fetched_at": "2026-10-21T15:06:58Z",
   "events": [
    {
     "date": "2026-10-21",
@@ -1181,14 +1181,38 @@
   "history_days": 31,
   "history_since": "2026-09-21",
   "today": "2026-10-21",
-  "last_ok_at": "2026-10-21T10:02:14Z"
+  "last_ok_at": "2026-10-21T15:06:58Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T10:02:15Z",
+  "fetched_at": "2026-10-21T15:07:00Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-21 16:03",
+    "iso": "2026-10-21T16:03:05+03:00",
+    "places": [],
+    "text_ar": "مشاهد ضرب تحشيدات تابعة للعدو السعودي وتدمير وإحراق عدد من آلياته شرق رغوان بمحافظة مأرب - 21 أكتوبر 2026م",
+    "text_ko": "사우디 적의 지층을 공격하고 마리브 주 라관 동쪽에서 다수의 차량을 파괴하고 불태우는 장면 - 2026년 10월 21일",
+    "url": "https://t.me/army21ye/3928"
+   },
+   {
+    "time": "2026-10-21 14:47",
+    "iso": "2026-10-21T14:47:12+03:00",
+    "places": [],
+    "text_ar": "نفذت القوات المسلحة اليمنية بفضل الله عملية استهداف لمعدات عسكرية نقلها العدو السعودي عبر طائرات شحن عسكرية إلى مطار الريان. تحذر القوات المسلحة العدو السعودي من استخدام المنشآت المدنية لأغراض عسكرية غير مكترث بمآلات تصرفاته الحمقاء والإجرامية بحق أبناء الشعب اليمني والتي ستجلب عليه العار والعواقب الوخيمة. http://t.me/army21ye",
+    "text_ko": "알라의 은총으로 예멘군은 사우디 적이 군용 화물기를 통해 알레이얀 공항으로 수송한 군사 장비를 겨냥한 작전을 수행했습니다. 군대는 사우디 적에게 군사 목적으로 민간 시설을 사용하지 말 것을 경고하며, 예멘 국민에 대한 어리석고 범죄적인 행동의 결과에 무관심하여 수치심과 끔찍한 결과를 초래할 것입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3927"
+   },
+   {
+    "time": "2026-10-21 14:28",
+    "iso": "2026-10-21T14:28:13+03:00",
+    "places": [],
+    "text_ar": "العدو السعودي المجرم يستخدم مطار الريان لنقل أسلحة ومعدات عسكرية لقتل أبناء الشعب اليمني. http://t.me/army21ye",
+    "text_ko": "범죄자인 사우디아라비아의 적은 알-라이얀 공항을 이용하여 예멘 국민을 죽이기 위해 무기와 군사 장비를 수송합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3926"
+   },
    {
     "time": "2026-10-21 11:53",
     "iso": "2026-10-21T11:53:15+03:00",
@@ -1964,18 +1988,18 @@
    "나즈란": 6,
    "리야드": 4,
    "메디나": 3,
-   "아브하": 3,
    "얀부": 3,
+   "아브하": 3,
    "샤이바 유전": 3,
    "지잔": 2,
    "메카": 1
   },
-  "last_ok_at": "2026-10-21T10:02:15Z"
+  "last_ok_at": "2026-10-21T15:07:00Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T10:02:20Z",
+  "fetched_at": "2026-10-21T15:07:04Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2243,14 +2267,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.67948,
-    "lon": 49.51917,
-    "frp": 2.94,
-    "date": "2026-10-16",
-    "time": "2301",
-    "confidence": "nominal"
-   },
-   {
     "lat": 25.34444,
     "lon": 50.20464,
     "frp": 0.72,
@@ -2302,14 +2318,6 @@
     "lat": 26.15618,
     "lon": 50.66642,
     "frp": 3.38,
-    "date": "2026-10-17",
-    "time": "2240",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.6796,
-    "lon": 49.51806,
-    "frp": 4.02,
     "date": "2026-10-17",
     "time": "2240",
     "confidence": "nominal"
@@ -2374,14 +2382,6 @@
     "lat": 17.70766,
     "lon": 44.45156,
     "frp": 5.47,
-    "date": "2026-10-18",
-    "time": "0954",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.86239,
-    "lon": 47.4556,
-    "frp": 4.87,
     "date": "2026-10-18",
     "time": "0954",
     "confidence": "nominal"
@@ -2473,14 +2473,6 @@
     "date": "2026-10-19",
     "time": "0005",
     "confidence": "nominal"
-   },
-   {
-    "lat": 23.86359,
-    "lon": 47.45414,
-    "frp": 1.86,
-    "date": "2026-10-19",
-    "time": "0937",
-    "confidence": "low"
    },
    {
     "lat": 22.09035,
@@ -2587,14 +2579,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.86222,
-    "lon": 47.4543,
-    "frp": 3.15,
-    "date": "2026-10-20",
-    "time": "0917",
-    "confidence": "nominal"
-   },
-   {
     "lat": 17.3626,
     "lon": 42.55661,
     "frp": 5.21,
@@ -2646,14 +2630,6 @@
     "lat": 26.68096,
     "lon": 50.11623,
     "frp": 2.91,
-    "date": "2026-10-20",
-    "time": "2324",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.67691,
-    "lon": 49.51948,
-    "frp": 2.46,
     "date": "2026-10-20",
     "time": "2324",
     "confidence": "nominal"
@@ -2729,21 +2705,45 @@
     "date": "2026-10-20",
     "time": "2326",
     "confidence": "nominal"
+   },
+   {
+    "lat": 21.17852,
+    "lon": 39.59528,
+    "frp": 2.43,
+    "date": "2026-10-21",
+    "time": "1038",
+    "confidence": "low"
+   },
+   {
+    "lat": 21.18193,
+    "lon": 39.59464,
+    "frp": 2.43,
+    "date": "2026-10-21",
+    "time": "1038",
+    "confidence": "low"
+   },
+   {
+    "lat": 23.87065,
+    "lon": 47.453,
+    "frp": 5.3,
+    "date": "2026-10-21",
+    "time": "1038",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-21T10:02:20Z"
+  "last_ok_at": "2026-10-21T15:07:04Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T10:02:22Z",
+  "fetched_at": "2026-10-21T15:07:06Z",
   "kr": [
    {
     "date": "2026-10-21",
-    "published": "2026-10-21T09:38:00+00:00",
-    "source": "KBS",
-    "title": "예멘 후티 반군 “아덴 내 사우디군 진지 타격”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKVFZrQk1HNXhqVUFXSGxlWmZ4eENJYldnRjZUVzVSaERLUWRsRDQtdS1XaG5GZjNoaUdwdjJZYkxZWFFLVDZFeHo4d2FQeDZtV3hOMDFXRkdJQzg?oc=5"
+    "published": "2026-10-21T09:38:56+00:00",
+    "source": "MBC",
+    "title": "예멘 후티 반군 \"아덴 내 사우디군 진지 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fU0hrS2JTRXljSVp0eFh4R3dXZWlZT2lXVlo4QTI2SDE2SXFxaU9Dd0ZkZVJmakpHUzJyOU1mZHVwcjBOYWhhYWc3OWo2VkFxVUw5dndiRDQ4aVpVMGM2NUtoUUFDRmluQVJIWlpMamlUQndu0gF0QVVfeXFMTTkyb2hodGxzR1VpclUxLVlGZHNyR3MwcUdlLXNsTnVmdy1hMEFIYXFNZmROazZ1T01qaWtZVDU5Mmxka0pvZ3lLXzVHT1lGMFRyWDRQZWhIN1U1MWtQMjJyb0dXMENpRVBIOTZtUGFmR3ZGcGc?oc=5"
    },
    {
     "date": "2026-10-21",
@@ -2757,7 +2757,14 @@
     "published": "2026-10-21T08:31:13+00:00",
     "source": "연합뉴스",
     "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LRlZ0alJVNWRRTEs5VTBDSHE3eXg3czI5V3ZaU0ZlMUlPY1ZPeWxoUUl5dkU1NDE5UURfRGhzZmdJZ00zZW85eWppMjdodlM4VnpXVnBZRXl2VjDSAWBBVV95cUxOQTZWLWZzN0VXSTdyT1JHRkFiWWxEQTl0S1VmcmU3R1RTc0pBYW5XcTQyMDY1U1YxYmRVZ05JNlNpdlBfZXVGT0NQaUV1OGF3RlBzeDNBdW9oRVZ3S1VLQ0E?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQdIBYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQQ?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T08:22:23+00:00",
+    "source": "MBC",
+    "title": "이란 외무 \"사우디·후티 교전 중재 제안에 아직 무응답\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3bm9aTTBiTTlBTXdPSGtYZWRRWDUwd2ZRMU1RLUZ3YmxUUzN0V25YV19hZ04wc0RYUVpiWndTMWh3eEJELWd0eS0zNmowbmtLQkxFUjdOaVR4cF9ISk9jLTY0bFFPYXIxV3I4Qnp6UVdYQzhK0gF0QVVfeXFMUHdub1pNMGJNOUFNd09Ia1hlZFFYNTB3ZlExTVEtRndibFRTM3RXblhXX2FnTjBzRFhRWmJad1MxaHd4QkQtZ3R5LTM2ajBua0tCTEVSN05pVHhwX0hKT2MtNjRsUU9hcjFXcjhCenpRV1hDOEo?oc=5"
    },
    {
     "date": "2026-10-20",
@@ -2765,16 +2772,23 @@
     "source": "중앙일보",
     "title": "미사일도 직접 만들어 쏜다…샌들 신던 ‘오합지졸’의 반란",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LQWhuVFRhT00xN0M5UkJkUm1pbVU0U3BKUVdHbnlMaGZsb2E5dll0NHpaR3E5RU0wUTd1MGdUd2Q3cnJjWWNRbkMwckEyVm5aNlI1cWNn?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T15:06:58+00:00",
-    "source": "뉴스1",
-    "title": "사우디, 수도 리야드 노린 후티 탄도미사일·드론 요격",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BMWZjVWxENDZyd2VkXzlmLWRiUW9zcmRBcTBBbnh2OUFLSl93cEVENmRjeGN5NklqSjAzVllITi1TTElsOTRydzA3S291N1A4TzFZT3lsWV9TVTUwZmVOcEN3?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T13:28:50+00:00",
+    "source": "Al Jazeera",
+    "title": "Are the UK, France being pulled into the Saudi-Houthi conflict?",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenZsakdlaG9uNFhLclNtQ0RBT0NlU2lVdFlsbHdvVkE2ZzJ6LXNXSzkzX1JTVUtJQnNuYmM0cjNxeWFOdS1XZmhMV1h3elNnYmpkRzFmY2FqenktWDAzUlUwZ3MzV0lrTG81NXo1TXhTSVlKVWN4czJQTldxaUdOME1YR1Z4dVF5N3BnZi1yWEQ1eVVmdHZacmhnaHpucGNMUk1HRHl30gGrAUFVX3lxTE1ldG5SUHlrMWVwVGpGb2plRXUxRHhHOGxraEJJa0g4VGtwaG11NXZxVm43Nkl5cGJ4TzRkRnRsakZKUFVMQ3laUnBqeDRZV1JUR25BRGtqMEswZmtsbVV4bVdDdjRUUWV5WFBaWnQ5YTVYZFNSRUZhSTJSTlR2cEpaYXFmVDRSSkVLWXlIdEdXR2RYQWN4aGNCTFdESEpZQkxyTm9mM1FkNGVLQQ?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T10:34:02+00:00",
+    "source": "Al Jazeera",
+    "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkdfYm9xdHd3aFk4ZjlSalpIWU9HMnE3RTl2WEx6ODlWTjVsd1pPcWFYSVNsQVN6QXlJb04wV1JKcXYzYjdIbVhWQjFXMHhOdG1oS2lHOXNZazlHUXpzUi1XbGtNUGkwRVFPUUZ4OHRGTFlMZll2TzlDbXNISlB1LXlRc2Rlc0llNWdBVHQ3U1ZMbzJkTy1leVAycHJzTEVOZFAwVHlOb2Q0N2F3MEpKRUJzNk_SAboBQVVfeXFMTUI1bWRsR21rYnFTUmRKeE1NN01FclFmZ2p6bzRqX0V4R0NTam9XcHN5U0ppaG1OLWlHdUJCeG9Cd2I4bHpXaGV2OF8wMXp5b29VWmc2ekI1ZzF3WDZyY3E4X0E4SHlHTmtwWTFjUlBmQkRHZDAtT1MyZE9hbGVIeWdsTkZ3UmJrTXJLNGt1czNPUENab2dPa21pWERHSzlCcHZIbFhBWXItOVNzWDc3VjNGa2owLWxtVjl3?oc=5"
+   },
    {
     "date": "2026-10-21",
     "published": "2026-10-21T07:41:54+00:00",
@@ -2784,43 +2798,29 @@
    },
    {
     "date": "2026-10-21",
-    "published": "2026-10-21T05:23:14+00:00",
+    "published": "2026-10-21T01:43:00+00:00",
+    "source": "CNBC",
+    "title": "Oil rises on Middle East supply worries",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORzFCOTVkelpPekRTQnUzOV9hdDFsNU9TdkhYQ1FZcWtGa3hyVUZlNnZ6VTE0RFNhYjA5ZF9fbXZLdkpYRkREYlJsbUwzN1hPSXplTDljY0RlVngwdDdvbUM0WTFXcEtnWEVaMktVV2FYTXpELTRQeTllSFVtOHJ5ZWtn0gGHAUFVX3lxTE9ZVllrM1NQYl9kVnpqQ0Z4c3d2dFUwVFp0cDRacGhNQS12UDY3RWk5ek9iMWxKOFR4dlNJeWVwd0E3a3NsbGxqMXVDa1NtZWFBZEYxZ1loTHNRc0JfVjJWQ0tPSGJkNmdZYjc4S3RFQzNUOXB1OXlnMmVYWmxXR2Y3amFCMV8ySQ?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T00:00:00+00:00",
     "source": "Bloomberg",
     "title": "Watch UK to Fly Missions to Defend Saudi Arabia From Houthi Attacks",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3F6T3kydXZTSFFCY2RLNmVnT292ODRBbndDR0QtaXpIZjBuMXh5S3lqaFdaQ2hiY1J1ODAtS25KVGwtdGVTWktjV0Q2aXNzbHdUS0pybWJ0X0k3SkZLWWpFd05oVGppVjBmcXpER1Zxa1FxT1RjTzR4emM0RnA5cDZ5and0QUtQcEFZa09meTF2dHVndlJMUDBNZUVCaFlUQ0E?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T22:45:24+00:00",
-    "source": "PBS",
-    "title": "News Wrap: Britain sending air support to Saudi Arabia amid Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRkl2TGFYX2F0LWFNVG5LZ0ktX2JuR1BXZnY2Q2VoS0ZfYlhtOVNYNTJvdXVPaGpScFllX1I1S2MwUjRxSGhjX0I2VHR3S1hnajg4MlhjNDB4LTUwZ29yY0NiZ3dXQzIyZmhJWE43Y2I5RWVob2JjcjdlNkptY0dGWTdSSTdzNGtPSV9DTFV4NDRoRHNwYmdPVVRONkdZYUp4RHBlRmdMQl92aDA?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T21:08:42+00:00",
-    "source": "The National",
-    "title": "How the Houthis Threaten Saudi Oil",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNjNlS0RJcG13SndXU0stb25NVnl0bkdTQU5femxxOENsdUxsam9GbFZnU21GNlhkd3k0MzFUazFYNkNEQTVheGZKbDJjTkIzai10dDRMeHRWbjF4bDFyZzBfVVQ1dkFoS0c0cklBUjJlenBLaGdNU2hlZmNSSVgydXR6NGJweDVw?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T19:41:20+00:00",
-    "source": "CBS News",
-    "title": "U.S. ramps up warnings to Americans in Middle East after deadly Houthi strikes",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54Mk5WM2t0aV92YWxPeUduZzNtLTlvRV95WEhCY09RenRiWG1Qa2R3SzJoREViMjhtRU5hTzBwNnBVV0hqLWRqN3JMbXZCd3hIZ09BSFpsSEFKdUN2QmMyNmtoOXF3RHUyZ21TRUFmcWFZNTFEVndfWGlGUQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-21T10:02:22Z"
+  "last_ok_at": "2026-10-21T15:07:06Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T10:02:23Z",
+  "fetched_at": "2026-10-21T15:07:08Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 17,
-  "baseline": 37,
-  "baseline_n": 3,
+  "baseline": 35,
+  "baseline_n": 7,
   "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
@@ -2994,14 +2994,15 @@
    "2026-10-20T20": 8,
    "2026-10-20T23": 11,
    "2026-10-21T04": 14,
-   "2026-10-21T10": 17
+   "2026-10-21T10": 17,
+   "2026-10-21T15": 17
   },
-  "last_ok_at": "2026-10-21T10:02:23Z"
+  "last_ok_at": "2026-10-21T15:07:08Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-21T10:02:23Z",
-  "last_ok_at": "2026-10-21T10:02:23Z"
+  "fetched_at": "2026-10-21T15:07:08Z",
+  "last_ok_at": "2026-10-21T15:07:08Z"
  }
 }
