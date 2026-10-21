@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T15:06:38Z",
+ "generated_at": "2026-10-21T19:16:30Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T15:06:38Z",
+  "fetched_at": "2026-10-21T19:16:30Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 4,
   "baseline": 2.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-21T15:06:38Z"
+  "last_ok_at": "2026-10-21T19:16:30Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T15:06:58Z",
+  "fetched_at": "2026-10-21T19:16:47Z",
   "events": [
    {
     "date": "2026-10-21",
@@ -1181,14 +1181,24 @@
   "history_days": 31,
   "history_since": "2026-09-21",
   "today": "2026-10-21",
-  "last_ok_at": "2026-10-21T15:06:58Z"
+  "last_ok_at": "2026-10-21T19:16:47Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T15:07:00Z",
+  "fetched_at": "2026-10-21T19:16:48Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-21 20:49",
+    "iso": "2026-10-21T20:49:38+03:00",
+    "places": [
+     "카미스무샤이트"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 62 غارةً جويةً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات مأرب وصعدة ولحج وتعز وذلك من خلال طائرات \"F-15\" أقلعت من قاعدة خميس مشيط وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي خلال 100 يوم منذ بدء التصعيد على بلدنا في الــ13 من يوليو الماضي 2855 غارةً جويةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 기지에서 이륙한 F-15 항공기를 통해 수도 사나 (Sana 'a) 와 마리브 (Marib), 사다 (Saada), 라즈 (Lahj), 타이즈 (Taiz) 의 총독부에서 민간인 물체를 겨냥한 62회의 공습을 감행했고, 여성과 어린이를 포함한 순교자와 부상자를 남겼다. 지난 7월 13일 우리나라에 공습과 미사일 2855발이 발사된 이후 100일 동안의 총 사우디 침략 공습 횟수. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3930"
+   },
    {
     "time": "2026-10-21 16:03",
     "iso": "2026-10-21T16:03:05+03:00",
@@ -1984,22 +1994,22 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 8,
-   "타이프": 6,
-   "나즈란": 6,
-   "리야드": 4,
+   "타이프": 5,
+   "나즈란": 5,
    "메디나": 3,
-   "얀부": 3,
+   "리야드": 3,
    "아브하": 3,
+   "얀부": 3,
    "샤이바 유전": 3,
    "지잔": 2,
    "메카": 1
   },
-  "last_ok_at": "2026-10-21T15:07:00Z"
+  "last_ok_at": "2026-10-21T19:16:48Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T15:07:04Z",
+  "fetched_at": "2026-10-21T19:16:50Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2731,13 +2741,27 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-21T15:07:04Z"
+  "last_ok_at": "2026-10-21T19:16:50Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T15:07:06Z",
+  "fetched_at": "2026-10-21T19:16:53Z",
   "kr": [
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T18:33:00+00:00",
+    "source": "KBS",
+    "title": "이집트 대통령 “사우디 방어 지원하겠지만 예멘 공격은 안 해”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FYWFYbXp6MkJNUGpzcm9mMW5CYkk1dFdDOFFacmc3R1BlOFNYSW5CZkVELWNwbE5ZVnR5TS1IYkkxQjAtaE0wQ0hRdlR6MXJsMHhOZlRKbWtYVnc?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T13:47:22+00:00",
+    "source": "동아일보",
+    "title": "예멘 친이란 후티반군 “아덴 내 사우디군 진지 타격”",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mX3hiNGlxcjhxeWVwY0ozQndtWW9fc2J0TXFPN1Bzdi1VTm9Zb3U2UmxiM01vVVU1WGVTV180Vkg5bGMtTkpvT3B4TGQwUnpnaUtxbU9wbjFfTjZqb1AtYjBmeDkzTHVUWGFtNU5FVjk4Y1nSAWZBVV95cUxOSE0wYS1Ub2xZRGVJZmZabm9kMkQtR3ViaG1PT3QzNl84RTA5RTlqc056QXJMZE1FN0tnMnJNR0swNU5uQ05PZV9aeXJtZHAwVzZYTEVwTVlIMk9DY3ZtbXNJbDBya0E?oc=5"
+   },
    {
     "date": "2026-10-21",
     "published": "2026-10-21T09:38:56+00:00",
@@ -2758,23 +2782,30 @@
     "source": "연합뉴스",
     "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQdIBYEFVX3lxTE5BNlYtZnM3RVdJN3JPUkdGQWJZbERBOXRLVWZyZTdHVFNzSkFhbldxNDIwNjVTVjFiZFVnTkk2U2l2UF9ldUZPQ1BpRXU4YXdGUHN4M0F1b2hFVndLVUtDQQ?oc=5"
-   },
-   {
-    "date": "2026-10-21",
-    "published": "2026-10-21T08:22:23+00:00",
-    "source": "MBC",
-    "title": "이란 외무 \"사우디·후티 교전 중재 제안에 아직 무응답\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3bm9aTTBiTTlBTXdPSGtYZWRRWDUwd2ZRMU1RLUZ3YmxUUzN0V25YV19hZ04wc0RYUVpiWndTMWh3eEJELWd0eS0zNmowbmtLQkxFUjdOaVR4cF9ISk9jLTY0bFFPYXIxV3I4Qnp6UVdYQzhK0gF0QVVfeXFMUHdub1pNMGJNOUFNd09Ia1hlZFFYNTB3ZlExTVEtRndibFRTM3RXblhXX2FnTjBzRFhRWmJad1MxaHd4QkQtZ3R5LTM2ajBua0tCTEVSN05pVHhwX0hKT2MtNjRsUU9hcjFXcjhCenpRV1hDOEo?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T20:00:02+00:00",
-    "source": "중앙일보",
-    "title": "미사일도 직접 만들어 쏜다…샌들 신던 ‘오합지졸’의 반란",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LQWhuVFRhT00xN0M5UkJkUm1pbVU0U3BKUVdHbnlMaGZsb2E5dll0NHpaR3E5RU0wUTd1MGdUd2Q3cnJjWWNRbkMwckEyVm5aNlI1cWNn?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T17:46:00+00:00",
+    "source": "CBS News",
+    "title": "Saudi Arabia spends billions on its military. Why can't it stop deadly attacks by Iran's Houthi allies?",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWFhHV3RLU0x0aE5pb0d4QmltWmRTalhZMVoyTmJHYTJDd29OSkc2LTNvS2d0bGZpcEIzZXVBWENSSVBaXzRXSzFnYWJOWHBiRTVDS2JEZFF6YXBQRW5YdDl3VTctbFhscGw0WkhIOHZYSk1rcmttcXhvNVRJQThadVdKeUtPZmEwMm9DdkJCZ0lsWlF5a3NabTZmb09LQQ?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T17:20:34+00:00",
+    "source": "Al Jazeera",
+    "title": "Macron makes surprise Saudi visit as France secures extra diesel supplies",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMFltZmtYMUhIRl9hcVlSUEtCU3Mtck1xeHR0LU96NU44LTRzZFBsZDZGNC16OFlxZFNiSjV4cmVpb0xzZTdsV0VXa2dpMzVlaExEZXh4MmJZdjVvMFJkX0RCSVRsS3ZFbW9ZM2x3QXlVZ1cxd1pCYjBDQnNWNG0zZjRkX3hsLXE2LWJza05LR0VCbllWUXVub0FwQWFHdHVYaFRzZnYzd0s2RFRPRlN2MkFyYkJQQdIBuwFBVV95cUxOaVRCM283UWQwOWJwUnZkWG0zdDZRcjJORUtfQ09Kd0NrZVJTTzhFQW80ZEd4MXA5VnZOTWRqYUdHbmZCbHVWajV2cnFpeTZLc2JLbnV6U2s3NFg1TUdZWFB6QlBXRy1aWEtBX0lhZzRzNDhsVmJOWjRuM201YXkzaUVMcEh1R0czN1lzR2wycmZWY0p5dTlaZzNfdjU5OEVtN1pzUC1ZSFBmLWUwT2JxSlJOMzUtRlY4aFJn?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T14:15:49+00:00",
+    "source": "France 24",
+    "title": "France's Macron lands in Riyadh on surprise 'solidarity' visit",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW5rN1QyQUhCOW5DSWhkbnpaYmd4Ym5mVU92SzJ3RUp5X19ic3dyOWxrSDZTUzBGUEN3QkY5VVRCdVpEd0dHakJDbDBtSDU1YkN0MGUwdmxScmQ1c181NTdTeUI2ZUJPZGl6NDFlcTlTVWFYbF9VYmhRUG84bFRYMng5SHR3V0djTGo1ZU5QMkpIZXdBNHdneHBTM3FxUzRWZXhGRmpVdmhXSHc?oc=5"
+   },
    {
     "date": "2026-10-21",
     "published": "2026-10-21T13:28:50+00:00",
@@ -2784,44 +2815,23 @@
    },
    {
     "date": "2026-10-21",
-    "published": "2026-10-21T10:34:02+00:00",
-    "source": "Al Jazeera",
-    "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkdfYm9xdHd3aFk4ZjlSalpIWU9HMnE3RTl2WEx6ODlWTjVsd1pPcWFYSVNsQVN6QXlJb04wV1JKcXYzYjdIbVhWQjFXMHhOdG1oS2lHOXNZazlHUXpzUi1XbGtNUGkwRVFPUUZ4OHRGTFlMZll2TzlDbXNISlB1LXlRc2Rlc0llNWdBVHQ3U1ZMbzJkTy1leVAycHJzTEVOZFAwVHlOb2Q0N2F3MEpKRUJzNk_SAboBQVVfeXFMTUI1bWRsR21rYnFTUmRKeE1NN01FclFmZ2p6bzRqX0V4R0NTam9XcHN5U0ppaG1OLWlHdUJCeG9Cd2I4bHpXaGV2OF8wMXp5b29VWmc2ekI1ZzF3WDZyY3E4X0E4SHlHTmtwWTFjUlBmQkRHZDAtT1MyZE9hbGVIeWdsTkZ3UmJrTXJLNGt1czNPUENab2dPa21pWERHSzlCcHZIbFhBWXItOVNzWDc3VjNGa2owLWxtVjl3?oc=5"
-   },
-   {
-    "date": "2026-10-21",
-    "published": "2026-10-21T07:41:54+00:00",
-    "source": "Bloomberg",
-    "title": "Watch UK to Send Fighter Jets to Defend Saudi Arabia From Houthi Attacks",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOano2ZERnN01rM0lzTlg5aVQ3d3cyVDhLMmdkWmVRMV8zSEdNaEx4QnpZTU9xTWpicTB2LS1WQ016dHdaNG1XcVlIelBwTU9JTDZuYWp5NDhLOGpaT05Fc21ESGM4cVlMZ2hhZ3JrSGp3M3dZLUhuVUowTkFOd2hPV3Qya081YUw2ZGEzdC1jZDRhbFJ2X3NiNQ?oc=5"
-   },
-   {
-    "date": "2026-10-21",
-    "published": "2026-10-21T01:43:00+00:00",
-    "source": "CNBC",
-    "title": "Oil rises on Middle East supply worries",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORzFCOTVkelpPekRTQnUzOV9hdDFsNU9TdkhYQ1FZcWtGa3hyVUZlNnZ6VTE0RFNhYjA5ZF9fbXZLdkpYRkREYlJsbUwzN1hPSXplTDljY0RlVngwdDdvbUM0WTFXcEtnWEVaMktVV2FYTXpELTRQeTllSFVtOHJ5ZWtn0gGHAUFVX3lxTE9ZVllrM1NQYl9kVnpqQ0Z4c3d2dFUwVFp0cDRacGhNQS12UDY3RWk5ek9iMWxKOFR4dlNJeWVwd0E3a3NsbGxqMXVDa1NtZWFBZEYxZ1loTHNRc0JfVjJWQ0tPSGJkNmdZYjc4S3RFQzNUOXB1OXlnMmVYWmxXR2Y3amFCMV8ySQ?oc=5"
-   },
-   {
-    "date": "2026-10-21",
-    "published": "2026-10-21T00:00:00+00:00",
-    "source": "Bloomberg",
-    "title": "Watch UK to Fly Missions to Defend Saudi Arabia From Houthi Attacks",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3F6T3kydXZTSFFCY2RLNmVnT292ODRBbndDR0QtaXpIZjBuMXh5S3lqaFdaQ2hiY1J1ODAtS25KVGwtdGVTWktjV0Q2aXNzbHdUS0pybWJ0X0k3SkZLWWpFd05oVGppVjBmcXpER1Zxa1FxT1RjTzR4emM0RnA5cDZ5and0QUtQcEFZa09meTF2dHVndlJMUDBNZUVCaFlUQ0E?oc=5"
+    "published": "2026-10-21T11:27:24+00:00",
+    "source": "Reuters",
+    "title": "Yemen's Houthis deny launching drones towards Saudi Arabia's Medina",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc2ZjQXV3eDBJb0ZSQVR6eGFkazItZW9IbnhpQVJESVNVekFRZzJNSFhSRFZjMlRLMmQ0TDFBMHlBQkJ0dlBUY1dVSEQ5Z204MVZ2ODJpQ2xuaVpNb2N3WGdVUExETTdTbXdnMGNYZmVUN1Y2ajZmRUc3ZmZvMFJpT2ozdW85bng5QnRhQVBtUjhocVZwVmt2Q3RIdDdRSU9RcXA1T2JlUmNvVk5vMVk0c21WcDhTbWhIdGdyWnh3?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-21T15:07:06Z"
+  "last_ok_at": "2026-10-21T19:16:53Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T15:07:08Z",
+  "fetched_at": "2026-10-21T19:16:54Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 17,
-  "baseline": 35,
-  "baseline_n": 7,
-  "tier": "감소",
+  "count": 13,
+  "baseline": 39,
+  "baseline_n": 5,
+  "tier": "끊김",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -2995,14 +3005,15 @@
    "2026-10-20T23": 11,
    "2026-10-21T04": 14,
    "2026-10-21T10": 17,
-   "2026-10-21T15": 17
+   "2026-10-21T15": 17,
+   "2026-10-21T19": 13
   },
-  "last_ok_at": "2026-10-21T15:07:08Z"
+  "last_ok_at": "2026-10-21T19:16:54Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-21T15:07:08Z",
-  "last_ok_at": "2026-10-21T15:07:08Z"
+  "fetched_at": "2026-10-21T19:16:55Z",
+  "last_ok_at": "2026-10-21T19:16:55Z"
  }
 }
