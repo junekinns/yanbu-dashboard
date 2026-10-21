@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T04:32:41Z",
+ "generated_at": "2026-10-21T10:01:56Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T04:32:41Z",
+  "fetched_at": "2026-10-21T10:01:56Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 4,
   "baseline": 2.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-21T04:32:41Z"
+  "last_ok_at": "2026-10-21T10:01:56Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T04:32:56Z",
+  "fetched_at": "2026-10-21T10:02:14Z",
   "events": [
+   {
+    "date": "2026-10-21",
+    "time": "07:27",
+    "iso": "2026-10-21T07:27:57+03:00",
+    "city": "메디나",
+    "type": "요격",
+    "weapon": "드론",
+    "lat": 24.47,
+    "lon": 39.61,
+    "title": "Saudi coalition intercepts 5 drones in Eastern, Medina regions",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRWkzV002YUsyM05MTGdQMkJBdFhBZ0g0UEExSXNaSnFwckJnYTlvVEhjaUtZaF9OQVBRTkhkRHUzQXJBazZMUHhwQXRVRWZVNl8zc2lzN3JDRENLb01kNXRGZ2NidnZiSGM1SUR3Z1RmeG5uX2ZMSzZQTzd5cTAybUtQNFFXOWxKS2NNYjNmUHQzeVJnM29kQ0hYNmlpRl9EMkxPQ2ZjS1k?oc=5",
+    "source": "Arab News",
+    "outlets": 2
+   },
    {
     "date": "2026-10-20",
     "time": "18:06",
@@ -1041,10 +1055,10 @@
    },
    "메디나": {
     "7d": {
-     "피격": 1,
-     "요격": 1
+     "요격": 2,
+     "피격": 1
     },
-    "total7d": 2,
+    "total7d": 3,
     "prev7d": {
      "피격": 1
     },
@@ -1167,14 +1181,32 @@
   "history_days": 31,
   "history_since": "2026-09-21",
   "today": "2026-10-21",
-  "last_ok_at": "2026-10-21T04:32:56Z"
+  "last_ok_at": "2026-10-21T10:02:14Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T04:32:57Z",
+  "fetched_at": "2026-10-21T10:02:15Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-21 11:53",
+    "iso": "2026-10-21T11:53:15+03:00",
+    "places": [
+     "메디나"
+    ],
+    "text_ar": "تؤكد القوات المسلحة اليمنية أنها لم تنفذ أي عمليات عسكرية باتجاه العمق السعودي يومنا هذا وأن ما يدعيه العدو السعودي من اعتراض طائرات مسيرة في أجواء المدينة المنورة ادعاء كاذب وبهتان عظيم وكبير بحق شعبنا وقواته المسلحة الشريفة والمجاهدة، وإن هذه الادعاءات قد تبين كذبها ولم تعد تنطلي على أحد من أبناء أمتنا العربية والإسلامية. http://t.me/army21ye",
+    "text_ko": "예멘 군대는 오늘날 사우디 심층에 대한 군사 작전을 수행하지 않았으며 메디나 영공에서 드론을 가로막는 사우디 적의 주장은 우리 국민과 존경받는 무자헤딘 군대에 대한 거짓 주장이자 크고 큰 수치이며 이러한 주장이 거짓으로 판명되어 더 이상 아랍과 이슬람 국가의 아들을 속이지 않는다는 것을 확인합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3925"
+   },
+   {
+    "time": "2026-10-21 11:10",
+    "iso": "2026-10-21T11:10:24+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة من استهداف غرفة العمليات التابعة للعدو السعودي في معسكر بدر بعدن وذلك بصاروخ باليستي وكانت الإصابة دقيقة ومباشرة بفضل الله. http://t.me/army21ye",
+    "text_ko": "우리 군대는 탄도 미사일로 아덴의 바드르 캠프에 있는 사우디아라비아 적의 작전실을 공략할 수 있었고 그 부상은 신 덕분에 정확하고 직접적이었다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3924"
+   },
    {
     "time": "2026-10-20 20:43",
     "iso": "2026-10-20T20:43:03+03:00",
@@ -1927,58 +1959,25 @@
    }
   ],
   "mentions7d": {
-   "리야드": 9,
    "카미스무샤이트": 8,
    "타이프": 6,
    "나즈란": 6,
-   "다란": 5,
-   "샤이바 유전": 3,
-   "얀부": 3,
+   "리야드": 4,
+   "메디나": 3,
    "아브하": 3,
+   "얀부": 3,
+   "샤이바 유전": 3,
    "지잔": 2,
-   "메디나": 2,
    "메카": 1
   },
-  "last_ok_at": "2026-10-21T04:32:57Z"
+  "last_ok_at": "2026-10-21T10:02:15Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T04:32:58Z",
+  "fetched_at": "2026-10-21T10:02:20Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
-   {
-    "lat": 26.95546,
-    "lon": 49.59616,
-    "frp": 1.62,
-    "date": "2026-10-13",
-    "time": "2216",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.96621,
-    "lon": 49.22713,
-    "frp": 6.21,
-    "date": "2026-10-13",
-    "time": "2216",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.96574,
-    "lon": 49.23116,
-    "frp": 6.21,
-    "date": "2026-10-13",
-    "time": "2216",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 21.71411,
-    "lon": 39.30984,
-    "frp": 1.08,
-    "date": "2026-10-13",
-    "time": "2358",
-    "confidence": "nominal"
-   },
    {
     "lat": 27.18868,
     "lon": 49.13974,
@@ -2199,6 +2198,14 @@
     "lat": 22.54527,
     "lon": 53.91393,
     "frp": 13.17,
+    "date": "2026-10-16",
+    "time": "2259",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97891,
+    "lon": 38.23837,
+    "frp": 3.47,
     "date": "2026-10-16",
     "time": "2259",
     "confidence": "nominal"
@@ -2452,6 +2459,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 23.97872,
+    "lon": 38.241,
+    "frp": 1.91,
+    "date": "2026-10-19",
+    "time": "0005",
+    "confidence": "nominal"
+   },
+   {
     "lat": 22.55487,
     "lon": 39.43352,
     "frp": 1.1,
@@ -2527,6 +2542,14 @@
     "lat": 24.27427,
     "lon": 37.56472,
     "frp": 1.86,
+    "date": "2026-10-19",
+    "time": "2344",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.97913,
+    "lon": 38.24102,
+    "frp": 2.32,
     "date": "2026-10-19",
     "time": "2344",
     "confidence": "nominal"
@@ -2676,6 +2699,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 23.97776,
+    "lon": 38.2399,
+    "frp": 2.58,
+    "date": "2026-10-20",
+    "time": "2326",
+    "confidence": "nominal"
+   },
+   {
     "lat": 23.9749,
     "lon": 38.21558,
     "frp": 2.04,
@@ -2700,19 +2731,33 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-21T04:32:58Z"
+  "last_ok_at": "2026-10-21T10:02:20Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T04:33:01Z",
+  "fetched_at": "2026-10-21T10:02:22Z",
   "kr": [
    {
-    "date": "2026-10-20",
-    "published": "2026-10-20T22:37:00+00:00",
-    "source": "한겨레",
-    "title": "중동분쟁 ‘태풍의 눈’ 후티…종전 독립변수, 상황 더 얽히고설켰다",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdUF2S1o4U1ZZNFRTeG9NVi02NGVRdWRWZkRaZk53aHRiYlB1NWpmOE5rLW55ckpKZE8xQk01Q3pSYjBBaWllVGNUS0tEQjdUam9fT282UWF6SDVqcDBxc0wyaWxxY0pTeExTYWx2QldyZ2h5WlpPOE1QUW4zWUJRMmVR?oc=5"
+    "date": "2026-10-21",
+    "published": "2026-10-21T09:38:00+00:00",
+    "source": "KBS",
+    "title": "예멘 후티 반군 “아덴 내 사우디군 진지 타격”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKVFZrQk1HNXhqVUFXSGxlWmZ4eENJYldnRjZUVzVSaERLUWRsRDQtdS1XaG5GZjNoaUdwdjJZYkxZWFFLVDZFeHo4d2FQeDZtV3hOMDFXRkdJQzg?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T08:42:59+00:00",
+    "source": "연합뉴스",
+    "title": "[쇼츠] 후티 공습에 맞서…영국, 사우디에 타이푼 전투기 보낸다",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Ud1VRYndwU0o2X0I2LXhVNFBhcTNGaFA0aXB2QTgtUlE5ZUF0OVRKSktLZlBKY21CRE96aC03Ykd4U29KbmVNUW9RV2dPQUlncHloaE5KM0hvZS1mbmpuatIBYEFVX3lxTE5Ud1VRYndwU0o2X0I2LXhVNFBhcTNGaFA0aXB2QTgtUlE5ZUF0OVRKSktLZlBKY21CRE96aC03Ykd4U29KbmVNUW9RV2dPQUlncHloaE5KM0hvZS1mbmpuag?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T08:31:13+00:00",
+    "source": "연합뉴스",
+    "title": "[영상] \"공격 말고 방어만\"…영국, 사우디에 타이푼 전투기 지원",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LRlZ0alJVNWRRTEs5VTBDSHE3eXg3czI5V3ZaU0ZlMUlPY1ZPeWxoUUl5dkU1NDE5UURfRGhzZmdJZ00zZW85eWppMjdodlM4VnpXVnBZRXl2VjDSAWBBVV95cUxOQTZWLWZzN0VXSTdyT1JHRkFiWWxEQTl0S1VmcmU3R1RTc0pBYW5XcTQyMDY1U1YxYmRVZ05JNlNpdlBfZXVGT0NQaUV1OGF3RlBzeDNBdW9oRVZ3S1VLQ0E?oc=5"
    },
    {
     "date": "2026-10-20",
@@ -2727,23 +2772,23 @@
     "source": "뉴스1",
     "title": "사우디, 수도 리야드 노린 후티 탄도미사일·드론 요격",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5BMWZjVWxENDZyd2VkXzlmLWRiUW9zcmRBcTBBbnh2OUFLSl93cEVENmRjeGN5NklqSjAzVllITi1TTElsOTRydzA3S291N1A4TzFZT3lsWV9TVTUwZmVOcEN3?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T13:08:00+00:00",
-    "source": "한겨레",
-    "title": "영국, 사우디에 타이푼 전투기 파견…후티 공격 방어",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0V1YjRwbE5nNTUzOFpuWno3dThLSnV2bkpqNW9nY0wxZUJuUGlZbFM4V0hYNG80MmM5Q0tjWG9IbkNSWWZBcFJDZGs3QnFYN1p4eGd1cW0zeWtwbjdVWUR5R00xa1JEcFMyOW1XNjV4RjRRZXA4clZDenVuTVR6NlFB?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T12:21:21+00:00",
-    "source": "연합뉴스",
-    "title": "영국, 사우디 방공 지원 위해 전투기 보낸다",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9teHVxcjNydHVGTjlFbG5ITms5WElGWnRPUFdBTEFia1FCbU5DN1RPTERKbXREa3JYNURwcldITk9Ja2lNRVdnMWswM0Z4aWZaZWZwbWdXMGhzWnZYcEx4VNIBYEFVX3lxTE9teHVxcjNydHVGTjlFbG5ITms5WElGWnRPUFdBTEFia1FCbU5DN1RPTERKbXREa3JYNURwcldITk9Ja2lNRVdnMWswM0Z4aWZaZWZwbWdXMGhzWnZYcEx4VA?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T07:41:54+00:00",
+    "source": "Bloomberg",
+    "title": "Watch UK to Send Fighter Jets to Defend Saudi Arabia From Houthi Attacks",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOano2ZERnN01rM0lzTlg5aVQ3d3cyVDhLMmdkWmVRMV8zSEdNaEx4QnpZTU9xTWpicTB2LS1WQ016dHdaNG1XcVlIelBwTU9JTDZuYWp5NDhLOGpaT05Fc21ESGM4cVlMZ2hhZ3JrSGp3M3dZLUhuVUowTkFOd2hPV3Qya081YUw2ZGEzdC1jZDRhbFJ2X3NiNQ?oc=5"
+   },
+   {
+    "date": "2026-10-21",
+    "published": "2026-10-21T05:23:14+00:00",
+    "source": "Bloomberg",
+    "title": "Watch UK to Fly Missions to Defend Saudi Arabia From Houthi Attacks",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3F6T3kydXZTSFFCY2RLNmVnT292ODRBbndDR0QtaXpIZjBuMXh5S3lqaFdaQ2hiY1J1ODAtS25KVGwtdGVTWktjV0Q2aXNzbHdUS0pybWJ0X0k3SkZLWWpFd05oVGppVjBmcXpER1Zxa1FxT1RjTzR4emM0RnA5cDZ5and0QUtQcEFZa09meTF2dHVndlJMUDBNZUVCaFlUQ0E?oc=5"
+   },
    {
     "date": "2026-10-20",
     "published": "2026-10-20T22:45:24+00:00",
@@ -2753,43 +2798,29 @@
    },
    {
     "date": "2026-10-20",
+    "published": "2026-10-20T21:08:42+00:00",
+    "source": "The National",
+    "title": "How the Houthis Threaten Saudi Oil",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNjNlS0RJcG13SndXU0stb25NVnl0bkdTQU5femxxOENsdUxsam9GbFZnU21GNlhkd3k0MzFUazFYNkNEQTVheGZKbDJjTkIzai10dDRMeHRWbjF4bDFyZzBfVVQ1dkFoS0c0cklBUjJlenBLaGdNU2hlZmNSSVgydXR6NGJweDVw?oc=5"
+   },
+   {
+    "date": "2026-10-20",
     "published": "2026-10-20T19:41:20+00:00",
     "source": "CBS News",
     "title": "U.S. ramps up warnings to Americans in Middle East after deadly Houthi strikes",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54Mk5WM2t0aV92YWxPeUduZzNtLTlvRV95WEhCY09RenRiWG1Qa2R3SzJoREViMjhtRU5hTzBwNnBVV0hqLWRqN3JMbXZCd3hIZ09BSFpsSEFKdUN2QmMyNmtoOXF3RHUyZ21TRUFmcWFZNTFEVndfWGlGUQ?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T17:27:55+00:00",
-    "source": "Reuters",
-    "title": "Turkey submits Saudi-Pakistan defence pact to parliament for ratification, sources say",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUFRNd3JZYUQ0bDBIdTYxNDczNExsX1h3ZUN5RU0xdTRUeThLVVljcjBHTkRlRUpxaUotM2tTUExONi15T29YQlJTZ2FPaEpoS0VkMXdiUlBGcTNNWXFoc0lEVUlHT0pIZWRZR1RUeXpVYW5aRlNZd2dGZXFIVFMyanFXcGh3V1JQcXRzM1ZzNnBSazBIT2NSVDNCa2pRTlZhNWt1cGpNeFNZTTFkd09iQ1hKZURpLThleHlNUmpFdVp2Yjg0WVA3VThydDI?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T16:57:09+00:00",
-    "source": "Reuters",
-    "title": "US bank J.P. Morgan facilitates Syrian deal for Saudi oil products",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMDBMZWE2MDdMSEVnOWduZE83YjRxc3l0TW44dEktSFZGMHdVUVl4anNIX2tmUFFyVExXN2xMRmdLX3p1UWV6YW15UE85NTBId3lKc0Uxekk4OXV3RHpFWFBSVDNDN09WS1N1NDFVREFGVGp1blR1dml1eU1ZYnFuc0I1bXJXQmktdVNQSHZGNEJleU5tSzhiQ3RHMjBBcktqMWhIQzM0TEFEclAzMkVfY240X2g?oc=5"
-   },
-   {
-    "date": "2026-10-20",
-    "published": "2026-10-20T13:54:35+00:00",
-    "source": "BBC",
-    "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0waUgtSlRWX3FOZEFhVWlvemhWVmhaSmJJb3E2bHJUQ3dIWmZKY1BSNXc5QzAtY1BiMGlhWHpsRFlCbHowVmFheTBlVkllczBpcXhjSUlubG4xTmc?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-21T04:33:01Z"
+  "last_ok_at": "2026-10-21T10:02:22Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-21T04:33:02Z",
+  "fetched_at": "2026-10-21T10:02:23Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 14,
-  "baseline": 29,
-  "baseline_n": 5,
+  "count": 17,
+  "baseline": 37,
+  "baseline_n": 3,
   "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
@@ -2962,14 +2993,15 @@
    "2026-10-20T16": 18,
    "2026-10-20T20": 8,
    "2026-10-20T23": 11,
-   "2026-10-21T04": 14
+   "2026-10-21T04": 14,
+   "2026-10-21T10": 17
   },
-  "last_ok_at": "2026-10-21T04:33:02Z"
+  "last_ok_at": "2026-10-21T10:02:23Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-21T04:33:02Z",
-  "last_ok_at": "2026-10-21T04:33:02Z"
+  "fetched_at": "2026-10-21T10:02:23Z",
+  "last_ok_at": "2026-10-21T10:02:23Z"
  }
 }
