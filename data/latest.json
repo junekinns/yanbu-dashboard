@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T19:59:17Z",
+ "generated_at": "2026-10-22T23:15:47Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T19:59:17Z",
+  "fetched_at": "2026-10-22T23:15:47Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 4,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-22T19:59:17Z"
+  "last_ok_at": "2026-10-22T23:15:47Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T19:59:37Z",
+  "fetched_at": "2026-10-22T23:16:05Z",
   "events": [
    {
     "date": "2026-10-22",
@@ -1004,30 +1004,18 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iaktFZWRNUjh2OVZSYWI2cWdVclNmbzBld25lQTgxbER4WWhiVzI1eVdNVmpnYloxaE5ucUxvekFQT1R6ZkZUNDBPX0hMNjFTT0ZwRUJtU2FnSHg3YlNNMtIBeEFVX3lxTE9pZ2pseHlsdXNPZEFjZTRPWnNyVFR6bnBZYWlBdEhpREJ2M1JrWVg4aEJ3cTZMcE00OWZPcXkxQlhfLXpYTUNwbFh1Z095c3p1T0hLd1NGRGhjSHRBbHl2dEVmLWtLTUcwOXhYaVR1Vl9xd2tHMThjZA?oc=5",
     "source": "뉴시스",
     "outlets": 1
-   },
-   {
-    "date": "2026-09-22",
-    "time": "14:29",
-    "iso": "2026-09-22T14:29:56+03:00",
-    "city": "송유관",
-    "type": "피격",
-    "weapon": "드론",
-    "lat": null,
-    "lon": null,
-    "title": "“사우디, ’드론 피격’ 송유관 가동 재개…낮은 속도 수송“",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZVFVGaVhlSUVVeXFtUXVScTljeS1pa2t5NWw2OHJNbVU0eUt1OU9aMWFfbWQ3NTZ4eHEwd25rQUU2VHAxWDRycnViU2JRYy1rdlY2SUhIblpiVjhaeWFGYXo1UjNTOFU?oc=5",
-    "source": "연합뉴스",
-    "outlets": 3
    }
   ],
   "tempo": {
    "얀부": {
     "7d": {
-     "요격": 2
+     "요격": 1
     },
-    "total7d": 2,
-    "prev7d": {},
-    "prev_total": 0
+    "total7d": 1,
+    "prev7d": {
+     "요격": 1
+    },
+    "prev_total": 1
    },
    "제다": {
     "7d": {
@@ -1077,17 +1065,17 @@
    "리야드": {
     "7d": {
      "요격": 1,
-     "피격": 4,
+     "피격": 3,
      "공습": 1
     },
-    "total7d": 6,
+    "total7d": 5,
     "prev7d": {
      "피격": 7,
      "경보": 2,
      "요격": 2,
-     "공습": 3
+     "공습": 2
     },
-    "prev_total": 14
+    "prev_total": 13
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1165,14 +1153,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-09-22",
-  "today": "2026-10-22",
-  "last_ok_at": "2026-10-22T19:59:37Z"
+  "history_since": "2026-09-23",
+  "today": "2026-10-23",
+  "last_ok_at": "2026-10-22T23:16:05Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T19:59:38Z",
+  "fetched_at": "2026-10-22T23:16:06Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1864,89 +1852,13 @@
     "text_ar": "سيتم السماح للرحلات الإنسانية من وإلى مطار الرياض لجميع الرحلات الحاصلة على تصريح من مركز تنسيق العمليات الإنسانية في العاصمة صنعاء. http://t.me/army21ye",
     "text_ko": "리야드 공항을 오가는 인도주의 항공편은 수도 사나의 인도주의 조정 센터에서 운항하는 모든 항공편에 허용됩니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3854"
-   },
-   {
-    "time": "2026-10-08 21:04",
-    "iso": "2026-10-08T21:04:51+03:00",
-    "places": [],
-    "text_ar": "مشاهد لطرد التحشيدات التابعة للعدو السعودي من مديرية الشمايتين بمحافظة تعز - 8 أكتوبر 2026م",
-    "text_ko": "2026년 10월 8일, 타이즈 주 샤마야타인 국에서 사우디아라비아 적의 동원을 축출하는 장면",
-    "url": "https://t.me/army21ye/3853"
-   },
-   {
-    "time": "2026-10-08 20:48",
-    "iso": "2026-10-08T20:48:51+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 59 غارةً جويةً وصاروخاً استهدف بها العاصمة صنعاء ومحافظات الجوف وتعز ومأرب وحجة وصعدة والحديدة ولحج وريمة وإب والبيضاء من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا العزيز 1857 غارةً جويةً وصاروخاً. http…",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 \"F-15\" 와 \"타이푼\" 항공기를 통해 수도 사나와 알자우프, 타이즈, 마리브, 하지야, 사다, 호데이다, 라흐즈, 리마, 입, 알바이다의 주지사를 겨냥한 59차례의 공습과 미사일 공습을 감행했다. 이들은 카미스 무샤이트와 타이프 기지에서 이륙하고 나즈란에서 로켓 공격을 가해 순교자와 부상자를 남겼다. 친애하는 우리나라에 대한 에스컬레이션이 시작된 이래로 사우디의 총 침략 습격 횟수를 1857 건의 공습 및 미사일 습격으로 가져 왔습니다. http…",
-    "url": "https://t.me/army21ye/3852"
-   },
-   {
-    "time": "2026-10-08 18:43",
-    "iso": "2026-10-08T18:43:35+03:00",
-    "places": [
-     "리야드",
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "استهدفت قواتنا المسلحة مساء اليوم مطار الملك خالد بالرياض بصاروخين مجنحين، ومطار نجران بصاروخ باليستي، والقاعدة الجوية في خميس مشيط بصاروخ باليستي، وكانت الإصابات دقيقة ومباشرة بفضل الله، وأدت إلى تعطل حركة الملاحة في المطارين وإلحاق أضرار بهما وبالقاعدة الجوية. http://t.me/army21ye",
-    "text_ko": "오늘 저녁, 우리 군은 리야드의 킹 칼리드 공항을 두 개의 날개 달린 미사일로, 나지란 공항을 탄도 미사일로, 카미스 무샤이트의 공군 기지를 탄도 미사일로 겨냥했습니다. 부상은 정확하고 직접적이었고, 하느님께 감사드리며, 두 공항의 항행이 중단되고 그들과 공군 기지가 손상되었습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3851"
-   },
-   {
-    "time": "2026-10-08 18:03",
-    "iso": "2026-10-08T18:03:00+03:00",
-    "places": [],
-    "text_ar": "The Yemeni Armed Forces warn all employees, including experts, engineers, and workers in all Saudi oil facilities, against being exist in locations that represent targets for our forces, so as not to endanger their lives, whether those that have been targeted before or others. They also renews their warning to air navigation companies in the fields and airports, and to travelers and workers in the…",
-    "text_ko": "예멘군은 모든 사우디아라비아 석유 시설의 전문가, 엔지니어, 근로자를 포함한 모든 직원이 이전에 표적이 되었든 다른 사람이 되었든 자신의 생명을 위험에 빠뜨리지 않도록 우리 군의 표적을 나타내는 장소에 있지 않도록 경고합니다. 그들은 또한 들판과 공항의 항공 네비게이션 회사와 여행자 및 근로자에게 경고를 갱신합니다...",
-    "url": "https://t.me/army21ye/3850"
-   },
-   {
-    "time": "2026-10-08 15:13",
-    "iso": "2026-10-08T15:13:35+03:00",
-    "places": [],
-    "text_ar": "القوات المسلحة تحذر جميع الموظفين من الخبراء والمهندسين والعمال في جميع المنشآت النفطية السعودية من التواجد في الأماكن التي تمثل أهدافا لقواتنا حتى لا يعرضوا حياتهم للخطر سواء التي تم استهدافُها من قبل أو غيرها كما تجدد تحذيرها لشركات الملاحة الجوية في المجالات والمطارات والمسافرين والعاملين فيها التي تم الإعلان عنها سابقا. http://t.me/army21ye",
-    "text_ko": "군대는 모든 사우디 석유 시설의 전문가, 엔지니어 및 근로자의 모든 직원이 이전에 표적이되었는지 여부에 관계없이 생명을 위협하지 않도록 우리 군의 표적이되는 장소에 있지 않도록 경고합니다. 또한 이전에 발표 한 현장, 공항, 승객 및 근로자의 항공 항법 회사에 대한 경고를 갱신했습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3848"
-   },
-   {
-    "time": "2026-10-08 05:52",
-    "iso": "2026-10-08T05:52:27+03:00",
-    "places": [
-     "메디나",
-     "메카",
-     "리야드"
-    ],
-    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من استهداف مطار الملك خالد في الرياض بصاروخ باليستي وقد أصاب هدفه بدقة وتسبب في تعطيل حركة المطار. نجدد دعوتنا وتحذيرنا _للمرة الأخيرة_ لكافة شركات الطيران العالمية من مغبة استمرارها في تسيير رحلاتها في الأجواء السعودية كونها أصبحت مسرحا لعملياتنا العسكرية باستثناء أجواء المناطق المقدسة في مكة المكرمة والمدينة المنورة. http://t.me/army21ye",
-    "text_ko": "알라의 은총으로 우리 군대는 리야드의 킹 칼리드 공항을 탄도 미사일로 공략할 수 있었으며, 이는 목표물을 정확하게 타격하여 공항의 움직임을 방해했습니다. 우리는 메카와 메디나의 신성한 지역 분위기를 제외하고 사우디 영공에서 계속 운항하는 것이 군사 작전의 현장이 되었을 때의 결과에 대해 모든 국제 항공사에 마지막으로 전화와 경고를 갱신합니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3847"
-   },
-   {
-    "time": "2026-10-08 05:39",
-    "iso": "2026-10-08T05:39:15+03:00",
-    "places": [],
-    "text_ar": "تمكنت قواتنا المسلحة _بفضل الله_ من استهداف تجمعات وتحشيدات تابعة للعدو السعودي في معسكر قعوة بمنطقة رأس العارة بعدد من الصواريخ الباليستية وكانت الإصابات مباشرة بفضل الله وخلفت العديد من القتلى والجرحى واحتراق بعض مخازن الأسلحة. وقد تزامن مع هذا الاستهداف استهداف آخر لتجمعات وتحشيدات العدو السعودي جنوبي باب المندب ومنطقة السقيا ورأس العارة وذلك بعدد من الصواريخ الباليستية وقد حققت أهدافها بنجاح و…",
-    "text_ko": "우리 군대는 신 덕분에 라스 알 아라 지역의 카와 캠프에 있는 사우디 적의 집합과 동원을 여러 탄도 미사일로 겨냥할 수 있었습니다. 신 덕분에 사상자는 직접적이었고 많은 사람들이 죽고 부상당했으며 일부 무기 상점은 불에 탔습니다. 이 표적은 여러 탄도 미사일에 의해 Bab al-Mandab, Suqia 지역 및 Ras al-Ara 남쪽의 사우디 적의 다른 집회 및 집중을 표적으로 삼았으며 성공적으로 목표를 달성했습니다...",
-    "url": "https://t.me/army21ye/3846"
-   },
-   {
-    "time": "2026-10-08 05:17",
-    "iso": "2026-10-08T05:17:38+03:00",
-    "places": [],
-    "text_ar": "تمكنت القوات المسلحة بفضل الله من إسقاط طائرة استطلاع مسلحة \"بيرقدار أكنجي\" تركية الصنع تابعة للعدو السعودي وذلك أثناء قيامِها بتنفيذ أعمال عدائية في أجواء محافظة تعز، وقد تم إسقاطها بسلاح مناسب. http://t.me/army21ye",
-    "text_ko": "알라의 은총으로 무장 세력은 타이즈 주 영공에서 적대 행위를 수행하면서 사우디아라비아 적의 터키제 정찰기 \"바이락타르 아킨치\" 를 격추시킬 수 있었고, 적절한 무기로 격추되었습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3845"
    }
   ],
   "mentions7d": {
    "카미스무샤이트": 8,
-   "아브하": 5,
    "리야드": 5,
    "얀부": 5,
+   "아브하": 5,
    "나즈란": 5,
    "타이프": 4,
    "샤이바 유전": 3,
@@ -1954,12 +1866,12 @@
    "지잔": 2,
    "메디나": 1
   },
-  "last_ok_at": "2026-10-22T19:59:38Z"
+  "last_ok_at": "2026-10-22T23:16:06Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T19:59:39Z",
+  "fetched_at": "2026-10-22T23:16:07Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2827,56 +2739,56 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-22T19:59:39Z"
+  "last_ok_at": "2026-10-22T23:16:07Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T19:59:41Z",
+  "fetched_at": "2026-10-22T23:16:10Z",
   "kr": [
    {
     "date": "2026-10-22",
-    "published": "2026-10-22T19:29:09+00:00",
+    "published": "2026-10-22T21:11:00+00:00",
+    "source": "KBS",
+    "title": "후티 “사우디 국방부 등 4곳 공격”…아람코 등 대피 명령",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nei03UXY4Mng4NVRJbjVPZmc1WXQ2NGZMTmVoS0lVc1dDZmtGV3ZaeGtmRE9SWG1jSE1sMURucFBEM3ZBYXZTUmQwLXliYzVlZnROeTNWdWk0OUk?oc=5"
+   },
+   {
+    "date": "2026-10-22",
+    "published": "2026-10-22T21:05:00+00:00",
+    "source": "YTN",
+    "title": "후티 \"사우디 국방부 등 4곳 타격\"...아람코 본사 건물 대피령",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wUE9lOXpQbGhXelQ3NmpEQW0yMkUwVjRXWl9VMVp6X1FCdjVHRkRualBqcFdOZEdTRS12dmVLVUVJZ0tkY1B2WnlQeWVDd3R2V2NkTUdxWGRxb2JzZEE?oc=5"
+   },
+   {
+    "date": "2026-10-22",
+    "published": "2026-10-22T20:55:00+00:00",
+    "source": "YTN",
+    "title": "국제 유가, 후티의 사우디 공격에 5개월 만에 최고",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NRnExck5Nakw3bk54UUctNnp6LTJXTFJtR0laakh1U1F4SjkwaHNTQVNTdnRCbWx6VDk5WHZTQ2NzZkJlRHVuQzRpVHJVbTlhZENZSVZXYUZUanpIbmc?oc=5"
+   },
+   {
+    "date": "2026-10-22",
+    "published": "2026-10-22T20:29:00+00:00",
+    "source": "KBS",
+    "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월 만에 최고",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JeTJxaXAwUzBSb3RTTXFLYXoxdWRBSEJhUW8wOGZTTUZJc3AwMVRJeDdiZTdqcWhJaWdOazlxVGVfVTVOMDVsQ0JENDgzX1JvRDB5WVBGb2VqWXJxaG8yYl9Fd05XZw?oc=5"
+   },
+   {
+    "date": "2026-10-22",
+    "published": "2026-10-22T20:08:00+00:00",
     "source": "연합뉴스",
-    "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZWkFkSVFZQ0ltaFRtZVF0VGtwVHRJYzU3alRDNXJZZ1BIYXBVbUw4dXhFTk0zV0FXZlJiLVFZR2c3akpxbVgxWHYzWnNOaVNsQjBCVEdzZnI1NGvSAWBBVV95cUxQbEwzb3VIaUY5TmJpaGNpMUFCV2NVSnNCVmlpUllyYktnVVdLZktpOGstR2lvVHZ0d3p0X253dmNESE56ZUlCWUZTVEZPNFBaMFpyYW5vWGRaQjFmZHUxYW8?oc=5"
-   },
-   {
-    "date": "2026-10-22",
-    "published": "2026-10-22T14:49:56+00:00",
-    "source": "MBC",
-    "title": "\"사우디 아람코, 본사 직원들에 대피령‥원격 근무 지시\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JZ3AwcklGajI3aGVwaTVIdlJBdTJJLWJDMXFxOWlVM091cnJtdkhUYllxN2piU2dhSDktVnNLcTVGQ0g2VmtjbGNIT0JOQm1FekkxYWtqMWlNeU9VRm9PRmRsc09Dei1weXNQTEFFQ2poX21a0gF0QVVfeXFMT0lncDBySUZqMjdoZXBpNUh2UkF1MkktYkMxcXE5aVUzT3Vycm12SFRiWXE3amJTZ2FIOS1Wc0txNUZDSDZWa2NsY0hPQk5CbUV6STFha2oxaU15T1VGb09GZGxzT0N6LXB5c1BMQUVDamhfbVo?oc=5"
-   },
-   {
-    "date": "2026-10-22",
-    "published": "2026-10-22T13:43:50+00:00",
-    "source": "뉴스1",
-    "title": "친이란 후티, 사우디 석유거점 담맘공항 공격…2명 사망·8명 부상(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IelZTcmc2dThNVko3MXo3T1lENmRyLVN2WTgtbVFEaE9uVWhpVDczdWNlcmNKamJwdktHSUNpOXc1elZMc0NVZEJPb2t0aC1GeVNPNGl5S0VkNElsMUlBQTR3?oc=5"
-   },
-   {
-    "date": "2026-10-22",
-    "published": "2026-10-22T13:02:18+00:00",
-    "source": "연합뉴스",
-    "title": "후티 반군 \"사우디 국방부·공항 등 4곳 미사일·드론으로 타격\"(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KNVBZV1ZRT0pJYjRWMG9HbVhRcmYyelFCcG1uakFwNVJWMzJaQldSR0J5TkNqeWN3M3puTmNkRjVSc3c3Ti1SU2M1OGpCUXJTZFlyMzVwM3VHRUN0MWgyStIBYEFVX3lxTE1KNVBZV1ZRT0pJYjRWMG9HbVhRcmYyelFCcG1uakFwNVJWMzJaQldSR0J5TkNqeWN3M3puTmNkRjVSc3c3Ti1SU2M1OGpCUXJTZFlyMzVwM3VHRUN0MWgySg?oc=5"
-   },
-   {
-    "date": "2026-10-22",
-    "published": "2026-10-22T12:48:08+00:00",
-    "source": "MBC",
-    "title": "후티 반군 \"사우디 국방부·공항 등 4곳 미사일·드론으로 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLM1FNRHZkazU2UUtiSGhSaTVjNXRVVFlyb0xMS3R5dlpucmthZHBYck1aUnJMRTloYXpMTGxYRWxEN29xV0Z0MFRJNl9nVGZPZnkwNU8wUjVTTUNVa2JpZVJfM0VwRC1ESGpGa2R1MjlSRExm0gF0QVVfeXFMUEszUU1EdmRrNTZRS2JIaFJpNWM1dFVUWXJvTExLdHl2Wm5ya2FkcFhyTVpSckxFOWhhekxMbFhFbEQ3b3FXRnQwVEk2X2dUZk9meTA1TzBSNVNNQ1VrYmllUl8zRXBELURIakZrZHUyOVJETGY?oc=5"
+    "title": "후티의 사우디 공격에 국제유가 급등…브렌트유 5개월 만에 최고",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sTHQ1b09UdkxMU3RBSEFhNng0LWVYMm1aMjRFSmRqMVNxWE5uUzhwMmJOcV9icm5YY00xQlR6dHUteEEzZEhnc3cwa2ZWeThXT3JJZWxGdVprWW1mV1FKUE9QYW1uRDg?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-22",
-    "published": "2026-10-22T18:43:13+00:00",
-    "source": "The Washington Post",
-    "title": "U.S. orders some diplomats to leave Saudi Arabia amid Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOGZ2VEpSaUZoaWQwZHVVek1fYUJpT25DU2RIaU5mWWFVTkJZa3p1bTRXZHE1SlRTb2pMS3pOZEVKQU10MkpSeHNfY0h1Ul9PdGYxdFNvTzBWQWVidnJfTTJYUC12NjM3S01namtXWmVjcll5elY5ODVIVXlKejNKbWZ1d2xPS0YxOG9EcUdFb0hxYlBhWHBRSkJkWkhTU2pqT3ZPdFNyT3dYMTBsRm83d2Rn?oc=5"
+    "published": "2026-10-22T19:11:55+00:00",
+    "source": "Bloomberg",
+    "title": "Oil Rises as Deadly Saudi Attacks Fan Middle East Supply Fears",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcGpORlFHazhXTnJBNnc2TndhSzgzUGRSLXd1Zm9fb0xKRzJZTUs1NGRPdE9McUpmZFlFenhNaGYwOGNIREM5NXRMMTZ4VXg5clJDaWFqcGRKRDRBSUh1bUpLenQ4ZTdyQi1qT1p3RjhRT0V6UVdUdGFuLWJxakVvMHRRanRvUGduVXA1bkZmaWlNRHFlOEdhVFhxTHAzUQ?oc=5"
    },
    {
     "date": "2026-10-22",
@@ -2894,29 +2806,29 @@
    },
    {
     "date": "2026-10-22",
-    "published": "2026-10-22T15:13:17+00:00",
-    "source": "Bloomberg",
-    "title": "Oil Rises as Deadly Saudi Attacks Fan Middle East Supply Fears",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcGpORlFHazhXTnJBNnc2TndhSzgzUGRSLXd1Zm9fb0xKRzJZTUs1NGRPdE9McUpmZFlFenhNaGYwOGNIREM5NXRMMTZ4VXg5clJDaWFqcGRKRDRBSUh1bUpLenQ4ZTdyQi1qT1p3RjhRT0V6UVdUdGFuLWJxakVvMHRRanRvUGduVXA1bkZmaWlNRHFlOEdhVFhxTHAzUQ?oc=5"
-   },
-   {
-    "date": "2026-10-22",
     "published": "2026-10-22T14:43:48+00:00",
     "source": "Bloomberg",
     "title": "US Pulls Diplomats From Saudi as Houthi and Iran Tensions Worsen",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT09zNVVDVU9nY3h2QTYwUXRVLS1ROHhmeGRqaVJhWEQyQm5XWnotZ20zRDJFUC1RMjh4NThNSXRVRENlb0pEaTFhYl9qdUtONzUwdDlIcDVhVlVIVmhHaV9DVzBOQzJMOXBwc0VmLURLWG9nMUFfLVJhY0U5ZXpId3ZHZV9zQ29uZHJGeUtLWTRuYVFsMjRjZzJFQVB1QWxNa3AwNm1rNWpQTjFPVDJhTA?oc=5"
+   },
+   {
+    "date": "2026-10-22",
+    "published": "2026-10-22T14:01:53+00:00",
+    "source": "Al Jazeera",
+    "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-22T19:59:41Z"
+  "last_ok_at": "2026-10-22T23:16:10Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T19:59:42Z",
+  "fetched_at": "2026-10-22T23:16:11Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 17,
-  "baseline": 38.0,
-  "baseline_n": 6,
+  "count": 14,
+  "baseline": 31,
+  "baseline_n": 9,
   "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
@@ -3097,14 +3009,15 @@
    "2026-10-22T04": 12,
    "2026-10-22T10": 15,
    "2026-10-22T15": 12,
-   "2026-10-22T19": 17
+   "2026-10-22T19": 17,
+   "2026-10-22T23": 14
   },
-  "last_ok_at": "2026-10-22T19:59:42Z"
+  "last_ok_at": "2026-10-22T23:16:11Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-22T19:59:42Z",
-  "last_ok_at": "2026-10-22T19:59:42Z"
+  "fetched_at": "2026-10-22T23:16:11Z",
+  "last_ok_at": "2026-10-22T23:16:11Z"
  }
 }
