@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:57:01Z",
+ "generated_at": "2026-10-23T19:06:11Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T14:57:01Z",
+  "fetched_at": "2026-10-23T19:06:11Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-10-23T14:57:01Z"
+  "last_ok_at": "2026-10-23T19:06:11Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T14:57:18Z",
+  "fetched_at": "2026-10-23T19:06:33Z",
   "events": [
    {
     "date": "2026-10-23",
@@ -1184,14 +1184,25 @@
   "history_days": 31,
   "history_since": "2026-09-23",
   "today": "2026-10-23",
-  "last_ok_at": "2026-10-23T14:57:18Z"
+  "last_ok_at": "2026-10-23T19:06:33Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T14:57:20Z",
+  "fetched_at": "2026-10-23T19:06:34Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-23 21:43",
+    "iso": "2026-10-23T21:43:27+03:00",
+    "places": [
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 124 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات تعز ولحج وصعدة وحجة والحديدة وعمران والجوف من خلال طائرات \"F-15\" أقلعت من قاعدة خميس مشيط الجوية، والعدوان الصاروخي من نجران، وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 3024 غارة جوية وصاروخا. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 공군 기지에서 이륙한 \"F-15\" 항공기와 나지란 미사일 공격을 통해 수도 사나와 타이즈, 라흐즈, 사다, 하지야, 호데이다, 암란, 알자우프 주지사의 민간 물체를 겨냥한 124회의 공습과 미사일 공습을 감행하여 순교자와 부상자를 남겼습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 3,024 회입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3941"
+   },
    {
     "time": "2026-10-23 16:40",
     "iso": "2026-10-23T16:40:58+03:00",
@@ -1893,22 +1904,22 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 8,
-   "얀부": 5,
-   "아브하": 5,
-   "리야드": 5,
    "나즈란": 5,
-   "타이프": 4,
+   "얀부": 5,
+   "리야드": 5,
+   "아브하": 5,
+   "타이프": 3,
    "샤이바 유전": 3,
    "담맘": 2,
    "지잔": 2,
    "메디나": 1
   },
-  "last_ok_at": "2026-10-23T14:57:20Z"
+  "last_ok_at": "2026-10-23T19:06:34Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T14:57:25Z",
+  "fetched_at": "2026-10-23T19:06:36Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2760,26 +2771,26 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-23T14:57:25Z"
+  "last_ok_at": "2026-10-23T19:06:36Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T14:57:27Z",
+  "fetched_at": "2026-10-23T19:06:39Z",
   "kr": [
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T12:32:00+00:00",
+    "source": "KBS",
+    "title": "후티 공격 확대에 아람코 ‘대피령’…이란 드론 전력 과시",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GZm43VEhrM3lHSjNqeDE2TF8xTEtoLXFfQkZqWHEtU3NPSlVnOUtRNGxiM2FBc04yZW5sbXBEZFlDamtxZlJCN0xmd09rNEwycFRPVGNINW1PY1k?oc=5"
+   },
    {
     "date": "2026-10-23",
     "published": "2026-10-23T12:28:06+00:00",
     "source": "연합뉴스",
     "title": "사우디, 미사일 생산시설 확장…중국 기술 가능성",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDQjZLcHJ2WXN2YlhqREZURWZKbVhTZkVtSE16VGRBUTZDbWoxWWQwYzQtd3VjRWFVczJ3VWk5VF9WS2VSZ2VaeFdlMjRHQmU0bWtHV1pSM1ViWVhkMUxReNIBYEFVX3lxTFBDQjZLcHJ2WXN2YlhqREZURWZKbVhTZkVtSE16VGRBUTZDbWoxWWQwYzQtd3VjRWFVczJ3VWk5VF9WS2VSZ2VaeFdlMjRHQmU0bWtHV1pSM1ViWVhkMUxReA?oc=5"
-   },
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T10:28:00+00:00",
-    "source": "KBS",
-    "title": "후티 공격 확대에 아람코 ‘대피령’…이란 드론 전력 과시",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94WmhnY1R3R2RzMkFnUm1ldDFSTm5iV2JKaXpaQlhSZUYzeS1zclN6Vk00S1Z4THpQak9kMDlHbzlaLW5TZlBxMTFGdllnSUhMLXNublU5UHFockk0ZXJmQjItWWFjZw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yUGxYMFdrZnJSN3g1QkxRUEFGX0VHZ3lPS0JmcEpiNC1taGU4UXp0cHhCenF6TlpFS3dFS1hFNEFBRkpqeGFZQWxhUm9wblZWNHFiNWxTV3E3ODDSAWBBVV95cUxQQ0I2S3BydllzdmJYakRGVEVmSm1YU2ZFbUhNelRkQVE2Q21qMVlkMGM0LXd1Y0VhVXMyd1VpOVRfVktlUmdlWnhXZTI0R0JlNG1rR1daUjNVYllYZDFMUXg?oc=5"
    },
    {
     "date": "2026-10-23",
@@ -2806,10 +2817,31 @@
   "en": [
    {
     "date": "2026-10-23",
-    "published": "2026-10-23T10:27:13+00:00",
+    "published": "2026-10-23T17:08:44+00:00",
     "source": "Reuters",
     "title": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5"
+   },
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T16:35:16+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5"
+   },
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T13:06:54+00:00",
+    "source": "Arab News",
+    "title": "Coalition air defenses down missiles bound for Riyadh, Khamis Mushait amid ongoing Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSmlfSUVJUXZKd0Y2WTQ0TEpaQnk1cFBlYzZ4dGZqYnBQMG9tcXY3RkRGOXdyQTZlUXEyRWFTQzNQV1BOWlhFX0dLRlQ1Z2N3c1docTMxa2Q0RHBZQlJtVE8tQmhZVVFUMXdJTFBXbVBrUklWdVBkTVloR2RTY3ZhcExtY1lWc0FfenVsQmxpNDJhajJ2a3ZFdmppUkJTbjhTaE5GVHNnSm1JeWVibmE5NTBBY3ZUUkJ6ejFSY1NXQXdFcENDN3RJWF9OblphSEJWa1hweUt2LVRqZw?oc=5"
+   },
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T10:44:31+00:00",
+    "source": "Reuters",
+    "title": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
    },
    {
     "date": "2026-10-23",
@@ -2817,40 +2849,19 @@
     "source": "Bloomberg",
     "title": "Watch Saudi Aramco Said to Order HQ Evacuation, Oil Prices Set for Weekly Gain",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQjl3cmswZEk0bkJkSjRQMF9IbHFIN1VOQ2hSSUVCVVl0VUFhY2otWEcyeUZGNGV4R2hFRWR5TEh4dlNiMXFzQnRCc2dpcVEzanprWmFnNHRaZUZ6VDMzT1B5MnNOaWdRVU1vUXUxaEVZWEJ3QjdaaFJEcTdGTkEtUE5SUWE1cXE0ZEs3T1ptTGRkMWRwUy1jMw?oc=5"
-   },
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T03:46:00+00:00",
-    "source": "CNBC",
-    "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZHcXQtZDkyLVVrN3lPTWFDdEVROFZZbndSMWVyTmRRVFlqTXJDVmtZUGNoYUlZb3hlUGg1ZlRqcWw4UHBTdGtoazBtMVdVTEs0Q3JxZW9Gd18ycENaYjFyV1E3cFdETkRYNVNKSmtwOVc5eWYwaUREel80Y0x1RVZGWWFKbWRWR2lELUxKUnhnMV95WElaVnhZVE9za0RCbENxYzBNQVltZlJYWDgwdUQ4OFg3WFhP0gG-AUFVX3lxTE1lc1VKUHBYWDlVY1hWZl95RWFoc0JrYm8wdzhsS2pKOGltMmFocDZ1MnpFWUxZS3RWR0pYaHNwZ1RFU3Q4Q0YxcXdXTGMteHVObXhCUkdKLU4yR1RQQ0dPVTI5S0J1NVVsbjB3YUNQVzQtaVMwSlQzaU1hRC1GcFN2TEcyaFFRb0RCNHlPdW8yOGthcUZVWTlZWlZoVkxtS3VLQ0E4Q05EN1k5QkpHYVQ5Y1RUTDhlYWhwTnV0R0E?oc=5"
-   },
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T01:04:00+00:00",
-    "source": "Reuters",
-    "title": "Brent crude hits more than five-month high on Houthi-Saudi attacks, UAE oil spill",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
-   },
-   {
-    "date": "2026-10-22",
-    "published": "2026-10-22T14:01:53+00:00",
-    "source": "Al Jazeera",
-    "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-23T14:57:27Z"
+  "last_ok_at": "2026-10-23T19:06:39Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T14:57:28Z",
+  "fetched_at": "2026-10-23T19:06:40Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 14,
-  "baseline": 39.5,
-  "baseline_n": 6,
-  "tier": "감소",
+  "count": 10,
+  "baseline": 37,
+  "baseline_n": 7,
+  "tier": "끊김",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3034,14 +3045,15 @@
    "2026-10-22T23": 14,
    "2026-10-23T04": 12,
    "2026-10-23T09": 17,
-   "2026-10-23T14": 14
+   "2026-10-23T14": 14,
+   "2026-10-23T19": 10
   },
-  "last_ok_at": "2026-10-23T14:57:28Z"
+  "last_ok_at": "2026-10-23T19:06:40Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-23T14:57:28Z",
-  "last_ok_at": "2026-10-23T14:57:28Z"
+  "fetched_at": "2026-10-23T19:06:40Z",
+  "last_ok_at": "2026-10-23T19:06:40Z"
  }
 }
