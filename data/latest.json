@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T23:15:47Z",
+ "generated_at": "2026-10-23T04:36:37Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T23:15:47Z",
+  "fetched_at": "2026-10-23T04:36:37Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,15 +183,15 @@
     "summary": "사우디아라비아 내 공항 및 항공편 운항 관련 현황을 아래와 같이 공지드립니다. ㅇ (리야드) 리야드 킹칼리드 공항의 공식적 운영 중단은 10.18.자로 해제되었으나, 실질적으로는 현재까지도 운영되지 않고 있는 상태임. ㅇ (여타 공항) 젯다, 담맘 등 주요 공항은 일부 국내선 및 국제선 운항을 유지하고 있으나, 항공사별 결항·지연 등 일부 운항 차질이 지속…"
    }
   ],
-  "last7d": 4,
-  "baseline": 4.0,
+  "last7d": 3,
+  "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-10-22T23:15:47Z"
+  "last_ok_at": "2026-10-23T04:36:37Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T23:16:05Z",
+  "fetched_at": "2026-10-23T04:36:54Z",
   "events": [
    {
     "date": "2026-10-22",
@@ -1155,12 +1155,12 @@
   "history_days": 31,
   "history_since": "2026-09-23",
   "today": "2026-10-23",
-  "last_ok_at": "2026-10-22T23:16:05Z"
+  "last_ok_at": "2026-10-23T04:36:54Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T23:16:06Z",
+  "fetched_at": "2026-10-23T04:36:55Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1856,8 +1856,8 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 8,
-   "리야드": 5,
    "얀부": 5,
+   "리야드": 5,
    "아브하": 5,
    "나즈란": 5,
    "타이프": 4,
@@ -1866,12 +1866,9 @@
    "지잔": 2,
    "메디나": 1
   },
-  "last_ok_at": "2026-10-22T23:16:06Z"
+  "last_ok_at": "2026-10-23T04:36:55Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-10-22T23:16:07Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2739,13 +2736,31 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-22T23:16:07Z"
+  "last_ok_at": "2026-10-22T23:16:07Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-10-23T04:36:56Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T23:16:10Z",
+  "fetched_at": "2026-10-23T04:37:56Z",
   "kr": [
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T01:22:00+00:00",
+    "source": "연합뉴스",
+    "title": "후티 “사우디 국방부 등 타격“…중동 불안에 유가 ’껑충’",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OT2NocjU2WEwwNnYxUlZqQ3JIOTE5NGZrTlVIZTEwNTFfa1JOcGpiZTQ2WmRjV1Bub3pUZHhESmJYNGhxM3d0YXNwWVNhSGhibnM1RmFiNjZudzh1ekVIUVRiMnJUVXc?oc=5"
+   },
+   {
+    "date": "2026-10-22",
+    "published": "2026-10-22T22:22:22+00:00",
+    "source": "MBC",
+    "title": "[이 시각 세계] 공항 이어 석유시설까지‥후티 \"사우디 4곳 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ndGd0b0xiMHdrZGJlU0VKT1pxcHNSQ2FJWkdscWFjTzFSSmJqX3dEV2wzUy1tLTB5c3pnY0tsRWtUX0h0QWRLQ05sSmhheHppQlprZ0FNUGNaczhEdEdickhNUEN0R28wNHM5YnRVZTdlTW9qcGpHb0hn0gF6QVVfeXFMTklGcUQ5MTZBWUYzMW8tbVVpYWpkSHVvNkVDSWYzazFvTnVuQS1Xekh5SXBMX1MxTVdYanZhSnZTM0NUQ2lrRWctdUhIZUkzWXFlQzZvVnBWVXJIQTBNaWNRcEl4S19xbkxxcXVlODl4R3RSVEJtS3U3Mmc?oc=5"
+   },
    {
     "date": "2026-10-22",
     "published": "2026-10-22T21:11:00+00:00",
@@ -2755,24 +2770,10 @@
    },
    {
     "date": "2026-10-22",
-    "published": "2026-10-22T21:05:00+00:00",
-    "source": "YTN",
-    "title": "후티 \"사우디 국방부 등 4곳 타격\"...아람코 본사 건물 대피령",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wUE9lOXpQbGhXelQ3NmpEQW0yMkUwVjRXWl9VMVp6X1FCdjVHRkRualBqcFdOZEdTRS12dmVLVUVJZ0tkY1B2WnlQeWVDd3R2V2NkTUdxWGRxb2JzZEE?oc=5"
-   },
-   {
-    "date": "2026-10-22",
-    "published": "2026-10-22T20:55:00+00:00",
-    "source": "YTN",
-    "title": "국제 유가, 후티의 사우디 공격에 5개월 만에 최고",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NRnExck5Nakw3bk54UUctNnp6LTJXTFJtR0laakh1U1F4SjkwaHNTQVNTdnRCbWx6VDk5WHZTQ2NzZkJlRHVuQzRpVHJVbTlhZENZSVZXYUZUanpIbmc?oc=5"
-   },
-   {
-    "date": "2026-10-22",
     "published": "2026-10-22T20:29:00+00:00",
     "source": "KBS",
     "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월 만에 최고",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JeTJxaXAwUzBSb3RTTXFLYXoxdWRBSEJhUW8wOGZTTUZJc3AwMVRJeDdiZTdqcWhJaWdOazlxVGVfVTVOMDVsQ0JENDgzX1JvRDB5WVBGb2VqWXJxaG8yYl9Fd05XZw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBcGJRMVpIT25mOUJKM2Y1aEJrby1ubzVQeHBxZUxQZlAzZTVFQjRqZ3Z1SzRMbGVneXJYa0NmYU9RS1JqMFl6VExFQVhHanQ1RW9rSGZoSE1ROGM?oc=5"
    },
    {
     "date": "2026-10-22",
@@ -2783,6 +2784,13 @@
    }
   ],
   "en": [
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T01:04:00+00:00",
+    "source": "Reuters",
+    "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
+   },
    {
     "date": "2026-10-22",
     "published": "2026-10-22T19:11:55+00:00",
@@ -2810,25 +2818,18 @@
     "source": "Bloomberg",
     "title": "US Pulls Diplomats From Saudi as Houthi and Iran Tensions Worsen",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT09zNVVDVU9nY3h2QTYwUXRVLS1ROHhmeGRqaVJhWEQyQm5XWnotZ20zRDJFUC1RMjh4NThNSXRVRENlb0pEaTFhYl9qdUtONzUwdDlIcDVhVlVIVmhHaV9DVzBOQzJMOXBwc0VmLURLWG9nMUFfLVJhY0U5ZXpId3ZHZV9zQ29uZHJGeUtLWTRuYVFsMjRjZzJFQVB1QWxNa3AwNm1rNWpQTjFPVDJhTA?oc=5"
-   },
-   {
-    "date": "2026-10-22",
-    "published": "2026-10-22T14:01:53+00:00",
-    "source": "Al Jazeera",
-    "title": "Attack on Saudi Arabia’s King Fahd airport kills two people",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMktOQVdUcmhmWlhhcHVNQ1laMzRELXBuXzhLMHFqNHdLdEE5TVdmbDR0eXJlT3ZwVjgtQi1KVXNWWm9ReHhsNjhER0phWmxadWdDZDRfWk1xdGNOSWNkUDRSSW1fMC1RNkhCbUJxRTlZTUFoUkYtUGt1Z0tkalVHVWFXSks0N3llZ1g1ZXJWUXpDN2l3MjJFVzlhZVVROWwybnlYMkZWVkdkYkFxTHlGaUQ2Z9IBuAFBVV95cUxObmo4ZHczZ2Fza2VqLS1NUHoxem5hcHVTUXloZnBSeHo5Tk9LUUoxMVpRVGNLYURhanlfb09qcnhRMmtkT3N6bEpObHZwaTJhY0xCWW5oMjI0YWpRNUFnX1VaTkFmb3c4YTUzamdzZUxMVWZ2Yk9oVk1sYmZ1TkdJMXpjQUxFcGFEa0lpVHF4SGdWa0Y0eG9rUG1MeHVKY3VLM2hkUHpPZWJsR0haMUQ5UDhOVmRNcFFE?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-22T23:16:10Z"
+  "last_ok_at": "2026-10-23T04:37:56Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-22T23:16:11Z",
+  "fetched_at": "2026-10-23T04:37:57Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 14,
-  "baseline": 31,
-  "baseline_n": 9,
+  "count": 12,
+  "baseline": 25,
+  "baseline_n": 7,
   "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
@@ -3010,14 +3011,15 @@
    "2026-10-22T10": 15,
    "2026-10-22T15": 12,
    "2026-10-22T19": 17,
-   "2026-10-22T23": 14
+   "2026-10-22T23": 14,
+   "2026-10-23T04": 12
   },
-  "last_ok_at": "2026-10-22T23:16:11Z"
+  "last_ok_at": "2026-10-23T04:37:57Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-22T23:16:11Z",
-  "last_ok_at": "2026-10-22T23:16:11Z"
+  "fetched_at": "2026-10-23T04:37:58Z",
+  "last_ok_at": "2026-10-23T04:37:58Z"
  }
 }
