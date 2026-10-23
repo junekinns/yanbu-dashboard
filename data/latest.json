@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:06:11Z",
+ "generated_at": "2026-10-23T22:04:46Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T19:06:11Z",
+  "fetched_at": "2026-10-23T22:04:46Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-10-23T19:06:11Z"
+  "last_ok_at": "2026-10-23T22:04:46Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T19:06:33Z",
+  "fetched_at": "2026-10-23T22:05:02Z",
   "events": [
    {
     "date": "2026-10-23",
@@ -1004,46 +1004,16 @@
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU25zN2FFaVg4cGJ3NE1FSS1HTE5lejhYS0hHZGhSeEhFTU1rWTU2dXdvYm9ZNmdNSFhQMDJRR0IxOXJieW5QR0gzUnFERG5MOGIyY1JqV3N0OTZlRWExYkdwV3hlVWR5NWd5YWNhM2hGVjR2NVdxblBVZEFSZ1lESkNlSTRZaXZTM3pfUW9uVEFreUhWaHZiR3RMZE04cTB2YnJ1ZkJGYURjSWw3clFMbzdTeEJKUVlVb1JrWg?oc=5",
     "source": "Anadolu",
     "outlets": 1
-   },
-   {
-    "date": "2026-09-23",
-    "time": "06:00",
-    "iso": "2026-09-23T06:00:00+03:00",
-    "city": "송유관",
-    "type": "피격",
-    "weapon": "드론",
-    "lat": null,
-    "lon": null,
-    "title": "사우디, ‘드론 피격’ 동서 송유관 운영 재개…“정상화 6~8주 소요”",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oQk9Ea0RlVTBrcW13X0xwUEF6WjdKSThSSTVETmhxcDVHb3NCa1JMd2Y5Y3BrclBhcXZLcDJERUlRLU5GMXZZZWxFTDF5aEZkODdBX1pmbEJMOTNTYnR1eG9tREhkbEVKcW5pbDVtTGFERlnSAWZBVV95cUxPWEI4UFBpVGVDd2p0S2tqaHZrSV9EcVcwS0tjZ3NUMDlpeW05QnEzT2ZQYk9XTUx6M1p2aVQwaDA4eV9zQU9vMFBqZ3NGYU9IR3laM2VwU01KVm9NSFo3SXc5VUtTM0E?oc=5",
-    "source": "동아일보",
-    "outlets": 2
-   },
-   {
-    "date": "2026-09-23",
-    "time": "05:39",
-    "iso": "2026-09-23T05:39:26+03:00",
-    "city": "메카",
-    "type": "피격",
-    "weapon": null,
-    "lat": 21.39,
-    "lon": 39.86,
-    "title": "사우디 국왕 \"후티 메카 공격은 극악무도한 범죄\" 직접 맹비난",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1iaktFZWRNUjh2OVZSYWI2cWdVclNmbzBld25lQTgxbER4WWhiVzI1eVdNVmpnYloxaE5ucUxvekFQT1R6ZkZUNDBPX0hMNjFTT0ZwRUJtU2FnSHg3YlNNMtIBeEFVX3lxTE9pZ2pseHlsdXNPZEFjZTRPWnNyVFR6bnBZYWlBdEhpREJ2M1JrWVg4aEJ3cTZMcE00OWZPcXkxQlhfLXpYTUNwbFh1Z095c3p1T0hLd1NGRGhjSHRBbHl2dEVmLWtLTUcwOXhYaVR1Vl9xd2tHMThjZA?oc=5",
-    "source": "뉴시스",
-    "outlets": 1
    }
   ],
   "tempo": {
    "얀부": {
-    "7d": {
-     "요격": 1
-    },
-    "total7d": 1,
+    "7d": {},
+    "total7d": 0,
     "prev7d": {
-     "요격": 1
+     "요격": 2
     },
-    "prev_total": 1
+    "prev_total": 2
    },
    "제다": {
     "7d": {
@@ -1099,12 +1069,12 @@
     },
     "total7d": 7,
     "prev7d": {
-     "피격": 7,
+     "피격": 6,
      "경보": 2,
      "요격": 2,
-     "공습": 2
+     "공습": 1
     },
-    "prev_total": 13
+    "prev_total": 11
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1182,14 +1152,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-09-23",
-  "today": "2026-10-23",
-  "last_ok_at": "2026-10-23T19:06:33Z"
+  "history_since": "2026-09-24",
+  "today": "2026-10-24",
+  "last_ok_at": "2026-10-23T22:05:02Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T19:06:34Z",
+  "fetched_at": "2026-10-23T22:05:03Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1852,54 +1822,6 @@
     "text_ar": "ترقبوا الساعة الرابعة عصرا.. مشاهد لاستهداف تحشيدات العدو السعودي في كهبوب والوازعية بطائرات شواظ الإنقضاضية",
     "text_ko": "오후 4시까지 계속 지켜봐 주세요.. 다이빙 비행기로 카부브와 알와지아에 있는 사우디 적의 농도를 겨냥하는 장면",
     "url": "https://t.me/army21ye/3859"
-   },
-   {
-    "time": "2026-10-09 20:27",
-    "iso": "2026-10-09T20:27:13+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 77 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات مأرب وصعدة والجوف وحجة وتعز وعمران وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدنا 1934 غارةً جويةً وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 수도 사나와 마리브, 사다, 알자우프, 하지야, 타이즈, 암란 총독부의 민간 물체를 겨냥한 77회의 공중 및 미사일 공습을 시작했습니다. 사우디아라비아 침략 공습이 1,934건의 공습과 미사일 공습으로 시작되었습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3858"
-   },
-   {
-    "time": "2026-10-09 19:20",
-    "iso": "2026-10-09T19:20:05+03:00",
-    "places": [],
-    "text_ar": "احتشاد شعبنا المليوني في العاصمة #صنعاء وساحات المحافظات رسالة جهوزية واستعداد لخوض المعركة وإسناد القوات المسلحة في طريق واضحة تؤكد أن كل حق لشعبنا لا يملك أحدٌ أن يصادره ولا يستطيع أي كائن أن يمنعه من حقوقه. مليونية \"ثباتا مع فلسطين.. واستنفارا في مواجهة عدوان وحصار وبهتان العدو السعودي\" #صنعاء #ميدان_السبعين http://t.me/army21ye",
-    "text_ko": "수도 # Sana 'a와 주지사 광장에서 백만 명의 사람들을 동원하는 것은 우리 국민의 모든 권리가 몰수될 수 없으며 아무도 그 권리를 막을 수 없다는 것을 확인하는 명확한 방법으로 전투를 싸우고 군대를 지원할 준비와 준비의 메시지입니다. 백만 \"팔레스타인에 대한 꾸준함... 사우디 적의 침략, 포위 공격 및 퇴색에 대한 경계심\" # Sana' a # 70_Square http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3857"
-   },
-   {
-    "time": "2026-10-09 17:31",
-    "iso": "2026-10-09T17:31:43+03:00",
-    "places": [],
-    "text_ar": "تمكنت قواتنا المسلحة بفضل الله وعونه وتأييده _وللمرة الثانية خلال ساعات_ من التصدي وطرد التحشيدات التابعة للعدو السعودي التى حاولت التقدم من جهة لحج باتجاه باب المندب ولم تحرز أي تقدم بفضل الله، وتم استهدافها بعدد كبير من الصواريخ الباليستية و الإسناد المدفعي وبالأسلحة الثقيلة وتدمير أكثر من 22 مدرعة ومصرع وإصابة العشرات بينهم عدد من القادة ووصول أكثر من 30 سيارة إسعاف إلى عدن تنقل القتلى والجرحى …",
-    "text_ko": "하나님의 도움과 지원 덕분에 우리 군대는 사우디 적의 동원에 대항하여 몇 시간 만에 두 번째로 추방 할 수있었습니다. 사우디는 라흐즈 (Lahj) 측면에서 바브 알 만다브 (Bab al-Mandab) 로 진격하려고 시도했지만 하나님 께 진전을 이루지 못했고 많은 수의 탄도 미사일, 포병 지원 및 중화기, 22 개 이상의 장갑차 파괴, 다수의 지휘관을 포함한 수십 명의 사망 및 부상, 30 대 이상의 구급차가 아덴 (Aden) 에 도착하여 사망자와 부상자를 수송했습니다...",
-    "url": "https://t.me/army21ye/3856"
-   },
-   {
-    "time": "2026-10-09 17:02",
-    "iso": "2026-10-09T17:02:46+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "Humanitarian flights to/from Riyadh Airport will be permitted for all flights authorized by the Humanitarian Operations Coordination Center (HOCC) based in the capital, Sana'a. http://t.me/army21ye",
-    "text_ko": "리야드 공항을 오가는 인도주의 항공편은 수도 사나에 위치한 인도주의 운영 조정 센터 (HOCC) 에서 승인한 모든 항공편에 허용됩니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3855"
-   },
-   {
-    "time": "2026-10-09 15:52",
-    "iso": "2026-10-09T15:52:38+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "سيتم السماح للرحلات الإنسانية من وإلى مطار الرياض لجميع الرحلات الحاصلة على تصريح من مركز تنسيق العمليات الإنسانية في العاصمة صنعاء. http://t.me/army21ye",
-    "text_ko": "리야드 공항을 오가는 인도주의 항공편은 수도 사나의 인도주의 조정 센터에서 운항하는 모든 항공편에 허용됩니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3854"
    }
   ],
   "mentions7d": {
@@ -1914,12 +1836,12 @@
    "지잔": 2,
    "메디나": 1
   },
-  "last_ok_at": "2026-10-23T19:06:34Z"
+  "last_ok_at": "2026-10-23T22:05:03Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T19:06:36Z",
+  "fetched_at": "2026-10-23T22:05:03Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2771,26 +2693,26 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-23T19:06:36Z"
+  "last_ok_at": "2026-10-23T22:05:03Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T19:06:39Z",
+  "fetched_at": "2026-10-23T22:05:06Z",
   "kr": [
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T12:32:00+00:00",
-    "source": "KBS",
-    "title": "후티 공격 확대에 아람코 ‘대피령’…이란 드론 전력 과시",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GZm43VEhrM3lHSjNqeDE2TF8xTEtoLXFfQkZqWHEtU3NPSlVnOUtRNGxiM2FBc04yZW5sbXBEZFlDamtxZlJCN0xmd09rNEwycFRPVGNINW1PY1k?oc=5"
-   },
    {
     "date": "2026-10-23",
     "published": "2026-10-23T12:28:06+00:00",
     "source": "연합뉴스",
     "title": "사우디, 미사일 생산시설 확장…중국 기술 가능성",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yUGxYMFdrZnJSN3g1QkxRUEFGX0VHZ3lPS0JmcEpiNC1taGU4UXp0cHhCenF6TlpFS3dFS1hFNEFBRkpqeGFZQWxhUm9wblZWNHFiNWxTV3E3ODDSAWBBVV95cUxQQ0I2S3BydllzdmJYakRGVEVmSm1YU2ZFbUhNelRkQVE2Q21qMVlkMGM0LXd1Y0VhVXMyd1VpOVRfVktlUmdlWnhXZTI0R0JlNG1rR1daUjNVYllYZDFMUXg?oc=5"
+   },
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T06:09:00+00:00",
+    "source": "SBS",
+    "title": "사우디 \"리야드 겨냥 후티 미사일 요격\"",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UZDFDN1VYNFV0ZW40czdEXzRJTTdfcko1VjZnYjc5SjFKcnB4UVZZSVZ3WlZkYnNNd3JCeGkzT0F1aFVuaWE2MkhHOS05Zkx3emFkR09ZN2FfMXdaRS1TUlc5T2o5dw?oc=5"
    },
    {
     "date": "2026-10-23",
@@ -2817,17 +2739,17 @@
   "en": [
    {
     "date": "2026-10-23",
+    "published": "2026-10-23T19:36:58+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5"
+   },
+   {
+    "date": "2026-10-23",
     "published": "2026-10-23T17:08:44+00:00",
     "source": "Reuters",
     "title": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5"
-   },
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T16:35:16+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5"
    },
    {
     "date": "2026-10-23",
@@ -2851,17 +2773,17 @@
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQjl3cmswZEk0bkJkSjRQMF9IbHFIN1VOQ2hSSUVCVVl0VUFhY2otWEcyeUZGNGV4R2hFRWR5TEh4dlNiMXFzQnRCc2dpcVEzanprWmFnNHRaZUZ6VDMzT1B5MnNOaWdRVU1vUXUxaEVZWEJ3QjdaaFJEcTdGTkEtUE5SUWE1cXE0ZEs3T1ptTGRkMWRwUy1jMw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-23T19:06:39Z"
+  "last_ok_at": "2026-10-23T22:05:06Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T19:06:40Z",
+  "fetched_at": "2026-10-23T22:05:08Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 10,
-  "baseline": 37,
-  "baseline_n": 7,
-  "tier": "끊김",
+  "count": 13,
+  "baseline": 32.5,
+  "baseline_n": 12,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3046,14 +2968,15 @@
    "2026-10-23T04": 12,
    "2026-10-23T09": 17,
    "2026-10-23T14": 14,
-   "2026-10-23T19": 10
+   "2026-10-23T19": 10,
+   "2026-10-23T22": 13
   },
-  "last_ok_at": "2026-10-23T19:06:40Z"
+  "last_ok_at": "2026-10-23T22:05:08Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-23T19:06:40Z",
-  "last_ok_at": "2026-10-23T19:06:40Z"
+  "fetched_at": "2026-10-23T22:05:08Z",
+  "last_ok_at": "2026-10-23T22:05:08Z"
  }
 }
