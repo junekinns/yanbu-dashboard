@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T10:49:15Z",
+ "generated_at": "2026-10-24T14:27:00Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T10:49:15Z",
+  "fetched_at": "2026-10-24T14:27:00Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,41 @@
   "last7d": 3,
   "baseline": 3.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-24T10:49:15Z"
+  "last_ok_at": "2026-10-24T14:27:00Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T10:49:31Z",
+  "fetched_at": "2026-10-24T14:27:19Z",
   "events": [
+   {
+    "date": "2026-10-24",
+    "time": "12:14",
+    "iso": "2026-10-24T12:14:00+03:00",
+    "city": "얀부",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNURFRks1UnpnOFRlWFRQM1hLbENHTS1NZmg3ajBEc04wMTByampsNnpyTW1HcFJKZktzZzVZTHV3WUdHTndFSjNBYW1GZTg1NUpUYllxMWNMV2lIR0NZUE85YVRCRUZOUGsxcW1kTWdycDZJM3owaE1IUWVJb01veDRGQnh5eUpxallKSEV2dzVTNUE0SkFnN2NlbHhsclBRaDhEUVhWbWlXa0hLR3VmUGRQRzk0NDlkaUhESVhiSVhINXdL?oc=5",
+    "source": "Middle East Eye",
+    "outlets": 1
+   },
+   {
+    "date": "2026-10-24",
+    "time": "10:44",
+    "iso": "2026-10-24T10:44:00+03:00",
+    "city": "얀부",
+    "type": "경보",
+    "weapon": "미사일",
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "Saudi intercepts two missiles aimed at Taif and Yanbu, alerts issued in Mecca and Jeddah",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTHlwU3hpenhQQWUxbDFkN25VOWNzb2V0bXpETjEzS0liM1JueWtUWVRkdlhLT015dGVmMkNUVWt3azkwVlhGaF9lbkRkRTR6STBTQWxRS012Z0M4R3pTei1BSDBXclA1VEY0NnhSTWZfNjlGMThBb2pVUldYcXdvYUhyYktSdG1rTWVDUkdHLUpidW1pU1hDRTEtaVYzM3BDcU5KMExrZzNONWctVWQyZkpOMlplN213X1dkY0ZzemZyMnBfcE1MekVDQdIB0AFBVV95cUxNeU13N1BzRTQ0X3lTdGl4cG9xeXZIa042dE0tZUlzUUVWbmotM3o3Ui1CUXBXYjFPOFJ6bk9kaGdiWGYzcmJHOW9FdmNoS3M3X0I4YXZPWjZKY2tiVElNa19ZMVRHNXJ4dlBubndoX2loLWx1ZWFVWlhRb3REV1l0cnlUR2dxLXN3Ylg3ZVdXdU9zejVPb0psUGVKbVJzeW42MnJMTEpXV0RMQlUxQWl6RzFmSTBoWHRqRC1XaUh4NlBTamJfNzZ0YUNsZWhPMWhD?oc=5",
+    "source": "Al Arabiya",
+    "outlets": 1
+   },
    {
     "date": "2026-10-24",
     "time": "01:30",
@@ -1022,8 +1050,11 @@
   ],
   "tempo": {
    "얀부": {
-    "7d": {},
-    "total7d": 0,
+    "7d": {
+     "요격": 1,
+     "경보": 1
+    },
+    "total7d": 2,
     "prev7d": {
      "요격": 2
     },
@@ -1168,12 +1199,12 @@
   "history_days": 31,
   "history_since": "2026-09-24",
   "today": "2026-10-24",
-  "last_ok_at": "2026-10-24T10:49:31Z"
+  "last_ok_at": "2026-10-24T14:27:19Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T10:49:32Z",
+  "fetched_at": "2026-10-24T14:27:20Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1842,20 +1873,20 @@
    "카미스무샤이트": 8,
    "나즈란": 5,
    "리야드": 5,
-   "아브하": 5,
    "얀부": 5,
+   "아브하": 5,
    "타이프": 3,
    "샤이바 유전": 3,
    "담맘": 2,
    "지잔": 2,
    "메디나": 1
   },
-  "last_ok_at": "2026-10-24T10:49:32Z"
+  "last_ok_at": "2026-10-24T14:27:20Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T10:49:33Z",
+  "fetched_at": "2026-10-24T14:27:21Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2099,14 +2130,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 22.55487,
-    "lon": 39.43352,
-    "frp": 1.1,
-    "date": "2026-10-19",
-    "time": "0005",
-    "confidence": "nominal"
-   },
-   {
     "lat": 22.09035,
     "lon": 39.29631,
     "frp": 3.25,
@@ -2230,14 +2253,6 @@
     "lat": 22.66914,
     "lon": 39.03899,
     "frp": 2.12,
-    "date": "2026-10-19",
-    "time": "2344",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.55612,
-    "lon": 39.43407,
-    "frp": 2.53,
     "date": "2026-10-19",
     "time": "2344",
     "confidence": "nominal"
@@ -2563,14 +2578,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 22.55251,
-    "lon": 39.43491,
-    "frp": 1.03,
-    "date": "2026-10-21",
-    "time": "2307",
-    "confidence": "nominal"
-   },
-   {
     "lat": 21.28984,
     "lon": 39.1821,
     "frp": 1.27,
@@ -2662,14 +2669,6 @@
     "lat": 22.66957,
     "lon": 39.03566,
     "frp": 2.97,
-    "date": "2026-10-22",
-    "time": "2248",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.55549,
-    "lon": 39.43463,
-    "frp": 2.66,
     "date": "2026-10-22",
     "time": "2248",
     "confidence": "nominal"
@@ -2817,15 +2816,78 @@
     "date": "2026-10-23",
     "time": "2231",
     "confidence": "nominal"
+   },
+   {
+    "lat": 23.68724,
+    "lon": 47.56606,
+    "frp": 6.49,
+    "date": "2026-10-24",
+    "time": "0941",
+    "confidence": "low"
+   },
+   {
+    "lat": 23.68619,
+    "lon": 47.56092,
+    "frp": 6.49,
+    "date": "2026-10-24",
+    "time": "0941",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.78294,
+    "lon": 49.95312,
+    "frp": 2.07,
+    "date": "2026-10-24",
+    "time": "0941",
+    "confidence": "low"
+   },
+   {
+    "lat": 17.28502,
+    "lon": 43.10251,
+    "frp": 2.58,
+    "date": "2026-10-24",
+    "time": "1121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.30931,
+    "lon": 39.30264,
+    "frp": 1.3,
+    "date": "2026-10-24",
+    "time": "1121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.99999,
+    "lon": 38.23566,
+    "frp": 3.52,
+    "date": "2026-10-24",
+    "time": "1121",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.99676,
+    "lon": 38.23341,
+    "frp": 4.53,
+    "date": "2026-10-24",
+    "time": "1121",
+    "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-24T10:49:33Z"
+  "last_ok_at": "2026-10-24T14:27:21Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T10:49:36Z",
+  "fetched_at": "2026-10-24T14:27:22Z",
   "kr": [
+   {
+    "date": "2026-10-24",
+    "published": "2026-10-24T14:00:37+00:00",
+    "source": "MBC",
+    "title": "후티 반군, 사우디 주요 거점 연쇄 타격‥사우디도 보복공습",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85RjNadzRyWHFzZmxOcVdHNW1SYjZXcnBXaFRVaUVRYnBWNDY4eWN3VEVEQUFQVFU1X1EwMFFsa3VScDR6V3M5VE9oZ3g5Q3BUdjk5RkJrOHJ2c1ZDcTZycDR1TkJ0S2k0WmVUYktZYkdjeDNJ0gF0QVVfeXFMUEg3bk1jdTRsR0Y5djFYdndmcElUSndKM21MZjgyem5nYU5wU3JpejQtdWhkRU9fdFRhZzNDTTNBeVlkQnRES1VibjYxMTdnd25WS1FYMXFQanhPYkhWWlo4YlI1em9tMUJqczB4WUNGQ3Z4ZEo?oc=5"
+   },
    {
     "date": "2026-10-23",
     "published": "2026-10-23T12:28:06+00:00",
@@ -2853,22 +2915,15 @@
     "source": "KBS",
     "title": "후티 “사우디 국방부 등 4곳 공격”…아람코 등 대피 명령",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fXzVfMFFNMlJIZzhSYWlzQjFpOWE5c0ZHNW1qYXpXeGs5MEVydTQ5cXRod3h6SWNCV1JLazVHaVNwUGxMQ25XcnNLRGhhV3Z1Rlc0QS1UTVhDcnM?oc=5"
-   },
-   {
-    "date": "2026-10-22",
-    "published": "2026-10-22T22:22:22+00:00",
-    "source": "MBC",
-    "title": "[이 시각 세계] 공항 이어 석유시설까지‥후티 \"사우디 4곳 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ndGd0b0xiMHdrZGJlU0VKT1pxcHNSQ2FJWkdscWFjTzFSSmJqX3dEV2wzUy1tLTB5c3pnY0tsRWtUX0h0QWRLQ05sSmhheHppQlprZ0FNUGNaczhEdEdickhNUEN0R28wNHM5YnRVZTdlTW9qcGpHb0hn0gF6QVVfeXFMTklGcUQ5MTZBWUYzMW8tbVVpYWpkSHVvNkVDSWYzazFvTnVuQS1Xekh5SXBMX1MxTVdYanZhSnZTM0NUQ2lrRWctdUhIZUkzWXFlQzZvVnBWVXJIQTBNaWNRcEl4S19xbkxxcXVlODl4R3RSVEJtS3U3Mmc?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-24",
-    "published": "2026-10-24T10:48:37+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5"
+    "published": "2026-10-24T12:55:46+00:00",
+    "source": "CNBC",
+    "title": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnplZnBmb0pfZm12b042LXpOODd4bjJidUc3bHM1ZXVhTjlOazJ2TUdnODRGLVM3Q3UzdVhmV0tVanRDRzdqQ1RWWmVzTlRrYTlTZUZJQXFyRk1LNTJTOEtmQTh3ZlhrNUMzSWxEWXZvRmNSZTRYcjRXaDNYREtSS0lhWlJkYU9YWExGLUpvZWtEcGNrQ1Bwd3VjU0RaVUJpNXVjZXRB0gGrAUFVX3lxTE9vVVY2LUFSTFhBQ3EwelZMYVhfdV82eEFtVXJPN2NzUko1U3hUS1FlWWp2MkZSa1pBOW93NEVQcmtiNVotMDBrUzhEallFeHlwVkoyOEZJQkFGNDN2aUJwYnhtN1lJRUZFUzZGZG1ZcWdfRWgxNFY0VU9RVUpnckpYbklSSFBYUmxzQXptd3NOWmJIUDF3d1dyR0lEWmhVVFBFbTZUeVJkaEhyZw?oc=5"
    },
    {
     "date": "2026-10-23",
@@ -2896,20 +2951,20 @@
     "published": "2026-10-23T03:46:00+00:00",
     "source": "CNBC",
     "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZXNVSlBwWFg5VWNYVmZfeUVhaHNCa2JvMHc4bEtqSjhpbTJhaHA2dTJ6RVlMWUt0VkdKWGhzcGdURVN0OENGMXF3V0xjLXh1Tm14QlJHSi1OMkdUUENHT1UyOUtCdTVVbG4wd2FDUFc0LWlTMEpUM2lNYUQtRnBTdkxHMmhRUW9EQjR5T3VvMjhrYXFGVVk5WVpWaFZMbUt1S0NBOENORDdZOUJKR2FUOWNUVEw4ZWFocE51dEdB0gG-AUFVX3lxTE1lc1VKUHBYWDlVY1hWZl95RWFoc0JrYm8wdzhsS2pKOGltMmFocDZ1MnpFWUxZS3RWR0pYaHNwZ1RFU3Q4Q0YxcXdXTGMteHVObXhCUkdKLU4yR1RQQ0dPVTI5S0J1NVVsbjB3YUNQVzQtaVMwSlQzaU1hRC1GcFN2TEcyaFFRb0RCNHlPdW8yOGthcUZVWTlZWlZoVkxtS3VLQ0E4Q05EN1k5QkpHYVQ5Y1RUTDhlYWhwTnV0R0E?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZHcXQtZDkyLVVrN3lPTWFDdEVROFZZbndSMWVyTmRRVFlqTXJDVmtZUGNoYUlZb3hlUGg1ZlRqcWw4UHBTdGtoazBtMVdVTEs0Q3JxZW9Gd18ycENaYjFyV1E3cFdETkRYNVNKSmtwOVc5eWYwaUREel80Y0x1RVZGWWFKbWRWR2lELUxKUnhnMV95WElaVnhZVE9za0RCbENxYzBNQVltZlJYWDgwdUQ4OFg3WFhP0gG-AUFVX3lxTE1lc1VKUHBYWDlVY1hWZl95RWFoc0JrYm8wdzhsS2pKOGltMmFocDZ1MnpFWUxZS3RWR0pYaHNwZ1RFU3Q4Q0YxcXdXTGMteHVObXhCUkdKLU4yR1RQQ0dPVTI5S0J1NVVsbjB3YUNQVzQtaVMwSlQzaU1hRC1GcFN2TEcyaFFRb0RCNHlPdW8yOGthcUZVWTlZWlZoVkxtS3VLQ0E4Q05EN1k5QkpHYVQ5Y1RUTDhlYWhwTnV0R0E?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-24T10:49:36Z"
+  "last_ok_at": "2026-10-24T14:27:22Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T10:49:37Z",
+  "fetched_at": "2026-10-24T14:27:23Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 24,
-  "baseline": 32,
-  "baseline_n": 5,
-  "tier": "정상",
+  "count": 15,
+  "baseline": 37,
+  "baseline_n": 7,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3098,14 +3153,15 @@
    "2026-10-23T22": 13,
    "2026-10-24T00": 12,
    "2026-10-24T05": 10,
-   "2026-10-24T10": 24
+   "2026-10-24T10": 24,
+   "2026-10-24T14": 15
   },
-  "last_ok_at": "2026-10-24T10:49:37Z"
+  "last_ok_at": "2026-10-24T14:27:23Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-24T10:49:37Z",
-  "last_ok_at": "2026-10-24T10:49:37Z"
+  "fetched_at": "2026-10-24T14:27:24Z",
+  "last_ok_at": "2026-10-24T14:27:24Z"
  }
 }
