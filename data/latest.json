@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T22:04:46Z",
+ "generated_at": "2026-10-24T00:35:23Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T22:04:46Z",
+  "fetched_at": "2026-10-24T00:35:23Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,14 +184,14 @@
    }
   ],
   "last7d": 3,
-  "baseline": 3.5,
+  "baseline": 3.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-23T22:04:46Z"
+  "last_ok_at": "2026-10-24T00:35:23Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T22:05:02Z",
+  "fetched_at": "2026-10-24T00:35:40Z",
   "events": [
    {
     "date": "2026-10-23",
@@ -1154,12 +1154,12 @@
   "history_days": 31,
   "history_since": "2026-09-24",
   "today": "2026-10-24",
-  "last_ok_at": "2026-10-23T22:05:02Z"
+  "last_ok_at": "2026-10-24T00:35:40Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T22:05:03Z",
+  "fetched_at": "2026-10-24T00:35:41Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1827,8 +1827,8 @@
   "mentions7d": {
    "카미스무샤이트": 8,
    "나즈란": 5,
-   "얀부": 5,
    "리야드": 5,
+   "얀부": 5,
    "아브하": 5,
    "타이프": 3,
    "샤이바 유전": 3,
@@ -1836,12 +1836,12 @@
    "지잔": 2,
    "메디나": 1
   },
-  "last_ok_at": "2026-10-23T22:05:03Z"
+  "last_ok_at": "2026-10-24T00:35:41Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T22:05:03Z",
+  "fetched_at": "2026-10-24T00:35:41Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2693,12 +2693,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-23T22:05:03Z"
+  "last_ok_at": "2026-10-24T00:35:41Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T22:05:06Z",
+  "fetched_at": "2026-10-24T00:35:44Z",
   "kr": [
    {
     "date": "2026-10-23",
@@ -2739,13 +2739,6 @@
   "en": [
    {
     "date": "2026-10-23",
-    "published": "2026-10-23T19:36:58+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5"
-   },
-   {
-    "date": "2026-10-23",
     "published": "2026-10-23T17:08:44+00:00",
     "source": "Reuters",
     "title": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says",
@@ -2771,19 +2764,26 @@
     "source": "Bloomberg",
     "title": "Watch Saudi Aramco Said to Order HQ Evacuation, Oil Prices Set for Weekly Gain",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQjl3cmswZEk0bkJkSjRQMF9IbHFIN1VOQ2hSSUVCVVl0VUFhY2otWEcyeUZGNGV4R2hFRWR5TEh4dlNiMXFzQnRCc2dpcVEzanprWmFnNHRaZUZ6VDMzT1B5MnNOaWdRVU1vUXUxaEVZWEJ3QjdaaFJEcTdGTkEtUE5SUWE1cXE0ZEs3T1ptTGRkMWRwUy1jMw?oc=5"
+   },
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T03:46:00+00:00",
+    "source": "CNBC",
+    "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZHcXQtZDkyLVVrN3lPTWFDdEVROFZZbndSMWVyTmRRVFlqTXJDVmtZUGNoYUlZb3hlUGg1ZlRqcWw4UHBTdGtoazBtMVdVTEs0Q3JxZW9Gd18ycENaYjFyV1E3cFdETkRYNVNKSmtwOVc5eWYwaUREel80Y0x1RVZGWWFKbWRWR2lELUxKUnhnMV95WElaVnhZVE9za0RCbENxYzBNQVltZlJYWDgwdUQ4OFg3WFhP0gG-AUFVX3lxTE1lc1VKUHBYWDlVY1hWZl95RWFoc0JrYm8wdzhsS2pKOGltMmFocDZ1MnpFWUxZS3RWR0pYaHNwZ1RFU3Q4Q0YxcXdXTGMteHVObXhCUkdKLU4yR1RQQ0dPVTI5S0J1NVVsbjB3YUNQVzQtaVMwSlQzaU1hRC1GcFN2TEcyaFFRb0RCNHlPdW8yOGthcUZVWTlZWlZoVkxtS3VLQ0E4Q05EN1k5QkpHYVQ5Y1RUTDhlYWhwTnV0R0E?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-23T22:05:06Z"
+  "last_ok_at": "2026-10-24T00:35:44Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-23T22:05:08Z",
+  "fetched_at": "2026-10-24T00:35:45Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 13,
-  "baseline": 32.5,
+  "count": 12,
+  "baseline": 40.5,
   "baseline_n": 12,
-  "tier": "감소",
+  "tier": "끊김",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -2969,14 +2969,15 @@
    "2026-10-23T09": 17,
    "2026-10-23T14": 14,
    "2026-10-23T19": 10,
-   "2026-10-23T22": 13
+   "2026-10-23T22": 13,
+   "2026-10-24T00": 12
   },
-  "last_ok_at": "2026-10-23T22:05:08Z"
+  "last_ok_at": "2026-10-24T00:35:45Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-23T22:05:08Z",
-  "last_ok_at": "2026-10-23T22:05:08Z"
+  "fetched_at": "2026-10-24T00:35:46Z",
+  "last_ok_at": "2026-10-24T00:35:46Z"
  }
 }
