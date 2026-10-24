@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T18:03:47Z",
+ "generated_at": "2026-10-24T20:41:48Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T18:03:47Z",
+  "fetched_at": "2026-10-24T20:41:48Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 3,
   "baseline": 3.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-24T18:03:47Z"
+  "last_ok_at": "2026-10-24T20:41:48Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T18:04:06Z",
+  "fetched_at": "2026-10-24T20:42:08Z",
   "events": [
+   {
+    "date": "2026-10-24",
+    "time": "20:39",
+    "iso": "2026-10-24T20:39:19+03:00",
+    "city": "제다",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 21.49,
+    "lon": 39.19,
+    "title": "Debris falls in Makkah, Jeddah, Taif, after interception of Houthi missiles",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb19fbEZVQUZSeHYxMm1sVXJxNnpPMk4tWXBDejM2R0hfbDBfaXg0clp6NS1pbnE2dG9yNGFaVVB0VU1IVWlSQzV4cXN0MWVma0xkY2I5YmVjYVlsc2FtOFJmY19oVjQ1VGRKYU9iNXhZWkt4NDc5cEVnMG5RR1Z0UHpOT3lBQU1rZ20xVzJHcWtPRmJ0LWJYWHAtNHpLSGVhejY2UXBwaUM2NVNfT3NNUV9VUzBNSm1Hc0E?oc=5",
+    "source": "Arab News",
+    "outlets": 1
+   },
    {
     "date": "2026-10-24",
     "time": "20:05",
@@ -1076,9 +1090,10 @@
    },
    "제다": {
     "7d": {
+     "요격": 1,
      "피격": 1
     },
-    "total7d": 1,
+    "total7d": 2,
     "prev7d": {
      "피격": 2
     },
@@ -1213,12 +1228,12 @@
   "history_days": 31,
   "history_since": "2026-09-24",
   "today": "2026-10-24",
-  "last_ok_at": "2026-10-24T18:04:06Z"
+  "last_ok_at": "2026-10-24T20:42:08Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T18:04:07Z",
+  "fetched_at": "2026-10-24T20:42:09Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1935,8 +1950,8 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 9,
-   "리야드": 7,
    "얀부": 7,
+   "리야드": 7,
    "나즈란": 6,
    "아브하": 5,
    "담맘": 4,
@@ -1948,12 +1963,12 @@
    "메카": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-24T18:04:07Z"
+  "last_ok_at": "2026-10-24T20:42:09Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T18:04:15Z",
+  "fetched_at": "2026-10-24T20:42:09Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2941,12 +2956,12 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-24T18:04:15Z"
+  "last_ok_at": "2026-10-24T20:42:09Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T18:04:16Z",
+  "fetched_at": "2026-10-24T20:42:12Z",
   "kr": [
    {
     "date": "2026-10-24",
@@ -3008,30 +3023,30 @@
    },
    {
     "date": "2026-10-23",
+    "published": "2026-10-23T22:33:45+00:00",
+    "source": "Reuters",
+    "title": "Oil prices jump $3 on Houthi attacks, oil spill, highest settlement since April",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
+   },
+   {
+    "date": "2026-10-23",
     "published": "2026-10-23T17:08:44+00:00",
     "source": "Reuters",
     "title": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5"
-   },
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T10:44:31+00:00",
-    "source": "Reuters",
-    "title": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-24T18:04:16Z"
+  "last_ok_at": "2026-10-24T20:42:12Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T18:04:18Z",
+  "fetched_at": "2026-10-24T20:42:13Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 9,
-  "baseline": 30,
-  "baseline_n": 11,
-  "tier": "끊김",
+  "count": 13,
+  "baseline": 26.0,
+  "baseline_n": 10,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3222,14 +3237,15 @@
    "2026-10-24T05": 10,
    "2026-10-24T10": 24,
    "2026-10-24T14": 15,
-   "2026-10-24T18": 9
+   "2026-10-24T18": 9,
+   "2026-10-24T20": 13
   },
-  "last_ok_at": "2026-10-24T18:04:18Z"
+  "last_ok_at": "2026-10-24T20:42:13Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-24T18:04:18Z",
-  "last_ok_at": "2026-10-24T18:04:18Z"
+  "fetched_at": "2026-10-24T20:42:13Z",
+  "last_ok_at": "2026-10-24T20:42:13Z"
  }
 }
