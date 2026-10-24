@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T05:42:10Z",
+ "generated_at": "2026-10-24T10:49:15Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T05:42:10Z",
+  "fetched_at": "2026-10-24T10:49:15Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 3.0,
   "tier": "평시",
-  "last_ok_at": "2026-10-24T05:42:10Z"
+  "last_ok_at": "2026-10-24T10:49:15Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T05:42:28Z",
+  "fetched_at": "2026-10-24T10:49:31Z",
   "events": [
    {
     "date": "2026-10-24",
@@ -1168,12 +1168,12 @@
   "history_days": 31,
   "history_since": "2026-09-24",
   "today": "2026-10-24",
-  "last_ok_at": "2026-10-24T05:42:28Z"
+  "last_ok_at": "2026-10-24T10:49:31Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T05:42:29Z",
+  "fetched_at": "2026-10-24T10:49:32Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1841,21 +1841,21 @@
   "mentions7d": {
    "카미스무샤이트": 8,
    "나즈란": 5,
-   "얀부": 5,
-   "아브하": 5,
    "리야드": 5,
+   "아브하": 5,
+   "얀부": 5,
    "타이프": 3,
    "샤이바 유전": 3,
    "담맘": 2,
    "지잔": 2,
    "메디나": 1
   },
-  "last_ok_at": "2026-10-24T05:42:29Z"
+  "last_ok_at": "2026-10-24T10:49:32Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T05:42:29Z",
+  "fetched_at": "2026-10-24T10:49:33Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2819,12 +2819,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-24T05:42:29Z"
+  "last_ok_at": "2026-10-24T10:49:33Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T05:42:33Z",
+  "fetched_at": "2026-10-24T10:49:36Z",
   "kr": [
    {
     "date": "2026-10-23",
@@ -2848,34 +2848,27 @@
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1TnhZY1BnMTJqVHJZMVFmenBmMjA4ZlVfRElsRFlKa3lZWHExTFFTY1Rsa3pzbFlURVI5UGpWZ2R3TkJKNkF5RU94cDlCMlNyNlBBZHJJNXZHWDlpZVhnTmFmcXAwejQ?oc=5"
    },
    {
-    "date": "2026-10-22",
-    "published": "2026-10-22T21:11:00+00:00",
+    "date": "2026-10-23",
+    "published": "2026-10-23T03:22:00+00:00",
     "source": "KBS",
     "title": "후티 “사우디 국방부 등 4곳 공격”…아람코 등 대피 명령",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nei03UXY4Mng4NVRJbjVPZmc1WXQ2NGZMTmVoS0lVc1dDZmtGV3ZaeGtmRE9SWG1jSE1sMURucFBEM3ZBYXZTUmQwLXliYzVlZnROeTNWdWk0OUk?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fXzVfMFFNMlJIZzhSYWlzQjFpOWE5c0ZHNW1qYXpXeGs5MEVydTQ5cXRod3h6SWNCV1JLazVHaVNwUGxMQ25XcnNLRGhhV3Z1Rlc0QS1UTVhDcnM?oc=5"
    },
    {
     "date": "2026-10-22",
-    "published": "2026-10-22T21:05:00+00:00",
-    "source": "YTN",
-    "title": "후티 \"사우디 국방부 등 4곳 타격\"...아람코 본사 건물 대피령",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wUE9lOXpQbGhXelQ3NmpEQW0yMkUwVjRXWl9VMVp6X1FCdjVHRkRualBqcFdOZEdTRS12dmVLVUVJZ0tkY1B2WnlQeWVDd3R2V2NkTUdxWGRxb2JzZEE?oc=5"
+    "published": "2026-10-22T22:22:22+00:00",
+    "source": "MBC",
+    "title": "[이 시각 세계] 공항 이어 석유시설까지‥후티 \"사우디 4곳 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ndGd0b0xiMHdrZGJlU0VKT1pxcHNSQ2FJWkdscWFjTzFSSmJqX3dEV2wzUy1tLTB5c3pnY0tsRWtUX0h0QWRLQ05sSmhheHppQlprZ0FNUGNaczhEdEdickhNUEN0R28wNHM5YnRVZTdlTW9qcGpHb0hn0gF6QVVfeXFMTklGcUQ5MTZBWUYzMW8tbVVpYWpkSHVvNkVDSWYzazFvTnVuQS1Xekh5SXBMX1MxTVdYanZhSnZTM0NUQ2lrRWctdUhIZUkzWXFlQzZvVnBWVXJIQTBNaWNRcEl4S19xbkxxcXVlODl4R3RSVEJtS3U3Mmc?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-24",
-    "published": "2026-10-24T04:48:37+00:00",
+    "published": "2026-10-24T10:48:37+00:00",
     "source": "The National",
     "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5"
-   },
-   {
-    "date": "2026-10-24",
-    "published": "2026-10-24T01:39:30+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Saudi-led coalition intercepts wave of overnight attacks",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbGlZSGtHQXg4UjIzanpId3ViZ1RxS25adzVXLUM0cU9KdUwzSDJsOTduTENaN201SjVFd09IZGJUTmpRMDcwYWJZc1BBTGpXWDRuNTBSbWhZWWU3LUxOdkc4QlNTeXhmVUdEcTB6czBvQ3NwMkFMelZTbEY2NHFLRi1LRkU0RTk2WGRhblhjY0VQQQ?oc=5"
    },
    {
     "date": "2026-10-23",
@@ -2886,30 +2879,37 @@
    },
    {
     "date": "2026-10-23",
-    "published": "2026-10-23T13:06:54+00:00",
-    "source": "Arab News",
-    "title": "Coalition air defenses down missiles bound for Riyadh, Khamis Mushait amid ongoing Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSmlfSUVJUXZKd0Y2WTQ0TEpaQnk1cFBlYzZ4dGZqYnBQMG9tcXY3RkRGOXdyQTZlUXEyRWFTQzNQV1BOWlhFX0dLRlQ1Z2N3c1docTMxa2Q0RHBZQlJtVE8tQmhZVVFUMXdJTFBXbVBrUklWdVBkTVloR2RTY3ZhcExtY1lWc0FfenVsQmxpNDJhajJ2a3ZFdmppUkJTbjhTaE5GVHNnSm1JeWVibmE5NTBBY3ZUUkJ6ejFSY1NXQXdFcENDN3RJWF9OblphSEJWa1hweUt2LVRqZw?oc=5"
-   },
-   {
-    "date": "2026-10-23",
     "published": "2026-10-23T10:44:31+00:00",
     "source": "Reuters",
     "title": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5"
+   },
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T07:01:38+00:00",
+    "source": "Bloomberg",
+    "title": "Watch Saudi Aramco Said to Order HQ Evacuation, Oil Prices Set for Weekly Gain",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQjl3cmswZEk0bkJkSjRQMF9IbHFIN1VOQ2hSSUVCVVl0VUFhY2otWEcyeUZGNGV4R2hFRWR5TEh4dlNiMXFzQnRCc2dpcVEzanprWmFnNHRaZUZ6VDMzT1B5MnNOaWdRVU1vUXUxaEVZWEJ3QjdaaFJEcTdGTkEtUE5SUWE1cXE0ZEs3T1ptTGRkMWRwUy1jMw?oc=5"
+   },
+   {
+    "date": "2026-10-23",
+    "published": "2026-10-23T03:46:00+00:00",
+    "source": "CNBC",
+    "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZXNVSlBwWFg5VWNYVmZfeUVhaHNCa2JvMHc4bEtqSjhpbTJhaHA2dTJ6RVlMWUt0VkdKWGhzcGdURVN0OENGMXF3V0xjLXh1Tm14QlJHSi1OMkdUUENHT1UyOUtCdTVVbG4wd2FDUFc0LWlTMEpUM2lNYUQtRnBTdkxHMmhRUW9EQjR5T3VvMjhrYXFGVVk5WVpWaFZMbUt1S0NBOENORDdZOUJKR2FUOWNUVEw4ZWFocE51dEdB0gG-AUFVX3lxTE1lc1VKUHBYWDlVY1hWZl95RWFoc0JrYm8wdzhsS2pKOGltMmFocDZ1MnpFWUxZS3RWR0pYaHNwZ1RFU3Q4Q0YxcXdXTGMteHVObXhCUkdKLU4yR1RQQ0dPVTI5S0J1NVVsbjB3YUNQVzQtaVMwSlQzaU1hRC1GcFN2TEcyaFFRb0RCNHlPdW8yOGthcUZVWTlZWlZoVkxtS3VLQ0E4Q05EN1k5QkpHYVQ5Y1RUTDhlYWhwTnV0R0E?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-24T05:42:33Z"
+  "last_ok_at": "2026-10-24T10:49:36Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T05:42:34Z",
+  "fetched_at": "2026-10-24T10:49:37Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 10,
-  "baseline": 24,
+  "count": 24,
+  "baseline": 32,
   "baseline_n": 5,
-  "tier": "감소",
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3097,14 +3097,15 @@
    "2026-10-23T19": 10,
    "2026-10-23T22": 13,
    "2026-10-24T00": 12,
-   "2026-10-24T05": 10
+   "2026-10-24T05": 10,
+   "2026-10-24T10": 24
   },
-  "last_ok_at": "2026-10-24T05:42:34Z"
+  "last_ok_at": "2026-10-24T10:49:37Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-24T05:42:34Z",
-  "last_ok_at": "2026-10-24T05:42:34Z"
+  "fetched_at": "2026-10-24T10:49:37Z",
+  "last_ok_at": "2026-10-24T10:49:37Z"
  }
 }
