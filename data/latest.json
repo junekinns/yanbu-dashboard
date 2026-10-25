@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T23:06:29Z",
+ "generated_at": "2026-10-25T01:05:24Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T23:06:29Z",
+  "fetched_at": "2026-10-25T01:05:24Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,14 +184,14 @@
    }
   ],
   "last7d": 3,
-  "baseline": 3.0,
+  "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-10-24T23:06:29Z"
+  "last_ok_at": "2026-10-25T01:05:24Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T23:06:48Z",
+  "fetched_at": "2026-10-25T01:05:42Z",
   "events": [
    {
     "date": "2026-10-25",
@@ -205,7 +205,7 @@
     "title": "후티 반군 \"사우디 수도 리야드 공항·동서 송유관 등 타격\"",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBySjNXbnMtU1B1bHBsei0xTjV4dzFRWG1LQ212QWt1NjRwdmN0SXU3U1NtOGd3NUY1cHBWUUF1bWFSNG1JbFFxZi1KQjk4bHlTXzZUQUV4Mlk3VHR5OTB1aEtlZDgxUQ?oc=5",
     "source": "SBS",
-    "outlets": 1
+    "outlets": 3
    },
    {
     "date": "2026-10-24",
@@ -1186,12 +1186,12 @@
   "history_days": 31,
   "history_since": "2026-09-25",
   "today": "2026-10-25",
-  "last_ok_at": "2026-10-24T23:06:48Z"
+  "last_ok_at": "2026-10-25T01:05:42Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T23:06:50Z",
+  "fetched_at": "2026-10-25T01:05:43Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1907,12 +1907,12 @@
    "메카": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-24T23:06:50Z"
+  "last_ok_at": "2026-10-25T01:05:43Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T23:06:52Z",
+  "fetched_at": "2026-10-25T01:05:44Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2084,22 +2084,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 27.1919,
-    "lon": 49.14212,
-    "frp": 2.59,
-    "date": "2026-10-18",
-    "time": "2222",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.19063,
-    "lon": 49.14078,
-    "frp": 2.19,
-    "date": "2026-10-18",
-    "time": "2222",
-    "confidence": "nominal"
-   },
-   {
     "lat": 26.15728,
     "lon": 50.66841,
     "frp": 3.53,
@@ -2161,14 +2145,6 @@
     "frp": 3.25,
     "date": "2026-10-19",
     "time": "1115",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.18919,
-    "lon": 49.1427,
-    "frp": 2.11,
-    "date": "2026-10-19",
-    "time": "2201",
     "confidence": "nominal"
    },
    {
@@ -2756,22 +2732,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 27.19333,
-    "lon": 49.14369,
-    "frp": 1.48,
-    "date": "2026-10-23",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.18977,
-    "lon": 49.14309,
-    "frp": 1.84,
-    "date": "2026-10-23",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
     "lat": 27.13201,
     "lon": 49.20358,
     "frp": 1.05,
@@ -2898,28 +2858,59 @@
     "date": "2026-10-24",
     "time": "1121",
     "confidence": "low"
+   },
+   {
+    "lat": 27.07568,
+    "lon": 49.57225,
+    "frp": 2.31,
+    "date": "2026-10-24",
+    "time": "2208",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.69006,
+    "lon": 47.56118,
+    "frp": 3.26,
+    "date": "2026-10-24",
+    "time": "2210",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 23.68877,
+    "lon": 47.56039,
+    "frp": 2.84,
+    "date": "2026-10-24",
+    "time": "2210",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-24T23:06:52Z"
+  "last_ok_at": "2026-10-25T01:05:44Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T23:06:54Z",
+  "fetched_at": "2026-10-25T01:05:46Z",
   "kr": [
    {
-    "date": "2026-10-24",
-    "published": "2026-10-24T22:26:44+00:00",
+    "date": "2026-10-25",
+    "published": "2026-10-25T00:37:07+00:00",
     "source": "연합뉴스",
-    "title": "사우디 \"리야드 킹칼리드 국제공항 오늘부터 운영 재개\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wS2swRGx4aGIwUDFFZ0FuRGVjcVZiRGxMOXR5TVNDMU14QjI4bFlJaXprS29XdDF0Y01ZSU1UZXhMenVKVHhlWEZPa3VaRldHNDF0cmg4SUlVM1pKM2wyZVpVanRLNE1vSVJUY3dDZzJFLS1u?oc=5"
+    "title": "후티 반군 \"사우디 리야드공항·석유 시설 등 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1icEdWZnJmN1luR3JMczVRTXlOUUFUaUU4UDZ4bG1EMW5xdnhFaWN3Y2dCcW90QzJfRWgweEZBSVpGRTdCTjFkZlcwLTNLSnNhV0hjNG9ZUlVoRTdLME1xaVEyS0lqMWdqX3Nscm9mQy1jaHpm?oc=5"
    },
    {
     "date": "2026-10-24",
-    "published": "2026-10-24T21:05:00+00:00",
-    "source": "SBS",
+    "published": "2026-10-24T23:27:00+00:00",
+    "source": "KBS",
+    "title": "사우디 “리야드 킹칼리드 국제공항 오늘부터 운영 재개”",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RandPaGJpUnJpdEhUZTdFNkFOUnF4RVA2eWtIRWFqQVhxdTkxMWV0VTNVWGJYbHVMejRaVExHRVlrbWp6djBBVzAxQ2Z6b1NZUnFCUGF4V1RJZUhQWTU0M1poZjU1UQ?oc=5"
+   },
+   {
+    "date": "2026-10-24",
+    "published": "2026-10-24T21:59:07+00:00",
+    "source": "MBC",
     "title": "후티 반군 \"사우디 수도 리야드 공항·동서 송유관 등 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBySjNXbnMtU1B1bHBsei0xTjV4dzFRWG1LQ212QWt1NjRwdmN0SXU3U1NtOGd3NUY1cHBWUUF1bWFSNG1JbFFxZi1KQjk4bHlTXzZUQUV4Mlk3VHR5OTB1aEtlZDgxUQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YUGQxcVcyVkJscl9PNE1qTVY0RG9ISmI2U2g5RkZ0UmxlNVZiNTRiMnhVLUZYclVRSkY2V1Y3NXc0b3hJazA1YkpvUTRVLV9QdEdVNkZoMDZQS1N3Y185eXh2dWxOb3pKNGc5ZnhBa2M1WjVP0gF0QVVfeXFMTTVLS0FMZlo3RXIxREhLQThXWnZOekc0RmpRWm9TUnVvYVpiSDhOTnd5TWRVdXk3VlNnUWhYM0ZrVkhMZDE0T3kyb0pzaERoYXZTak9YX0VwaHNhVUw3TFduVW1KeU1qaGdtNzYtbE9WdjBXRm8?oc=5"
    },
    {
     "date": "2026-10-24",
@@ -2934,22 +2925,29 @@
     "source": "MBC",
     "title": "후티 반군, 사우디 주요 거점 연쇄 타격‥사우디도 보복공습",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85RjNadzRyWHFzZmxOcVdHNW1SYjZXcnBXaFRVaUVRYnBWNDY4eWN3VEVEQUFQVFU1X1EwMFFsa3VScDR6V3M5VE9oZ3g5Q3BUdjk5RkJrOHJ2c1ZDcTZycDR1TkJ0S2k0WmVUYktZYkdjeDNJ0gF0QVVfeXFMUEg3bk1jdTRsR0Y5djFYdndmcElUSndKM21MZjgyem5nYU5wU3JpejQtdWhkRU9fdFRhZzNDTTNBeVlkQnRES1VibjYxMTdnd25WS1FYMXFQanhPYkhWWlo4YlI1em9tMUJqczB4WUNGQ3Z4ZEo?oc=5"
-   },
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T19:21:00+00:00",
-    "source": "SBS",
-    "title": "중국 기술로 후티에 반격…사우디, 미사일 생산시설 확장",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuOWFfT0p5OXJVSXFxLXZhMVI5cS1wRmxYLUVKZDg3VHVHdU5XZW8taHdzdF9YcVoyODBfRkYtQjhqOHpENDVVNzkwUUJkYTRhaUtN0gFYQVVfeXFMTmRDRDU3ejJfcUMwblZXam8zdm5KTTJNX29SNDlKTkxVMHhEYXdRdDM3THpMNzhkZXZQMGdwYk9lYmVIeF9PbDlyYThCSHRKdThuaVg2MHdTMA?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-24",
-    "published": "2026-10-24T21:11:15+00:00",
+    "published": "2026-10-24T21:27:28+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUmpsc3pUSUtTVEJrbUxwRWNOdUZMNk9IaUJCdHBJd0VQSG1ZTF85ZHNEMHN3cGpOT1htenltdEtQQUNjY0ctd2dEUFA2Z0tZRE5pU185c3R6RGx2enJOUFJZVkt3OWsxQTItWkJRZ0FIeDVMUXhMVGplSkdWUzQzRlQxRUgtUG4wNXhUejRIcUYyRWFLNGNrSVhubW1iS3hkcUwxXzZTS2tiQnph?oc=5"
+   },
+   {
+    "date": "2026-10-24",
+    "published": "2026-10-24T21:12:22+00:00",
     "source": "Al Jazeera",
     "title": "Houthis launch attacks on Saudi Arabia and Yemen’s Aden",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejJVeno4cmRWUWhlWHZNR2NoWF8xZ19jNnVXTS12b01LRFhpbFdpMUZCTXdJSVk3WFFhSy11dHZlekhOaUxxZTNOR1VObXdtZkQtRVpRZGhQbElmV2dJbzNWSzJpTHlrV0drQ0EtZ2hXVXJmTUZZUklOQlV4NmdoMHV4OUp5MGtXVzdTb19WZzVWTVFaNzNma1J1cWTSAaIBQVVfeXFMTTVxZm9xZlhCcDJhb0p2cV9GeHl2eWFHM28xak5sT2J3cFBiNW5hdk1WamVxdXBiQzd2UmIxcnd0VTNNU3U2MUNZVW1xTmIwMGRsTndWZnZENlR4WlpvZXJUQ2N2LU9LMWRpSURFX091Wkxfd2xFMFM0Yl9uV0xNQTg1cEpZUjE3TG13c1lKU2NIVlFmT2J6b2I4QzNLTDBMVEtR?oc=5"
+   },
+   {
+    "date": "2026-10-24",
+    "published": "2026-10-24T19:25:25+00:00",
+    "source": "ABC News",
+    "title": "Houthis claim 'phases' of attacks on Saudi airports, oil pipelines",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTDBraWtmVGdqcWpXUXNLR1JEeDQ5azBMUFNjeWRTQUVuMlZmUG05OWFiU1k2NVFGMEZXRUVCcG9Ja3FXS2tJalNaeHg2aDBBMmFYRHV2cU9yeEdzQkw0SVlsUV83bUo0YlQxM0FIa2ZYTmxjb2dSdWRoVzR0MGpTbWpYZjQwVkNSLXdfUjhlWlR2My1IWmp6VnhVd1pINXU4OFE2aA?oc=5"
    },
    {
     "date": "2026-10-24",
@@ -2964,33 +2962,19 @@
     "source": "CNBC",
     "title": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnplZnBmb0pfZm12b042LXpOODd4bjJidUc3bHM1ZXVhTjlOazJ2TUdnODRGLVM3Q3UzdVhmV0tVanRDRzdqQ1RWWmVzTlRrYTlTZUZJQXFyRk1LNTJTOEtmQTh3ZlhrNUMzSWxEWXZvRmNSZTRYcjRXaDNYREtSS0lhWlJkYU9YWExGLUpvZWtEcGNrQ1Bwd3VjU0RaVUJpNXVjZXRB0gGrAUFVX3lxTE9vVVY2LUFSTFhBQ3EwelZMYVhfdV82eEFtVXJPN2NzUko1U3hUS1FlWWp2MkZSa1pBOW93NEVQcmtiNVotMDBrUzhEallFeHlwVkoyOEZJQkFGNDN2aUJwYnhtN1lJRUZFUzZGZG1ZcWdfRWgxNFY0VU9RVUpnckpYbklSSFBYUmxzQXptd3NOWmJIUDF3d1dyR0lEWmhVVFBFbTZUeVJkaEhyZw?oc=5"
-   },
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T22:33:45+00:00",
-    "source": "Reuters",
-    "title": "Oil prices jump $3 on Houthi attacks, oil spill, highest settlement since April",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5"
-   },
-   {
-    "date": "2026-10-23",
-    "published": "2026-10-23T17:08:44+00:00",
-    "source": "Reuters",
-    "title": "EXCLUSIVE: Saudi missile plant expansion may produce more powerful missiles, study says",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUTNudHNub01PQk1mQ1pIc3I0d2N5TGJPTG5lSlkwSWZKc05VMHpaNGtRTmpmd1pDblNPYjZGbEw3d05QeThxdjNJWDhYX09KMDdPeTlOeWxhX0txVTVrVzRvdWwzMEFfN01jYUNoN1dEVkRQMjlrUENUNVcxMkNuZDlyTnVQMlBkNmhJRzRjRkRESDVJZmdWYzJFMUtzUzBMdFpXVWNoM0hzOTBaajZhRDJtQ0U5ZFlzMkdaZ3BZa2ZPN0RwUHR6cQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-24T23:06:54Z"
+  "last_ok_at": "2026-10-25T01:05:46Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-24T23:06:55Z",
+  "fetched_at": "2026-10-25T01:05:47Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 18,
-  "baseline": 31.0,
-  "baseline_n": 10,
-  "tier": "감소",
+  "count": 20,
+  "baseline": 29,
+  "baseline_n": 13,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3183,14 +3167,15 @@
    "2026-10-24T14": 15,
    "2026-10-24T18": 9,
    "2026-10-24T20": 13,
-   "2026-10-24T23": 18
+   "2026-10-24T23": 18,
+   "2026-10-25T01": 20
   },
-  "last_ok_at": "2026-10-24T23:06:55Z"
+  "last_ok_at": "2026-10-25T01:05:47Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-24T23:06:55Z",
-  "last_ok_at": "2026-10-24T23:06:55Z"
+  "fetched_at": "2026-10-25T01:05:48Z",
+  "last_ok_at": "2026-10-25T01:05:48Z"
  }
 }
