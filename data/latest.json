@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T21:40:37Z",
+ "generated_at": "2026-10-26T00:10:07Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-25T21:40:37Z",
+  "fetched_at": "2026-10-26T00:10:07Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,15 +183,15 @@
     "summary": "ㅇ 10.24(토) 사우디 방위군, 사우디 주도 아랍연합군 발표에 따르면 10.24(토) 젯다, 얀부, 타이프, 메카 등지에 경보가 발령되었고, 얀부와 타이프를 겨냥한 탄도미사일 2기가 요격되어 그 파편이 메카주, 메디나주에 낙하하였습니다. ※ 당지 언론에 따르면 파편 낙하지역은 젯다, 타이프, 라빅, 메카 등 - 10.25(일)에는 카미스 무샤이트 등 남…"
    }
   ],
-  "last7d": 8,
-  "baseline": 3.5,
+  "last7d": 7,
+  "baseline": 4.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-25T21:40:37Z"
+  "last_ok_at": "2026-10-26T00:10:07Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-25T21:40:52Z",
+  "fetched_at": "2026-10-26T00:10:23Z",
   "events": [
    {
     "date": "2026-10-25",
@@ -1158,12 +1158,12 @@
   "history_days": 31,
   "history_since": "2026-09-26",
   "today": "2026-10-26",
-  "last_ok_at": "2026-10-25T21:40:52Z"
+  "last_ok_at": "2026-10-26T00:10:23Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-25T21:40:53Z",
+  "fetched_at": "2026-10-26T00:10:24Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1864,20 +1864,20 @@
    "나즈란": 5,
    "담맘": 5,
    "아브하": 5,
-   "지잔": 3,
    "메디나": 3,
+   "지잔": 3,
    "라비그": 3,
    "샤이바 유전": 3,
    "메카": 2,
    "타이프": 2,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-25T21:40:53Z"
+  "last_ok_at": "2026-10-26T00:10:24Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-25T21:40:54Z",
+  "fetched_at": "2026-10-26T00:10:24Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3001,13 +3001,20 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-25T21:40:54Z"
+  "last_ok_at": "2026-10-26T00:10:24Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-25T21:40:57Z",
+  "fetched_at": "2026-10-26T00:10:28Z",
   "kr": [
+   {
+    "date": "2026-10-25",
+    "published": "2026-10-25T23:28:28+00:00",
+    "source": "뉴스1",
+    "title": "후티 공격 시달리는 사우디…내년 '다카르 랠리' 개최 무산",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aemxFOXJFR3hPRkJVTzBfbXgyUW1lblRwVktBRHVXY1JCYlNLLS1rU0c5b3VweTNSRWJDODI5ZFExMUVyenNMaXpJdUYyOVN6MEhEMFVZX2RIYW4xZGlCdUpB?oc=5"
+   },
    {
     "date": "2026-10-25",
     "published": "2026-10-25T21:15:00+00:00",
@@ -3031,13 +3038,6 @@
    },
    {
     "date": "2026-10-25",
-    "published": "2026-10-25T12:49:15+00:00",
-    "source": "중앙일보",
-    "title": "사우디 리야드공항 재개 첫날 후티 공격…“미사일·드론 격추”",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XejE0RHFvVkE4N0txWUktdjNzMk0yVFZmRGQtbDNGd2h2RktuVENjV0l2WjljMElONExjU0xvdjB4UlU2X2J3ampRNi1HNV90a2doUUhB?oc=5"
-   },
-   {
-    "date": "2026-10-25",
     "published": "2026-10-25T08:32:00+00:00",
     "source": "연합뉴스",
     "title": "사우디 리야드공항 재개 첫날 폭발음…\"후티발 공격 차단\"",
@@ -3047,14 +3047,7 @@
   "en": [
    {
     "date": "2026-10-25",
-    "published": "2026-10-25T19:27:15+00:00",
-    "source": "The National",
-    "title": "Middle East latest: US tells staff not to use Saudi airports without 'special authorisation'",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5"
-   },
-   {
-    "date": "2026-10-25",
-    "published": "2026-10-25T15:50:53+00:00",
+    "published": "2026-10-25T21:39:45+00:00",
     "source": "The New York Times",
     "title": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUW9UZ0JLbE5OTy1EYlY0RTdEVS1iZm81X241Nk5GRVFLYzhzbVdOR0drbHZZeU44M3JiV1RqaW1aWVNjdWZUQ1A4dFZKakp2UjFyd1hvdXFhLXBQY2VkT0V2ZmtQaGZ4dGYzZktvT01LTWZmNnJudFNRZXdUbk42WTk5a193ZngzMFU3eXJPeFdhNUplRmxN?oc=5"
@@ -3079,19 +3072,26 @@
     "source": "Bloomberg",
     "title": "Riyadh Airport Resumes Flights as Saudis Fight Houthi Missiles",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb2kyMHFUUWdsVTY5RV9kTEpCVG9Za2VYcERvZndPc0R2THVpZ2tYME1ZcjN2YUtFb1hHNUNCeDduZV9OcjAzdk85VVlqclR2VmFlSGRmNS1ZQk1idFRIYi1zR2tWTzluRUp3RnhHMmhuLXFnUUxOMEg1dXNFU29pZkJyX0ZwX0pmZnZqZWlHZFltMlNCbkN0OEtsRkd1Z0J1TC1SbUY2a2JBZ0N2M2VrM25OSQ?oc=5"
+   },
+   {
+    "date": "2026-10-25",
+    "published": "2026-10-25T13:20:32+00:00",
+    "source": "Reuters",
+    "title": "Most Gulf shares close lower as Saudi-Houthi fighting rages on",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa3ZBWG5tbkZvcXJFc2xkcEs1SmhEcHAybDM1ZGN0T0ZCN3BIcTFyaF9laXlEYVA2N2ZsUmJjcmgxaS1aVW5jdFZSOFZrc2JnUWFJaFRwR25QS0pob0RTT0lONlJldzVxOFlidThrdm8zTVU4X1l4dFRPVUY5R0ZuX05aX2pibWg2VlNLUmlaVmFaWDg5bDlMQUVFWTh2bnZ3WFJ4MzA1RWVDMEtKOEE?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-25T21:40:57Z"
+  "last_ok_at": "2026-10-26T00:10:28Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-25T21:40:58Z",
+  "fetched_at": "2026-10-26T00:10:29Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 9,
-  "baseline": 30,
-  "baseline_n": 9,
-  "tier": "끊김",
+  "count": 14,
+  "baseline": 39,
+  "baseline_n": 13,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3290,14 +3290,15 @@
    "2026-10-25T11": 17,
    "2026-10-25T16": 22,
    "2026-10-25T18": 16,
-   "2026-10-25T21": 9
+   "2026-10-25T21": 9,
+   "2026-10-26T00": 14
   },
-  "last_ok_at": "2026-10-25T21:40:58Z"
+  "last_ok_at": "2026-10-26T00:10:29Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-25T21:40:59Z",
-  "last_ok_at": "2026-10-25T21:40:59Z"
+  "fetched_at": "2026-10-26T00:10:29Z",
+  "last_ok_at": "2026-10-26T00:10:29Z"
  }
 }
