@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T06:01:32Z",
+ "generated_at": "2026-10-26T12:48:38Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T06:01:32Z",
+  "fetched_at": "2026-10-26T12:48:38Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -165,6 +165,12 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-10-26",
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321129/detail2?ntnCd=107",
+    "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
+   },
+   {
     "date": "2026-10-25",
     "title": "주의 중동 정세 관련 안전 유의 안내(10.25.)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048672/detail",
@@ -175,24 +181,32 @@
     "title": "사우디 공항 및 항공편 운항 현황(10.25. 오후 업데이트)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321128/detail2?ntnCd=107",
     "summary": "사우디아라비아 내 공항 및 항공편 운항 관련 현황을 아래와 같이 공지드립니다. ㅇ (리야드) 리야드 킹칼리드 공항은 10.25. 운영 재개를 발표했으나, 현재 기준 제한적으로만 운영되고 있어 공항 이용에 차질이 지속되고 있음. ㅇ (여타 공항) 젯다, 담맘 등 주요 공항은 일부 국내선 및 국제선 운항을 유지하고 있으나, 항공사별 결항·지연 등 일부 운항 차…"
-   },
-   {
-    "date": "2026-10-25",
-    "title": "사우디 서부, 서남부 겨냥 공격 빈발 관련 신변 유의 (10.25)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321127/detail2?ntnCd=107",
-    "summary": "ㅇ 10.24(토) 사우디 방위군, 사우디 주도 아랍연합군 발표에 따르면 10.24(토) 젯다, 얀부, 타이프, 메카 등지에 경보가 발령되었고, 얀부와 타이프를 겨냥한 탄도미사일 2기가 요격되어 그 파편이 메카주, 메디나주에 낙하하였습니다. ※ 당지 언론에 따르면 파편 낙하지역은 젯다, 타이프, 라빅, 메카 등 - 10.25(일)에는 카미스 무샤이트 등 남…"
    }
   ],
-  "last7d": 7,
+  "last7d": 8,
   "baseline": 4.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-26T06:01:32Z"
+  "last_ok_at": "2026-10-26T12:48:38Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T06:01:48Z",
+  "fetched_at": "2026-10-26T12:48:53Z",
   "events": [
+   {
+    "date": "2026-10-26",
+    "time": "14:42",
+    "iso": "2026-10-26T14:42:39+03:00",
+    "city": "리야드",
+    "type": "공습",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "'리야드 공습 여파' 사우디 실내무도AG, 내년 3월로 연기",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZUlM1NE1WYnJyQWJpRVVqWnF6M0pjT01nR2NMekZmYmVmMS15VEpBUG1NWEE3THc3b3hlWkhhMkhYLXNKRnJPaFBIYzRabTdfZnk1b2VFRXA4MlHSAWBBVV95cUxQOUlIUC1PdU9TaHVaR3hUUW1LM1YtZ3daZTdCY0pSNTFLOU0zRjlsdTJLSWFXN2RfT09IUjZqVEd5X3BVRElXdFAxU3NicGd0d0NTWDlNbVZKMTB4N0tzNS0?oc=5",
+    "source": "연합뉴스",
+    "outlets": 1
+   },
    {
     "date": "2026-10-26",
     "time": "07:58",
@@ -205,6 +219,20 @@
     "title": "사우디 연합군 \"후티 탄도미사일 요격\"…후티 \"리야드 공항 타격\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zbVdmXzNROElNYk9ReU1ZOWRNM2hpWjhzOEwyZ0xzZVZwY3NDQmZMdG1RTjdPQmpQeW1mNkxwWkc2bnhnTDN2TjZsc3pfZjNDaWhOMG9pSkJnMk5jSU0yREhn?oc=5",
     "source": "뉴스1",
+    "outlets": 1
+   },
+   {
+    "date": "2026-10-26",
+    "time": "06:48",
+    "iso": "2026-10-26T06:48:00+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5",
+    "source": "Reuters",
     "outlets": 1
    },
    {
@@ -517,8 +545,8 @@
    },
    {
     "date": "2026-10-15",
-    "time": "12:08",
-    "iso": "2026-10-15T12:08:00+03:00",
+    "time": "10:00",
+    "iso": "2026-10-15T10:00:00+03:00",
     "city": "메디나",
     "type": "요격",
     "weapon": "미사일",
@@ -1081,11 +1109,12 @@
    },
    "리야드": {
     "7d": {
+     "공습": 1,
      "요격": 5,
-     "피격": 3,
+     "피격": 4,
      "경보": 1
     },
-    "total7d": 9,
+    "total7d": 11,
     "prev7d": {
      "피격": 6,
      "공습": 1,
@@ -1172,14 +1201,33 @@
   "history_days": 31,
   "history_since": "2026-09-26",
   "today": "2026-10-26",
-  "last_ok_at": "2026-10-26T06:01:48Z"
+  "last_ok_at": "2026-10-26T12:48:53Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T06:01:49Z",
+  "fetched_at": "2026-10-26T12:48:54Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-26 14:10",
+    "iso": "2026-10-26T14:10:38+03:00",
+    "places": [
+     "지잔",
+     "나즈란"
+    ],
+    "text_ar": "ترقبوا الساعة الرابعة عصرا مشاهد نوعية لاستهداف ضباط وجنود وآليات العدو السعودي بطائرات رجوم المسيرة في جبهات نجران وجيزان وعسير الحدودية",
+    "text_ko": "오후 4시에 Najran, Jizan 및 Asir 국경 전선에서 드론으로 사우디 적의 장교, 군인 및 차량을 대상으로 품질 장면을 주시하십시오.",
+    "url": "https://t.me/army21ye/3965"
+   },
+   {
+    "time": "2026-10-26 09:38",
+    "iso": "2026-10-26T09:38:10+03:00",
+    "places": [],
+    "text_ar": "بفضل الله وعونه تمكنت قواتنا المسلحة من إسقاط طائرة استطلاع مسلح نوع \"وينق لونق 2\" (Wing Loong II) تابعة للعدو السعودي أثناء قيامها بأعمال عدائية في أجواء محافظة تعز وذلك بسلاح مناسب. http://t.me/army21ye",
+    "text_ko": "신의 도움 덕분에 우리 군은 사우디 적의 무장 정찰기 \"Wing Loong II\" 를 격추시킬 수 있었으며 Taiz Governorate 영공에서 적절한 무기로 적대 행위를 수행 할 수있었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3964"
+   },
    {
     "time": "2026-10-26 05:54",
     "iso": "2026-10-26T05:54:28+03:00",
@@ -1317,6 +1365,21 @@
     "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ سبع عمليات عسكرية نوعية بعدد من الصواريخ الباليستية والطائرات المسيّرة، استهدفت هذه العمليات مطار خالد الدولي بالرياض، وشركة أرامكو في ينبع، ومصفاة رابغ النفطية، ومحطات ضخ النفط الخام وأنبوب نقل النفط الخام من الشرق إلى الغرب، ومطار فهد الدولي بالدمام، ومطار نجران، وقاعدة خميس مشيط الجوية، وقد حققت العمليات أهدافَها بنجاح بفضل الله. جودة متوسطة http://t.me/ar…",
     "text_ko": "수많은 탄도 미사일과 드론을 이용한 7가지 질적 군사 작전의 시행에 대한 예멘군의 성명서. 이러한 작전은 리야드의 칼레드 국제공항, 얀부의 아람코, 라비 정유소, 동서양의 원유 펌핑장 및 원유 수송 파이프라인, 담맘의 파하드 국제공항, 나즈란 공항, 카미스 무샤이트 공군 기지를 대상으로 하였으며, 작전은 신의 덕분에 성공적으로 목표를 달성했습니다. 중간 품질 http://t.me/en…",
     "url": "https://t.me/army21ye/3945"
+   },
+   {
+    "time": "2026-10-24 19:00",
+    "iso": "2026-10-24T19:00:22+03:00",
+    "places": [
+     "얀부",
+     "라비그",
+     "리야드",
+     "담맘",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ سبع عمليات عسكرية نوعية بعدد من الصواريخ الباليستية والطائرات المسيّرة، استهدفت هذه العمليات مطار خالد الدولي بالرياض، وشركة أرامكو في ينبع، ومصفاة رابغ النفطية، ومحطات ضخ النفط الخام وأنبوب نقل النفط الخام من الشرق إلى الغرب، ومطار فهد الدولي بالدمام، ومطار نجران، وقاعدة خميس مشيط الجوية، وقد حققت العمليات أهدافَها بنجاح بفضل الله. جودة منخفضة http://t.me/ar…",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/3946"
    },
    {
     "time": "2026-10-24 17:44",
@@ -1898,26 +1961,26 @@
    }
   ],
   "mentions7d": {
-   "리야드": 12,
-   "카미스무샤이트": 12,
-   "얀부": 8,
-   "나즈란": 5,
-   "담맘": 5,
+   "리야드": 13,
+   "카미스무샤이트": 13,
+   "얀부": 9,
+   "나즈란": 7,
+   "담맘": 6,
    "아브하": 5,
+   "지잔": 4,
+   "라비그": 4,
    "메디나": 3,
-   "지잔": 3,
-   "라비그": 3,
    "샤이바 유전": 3,
    "메카": 2,
    "타이프": 2,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-26T06:01:49Z"
+  "last_ok_at": "2026-10-26T12:48:54Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T06:01:54Z",
+  "fetched_at": "2026-10-26T12:48:58Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2975,21 +3038,59 @@
     "date": "2026-10-25",
     "time": "2333",
     "confidence": "nominal"
+   },
+   {
+    "lat": 21.16103,
+    "lon": 39.51834,
+    "frp": 3.09,
+    "date": "2026-10-26",
+    "time": "1043",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.22989,
+    "lon": 39.20032,
+    "frp": 7.16,
+    "date": "2026-10-26",
+    "time": "1043",
+    "confidence": "low"
+   },
+   {
+    "lat": 25.6378,
+    "lon": 49.26261,
+    "frp": 2.72,
+    "date": "2026-10-26",
+    "time": "1045",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-26T06:01:54Z"
+  "last_ok_at": "2026-10-26T12:48:58Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T06:01:57Z",
+  "fetched_at": "2026-10-26T12:49:02Z",
   "kr": [
+   {
+    "date": "2026-10-26",
+    "published": "2026-10-26T11:42:39+00:00",
+    "source": "연합뉴스",
+    "title": "'리야드 공습 여파' 사우디 실내무도AG, 내년 3월로 연기",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZUlM1NE1WYnJyQWJpRVVqWnF6M0pjT01nR2NMekZmYmVmMS15VEpBUG1NWEE3THc3b3hlWkhhMkhYLXNKRnJPaFBIYzRabTdfZnk1b2VFRXA4MlHSAWBBVV95cUxQOUlIUC1PdU9TaHVaR3hUUW1LM1YtZ3daZTdCY0pSNTFLOU0zRjlsdTJLSWFXN2RfT09IUjZqVEd5X3BVRElXdFAxU3NicGd0d0NTWDlNbVZKMTB4N0tzNS0?oc=5"
+   },
+   {
+    "date": "2026-10-26",
+    "published": "2026-10-26T06:18:27+00:00",
+    "source": "MBC",
+    "title": "\"'방위 동맹' 사우디·파키스탄·튀르키예, 이란서 후티-사우디 충돌 문제 논의\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02Y1FiTjYyNzdzZVpvX2VYbkx1YlNqV1gyamJGYWlVSWpUMF9mcnp5ZThPZGVMR2xKMUNHSGE3VktzeGJCaUpTalpGTEhyMUVER1h6eUhicDJPMml6ZUJHd0lDai1UYm9TYjBnVHZobmNSS1RT0gF0QVVfeXFMTnJLZG4wbGVNTU9WRzE4TkZfdE9zMTl2Z1o3TWw4UTQ0SUtRQmRHUFg0OTJYNkF6ZzRqaHYteHI5dkozLXkyaEhfeFF6SE5qcTJObWhlX2Vxcjd1RFhpWVhmTUR5REhpdm5LS0FPRGtOei1ULXM?oc=5"
+   },
    {
     "date": "2026-10-26",
     "published": "2026-10-26T05:25:09+00:00",
     "source": "연합뉴스",
     "title": "\"'방위 동맹' 사우디·파키스탄·튀르키예 이란서 공조 논의\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LTXFoNVBKcVVLWldQYk9PekJodFJQTW51YWRwb3o3VkcxQzd4UTR6R1Rid1FTOFVla21JVy1jbGFKdHBZcUpDUjdJOE1ta2syeFJQb1QyRFBFZVXSAWBBVV95cUxOYW5sQ3MwRnJ3TjQ4eFFEZ0Fidk03YjRlaThuMGEyWkFMeHBJR3l1ZmdKRjVqUGJjSEVJUFBuUHFZR2d3N3FuamlOdWdnZU9mZW51VHhZY2VqQmxOS3MwcGc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hbmxDczBGcndONDh4UURnQWJ2TTdiNGVpOG4wYTJaQUx4cElHeXVmZ0pGNWpQYmNIRUlQUG5QcVlHZ3c3cW5qaU51Z2dlT2ZlbnVUeFljZWpCbE5LczBwZ9IBYEFVX3lxTE5hbmxDczBGcndONDh4UURnQWJ2TTdiNGVpOG4wYTJaQUx4cElHeXVmZ0pGNWpQYmNIRUlQUG5QcVlHZ3c3cW5qaU51Z2dlT2ZlbnVUeFljZWpCbE5LczBwZw?oc=5"
    },
    {
     "date": "2026-10-26",
@@ -3004,70 +3105,56 @@
     "source": "동아일보",
     "title": "사우디의 리야드공항 부분 재개장…후티와 사우디 연합군 교전은 계속",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xV19GTWxHX2dMQlRKUEJNdmRJMDBBR3lrLXBESW1RWDdMMWNidlYyNklxMkpGRWNVd3BfMnpvb1k1VjJYS2RERnFybVdJc3IxNXdWeldQdjN5Y2hsU09RT1dhY0NqdE1oYnBnaktlczd0akXSAWZBVV95cUxQa1ZnS2U1MWd5OHcwcDR5UGh5LS0taXVfbzZpZE03MzE5VFF6ZTNON3R0aDZGMllTdnRqc3VTdU05OW1VTUhGNDMzVXU5TGtvWnNnVTFvRkFfWEtjNGpCdmZ0dFpBVVE?oc=5"
-   },
-   {
-    "date": "2026-10-25",
-    "published": "2026-10-25T22:32:00+00:00",
-    "source": "KBS",
-    "title": "사우디 수도 공항 운항 재개…후티 공격에 또 차질",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oNERuaFI5ZXY4TjNYYUh0VzJlOFNGOFpnSkNHcXBxdnZHdVBxYnFzNm9Id1AtQVZJVXJReUstX0xrdnhETW1pSGRRWmZndjlINWx3RnVhZHlxLXRxcDJlbUdKVmpjZw?oc=5"
-   },
-   {
-    "date": "2026-10-25",
-    "published": "2026-10-25T19:02:00+00:00",
-    "source": "SBS",
-    "title": "사우디 리야드공항 재개 첫날…후티 공격 지속에 제한적 운항",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sUF94Z1dRWVNxZmJENEFfcWZqOWpGUjVjVEN2RjVjSUdYZGJ0YW5BbGJJSEM5Z1VXWGFqRzdIYzV1VGtsRUN4TE93TWg5YV9LWFdfM2JQR0ZnVFFNNER1TlRTdHpKUQ?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-26",
-    "published": "2026-10-26T05:18:01+00:00",
-    "source": "CNBC",
-    "title": "Oil slides over 2% as traders weigh Saudi attack risks, demand destruction",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlb3RFQnktc2pYOXZaNjR1cFFxcDVpV2poRDN6X0tJNGhGX2NCX05kSlVtaGNialZPc1E3R3g2LXZuWmpidDRobThNdzROYUFWQkFFUVBnUW9SajI4WEs0UmtiZjhPdWVvUzRlQWtWRmvSAXZBVV95cUxOY0FTdGxTWkFDWFllVFg2SDZiQVVTRWxYY1NXTW5uSmJWVEh5OGEtSjRBajhfLWtlUzRUclBnSUFPTWFPcmI0Yl9NZ3dUY1gzWk90RTY0SDQydDlfbXVGU21UVVU1dmxFb3FyQzR0d2xJUkd1NUhR?oc=5"
+    "published": "2026-10-26T10:41:45+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-led coalition says it struck Houthi missile facilities",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1hTSTAxQWN3bDhQbmtGYjUyNHUtYUhScXhSMFNIUVYwaV83ZHI4S0E1bG9kWWFWRjRrcENhQlVxZ25YZExCek52eU5RWlk4NjRxUUpsc3YzazRtc3NncllKekNRUnZwbmJjenJhNVhfUk5PYWNaTlY3U2V2dFpsM1pyWjg2YmxwcE1TR0h4TlBqMjJCanhmWklITHlmYU9HQ2pMMnlvemdkQdIBqgFBVV95cUxQd1hTSTAxQWN3bDhQbmtGYjUyNHUtYUhScXhSMFNIUVYwaV83ZHI4S0E1bG9kWWFWRjRrcENhQlVxZ25YZExCek52eU5RWlk4NjRxUUpsc3YzazRtc3NncllKekNRUnZwbmJjenJhNVhfUk5PYWNaTlY3U2V2dFpsM1pyWjg2YmxwcE1TR0h4TlBqMjJCanhmWklITHlmYU9HQ2pMMnlvemdkQQ?oc=5"
    },
    {
     "date": "2026-10-26",
-    "published": "2026-10-26T04:52:30+00:00",
-    "source": "Arab News",
-    "title": "Coalition destroys Houthi missile launchers in Sanaa after foiled attack on Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLUJNY1NkTzhac1p0elZFdHBxdFZ0NDg2emlIb3luejBEQ0szYUZyV1Bid0NnaHBpd0lVT29NdnVjS25rU1RSbUZkb002V0MxS0xmbU84UEE0VmxMRm44blozTFptS0hNOFFLbTdoQ2JVY0d4R0dVQ090S213VElIeG9JSmVncXIxQnphaUpiX1BCWVVmeW95RTBiaWp3WXAxY283cDIzY05xZWFnVkZFN2ZUZTctMVJmYXBKS2w4cmJyM3pwa09j?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T03:49:14+00:00",
-    "source": "The National",
-    "title": "Saudi Arabia flight cancellations: Which airlines are suspending services and until when?",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX3JIaTBpWDk5SS01NGlJNHBXejg3OGxHWkxXUkx5ZndndEVNSmw2TnhLZjZQNzV4cE1vUEZfTGRuYTUxeVpPcXl3XzZldUtLb01tYjdaZHduSkpGMWNET09pazdfYlBicUFxRFFvR1JSZ3dMenBJaVRJMFNiN1JTM0pMMy0wQnNIRkNRbHNSS0MtQXN4eDJkSGVPQzg0SkVTMlZQZHVUcHItbXhmRk84MXZ0ZW9iZGIyaEF1NUw4TFFhOUVBSWc0MzVRbDdaMEtaUWZtZg?oc=5"
+    "published": "2026-10-26T07:19:43+00:00",
+    "source": "Reuters",
+    "title": "Saudi Arabia to kick off 2027 Asian Cup against Palestine in Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWRMSXVXbXdUeG4tWkY2eHVZVHpXUWdRYndFOExXdkZDNmhqX191dV9LbzlhUWpLV1F5UEVPR2lPdVRZWTNfNnFQZTJ5ay1KNmszMVJwd3JwZTB0SG9YTlViajRONUhhQmczZ21sNnJ1a1NkNmJDN3BuYzRvcDUtcnJTRDVxVmVES1lJLVNyWnlRenZaZmJURlFuQTFrTkRmRGdSZU0yek9Ud2w0N1lSbQ?oc=5"
    },
    {
     "date": "2026-10-26",
     "published": "2026-10-26T03:48:00+00:00",
     "source": "Reuters",
-    "title": "Houthis say they attacked East-West oil pumping stations; No Saudi confirmation",
+    "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5"
    },
    {
-    "date": "2026-10-26",
-    "published": "2026-10-26T02:32:00+00:00",
-    "source": "Bloomberg",
-    "title": "Singapore to Store Saudi Oil in Underground Caverns From 2027",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR0g5bnV0TW05eVlmWnhHLU5SMTlRd09wdEtnTEdnRzdVNFJVMG8zNjdtSWJhYUFlelc5Rkg4SmNHRW1CaTBjaDJ4d2tCVnh1ZFNQeVdZMWtjWl9MU1k0RjNJaFpnY1Z6d1ZFbjZ3Zk80OXVmeUxvR01URmRtRHY1eVlyQURlakNWa21nZ3BfdnBfS0EtelhtcnZQZllZTE1UbTNnWXFDWVBDdzR4V2xURWdR?oc=5"
+    "date": "2026-10-25",
+    "published": "2026-10-25T14:18:34+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi air defences intercept Houthi barrage near Mecca",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTllKSThoS2V1TUQ1V2l6aG1fb2ZycUN6M01QYm9mLWQxb2hDYkFjS1B5QWprMzRKY1U0QTBSSFdqT09fWkdZRlVGRXlmWnRGZWphSjh6WlZMTVdJc2RCLVdTaXVlTUlja0ZDMmY0ODZ3WkhwbXA0Mmkyek5aZ2w5ZG15UXlKMkVLdGJsU0lUaVlHdEEzcWl6UTlLWFDSAaIBQVVfeXFMTUwtTjNQSG4yWU5oc1BrS2REcV9nVnE3MU1oZ3ZUYXNteXFqSjhSSlFzekVLYlJJNDVjM1VORGJmSVhDaG5HREZsTGpUdFBuUjYyQmN1bGhVdk1BNl9FR3YzOXRjVUF2QW8tcHVPeUZQNlBhUnhTalhTSVBIZDdUQ3dCdUtqM09oRlBEVW0zYkx4dUwwR28wRHRfTFpHWXhndUZ3?oc=5"
+   },
+   {
+    "date": "2026-10-25",
+    "published": "2026-10-25T12:49:33+00:00",
+    "source": "CNBC",
+    "title": "Saudi Arabia says it intercepted missiles and drones from Iran-backed Houthis",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdjVjTmdHOUVQdHBNYk9zRUlGWDVXXzRFTmFzUWJaZno0Y2ZkU2ZQcDJ4YUt4Q29lclZwWmw5eTdaWEczNDY4ZTVQNnI5OVFCQjl1VndQVkN6SFM4NzJRb0pfTUVDejVSMktPeENjd3NxVnRTRUpPMWU4OWFKYkhIZkI0UjJDSXVEcG9fY9IBkgFBVV95cUxPQzlTRWw1RFVBdlVvT1VpdkdQSkh3UjhQZURkZElXRTlMWFZQT29UVFJRTXhCbXlEbjY5ZW01dDZnRFBiaWNnbGVrTGtDS0QwRzF6ZGZOYzVtemkzUDVPSlFqbHBsSTZHRnVOazhkNWNaX2NIWmVmcEc2eUlGZ3Z5d01QLXJ0TWxGRjVoa1ZEdG5sdw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-26T06:01:57Z"
+  "last_ok_at": "2026-10-26T12:49:02Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T06:01:58Z",
+  "fetched_at": "2026-10-26T12:49:03Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 10,
-  "baseline": 27,
-  "baseline_n": 11,
-  "tier": "감소",
+  "count": 21,
+  "baseline": null,
+  "baseline_n": 2,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3268,14 +3355,15 @@
    "2026-10-25T18": 16,
    "2026-10-25T21": 9,
    "2026-10-26T00": 14,
-   "2026-10-26T06": 10
+   "2026-10-26T06": 10,
+   "2026-10-26T12": 21
   },
-  "last_ok_at": "2026-10-26T06:01:58Z"
+  "last_ok_at": "2026-10-26T12:49:03Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-26T06:01:58Z",
-  "last_ok_at": "2026-10-26T06:01:58Z"
+  "fetched_at": "2026-10-26T12:49:03Z",
+  "last_ok_at": "2026-10-26T12:49:03Z"
  }
 }
