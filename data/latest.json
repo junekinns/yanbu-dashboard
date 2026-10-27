@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:46:38Z",
+ "generated_at": "2026-10-27T04:52:24Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T23:46:38Z",
+  "fetched_at": "2026-10-27T04:52:24Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,14 +184,14 @@
    }
   ],
   "last7d": 8,
-  "baseline": 4.0,
+  "baseline": 4.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-26T23:46:38Z"
+  "last_ok_at": "2026-10-27T04:52:24Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T23:46:56Z",
+  "fetched_at": "2026-10-27T04:52:45Z",
   "events": [
    {
     "date": "2026-10-26",
@@ -1201,12 +1201,12 @@
   "history_days": 31,
   "history_since": "2026-09-27",
   "today": "2026-10-27",
-  "last_ok_at": "2026-10-26T23:46:56Z"
+  "last_ok_at": "2026-10-27T04:52:45Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T23:46:57Z",
+  "fetched_at": "2026-10-27T04:52:46Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1977,204 +1977,20 @@
    "아브하": 2,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-26T23:46:57Z"
+  "last_ok_at": "2026-10-27T04:52:46Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T23:46:58Z",
+  "fetched_at": "2026-10-27T04:52:47Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
-    "lat": 23.97872,
-    "lon": 38.241,
-    "frp": 1.91,
-    "date": "2026-10-19",
-    "time": "0005",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.96255,
-    "lon": 49.22913,
-    "frp": 11.33,
-    "date": "2026-10-19",
-    "time": "0937",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.09035,
-    "lon": 39.29631,
-    "frp": 3.25,
-    "date": "2026-10-19",
-    "time": "1115",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.53253,
-    "lon": 49.13782,
-    "frp": 1.4,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.78408,
-    "lon": 50.0208,
-    "frp": 3.97,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.78209,
-    "lon": 49.99072,
-    "frp": 6.31,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.78152,
-    "lon": 49.99662,
-    "frp": 6.31,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.11626,
-    "lon": 50.60474,
-    "frp": 1.51,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.11108,
-    "lon": 50.60938,
-    "frp": 1.49,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 26.06695,
-    "lon": 50.58253,
-    "frp": 0.74,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.96607,
-    "lon": 49.23111,
-    "frp": 2.08,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.96255,
-    "lon": 49.22941,
-    "frp": 2.89,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.94987,
-    "lon": 47.05968,
-    "frp": 2.36,
-    "date": "2026-10-19",
-    "time": "2201",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.97813,
-    "lon": 48.12872,
-    "frp": 3.05,
-    "date": "2026-10-19",
-    "time": "2203",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.97285,
-    "lon": 48.12807,
-    "frp": 3.05,
-    "date": "2026-10-19",
-    "time": "2203",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.5235,
-    "lon": 54.04928,
-    "frp": 1.35,
-    "date": "2026-10-19",
-    "time": "2203",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.52238,
-    "lon": 54.05037,
-    "frp": 1.4,
-    "date": "2026-10-19",
-    "time": "2203",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.44784,
-    "lon": 54.0294,
-    "frp": 0.44,
-    "date": "2026-10-19",
-    "time": "2203",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.28035,
-    "lon": 37.56721,
-    "frp": 1.5,
-    "date": "2026-10-19",
-    "time": "2344",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.27644,
-    "lon": 37.56632,
-    "frp": 1.15,
-    "date": "2026-10-19",
-    "time": "2344",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.27427,
-    "lon": 37.56472,
-    "frp": 1.86,
-    "date": "2026-10-19",
-    "time": "2344",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.97913,
-    "lon": 38.24102,
-    "frp": 2.32,
-    "date": "2026-10-19",
-    "time": "2344",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.67007,
-    "lon": 39.03434,
-    "frp": 3.4,
-    "date": "2026-10-19",
-    "time": "2344",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 22.66914,
-    "lon": 39.03899,
-    "frp": 2.12,
-    "date": "2026-10-19",
-    "time": "2344",
+    "lat": 23.86222,
+    "lon": 47.4543,
+    "frp": 3.15,
+    "date": "2026-10-20",
+    "time": "0917",
     "confidence": "nominal"
    },
    {
@@ -2215,6 +2031,14 @@
     "frp": 3.69,
     "date": "2026-10-20",
     "time": "1058",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.01325,
+    "lon": 49.5813,
+    "frp": 3.45,
+    "date": "2026-10-20",
+    "time": "2144",
     "confidence": "nominal"
    },
    {
@@ -2442,6 +2266,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 23.9749,
+    "lon": 38.21558,
+    "frp": 2.04,
+    "date": "2026-10-20",
+    "time": "2326",
+    "confidence": "nominal"
+   },
+   {
     "lat": 23.96073,
     "lon": 38.2802,
     "frp": 3.21,
@@ -2466,19 +2298,19 @@
     "confidence": "low"
    },
    {
-    "lat": 23.87065,
-    "lon": 47.453,
-    "frp": 5.3,
+    "lat": 23.86249,
+    "lon": 47.45856,
+    "frp": 13.67,
     "date": "2026-10-21",
     "time": "1038",
     "confidence": "nominal"
    },
    {
-    "lat": 22.54695,
-    "lon": 53.92008,
-    "frp": 1.99,
+    "lat": 23.87065,
+    "lon": 47.453,
+    "frp": 5.3,
     "date": "2026-10-21",
-    "time": "2125",
+    "time": "1038",
     "confidence": "nominal"
    },
    {
@@ -2570,6 +2402,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 23.97706,
+    "lon": 38.21307,
+    "frp": 2.8,
+    "date": "2026-10-21",
+    "time": "2305",
+    "confidence": "nominal"
+   },
+   {
     "lat": 22.66867,
     "lon": 39.0344,
     "frp": 1.91,
@@ -2581,6 +2421,14 @@
     "lat": 22.66808,
     "lon": 39.03856,
     "frp": 1.91,
+    "date": "2026-10-21",
+    "time": "2307",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.55251,
+    "lon": 39.43491,
+    "frp": 1.03,
     "date": "2026-10-21",
     "time": "2307",
     "confidence": "nominal"
@@ -2602,11 +2450,11 @@
     "confidence": "nominal"
    },
    {
-    "lat": 16.94031,
-    "lon": 42.63157,
-    "frp": 2.95,
-    "date": "2026-10-21",
-    "time": "2307",
+    "lat": 23.86019,
+    "lon": 47.45795,
+    "frp": 9.12,
+    "date": "2026-10-22",
+    "time": "1019",
     "confidence": "nominal"
    },
    {
@@ -2637,6 +2485,22 @@
     "lat": 27.13304,
     "lon": 49.20629,
     "frp": 2.19,
+    "date": "2026-10-22",
+    "time": "2246",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.01491,
+    "lon": 49.58333,
+    "frp": 2.29,
+    "date": "2026-10-22",
+    "time": "2246",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.00914,
+    "lon": 49.56159,
+    "frp": 1.94,
     "date": "2026-10-22",
     "time": "2246",
     "confidence": "nominal"
@@ -2714,6 +2578,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 22.55549,
+    "lon": 39.43463,
+    "frp": 2.66,
+    "date": "2026-10-22",
+    "time": "2248",
+    "confidence": "nominal"
+   },
+   {
     "lat": 21.30091,
     "lon": 39.28573,
     "frp": 1.56,
@@ -2735,14 +2607,6 @@
     "frp": 1.11,
     "date": "2026-10-22",
     "time": "2248",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 16.93962,
-    "lon": 42.63434,
-    "frp": 1.84,
-    "date": "2026-10-22",
-    "time": "2250",
     "confidence": "nominal"
    },
    {
@@ -2786,6 +2650,22 @@
     "confidence": "nominal"
    },
    {
+    "lat": 27.19333,
+    "lon": 49.14369,
+    "frp": 1.48,
+    "date": "2026-10-23",
+    "time": "2229",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.18977,
+    "lon": 49.14309,
+    "frp": 1.84,
+    "date": "2026-10-23",
+    "time": "2229",
+    "confidence": "nominal"
+   },
+   {
     "lat": 27.13201,
     "lon": 49.20358,
     "frp": 1.05,
@@ -2797,6 +2677,14 @@
     "lat": 27.07632,
     "lon": 49.57539,
     "frp": 1.8,
+    "date": "2026-10-23",
+    "time": "2229",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.0146,
+    "lon": 49.5823,
+    "frp": 3.67,
     "date": "2026-10-23",
     "time": "2229",
     "confidence": "nominal"
@@ -2850,14 +2738,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 22.5456,
-    "lon": 53.91667,
-    "frp": 7.78,
-    "date": "2026-10-23",
-    "time": "2229",
-    "confidence": "nominal"
-   },
-   {
     "lat": 21.10837,
     "lon": 39.23322,
     "frp": 1.59,
@@ -2906,6 +2786,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 22.55276,
+    "lon": 39.43444,
+    "frp": 0.66,
+    "date": "2026-10-24",
+    "time": "1121",
+    "confidence": "low"
+   },
+   {
     "lat": 23.99999,
     "lon": 38.23566,
     "frp": 3.52,
@@ -2922,9 +2810,33 @@
     "confidence": "low"
    },
    {
+    "lat": 27.18987,
+    "lon": 49.14281,
+    "frp": 2.71,
+    "date": "2026-10-24",
+    "time": "2208",
+    "confidence": "nominal"
+   },
+   {
     "lat": 27.07568,
     "lon": 49.57225,
     "frp": 2.31,
+    "date": "2026-10-24",
+    "time": "2208",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.01277,
+    "lon": 49.55869,
+    "frp": 1.64,
+    "date": "2026-10-24",
+    "time": "2208",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.00823,
+    "lon": 49.55807,
+    "frp": 2.46,
     "date": "2026-10-24",
     "time": "2208",
     "confidence": "nominal"
@@ -2943,6 +2855,22 @@
     "frp": 2.84,
     "date": "2026-10-24",
     "time": "2210",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.55247,
+    "lon": 39.43329,
+    "frp": 1.51,
+    "date": "2026-10-24",
+    "time": "2350",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.00873,
+    "lon": 49.56021,
+    "frp": 1.58,
+    "date": "2026-10-25",
+    "time": "0924",
     "confidence": "nominal"
    },
    {
@@ -2967,6 +2895,22 @@
     "frp": 3.13,
     "date": "2026-10-25",
     "time": "1104",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.1922,
+    "lon": 49.14301,
+    "frp": 1.73,
+    "date": "2026-10-25",
+    "time": "2150",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 27.19472,
+    "lon": 49.14388,
+    "frp": 2.51,
+    "date": "2026-10-25",
+    "time": "2150",
     "confidence": "nominal"
    },
    {
@@ -3010,14 +2954,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 22.54632,
-    "lon": 53.91961,
-    "frp": 1.37,
-    "date": "2026-10-25",
-    "time": "2153",
-    "confidence": "nominal"
-   },
-   {
     "lat": 26.68423,
     "lon": 50.11593,
     "frp": 2.19,
@@ -3034,11 +2970,11 @@
     "confidence": "nominal"
    },
    {
-    "lat": 16.93832,
-    "lon": 42.63363,
-    "frp": 2.76,
+    "lat": 23.97472,
+    "lon": 38.21334,
+    "frp": 3.68,
     "date": "2026-10-25",
-    "time": "2333",
+    "time": "2331",
     "confidence": "nominal"
    },
    {
@@ -3064,15 +3000,117 @@
     "date": "2026-10-26",
     "time": "1045",
     "confidence": "nominal"
+   },
+   {
+    "lat": 22.52379,
+    "lon": 54.04968,
+    "frp": 1.22,
+    "date": "2026-10-26",
+    "time": "2131",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.52628,
+    "lon": 54.0489,
+    "frp": 1.38,
+    "date": "2026-10-26",
+    "time": "2131",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.59862,
+    "lon": 46.57598,
+    "frp": 0.88,
+    "date": "2026-10-26",
+    "time": "2312",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.15824,
+    "lon": 50.6674,
+    "frp": 5.42,
+    "date": "2026-10-26",
+    "time": "2312",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.11686,
+    "lon": 50.60773,
+    "frp": 2.62,
+    "date": "2026-10-26",
+    "time": "2312",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.27938,
+    "lon": 37.56684,
+    "frp": 0.95,
+    "date": "2026-10-26",
+    "time": "2314",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.27586,
+    "lon": 37.56626,
+    "frp": 0.95,
+    "date": "2026-10-26",
+    "time": "2314",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.72025,
+    "lon": 38.9954,
+    "frp": 0.68,
+    "date": "2026-10-26",
+    "time": "2314",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 22.66934,
+    "lon": 39.03701,
+    "frp": 1.25,
+    "date": "2026-10-26",
+    "time": "2314",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.24382,
+    "lon": 39.33206,
+    "frp": 1.53,
+    "date": "2026-10-26",
+    "time": "2314",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 20.71496,
+    "lon": 39.82566,
+    "frp": 2.21,
+    "date": "2026-10-26",
+    "time": "2314",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-26T23:46:58Z"
+  "last_ok_at": "2026-10-27T04:52:47Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T23:47:01Z",
+  "fetched_at": "2026-10-27T04:52:49Z",
   "kr": [
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T03:21:51+00:00",
+    "source": "중앙일보",
+    "title": "AFC-사우디, 정세 불안에도 아시안컵 강행 의지…경기 일정 발표",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xaS1WbmlaSTYtS3NnRENrNDhVVkZDa2tKMmR0dm1sZFZmLVo5Z0xOMVk4QjlVLVZBbFhIMG51WU5GeFAwN1VndFVKcEFFQlJZYVlvSjFR?oc=5"
+   },
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T00:59:58+00:00",
+    "source": "뉴시스",
+    "title": "예멘의 사우디연합군, 사우디행 후티 미사일과 드론3기 요격 발표",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TMXJ5aFRJdjBPbVR0bklkZkYyejhtNENoNG5zNkZpS0RZalVuNnh3YnZPQVFIbFU4TTFXMlFsOVQ1Z2l0ZWdBeW0zaFdYQUZqeDFsbEFrTkdqZGpTWjY2ONIBeEFVX3lxTE9HR1BLNWJCRmlNWm5uU25HRFBrbHVVbkxQRVZvR1NaVVpSazBzMXQ1LUhXa3AzWVVSSFViVzEzNUpvMFNTQ3VQRGdMMW5kVEp0VzJjVW1TVzljb0wycEVidk9CaVR2V0JEb2IxZzJtOXJrUzl6ZFl1UA?oc=5"
+   },
    {
     "date": "2026-10-26",
     "published": "2026-10-26T21:49:12+00:00",
@@ -3089,33 +3127,26 @@
    },
    {
     "date": "2026-10-26",
-    "published": "2026-10-26T17:57:16+00:00",
-    "source": "MBC",
-    "title": "이집트 의회, 사우디 방어 위한 군사 지원 승인‥후티 공격 대응",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52Ti02a0dYRnU1cnVtdnYwTzMxNi16Rk9MUUVaVGNkMmx1Vi0wTmt1UFVibkZwT2VlZDEtU2NaX2dlMXJqckt1cURfV3o0b2JNa19vaDY2OVh4TU1GQllZR1V1QzRMeXRTLVpzZVdYQ244V3pU0gF0QVVfeXFMTUVSN1pmZzNEd0NKWW5iMGF5RzFFa1NOdXZVUFJKdm55dzhQTUpMUHA0QVZQdU1UWFYybVA4RnNhWjZlblJ3MXROanMyZVhXZDlGSVlwSE41WENDaDVROUhxV01OM1FkTEs3TFJKTzVNZXIzeTE?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T17:15:00+00:00",
-    "source": "KBS",
-    "title": "‘방위 동맹’ 사우디·파키스탄·튀르키예, 이란과 고위급 회동",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LdGJNT3hzdVZLd191c1V1S1lJeW5ieUVnYk5GOFVsUWExY21jcnFqRnVXZ3ZqR2xQSGlZSlhnVW1PZjh3UFlFVFkySE5Oc2V3dUtRVHRGUmlydjQ?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T15:48:33+00:00",
-    "source": "뉴스1",
-    "title": "이집트 의회, 사우디 군사지원 승인…\"후티반군 공세에 대응\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uWl9CZUFKTFZJWTkzbGNvOWlRRzc5SjN3MVJVcWJtQVQ3XzBqbXpURmlGLUtOeEY1OXloQW9aaThubkhzRWFGRFpFS0ZkZmpDVnhGYUVYa2dmV2VqMklqU1ln?oc=5"
+    "published": "2026-10-26T20:02:26+00:00",
+    "source": "SBS",
+    "title": "이집트 의회, 사우디 방어 위한 군사 지원 승인…후티 공격 대응",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfTkIwZ2tYYnhsVnZPLUZtOGNKZ29UWkEtR3dweFFNb1dab1NTeUxjWHNtOGpwNHBxMmhVb2dNWHV5VW94dkpHWVdSNHJJeW9Qd1p3UFBqSE9ibXl3Z0RxaEh1Yi1yWEU0RVE?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-10-26",
-    "published": "2026-10-26T19:18:06+00:00",
+    "date": "2026-10-27",
+    "published": "2026-10-27T02:17:00+00:00",
     "source": "Reuters",
-    "title": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFIxVXVVYl90WFZodTB6bHpqOWN3aktZSHNDYTlaM3I5S1FoeU14U1NRVE1mVTJtSDV3ZHk1cHRiWDh6elBNamVIeE5tN2VvRDEyWXBPT1dyNW5KSXFyaE5PVEFOS1NyQW1CNkVVblN6SW1PeVg3aHQxY3B6WmhHU3cxM0gtdTNRLTY1NWo0R284RzQtSmVtTnRxVnR6MTVkNWVsU3djY1d2SURPNmo0N05CUFJZekpIUklNTmRxazZHVTNrbEFN?oc=5"
+    "title": "Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbkE2MkVyd2dKcU5mTWp1VmY5c0pENUN0WjhPTHJDTXZQRENZU2JQa09JbWJaTUpicnN0RkFuTllzRHE0bUtOSjdrSDBiZ3FMYVVhdjVtVFRZLXJoRmRmNldVWXg0SjUxVFppSjQyYXhVajhydnFRRS0yRmNEcW9XWjJZWWpUYjBUR1NCSWFFa3AzNFhDWDVYeVU2VHdQd2ZMcHM1NDhLM3RrTnY5MVlPU0szSWN4ZUlVRmN1OERpcFM3UTBtNGxUNXBVNzltalU?oc=5"
+   },
+   {
+    "date": "2026-10-26",
+    "published": "2026-10-26T19:42:58+00:00",
+    "source": "The New York Times",
+    "title": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWGZQYkpkZXFYZXFmZ2MzYjVXQ1JRUTFFU3FRS0lBMy1qV095bllLM0FUZ2ZLNlBrUmtROG11aHpOUkZ1cnlVb2E0ZllPQ1prZlgtSmltZG5rWXpFSWs2QnhEUlNvdkozYVkzbXFwbmFhdkJmTnYwMDZhaHdGR2hlVFdQQnlxNm1SQk9EWnN3?oc=5"
    },
    {
     "date": "2026-10-26",
@@ -3137,26 +3168,19 @@
     "source": "Al Jazeera",
     "title": "Egyptian parliament authorises military aid for Saudi Arabia",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORlhsajh0N1RmV3NHV3FHOWFSWGpDOEZPMlh0TWQwMWZydnJXNWJzZmNWQVl0enhJYUxsdjZuRnpTVW4yR3VMX3hWUlNTV2c1NEYtSjdPTUFZNEdYYm5mNkVaZW5GV3FvVExGMUU0blhlanVJVHpENURzUkpqNTRrSjhGeU5ad1BncDJtcEMxSFRiQUZhbDNTczhrV2s3MEdUVHkxedIBqgFBVV95cUxQMGtrektjbGp6ZzlLZldzZ0oxZllsXzB4bkdNdlprMTJ5Mk5HYjkyX0swZWowdFVsT3dKSnB1ekFGel9iaHh4dUFHbGYwUEdTQ3pQZUhjR1VDMTJsQzNGMXJMY2NEY01Rc3NOQ3ZIQ1VlNGRPRi0xVEwweG5QR0c1SFAxblBmejB1QlhKdWJleW9nRXAyT2JZbmFyeTl0emZSYnUxbmIybWRjUQ?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T15:17:18+00:00",
-    "source": "Bloomberg",
-    "title": "Saudi Arabia’s Houthi Challenge Shifts Fears to Non-Oil Economy",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXpQQTgzR0xfbjdnOGNjYU00OHRqemhtSlllTWExX1BjaDN3YTNaaE1qYkwtejlPWmtqdGx5TXVLVzBCdkpxcUtadWxxZkFiVHprMTFMS0ZvOUZxTW83UGhPQ24yU29QVzdRSHU2OVc0RWdwcG9XVk4zalhkUWZDUmNMYmVKV0hTd0VCOUZOOEQ3RHZGLWdIVmhaTUZjZkY0Ry1WMlAwNGJzLUFkZzdTLTFuOG4?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-26T23:47:01Z"
+  "last_ok_at": "2026-10-27T04:52:49Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-26T23:47:02Z",
+  "fetched_at": "2026-10-27T04:52:50Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 19,
-  "baseline": 31,
-  "baseline_n": 11,
-  "tier": "감소",
+  "count": 7,
+  "baseline": 21.5,
+  "baseline_n": 8,
+  "tier": "끊김",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3360,14 +3384,15 @@
    "2026-10-26T06": 10,
    "2026-10-26T12": 21,
    "2026-10-26T19": 14,
-   "2026-10-26T23": 19
+   "2026-10-26T23": 19,
+   "2026-10-27T04": 7
   },
-  "last_ok_at": "2026-10-26T23:47:02Z"
+  "last_ok_at": "2026-10-27T04:52:50Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-26T23:47:03Z",
-  "last_ok_at": "2026-10-26T23:47:03Z"
+  "fetched_at": "2026-10-27T04:52:50Z",
+  "last_ok_at": "2026-10-27T04:52:50Z"
  }
 }
