@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T04:52:24Z",
+ "generated_at": "2026-10-27T10:25:18Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T04:52:24Z",
+  "fetched_at": "2026-10-27T10:25:18Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,41 @@
   "last7d": 8,
   "baseline": 4.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-27T04:52:24Z"
+  "last_ok_at": "2026-10-27T10:25:18Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T04:52:45Z",
+  "fetched_at": "2026-10-27T10:25:36Z",
   "events": [
+   {
+    "date": "2026-10-27",
+    "time": "12:52",
+    "iso": "2026-10-27T12:52:40+03:00",
+    "city": "메카",
+    "type": "공습",
+    "weapon": null,
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "美 중간선거 후 공습 재개설에 ‘메카 동맹’ 이란과 고위급 회담",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZSVpnd2cyaGs4dUxwNXJweWp2b0lGWGlOTVF6RDRsaU9DQUlWeHBETDRHcS02RTNUeEZHT0Rkbl9sMHRxRDdfUFJhcHpyNkFFbHQyMk9jVWc?oc=5",
+    "source": "국민일보",
+    "outlets": 1
+   },
+   {
+    "date": "2026-10-27",
+    "time": "09:31",
+    "iso": "2026-10-27T09:31:00+03:00",
+    "city": "메카",
+    "type": "피격",
+    "weapon": null,
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "'美선거 후 재타격설'에... 사우디 등 '메카 동맹', 이란과 첫 회동",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QV0dRc3dFY3hPaktkN3psMjJQeUMxUkVaUnpOXzcwQzB6RTZ4cjJJMHhqTDFhaUc3cFRjS2hFRU0wUGpjNi1BaWN1b3BKNWZVUFoyTlFCMnIwWi0yWlBmdWx5YjJkV3ZfSFR6NzVicE9ZSGfSAXNBVV95cUxNUFdHUXN3RWN4T2pLZDd6bDIyUHlDMVJFWlJ6Tl83MEMwekU2eHIySTB4akwxYWlHN3BUY0toRUVNMFBqYzYtQWljdW9wSjVmVVBaMk5RQjJyMFotMlpQZnVseWIyZFd2X0hUejc1YnBPWUhn?oc=5",
+    "source": "한국일보",
+    "outlets": 1
+   },
    {
     "date": "2026-10-26",
     "time": "14:42",
@@ -1096,9 +1124,11 @@
    },
    "메카": {
     "7d": {
+     "공습": 1,
+     "피격": 1,
      "요격": 2
     },
-    "total7d": 2,
+    "total7d": 4,
     "prev7d": {},
     "prev_total": 0
    },
@@ -1201,12 +1231,12 @@
   "history_days": 31,
   "history_since": "2026-09-27",
   "today": "2026-10-27",
-  "last_ok_at": "2026-10-27T04:52:45Z"
+  "last_ok_at": "2026-10-27T10:25:36Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T04:52:46Z",
+  "fetched_at": "2026-10-27T10:25:37Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1977,12 +2007,12 @@
    "아브하": 2,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-27T04:52:46Z"
+  "last_ok_at": "2026-10-27T10:25:37Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T04:52:47Z",
+  "fetched_at": "2026-10-27T10:25:37Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3090,13 +3120,34 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-27T04:52:47Z"
+  "last_ok_at": "2026-10-27T10:25:37Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T04:52:49Z",
+  "fetched_at": "2026-10-27T10:25:40Z",
   "kr": [
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T09:45:58+00:00",
+    "source": "뉴스1",
+    "title": "이집트 사우디 군사 지원에 후티 반발…\"예멘에 대한 선전포고\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5EZ21oRV9PcVo4clNtbXdMdUxCTEt2OEs5YnNaMEU4WkdPLXJVenhpZ2pndmwxSHd0d2FwU2tXamIwODdnQmw3d0lWS2M5eHFiWHFndzNhRG9PUHBoek5uQXFn?oc=5"
+   },
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T07:48:41+00:00",
+    "source": "연합뉴스",
+    "title": "이집트 의회, 사우디 군사지원 승인…35년만 파병 가능성(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SSjVIZWVOd3M4NlFvMXhXRzZBSTBRa29xY0lyVm9ySDZlQjRscndpUXJKYTROREg1RUZBV2MwdGhiWmpWb21iaGl3YjNzazU5RVZhZkFCVW05VDNpd1FxY9IBYEFVX3lxTE9SSjVIZWVOd3M4NlFvMXhXRzZBSTBRa29xY0lyVm9ySDZlQjRscndpUXJKYTROREg1RUZBV2MwdGhiWmpWb21iaGl3YjNzazU5RVZhZkFCVW05VDNpd1FxYw?oc=5"
+   },
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T06:31:00+00:00",
+    "source": "한국일보",
+    "title": "'美선거 후 재타격설'에... 사우디 등 '메카 동맹', 이란과 첫 회동",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QV0dRc3dFY3hPaktkN3psMjJQeUMxUkVaUnpOXzcwQzB6RTZ4cjJJMHhqTDFhaUc3cFRjS2hFRU0wUGpjNi1BaWN1b3BKNWZVUFoyTlFCMnIwWi0yWlBmdWx5YjJkV3ZfSFR6NzVicE9ZSGfSAXNBVV95cUxNUFdHUXN3RWN4T2pLZDd6bDIyUHlDMVJFWlJ6Tl83MEMwekU2eHIySTB4akwxYWlHN3BUY0toRUVNMFBqYzYtQWljdW9wSjVmVVBaMk5RQjJyMFotMlpQZnVseWIyZFd2X0hUejc1YnBPWUhn?oc=5"
+   },
    {
     "date": "2026-10-27",
     "published": "2026-10-27T03:21:51+00:00",
@@ -3106,81 +3157,60 @@
    },
    {
     "date": "2026-10-27",
-    "published": "2026-10-27T00:59:58+00:00",
-    "source": "뉴시스",
-    "title": "예멘의 사우디연합군, 사우디행 후티 미사일과 드론3기 요격 발표",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TMXJ5aFRJdjBPbVR0bklkZkYyejhtNENoNG5zNkZpS0RZalVuNnh3YnZPQVFIbFU4TTFXMlFsOVQ1Z2l0ZWdBeW0zaFdYQUZqeDFsbEFrTkdqZGpTWjY2ONIBeEFVX3lxTE9HR1BLNWJCRmlNWm5uU25HRFBrbHVVbkxQRVZvR1NaVVpSazBzMXQ1LUhXa3AzWVVSSFViVzEzNUpvMFNTQ3VQRGdMMW5kVEp0VzJjVW1TVzljb0wycEVidk9CaVR2V0JEb2IxZzJtOXJrUzl6ZFl1UA?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T21:49:12+00:00",
-    "source": "연합뉴스",
-    "title": "정세 불안에도 사우디 아시안컵 강행 의지…AFC 경기 일정 발표",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aWjdEZzdDRkYyU1ZFdDNEVnNqVnduWXRwWEpISVFQTnlLUGd2bnREUDBjcG1VVVktbTFJQkFtSXAxb3JoWHVnUVpVcVJXOUNzZE56c2JtTFkySXPSAWBBVV95cUxNVEtCQ3FHanBLdTZwZlJicUJLR0VBTEtZWVkzSEdTYmFZT2NkbmhIRlI3MVRNemNoNGZJWkY3MjdBZDRLaUxfSDM0U3lvQ2l3elVvYnJkVnZvTnRWM05FVE4?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T20:10:25+00:00",
-    "source": "연합뉴스",
-    "title": "국제유가, 이란·사우디 회동에 하락…WTI 1.5%↓",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkdlVfR2RaMS1taDlac0xBZ09BZnRySWM1UEN5VTdrQVBrZlRmTXgzVEFXWDRBWXUtQnd6WWJJOXpER2ZzWVBXZ0pieVp6UXBQZTR1VkJDTk55VkXSAWBBVV95cUxQbW5UZkI5M3RTWWpCYVc0NGtaMUhBR1l6OFgxOWE4SFFzbGZQUnItVFZJZURXZnZ2N1c3VE8xOHV4SGxpQlllT0hBeVE1aTEwOTg1bnZsUnlVOWFDZm9udkU?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T20:02:26+00:00",
-    "source": "SBS",
-    "title": "이집트 의회, 사우디 방어 위한 군사 지원 승인…후티 공격 대응",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfTkIwZ2tYYnhsVnZPLUZtOGNKZ29UWkEtR3dweFFNb1dab1NTeUxjWHNtOGpwNHBxMmhVb2dNWHV5VW94dkpHWVdSNHJJeW9Qd1p3UFBqSE9ibXl3Z0RxaEh1Yi1yWEU0RVE?oc=5"
+    "published": "2026-10-27T01:06:00+00:00",
+    "source": "한겨레",
+    "title": "‘불가침 네트워크’ 구축할까…사우디·파키스탄·튀르키예, 이란과 고위급 회동",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HTTZXc21xZ2pFVmMtUzJBME9wekMxaE1QS0ZwdDlBZVlIZ1U3aTlRSmpVZm1ES0dzYk5xQ0ZrNkpvWEQ3eFQ5bFJ2N1pKWmc4WXNkRVhhX3lZbUx6VS1yOGp0NVdUMVFxT0NfZnpIbGVGMHc?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-27",
-    "published": "2026-10-27T02:17:00+00:00",
-    "source": "Reuters",
-    "title": "Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbkE2MkVyd2dKcU5mTWp1VmY5c0pENUN0WjhPTHJDTXZQRENZU2JQa09JbWJaTUpicnN0RkFuTllzRHE0bUtOSjdrSDBiZ3FMYVVhdjVtVFRZLXJoRmRmNldVWXg0SjUxVFppSjQyYXhVajhydnFRRS0yRmNEcW9XWjJZWWpUYjBUR1NCSWFFa3AzNFhDWDVYeVU2VHdQd2ZMcHM1NDhLM3RrTnY5MVlPU0szSWN4ZUlVRmN1OERpcFM3UTBtNGxUNXBVNzltalU?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T19:42:58+00:00",
-    "source": "The New York Times",
-    "title": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWGZQYkpkZXFYZXFmZ2MzYjVXQ1JRUTFFU3FRS0lBMy1qV095bllLM0FUZ2ZLNlBrUmtROG11aHpOUkZ1cnlVb2E0ZllPQ1prZlgtSmltZG5rWXpFSWs2QnhEUlNvdkozYVkzbXFwbmFhdkJmTnYwMDZhaHdGR2hlVFdQQnlxNm1SQk9EWnN3?oc=5"
-   },
-   {
-    "date": "2026-10-26",
-    "published": "2026-10-26T17:51:39+00:00",
+    "published": "2026-10-27T10:07:13+00:00",
     "source": "Al Jazeera",
-    "title": "Mecca defence alliance members in Tehran to defuse Iran-US, Yemen tensions",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk1ubVptNEpFS3lXMGZ6TnEwaHN4aVh1c3ZhMkc3T0xoYzBXWHpJYXgyZ20tMmRhQTQ0X1ptZ3RJd2c0bjVuN19kaDRHS1hKdjM5R1dNbjN2Y1ZCRkhpdndVYXlibUFreS13QmN3dC1NcmJSel9aUHdBcEE0QUxUcTlHS2NkdGhwSjFGc0lGT2lIOWY5OW9aX2dNX3RLdTNvWEF3NVI5dGNIa3pnalFiT0hMVEFoZ9IBuwFBVV95cUxOUEFzeTRiSDlJa0pLZXVPUVI3NVRqSjVfSzlxMnJGQWNtMzNTcmdwVTFkR2dTXzB5MXRzLUF2ZEFqcHVyRDE2Z0IwaW94UUVDQTltQjFKbGNJd1RTRjV3UTBXY0NxQmh1aExGWEVaMnJscUZmRkJLTWJoaG1aU2drSDRMcnJYVXBVUVYxbmZ3MFpnYkFjLWp4b2dSMFdpdkphbE90UHFfZHBVUTJyQXVNcFVGV0JRM2REZ18w?oc=5"
+    "title": "Saudi-led coalition says it downed Houthi missiles, drones aimed at kingdom",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaXlqZ2hqcnVxVFQ5c1dTTEZYVWdybnItSno1SHNHRnVNUmNvU3phanJwODI3U1FoZEpFYkllQmtYSVhEUUtGU1RhR1dvaXNKMHJMOFIyaS1aWk5xdWo0TTl0OXJHY0JHbjRuazNOaVJsMFVER1llQjdMU2poMUZmU3VzR3JzUDRtSVkzM2VzTVpmQk3SAZgBQVVfeXFMTzcyYWktUzV0Nk5zNzRWck1Ub3pXald0MDJldUdNVVgyUUxjMTJ2eXZVa1J0VW9QbFlJVktNekNudVRER2diN09fY2w4YS1VNGFQb2pMZ0JybFI0SUthU3ZPTXV3RTBMaEduVlFiSDNBVHhWSDZpRGNlc2RiT2FiVWRxVFd1dmlfNWpxdzlCVXRST1ZkRk5xN2Y?oc=5"
    },
    {
-    "date": "2026-10-26",
-    "published": "2026-10-26T17:04:00+00:00",
-    "source": "AP News",
-    "title": "Saudi-led coalition says it destroyed Houthi missile facilities, and other Mideast news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2ZURmR6T3lKaFZzbDlabVVqcnpoM2FrYnh6YURqOGZlTDlOVFZ0TTFSckF4THV3RUxwcVJySHhmRU9ZdWNycnQ3LVVlY3p5WW1uX1BlSjYtVTN0eGVLZlA5QXFCMGQ0Si1KY3AxZFpRLTdBUE14WmdCLU9xT2tZWnJ0WkpHNDMxd0JwTnFSMnFuUQ?oc=5"
+    "date": "2026-10-27",
+    "published": "2026-10-27T09:14:45+00:00",
+    "source": "Bloomberg",
+    "title": "Aramco Contains Fire Near Ras Tanura Oil Hub After Attack",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSGJ6ZjFmSGxPMW84a3Q2VnhMWU94cGJaT0ZFc3hCQzl5eUx3ajNDdV9rOUQ4UEVVWkF1cTJnVTVuTGdBSFloZ2ljamJaYzRzZVVOOUZtb1RXa1k0ek81RDFSUnhpbmRhRDhFZlpHRFZlVzk4bGI1V25MeUtIb0VlczBBZzhoMHZzekU4OUlHVGZMLXNIV0dJZFpta1lGZ2ViZW5fclcwaHZwQnRHNmpPZVgta3k?oc=5"
    },
    {
-    "date": "2026-10-26",
-    "published": "2026-10-26T15:59:12+00:00",
+    "date": "2026-10-27",
+    "published": "2026-10-27T08:25:42+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Arabia Contains Fire Near Ras Tanura Oil Hub After Attack",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRjVVVlRUWWhZbkNONHpjbVFySkQzTGtHVzF3TTdtbVNTcXczWDktemRDTm9IaVRNcnR1RWxFN1VYeU41ejRtOHhRbUpkWjJudTR2SjBRM1lPLU1zNWxoaFh1ZWRXSkJ5NDRjWHU0ZWJTY0UwTUFyckpraFhrQ3BQVDUzYmJ0TFM5Skl1bWI3b3NrY25nQm01R1JheEx1VGZuT3Z2eV9EUE9XSGpoNjUzanVBTlhyWExBTUxGSGJ5TWlNQkhFcExQdnFtanFGVURMNXlN?oc=5"
+   },
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T08:00:51+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Saudi Arabia intercepts missiles and drones after Tehran meeting",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXpXeGJySlQxeV9XYjNxYnlSSUVtSEZibERTbTVKcG1seloyZXYyc3JvbEtUT0JtamQ1N2YtbEYxZWR4MW1CTDJrbDUyYzVhOVFocDk1RURYWl82TFZFWmxNRW1UT1EtVE1INjR1bkNrbWhZN1lPSWZtclU0VFA3SXQtdU9Kay11UWI5YzZJaUU3R3MtSnBHdg?oc=5"
+   },
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T06:56:35+00:00",
     "source": "Al Jazeera",
     "title": "Egyptian parliament authorises military aid for Saudi Arabia",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORlhsajh0N1RmV3NHV3FHOWFSWGpDOEZPMlh0TWQwMWZydnJXNWJzZmNWQVl0enhJYUxsdjZuRnpTVW4yR3VMX3hWUlNTV2c1NEYtSjdPTUFZNEdYYm5mNkVaZW5GV3FvVExGMUU0blhlanVJVHpENURzUkpqNTRrSjhGeU5ad1BncDJtcEMxSFRiQUZhbDNTczhrV2s3MEdUVHkxedIBqgFBVV95cUxQMGtrektjbGp6ZzlLZldzZ0oxZllsXzB4bkdNdlprMTJ5Mk5HYjkyX0swZWowdFVsT3dKSnB1ekFGel9iaHh4dUFHbGYwUEdTQ3pQZUhjR1VDMTJsQzNGMXJMY2NEY01Rc3NOQ3ZIQ1VlNGRPRi0xVEwweG5QR0c1SFAxblBmejB1QlhKdWJleW9nRXAyT2JZbmFyeTl0emZSYnUxbmIybWRjUQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-27T04:52:49Z"
+  "last_ok_at": "2026-10-27T10:25:40Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T04:52:50Z",
+  "fetched_at": "2026-10-27T10:25:41Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 7,
-  "baseline": 21.5,
-  "baseline_n": 8,
-  "tier": "끊김",
+  "count": 21,
+  "baseline": 28.0,
+  "baseline_n": 6,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3385,14 +3415,15 @@
    "2026-10-26T12": 21,
    "2026-10-26T19": 14,
    "2026-10-26T23": 19,
-   "2026-10-27T04": 7
+   "2026-10-27T04": 7,
+   "2026-10-27T10": 21
   },
-  "last_ok_at": "2026-10-27T04:52:50Z"
+  "last_ok_at": "2026-10-27T10:25:41Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-27T04:52:50Z",
-  "last_ok_at": "2026-10-27T04:52:50Z"
+  "fetched_at": "2026-10-27T10:25:41Z",
+  "last_ok_at": "2026-10-27T10:25:41Z"
  }
 }
