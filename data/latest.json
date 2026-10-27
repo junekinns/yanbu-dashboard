@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T10:25:18Z",
+ "generated_at": "2026-10-27T16:27:27Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T10:25:18Z",
+  "fetched_at": "2026-10-27T16:27:27Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 8,
   "baseline": 4.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-27T10:25:18Z"
+  "last_ok_at": "2026-10-27T16:27:27Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T10:25:36Z",
+  "fetched_at": "2026-10-27T16:27:48Z",
   "events": [
    {
     "date": "2026-10-27",
@@ -219,7 +219,7 @@
     "title": "'美선거 후 재타격설'에... 사우디 등 '메카 동맹', 이란과 첫 회동",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QV0dRc3dFY3hPaktkN3psMjJQeUMxUkVaUnpOXzcwQzB6RTZ4cjJJMHhqTDFhaUc3cFRjS2hFRU0wUGpjNi1BaWN1b3BKNWZVUFoyTlFCMnIwWi0yWlBmdWx5YjJkV3ZfSFR6NzVicE9ZSGfSAXNBVV95cUxNUFdHUXN3RWN4T2pLZDd6bDIyUHlDMVJFWlJ6Tl83MEMwekU2eHIySTB4akwxYWlHN3BUY0toRUVNMFBqYzYtQWljdW9wSjVmVVBaMk5RQjJyMFotMlpQZnVseWIyZFd2X0hUejc1YnBPWUhn?oc=5",
     "source": "한국일보",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-10-26",
@@ -1231,14 +1231,63 @@
   "history_days": 31,
   "history_since": "2026-09-27",
   "today": "2026-10-27",
-  "last_ok_at": "2026-10-27T10:25:36Z"
+  "last_ok_at": "2026-10-27T16:27:48Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T10:25:37Z",
+  "fetched_at": "2026-10-27T16:27:49Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-27 17:23",
+    "iso": "2026-10-27T17:23:02+03:00",
+    "places": [
+     "아브하"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من استهداف مطار أبها الدولي بطائرة مسيرة وكانت الإصابة دقيقة وأدت إلى تعطل حركة الملاحة في المطار. http://t.me/army21ye",
+    "text_ko": "알라 덕분에 우리 군대는 무인 항공기로 아바 국제 공항을 공략할 수 있었습니다. 부상은 정확했고 공항에서 항해가 중단되었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3972"
+   },
+   {
+    "time": "2026-10-27 16:45",
+    "iso": "2026-10-27T16:45:13+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "استهدفت قواتنا المسلحة بفضل الله وزارة الدفاع في عاصمة العدو السعودي الرياض بصاروخ باليستي وكانت الإصابة مباشرة بفضل الله. http://t.me/army21ye",
+    "text_ko": "우리 군은 신 덕분에 사우디 적 리야드의 수도인 국방부를 탄도 미사일로 겨냥했고, 신 덕분에 부상은 직접적이었다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3971"
+   },
+   {
+    "time": "2026-10-27 16:07",
+    "iso": "2026-10-27T16:07:15+03:00",
+    "places": [
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من استهداف طائرتي نقل عسكرية بصاروخين بالستيين الأولى في مطار نجران والأخرى في قاعدة خالد الجوية بخميس مشيط وحققت العمليتان أهدافهما بنجاح بفضل الله. http://t.me/army21ye",
+    "text_ko": "신 덕분에 우리 군은 나즈란 공항과 카미스 무샤이트의 칼레드 공군 기지에서 두 대의 탄도 미사일로 두 대의 군용 수송기를 목표로 삼을 수 있었고, 두 작전은 신 덕분에 성공적으로 목표를 달성했습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3970"
+   },
+   {
+    "time": "2026-10-27 15:36",
+    "iso": "2026-10-27T15:36:26+03:00",
+    "places": [],
+    "text_ar": "تصدت قواتنا المسلحة بفضل الله لمحاولة تقدم قامت بها تحشيدات تابعة للعدو السعودي التى يشرف عليها الضابط السعودي بدر الحربي قائد القاعدة العملياتية المتقدمة في عدن من الاتجاه الجنوبي لباب المندب وقد تم استهداف تلك التحشيدات بعدد من الصواريخ الباليستية وبالأسلحة الثقيلة ما أدى إلى سقوط أعداد كبيرة من القتلى والجرحى وهرعت سيارات الإسعاف إلى أماكن الاستهداف. فيما دمر مجاهدو قواتنا المسلحة عددا من الآلي…",
+    "text_ko": "우리 군대는 하나님의 은혜로 바브 알 만다브 남쪽 방향에서 아덴의 첨단 작전 기지 사령관인 사우디 장교 바드르 알 하르비의 감독하에 사우디 적과 제휴한 동원에 의해 전진하려는 시도에 직면했다. 이러한 동원은 다수의 탄도 미사일과 중무기의 표적이 되었고, 이로 인해 많은 사망자와 부상이 발생했고, 구급차는 표적 지점으로 돌진했다. 우리 군대의 무자헤딘이 여러 대의 로봇을 파괴한 동안...",
+    "url": "https://t.me/army21ye/3969"
+   },
+   {
+    "time": "2026-10-27 13:54",
+    "iso": "2026-10-27T13:54:36+03:00",
+    "places": [
+     "라스타누라"
+    ],
+    "text_ar": "تمكنت القوات المسلحة اليمنية بعون الله تعالى من استهداف مصفاة رأس تنورة في المنطقة الشرقية بصاروخ باليستي وكانت الإصابة دقيقة بفضل الله وتسببت في نشوب حرائق ضخمة في الموقع المستهدف. http://t.me/army21ye",
+    "text_ko": "예멘군은 알라의 도움으로 탄도 미사일로 동부 지역의 라스 타누라 정유소를 공략할 수 있었습니다. 알라 덕분에 부상은 정확했고, 목표 위치에서 큰 화재를 일으켰습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3968"
+   },
    {
     "time": "2026-10-26 20:17",
     "iso": "2026-10-26T20:17:41+03:00",
@@ -1994,35 +2043,28 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 12,
-   "리야드": 11,
-   "나즈란": 8,
-   "지잔": 7,
+   "카미스무샤이트": 13,
+   "리야드": 12,
+   "나즈란": 9,
+   "지잔": 6,
    "얀부": 6,
    "담맘": 6,
    "메디나": 4,
    "라비그": 4,
+   "아브하": 3,
    "타이프": 3,
    "메카": 3,
-   "아브하": 2,
+   "라스타누라": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-27T10:25:37Z"
+  "last_ok_at": "2026-10-27T16:27:49Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T10:25:37Z",
+  "fetched_at": "2026-10-27T16:27:58Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
-   {
-    "lat": 23.86222,
-    "lon": 47.4543,
-    "frp": 3.15,
-    "date": "2026-10-20",
-    "time": "0917",
-    "confidence": "nominal"
-   },
    {
     "lat": 25.96367,
     "lon": 49.23107,
@@ -2328,14 +2370,6 @@
     "confidence": "low"
    },
    {
-    "lat": 23.86249,
-    "lon": 47.45856,
-    "frp": 13.67,
-    "date": "2026-10-21",
-    "time": "1038",
-    "confidence": "nominal"
-   },
-   {
     "lat": 23.87065,
     "lon": 47.453,
     "frp": 5.3,
@@ -2477,14 +2511,6 @@
     "frp": 0.88,
     "date": "2026-10-21",
     "time": "2307",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.86019,
-    "lon": 47.45795,
-    "frp": 9.12,
-    "date": "2026-10-22",
-    "time": "1019",
     "confidence": "nominal"
    },
    {
@@ -3118,15 +3144,92 @@
     "date": "2026-10-26",
     "time": "2314",
     "confidence": "nominal"
+   },
+   {
+    "lat": 18.71749,
+    "lon": 42.75301,
+    "frp": 2.96,
+    "date": "2026-10-27",
+    "time": "1026",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.16524,
+    "lon": 39.53874,
+    "frp": 13.32,
+    "date": "2026-10-27",
+    "time": "1026",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.16923,
+    "lon": 39.5379,
+    "frp": 6.41,
+    "date": "2026-10-27",
+    "time": "1026",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 21.38194,
+    "lon": 39.19746,
+    "frp": 1.04,
+    "date": "2026-10-27",
+    "time": "1026",
+    "confidence": "low"
+   },
+   {
+    "lat": 24.36097,
+    "lon": 39.632,
+    "frp": 2.17,
+    "date": "2026-10-27",
+    "time": "1026",
+    "confidence": "low"
+   },
+   {
+    "lat": 26.14296,
+    "lon": 50.64886,
+    "frp": 3.54,
+    "date": "2026-10-27",
+    "time": "1026",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 26.7796,
+    "lon": 50.00222,
+    "frp": 4.06,
+    "date": "2026-10-27",
+    "time": "1026",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-27T10:25:37Z"
+  "last_ok_at": "2026-10-27T16:27:58Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T10:25:40Z",
+  "fetched_at": "2026-10-27T16:27:59Z",
   "kr": [
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T15:58:27+00:00",
+    "source": "연합뉴스",
+    "title": "메카 3국·이란 회담 다음날…후티 \"사우디 국방부 등 공격\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xSlpTaWl2QmJCSWZDY1hTdXZ6Z283U1poNEtMb2xNRHFpa3NJWTJwVFlYdE5xNlhLNGpYcHBVM3FUUzdRejBpRktZbXIwcmFRVnd0UmY1WnllaWvSAWBBVV95cUxPb05WSlR5clVqVTU4OGZEN1ByQ0xPY3lDWWx6bTRtYkIydVFqVjFCX0xSNVU0Y2kyVVVoeUp5czVGMWEyclAzckNYNm9rVzJoQmUyRVQwZVdJdGszWjZPY3g?oc=5"
+   },
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T15:21:19+00:00",
+    "source": "뉴스1",
+    "title": "예멘 후티 반군, 사우디 국방부 및 최대 정유공장 미사일 공습 주장",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QMXdXVWhPWWNFQXFRdDcyb0I4c1NxZnpSZkdTZk96bUp0b1pWRkdNYThLV3ZZTkFMcGlDdVBGdW15RlBaWm4tMTZXZnE1bXRzMnM0V0dNUFpKajE5UXFhYm1R?oc=5"
+   },
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T10:40:00+00:00",
+    "source": "한겨레",
+    "title": "‘불가침 네트워크’ 구축할까…사우디·파키스탄·튀르키예, 이란과 고위급 회동",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HTTZXc21xZ2pFVmMtUzJBME9wekMxaE1QS0ZwdDlBZVlIZ1U3aTlRSmpVZm1ES0dzYk5xQ0ZrNkpvWEQ3eFQ5bFJ2N1pKWmc4WXNkRVhhX3lZbUx6VS1yOGp0NVdUMVFxT0NfZnpIbGVGMHc?oc=5"
+   },
    {
     "date": "2026-10-27",
     "published": "2026-10-27T09:45:58+00:00",
@@ -3139,31 +3242,17 @@
     "published": "2026-10-27T07:48:41+00:00",
     "source": "연합뉴스",
     "title": "이집트 의회, 사우디 군사지원 승인…35년만 파병 가능성(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SSjVIZWVOd3M4NlFvMXhXRzZBSTBRa29xY0lyVm9ySDZlQjRscndpUXJKYTROREg1RUZBV2MwdGhiWmpWb21iaGl3YjNzazU5RVZhZkFCVW05VDNpd1FxY9IBYEFVX3lxTE9SSjVIZWVOd3M4NlFvMXhXRzZBSTBRa29xY0lyVm9ySDZlQjRscndpUXJKYTROREg1RUZBV2MwdGhiWmpWb21iaGl3YjNzazU5RVZhZkFCVW05VDNpd1FxYw?oc=5"
-   },
-   {
-    "date": "2026-10-27",
-    "published": "2026-10-27T06:31:00+00:00",
-    "source": "한국일보",
-    "title": "'美선거 후 재타격설'에... 사우디 등 '메카 동맹', 이란과 첫 회동",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QV0dRc3dFY3hPaktkN3psMjJQeUMxUkVaUnpOXzcwQzB6RTZ4cjJJMHhqTDFhaUc3cFRjS2hFRU0wUGpjNi1BaWN1b3BKNWZVUFoyTlFCMnIwWi0yWlBmdWx5YjJkV3ZfSFR6NzVicE9ZSGfSAXNBVV95cUxNUFdHUXN3RWN4T2pLZDd6bDIyUHlDMVJFWlJ6Tl83MEMwekU2eHIySTB4akwxYWlHN3BUY0toRUVNMFBqYzYtQWljdW9wSjVmVVBaMk5RQjJyMFotMlpQZnVseWIyZFd2X0hUejc1YnBPWUhn?oc=5"
-   },
-   {
-    "date": "2026-10-27",
-    "published": "2026-10-27T03:21:51+00:00",
-    "source": "중앙일보",
-    "title": "AFC-사우디, 정세 불안에도 아시안컵 강행 의지…경기 일정 발표",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xaS1WbmlaSTYtS3NnRENrNDhVVkZDa2tKMmR0dm1sZFZmLVo5Z0xOMVk4QjlVLVZBbFhIMG51WU5GeFAwN1VndFVKcEFFQlJZYVlvSjFR?oc=5"
-   },
-   {
-    "date": "2026-10-27",
-    "published": "2026-10-27T01:06:00+00:00",
-    "source": "한겨레",
-    "title": "‘불가침 네트워크’ 구축할까…사우디·파키스탄·튀르키예, 이란과 고위급 회동",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HTTZXc21xZ2pFVmMtUzJBME9wekMxaE1QS0ZwdDlBZVlIZ1U3aTlRSmpVZm1ES0dzYk5xQ0ZrNkpvWEQ3eFQ5bFJ2N1pKWmc4WXNkRVhhX3lZbUx6VS1yOGp0NVdUMVFxT0NfZnpIbGVGMHc?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJMzZZQkJSTGF0NHZvRHJvWi1OYXZDU2Q4S2ZySElwQ0pJLXhFOXdXcGw5dlFXMnJvalFrWlJzZ29OcnRTU2pEUDFWU1cxZGMtR0FUa0U0UTJyT2PSAWBBVV95cUxPUko1SGVlTndzODZRbzF4V0c2QUkwUWtvcWNJclZvckg2ZUI0bHJ3aVFySmE0TkRINUVGQVdjMHRoYlpqVm9tYmhpd2Izc2s1OUVWYWZBQlVtOVQzaXdRcWM?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T14:36:49+00:00",
+    "source": "Reuters",
+    "title": "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMU9tRHdmbzQ2ZHlsQzBDVmpqUEhlTk9meXgzN1VMOWlUMnlKOU1ibFRMQ1VQNDNjTkloUG9lb054S2JXZ2YwMS1MMXM4b1pwczl2clNyTHM5RGZVdnd6bzJXTVl4bW4yZ0pGTEV2aEV4dlR2cDNkc0lvNjVMN2ZScklvRDE3S1VyS0FoaC02Z3BqTHJPeTJrekxhM0dONmN0VzdXTmE5QjNfM0pIZ1Q2SHMtSkZzbFNqSThaN2RybDFBdw?oc=5"
+   },
    {
     "date": "2026-10-27",
     "published": "2026-10-27T10:07:13+00:00",
@@ -3180,37 +3269,30 @@
    },
    {
     "date": "2026-10-27",
-    "published": "2026-10-27T08:25:42+00:00",
+    "published": "2026-10-27T07:31:28+00:00",
     "source": "Bloomberg",
-    "title": "Saudi Arabia Contains Fire Near Ras Tanura Oil Hub After Attack",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRjVVVlRUWWhZbkNONHpjbVFySkQzTGtHVzF3TTdtbVNTcXczWDktemRDTm9IaVRNcnR1RWxFN1VYeU41ejRtOHhRbUpkWjJudTR2SjBRM1lPLU1zNWxoaFh1ZWRXSkJ5NDRjWHU0ZWJTY0UwTUFyckpraFhrQ3BQVDUzYmJ0TFM5Skl1bWI3b3NrY25nQm01R1JheEx1VGZuT3Z2eV9EUE9XSGpoNjUzanVBTlhyWExBTUxGSGJ5TWlNQkhFcExQdnFtanFGVURMNXlN?oc=5"
+    "title": "Watch Sutcliffe: Saudis in Tehran on Iran War, Houthi Conflict",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRDhad1lfUldSQ2Fla3hfTTlaa19ONEYtTzVnSnFlUmdxSnpSQ01IV2FLWDhnN3FwT0V4cXYwSjQtaUhJeV9ORHExVmprZU0xVE9yQTBtOFBrYkNDZF9XdWpDUFpTN3NnaVB1VGVBY3UtcU5fYmYxNUhHcVNIaU9sUDIxS0wyU00yV203REFISUNiQ1J6bjJGVk8xajIxY1dCa0tvWjQzX2lWUko3SkE?oc=5"
    },
    {
     "date": "2026-10-27",
-    "published": "2026-10-27T08:00:51+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Saudi Arabia intercepts missiles and drones after Tehran meeting",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXpXeGJySlQxeV9XYjNxYnlSSUVtSEZibERTbTVKcG1seloyZXYyc3JvbEtUT0JtamQ1N2YtbEYxZWR4MW1CTDJrbDUyYzVhOVFocDk1RURYWl82TFZFWmxNRW1UT1EtVE1INjR1bkNrbWhZN1lPSWZtclU0VFA3SXQtdU9Kay11UWI5YzZJaUU3R3MtSnBHdg?oc=5"
-   },
-   {
-    "date": "2026-10-27",
-    "published": "2026-10-27T06:56:35+00:00",
-    "source": "Al Jazeera",
-    "title": "Egyptian parliament authorises military aid for Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORlhsajh0N1RmV3NHV3FHOWFSWGpDOEZPMlh0TWQwMWZydnJXNWJzZmNWQVl0enhJYUxsdjZuRnpTVW4yR3VMX3hWUlNTV2c1NEYtSjdPTUFZNEdYYm5mNkVaZW5GV3FvVExGMUU0blhlanVJVHpENURzUkpqNTRrSjhGeU5ad1BncDJtcEMxSFRiQUZhbDNTczhrV2s3MEdUVHkxedIBqgFBVV95cUxQMGtrektjbGp6ZzlLZldzZ0oxZllsXzB4bkdNdlprMTJ5Mk5HYjkyX0swZWowdFVsT3dKSnB1ekFGel9iaHh4dUFHbGYwUEdTQ3pQZUhjR1VDMTJsQzNGMXJMY2NEY01Rc3NOQ3ZIQ1VlNGRPRi0xVEwweG5QR0c1SFAxblBmejB1QlhKdWJleW9nRXAyT2JZbmFyeTl0emZSYnUxbmIybWRjUQ?oc=5"
+    "published": "2026-10-27T05:00:06+00:00",
+    "source": "The New York Times",
+    "title": "Opinion | What It Will Take to Defeat the Houthis",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGLU9IcTdIb3FzeEZTWDBLUEhKZktsRG9sQ25zb0xrQWc1YzhXSG9Pb29MZHRiQjljRHMzc0c4T1U1V2RUTGhWd0ZkVlE5SjdFUk83NlFPVmN1REE4YldfNm95NTNGZHJ2Nl9hSmF1cDQ0clB6cC1PNUVoZHo4Yms?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-27T10:25:40Z"
+  "last_ok_at": "2026-10-27T16:27:59Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T10:25:41Z",
+  "fetched_at": "2026-10-27T16:28:00Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 21,
-  "baseline": 28.0,
-  "baseline_n": 6,
-  "tier": "정상",
+  "count": 13,
+  "baseline": 30.0,
+  "baseline_n": 10,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3416,14 +3498,15 @@
    "2026-10-26T19": 14,
    "2026-10-26T23": 19,
    "2026-10-27T04": 7,
-   "2026-10-27T10": 21
+   "2026-10-27T10": 21,
+   "2026-10-27T16": 13
   },
-  "last_ok_at": "2026-10-27T10:25:41Z"
+  "last_ok_at": "2026-10-27T16:28:00Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-27T10:25:41Z",
-  "last_ok_at": "2026-10-27T10:25:41Z"
+  "fetched_at": "2026-10-27T16:28:00Z",
+  "last_ok_at": "2026-10-27T16:28:00Z"
  }
 }
