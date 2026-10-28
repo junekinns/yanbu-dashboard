@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T21:13:49Z",
+ "generated_at": "2026-10-28T01:12:23Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T21:13:49Z",
+  "fetched_at": "2026-10-28T01:12:23Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,15 +184,29 @@
    }
   ],
   "last7d": 8,
-  "baseline": 4.5,
+  "baseline": 3.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-27T21:13:49Z"
+  "last_ok_at": "2026-10-28T01:12:23Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T21:14:03Z",
+  "fetched_at": "2026-10-28T01:12:43Z",
   "events": [
+   {
+    "date": "2026-10-28",
+    "time": "01:56",
+    "iso": "2026-10-28T01:56:32+03:00",
+    "city": "리야드",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5",
+    "source": "The National",
+    "outlets": 1
+   },
    {
     "date": "2026-10-27",
     "time": "18:14",
@@ -1126,12 +1140,12 @@
    },
    "리야드": {
     "7d": {
-     "요격": 5,
+     "요격": 6,
      "공습": 1,
      "피격": 3,
      "경보": 1
     },
-    "total7d": 10,
+    "total7d": 11,
     "prev7d": {
      "요격": 1,
      "피격": 5,
@@ -1217,12 +1231,12 @@
   "history_days": 30,
   "history_since": "2026-09-29",
   "today": "2026-10-28",
-  "last_ok_at": "2026-10-27T21:14:03Z"
+  "last_ok_at": "2026-10-28T01:12:43Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T21:14:04Z",
+  "fetched_at": "2026-10-28T01:12:44Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1988,8 +2002,8 @@
    "리야드": 12,
    "나즈란": 9,
    "지잔": 6,
-   "담맘": 6,
    "얀부": 6,
+   "담맘": 6,
    "메디나": 4,
    "라비그": 4,
    "타이프": 3,
@@ -1998,12 +2012,12 @@
    "라스타누라": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-27T21:14:04Z"
+  "last_ok_at": "2026-10-28T01:12:44Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T21:14:07Z",
+  "fetched_at": "2026-10-28T01:12:45Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3143,19 +3157,26 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-27T21:14:07Z"
+  "last_ok_at": "2026-10-28T01:12:45Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T21:14:10Z",
+  "fetched_at": "2026-10-28T01:12:47Z",
   "kr": [
+   {
+    "date": "2026-10-27",
+    "published": "2026-10-27T21:27:00+00:00",
+    "source": "KBS",
+    "title": "중동 문제 회담 다음 날 후티, 또 사우디 공격…호르무즈선 유조선 기뢰 충돌",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HQU9FY2h0UFlBOUlpYmNBZHk5YzBPLXlFYzN3S21QSXpqUVU5dUtlaHlBeVhwbHN5ZjdtZkY0YjB6UjRIaHljTFh4ZjZMX0NFNzhfUzlic3FfWG9ocjk4SUxXMEQzQQ?oc=5"
+   },
    {
     "date": "2026-10-27",
     "published": "2026-10-27T16:35:09+00:00",
     "source": "SBS",
     "title": "메카 3국·이란 회담 다음날…후티 \"사우디 국방부 등 공격\"",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qQmlaejVPb1NvLTVGcnRrc2l0RGtIUWYtS3ZQaFBYVDBMUFNjQ0ltVlJHeWJsN0I4X09TeWxxeGlVMEdDOXVzZzlCWkpqbWVteHVjd3RZR2VwejRtXzVydExiSXc0YUhrMnVj?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2ZjBiRGxiOXN6UE43NDJyeDg2ZDNoVzZQc01Uc3pMc3A3dl9leGVPSXhYeHVwMk1YWmlrUzJUTXFSMy1FZHlna2xmVkY5cTRtRFl4cjFieFAwdXVXNGxDSzBFZV9SYWJhMkE?oc=5"
    },
    {
     "date": "2026-10-27",
@@ -3163,13 +3184,6 @@
     "source": "뉴스1",
     "title": "예멘 후티 반군, 사우디 국방부 및 최대 정유공장 미사일 공습 주장",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QMXdXVWhPWWNFQXFRdDcyb0I4c1NxZnpSZkdTZk96bUp0b1pWRkdNYThLV3ZZTkFMcGlDdVBGdW15RlBaWm4tMTZXZnE1bXRzMnM0V0dNUFpKajE5UXFhYm1R?oc=5"
-   },
-   {
-    "date": "2026-10-27",
-    "published": "2026-10-27T10:40:00+00:00",
-    "source": "한겨레",
-    "title": "‘불가침 네트워크’ 구축할까…사우디·파키스탄·튀르키예, 이란과 고위급 회동",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HTTZXc21xZ2pFVmMtUzJBME9wekMxaE1QS0ZwdDlBZVlIZ1U3aTlRSmpVZm1ES0dzYk5xQ0ZrNkpvWEQ3eFQ5bFJ2N1pKWmc4WXNkRVhhX3lZbUx6VS1yOGp0NVdUMVFxT0NfZnpIbGVGMHc?oc=5"
    },
    {
     "date": "2026-10-27",
@@ -3183,13 +3197,13 @@
     "published": "2026-10-27T07:48:41+00:00",
     "source": "연합뉴스",
     "title": "이집트 의회, 사우디 군사지원 승인…35년만 파병 가능성(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SSjVIZWVOd3M4NlFvMXhXRzZBSTBRa29xY0lyVm9ySDZlQjRscndpUXJKYTROREg1RUZBV2MwdGhiWmpWb21iaGl3YjNzazU5RVZhZkFCVW05VDNpd1FxY9IBYEFVX3lxTE9SSjVIZWVOd3M4NlFvMXhXRzZBSTBRa29xY0lyVm9ySDZlQjRscndpUXJKYTROREg1RUZBV2MwdGhiWmpWb21iaGl3YjNzazU5RVZhZkFCVW05VDNpd1FxYw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJMzZZQkJSTGF0NHZvRHJvWi1OYXZDU2Q4S2ZySElwQ0pJLXhFOXdXcGw5dlFXMnJvalFrWlJzZ29OcnRTU2pEUDFWU1cxZGMtR0FUa0U0UTJyT2PSAWBBVV95cUxPUko1SGVlTndzODZRbzF4V0c2QUkwUWtvcWNJclZvckg2ZUI0bHJ3aVFySmE0TkRINUVGQVdjMHRoYlpqVm9tYmhpd2Izc2s1OUVWYWZBQlVtOVQzaXdRcWM?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-10-27",
-    "published": "2026-10-27T19:55:30+00:00",
+    "published": "2026-10-27T22:56:32+00:00",
     "source": "The National",
     "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5"
@@ -3223,17 +3237,17 @@
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSGJ6ZjFmSGxPMW84a3Q2VnhMWU94cGJaT0ZFc3hCQzl5eUx3ajNDdV9rOUQ4UEVVWkF1cTJnVTVuTGdBSFloZ2ljamJaYzRzZVVOOUZtb1RXa1k0ek81RDFSUnhpbmRhRDhFZlpHRFZlVzk4bGI1V25MeUtIb0VlczBBZzhoMHZzekU4OUlHVGZMLXNIV0dJZFpta1lGZ2ViZW5fclcwaHZwQnRHNmpPZVgta3k?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-27T21:14:10Z"
+  "last_ok_at": "2026-10-28T01:12:47Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-27T21:14:11Z",
+  "fetched_at": "2026-10-28T01:12:48Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 18,
+  "count": 30,
   "baseline": 29.0,
-  "baseline_n": 10,
-  "tier": "감소",
+  "baseline_n": 14,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3441,14 +3455,15 @@
    "2026-10-27T04": 7,
    "2026-10-27T10": 21,
    "2026-10-27T16": 13,
-   "2026-10-27T21": 18
+   "2026-10-27T21": 18,
+   "2026-10-28T01": 30
   },
-  "last_ok_at": "2026-10-27T21:14:11Z"
+  "last_ok_at": "2026-10-28T01:12:48Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-27T21:14:11Z",
-  "last_ok_at": "2026-10-27T21:14:11Z"
+  "fetched_at": "2026-10-28T01:12:48Z",
+  "last_ok_at": "2026-10-28T01:12:48Z"
  }
 }
