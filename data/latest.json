@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T08:19:18Z",
+ "generated_at": "2026-10-28T15:56:09Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T08:19:18Z",
+  "fetched_at": "2026-10-28T15:56:09Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 8,
   "baseline": 3.5,
   "tier": "증가",
-  "last_ok_at": "2026-10-28T08:19:18Z"
+  "last_ok_at": "2026-10-28T15:56:09Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T08:19:34Z",
+  "fetched_at": "2026-10-28T15:56:29Z",
   "events": [
    {
     "date": "2026-10-28",
@@ -1261,14 +1261,38 @@
   "history_days": 30,
   "history_since": "2026-09-29",
   "today": "2026-10-28",
-  "last_ok_at": "2026-10-28T08:19:34Z"
+  "last_ok_at": "2026-10-28T15:56:29Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T08:19:36Z",
+  "fetched_at": "2026-10-28T15:56:30Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-28 18:33",
+    "iso": "2026-10-28T18:33:31+03:00",
+    "places": [],
+    "text_ar": "ترقبوا الساعة 7:30 مساءً مشاهد طرد التحشيدات التابعة للعدو السعودي من جبهتي الضباب والجبل الأسود في محافظة تعز وتأمينها",
+    "text_ko": "오후 7시 30분, 타이즈 주 (州) 의 안개와 몬테네그로 전선에서 사우디 적의 군중이 추방되는 장면을 지켜보고 그들을 확보하십시오.",
+    "url": "https://t.me/army21ye/3977"
+   },
+   {
+    "time": "2026-10-28 14:53",
+    "iso": "2026-10-28T14:53:59+03:00",
+    "places": [],
+    "text_ar": "القوات المسلحة تجدد دعوتها وللمرة الأخيرة للمتواجدين في مطار عدن للإخلاء الفوري للمطار نظرا لوجود طائرة شحن عسكرية تابعة للعدو السعودي تنقل أسلحة لقتل أبناء الشعب اليمني. http://t.me/army21ye",
+    "text_ko": "군대는 예멘 국민을 죽이기 위해 무기를 수송하는 사우디 적의 군용 화물기가 있기 때문에 아덴 공항에 참석한 사람들이 즉시 공항으로 대피하라는 요청을 마지막으로 갱신합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3976"
+   },
+   {
+    "time": "2026-10-28 13:27",
+    "iso": "2026-10-28T13:27:13+03:00",
+    "places": [],
+    "text_ar": "تدعو قواتنا المسلحة المتواجدين في مطار عدن للإخلاء الفوري للمطار نظرا لوجود طائرة شحن عسكرية تابعة للعدو السعودي تنقل أسلحة لقتل أبناء الشعب اليمني. http://t.me/army21ye",
+    "text_ko": "우리 군은 예멘 국민을 죽이기 위해 무기를 수송하는 사우디 적의 군용 화물기가 있기 때문에 아덴 공항에 있는 사람들에게 즉시 공항으로 대피할 것을 요청합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3975"
+   },
    {
     "time": "2026-10-27 19:46",
     "iso": "2026-10-27T19:46:35+03:00",
@@ -2034,20 +2058,20 @@
    "지잔": 6,
    "담맘": 6,
    "얀부": 6,
-   "메디나": 4,
    "라비그": 4,
    "타이프": 3,
    "아브하": 3,
+   "메디나": 3,
    "메카": 3,
    "라스타누라": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-28T08:19:36Z"
+  "last_ok_at": "2026-10-28T15:56:30Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T08:19:37Z",
+  "fetched_at": "2026-10-28T15:56:35Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2963,13 +2987,34 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-28T08:19:37Z"
+  "last_ok_at": "2026-10-28T15:56:35Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T08:19:39Z",
+  "fetched_at": "2026-10-28T15:56:37Z",
   "kr": [
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T15:12:02+00:00",
+    "source": "연합뉴스",
+    "title": "\"후티 반군, 예멘 정부군 임시 수도 아덴 공항 공격\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KdV92QU5fQllmV3k2dkx5V0ttSmJ0aFljd05rOWg5UFduTU43SXdkenZWODN3emRUdldpQ0llRl91NUpBQThyMmIzVGdvM1pFbkprWDcxS05RbWPSAWBBVV95cUxNM3JCT3ZIdXJkWGVEZ3J6dTVBUE5qdWVtTndTVU1JQ0JCZWtJYkRNcjB3YXB5TXZ2clNPZ3g3SzdlYjVGRDBsVU9QQzZheEFCb3hXeG54VVduSzJ5WU5rTDY?oc=5"
+   },
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T13:18:08+00:00",
+    "source": "뉴스1",
+    "title": "친이란 예멘 후티 \"아덴공항 내 사우디군 통제 구역에 미사일 공격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9YOTlEZ0Jhbk9UZ29QaC1HdDcwOTB6VkwzNmhfTkI4R19qMjAzbWY3UXVTMVZyNW9CS2h0OE91anZaZXJEYVd4dVFJR0NQN19LYW80czMxTlUyaXVpMS1MZkt3?oc=5"
+   },
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T11:43:00+00:00",
+    "source": "경향신문",
+    "title": "중동 4국 회담 다음날…후티 “사우디 국방부에 미사일 쐈다”",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QUDVoYjl3WHJsYnVGeDE4UGtyMW81Q1pMeWQwSEtKSXRRWGU5Z1FVTVJobFNuM0hBYUU2YURNbUI1RnBEamV3eHlVb0Y3LTBBR1dYbTFFNk8wUdIBX0FVX3lxTE5OWDNIOWVacUVFbVNvMU9qNVhWUF9HOXUzTzR4bFBPRFBUcWItSXlYZV93TldpYWVpWXRqNFNvWENjc2hBM3VDNm1taGh0SnFvNXdZR2NsRWpJb3FRNmNj?oc=5"
+   },
    {
     "date": "2026-10-28",
     "published": "2026-10-28T06:17:00+00:00",
@@ -2983,77 +3028,56 @@
     "source": "MBC",
     "title": "메카 3국·이란 회담 다음날, 후티 \"사우디 국방부 등 공격\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56WWFrcDFtS3VxakNNOXlmaFFfcGJweUVkQk1VaHJPeGt4X0Z5XzhhVDNKNktLREUzYTkwUTVVZXQ5RE45YVlzU1FjaTcwdGF5dXVrelBJejlsNTdwZFlQZ1hJM2lhdUxGOFZzaXZBQVlqaGdL0gF0QVVfeXFMUEFEcmRva3p1ZXpLelUtSGQxVWxCdFRtOGtablRoMElFU0hweUJ0SkNZM0hGeWd2OUI2MDllSzVzemNQZ3dNTUZIZ3ZDMnppSXVOZkpHUXpWVHQ4aDBQSWdtY0hSd1RTTXhheFR1OHBVVDJ6eHA?oc=5"
-   },
-   {
-    "date": "2026-10-27",
-    "published": "2026-10-27T21:27:00+00:00",
-    "source": "KBS",
-    "title": "중동 문제 회담 다음 날 후티, 또 사우디 공격…호르무즈선 유조선 기뢰 충돌",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HQU9FY2h0UFlBOUlpYmNBZHk5YzBPLXlFYzN3S21QSXpqUVU5dUtlaHlBeVhwbHN5ZjdtZkY0YjB6UjRIaHljTFh4ZjZMX0NFNzhfUzlic3FfWG9ocjk4SUxXMEQzQQ?oc=5"
-   },
-   {
-    "date": "2026-10-27",
-    "published": "2026-10-27T15:21:19+00:00",
-    "source": "뉴스1",
-    "title": "예멘 후티 반군, 사우디 국방부 및 최대 정유공장 미사일 공습 주장",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QMXdXVWhPWWNFQXFRdDcyb0I4c1NxZnpSZkdTZk96bUp0b1pWRkdNYThLV3ZZTkFMcGlDdVBGdW15RlBaWm4tMTZXZnE1bXRzMnM0V0dNUFpKajE5UXFhYm1R?oc=5"
-   },
-   {
-    "date": "2026-10-27",
-    "published": "2026-10-27T10:40:00+00:00",
-    "source": "한겨레",
-    "title": "‘불가침 네트워크’ 구축할까…사우디·파키스탄·튀르키예, 이란과 고위급 회동",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HTTZXc21xZ2pFVmMtUzJBME9wekMxaE1QS0ZwdDlBZVlIZ1U3aTlRSmpVZm1ES0dzYk5xQ0ZrNkpvWEQ3eFQ5bFJ2N1pKWmc4WXNkRVhhX3lZbUx6VS1yOGp0NVdUMVFxT0NfZnpIbGVGMHc?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T15:47:17+00:00",
+    "source": "CNBC",
+    "title": "Oil spikes following Houthi attack on Saudi oil refinery",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVMyaWtEMjQ2Z1YtOF92LUp3SXlLOWp4REd1RXFwOEJPSExYTjZRS2Q5bXpGcW0yMlRiVks2Z0xIbmt1NDZoamxwWURib2V3WjUtLUtKaFdPNWl5SFF0NWVVOElDeHFkYUdLR0FZYnZEZGNpZ2xuU1VxZkVuLWVkRFlIX2JfUE0tV3FjNFo2U3dlVkZQTXdFRmFQWUQyY0dD?oc=5"
+   },
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T13:47:13+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Houthis urge immediate evacuation of Aden airport",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lem9tb1QwUDdzdGVId2ZLZXBTc0tsTGs1aTdHS29mRjR1di1IOThPYVFLQUp6MFdoN3VBZF9GWWZzQVp4RmpRQTFucmhOMEF6eUZpdXpCa05SQjlkVVdhbFJOVnFBMDVXaFg0WDBfZi1nQmsyYnVCdXhFQmVRdw?oc=5"
+   },
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T13:04:50+00:00",
+    "source": "Reuters",
+    "title": "Gulf equities mixed as Ras Tanura strike unnerves investors",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRHVZRkU5UW9FV0FsZDhRNlhaSERmSldPazRIOUZfaWlXbkVFVld0MDQyWkQ4XzB4Y1plTlNVMlZNSmxQY1F2YWpWOHhzLWlWVDFCemxaVzE5VUs0Yk1vR2lUQVVlMUFUSzI5WTNQT0dBaC1xX0NDbFQwaXBSbmdEU3FVaHdvWmVZN1hObGd1U0IxNVcyWFVrQ2VyTFFIZ25uNVhBVWZaRTVYWXF2bVNmTExmUnFNNFE?oc=5"
+   },
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T11:44:36+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Oil Exports Near Wartime High as Houthis Mount Attacks",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVWM1aUNQQVJfTHhOZkhSSGNXTEtETEQ1WUpiSExUUkpSRnE1a0tsZFdxOS1WbDVreDJHZDZhMGM2UVpOTGlPQVp1aGowcFRiQTU4c1lJLW5sZ25EV0lQTUVrQnVFdTFCMHpCS1U1ZnpJSVhoaE1VVV9QM1VFX0FHRmhzb0FDOTRfVzdxQ2dRbW95SUlhS2V2TlVOU0YxX2JITVo2c3ZPWWNtU2VtRGxjcw?oc=5"
+   },
    {
     "date": "2026-10-28",
     "published": "2026-10-28T07:15:07+00:00",
     "source": "The National",
     "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFJlRWh6RjRRdWJxRDBZM0lmaW9tOTkxS2JCTnpjSTJ3aGhrd2xJSW1MN2dDeWt6SzNMeWJva3Rhcm80NGx1OHoweGdKSGJZUklZQzliNE94UGVJeEpJdlo5WDlJbFpwRmctMTNIRnZSMEhlRTJoamZlblNtNi1lWjJhdy1aWFhTTk1MeGYtUVFKZw?oc=5"
-   },
-   {
-    "date": "2026-10-28",
-    "published": "2026-10-28T05:52:51+00:00",
-    "source": "CNBC",
-    "title": "Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VVTZnQjZMOUgxd3doMmJKclN5eUlkbFJoOE9TZDJQVlN5Zm92aDRIYW5yMWcwTGxtRHBfNW9FQ3NIbTJXSmdJZU9ibE9XZFRaQWJXb3JYbDJWY1l4c2o5OU5xeC1VbmFRN1JmMWZUUG9LNVhCYnk2ZNIBfkFVX3lxTE9PVWR4YV9Fa0UyQi0tN013V0d5bjY3bUJqZ1R2VGlsSHdGOURZVkRTSDhLUkpQS2lyV0ZDVlNua3RRelVoMmV4QUdfZUU5S09oV0ZHQTAzNm1hVWxVTVMzRWd0X2M3b3RfdVFUcFNfckgxMUdKMnNldWo2RWpIdw?oc=5"
-   },
-   {
-    "date": "2026-10-28",
-    "published": "2026-10-28T01:49:00+00:00",
-    "source": "Reuters",
-    "title": "Oil up over $2 as Saudi Arabian refinery attack reignites supply risk concerns",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5"
-   },
-   {
-    "date": "2026-10-28",
-    "published": "2026-10-28T01:00:00+00:00",
-    "source": "AP News",
-    "title": "Saudi Arabia says air defenses intercept Houthi missiles over capital, and other Mideast news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUnNFYkswVTNNR0trQlNVMmxTVFk4THIxWUpJcFZJbUsyN2ZHdzFqNXM0U2pBWU9uRzg2SkJhQkYxYjlySHRfS2cxMy1xRTRBRnB3LWhMTjk5VmxiM09mRk9JRlBTY0p1UlFhMFRYNlR1VmxGdUFCbXFnbU85THg3ZVVHUHdodEVKZmxnakVwT1ZJdw?oc=5"
-   },
-   {
-    "date": "2026-10-28",
-    "published": "2026-10-28T00:39:00+00:00",
-    "source": "AP News",
-    "title": "Houthi media reports strikes by Saudi-backed government forces against cement factory in Sanaa",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX2s2ZHB0YkxZZFJlZTVydXdlTUhxdmdYYUxsNWZ1Z0R3UmZ6dnRyVzlCc0tjUFdKTWRoeXc5TWVYenFMN3pSOFdCTG9tVXA0bDJKMzZkc3hBTUxDdGUwai1PY3lpT010ci12NFFiam84bEh2UGpMNFhCRXR4NENWTllQZnRBdGRPMFhCcnUxYk5HR2t5NTR2WUdIYjExNmhVcGlWeUlQYWZTRVNfc2FzWHNhV2k2SXBCa0h0emVyM3hPVnF1a3ROSXl0OHV1SVFqUzF2ZG9SZmY5cmdsSm5PN0I1bzN2QVk?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-28T08:19:39Z"
+  "last_ok_at": "2026-10-28T15:56:37Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T08:19:40Z",
+  "fetched_at": "2026-10-28T15:56:38Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 21,
-  "baseline": 31.5,
-  "baseline_n": 6,
-  "tier": "감소",
+  "count": 22,
+  "baseline": 32,
+  "baseline_n": 9,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3263,14 +3287,15 @@
    "2026-10-27T16": 13,
    "2026-10-27T21": 18,
    "2026-10-28T01": 30,
-   "2026-10-28T08": 21
+   "2026-10-28T08": 21,
+   "2026-10-28T15": 22
   },
-  "last_ok_at": "2026-10-28T08:19:40Z"
+  "last_ok_at": "2026-10-28T15:56:38Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-28T08:19:41Z",
-  "last_ok_at": "2026-10-28T08:19:41Z"
+  "fetched_at": "2026-10-28T15:56:38Z",
+  "last_ok_at": "2026-10-28T15:56:38Z"
  }
 }
