@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:58:06Z",
+ "generated_at": "2026-10-29T00:48:25Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T20:58:06Z",
+  "fetched_at": "2026-10-29T00:48:25Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,15 +183,15 @@
     "summary": "사우디아라비아 내 공항 및 항공편 운항 관련 현황을 아래와 같이 공지드립니다. ㅇ (리야드) 리야드 킹칼리드 공항은 10.25. 운영 재개를 발표했으나, 현재 기준 제한적으로만 운영되고 있어 공항 이용에 차질이 지속되고 있음. ㅇ (여타 공항) 젯다, 담맘 등 주요 공항은 일부 국내선 및 국제선 운항을 유지하고 있으나, 항공사별 결항·지연 등 일부 운항 차…"
    }
   ],
-  "last7d": 8,
-  "baseline": 3.5,
+  "last7d": 6,
+  "baseline": 4.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-28T20:58:06Z"
+  "last_ok_at": "2026-10-29T00:48:25Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T20:58:23Z",
+  "fetched_at": "2026-10-29T00:48:45Z",
   "events": [
    {
     "date": "2026-10-28",
@@ -1133,10 +1133,9 @@
     },
     "total7d": 1,
     "prev7d": {
-     "요격": 2,
-     "피격": 1
+     "요격": 1
     },
-    "prev_total": 3
+    "prev_total": 1
    },
    "라비그": {
     "7d": {},
@@ -1178,10 +1177,10 @@
     "total7d": 11,
     "prev7d": {
      "요격": 1,
-     "피격": 5,
+     "피격": 4,
      "공습": 1
     },
-    "prev_total": 7
+    "prev_total": 6
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1190,12 +1189,12 @@
     "prev_total": 0
    },
    "담맘": {
-    "7d": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": {
      "피격": 1
     },
-    "total7d": 1,
-    "prev7d": {},
-    "prev_total": 0
+    "prev_total": 1
    },
    "다란": {
     "7d": {},
@@ -1258,15 +1257,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 30,
+  "history_days": 31,
   "history_since": "2026-09-29",
-  "today": "2026-10-28",
-  "last_ok_at": "2026-10-28T20:58:23Z"
+  "today": "2026-10-29",
+  "last_ok_at": "2026-10-29T00:48:45Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T20:58:24Z",
+  "fetched_at": "2026-10-29T00:48:46Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1987,99 +1986,6 @@
     "text_ar": "تمكنت قواتنا المسلحة بفضل الله قبل قليل من استهداف طائرة حربية سعودية نوع \"تايفون\" أقلعت من قاعدة الطائف وتم استهدافها في أجواء محافظة صعدة بصاروخ أرض جو وتمت إصابتها إصابة مباشرة وهي معرضة للسقوط. http://t.me/army21ye",
     "text_ko": "우리 군은 신 덕분에 얼마 전 타이프 기지에서 이륙한 사우디아라비아 전투기 \"타이푼\" 을 지대공 미사일로 사다 주 영공을 목표로 삼다가 직격탄을 맞고 추락하기 쉽습니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3896"
-   },
-   {
-    "time": "2026-10-14 20:36",
-    "iso": "2026-10-14T20:36:48+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "تمكنت قواتنا المسلحة بفضل الله وعونه من استهداف مطار خالد الدولي في عاصمة العدو السعودي الرياض بصاروخ باليستي وكانت الإصابة دقيقة ومباشرة. وفي سياق آخر نفذت قواتنا المسلحة عملية استهداف لعدد من تحشيدات العدو السعودي في منطقة رأس العارة والمضاربة بثلاثة صواريخ بالستية وكانت الإصابات دقيقة بفضل الله وخلفت عددا كبيرا من القتلى والجرحى وإعطاب عدد من الآليات. http://t.me/army21ye",
-    "text_ko": "알라의 도움 덕분에 우리 군대는 사우디 적 리야드의 수도에 있는 칼리드 국제공항을 탄도 미사일로 공략할 수 있었고, 부상은 정확하고 직접적이었다. 또 다른 맥락에서, 우리 군은 라스 알 아라 (Ras Al-Ara) 와 무다라바 (Mudaraba) 지역에 사우디 적의 집중을 목표로 3 개의 탄도 미사일로 작전을 수행했습니다. 부상은 정확하고 하나님 께 감사하며 많은 사망자와 부상자를 남기고 많은 차량을 손상 시켰습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3895"
-   },
-   {
-    "time": "2026-10-14 20:15",
-    "iso": "2026-10-14T20:15:15+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 42 غارة جوية وصاروخا استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات تعز ولحج ومأرب وعمران وجزيرة ميون من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 2323 غارة جوية وصاروخاً. إن استهداف جزيرة ميون بالقصف الجوي والصاروخي من قبل العدو ال…",
-    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 수도 사나와 타이즈, 라즈, 마리브, 암란 및 마윤 섬의 총독부에서 민간 물체를 겨냥한 42회의 공습과 미사일 공습을 감행했다. 사우디아라비아 침공이 시작된 이래 우리나라에 대한 공격 횟수는 총 2323회이며, 공습과 미사일은 2323회입니다. 적의 공습과 미사일 폭격으로 마욘 섬을 노리는 것…",
-    "url": "https://t.me/army21ye/3894"
-   },
-   {
-    "time": "2026-10-14 16:10",
-    "iso": "2026-10-14T16:10:07+03:00",
-    "places": [],
-    "text_ar": "مشاهد نوعية لطرد تحشيدات تابعة للعدو السعودي في مطار ذوباب وإحراق واغتنام عدد من آلياته وأسر عدد منهم - 14 أكتوبر 2026م",
-    "text_ko": "도밥 공항에서 사우디아라비아 적의 동원을 축출하고, 여러 대의 차량을 불태우고 압수하고, 여러 대를 포획하는 질적 장면 - 2026년 10월 14일",
-    "url": "https://t.me/army21ye/3893"
-   },
-   {
-    "time": "2026-10-14 11:40",
-    "iso": "2026-10-14T11:40:31+03:00",
-    "places": [
-     "리야드",
-     "다란"
-    ],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عملية عسكرية نوعية استهدفت شركة أرامكو في الظهران بالمنطقة الشرقية ومطار خالد الدولي ومصفاة أرامكو في الرياض بعدد كبير من الصواريخ الباليستية والمجنحة والطائرات المسيرة وحققت العملية إصابة دقيقة بفضل الله وتسببت بدمار وبنشوب حرائق في المواقع المستهدفة. جودة عالية http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3889"
-   },
-   {
-    "time": "2026-10-14 11:40",
-    "iso": "2026-10-14T11:40:31+03:00",
-    "places": [
-     "리야드",
-     "다란"
-    ],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عملية عسكرية نوعية استهدفت شركة أرامكو في الظهران بالمنطقة الشرقية ومطار خالد الدولي ومصفاة أرامكو في الرياض بعدد كبير من الصواريخ الباليستية والمجنحة والطائرات المسيرة وحققت العملية إصابة دقيقة بفضل الله وتسببت بدمار وبنشوب حرائق في المواقع المستهدفة. جودة متوسطة http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3890"
-   },
-   {
-    "time": "2026-10-14 11:40",
-    "iso": "2026-10-14T11:40:14+03:00",
-    "places": [
-     "리야드",
-     "다란"
-    ],
-    "text_ar": "In response to the brutal Saudi aggression against the capital, Sanaa, and the liberated governorates, and as part of deterrence operations against the Saudi aggressor—who targeted our country and people during the escalation period with 2,281 airstrikes and missiles, committing numerous crimes through them— and in implementation of what the Armed Forces pledged in their warnings to the criminal S…",
-    "text_ko": "수도 사나와 해방된 주지사들에 대한 잔인한 사우디아라비아의 침략에 대응하여, 그리고 사우디아라비아 침략자에 대한 억제 작전의 일환으로, 사우디아라비아 침략자는 2,281회의 공습과 미사일로 이관 기간 동안 우리 나라와 국민을 표적으로 삼아 그들을 통해 수많은 범죄를 저질렀습니다. 그리고 주한미군이 범죄자 S에 대한 경고에서 약속한 것을 이행하기 위해...",
-    "url": "https://t.me/army21ye/3888"
-   },
-   {
-    "time": "2026-10-14 11:40",
-    "iso": "2026-10-14T11:40:01+03:00",
-    "places": [
-     "리야드",
-     "다란"
-    ],
-    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم ردًّا على العدوانِ السعوديِّ الغاشمِ على العاصمةِ صنعاءَ والمحافظاتِ الحرةِ وفي إطارِ عملياتِ الردعِ تجاهَ المعتدي السعوديِّ الذي استهدفَ بلدَنا وشعبَنا خلالَ فترةِ التصعيدِ بـ 2281 غارةً جويةً وصاروخًا ارتكبَ من خلالِه…",
-    "text_ko": "예멘 군대가 가장 자비로우시고 자비로우신 알라의 이름으로 발표한 성명서에서 전능하신 알라는 이렇게 말씀하셨습니다. {누가 당신을 공격했든, 그들은 당신처럼 그를 공격했습니다} 전능하신 알라는 수도 사나와 자유 주지사에 대한 잔인한 사우디아라비아의 침략에 대응하고 그를 통해 자행된 2,281건의 공습과 미사일 공습으로 격상 기간 동안 우리나라와 국민을 겨냥한 사우디아라비아 침략자에 대한 견제 작전의 틀 안에서...",
-    "url": "https://t.me/army21ye/3886"
-   },
-   {
-    "time": "2026-10-14 11:40",
-    "iso": "2026-10-14T11:40:01+03:00",
-    "places": [
-     "리야드",
-     "다란"
-    ],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عملية عسكرية نوعية استهدفت شركة أرامكو في الظهران بالمنطقة الشرقية ومطار خالد الدولي ومصفاة أرامكو في الرياض بعدد كبير من الصواريخ الباليستية والمجنحة والطائرات المسيرة وحققت العملية إصابة دقيقة بفضل الله وتسببت بدمار وبنشوب حرائق في المواقع المستهدفة. جودة منخفضة http://t.me/army21ye",
-    "text_ko": "많은 탄도와 날개가 달린 미사일과 드론으로 동부 다란의 아람코, 칼리드 국제공항 및 리야드의 아람코 정제소를 겨냥한 질적 군사 작전의 시행에 대한 예멘 군의 성명서. 이 작전은 정확한 부상을 입었고, 신에게 감사하며, 목표 장소에서 파괴와 화재를 일으켰습니다. 낮은 품질 http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3887"
-   },
-   {
-    "time": "2026-10-14 11:04",
-    "iso": "2026-10-14T11:04:16+03:00",
-    "places": [],
-    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عملية عسكرية نوعية داخل العمق السعودي، في تمام الساعة 11:40صباحا، بعد قليل. http://t.me/army21ye",
-    "text_ko": "얼마 후 오전 11시 40분에 사우디 내부에서 질적인 군사 작전을 발표하기 위한 예멘 군의 중요한 성명서. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3885"
    }
   ],
   "mentions7d": {
@@ -2092,17 +1998,17 @@
    "타이프": 4,
    "라비그": 4,
    "아브하": 3,
-   "메디나": 3,
    "메카": 3,
+   "메디나": 3,
    "라스타누라": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-28T20:58:24Z"
+  "last_ok_at": "2026-10-29T00:48:46Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T20:58:28Z",
+  "fetched_at": "2026-10-29T00:48:47Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3002,12 +2908,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-28T20:58:28Z"
+  "last_ok_at": "2026-10-29T00:48:47Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T20:58:31Z",
+  "fetched_at": "2026-10-29T00:48:49Z",
   "kr": [
    {
     "date": "2026-10-28",
@@ -3048,24 +2954,17 @@
   "en": [
    {
     "date": "2026-10-28",
-    "published": "2026-10-28T20:03:27+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Yemen says Houthis attacked Aden airport twice with ballistic missiles",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUttdjlFX1NnTi01X2NGcy0ycl9wa1R5R0JTcnZXUFNtS0xEMWNPbk5wZjZsblhieXBhc25nN2NGaW15MlJDdWdLUVdabGFNaFM5S1ZSRkp1em45RnFvekxWUUNZTERwa21zMW5jZ1hZenNJek4xZXctMmhnMW1TcGoyTmV2Vkh1b1RRb1dKTE5oR0R1ek1BeG53?oc=5"
-   },
-   {
-    "date": "2026-10-28",
-    "published": "2026-10-28T15:46:03+00:00",
-    "source": "CNBC",
-    "title": "Oil spikes following Houthi attack on Saudi oil refinery",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVMyaWtEMjQ2Z1YtOF92LUp3SXlLOWp4REd1RXFwOEJPSExYTjZRS2Q5bXpGcW0yMlRiVks2Z0xIbmt1NDZoamxwWURib2V3WjUtLUtKaFdPNWl5SFF0NWVVOElDeHFkYUdLR0FZYnZEZGNpZ2xuU1VxZkVuLWVkRFlIX2JfUE0tV3FjNFo2U3dlVkZQTXdFRmFQWUQyY0dD?oc=5"
-   },
-   {
-    "date": "2026-10-28",
     "published": "2026-10-28T15:39:09+00:00",
     "source": "The Washington Post",
     "title": "Houthis say Saudi-led airstrikes killed 13 at a market in northern Yemen, and other Mideast news",
     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQnhIVlNhSFNPT2ZTODA0b0txTVpqY3hjSXJvZ1hicnRfWklOSG9VSVJDRGJUaF9IdEszaVdVdzZwYkxEcjlpaTh2ZE5LNlZ0WHptcFIzb21iOTNoWnkxcUdrbUJHdE5NQkplZHlwdG9DZ3diekRVNm1teF80c09ldzZWWjZVclVVMWRBd1J2azNqTDdxcXBheUNDUlRpWDRiTWVxVHpMRFpqN3ZJRThXN0k3TTFhOWdsbmhBZlAzdUhfUGFETUlfOTNTRjBXRHJPMXZ4UjVQb2hNbGJkV2RBYWxkejFLT0tIQUhWVTktQQ?oc=5"
+   },
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T15:37:44+00:00",
+    "source": "CNBC",
+    "title": "Oil spikes following Houthi attack on Saudi oil refinery",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVMyaWtEMjQ2Z1YtOF92LUp3SXlLOWp4REd1RXFwOEJPSExYTjZRS2Q5bXpGcW0yMlRiVks2Z0xIbmt1NDZoamxwWURib2V3WjUtLUtKaFdPNWl5SFF0NWVVOElDeHFkYUdLR0FZYnZEZGNpZ2xuU1VxZkVuLWVkRFlIX2JfUE0tV3FjNFo2U3dlVkZQTXdFRmFQWUQyY0dD?oc=5"
    },
    {
     "date": "2026-10-28",
@@ -3080,19 +2979,26 @@
     "source": "Bloomberg",
     "title": "Saudi Oil Exports Near Wartime High as Houthis Mount Attacks",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVWM1aUNQQVJfTHhOZkhSSGNXTEtETEQ1WUpiSExUUkpSRnE1a0tsZFdxOS1WbDVreDJHZDZhMGM2UVpOTGlPQVp1aGowcFRiQTU4c1lJLW5sZ25EV0lQTUVrQnVFdTFCMHpCS1U1ZnpJSVhoaE1VVV9QM1VFX0FHRmhzb0FDOTRfVzdxQ2dRbW95SUlhS2V2TlVOU0YxX2JITVo2c3ZPWWNtU2VtRGxjcw?oc=5"
+   },
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T07:15:07+00:00",
+    "source": "The National",
+    "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFJlRWh6RjRRdWJxRDBZM0lmaW9tOTkxS2JCTnpjSTJ3aGhrd2xJSW1MN2dDeWt6SzNMeWJva3Rhcm80NGx1OHoweGdKSGJZUklZQzliNE94UGVJeEpJdlo5WDlJbFpwRmctMTNIRnZSMEhlRTJoamZlblNtNi1lWjJhdy1aWFhTTk1MeGYtUVFKZw?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-28T20:58:31Z"
+  "last_ok_at": "2026-10-29T00:48:49Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-28T20:58:32Z",
+  "fetched_at": "2026-10-29T00:48:51Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 12,
-  "baseline": 25,
-  "baseline_n": 11,
-  "tier": "감소",
+  "count": 13,
+  "baseline": 38.0,
+  "baseline_n": 14,
+  "tier": "끊김",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3304,14 +3210,15 @@
    "2026-10-28T01": 30,
    "2026-10-28T08": 21,
    "2026-10-28T15": 22,
-   "2026-10-28T20": 12
+   "2026-10-28T20": 12,
+   "2026-10-29T00": 13
   },
-  "last_ok_at": "2026-10-28T20:58:32Z"
+  "last_ok_at": "2026-10-29T00:48:51Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-28T20:58:32Z",
-  "last_ok_at": "2026-10-28T20:58:32Z"
+  "fetched_at": "2026-10-29T00:48:51Z",
+  "last_ok_at": "2026-10-29T00:48:51Z"
  }
 }
