@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T06:57:53Z",
+ "generated_at": "2026-10-29T14:08:55Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-10-29T14:08:55Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -162,6 +165,12 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-10-29",
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.29)",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321130/detail2?ntnCd=107",
+    "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
+   },
+   {
     "date": "2026-10-26",
     "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (10.26)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321129/detail2?ntnCd=107",
@@ -172,27 +181,17 @@
     "title": "주의 중동 정세 관련 안전 유의 안내(10.25.)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048672/detail",
     "summary": "최근 중동 지역 내 군사적 긴장이 지속되고 있는 가운데, 미국 중간선거(11.3.)를 전후하여 역내 정세가 추가로 악화될 가능성이 제기되고 있습니다. 이에 사우디아라비아에 체류 중인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ 사우디아라비아 전역에 여행경보 3단계(출국권고)가 발령되어 있는 만큼, 육로 등 이용 가능한 경로를 통해 가급…"
-   },
-   {
-    "date": "2026-10-25",
-    "title": "사우디 공항 및 항공편 운항 현황(10.25. 오후 업데이트)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321128/detail2?ntnCd=107",
-    "summary": "사우디아라비아 내 공항 및 항공편 운항 관련 현황을 아래와 같이 공지드립니다. ㅇ (리야드) 리야드 킹칼리드 공항은 10.25. 운영 재개를 발표했으나, 현재 기준 제한적으로만 운영되고 있어 공항 이용에 차질이 지속되고 있음. ㅇ (여타 공항) 젯다, 담맘 등 주요 공항은 일부 국내선 및 국제선 운항을 유지하고 있으나, 항공사별 결항·지연 등 일부 운항 차…"
    }
   ],
-  "last7d": 6,
+  "last7d": 7,
   "baseline": 4.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-29T00:48:25Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7c5e43909d00>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-10-29T06:57:53Z",
-  "stale": true
+  "last_ok_at": "2026-10-29T14:08:55Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T06:58:54Z",
+  "fetched_at": "2026-10-29T14:09:12Z",
   "events": [
    {
     "date": "2026-10-28",
@@ -1261,12 +1260,12 @@
   "history_days": 31,
   "history_since": "2026-09-29",
   "today": "2026-10-29",
-  "last_ok_at": "2026-10-29T06:58:54Z"
+  "last_ok_at": "2026-10-29T14:09:12Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T06:58:56Z",
+  "fetched_at": "2026-10-29T14:09:13Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1991,25 +1990,25 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 14,
-   "리야드": 13,
+   "리야드": 11,
    "나즈란": 10,
    "지잔": 6,
-   "담맘": 6,
-   "얀부": 6,
    "타이프": 4,
    "라비그": 4,
-   "아브하": 3,
+   "얀부": 4,
+   "담맘": 4,
    "메디나": 3,
    "메카": 3,
+   "아브하": 1,
    "라스타누라": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-29T06:58:56Z"
+  "last_ok_at": "2026-10-29T14:09:13Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T06:58:57Z",
+  "fetched_at": "2026-10-29T14:09:14Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2893,12 +2892,12 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-29T06:58:57Z"
+  "last_ok_at": "2026-10-29T14:09:14Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T06:58:59Z",
+  "fetched_at": "2026-10-29T14:09:16Z",
   "kr": [
    {
     "date": "2026-10-29",
@@ -2939,13 +2938,6 @@
   "en": [
    {
     "date": "2026-10-28",
-    "published": "2026-10-28T19:07:51+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Oil prices decline on fresh diplomatic efforts in Iran war",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUttdjlFX1NnTi01X2NGcy0ycl9wa1R5R0JTcnZXUFNtS0xEMWNPbk5wZjZsblhieXBhc25nN2NGaW15MlJDdWdLUVdabGFNaFM5S1ZSRkp1em45RnFvekxWUUNZTERwa21zMW5jZ1hZenNJek4xZXctMmhnMW1TcGoyTmV2Vkh1b1RRb1dKTE5oR0R1ek1BeG53?oc=5"
-   },
-   {
-    "date": "2026-10-28",
     "published": "2026-10-28T15:37:44+00:00",
     "source": "CNBC",
     "title": "Oil spikes following Houthi attack on Saudi oil refinery",
@@ -2960,6 +2952,13 @@
    },
    {
     "date": "2026-10-28",
+    "published": "2026-10-28T11:44:36+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Oil Exports Near Wartime High as Houthis Mount Attacks",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVWM1aUNQQVJfTHhOZkhSSGNXTEtETEQ1WUpiSExUUkpSRnE1a0tsZFdxOS1WbDVreDJHZDZhMGM2UVpOTGlPQVp1aGowcFRiQTU4c1lJLW5sZ25EV0lQTUVrQnVFdTFCMHpCS1U1ZnpJSVhoaE1VVV9QM1VFX0FHRmhzb0FDOTRfVzdxQ2dRbW95SUlhS2V2TlVOU0YxX2JITVo2c3ZPWWNtU2VtRGxjcw?oc=5"
+   },
+   {
+    "date": "2026-10-28",
     "published": "2026-10-28T07:15:07+00:00",
     "source": "The National",
     "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says",
@@ -2967,22 +2966,22 @@
    },
    {
     "date": "2026-10-28",
-    "published": "2026-10-28T01:49:00+00:00",
-    "source": "Reuters",
-    "title": "Oil prices rise on Yemen fighting, Saudi refinery attack",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5"
+    "published": "2026-10-28T07:00:00+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Oil prices decline on fresh diplomatic efforts in Iran war",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUttdjlFX1NnTi01X2NGcy0ycl9wa1R5R0JTcnZXUFNtS0xEMWNPbk5wZjZsblhieXBhc25nN2NGaW15MlJDdWdLUVdabGFNaFM5S1ZSRkp1em45RnFvekxWUUNZTERwa21zMW5jZ1hZenNJek4xZXctMmhnMW1TcGoyTmV2Vkh1b1RRb1dKTE5oR0R1ek1BeG53?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-29T06:58:59Z"
+  "last_ok_at": "2026-10-29T14:09:16Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T06:59:01Z",
+  "fetched_at": "2026-10-29T14:09:17Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 18,
-  "baseline": 27.0,
-  "baseline_n": 12,
+  "count": 14,
+  "baseline": 33.0,
+  "baseline_n": 8,
   "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
@@ -3197,14 +3196,15 @@
    "2026-10-28T15": 22,
    "2026-10-28T20": 12,
    "2026-10-29T00": 13,
-   "2026-10-29T06": 18
+   "2026-10-29T06": 18,
+   "2026-10-29T14": 14
   },
-  "last_ok_at": "2026-10-29T06:59:01Z"
+  "last_ok_at": "2026-10-29T14:09:17Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-29T06:59:02Z",
-  "last_ok_at": "2026-10-29T06:59:02Z"
+  "fetched_at": "2026-10-29T14:09:17Z",
+  "last_ok_at": "2026-10-29T14:09:17Z"
  }
 }
