@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T14:08:55Z",
+ "generated_at": "2026-10-29T20:12:41Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T14:08:55Z",
+  "fetched_at": "2026-10-29T20:12:41Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 7,
   "baseline": 4.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-29T14:08:55Z"
+  "last_ok_at": "2026-10-29T20:12:41Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T14:09:12Z",
+  "fetched_at": "2026-10-29T20:12:56Z",
   "events": [
    {
     "date": "2026-10-28",
@@ -1260,14 +1260,78 @@
   "history_days": 31,
   "history_since": "2026-09-29",
   "today": "2026-10-29",
-  "last_ok_at": "2026-10-29T14:09:12Z"
+  "last_ok_at": "2026-10-29T20:12:56Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T14:09:13Z",
+  "fetched_at": "2026-10-29T20:12:57Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-29 22:50",
+    "iso": "2026-10-29T22:50:01+03:00",
+    "places": [
+     "라비그",
+     "리야드",
+     "담맘",
+     "아브카이크",
+     "나즈란"
+    ],
+    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قال تعالى: {{ وَلَمَنِ ٱنتَصَرَ بَعۡدَ ظُلۡمِهِۦ فَأُو۟لَـٰۤىِٕكَ مَا عَلَیۡهِم مِّن سَبِیلٍ } صدق اللهُ العظيم في إطارِ الردِّ على العدوانِ السعوديِّ الغاشمِ الذي يستهدفُ بلدَنا وشعبَنا وردًّا على المجازرِ الأخيرةِ والتي راحَ ضحيتَها العشراتُ من الشهداءِ والجرحى جلُّهم من النساءِ والأطفالِ ​نفذتِ القواتُ المسلحةُ اليمنيةُ بعونِ ا…",
+    "text_ko": "알라, 가장 자비로우시고 자비로우시고 전능하신 분의 이름으로 예멘군이 발표한 성명서는 다음과 같이 말했습니다. {{그리고 그 그림자 속에서 승리한 사람은 도중에 피해를 입지 않을 것입니다} 우리 나라와 우리 국민을 겨냥한 잔인한 사우디의 침략에 대응하고 최근 수십 명의 순교자와 부상자 (대부분 여성과 어린이) 를 살해한 학살에 대응하여 예멘군은...",
+    "url": "https://t.me/army21ye/3982"
+   },
+   {
+    "time": "2026-10-29 22:50",
+    "iso": "2026-10-29T22:50:01+03:00",
+    "places": [
+     "라비그",
+     "리야드",
+     "담맘",
+     "라스타누라",
+     "아브카이크",
+     "나즈란"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ ست عمليات عسكرية نوعية داخل العمق السعودي استهدفت الأولى مصفاة أرامكو رأس تنورة والثانية استهدفت شركة أرامكو في بقيق، أما الثالثة فقد استهدفت مطار خالد الدولي بالرياض، والرابعة استهدفت مطار فهد الدولي في الدمام، والخامسة استهدفت مصفاة رابغ النفطية فيما العملية السادسة استهدفت مقر قيادة تحشيدات العدو السعودي في منطقة نجران، وقد حققت العمليات أهدافهما بفضل الله…",
+    "text_ko": "사우디아라비아 내부에서 6개의 질적 군사 작전 수행에 관한 예멘 군의 성명서, 첫 번째는 라스 타누라의 아람코 정제소, 두 번째는 아브카이크의 아람코, 세 번째는 리야드의 칼레드 국제공항, 네 번째는 담맘의 파흐드 국제공항, 다섯 번째는 라비 정제소를 대상으로 하였고, 여섯 번째 작전은 나즈란 지역의 사우디아라비아 적 동원 본부를 대상으로 하였으며, 작전은 신 덕분에 목표를 달성했습니다...",
+    "url": "https://t.me/army21ye/3983"
+   },
+   {
+    "time": "2026-10-29 22:50",
+    "iso": "2026-10-29T22:50:01+03:00",
+    "places": [
+     "라비그",
+     "리야드",
+     "담맘",
+     "라스타누라",
+     "아브카이크",
+     "나즈란"
+    ],
+    "text_ar": "In response to the brutal Saudi aggression targeting our country and our people, and in retaliation for the recent massacres that claimed the lives of dozens of martyrs and wounded, most of whom were women and children, The Yemeni Armed Forces, with Allah Almighty's help, carried out six qualitative military operations. The first operation targeted the Ras Tanura refinery with a ballistic missile,…",
+    "text_ko": "사우디의 잔인한 침략이 우리나라와 국민을 겨냥한 것에 대한 대응으로, 그리고 수십 명의 순교자와 부상자의 목숨을 앗아간 최근의 학살에 대한 보복으로, 대부분은 여성과 어린이들이었습니다. 예멘군은 전능하신 알라의 도움으로 6개의 질적인 군사 작전을 수행했습니다. 첫 번째 작전은 탄도 미사일로 라스 타누라 정유소를 겨냥했습니다.",
+    "url": "https://t.me/army21ye/3984"
+   },
+   {
+    "time": "2026-10-29 22:17",
+    "iso": "2026-10-29T22:17:04+03:00",
+    "places": [],
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي، في تمام الساعة 10:50م، بعد قليل. http://t.me/army21ye",
+    "text_ko": "곧 오후 10시 50분에 사우디아라비아 내부의 여러 질적 군사 작전을 발표하기 위한 예멘 군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3981"
+   },
+   {
+    "time": "2026-10-29 19:33",
+    "iso": "2026-10-29T19:33:08+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 116 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات صعدة وحجة والبيضاء والجوف وتعز ولحج وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران وخلفت عدداً كبيراً من الشهداء والجرحى جلهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 3596 غارةً جويةً وصاروخاً. http:/…",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 와 \"타이푼\" 항공기를 통해 사다, 하지야, 알바이다, 알자우프, 타이즈, 라흐즈 주지사의 민간인 물체를 겨냥한 116번의 공중 및 미사일 습격과 나즈란의 미사일 공격을 시작하여 많은 순교자와 부상자, 주로 여성과 어린이를 남겼습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 총 침략 습격 수는 3,596 건의 공습 및 미사일 습격에 도달했습니다. http:/…",
+    "url": "https://t.me/army21ye/3980"
+   },
    {
     "time": "2026-10-28 20:31",
     "iso": "2026-10-28T20:31:22+03:00",
@@ -1989,26 +2053,27 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 14,
-   "리야드": 11,
-   "나즈란": 10,
+   "카미스무샤이트": 15,
+   "리야드": 14,
+   "나즈란": 14,
+   "담맘": 7,
+   "라비그": 7,
    "지잔": 6,
-   "타이프": 4,
-   "라비그": 4,
+   "타이프": 5,
    "얀부": 4,
-   "담맘": 4,
+   "아브카이크": 3,
+   "라스타누라": 3,
    "메디나": 3,
    "메카": 3,
    "아브하": 1,
-   "라스타누라": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-29T14:09:13Z"
+  "last_ok_at": "2026-10-29T20:12:57Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T14:09:14Z",
+  "fetched_at": "2026-10-29T20:13:07Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2892,33 +2957,26 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-29T14:09:14Z"
+  "last_ok_at": "2026-10-29T20:13:07Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T14:09:16Z",
+  "fetched_at": "2026-10-29T20:13:09Z",
   "kr": [
-   {
-    "date": "2026-10-29",
-    "published": "2026-10-29T00:04:28+00:00",
-    "source": "뉴시스",
-    "title": "예멘내전 격화, 정부군 하루새 후티 749회 공격…사우디군도 가세",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OTFZVZkRHVExSQ09kRlg1ZlhxUGV6SmpBLXVLZ2FWTlZCaEpjMzZMc2wxalpHN2gxN3lMZmEtY1RXLXd0LWxTejdSbUV6bkpKekVvTUVEWkxOSm0tcnM2TlF0aDB2azc0RXVBSC1fNi10ay1mRXN2U9IBeEFVX3lxTE9OTFZVZkRHVExSQ09kRlg1ZlhxUGV6SmpBLXVLZ2FWTlZCaEpjMzZMc2wxalpHN2gxN3lMZmEtY1RXLXd0LWxTejdSbUV6bkpKekVvTUVEWkxOSm0tcnM2TlF0aDB2azc0RXVBSC1fNi10ay1mRXN2Uw?oc=5"
-   },
-   {
-    "date": "2026-10-28",
-    "published": "2026-10-28T20:19:00+00:00",
-    "source": "KBS",
-    "title": "“후티 반군, 예멘 정부군 임시 수도 아덴 공항 공격”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2UnpCZTZIekdTTldoYmpSMU5ZOTVWU2R3WFJRb0pseVBFcjlxZXFMZExmbkxkbTZ6U2tFOWNDR3JLYjRVMmQ1OTJQSW1zYURvS2g3NVUxdHJRcXM?oc=5"
-   },
    {
     "date": "2026-10-28",
     "published": "2026-10-28T16:32:55+00:00",
     "source": "뉴시스",
     "title": "후티반군, 아덴공항 공격…\"알나스르 기지에 미사일\"",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPOTFMbEtEOXdUVkJpR0VIVlo4UFBmYjZDR1BfWjZUVTJNSGhINkNDUG5Sc1ZnMGs0Y09rSVE0aEVTcHR4LVJyTTdwQzhWNDduc1pCcE9XbjNRSlB4NWxVd1NqUFNHcWM5U1JzQTVMYVNwREJHSGhhMtIBeEFVX3lxTFBPOTFMbEtEOXdUVkJpR0VIVlo4UFBmYjZDR1BfWjZUVTJNSGhINkNDUG5Sc1ZnMGs0Y09rSVE0aEVTcHR4LVJyTTdwQzhWNDduc1pCcE9XbjNRSlB4NWxVd1NqUFNHcWM5U1JzQTVMYVNwREJHSGhhMg?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pZHZHOEdRZjlXSmE5NEFZMHZrV1huVk9KZ0k5dXRwSXlWWVBtb3ZtSlZoZlZZOWM4ZE9JTGlFM1pIYWVVMk5lLVVMSTIyVGM3VnczUEdPaEtVQmtLNUNjUtIBeEFVX3lxTFBPOTFMbEtEOXdUVkJpR0VIVlo4UFBmYjZDR1BfWjZUVTJNSGhINkNDUG5Sc1ZnMGs0Y09rSVE0aEVTcHR4LVJyTTdwQzhWNDduc1pCcE9XbjNRSlB4NWxVd1NqUFNHcWM5U1JzQTVMYVNwREJHSGhhMg?oc=5"
+   },
+   {
+    "date": "2026-10-28",
+    "published": "2026-10-28T15:12:02+00:00",
+    "source": "연합뉴스",
+    "title": "\"후티 반군, 예멘 정부군 임시 수도 아덴 공항 공격\"",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KdV92QU5fQllmV3k2dkx5V0ttSmJ0aFljd05rOWg5UFduTU43SXdkenZWODN3emRUdldpQ0llRl91NUpBQThyMmIzVGdvM1pFbkprWDcxS05RbWPSAWBBVV95cUxNM3JCT3ZIdXJkWGVEZ3J6dTVBUE5qdWVtTndTVU1JQ0JCZWtJYkRNcjB3YXB5TXZ2clNPZ3g3SzdlYjVGRDBsVU9QQzZheEFCb3hXeG54VVduSzJ5WU5rTDY?oc=5"
    },
    {
     "date": "2026-10-28",
@@ -2929,6 +2987,13 @@
    },
    {
     "date": "2026-10-28",
+    "published": "2026-10-28T12:39:25+00:00",
+    "source": "뉴시스",
+    "title": "후티, \"사우디의 시장, 주유소 공격에 민간인 14명 사망\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqRVJTN0NDT2p6dWNnTG0xRkRuOFpkd0JrdzlTT0tVbjJsV2dRWmhyY0M5WWNCdnc3eWlVT0xIaWFwc2tlODEzZDZ2YXBPa2JOTlI5RGxVbmhXZmIwOWZWMNIBeEFVX3lxTFBiQ25hOGFhTzJSdk9TZXRSOGp2RV9fMVNyRXVibDEtQmozUUk0cmNSeDY0U1lHU2ZvU29MdkF2QTdaUTY0TzlCd3VlcXFHYUk2c29oU0VlY0N6T2JmcG5xelg0eVIyX2xVNUV3STh2RWJiakxXcTVzWA?oc=5"
+   },
+   {
+    "date": "2026-10-28",
     "published": "2026-10-28T11:43:00+00:00",
     "source": "경향신문",
     "title": "중동 4국 회담 다음날…후티 “사우디 국방부에 미사일 쐈다”",
@@ -2936,6 +3001,20 @@
    }
   ],
   "en": [
+   {
+    "date": "2026-10-29",
+    "published": "2026-10-29T19:49:12+00:00",
+    "source": "The Washington Post",
+    "title": "Yemen’s besieged Taiz is in famine, governor says, as 13 are killed by Saudi airstrike",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORlRhM0xNWTNROUIyR1JUVWhYQVY0TTJWbEpNY3FwYW1xc2RxT0UwQ3MydWxZdERvYUFKR2JGT0ViTGpIVDRSNDJqRmdxQ2dfdm9zWHhHakhibWN2bUdIMFJabUx1YUZLV3g3QlJ3cmhRODN4RFVXaGF3VDF2ZE1GMW1BUjFzdDlFelkwa0wwMlhQTTJIbVZWOF9tZzZ4cHlGazNjMHAySlRGSVNXcXNKWVYzeVdXaTBYb01pNE9NUG5iX0t5dGd0d09JVU9aVnQzMnR4Tm8wN1FPbjFaaGkteA?oc=5"
+   },
+   {
+    "date": "2026-10-29",
+    "published": "2026-10-29T17:41:42+00:00",
+    "source": "Arab News",
+    "title": "Saudi air defenses shoot down Houthi missiles targeting Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMTdFM01XXzFuUE4tSGVxVm4yaXZ5cVk0Mm1oTk9ZVUh6eUJ5TTB3blJZU3Rmd0V1UzJtQlp0NnpVcVpMQk9Iekswbm1KMURZRmJpRUEyeGpScldsWldkN0dsYVRua2lxLVRvcFdybW9HblU1MU9TT0JVZmNSSng2ZkFjb29uQ1Z0Z25GMHJaenpYQ3lMMDhLdFhwZTBXaE5PQnVvOHNFNWd3VkFo?oc=5"
+   },
    {
     "date": "2026-10-28",
     "published": "2026-10-28T15:37:44+00:00",
@@ -2952,37 +3031,23 @@
    },
    {
     "date": "2026-10-28",
-    "published": "2026-10-28T11:44:36+00:00",
-    "source": "Bloomberg",
-    "title": "Saudi Oil Exports Near Wartime High as Houthis Mount Attacks",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVWM1aUNQQVJfTHhOZkhSSGNXTEtETEQ1WUpiSExUUkpSRnE1a0tsZFdxOS1WbDVreDJHZDZhMGM2UVpOTGlPQVp1aGowcFRiQTU4c1lJLW5sZ25EV0lQTUVrQnVFdTFCMHpCS1U1ZnpJSVhoaE1VVV9QM1VFX0FHRmhzb0FDOTRfVzdxQ2dRbW95SUlhS2V2TlVOU0YxX2JITVo2c3ZPWWNtU2VtRGxjcw?oc=5"
-   },
-   {
-    "date": "2026-10-28",
     "published": "2026-10-28T07:15:07+00:00",
     "source": "The National",
     "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFJlRWh6RjRRdWJxRDBZM0lmaW9tOTkxS2JCTnpjSTJ3aGhrd2xJSW1MN2dDeWt6SzNMeWJva3Rhcm80NGx1OHoweGdKSGJZUklZQzliNE94UGVJeEpJdlo5WDlJbFpwRmctMTNIRnZSMEhlRTJoamZlblNtNi1lWjJhdy1aWFhTTk1MeGYtUVFKZw?oc=5"
-   },
-   {
-    "date": "2026-10-28",
-    "published": "2026-10-28T07:00:00+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Oil prices decline on fresh diplomatic efforts in Iran war",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUttdjlFX1NnTi01X2NGcy0ycl9wa1R5R0JTcnZXUFNtS0xEMWNPbk5wZjZsblhieXBhc25nN2NGaW15MlJDdWdLUVdabGFNaFM5S1ZSRkp1em45RnFvekxWUUNZTERwa21zMW5jZ1hZenNJek4xZXctMmhnMW1TcGoyTmV2Vkh1b1RRb1dKTE5oR0R1ek1BeG53?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-29T14:09:16Z"
+  "last_ok_at": "2026-10-29T20:13:09Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-29T14:09:17Z",
+  "fetched_at": "2026-10-29T20:13:10Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 14,
-  "baseline": 33.0,
-  "baseline_n": 8,
-  "tier": "감소",
+  "count": 22,
+  "baseline": 22.5,
+  "baseline_n": 12,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3197,14 +3262,15 @@
    "2026-10-28T20": 12,
    "2026-10-29T00": 13,
    "2026-10-29T06": 18,
-   "2026-10-29T14": 14
+   "2026-10-29T14": 14,
+   "2026-10-29T20": 22
   },
-  "last_ok_at": "2026-10-29T14:09:17Z"
+  "last_ok_at": "2026-10-29T20:13:10Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-29T14:09:17Z",
-  "last_ok_at": "2026-10-29T14:09:17Z"
+  "fetched_at": "2026-10-29T20:13:11Z",
+  "last_ok_at": "2026-10-29T20:13:11Z"
  }
 }
