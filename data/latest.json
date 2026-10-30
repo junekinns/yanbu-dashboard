@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:13:59Z",
+ "generated_at": "2026-10-30T23:39:02Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-30T19:13:59Z",
+  "fetched_at": "2026-10-30T23:39:02Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 8,
   "baseline": 4.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-30T19:13:59Z"
+  "last_ok_at": "2026-10-30T23:39:02Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-30T19:14:15Z",
+  "fetched_at": "2026-10-30T23:39:20Z",
   "events": [
+   {
+    "date": "2026-10-30",
+    "time": "23:07",
+    "iso": "2026-10-30T23:07:21+03:00",
+    "city": "메디나",
+    "type": "요격",
+    "weapon": "드론",
+    "lat": 24.47,
+    "lon": 39.61,
+    "title": "Saudi-led coalition says it destroyed Houthi drone over Medina region",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTJ1aldqaEJHVUQ4NjY5aC12UUxXQkVTWXJQenpCUDVqNVhQc19LWmM2Q0lDQzZleGlSUDRwSld0VHlMb3BkekZSUDBabFV5b2QzZUNRSDVTY05xLVpsQ2NCNkhOYU9VNnJsVkpoVWVqZ1E3U0Y2Tnp2X3F4R2dSNHJsNXhwRGxkMlpmUEVjMnNqd09OYm9WY0pGRWRjYmktdi1BTWk2akZ1aVJlTUdfXzBEdUpVQQ?oc=5",
+    "source": "The Times of Israel",
+    "outlets": 1
+   },
    {
     "date": "2026-10-30",
     "time": "19:37",
@@ -1158,50 +1172,33 @@
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTmRNUUlrMUplQUxMWWNRZVBpUGtRY25uenYtR3FMRnFwNXN2eUswVGU0UUpjeVhIUkRFaTNTZ2pjOERxZTVRazY3THJlQlNKVHdGX1BnNTBpWWhDYk0zaHVpLURzTl96VGxPSVZBS2MxMDhBaTh6eVdQSGJKUFFqejhuWHFWYVJoeG9oUEQ0NXJnM3dXbzdyVXNycVR1YVNHdUxuQ2pEUXk2LUFyeUtGM1hYRktBbXZwTEtjNg?oc=5",
     "source": "Anadolu",
     "outlets": 2
-   },
-   {
-    "date": "2026-09-30",
-    "time": "12:35",
-    "iso": "2026-09-30T12:35:00+03:00",
-    "city": "타이프",
-    "type": "경보",
-    "weapon": null,
-    "lat": 21.27,
-    "lon": 40.42,
-    "title": "Red alert issued for heavy rain, flash floods in Taif as storms hit several Saudi regions",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPV3FacjZOQVJkQkJaN0E3Z0ZHQ3VabGROUTBuc3BSeFl6b0VHOE5QVld0allJQ1lNMXRaX2VZdzdUS1RuaTRLREZGU3FZcUJRSmNOX2V1U3dLTmVCaHJYUm1UQ2NkNUNnNUpVZlRJR3dUQ0hhTGhFZzliYzdwMmR1Yl9hUGZWWl9SNkpxT0RmWlBEOVNLeTQxSGZZUzZWQnM3YTNoSkdnWVRRRFFUelpwMi1UTDNfdWJnb05weWpmdy1LMkhsd0otQXJKSTRPaTRCTVFTVXBQbEZROHBr?oc=5",
-    "source": "Saudi Gazette",
-    "outlets": 1
    }
   ],
   "tempo": {
    "얀부": {
-    "7d": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": {
      "요격": 1,
      "경보": 1
     },
-    "total7d": 2,
-    "prev7d": {
-     "요격": 1
-    },
-    "prev_total": 1
+    "prev_total": 2
    },
    "제다": {
-    "7d": {
-     "경보": 1,
-     "요격": 1
-    },
-    "total7d": 2,
+    "7d": {},
+    "total7d": 0,
     "prev7d": {
+     "경보": 1,
+     "요격": 1,
      "피격": 1
     },
-    "prev_total": 1
+    "prev_total": 3
    },
    "메디나": {
     "7d": {
-     "요격": 1
+     "요격": 2
     },
-    "total7d": 1,
+    "total7d": 2,
     "prev7d": {
      "요격": 1
     },
@@ -1222,12 +1219,14 @@
    "메카": {
     "7d": {
      "피격": 3,
-     "요격": 3,
+     "요격": 2,
      "공습": 1
     },
-    "total7d": 7,
-    "prev7d": {},
-    "prev_total": 0
+    "total7d": 6,
+    "prev7d": {
+     "요격": 1
+    },
+    "prev_total": 1
    },
    "타이프": {
     "7d": {
@@ -1239,18 +1238,18 @@
    },
    "리야드": {
     "7d": {
-     "요격": 6,
-     "피격": 4,
-     "공습": 1
-    },
-    "total7d": 11,
-    "prev7d": {
-     "경보": 1,
-     "요격": 2,
+     "요격": 5,
      "피격": 3,
      "공습": 1
     },
-    "prev_total": 7
+    "total7d": 9,
+    "prev7d": {
+     "피격": 4,
+     "요격": 3,
+     "경보": 1,
+     "공습": 1
+    },
+    "prev_total": 9
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1330,16 +1329,26 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-09-30",
-  "today": "2026-10-30",
-  "last_ok_at": "2026-10-30T19:14:15Z"
+  "history_since": "2026-10-01",
+  "today": "2026-10-31",
+  "last_ok_at": "2026-10-30T23:39:20Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-30T19:14:16Z",
+  "fetched_at": "2026-10-30T23:39:21Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-30 23:04",
+    "iso": "2026-10-30T23:04:21+03:00",
+    "places": [
+     "메디나"
+    ],
+    "text_ar": "تؤكد القوات المسلحة اليمنية أنها لم تنفذ أي عملية باتجاه العمق السعودي وأن ما يدعيه العدو السعودي المجرم من إسقاط طائرة مسيرة في أجواء المدينة المنورة هى استمرار لبهتانه الكبير والعظيم بحق يمن الإيمان والحكمة، وأن هذه الافتراءات على شعبنا العزيز وقواته المسلحة المجاهدة لم يعد أحد يصدقها في هذا العالم فهذا إفلاس أخلاقي وقيمي ودناءة وانحطاط من هذا النظام السعودي المجرم والعميل. http://t.me/army21ye",
+    "text_ko": "예멘 군대는 사우디 아라비아의 깊이에 대한 어떠한 작전도 수행하지 않았으며 범죄자 사우디 적이 메디나의 하늘에서 무인 항공기를 격추했다고 주장하는 것은 신앙과 지혜의 위대하고 커다란 부족의 연속이며 사랑하는 국민과 그 투쟁하는 군대에 대한 이러한 비방은 더 이상 이 세상 어느 누구도 믿지 않는다는 것을 확인합니다. 이것은이 범죄자 사우디 정권과 고객의 도덕적이고 가치있는 파산, 비열 함 및 퇴폐입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3994"
+   },
    {
     "time": "2026-10-30 20:48",
     "iso": "2026-10-30T20:48:04+03:00",
@@ -2118,26 +2127,6 @@
     "text_ar": "مشاهد ضرب تحشيدات تابعة للعدو السعودي في اليتمة شمالي الجوف وتدمير واغتنام عدد من الآليات - 17 أكتوبر 2026م",
     "text_ko": "알자우프 북쪽의 고아원에서 사우디 적의 진영을 공격하고 여러 대의 차량을 파괴하고 점령하는 장면 - 2026년 10월 17일",
     "url": "https://t.me/army21ye/3902"
-   },
-   {
-    "time": "2026-10-16 21:02",
-    "iso": "2026-10-16T21:02:18+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 101 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الضالع وتعز والحديدة وذمار ومأرب وصعدة والجوف وعمران ولحج من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت شهداء وجرحى من المدنيين بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 2489 غارة…",
-    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 수도 사나와 달리, 타이즈, 호데이다, 다마르, 마리브, 사다, 알자우프, 암란, 라즈 총독의 민간인 물체를 겨냥한 101회의 공습과 미사일 공습을 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 와 \"타이푼\" 항공기와 나즈란에서 미사일 공격을 통해 시작하여 순교자와 부상당한 민간인 (여성과 어린이 포함) 을 남겼습니다. 우리 나라에 대한 이관 시작 이후 사우디의 총 침략 습격 횟수를 2489회로 늘렸습니다...",
-    "url": "https://t.me/army21ye/3901"
-   },
-   {
-    "time": "2026-10-16 05:10",
-    "iso": "2026-10-16T05:10:34+03:00",
-    "places": [],
-    "text_ar": "تمكنت القوات المسلحة اليمنية بعون الله تعالى من إسقاط طائرة استطلاع مسلح نوع \"وينق لونق 2\" (Wing Loong II) تابعة للعدو السعودي كانت تقوم بأعمال عدائية في أجواء محافظة مأرب وذلك بسلاح مناسب. http://t.me/army21ye",
-    "text_ko": "예멘군은 전능하신 하나님의 도움으로 사우디 적의 무장 정찰기 (Wing Loong II) 를 격추시켜 적절한 무기로 마리브 주 영공에서 적대 행위를 수행했습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3900"
    }
   ],
   "mentions7d": {
@@ -2145,23 +2134,23 @@
    "나즈란": 14,
    "리야드": 14,
    "지잔": 7,
-   "담맘": 7,
    "라비그": 7,
+   "담맘": 7,
    "타이프": 6,
+   "메디나": 4,
    "메카": 4,
    "얀부": 4,
    "아브카이크": 3,
    "라스타누라": 3,
-   "메디나": 3,
    "아브하": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-30T19:14:16Z"
+  "last_ok_at": "2026-10-30T23:39:21Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-30T19:14:22Z",
+  "fetched_at": "2026-10-30T23:39:24Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3045,13 +3034,27 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-30T19:14:22Z"
+  "last_ok_at": "2026-10-30T23:39:24Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-30T19:14:25Z",
+  "fetched_at": "2026-10-30T23:39:32Z",
   "kr": [
+   {
+    "date": "2026-10-30",
+    "published": "2026-10-30T20:55:08+00:00",
+    "source": "뉴스1",
+    "title": "계속되는 후티 공세…예멘 대통령궁도 미사일 공격(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82b3ljMkFqMExIZm1mQkNFR3FoX2ZIQmh5bzgxeVFHam9FamdoRXFOWVVMaGdMVjltck81alhuVmM0Y2pZUHpUY2dOV09Oc1FQcjJEUDZ6NXVUTEIxUWJlMDh3?oc=5"
+   },
+   {
+    "date": "2026-10-30",
+    "published": "2026-10-30T20:38:12+00:00",
+    "source": "뉴시스",
+    "title": "美, 후티반군 공격 우려에 사우디 주재 비필수 인원 철수령",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBpTTUtR3NtOWNEcEI2bklhaDhPWXh4WTZTNnRqVUNmUnJNdDV3Tjh2RUF2TG5DbkVYX19Mb2Ewanc0UWliR000ZUFLeElldko2bXV3bmNYVlVYVGVYSFg0eF9IUnFVWjVWdk9UZEpiQ3I5X2NQNmN1cdIBeEFVX3lxTFBpTTUtR3NtOWNEcEI2bklhaDhPWXh4WTZTNnRqVUNmUnJNdDV3Tjh2RUF2TG5DbkVYX19Mb2Ewanc0UWliR000ZUFLeElldko2bXV3bmNYVlVYVGVYSFg0eF9IUnFVWjVWdk9UZEpiQ3I5X2NQNmN1cQ?oc=5"
+   },
    {
     "date": "2026-10-30",
     "published": "2026-10-30T18:40:00+00:00",
@@ -3072,20 +3075,6 @@
     "source": "연합뉴스",
     "title": "사우디 \"성지 메카 상공서 후티 드론 격추\"…후티는 부인(종합)",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlbllLMFU4djJZYmZuTnRXRW96RmxGUllMSEI5VTdHT3dvaDBrR1UtMldyMkZZQUFpNkJHZkJ2NEFsVko2TmtNVEU5b1BEREVFR0ZKTmJxdFlHMFnSAWBBVV95cUxOakIwRkJNSjQ0YTIwOUx2OTJnVnVZbVBzWU5URXlNM05ZbkpUSURCTjY0cHVsQXFsMzZTZmdNY1dpNFdVc3R0ZkYzMmdwTUdzZnA3ZXdtODk4U0VfcVJJOTU?oc=5"
-   },
-   {
-    "date": "2026-10-30",
-    "published": "2026-10-30T08:38:00+00:00",
-    "source": "SBS",
-    "title": "사우디 \"후티, 이슬람 성지 메카 드론 공격\"…후티 \"거짓 주장\"",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDU0FOQy1aNHUyUHpCckp2dTdXRE9QcG1DOTBjcHRPU2xaMm9LTTAzdG9WUmR5b1JUQWxqZjNHVnZzenIyOWgxWHNLUUw3TXV2UHh2NWk4UGptYVdhc1NydzZpUjhHQQ?oc=5"
-   },
-   {
-    "date": "2026-10-30",
-    "published": "2026-10-30T07:30:05+00:00",
-    "source": "뉴스1",
-    "title": "\"메카 성지 또 공격\" 사우디 주장에…후티 \"그런 적 없어\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fLXp0SlVra0l3YjJwQmZmOTF3QVhsSFc0RTBLYTRKaEEyNXJFbnpWbHA2dVhELXpmbWNjT1ZvdDByNGhMTkRGZHdlN2JRa1NHRWtRR0NIV2hLdlA2d29WdG5n?oc=5"
    }
   ],
   "en": [
@@ -3098,24 +3087,10 @@
    },
    {
     "date": "2026-10-30",
-    "published": "2026-10-30T17:39:00+00:00",
-    "source": "AP News",
-    "title": "Iran says 3 tankers strike mines and catch fire in Strait of Hormuz, and other Mideast news",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOEpYN1k4WGRzNW1fT2pyNHVESDhKWVJlTVNDbTZLVmdhY1lRUDRqT0p2WlpZSmNCUm9McUx2bXROS3E0YVRMbEp4U3V4cDcyNzFEbGZsRVM3a2V5NXRnblpucGtMTFZUMFZsYXZ0M1VxQkR6eTRackRZWmd4VE42RkcyZ043b3hXX0FhazZPdEJjQQ?oc=5"
-   },
-   {
-    "date": "2026-10-30",
     "published": "2026-10-30T16:28:21+00:00",
     "source": "Arab News",
-    "title": "Saudi-led coalition intercepts Houthi drone over Riyadh, missile in south",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSWR6WnUwZzJYZVlGRHplSHhEbHJET25NSzliZGNWdHdtQ0xCaEI2NXVoemlHYk5UQkgtODViUnBJMlZsZFZ1UTBNVXhDeHdPaVplcE5hWmZKeFZmV0tRbVlzWXhqWVl1eFJDQWd1eGJyVnZEQjN4LWRqMVpmUXgwNzh5bnR3NHNsRDg3NS02NVB1V3haaUlVVnFqYVRDR1Y2VlEtMGc4Z1dZSHNjZ3FvM1ZYc1pQLVJ6Wmc?oc=5"
-   },
-   {
-    "date": "2026-10-30",
-    "published": "2026-10-30T13:00:28+00:00",
-    "source": "Arab News",
-    "title": "Debris from intercepted missile injures citizen, damages house and vehicle in Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTFKbGc0dEdkV0pFbkxseUo3bXBJZGJKNm9jZkR2NUo0T05XTG5MTzN2UTBHUEFkamVxZFhVd1ZUMHdZWkg2NWxWeE5Bb0ZUUWxiQmVjUTJlZVJXcERId29uZlRwTFJ2cDdCbFBCd1B6WnpDcjlLT21TNm9LTWpvNEw2bVBaQ3lmQTRsSlNTd09ibTBQYS16WmR6V1N2eUY5N0Fad1R5T19mUi02bDBfR21ScmxZTXJzallqcHQ3cjhNa3ZEbXlzWA?oc=5"
+    "title": "Saudi-led coalition intercepts Houthi drones over Riyadh and Madinah, missile in south",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSnFNYXJvcGFtM0cyMlpmb1VNamFFLXhURElhUTFJTlpDeHhIVmtFU3VUNXpFRDJqd3p0X1FVcDU3ZG9MTmQ1NkY0QzdVRU9QbldmQ1pVTUY2NTJvOTRoZFhVQXozT1Brdjh6UlQ3U051VGdQaDF5T1Q2OWs0MVpndi1DdkowSnFTeTViRnZJeGtlNGdyd2VDVTNfR3BUUmdCY2gxckRMdDJwMzI3ek9BcFhRbXcwVHhRUzdXNnU4T1lPNDN0VzlNdk9BNA?oc=5"
    },
    {
     "date": "2026-10-30",
@@ -3123,19 +3098,33 @@
     "source": "Al Jazeera",
     "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV3NIQ2tYTXA2UkVQUUh3UGxESzR2R1JnSVhjQjAtQ01PTm5mckJQcjZuSDA1Q3pmeWlnVUhlbThSaEhKRk9uWWdqUW1qRWlzajhDbHhIbU12NmJPNzA1WXNnWllQMkduX01GUXNvNlV2UEUxckZhek5NLWJNR1VEYjB2eXN6TGhLdjRBdU9XVUZHNnNTa1JDU2FyN3dOUmEzbEFaRmNPLXRhakXSAbABQVVfeXFMUFBWdEVMYlpIblRxQ3lVOWFPRnVTa1FwQ1pPTXFuZmV6ODEzNmd1Y0VFNVF4MHVhWU1kRWl6dHl0N2xWNXR5VmRrVmpRelZHeWZtRGZzcWlsUUhnd28yMXlpcFc2dnJQVHJoSkh4bzNwQ3FZeXBybW5EdHl5WjB6ajlkVUhxQVdJMzJwa0hEZkJrMDM5Ty1zQmU3cEZ2S08wWjFLeGdRZHBvblAxVWE0Vmc?oc=5"
+   },
+   {
+    "date": "2026-10-30",
+    "published": "2026-10-30T07:14:22+00:00",
+    "source": "BBC",
+    "title": "Al Riyadh vs Al Qadsiah: Saudi Pro League stats & head-to-head",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hT3U4VmdjalFublhqY1dBX2UzX0dVYnRnSlJ2d3JaWkxwM242Qnh2c2cxak5FQTljQ3dBWVdqaDVFdW5XYnphdUVxQTZpU1FRMWlFb0dVcVFrbzM5dE1EdGNKRQ?oc=5"
+   },
+   {
+    "date": "2026-10-30",
+    "published": "2026-10-30T03:07:01+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Qatari mediators in Tehran again with latest proposal to end regional war",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcUJqUkM5anZjdXlzaUJZQkZVQ2lUVmZpT3JSMmFQdmUwT21UYkR6aVNmUXFBMHJkRXMtXy1yVWt4cUx3a2dkM1FRLVdHOEh4eTNrUVRoNmpkaW1laENrbzY2ZHNaeWJVQnNmWkNzRER2SWxlTEZBMGpVc3BoVzdkWEhGaW1GNzEt?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-30T19:14:25Z"
+  "last_ok_at": "2026-10-30T23:39:32Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-30T19:14:26Z",
+  "fetched_at": "2026-10-30T23:39:33Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 16,
-  "baseline": 34,
-  "baseline_n": 9,
-  "tier": "감소",
+  "count": 21,
+  "baseline": 28.5,
+  "baseline_n": 12,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3355,14 +3344,15 @@
    "2026-10-30T00": 20,
    "2026-10-30T07": 8,
    "2026-10-30T14": 14,
-   "2026-10-30T19": 16
+   "2026-10-30T19": 16,
+   "2026-10-30T23": 21
   },
-  "last_ok_at": "2026-10-30T19:14:26Z"
+  "last_ok_at": "2026-10-30T23:39:33Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-30T19:14:26Z",
-  "last_ok_at": "2026-10-30T19:14:26Z"
+  "fetched_at": "2026-10-30T23:39:34Z",
+  "last_ok_at": "2026-10-30T23:39:34Z"
  }
 }
