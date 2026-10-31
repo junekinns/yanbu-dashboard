@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T05:25:02Z",
+ "generated_at": "2026-10-31T12:12:47Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T05:25:02Z",
+  "fetched_at": "2026-10-31T12:12:47Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 8,
   "baseline": 5.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-31T05:25:02Z"
+  "last_ok_at": "2026-10-31T12:12:47Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T05:25:18Z",
+  "fetched_at": "2026-10-31T12:13:09Z",
   "events": [
+   {
+    "date": "2026-10-31",
+    "time": "09:51",
+    "iso": "2026-10-31T09:51:54+03:00",
+    "city": "리야드",
+    "type": "요격",
+    "weapon": "드론",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Saudi coalition intercepts ‘hostile drone’ in Riyadh region",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOWhKQUFOMGpCSTdGR3NpN1Y4dk9wM1JWaVZFYXJXVWtfLTFxT1JRLWhWckNaQXlYYWd3dk4teGVlY1FxdGhrNjg0bFA1QmctZ2RLMXlLX1ZYMllXVXpMdnVabGlhT19WT1BqNV85ZEhuMko0UzNDM2ZpeDMyczVJRnhyQnMzM2VmcTQ1SGtQSGJQVUFUMWQyR0ZFQ0FiS0tTd3E0X0gzQTBoQjhuNjd6RnA1emZQZGPSAbwBQVVfeXFMTTRQeHdPU1BOUVVvUG0tbWRxaHJod1l2QkdtQ1lFRFozelJaNTc4RHFIQ1Y0cmY2UWUwSV9sdnEtb1dyYXBkMXQ4ZG9DclJVUm4tNGFpNnFkSkw1VzFQRlhZdURaWHV4U3lzY2xxdkNNaWc0QjVBSGNFejYtVThfU09SWEYxYjhFNUpZQjFybEE1Q2xKR3Bxd1RuZ0hlNC1oUW1zblZIMUJUQzh5VkJlRUtUeDJ6VTRYMHRnazM?oc=5",
+    "source": "Al Arabiya",
+    "outlets": 1
+   },
    {
     "date": "2026-10-31",
     "time": "05:29",
@@ -279,8 +293,8 @@
    },
    {
     "date": "2026-10-29",
-    "time": "23:30",
-    "iso": "2026-10-29T23:30:00+03:00",
+    "time": "23:14",
+    "iso": "2026-10-29T23:14:57+03:00",
     "city": "리야드",
     "type": "피격",
     "weapon": null,
@@ -1252,11 +1266,11 @@
    },
    "리야드": {
     "7d": {
-     "요격": 5,
+     "요격": 6,
      "피격": 3,
      "공습": 1
     },
-    "total7d": 9,
+    "total7d": 10,
     "prev7d": {
      "피격": 4,
      "요격": 3,
@@ -1345,12 +1359,12 @@
   "history_days": 31,
   "history_since": "2026-10-01",
   "today": "2026-10-31",
-  "last_ok_at": "2026-10-31T05:25:18Z"
+  "last_ok_at": "2026-10-31T12:13:09Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T05:25:19Z",
+  "fetched_at": "2026-10-31T12:13:11Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2159,12 +2173,12 @@
    "아브하": 1,
    "송유관": 1
   },
-  "last_ok_at": "2026-10-31T05:25:19Z"
+  "last_ok_at": "2026-10-31T12:13:11Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T05:25:19Z",
+  "fetched_at": "2026-10-31T12:13:11Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3214,28 +3228,29 @@
     "date": "2026-10-30",
     "time": "2337",
     "confidence": "nominal"
+   },
+   {
+    "lat": 25.91105,
+    "lon": 49.76878,
+    "frp": 3.11,
+    "date": "2026-10-31",
+    "time": "0911",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-10-31T05:25:19Z"
+  "last_ok_at": "2026-10-31T12:13:11Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T05:25:23Z",
+  "fetched_at": "2026-10-31T12:13:13Z",
   "kr": [
    {
     "date": "2026-10-31",
-    "published": "2026-10-31T02:29:00+00:00",
+    "published": "2026-10-31T02:29:58+00:00",
     "source": "연합뉴스",
     "title": "사우디 \"후티, 메카 겨냥 무인기 공격 시도\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RkY4c2VaYVh6T3pPWlhYQlpQdDBObk5femIyNW53VzROT1NvaTNYUlAyc3hONGRZTDNlVlB0YVBjajM3ZU1PT0dFX0NCVXp3amIxLUNTV1NLaTRNT2s4WnFlZmRPVjg?oc=5"
-   },
-   {
-    "date": "2026-10-31",
-    "published": "2026-10-31T01:06:00+00:00",
-    "source": "한국일보",
-    "title": "사우디 \"이슬람 성지 메카 상공서 후티 드론 격추\"... 후티는 부인",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VelkxMWdoODUtbU5Fb2wtTFRsdHNlMHREd1JVaGp4NkRtek1ITHozaHJ1d2dsWlN3clBlaDU2czhGNTdMQ2NhUzVTbXNPZ2VxaVE1SG83VUpTR3dua21qdzBKb2JEZGZEQVp3cU1qOFRYNU3SAXNBVV95cUxNVXpZMTFnaDg1LW1ORW9sLUxUbHRzZTB0RHdSVWhqeDZEbXpNSEx6M2hydXdnbFpTd3JQZWg1NnM4RjU3TENjYVM1U21zT2dlcWlRNUhvN1VKU0d3bmttancwSm9iRGRmREFad3FNajhUWDVN?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aajRzOU1oeXdFeXM3c256cUZPMC15V1lCRVZMZlN3S1pjX1hhamYxZ3h5WG1wdm54NnVJbENENlAwdVMtQTJGV0NtQ1p6YWNWNWpBVFhqWEJKb3REai04cS00VHBwSkxSTGZiNlEtX1RobXE1?oc=5"
    },
    {
     "date": "2026-10-30",
@@ -3243,6 +3258,13 @@
     "source": "뉴스1",
     "title": "계속되는 후티 공세…예멘 대통령궁도 미사일 공격(종합)",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82b3ljMkFqMExIZm1mQkNFR3FoX2ZIQmh5bzgxeVFHam9FamdoRXFOWVVMaGdMVjltck81alhuVmM0Y2pZUHpUY2dOV09Oc1FQcjJEUDZ6NXVUTEIxUWJlMDh3?oc=5"
+   },
+   {
+    "date": "2026-10-30",
+    "published": "2026-10-30T20:38:12+00:00",
+    "source": "뉴시스",
+    "title": "美, 후티반군 공격 우려에 사우디 주재 비필수 인원 철수령",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBpTTUtR3NtOWNEcEI2bklhaDhPWXh4WTZTNnRqVUNmUnJNdDV3Tjh2RUF2TG5DbkVYX19Mb2Ewanc0UWliR000ZUFLeElldko2bXV3bmNYVlVYVGVYSFg0eF9IUnFVWjVWdk9UZEpiQ3I5X2NQNmN1cdIBeEFVX3lxTFBpTTUtR3NtOWNEcEI2bklhaDhPWXh4WTZTNnRqVUNmUnJNdDV3Tjh2RUF2TG5DbkVYX19Mb2Ewanc0UWliR000ZUFLeElldko2bXV3bmNYVlVYVGVYSFg0eF9IUnFVWjVWdk9UZEpiQ3I5X2NQNmN1cQ?oc=5"
    },
    {
     "date": "2026-10-30",
@@ -3262,10 +3284,31 @@
   "en": [
    {
     "date": "2026-10-31",
-    "published": "2026-10-31T04:10:03+00:00",
+    "published": "2026-10-31T09:00:00+00:00",
+    "source": "Bloomberg",
+    "title": "Houthi Attacks on Riyadh Airport Ramp Up Flight Cancellations",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZHB2alpyUFNRNnhTWFlldTJOQk5rOXlXbzhzVVBMeEIyYlBRT3NtSzFSSTFOQnFSaUs2bjI5WmdVNUo2OVBjSjUxVnQyR084R0xYdmpjQ3E3Szl5emw4UEd6ekRyaS1YMDY5SDMwaGs4bndXWnprbVYzWXcwNWxlX21BT3pkUnRmNzFMdzRnNlVWNTd6MEREdEMxMDFLM29pcDQ0akZnRGlUT1FkLU9ZTU9n?oc=5"
+   },
+   {
+    "date": "2026-10-31",
+    "published": "2026-10-31T08:15:20+00:00",
+    "source": "Al Jazeera",
+    "title": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR2JnM09TN0huWnRSdGZZMmtwLW51Q1lCM3lBWU1fMUl1YlR2Y203ckZKekRZREM5akNOMmpYTEo1VzFzQkItQmRxb0RxMHZnWGdpekdxNnZCdTVwR196NDJIekRjX00tYjlHVDlwcjVaRVh4ZjNJYTA4UTh0RWc5ZGM4QUtaQW1vVl81YUFpOHQ2dFBCUjFwaHR1c1h5VS0tTC0wRE1kNUXSAa4BQVVfeXFMTTNRV2V3eWthVkMtZTMzdHRIc2hBZ0wwRW1pNDk1MVRMQjg4NGZiSnFGLTJWZ21DWmJaT3A5OWR6aUYwQnlIMTNFUnZTd0Zma3JvSHp6RF9IcFo0cFZlT285RzZLc2NXZzIwVVFJenNWUFhrY3dvUDZReW9iRGFsazcyMGRQOEhnN0kzZTNvb3RfWmR6cGhxbVE0cE1EOGRpdnFOb1d4bWdHSHdURHVR?oc=5"
+   },
+   {
+    "date": "2026-10-31",
+    "published": "2026-10-31T01:12:01+00:00",
     "source": "The National",
-    "title": "Middle East latest: Qatari mediators return to Tehran with latest proposal to end war",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWnZLTm9HNUpSbUNocng0VDBfQkRsbjFKajRDRTJSLUJrLXpCYktWaE94MWc1TzVJQlY1OEpaTDRRa2tLWlI4bTAyV1dZeDgtaE5maDQyVnYwN2lxZ29UYUdUXzZrejZJY0lqczlsZGRjUC0wTGtwQWotR3A3eHMwaG1ydFdGMkhO?oc=5"
+    "title": "Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5"
+   },
+   {
+    "date": "2026-10-30",
+    "published": "2026-10-30T19:37:00+00:00",
+    "source": "Reuters",
+    "title": "Saudi-led coalition says it downs drone over oil-rich Eastern Region",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdTZlcVd4TG9tTWJjN0dRNEZ4enV5NHc1bGpzWnZjSjVwcGhuM3M3V2pERWNoNW9QLVFzTE9uVXhJb1lBOWFmMEhCRVZNeFdZX0ZFR21LcnlTLTRwemdlTzZ2OHlidndqVEJKaXJEMDRuVEo1V0xMVlpwWVF3LWVOTmJuOHAyTG9RTFhhUW9mcXVRR0N2dXJxQVRqdVVQQnZqdHFRdVdiZ1dvVzFrWWhHai1JSFhsdzhVcjlCU05IVXg?oc=5"
    },
    {
     "date": "2026-10-30",
@@ -3273,39 +3316,18 @@
     "source": "Reuters",
     "title": "US orders non-emergency staff to leave Saudi Arabia over security risks",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORW01d2dWQjEzQi1rNHpxb1hPYlE4b1dBMFgtUkxRQTZDY2RrNGlkeXpXNHNhUVU1MVRjVW9xY1lvbnpuSEFzNnZBaDM4ZkdGbEQwSUJ2Z0d0cms5bHVYcGhwYm5mZ3dIcU8zOXRlWFhFajVoMmtGRnA2cHQxdG1xQjdHMHJheWxyZ3dIMC12c0JyYzhScUZOOUdEd25UV3JEZ2ZNMl90ODJ4cnF2c09XUVFISEN5X2x1X0twYklBZw?oc=5"
-   },
-   {
-    "date": "2026-10-30",
-    "published": "2026-10-30T11:11:58+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV3NIQ2tYTXA2UkVQUUh3UGxESzR2R1JnSVhjQjAtQ01PTm5mckJQcjZuSDA1Q3pmeWlnVUhlbThSaEhKRk9uWWdqUW1qRWlzajhDbHhIbU12NmJPNzA1WXNnWllQMkduX01GUXNvNlV2UEUxckZhek5NLWJNR1VEYjB2eXN6TGhLdjRBdU9XVUZHNnNTa1JDU2FyN3dOUmEzbEFaRmNPLXRhakXSAbABQVVfeXFMUFBWdEVMYlpIblRxQ3lVOWFPRnVTa1FwQ1pPTXFuZmV6ODEzNmd1Y0VFNVF4MHVhWU1kRWl6dHl0N2xWNXR5VmRrVmpRelZHeWZtRGZzcWlsUUhnd28yMXlpcFc2dnJQVHJoSkh4bzNwQ3FZeXBybW5EdHl5WjB6ajlkVUhxQVdJMzJwa0hEZkJrMDM5Ty1zQmU3cEZ2S08wWjFLeGdRZHBvblAxVWE0Vmc?oc=5"
-   },
-   {
-    "date": "2026-10-30",
-    "published": "2026-10-30T00:15:13+00:00",
-    "source": "Al Jazeera",
-    "title": "Houthi forces claim six attacks on Saudi airports, oil facilities",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTEhERlpWem04ZnozTFJCeEcwbmNLVkN6eUtjUFgtdDJnNU1iVFVWWExvTU9WQ09EQ3g0SmJYZ011OWh4TTlUd2pKLURkQUljS3VDNzNmcktLMEZYZTRydklucHl3RF9PeDF1VW5QTlFCbEs0U2ZfbEtqdlpVczB5VTBiUFM0VnZ3Mkl6dVdoZWRvanJCS3VmUW9Ma2hwQ18zbFA3T2lmMU5Hd9IBrwFBVV95cUxNNDBlaUpwVUU2NTFwc0ZhYXdwUmxTa2JjdklXNUVudHZDa25DV29LMUZWa2hRRTBtWml6QTA3Y2ZPNEJOMHo3c2RVSDdYbkNLTzBLbWJXczlBZEY4bWQ3dlZ4amtOOGVtUm90MFpXZWQ2cXZSdk1RNnU0R1BQNWtGRG5YUW5ibVBUa2hPSHA0eEVYVGRNS2Nta3V3bE1mTU4zNllDOEV1N2J6MWd2ODlv?oc=5"
-   },
-   {
-    "date": "2026-10-28",
-    "published": "2026-10-28T15:46:00+00:00",
-    "source": "CNBC",
-    "title": "Oil spikes following Houthi attack on Saudi oil refinery",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeVMyaWtEMjQ2Z1YtOF92LUp3SXlLOWp4REd1RXFwOEJPSExYTjZRS2Q5bXpGcW0yMlRiVks2Z0xIbmt1NDZoamxwWURib2V3WjUtLUtKaFdPNWl5SFF0NWVVOElDeHFkYUdLR0FZYnZEZGNpZ2xuU1VxZkVuLWVkRFlIX2JfUE0tV3FjNFo2U3dlVkZQTXdFRmFQWUQyY0dD?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-31T05:25:23Z"
+  "last_ok_at": "2026-10-31T12:13:13Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T05:25:24Z",
+  "fetched_at": "2026-10-31T12:13:15Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 19,
-  "baseline": 23.0,
-  "baseline_n": 6,
+  "count": 23,
+  "baseline": 30,
+  "baseline_n": 3,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3528,14 +3550,15 @@
    "2026-10-30T14": 14,
    "2026-10-30T19": 16,
    "2026-10-30T23": 21,
-   "2026-10-31T05": 19
+   "2026-10-31T05": 19,
+   "2026-10-31T12": 23
   },
-  "last_ok_at": "2026-10-31T05:25:24Z"
+  "last_ok_at": "2026-10-31T12:13:15Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-31T05:25:24Z",
-  "last_ok_at": "2026-10-31T05:25:24Z"
+  "fetched_at": "2026-10-31T12:13:15Z",
+  "last_ok_at": "2026-10-31T12:13:15Z"
  }
 }
