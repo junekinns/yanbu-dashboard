@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T12:12:47Z",
+ "generated_at": "2026-10-31T17:39:24Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T12:12:47Z",
+  "fetched_at": "2026-10-31T17:39:24Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 8,
   "baseline": 5.0,
   "tier": "증가",
-  "last_ok_at": "2026-10-31T12:12:47Z"
+  "last_ok_at": "2026-10-31T17:39:24Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T12:13:09Z",
+  "fetched_at": "2026-10-31T17:39:45Z",
   "events": [
    {
     "date": "2026-10-31",
@@ -1359,14 +1359,34 @@
   "history_days": 31,
   "history_since": "2026-10-01",
   "today": "2026-10-31",
-  "last_ok_at": "2026-10-31T12:13:09Z"
+  "last_ok_at": "2026-10-31T17:39:45Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T12:13:11Z",
+  "fetched_at": "2026-10-31T17:39:46Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-10-31 19:20",
+    "iso": "2026-10-31T19:20:24+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 66 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وصعدة وحجة ولحج من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران، وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 3755 غارةً جويةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트, 타이프 및 나즈란의 미사일 공격 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기를 통해 수도 사나와 알자우프, 타이즈, 사다, 하자 및 라즈의 주지사 민간 물체를 겨냥한 66번의 공습과 미사일 공습을 감행하여 여성과 어린이를 포함한 순교자와 부상자를 남겼습니다. 우리 나라에서 에스컬레이션이 시작된 이후의 사우디 침략 습격의 총 수는 3,755 건의 공습 및 미사일 습격입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/3996"
+   },
+   {
+    "time": "2026-10-31 16:04",
+    "iso": "2026-10-31T16:04:48+03:00",
+    "places": [],
+    "text_ar": "مشاهد استهداف التحشيدات والآليات التابعة للعدو السعودي بطائرات رجوم المسيرة في عدة جبهات - 31 أكتوبر 2026م",
+    "text_ko": "여러 전선에서 드론으로 사우디아라비아 적의 축적물과 차량을 겨냥하는 장면 - 2026년 10월 31일",
+    "url": "https://t.me/army21ye/3995"
+   },
    {
     "time": "2026-10-30 23:04",
     "iso": "2026-10-30T23:04:21+03:00",
@@ -2158,27 +2178,25 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 15,
-   "나즈란": 14,
-   "리야드": 14,
+   "카미스무샤이트": 12,
+   "나즈란": 11,
+   "리야드": 10,
+   "타이프": 7,
    "지잔": 7,
-   "라비그": 7,
-   "담맘": 7,
-   "타이프": 6,
    "메디나": 4,
    "메카": 4,
-   "얀부": 4,
+   "담맘": 3,
    "아브카이크": 3,
+   "라비그": 3,
    "라스타누라": 3,
-   "아브하": 1,
-   "송유관": 1
+   "아브하": 1
   },
-  "last_ok_at": "2026-10-31T12:13:11Z"
+  "last_ok_at": "2026-10-31T17:39:46Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T12:13:11Z",
+  "fetched_at": "2026-10-31T17:39:51Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2188,14 +2206,6 @@
     "date": "2026-10-24",
     "time": "0941",
     "confidence": "low"
-   },
-   {
-    "lat": 23.68619,
-    "lon": 47.56092,
-    "frp": 6.49,
-    "date": "2026-10-24",
-    "time": "0941",
-    "confidence": "nominal"
    },
    {
     "lat": 26.78294,
@@ -2294,22 +2304,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.69006,
-    "lon": 47.56118,
-    "frp": 3.26,
-    "date": "2026-10-24",
-    "time": "2210",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.68877,
-    "lon": 47.56039,
-    "frp": 2.84,
-    "date": "2026-10-24",
-    "time": "2210",
-    "confidence": "nominal"
-   },
-   {
     "lat": 23.95173,
     "lon": 38.26588,
     "frp": 1.65,
@@ -2345,14 +2339,6 @@
     "lat": 21.18549,
     "lon": 39.55556,
     "frp": 5.3,
-    "date": "2026-10-25",
-    "time": "1104",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.68745,
-    "lon": 47.56312,
-    "frp": 3.13,
     "date": "2026-10-25",
     "time": "1104",
     "confidence": "nominal"
@@ -3062,38 +3048,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.68553,
-    "lon": 47.5603,
-    "frp": 7.88,
-    "date": "2026-10-30",
-    "time": "0930",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.68645,
-    "lon": 47.56437,
-    "frp": 7.88,
-    "date": "2026-10-30",
-    "time": "0930",
-    "confidence": "low"
-   },
-   {
-    "lat": 23.68651,
-    "lon": 47.56401,
-    "frp": 5.84,
-    "date": "2026-10-30",
-    "time": "1110",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.69131,
-    "lon": 47.56307,
-    "frp": 5.17,
-    "date": "2026-10-30",
-    "time": "1110",
-    "confidence": "nominal"
-   },
-   {
     "lat": 26.69426,
     "lon": 50.08454,
     "frp": 2.48,
@@ -3158,33 +3112,9 @@
     "confidence": "nominal"
    },
    {
-    "lat": 23.69117,
-    "lon": 47.56386,
-    "frp": 1.69,
-    "date": "2026-10-30",
-    "time": "2157",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.68513,
-    "lon": 47.56322,
-    "frp": 1.69,
-    "date": "2026-10-30",
-    "time": "2157",
-    "confidence": "nominal"
-   },
-   {
     "lat": 25.67907,
     "lon": 49.51915,
     "frp": 1.48,
-    "date": "2026-10-30",
-    "time": "2337",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 23.68718,
-    "lon": 47.56216,
-    "frp": 1.22,
     "date": "2026-10-30",
     "time": "2337",
     "confidence": "nominal"
@@ -3236,21 +3166,37 @@
     "date": "2026-10-31",
     "time": "0911",
     "confidence": "nominal"
+   },
+   {
+    "lat": 23.85993,
+    "lon": 47.45568,
+    "frp": 3.76,
+    "date": "2026-10-31",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 24.5271,
+    "lon": 39.44419,
+    "frp": 3.55,
+    "date": "2026-10-31",
+    "time": "1051",
+    "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-10-31T12:13:11Z"
+  "last_ok_at": "2026-10-31T17:39:51Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T12:13:13Z",
+  "fetched_at": "2026-10-31T17:39:53Z",
   "kr": [
    {
     "date": "2026-10-31",
-    "published": "2026-10-31T02:29:58+00:00",
+    "published": "2026-10-31T02:29:00+00:00",
     "source": "연합뉴스",
     "title": "사우디 \"후티, 메카 겨냥 무인기 공격 시도\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aajRzOU1oeXdFeXM3c256cUZPMC15V1lCRVZMZlN3S1pjX1hhamYxZ3h5WG1wdm54NnVJbENENlAwdVMtQTJGV0NtQ1p6YWNWNWpBVFhqWEJKb3REai04cS00VHBwSkxSTGZiNlEtX1RobXE1?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0RkY4c2VaYVh6T3pPWlhYQlpQdDBObk5femIyNW53VzROT1NvaTNYUlAyc3hONGRZTDNlVlB0YVBjajM3ZU1PT0dFX0NCVXp3amIxLUNTV1NLaTRNT2s4WnFlZmRPVjg?oc=5"
    },
    {
     "date": "2026-10-30",
@@ -3284,6 +3230,13 @@
   "en": [
    {
     "date": "2026-10-31",
+    "published": "2026-10-31T14:16:09+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5"
+   },
+   {
+    "date": "2026-10-31",
     "published": "2026-10-31T09:00:00+00:00",
     "source": "Bloomberg",
     "title": "Houthi Attacks on Riyadh Airport Ramp Up Flight Cancellations",
@@ -3297,38 +3250,31 @@
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR2JnM09TN0huWnRSdGZZMmtwLW51Q1lCM3lBWU1fMUl1YlR2Y203ckZKekRZREM5akNOMmpYTEo1VzFzQkItQmRxb0RxMHZnWGdpekdxNnZCdTVwR196NDJIekRjX00tYjlHVDlwcjVaRVh4ZjNJYTA4UTh0RWc5ZGM4QUtaQW1vVl81YUFpOHQ2dFBCUjFwaHR1c1h5VS0tTC0wRE1kNUXSAa4BQVVfeXFMTTNRV2V3eWthVkMtZTMzdHRIc2hBZ0wwRW1pNDk1MVRMQjg4NGZiSnFGLTJWZ21DWmJaT3A5OWR6aUYwQnlIMTNFUnZTd0Zma3JvSHp6RF9IcFo0cFZlT285RzZLc2NXZzIwVVFJenNWUFhrY3dvUDZReW9iRGFsazcyMGRQOEhnN0kzZTNvb3RfWmR6cGhxbVE0cE1EOGRpdnFOb1d4bWdHSHdURHVR?oc=5"
    },
    {
-    "date": "2026-10-31",
-    "published": "2026-10-31T01:12:01+00:00",
+    "date": "2026-10-30",
+    "published": "2026-10-30T11:11:58+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV3NIQ2tYTXA2UkVQUUh3UGxESzR2R1JnSVhjQjAtQ01PTm5mckJQcjZuSDA1Q3pmeWlnVUhlbThSaEhKRk9uWWdqUW1qRWlzajhDbHhIbU12NmJPNzA1WXNnWllQMkduX01GUXNvNlV2UEUxckZhek5NLWJNR1VEYjB2eXN6TGhLdjRBdU9XVUZHNnNTa1JDU2FyN3dOUmEzbEFaRmNPLXRhakXSAbABQVVfeXFMUFBWdEVMYlpIblRxQ3lVOWFPRnVTa1FwQ1pPTXFuZmV6ODEzNmd1Y0VFNVF4MHVhWU1kRWl6dHl0N2xWNXR5VmRrVmpRelZHeWZtRGZzcWlsUUhnd28yMXlpcFc2dnJQVHJoSkh4bzNwQ3FZeXBybW5EdHl5WjB6ajlkVUhxQVdJMzJwa0hEZkJrMDM5Ty1zQmU3cEZ2S08wWjFLeGdRZHBvblAxVWE0Vmc?oc=5"
+   },
+   {
+    "date": "2026-10-30",
+    "published": "2026-10-30T03:07:01+00:00",
     "source": "The National",
-    "title": "Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5"
-   },
-   {
-    "date": "2026-10-30",
-    "published": "2026-10-30T19:37:00+00:00",
-    "source": "Reuters",
-    "title": "Saudi-led coalition says it downs drone over oil-rich Eastern Region",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdTZlcVd4TG9tTWJjN0dRNEZ4enV5NHc1bGpzWnZjSjVwcGhuM3M3V2pERWNoNW9QLVFzTE9uVXhJb1lBOWFmMEhCRVZNeFdZX0ZFR21LcnlTLTRwemdlTzZ2OHlidndqVEJKaXJEMDRuVEo1V0xMVlpwWVF3LWVOTmJuOHAyTG9RTFhhUW9mcXVRR0N2dXJxQVRqdVVQQnZqdHFRdVdiZ1dvVzFrWWhHai1JSFhsdzhVcjlCU05IVXg?oc=5"
-   },
-   {
-    "date": "2026-10-30",
-    "published": "2026-10-30T18:32:55+00:00",
-    "source": "Reuters",
-    "title": "US orders non-emergency staff to leave Saudi Arabia over security risks",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORW01d2dWQjEzQi1rNHpxb1hPYlE4b1dBMFgtUkxRQTZDY2RrNGlkeXpXNHNhUVU1MVRjVW9xY1lvbnpuSEFzNnZBaDM4ZkdGbEQwSUJ2Z0d0cms5bHVYcGhwYm5mZ3dIcU8zOXRlWFhFajVoMmtGRnA2cHQxdG1xQjdHMHJheWxyZ3dIMC12c0JyYzhScUZOOUdEd25UV3JEZ2ZNMl90ODJ4cnF2c09XUVFISEN5X2x1X0twYklBZw?oc=5"
+    "title": "Middle East latest: Qatari mediators in Tehran again with latest proposal to end regional war",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcUJqUkM5anZjdXlzaUJZQkZVQ2lUVmZpT3JSMmFQdmUwT21UYkR6aVNmUXFBMHJkRXMtXy1yVWt4cUx3a2dkM1FRLVdHOEh4eTNrUVRoNmpkaW1laENrbzY2ZHNaeWJVQnNmWkNzRER2SWxlTEZBMGpVc3BoVzdkWEhGaW1GNzEt?oc=5"
    }
   ],
-  "last_ok_at": "2026-10-31T12:13:13Z"
+  "last_ok_at": "2026-10-31T17:39:53Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-10-31T12:13:15Z",
+  "fetched_at": "2026-10-31T17:39:54Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 23,
-  "baseline": 30,
-  "baseline_n": 3,
-  "tier": "정상",
+  "count": 22,
+  "baseline": 33.0,
+  "baseline_n": 6,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3551,14 +3497,15 @@
    "2026-10-30T19": 16,
    "2026-10-30T23": 21,
    "2026-10-31T05": 19,
-   "2026-10-31T12": 23
+   "2026-10-31T12": 23,
+   "2026-10-31T17": 22
   },
-  "last_ok_at": "2026-10-31T12:13:15Z"
+  "last_ok_at": "2026-10-31T17:39:54Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-10-31T12:13:15Z",
-  "last_ok_at": "2026-10-31T12:13:15Z"
+  "fetched_at": "2026-10-31T17:39:54Z",
+  "last_ok_at": "2026-10-31T17:39:54Z"
  }
 }
