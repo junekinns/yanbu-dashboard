@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T05:51:29Z",
+ "generated_at": "2026-11-02T15:36:49Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-02T05:51:29Z",
+  "fetched_at": "2026-11-02T15:36:49Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 5.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-02T05:51:29Z"
+  "last_ok_at": "2026-11-02T15:36:49Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-02T05:51:46Z",
+  "fetched_at": "2026-11-02T15:37:05Z",
   "events": [
    {
     "date": "2026-10-31",
@@ -447,20 +447,6 @@
    },
    {
     "date": "2026-10-25",
-    "time": "17:18",
-    "iso": "2026-10-25T17:18:34+03:00",
-    "city": "메카",
-    "type": "요격",
-    "weapon": null,
-    "lat": 21.39,
-    "lon": 39.86,
-    "title": "Saudi air defences intercept Houthi barrage near Mecca",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTllKSThoS2V1TUQ1V2l6aG1fb2ZycUN6M01QYm9mLWQxb2hDYkFjS1B5QWprMzRKY1U0QTBSSFdqT09fWkdZRlVGRXlmWnRGZWphSjh6WlZMTVdJc2RCLVdTaXVlTUlja0ZDMmY0ODZ3WkhwbXA0Mmkyek5aZ2w5ZG15UXlKMkVLdGJsU0lUaVlHdEEzcWl6UTlLWFDSAaIBQVVfeXFMTUwtTjNQSG4yWU5oc1BrS2REcV9nVnE3MU1oZ3ZUYXNteXFqSjhSSlFzekVLYlJJNDVjM1VORGJmSVhDaG5HREZsTGpUdFBuUjYyQmN1bGhVdk1BNl9FR3YzOXRjVUF2QW8tcHVPeUZQNlBhUnhTalhTSVBIZDdUQ3dCdUtqM09oRlBEVW0zYkx4dUwwR28wRHRfTFpHWXhndUZ3?oc=5",
-    "source": "Al Jazeera",
-    "outlets": 1
-   },
-   {
-    "date": "2026-10-25",
     "time": "10:55",
     "iso": "2026-10-25T10:55:16+03:00",
     "city": "메디나",
@@ -471,6 +457,20 @@
     "title": "Saudi Arabia 'responding' to falling shrapnel from downed Houthi missiles in Mecca and Medina areas",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNS1F4V1BBN2ZDMWVsUW9pSTFZb3EzVlRVTnRTZ2VCZi0tY19mRk5sNFZ2RTZQNTRjMU5JYjRUZjN6RG1VaDhJV19MZjl0RkxwQ2J6QTVCX2pkOENaYm4wYnkyVXlBTjNENHpfN0dPTXhRX3dLNGJ0Slhjb0dxdkFWN2ZoNFUyMm9PWGdWZUEzVi1SaksxbHRrSFB2M0F3U2xMMGxIb2Z1c0lYR241c0duS2NDcnBsRXAxdElyYWZ5T2VhOGVJNHZTRzA0VDF0ZWhRWmRGOTQwckhvdW8?oc=5",
     "source": "The Times of Israel",
+    "outlets": 1
+   },
+   {
+    "date": "2026-10-25",
+    "time": "10:00",
+    "iso": "2026-10-25T10:00:00+03:00",
+    "city": "메카",
+    "type": "요격",
+    "weapon": null,
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "Saudi air defences intercept Houthi barrage near Mecca",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTllKSThoS2V1TUQ1V2l6aG1fb2ZycUN6M01QYm9mLWQxb2hDYkFjS1B5QWprMzRKY1U0QTBSSFdqT09fWkdZRlVGRXlmWnRGZWphSjh6WlZMTVdJc2RCLVdTaXVlTUlja0ZDMmY0ODZ3WkhwbXA0Mmkyek5aZ2w5ZG15UXlKMkVLdGJsU0lUaVlHdEEzcWl6UTlLWFDSAaIBQVVfeXFMTUwtTjNQSG4yWU5oc1BrS2REcV9nVnE3MU1oZ3ZUYXNteXFqSjhSSlFzekVLYlJJNDVjM1VORGJmSVhDaG5HREZsTGpUdFBuUjYyQmN1bGhVdk1BNl9FR3YzOXRjVUF2QW8tcHVPeUZQNlBhUnhTalhTSVBIZDdUQ3dCdUtqM09oRlBEVW0zYkx4dUwwR28wRHRfTFpHWXhndUZ3?oc=5",
+    "source": "Al Jazeera",
     "outlets": 1
    },
    {
@@ -1329,12 +1329,12 @@
   "history_days": 31,
   "history_since": "2026-10-03",
   "today": "2026-11-02",
-  "last_ok_at": "2026-11-02T05:51:46Z"
+  "last_ok_at": "2026-11-02T15:37:05Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-02T05:51:47Z",
+  "fetched_at": "2026-11-02T15:37:06Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2083,25 +2083,25 @@
    }
   ],
   "mentions7d": {
-   "나즈란": 10,
    "카미스무샤이트": 8,
+   "나즈란": 8,
    "타이프": 7,
-   "지잔": 6,
+   "지잔": 4,
    "리야드": 4,
    "담맘": 3,
-   "아브카이크": 3,
    "라비그": 3,
+   "아브카이크": 3,
    "라스타누라": 3,
    "메디나": 1,
    "메카": 1,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-02T05:51:47Z"
+  "last_ok_at": "2026-11-02T15:37:06Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-02T05:51:47Z",
+  "fetched_at": "2026-11-02T15:37:07Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2521,14 +2521,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.63473,
-    "lon": 49.23001,
-    "frp": 1.47,
-    "date": "2026-10-29",
-    "time": "2216",
-    "confidence": "nominal"
-   },
-   {
     "lat": 21.10614,
     "lon": 39.23288,
     "frp": 1.53,
@@ -2801,14 +2793,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.63308,
-    "lon": 49.2317,
-    "frp": 1.64,
-    "date": "2026-10-31",
-    "time": "2138",
-    "confidence": "nominal"
-   },
-   {
     "lat": 25.34435,
     "lon": 49.26441,
     "frp": 0.66,
@@ -2876,14 +2860,6 @@
     "lat": 26.85789,
     "lon": 49.43922,
     "frp": 0.71,
-    "date": "2026-10-31",
-    "time": "2318",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 25.63495,
-    "lon": 49.23193,
-    "frp": 1.24,
     "date": "2026-10-31",
     "time": "2318",
     "confidence": "nominal"
@@ -3177,14 +3153,6 @@
     "confidence": "nominal"
    },
    {
-    "lat": 25.63366,
-    "lon": 49.23159,
-    "frp": 1.56,
-    "date": "2026-11-01",
-    "time": "2301",
-    "confidence": "nominal"
-   },
-   {
     "lat": 25.52723,
     "lon": 49.21634,
     "frp": 2.91,
@@ -3217,13 +3185,20 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-02T05:51:47Z"
+  "last_ok_at": "2026-11-02T15:37:07Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-02T05:51:50Z",
+  "fetched_at": "2026-11-02T15:37:11Z",
   "kr": [
+   {
+    "date": "2026-11-02",
+    "published": "2026-11-02T08:22:26+00:00",
+    "source": "중앙일보",
+    "title": "‘중동 정세 불안’ 내년 1월 사우디 아시안컵, 1년 연기 현실화",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xVHdhVk5jYnhEYWV1YXA3VnlyVkw5OUVsSVVfaUhDZEVVRDRkT3hTSXNZYm1ER19HQW1ZVHpha3JuSE5oTEE1V3o0OVN6dmZxcVRkamln?oc=5"
+   },
    {
     "date": "2026-11-02",
     "published": "2026-11-02T03:19:50+00:00",
@@ -3251,63 +3226,56 @@
     "source": "MBC",
     "title": "후티 반군 \"사우디, 홍해 호데이다 항구 부두·상선 공습\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GQnJLbE56bFlfdFprNHRrS3JOaTYwM25wRHNVazVXR1VBQ3BfOVdyX3NWTlZwSm9ZYWtsOGRZQUFHR0xGRUdueTNMU1B4VC1YV1VxeGFNd2FDaDUtaUExc0xVb3FiQTFsMzRYVjVMWjZyRTV00gF0QVVfeXFMTy13X25SV1lXWDMweUQ4VmZ0QXNLeTBZOGtlbkoxZHF2LXo2QXpURVZEVTdLVllrODFFUjJBOEtmaDBaS0NDeUdZRTFCaXBiZGZxZHV0cm1fcU1fRU9PSmRqTEwzQmlpQW5qYkQxNTZhWnJlSTk?oc=5"
-   },
-   {
-    "date": "2026-11-02",
-    "published": "2026-11-02T00:03:28+00:00",
-    "source": "뉴시스",
-    "title": "후티군 \"예멘 석유수출항과 선박들 연속폭격 당해\" 발표- 알마시라TV",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxNWhoakxXc3ZIbWtxN09TVldSQmFoMXFpeFVYdDlENnk4Q2J4Z0NCMS12bTZvdmdCN1ZKMmNMTkZKNDhKZTRwRmlEa2RWMHhCc1F2YlNkdktYbHlqZEk2UNIBeEFVX3lxTE5DZXJ0SE5XenBXdnl6eWQwOGFTNUd5ak9JNXM4UTdpdzhjc0s0OEtSbmF5c1ZJdVpIVk9ncDNrajNGTzlDRlRvdFlLcThjaUhQbnRVOG5VemVWWjBXcUxQMG5LdDNmMUlHMm1XaGNIRUpqbEdzMmh3SA?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-02",
-    "published": "2026-11-02T04:19:53+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Oil prices slide more than 3% as Trump signals more time for Iran diplomacy",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT2RZbUR3bEtVUzBna1hJbGUwNHBnLXRJQkhtZDRDLXkyNkFlYzFHTU1ndUh0T1J5RHQ4aEpjWVhfT3F1cUVkS2dqc2NIdXFIaTdDSk1BbXJtNmR2eDNMa3M2TEpEbXR4VEtyYmYyS3pDeW50SGhicmNha2NDc0xvTXFGUnJ0UTd3RWZQNA?oc=5"
+    "published": "2026-11-02T11:27:14+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Business Model Built on Corporate Commuters Challenged by War",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb3lXWmtsNXpEdnhXZkVhcE9uNl9yR2pHZDVZM2o2anEyQ2JQZk5KYjdzZW1Ja0dvVlBRMmZQYmdGelNkYkpwc2pvX1d5a0FtX0ZfSlY3STgzSzBHYXNLZ281U0tBMEJRd19yR2F4STdJelp2YzQ0WnVsT053RXFpQ1NIR0Nvc1EzNG9aWUZ5M1R3UWtvUlhMTk9oMnRQWDlhU2lvNUp2alNsRk9yOTB2YUtjRUtqMTA1SHc?oc=5"
    },
    {
-    "date": "2026-11-01",
-    "published": "2026-11-01T14:03:04+00:00",
+    "date": "2026-11-02",
+    "published": "2026-11-02T10:14:08+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-led coalition intercepts a missile as fighting rages in Yemen’s al-Jawf",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcDdybGI4VjV5MVJtOTMwR21NUVVYZnNDLUVSVW1va2VBOVpmeTZrR3lBUnVjb1ViN2xoeEFvMXhJanlLel9XWHY4Njl1MHpKX1U3c0h3S1VuTVRMTlhuYWtwZ1JjaTFVWk1Da2lqd09fTVdMNWF5X0kyXzVtZHhmU2ZBMlZlajFjSkZieFhmd092ckw5Ty1WZEtYd0VOa2U0dXVycVlhaFFNckd1RUVmaVV3T1RQMFpL0gG-AUFVX3lxTE1ReEZ6dGplTGlsSGk2V3lNZ3hMTEo1X00yYmwzc0RkUDVTcHByRUtCT3U5LTB0dUVCazY3UVhNaGtkdDRaVXRVaFFFdWt2R3VtM2lzbTJpZTJFMlRiOEo3N3hUY3BCNENxOWI0ZzR1TlhqRGZpQW42SUw0bjZ1amlxNDB1M0w5STVMRFBUaXIyZkp5VF9XaW94eXh1dGtudU1QSHA0R2dMWE0tYnRrZjRoM3BzXzBNNDAzR0V1aFE?oc=5"
+   },
+   {
+    "date": "2026-11-02",
+    "published": "2026-11-02T07:22:00+00:00",
     "source": "Reuters",
-    "title": "Qatar surges, bucking Gulf market slide on Iran war concerns",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU3lNbXVYLVNtdGZwSDFpT0ZvTHVaWmp3bi1abjBPelhQbDQ4bmNST1VyRGktWHRJXy1yTnhMMGREWUVPdjRJS3BxXzJYOGVGSkZvdk5YYTJpbU5JM215MUxWTE12R01nTldxbnpETXliMExhV3g5eHB2dFdEb1dYd3ZnTkNULTdoWXk0Y2dHOWNPTVJ4MldXUU5xMkxNeU8yQnhiVlRma1RBN2NUbElR?oc=5"
+    "title": "Saudi civil defence sounds all-clear after alerts in southern cities",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTmhEQmdqTzRHX3pXZXZRZC1WYXhvUHVtcTJEcS1UMUZWYnZUcTZtdS1fekpDdTNrWXJzSWp5LTBRUHpaTVdTOVlHeFZraWNiT1RnRmgtcTkxZ0pvaUR2VkRZV2d1ZVZTdjJMQklhcGlhbWR0aC1HV3I3bDdsRkN2dVpiZ1N5V3N1Z1pBSVExdlh1VldUSmNYWUV6SGhlV3UtMHZJMWtDRGR1ZkNWRWcyVTh6TlpCYmpxazc4?oc=5"
    },
    {
-    "date": "2026-11-01",
-    "published": "2026-11-01T12:47:06+00:00",
-    "source": "Bloomberg",
-    "title": "Saudi Economy Shrank at Slower Pace Before Houthi Escalation",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanJ5UmZiYUY4UVA0SXdvUTFsblpPSVlvU1hHUU1hdDhLS0Y3MUxLblhiNWJ2SHdKTW56cTdYR1FXUXNEMmxTTUZkUUNhRlpqODV1enhJa19aMUZNZ2N3dW4yTEQyd1JrRkZpQTRwM1Job0xCRVZqYjh0d18xOEprUzFFUXQ4WHZWRTF0U3I0M05fVzlWejNHdnNlZkFvdXhqVF9pYjFFV1FBaFM5RUNaN1FfazI5dw?oc=5"
+    "date": "2026-11-02",
+    "published": "2026-11-02T07:00:00+00:00",
+    "source": "The Guardian",
+    "title": "Nine big oil firms on track to share more than $95bn profit two quarters in a row",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeXBJYWlwMjdwM3djOG81dHVZNHlIX1dUZWM2dEYya2YzOVp1TTR6bmN1dm9hbWxqLU5zMFYzYTVtTzFkOHdVdG9hWGlaWmEtaGM2dmlveGVCODZDY3FiYk5BeTFaLW5QeF9FVGxPQmdBOWwteEc5bjFZMTh2d0I2c2NCVm94VTlHT1M1REhIWU9WeTJReTFRV3ZfWm5rc05EUWFjLTN2dHhETE1pWXRNWS0xOFZ0dw?oc=5"
    },
    {
-    "date": "2026-11-01",
-    "published": "2026-11-01T06:54:17+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Iran offers to open strait in two days if US meets demands",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR1YtZVpYb1lJeUVSMXFnakU1dlI2bW5DZlExMnZGTk5CTUNJV3JhX2d1T1U0SnJxbS1Gb0J4NzBQRmpNUDB0cHFsdTRzWm43NjBWNURaWFVyY1VvVDhlRUU1eThHNVdrTEhyYUI4cU5WemNCTmV4Z01pdkdqaXl6cmZOTDhwbUxjVkxBR1k2T2U?oc=5"
-   },
-   {
-    "date": "2026-10-31",
-    "published": "2026-10-31T09:00:00+00:00",
-    "source": "Bloomberg",
-    "title": "Houthi Attacks on Riyadh Airport Ramp Up Flight Cancellations",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZHB2alpyUFNRNnhTWFlldTJOQk5rOXlXbzhzVVBMeEIyYlBRT3NtSzFSSTFOQnFSaUs2bjI5WmdVNUo2OVBjSjUxVnQyR084R0xYdmpjQ3E3Szl5emw4UEd6ekRyaS1YMDY5SDMwaGs4bndXWnprbVYzWXcwNWxlX21BT3pkUnRmNzFMdzRnNlVWNTd6MEREdEMxMDFLM29pcDQ0akZnRGlUT1FkLU9ZTU9n?oc=5"
+    "date": "2026-11-02",
+    "published": "2026-11-02T03:17:08+00:00",
+    "source": "Reuters",
+    "title": "Yemen's Houthis claim Saudi drone attack",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QN1dDSzhpRWFaNFJkN1ZISXhSM2F2ZmliUTRLcDJ3ZXYyRzBqbFc4QmI2Um96NkpaRlhjdGtHZEZOMm02bXdhWjBweUNJR0V6UmRHMGtqT2ZwTnpOOGxZNXNXdl9ZUzg?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-02T05:51:50Z"
+  "last_ok_at": "2026-11-02T15:37:11Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-02T05:51:51Z",
+  "fetched_at": "2026-11-02T15:37:12Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 14,
-  "baseline": 22,
-  "baseline_n": 7,
-  "tier": "감소",
+  "count": 27,
+  "baseline": 31.0,
+  "baseline_n": 10,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -3538,14 +3506,15 @@
    "2026-11-01T14": 22,
    "2026-11-01T19": 24,
    "2026-11-01T23": 29,
-   "2026-11-02T05": 14
+   "2026-11-02T05": 14,
+   "2026-11-02T15": 27
   },
-  "last_ok_at": "2026-11-02T05:51:51Z"
+  "last_ok_at": "2026-11-02T15:37:12Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-02T05:51:51Z",
-  "last_ok_at": "2026-11-02T05:51:51Z"
+  "fetched_at": "2026-11-02T15:37:12Z",
+  "last_ok_at": "2026-11-02T15:37:12Z"
  }
 }
