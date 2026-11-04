@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T20:55:40Z",
+ "generated_at": "2026-11-04T01:14:30Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-03T20:55:40Z",
+  "fetched_at": "2026-11-04T01:14:30Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,14 +184,14 @@
    }
   ],
   "last7d": 3,
-  "baseline": 5.0,
+  "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-03T20:55:40Z"
+  "last_ok_at": "2026-11-04T01:14:30Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-03T20:56:01Z",
+  "fetched_at": "2026-11-04T01:14:46Z",
   "events": [
    {
     "date": "2026-11-03",
@@ -1213,9 +1213,9 @@
     },
     "total7d": 1,
     "prev7d": {
-     "요격": 2
+     "요격": 1
     },
-    "prev_total": 2
+    "prev_total": 1
    },
    "라비그": {
     "7d": {},
@@ -1232,15 +1232,15 @@
    "메카": {
     "7d": {
      "요격": 2,
-     "피격": 3
+     "피격": 2
     },
-    "total7d": 5,
+    "total7d": 4,
     "prev7d": {
+     "피격": 2,
      "공습": 1,
-     "피격": 1,
      "요격": 2
     },
-    "prev_total": 4
+    "prev_total": 5
    },
    "타이프": {
     "7d": {},
@@ -1252,17 +1252,17 @@
    },
    "리야드": {
     "7d": {
-     "요격": 3,
+     "요격": 2,
      "피격": 1
     },
-    "total7d": 4,
+    "total7d": 3,
     "prev7d": {
-     "요격": 5,
+     "요격": 6,
      "공습": 1,
      "피격": 3,
      "경보": 1
     },
-    "prev_total": 10
+    "prev_total": 11
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1345,15 +1345,15 @@
     "prev_total": 0
    }
   },
-  "history_days": 30,
+  "history_days": 31,
   "history_since": "2026-10-05",
-  "today": "2026-11-03",
-  "last_ok_at": "2026-11-03T20:56:01Z"
+  "today": "2026-11-04",
+  "last_ok_at": "2026-11-04T01:14:46Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-03T20:56:02Z",
+  "fetched_at": "2026-11-04T01:14:47Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2090,45 +2090,6 @@
     "text_ar": "تمكنت قواتنا المسلحة من استهداف غرفة العمليات التابعة للعدو السعودي في معسكر بدر بعدن وذلك بصاروخ باليستي وكانت الإصابة دقيقة ومباشرة بفضل الله. http://t.me/army21ye",
     "text_ko": "우리 군대는 탄도 미사일로 아덴의 바드르 캠프에 있는 사우디아라비아 적의 작전실을 공략할 수 있었고 그 부상은 신 덕분에 정확하고 직접적이었다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3924"
-   },
-   {
-    "time": "2026-10-20 20:43",
-    "iso": "2026-10-20T20:43:03+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 93 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات الجوف وتعز وصعدة ومأرب وحجة ولحج وعمران وإب من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قواعد العدو فى خميس مشيط والطائف والخرج ومطار شرورة وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 2793 غارة جوية وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트, 타이프, 알카르즈 및 샤루라 공항의 적 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기를 통해 알자우프, 타이즈, 사다, 마리브, 하지, 라흐즈, 암란 및 Ibb 주지사의 민간 물체를 겨냥한 93번의 공중 및 미사일 공습을 시작하여 민간인이 사망하고 부상을 입었습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 2,793 회입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3923"
-   },
-   {
-    "time": "2026-10-20 19:37",
-    "iso": "2026-10-20T19:37:25+03:00",
-    "places": [
-     "지잔"
-    ],
-    "text_ar": "مشاهد نوعية لاستهداف ضباط وجنود وآليات جيش العدو السعودي في جبهتي جيزان وعسير الحدودية بطائرات رجوم المسيرة - 20 أكتوبر 2026م",
-    "text_ko": "드론으로 지잔 및 아시르 국경 전선에서 사우디 적군의 장교, 군인 및 차량을 대상으로 하는 질적 장면 - 2026년 10월 20일",
-    "url": "https://t.me/army21ye/3922"
-   },
-   {
-    "time": "2026-10-20 17:52",
-    "iso": "2026-10-20T17:52:43+03:00",
-    "places": [
-     "지잔"
-    ],
-    "text_ar": "سيبث الإعلام الحربي عند الساعة 07:30م مشاهد نوعية لاستهداف ضباط وجنود وآليات جيش العدو السعودي في جبهتي جيزان وعسير الحدوديتين. http://t.me/army21ye",
-    "text_ko": "7시 30분에 군사 미디어는 지잔과 아시르 국경 전선에서 사우디 적군의 장교, 군인 및 차량을 대상으로 질적 장면을 방송할 예정입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3921"
-   },
-   {
-    "time": "2026-10-20 16:01",
-    "iso": "2026-10-20T16:01:38+03:00",
-    "places": [],
-    "text_ar": "مشاهد طرد التحشيدات التابعة للعدو السعودي من جبل هان غرب مدينة تعز - 20 أكتوبر 2026م",
-    "text_ko": "2026년 10월 20일, 타이즈 서쪽, 한 산에서 사우디아라비아 적의 동원을 축출하는 장면",
-    "url": "https://t.me/army21ye/3920"
    }
   ],
   "mentions7d": {
@@ -2137,20 +2098,20 @@
    "나즈란": 7,
    "지잔": 4,
    "담맘": 4,
-   "리야드": 3,
    "아브카이크": 3,
    "라비그": 3,
+   "리야드": 3,
    "메카": 2,
    "라스타누라": 2,
    "아브하": 1,
    "메디나": 1
   },
-  "last_ok_at": "2026-11-03T20:56:02Z"
+  "last_ok_at": "2026-11-04T01:14:47Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-03T20:56:04Z",
+  "fetched_at": "2026-11-04T01:14:48Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3418,13 +3379,20 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-03T20:56:04Z"
+  "last_ok_at": "2026-11-04T01:14:48Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-03T20:56:05Z",
+  "fetched_at": "2026-11-04T01:14:50Z",
   "kr": [
+   {
+    "date": "2026-11-04",
+    "published": "2026-11-04T00:18:57+00:00",
+    "source": "뉴시스",
+    "title": "후티군 사우디 공항· 군부대 공습.. 사우디는 후티 드론 3대 격추 주장",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MZmE4azREWFhMckV6cndPNmVEdU9QRElHb2V4M0VvSXRyS0pFeGZmalpCVWlJdHV2R096T3JJMmR4U1poOV9adVU2RC1IeHNhcmduQTVCSk9tcFNYdUVPctIBeEFVX3lxTE5IeF9QT1kwZWRSSzFZdWZEazl1YlVZd2RYdzA5dERlakNUT2pyOHdFZkJHWXFnOFVta1AwYVR4LXFtUnJ2WGU5bTgwX0hERmJWb1gybXlvVXZ2MDVNMkpDcGRUd0E1WENKVVkxTnFHZkFLYk9HYm5RWQ?oc=5"
+   },
    {
     "date": "2026-11-03",
     "published": "2026-11-03T15:02:00+00:00",
@@ -3452,26 +3420,19 @@
     "source": "뉴스1",
     "title": "사우디-후티 분쟁 중재하나…이란 외교장관 \"사우디와 회담 중\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PVHRIdjlDM3BpdjRhYm55ajBKdl95UFNRcFNfZ0dGWXhqQnFxTTVqZjEtbjhLT2RhSDVwX0FuVUtJUm1kMUxjcHM1U2czakk3NTN6TnNmRWoxaWRWV3NwN0JR?oc=5"
-   },
-   {
-    "date": "2026-11-03",
-    "published": "2026-11-03T08:29:00+00:00",
-    "source": "연합뉴스",
-    "title": "이란, 사우디·후티 분쟁 개입할까…\"사우디와 회담중\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QbTdHbHBvN1BQU3p0MzFiNG5XU3ZtZkJON0hDaUFkbDZoY19YTmxnMFJ4eVRnbHdzYlJueTRxcWdKelFERFc0Uk4tYUEzeTdZTGFWYnRkQ3lCYXRHOFZ5ZFZMaG9MQlk?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-11-03",
-    "published": "2026-11-03T18:10:02+00:00",
+    "date": "2026-11-04",
+    "published": "2026-11-04T00:12:41+00:00",
     "source": "The National",
     "title": "Iran war latest: Tehran entering last-ditch talks with 'complete pessimism'",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONEdGYmtVNkIyRGM4VzRZYTU3OHN4amJnWWFWWk91Y3Z5ZGJNQ3dmMEdBMXZIMnJCOFBseFdpTFpmTVFQanFvc2Fpd1ltQnNPekpwT2xCMUdqeC1GTGVyWlg4VlF6cW80R01udWQ0Q3F6cmdyV0d2OHdpM2FfeEZ3MU9iQ1ExUHlkTjJ6SGtJLXlfMTVFRWc?oc=5"
    },
    {
     "date": "2026-11-03",
-    "published": "2026-11-03T16:38:42+00:00",
+    "published": "2026-11-03T20:23:22+00:00",
     "source": "The New York Times",
     "title": "Saudi Aramco Profit Jumps Despite Damaging Attacks on Pipelines and Refineries",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yNWtyRjVSdzJFSk4xeXctTEFXSloyU0VMWk11R0libnQ2ZnRkRVZfNkJTaGtYSng0akhzT21GSFRfTkRQNG80WDFubEpUWmVRbDJUa0RhcU0zMXFOdWFrc2dGS2dlOHMxQ2NoVGU4M3JUSTNtbzFCbGJvWVBqdw?oc=5"
@@ -3492,22 +3453,22 @@
    },
    {
     "date": "2026-11-03",
-    "published": "2026-11-03T10:13:19+00:00",
-    "source": "France 24",
-    "title": "Business - Despite attacks, Saudi Aramco posts 34% rise in net profits in latest quarter",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdGRNSnpDVFo5ekI0MS1pOFRxMVFtRlJlZVgzWDNpMXNKeTc3cG9PX1ZCWGIzSGFiN0lZVi1rakdzUVFzX29oQjdLd1BLNDZVYWV0YUh6N1ZkYldGVzVSTTFhdzBEXzdMU19ENXVsWDBadUxoMkZQRjU0el92cURxQmFMUjEtSHVmcmx5dFV2aVdEZjBPV0dTWGpXNVNfOWxiMGhNcjNsWEU2Q3RxMl9ZQV9FZWhaSm1XdzF5NUdlSzFyTG9CZzRTcjRB?oc=5"
+    "published": "2026-11-03T11:02:00+00:00",
+    "source": "AP News",
+    "title": "Higher oil prices boost Saudi Aramco profits despite disruption from attacks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNazZTVW42dDRzdTdEYWE1S3piUkRLYWtpa0RoMGF3LXZfc2FBUGZrWHhtQjRqSzVtdHAxc09tdWNwRFFacU1JN2VHbTc5T1I3bDF3djJmMElmajZUQlpGYkNua1Jza0R5UVNTell1UkJFNE1CS3pHWlNzZlVpMnFXTHpsNFA5M0J2TEQzeXk1b0xidVRteWI4THVaRUxtbTZIOWgyYlc5aDRWNjAtMkRr?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-03T20:56:05Z"
+  "last_ok_at": "2026-11-04T01:14:50Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-03T20:56:06Z",
+  "fetched_at": "2026-11-04T01:14:51Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 19,
-  "baseline": 22,
-  "baseline_n": 13,
+  "count": 29,
+  "baseline": 29.0,
+  "baseline_n": 16,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3744,14 +3705,15 @@
    "2026-11-02T23": 25,
    "2026-11-03T06": 18,
    "2026-11-03T15": 32,
-   "2026-11-03T20": 19
+   "2026-11-03T20": 19,
+   "2026-11-04T01": 29
   },
-  "last_ok_at": "2026-11-03T20:56:06Z"
+  "last_ok_at": "2026-11-04T01:14:51Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-03T20:56:07Z",
-  "last_ok_at": "2026-11-03T20:56:07Z"
+  "fetched_at": "2026-11-04T01:14:52Z",
+  "last_ok_at": "2026-11-04T01:14:52Z"
  }
 }
