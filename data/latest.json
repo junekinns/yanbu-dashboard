@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T17:06:56Z",
+ "generated_at": "2026-11-04T22:35:45Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T17:06:56Z",
+  "fetched_at": "2026-11-04T22:35:45Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 4,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-04T17:06:56Z"
+  "last_ok_at": "2026-11-04T22:35:45Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T17:07:11Z",
+  "fetched_at": "2026-11-04T22:36:03Z",
   "events": [
    {
     "date": "2026-11-03",
@@ -1172,20 +1172,6 @@
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeExOOU15allDR29IWlNtbURKaFY1WlpUSGF6M1RuZjlKTGcyMzhDR1ZYdmUwWXVDamJFcEplNVg0Tm5DZnlXMk9rcGpITlBSTF9sbWhnZ1Z5OGJ6MU1aRnBjZmNkbTZISHhXUWtmRjYtUjUzMmlVWTZ3TGw0cXFBNVltOHNfYXRH0gFsQVVfeXFMTUROTGR0Sk41dDhIVjFiNUdlUnRQTl8yU3FTMnJfZmFkNUlkU3BRZC1wVzVOUU9lTzhSSkEzNGltMXZtdEkzMGhaVDNhRS1UWS1kNkloOVRyeVVkUU9zaVhteUVNYzNodDh6a01K?oc=5",
     "source": "국민일보",
     "outlets": 1
-   },
-   {
-    "date": "2026-10-05",
-    "time": "12:32",
-    "iso": "2026-10-05T12:32:29+03:00",
-    "city": "송유관",
-    "type": "피격",
-    "weapon": null,
-    "lat": null,
-    "lon": null,
-    "title": "사우디 동서 송유관 또 공격…AFP \"가동 중단\"·로이터 \"차질 없어\"",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzNHpKUFpvRXpHZ1VkSXJ5WUNYZGdkenZKMi1INC1GS2RGVm4wWTdQeWkxMV8zZGZwcEtIVnI5VXo5M3RrQ0wwTVpIYXo3M213ZjdzU2ZsN05NeHlvNmE5cFhKb3FGZUHSAWdBVV95cUxQMzR6SlBab0V6R2dVZElyeVlDWGRnZHp2SjItSDQtRktkRlZuMFk3UHlpMTFfM2RmcHBLSFZyOVV6OTN0a0NMME1aSGF6NzNtd2Y3c1NmbDdOTXh5bzZhOXBYSm9xRmVB?oc=5",
-    "source": "뉴스1",
-    "outlets": 1
    }
   ],
   "tempo": {
@@ -1252,17 +1238,16 @@
    },
    "리야드": {
     "7d": {
-     "요격": 2,
-     "피격": 1
+     "요격": 2
     },
-    "total7d": 3,
+    "total7d": 2,
     "prev7d": {
+     "피격": 4,
      "요격": 6,
      "공습": 1,
-     "피격": 3,
      "경보": 1
     },
-    "prev_total": 11
+    "prev_total": 12
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1275,10 +1260,8 @@
      "피격": 1
     },
     "total7d": 1,
-    "prev7d": {
-     "피격": 1
-    },
-    "prev_total": 1
+    "prev7d": {},
+    "prev_total": 0
    },
    "다란": {
     "7d": {},
@@ -1346,16 +1329,45 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-10-05",
-  "today": "2026-11-04",
-  "last_ok_at": "2026-11-04T17:07:11Z"
+  "history_since": "2026-10-06",
+  "today": "2026-11-05",
+  "last_ok_at": "2026-11-04T22:36:03Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T17:07:12Z",
+  "fetched_at": "2026-11-04T22:36:04Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-04 20:36",
+    "iso": "2026-11-04T20:36:36+03:00",
+    "places": [],
+    "text_ar": "مشاهد حطام طائرة استطلاعية مسلحة نوع \"وينق لونق 2\" (Wing Loong II) تابعة للعدو السعودي تم اسقاطها في أجواء محافظة تعز - 4 نوفمبر 2026 م",
+    "text_ko": "2026년 11월 4일 타이즈 주 영공에서 격추된 사우디 적의 무장 정찰기 \"Wing Loong II\" 잔해 장면",
+    "url": "https://t.me/army21ye/4017"
+   },
+   {
+    "time": "2026-11-04 20:25",
+    "iso": "2026-11-04T20:25:54+03:00",
+    "places": [
+     "타이프",
+     "지잔",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 104 غارات جوية وصواريخ استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف والبيضاء وصعدة وعمران ومأرب وتعز ولحج من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وجيزان وخلفت عشرات الشهداء والجرحى جلُّهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4136 غارة جوية وصار…",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트, 타이프 및 나즈란과 지잔의 미사일 공격 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기를 통해 수도 사나와 알자우프, 알바야다, 사다, 암란, 마리브, 타이즈 및 라즈 주지사의 민간 물체를 겨냥한 104회의 공습과 미사일을 발사하여 수십 명의 순교자와 부상자, 대부분 여성과 어린이를 남겼습니다. 우리 나라에 대한 에스컬레이션이 시작된 이후의 사우디 침략 습격의 총 수는 4136 건의 공습과...",
+    "url": "https://t.me/army21ye/4016"
+   },
+   {
+    "time": "2026-11-04 20:11",
+    "iso": "2026-11-04T20:11:36+03:00",
+    "places": [],
+    "text_ar": "بعد قليل .. مشاهد حطام طائرة استطلاعية مسلحة نوع \"وينق لونق 2\" (Wing Loong II) تابعة للعدو السعودي التي تم اسقاطها في أجواء محافظة تعز",
+    "text_ko": "얼마 후, 타이즈 주 영공에서 격추된 사우디 적의 무장 정찰기 \"Wing Loong II\" 의 잔해 장면이 있었습니다.",
+    "url": "https://t.me/army21ye/4015"
+   },
    {
     "time": "2026-11-04 18:16",
     "iso": "2026-11-04T18:16:14+03:00",
@@ -2085,65 +2097,13 @@
     "text_ar": "العدو السعودي يستهدف يختاً هندياً بالقرب من جزيرة زقر وعلى متنه 14 شخصاً من الجنسية الهندية بحسب المعلومات الأولية. القوات المسلحة اليمنية تقوم بإنقاذهم وستقدم المزيد من التفاصيل لاحقاً، وهذا التصرف الأرعن للعدو السعودي بهذا الاستهداف يهدد الملاحة الدولية في البحر الأحمر وعلى المجتمع الدولي إيقاف العدو السعودي عن هذه التصرفات الطائشة. http://t.me/army21ye",
     "text_ko": "예비 정보에 따르면 사우디 적군은 인도 국적자 14명이 탑승한 자카르 섬 근처의 인도 요트를 노리고 있다. 예멘 군대가 그들을 구출하고 있으며 나중에 자세한 내용을 제공 할 것입니다. 이 표적에 의한 사우디 적의 이러한 무모한 행동은 홍해의 국제 항해를 위협하고 국제 사회는 사우디 적의 이러한 무모한 행동을 막아야합니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3931"
-   },
-   {
-    "time": "2026-10-21 20:49",
-    "iso": "2026-10-21T20:49:38+03:00",
-    "places": [
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 62 غارةً جويةً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات مأرب وصعدة ولحج وتعز وذلك من خلال طائرات \"F-15\" أقلعت من قاعدة خميس مشيط وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي خلال 100 يوم منذ بدء التصعيد على بلدنا في الــ13 من يوليو الماضي 2855 غارةً جويةً وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 기지에서 이륙한 F-15 항공기를 통해 수도 사나 (Sana 'a) 와 마리브 (Marib), 사다 (Saada), 라즈 (Lahj), 타이즈 (Taiz) 의 총독부에서 민간인 물체를 겨냥한 62회의 공습을 감행했고, 여성과 어린이를 포함한 순교자와 부상자를 남겼다. 지난 7월 13일 우리나라에 공습과 미사일 2855발이 발사된 이후 100일 동안의 총 사우디 침략 공습 횟수. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3930"
-   },
-   {
-    "time": "2026-10-21 16:03",
-    "iso": "2026-10-21T16:03:05+03:00",
-    "places": [],
-    "text_ar": "مشاهد ضرب تحشيدات تابعة للعدو السعودي وتدمير وإحراق عدد من آلياته شرق رغوان بمحافظة مأرب - 21 أكتوبر 2026م",
-    "text_ko": "사우디 적의 지층을 공격하고 마리브 주 라관 동쪽에서 다수의 차량을 파괴하고 불태우는 장면 - 2026년 10월 21일",
-    "url": "https://t.me/army21ye/3928"
-   },
-   {
-    "time": "2026-10-21 14:47",
-    "iso": "2026-10-21T14:47:12+03:00",
-    "places": [],
-    "text_ar": "نفذت القوات المسلحة اليمنية بفضل الله عملية استهداف لمعدات عسكرية نقلها العدو السعودي عبر طائرات شحن عسكرية إلى مطار الريان. تحذر القوات المسلحة العدو السعودي من استخدام المنشآت المدنية لأغراض عسكرية غير مكترث بمآلات تصرفاته الحمقاء والإجرامية بحق أبناء الشعب اليمني والتي ستجلب عليه العار والعواقب الوخيمة. http://t.me/army21ye",
-    "text_ko": "알라의 은총으로 예멘군은 사우디 적이 군용 화물기를 통해 알레이얀 공항으로 수송한 군사 장비를 겨냥한 작전을 수행했습니다. 군대는 사우디 적에게 군사 목적으로 민간 시설을 사용하지 말 것을 경고하며, 예멘 국민에 대한 어리석고 범죄적인 행동의 결과에 무관심하여 수치심과 끔찍한 결과를 초래할 것입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3927"
-   },
-   {
-    "time": "2026-10-21 14:28",
-    "iso": "2026-10-21T14:28:13+03:00",
-    "places": [],
-    "text_ar": "العدو السعودي المجرم يستخدم مطار الريان لنقل أسلحة ومعدات عسكرية لقتل أبناء الشعب اليمني. http://t.me/army21ye",
-    "text_ko": "범죄자인 사우디아라비아의 적은 알-라이얀 공항을 이용하여 예멘 국민을 죽이기 위해 무기와 군사 장비를 수송합니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3926"
-   },
-   {
-    "time": "2026-10-21 11:53",
-    "iso": "2026-10-21T11:53:15+03:00",
-    "places": [
-     "메디나"
-    ],
-    "text_ar": "تؤكد القوات المسلحة اليمنية أنها لم تنفذ أي عمليات عسكرية باتجاه العمق السعودي يومنا هذا وأن ما يدعيه العدو السعودي من اعتراض طائرات مسيرة في أجواء المدينة المنورة ادعاء كاذب وبهتان عظيم وكبير بحق شعبنا وقواته المسلحة الشريفة والمجاهدة، وإن هذه الادعاءات قد تبين كذبها ولم تعد تنطلي على أحد من أبناء أمتنا العربية والإسلامية. http://t.me/army21ye",
-    "text_ko": "예멘 군대는 오늘날 사우디 심층에 대한 군사 작전을 수행하지 않았으며 메디나 영공에서 드론을 가로막는 사우디 적의 주장은 우리 국민과 존경받는 무자헤딘 군대에 대한 거짓 주장이자 크고 큰 수치이며 이러한 주장이 거짓으로 판명되어 더 이상 아랍과 이슬람 국가의 아들을 속이지 않는다는 것을 확인합니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3925"
-   },
-   {
-    "time": "2026-10-21 11:10",
-    "iso": "2026-10-21T11:10:24+03:00",
-    "places": [],
-    "text_ar": "تمكنت قواتنا المسلحة من استهداف غرفة العمليات التابعة للعدو السعودي في معسكر بدر بعدن وذلك بصاروخ باليستي وكانت الإصابة دقيقة ومباشرة بفضل الله. http://t.me/army21ye",
-    "text_ko": "우리 군대는 탄도 미사일로 아덴의 바드르 캠프에 있는 사우디아라비아 적의 작전실을 공략할 수 있었고 그 부상은 신 덕분에 정확하고 직접적이었다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3924"
    }
   ],
   "mentions7d": {
    "나즈란": 8,
    "카미스무샤이트": 8,
    "타이프": 7,
-   "지잔": 5,
+   "지잔": 6,
    "리야드": 4,
    "담맘": 4,
    "메카": 3,
@@ -2153,12 +2113,12 @@
    "라스타누라": 2,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-04T17:07:12Z"
+  "last_ok_at": "2026-11-04T22:36:04Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T17:07:21Z",
+  "fetched_at": "2026-11-04T22:36:09Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3490,12 +3450,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-04T17:07:21Z"
+  "last_ok_at": "2026-11-04T22:36:09Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T17:07:23Z",
+  "fetched_at": "2026-11-04T22:36:11Z",
   "kr": [
    {
     "date": "2026-11-04",
@@ -3536,17 +3496,31 @@
   "en": [
    {
     "date": "2026-11-04",
-    "published": "2026-11-04T16:17:28+00:00",
-    "source": "The Washington Post",
-    "title": "Yemen plunges into humanitarian crisis as Houthis advance",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa3ZpaFZyeTU4OFM3RXhFQWdXcXhPODFkSHZJdnRkcm9EeFMwb0tRY2hZdDVVaEY3R0RVdGs2RjVKYWh5UHlKSVY0d0xEaENYVDBvamxBU3RzTm1NbmhnYWVBV0VNLUhNUG91blBuOFVKUzVtdE9Dc3hnVXoxdlFJcVFXTVVhVjNfQzVaVFpiT0tIckxjVXRQOGN3RE81SWZJOUhkU0MzTmRaMlUtbHd3cW9n?oc=5"
+    "published": "2026-11-04T20:38:03+00:00",
+    "source": "The National",
+    "title": "Iran war latest: Iranian general warns of Red Sea attacks if fighting resumes",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZUJpWFN1Mk9MR1J5dGYzd0xld25oanpjSXJvcS1jQWhVY2tBUi1iY2Q5Z3RUZW9Ia0hkcURmMHhoM3VvU1ZrMnRzcHM3S093cVNGQzdvR3NoRERIMmkxUWpuYnJaODBHU1pfTFNjNGk2WTdVNFRrVU5jUFJza19TUS1Mb3JWQTk0M0E?oc=5"
    },
    {
     "date": "2026-11-04",
-    "published": "2026-11-04T15:23:04+00:00",
+    "published": "2026-11-04T20:21:44+00:00",
+    "source": "Reuters",
+    "title": "Saudi, Syrian defence ministries sign cooperation agreement, SPA reports",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQmUtR3gzU3paNkVHcE1aTUhvSXZ0YUVRdlpJak41aE1CMDdxLW1DUG5YOWI4cm1ZVTNabWcxR3hQNnlkRW5makZQeVhmRU1XcXZzN0VwMXpTaVQyeWo5SGFjYVQtUHlxXzEzUUxDdFd6WWl6TDNSanVycmhvVFRXTzNEd2lrS2JZSUNPZE5MajdJUEhKY1NjNnBMUzdBcFpnQ2dKTE5KVHJzd2lka3V1RW9KNFFUQkxGNnMyeVg3NDZsQQ?oc=5"
+   },
+   {
+    "date": "2026-11-04",
+    "published": "2026-11-04T18:52:31+00:00",
     "source": "Arab News",
-    "title": "Saudi crown prince receives Syrian president in Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSEtITWlVVTZFemdvX3dpNjBZQm9ESXpVdm1la1oxSVVEaWVxR1VrWWduaEdST04zWm9zNVBnTm1Ma3hETU5ZUkx3UHp4TmF4NjZaaUFWdmM2NXRTM0JwRnNzcUkyQU1ybjN4d0Z2QVI1eVIwZ3AzajJaazBnR1p6YlFrM3RHSXhmQjRGanNZR2JqVXZ6?oc=5"
+    "title": "Saudi crown prince receives Bahrain national security advisor in Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUXVGVmtxQWFJQWRLUi1JQmpDMlI2Sm1sdVBWNTQtdFk3ZFVBSnlKWTVMWGdfRWJYZnVvellrRzJJeTNzUG9IVHRMeHBiTU1CVGxPY0xmcWZCVEE5alBzZnhnRzZmdGw2OHVxMG5KZEFRWmlqVUE5bmhRakFqdHBYdkVJcC03R0NfOE9zYXltQ1pHejdVaVpsRllKdWdXX3k0b1VYRE9iWXAwSlVmelZXNkpXX1VNeGo0?oc=5"
+   },
+   {
+    "date": "2026-11-04",
+    "published": "2026-11-04T18:13:34+00:00",
+    "source": "The Washington Post",
+    "title": "Yemen plunges into humanitarian crisis as Houthis advance",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa3ZpaFZyeTU4OFM3RXhFQWdXcXhPODFkSHZJdnRkcm9EeFMwb0tRY2hZdDVVaEY3R0RVdGs2RjVKYWh5UHlKSVY0d0xEaENYVDBvamxBU3RzTm1NbmhnYWVBV0VNLUhNUG91blBuOFVKUzVtdE9Dc3hnVXoxdlFJcVFXTVVhVjNfQzVaVFpiT0tIckxjVXRQOGN3RE81SWZJOUhkU0MzTmRaMlUtbHd3cW9n?oc=5"
    },
    {
     "date": "2026-11-04",
@@ -3554,32 +3528,18 @@
     "source": "Arab News",
     "title": "Turkiye’s parliament set to ratify defense pact with Saudi Arabia, Pakistan as Houthi attacks mount",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWFNpenM1b0VSMW1NTkhaM243SjlIeTl3R1BIS2d0YnNVRzVUTWtOQzBWWXl0cGQ5SnNqZ1FuVGtsTVR5RXJEb1BPWUkyeHJTNGh3X3lyMGZJalBKbEhzSC1XTUFvMU1odU80MDRZSFRtSlJtY3pGRTNDOFdrREVLWmV3d0dpNFI5aE8ySEVWWWhnUGRoMmdyZVJKVlJkZWJRbG9WUU5TQi1HLWVzbkk5Y2tiSkMyVklwcDA1a0N2SHJCNXV2Nk5rbUExYWJ6RHVWRDVuNWlVZ25sZw?oc=5"
-   },
-   {
-    "date": "2026-11-04",
-    "published": "2026-11-04T14:09:44+00:00",
-    "source": "Reuters",
-    "title": "Turkey's parliament set to ratify defence pact with Saudi Arabia, Pakistan as Houthi attacks mount",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORDg5Y29OampmTGVlcU05M3BFOUVIOGhxY0pwcHBtb2owY29CQTVvZ3FkQUVwblFaRHkwTWpfSjRhTk1FOHB5czhNYkx4THRja1I0ZlRsMFVTWFI1WWFWY3ZLTk5fTGJOZEN5bVlCaTFXN2ZIZnEtZUFmaHNzOU05dUpLaHBKSUJMRGJ2ZC1kMHRWYUlZNE4zRXp5THp3TU41V3plWFh3Q2ZrSGMwb3N2dFl6cWo3VXdBTHFYWHp1WUhRZlBTR2dqSWY0OA?oc=5"
-   },
-   {
-    "date": "2026-11-04",
-    "published": "2026-11-04T03:06:08+00:00",
-    "source": "The National",
-    "title": "Iran war latest: Khamenei warns against expecting change in US policy after elections",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZUJpWFN1Mk9MR1J5dGYzd0xld25oanpjSXJvcS1jQWhVY2tBUi1iY2Q5Z3RUZW9Ia0hkcURmMHhoM3VvU1ZrMnRzcHM3S093cVNGQzdvR3NoRERIMmkxUWpuYnJaODBHU1pfTFNjNGk2WTdVNFRrVU5jUFJza19TUS1Mb3JWQTk0M0E?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-04T17:07:23Z"
+  "last_ok_at": "2026-11-04T22:36:11Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T17:07:24Z",
+  "fetched_at": "2026-11-04T22:36:12Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 27,
-  "baseline": 28,
-  "baseline_n": 7,
+  "count": 32,
+  "baseline": 32,
+  "baseline_n": 13,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3819,14 +3779,15 @@
    "2026-11-03T20": 19,
    "2026-11-04T01": 29,
    "2026-11-04T09": 21,
-   "2026-11-04T17": 27
+   "2026-11-04T17": 27,
+   "2026-11-04T22": 32
   },
-  "last_ok_at": "2026-11-04T17:07:24Z"
+  "last_ok_at": "2026-11-04T22:36:12Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-04T17:07:24Z",
-  "last_ok_at": "2026-11-04T17:07:24Z"
+  "fetched_at": "2026-11-04T22:36:12Z",
+  "last_ok_at": "2026-11-04T22:36:12Z"
  }
 }
