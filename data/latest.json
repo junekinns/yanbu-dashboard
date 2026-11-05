@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T12:11:12Z",
+ "generated_at": "2026-11-05T20:36:41Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T12:11:12Z",
+  "fetched_at": "2026-11-05T20:36:41Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-05T12:11:12Z"
+  "last_ok_at": "2026-11-05T20:36:41Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T12:11:34Z",
+  "fetched_at": "2026-11-05T20:37:00Z",
   "events": [
    {
     "date": "2026-11-05",
@@ -206,6 +206,20 @@
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRDlhY3JoU3U4VGhQanB2TC02eTVYSGoyNTNRU3FSdE1qLXhkWWZsODlQNlhhMGRnNkVlQVp3YjRSZ3BNSGxoQ3hKTzg4MVduWjFBUVhnU3IyUFBzTF9RVjNR?oc=5",
     "source": "뉴스1",
     "outlets": 5
+   },
+   {
+    "date": "2026-11-04",
+    "time": "12:37",
+    "iso": "2026-11-04T12:37:03+03:00",
+    "city": "리야드",
+    "type": "경보",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Saudi Arabia issues 4 alerts, including 1 for Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTERuOUg0NmlTYU1HR0VlbGRiTEtUT2gxZDFfbGtoNUxzX3FYbkpNMHUzekduXzVIVzgzbl92akw2cVFyS093Zkt4VHRRcVhHQ3NqY0wyVkdoeDNnQld6UHRiclJpTHdwVWNpdDVRdEdzWWQycUczZFVZVGJ5a0xVc2UyRTE3M09DcXVqZVlfYzh1TW56ZGxMRnhZdUE?oc=5",
+    "source": "Anadolu",
+    "outlets": 1
    },
    {
     "date": "2026-11-03",
@@ -1252,9 +1266,10 @@
    },
    "리야드": {
     "7d": {
+     "경보": 1,
      "요격": 2
     },
-    "total7d": 2,
+    "total7d": 3,
     "prev7d": {
      "피격": 4,
      "요격": 6,
@@ -1345,14 +1360,50 @@
   "history_days": 31,
   "history_since": "2026-10-06",
   "today": "2026-11-05",
-  "last_ok_at": "2026-11-05T12:11:34Z"
+  "last_ok_at": "2026-11-05T20:37:00Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T12:11:34Z",
+  "fetched_at": "2026-11-05T20:37:01Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-05 19:55",
+    "iso": "2026-11-05T19:55:51+03:00",
+    "places": [
+     "담맘"
+    ],
+    "text_ar": "نفذت قواتنا المسلحة بفضل الله عملية استهداف لمطار فهد الدولي بالدمام وذلك بطائرة مسيرة وقد حققت العملية هدفها بنجاح، وأدت إلى تعطل حركة الملاحة في المطار. http://t.me/army21ye",
+    "text_ko": "우리 군은 알라의 은총으로 무인 항공기로 담맘의 파하드 국제공항을 겨냥한 작전을 수행했습니다. 이 작전은 성공적으로 목표를 달성했으며, 공항에서 항해가 중단되었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4022"
+   },
+   {
+    "time": "2026-11-05 19:20",
+    "iso": "2026-11-05T19:20:22+03:00",
+    "places": [],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 61 غارةً جويةً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وصعدة ومأرب ولحج والضالع وإب والحديدة وحجة من خلال طائرات \"F-15\" و \"تايفون\" مرتكباً عدداً من الجرائم ومخلفاً عشرات الشهداء والجرحى من المدنيين جلهم من النساء والأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4197 غارة جوية وصاروخا. http://t.me/army2…",
+    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 \"F-15\" 와 \"태풍\" 항공기를 통해 수도 사나와 알자우프, 타이즈, 사다, 마리브, 라흐즈, 알달리, 입, 호데이다, 하지야의 총독부에서 민간인 물체를 겨냥한 61건의 공습을 감행하여 수많은 범죄를 저질렀고 수십 명의 순교자와 부상당한 민간인, 주로 여성과 어린이를 남겼습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 4197회입니다. http://t.me/army2…",
+    "url": "https://t.me/army21ye/4021"
+   },
+   {
+    "time": "2026-11-05 16:01",
+    "iso": "2026-11-05T16:01:49+03:00",
+    "places": [],
+    "text_ar": "مشاهد نوعية لاستهداف تحشيدات تابعة للعدو السعودي وتدمير آلياتهم شرق محافظة الجوف بطائرات شواظ الانقضاضية - 5 نوفمبر 2026م",
+    "text_ko": "사우디 적군을 겨냥하여 잠수 그림자 항공기로 알 자우프 주 동쪽의 차량을 파괴하는 질적 장면 - 2026년 11월 5일",
+    "url": "https://t.me/army21ye/4020"
+   },
+   {
+    "time": "2026-11-05 15:43",
+    "iso": "2026-11-05T15:43:50+03:00",
+    "places": [
+     "메디나"
+    ],
+    "text_ar": "تؤكد القوات المسلحة اليمنية أن ادعاء العدو السعودي باعتراض صاروخ في أجواء المدينة المنورة هو استمرار لبهتانه الكبير والعظيم بحق شعبنا المسلم العزيز وقواته المسلحة وأن عملياتنا لا تستهدف سوى منشآته النفطية وقواعده العسكرية، وأن يمن الحكمة والإيمان هو أكثر الشعوب تقديسا للمقدسات وأن من يمثل خطراً على المقدسات هو الذي يستجلب إليها فعاليات الفسق والفجور. http://t.me/army21ye",
+    "text_ko": "예멘군은 사우디의 적군이 메디나의 하늘에서 미사일을 요격한다는 주장은 우리의 친애하는 무슬림 국민과 군대에 대한 크고 큰 치욕의 연속이며, 우리의 작전은 석유 시설과 군사 기지만을 목표로 삼고 있으며, 지혜와 신앙의 예멘이 가장 신성한 민족이며, 신성한 것에 위협이 되는 자는 누구든지 방탕과 방탕의 활동을 가져오는 자라고 단언합니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4019"
+   },
    {
     "time": "2026-11-05 14:11",
     "iso": "2026-11-05T14:11:43+03:00",
@@ -2122,25 +2173,22 @@
    }
   ],
   "mentions7d": {
-   "나즈란": 8,
-   "카미스무샤이트": 8,
-   "타이프": 7,
+   "카미스무샤이트": 7,
+   "타이프": 6,
    "지잔": 6,
-   "리야드": 4,
-   "담맘": 4,
+   "나즈란": 4,
+   "메디나": 3,
    "메카": 3,
-   "아브카이크": 3,
-   "라비그": 3,
-   "메디나": 2,
-   "라스타누라": 2,
+   "담맘": 2,
+   "리야드": 1,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-05T12:11:34Z"
+  "last_ok_at": "2026-11-05T20:37:01Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T12:11:36Z",
+  "fetched_at": "2026-11-05T20:37:08Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3544,12 +3592,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-05T12:11:36Z"
+  "last_ok_at": "2026-11-05T20:37:08Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T12:11:37Z",
+  "fetched_at": "2026-11-05T20:37:09Z",
   "kr": [
    {
     "date": "2026-11-05",
@@ -3590,6 +3638,27 @@
   "en": [
    {
     "date": "2026-11-05",
+    "published": "2026-11-05T17:04:01+00:00",
+    "source": "The National",
+    "title": "Iran war latest: Iran claims series of Hormuz explosions as talks intensify",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3prTFlUbjIxSUVNV3VDVHNEb1Nkb0ZqSDVTZkJwMng0YmQ2dFhmVDNYdlB4WGlQU1NMU3J5VWg3a1NTcjBoTm9oZ2piVXlKc29ZSTNzcHRHUHFNVmxzRDhRS2ZXUXI2RW1nU1hGZnI5U0RKeXR6NDJ5T2k2a1gtbXRCSFY1VUdJY1NUaXU5V2YzWE0?oc=5"
+   },
+   {
+    "date": "2026-11-05",
+    "published": "2026-11-05T16:37:27+00:00",
+    "source": "Arab News",
+    "title": "Saudi and Iranian foreign ministers discuss regional security amid escalating Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUDBPdzRhV29nbm1iZjhsSjFhTktnc19POGpvZnlPUWNEdGxOcEdfV0VOczdnOWNSc1hYd1NpS2pVTE9Fejg5djBlU0ZERlByZ0JIREJxRG1QdGJXUWFfdFJ1c1Y0d3VIc0psdkNleTUtd0FmQ0NoclZDb0xUdVVSQ2J4WnVON0RZRG1BU0kxSDhaZU1PRFFOM05HV010ZXVqQjJPQWdNREZkNVdZTmFfTjM3TEdNcGZJOXpCWHlHTjJOc3QxUVh4MFQyWnh5MkdwWUVoUg?oc=5"
+   },
+   {
+    "date": "2026-11-05",
+    "published": "2026-11-05T14:28:00+00:00",
+    "source": "The Guardian",
+    "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTzZOUFhLYVpRZkVXNWdodmNuQVV3YjMyREpaREhpeDBFQ0ZRWlFBVGduVmhTZlZuUkFLQ05vdEVVTWdEb3EzZnp4VzRGTFhZcGtGNEYxREUtdmhwUFFTUFhka1ZLeDhWYkxNY2o5U3RHSzJKMmV4NDNnZ2JrYzhHM0Q4OVZmV2VKMlJmQWpmRVhBa0tGRHZNckJQTjFsZFk?oc=5"
+   },
+   {
+    "date": "2026-11-05",
     "published": "2026-11-05T11:07:22+00:00",
     "source": "France 24",
     "title": "Houthi missiles fired at Medina intercepted, Saudi coalition says",
@@ -3597,43 +3666,22 @@
    },
    {
     "date": "2026-11-05",
-    "published": "2026-11-05T03:48:54+00:00",
+    "published": "2026-11-05T10:04:27+00:00",
     "source": "Al Jazeera",
-    "title": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ1R4X0F2ZlVKXzZEUUtLYk9RYzdKb0hWMlhzT3E5UFgtWWVLa3ZlMjBaa25lTTJVMWVBS1hoOW0wUWpIdjJ2VENHckFURGFGeFlDNF9OT1NXeTZ3STJkbk5OczZuY1ZBY2tNLWNnWjhWaDNtLWt6dlRBeE0yZlNFX0hlcDBnVW9ZS0ZBd1BjM1VVZEhBZ1ZtY2FLSTh4SXFwdkVuMjJkVUhHODhpQkHSAbMBQVVfeXFMTVFOd3FDQWN1U1dMMFpfWDJRa1NNVGZSMHVuZTVINVNKMnlUWjQzX1ktcUdHQ3d1QkMzZXZPYUtfUTY2RGt0WUNkWUgxcy1NZk5ERVh1STMyRmNoYmNPWUpvbEw2aXpwczJHM1o3YU9KSzV2TXdRLWFvM1pOWjFJc2ZESG9ScTlIR0l4LWVnVmphdmFUak5BaVRRcWtZT3g5ekJlWVNMOUl5dVVfc0ZyLUhVYkU?oc=5"
-   },
-   {
-    "date": "2026-11-05",
-    "published": "2026-11-05T02:38:45+00:00",
-    "source": "The National",
-    "title": "Iran war latest: Iranian general warns of Red Sea attacks if fighting resumes",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZUJpWFN1Mk9MR1J5dGYzd0xld25oanpjSXJvcS1jQWhVY2tBUi1iY2Q5Z3RUZW9Ia0hkcURmMHhoM3VvU1ZrMnRzcHM3S093cVNGQzdvR3NoRERIMmkxUWpuYnJaODBHU1pfTFNjNGk2WTdVNFRrVU5jUFJza19TUS1Mb3JWQTk0M0E?oc=5"
-   },
-   {
-    "date": "2026-11-04",
-    "published": "2026-11-04T18:13:34+00:00",
-    "source": "The Washington Post",
-    "title": "Yemen plunges into humanitarian crisis as Houthis advance",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa3ZpaFZyeTU4OFM3RXhFQWdXcXhPODFkSHZJdnRkcm9EeFMwb0tRY2hZdDVVaEY3R0RVdGs2RjVKYWh5UHlKSVY0d0xEaENYVDBvamxBU3RzTm1NbmhnYWVBV0VNLUhNUG91blBuOFVKUzVtdE9Dc3hnVXoxdlFJcVFXTVVhVjNfQzVaVFpiT0tIckxjVXRQOGN3RE81SWZJOUhkU0MzTmRaMlUtbHd3cW9n?oc=5"
-   },
-   {
-    "date": "2026-11-04",
-    "published": "2026-11-04T14:30:48+00:00",
-    "source": "Al Jazeera",
-    "title": "Yemeni government forces claim control of strategic al-Jawf mountain range",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMGQya0FhY1VUWmpxbnpQZmdiLXhpQ3Jndk5mNllOdkRnZUxvSnF3OW0zXzF3Z01RT1RNUkY0WEtpREhqMDlXSWhIR0hXYWQzZllibGhNVXBXeGctcmlRMXJvVFdyQXpCZl9ZaTVDalNxdUhwWUlGZ2FoYi16SHg2clE5Y0ZybFRVcGpaUlJ3X0c5MXBRWTZhUzB4OTl1cjJXTzE4REdxYXpTNjBxT1J1SXJOcy1YUdIBuwFBVV95cUxPNjN0SVFrRXVEQ2plb1prTXl1cVhleXpkVVlMV1dUcjhSV3o3MVJRZklxem1nOG0wdmU0ZEZXRENWOTNfWW9XOTU2c0NCRHRoWHJUOVhxeUlOQ0dQZ0xUclh0NUFlRmY0Wktja250NnZCYmtteWt6R0V6eWlXa2VFbEtvRUl2TGg0a1JhaWFjY3E1ZWVROHdtSEJNQ045ZWUxcXdzbHdEdU00c0lqcXozZGFkMzZ0UnR2ZGtn?oc=5"
+    "title": "A month after Yemen government offensive began, war of attrition takes hold",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSGZ5eTA1aEhkZlJxM1NGOXB1b2k2TWZPd3lCcV81Rm9WS0dlUTJ6UHRrLWkwYmloTWg0YlFtc2hqLUJDRHF1aXNPNVdFVllvZ1Myc3h0c3pfM2FWMnB6a2NPdEgxbnZ0TzFVNHBmcDhYb3BWOEZNY2R5MFFTNlotU3AtTUl3MTJqMVBDTmhVZEhNWmVaWTg1Z1VXRzJXellLMEZTSmhfTmpyN0dYTjVNTV9XWmV2UdIBuwFBVV95cUxOdm9XdnVudF9QVGZRclFwMkhRd0NTdzFZSHV3aTItY3ZYLWhmdU4zOXFnUDVNdXdUMnpnYmZ3NkZFUElmeTlEcTlhY3owN3l2YVBYcC1vMnp3V1VLNktVS09xaHY5MVNwS0xoTzU3dS1FZ0R2cUtoVTVXVWkwcnJQU2JiQ3BYQ1pkX2V2eTFsZ25idHFNWWlmck1KbmdGc1JkSDh6cTN2RHFlWGlkcTMyajl6dkxEQnFUM0FR?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-05T12:11:37Z"
+  "last_ok_at": "2026-11-05T20:37:09Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T12:11:38Z",
+  "fetched_at": "2026-11-05T20:37:10Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 36,
-  "baseline": 26.5,
-  "baseline_n": 4,
+  "count": 20,
+  "baseline": 21.0,
+  "baseline_n": 14,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3876,14 +3924,15 @@
    "2026-11-04T17": 27,
    "2026-11-04T22": 32,
    "2026-11-05T03": 26,
-   "2026-11-05T12": 36
+   "2026-11-05T12": 36,
+   "2026-11-05T20": 20
   },
-  "last_ok_at": "2026-11-05T12:11:38Z"
+  "last_ok_at": "2026-11-05T20:37:10Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-05T12:11:38Z",
-  "last_ok_at": "2026-11-05T12:11:38Z"
+  "fetched_at": "2026-11-05T20:37:11Z",
+  "last_ok_at": "2026-11-05T20:37:11Z"
  }
 }
