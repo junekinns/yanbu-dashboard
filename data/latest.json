@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T03:26:32Z",
+ "generated_at": "2026-11-05T12:11:12Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T03:26:32Z",
+  "fetched_at": "2026-11-05T12:11:12Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 3,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-05T03:26:32Z"
+  "last_ok_at": "2026-11-05T12:11:12Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T03:26:51Z",
+  "fetched_at": "2026-11-05T12:11:34Z",
   "events": [
+   {
+    "date": "2026-11-05",
+    "time": "13:08",
+    "iso": "2026-11-05T13:08:53+03:00",
+    "city": "메디나",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.47,
+    "lon": 39.61,
+    "title": "사우디, 성지 메디나 겨냥한 후티 반군 미사일 요격",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRDlhY3JoU3U4VGhQanB2TC02eTVYSGoyNTNRU3FSdE1qLXhkWWZsODlQNlhhMGRnNkVlQVp3YjRSZ3BNSGxoQ3hKTzg4MVduWjFBUVhnU3IyUFBzTF9RVjNR?oc=5",
+    "source": "뉴스1",
+    "outlets": 5
+   },
    {
     "date": "2026-11-03",
     "time": "12:47",
@@ -1195,9 +1209,9 @@
    },
    "메디나": {
     "7d": {
-     "요격": 1
+     "요격": 2
     },
-    "total7d": 1,
+    "total7d": 2,
     "prev7d": {
      "요격": 1
     },
@@ -1331,14 +1345,22 @@
   "history_days": 31,
   "history_since": "2026-10-06",
   "today": "2026-11-05",
-  "last_ok_at": "2026-11-05T03:26:51Z"
+  "last_ok_at": "2026-11-05T12:11:34Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T03:26:52Z",
+  "fetched_at": "2026-11-05T12:11:34Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-05 14:11",
+    "iso": "2026-11-05T14:11:43+03:00",
+    "places": [],
+    "text_ar": "ترقبوا الساعة الرابعة عصرا مشاهد نوعية لاستهداف تحشيدات تابعة للعدو السعودي وتدمير آلياتهم شرق محافظة الجوف بطائرات شواظ الانقضاضية",
+    "text_ko": "오후 4시에는 사우디 적의 군중을 겨냥하여 잠수 그림자로 알 자우프 주 동쪽의 차량을 파괴하는 질적인 장면을 지켜보십시오.",
+    "url": "https://t.me/army21ye/4018"
+   },
    {
     "time": "2026-11-04 20:36",
     "iso": "2026-11-04T20:36:36+03:00",
@@ -2100,8 +2122,8 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 8,
    "나즈란": 8,
+   "카미스무샤이트": 8,
    "타이프": 7,
    "지잔": 6,
    "리야드": 4,
@@ -2113,46 +2135,14 @@
    "라스타누라": 2,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-05T03:26:52Z"
+  "last_ok_at": "2026-11-05T12:11:34Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T03:26:52Z",
+  "fetched_at": "2026-11-05T12:11:36Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
-   {
-    "lat": 21.22846,
-    "lon": 39.19877,
-    "frp": 2.54,
-    "date": "2026-10-28",
-    "time": "1009",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.00964,
-    "lon": 49.55877,
-    "frp": 3.53,
-    "date": "2026-10-28",
-    "time": "1009",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 27.07424,
-    "lon": 49.576,
-    "frp": 1.98,
-    "date": "2026-10-28",
-    "time": "1009",
-    "confidence": "low"
-   },
-   {
-    "lat": 27.29968,
-    "lon": 49.68946,
-    "frp": 12.72,
-    "date": "2026-10-28",
-    "time": "1009",
-    "confidence": "nominal"
-   },
    {
     "lat": 27.53433,
     "lon": 49.13847,
@@ -2245,6 +2235,14 @@
     "lat": 25.91716,
     "lon": 49.95654,
     "frp": 1.31,
+    "date": "2026-10-29",
+    "time": "2216",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.93246,
+    "lon": 49.70097,
+    "frp": 1.11,
     "date": "2026-10-29",
     "time": "2216",
     "confidence": "nominal"
@@ -2370,6 +2368,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 25.64152,
+    "lon": 49.39592,
+    "frp": 3.13,
+    "date": "2026-10-30",
+    "time": "0930",
+    "confidence": "nominal"
+   },
+   {
     "lat": 25.63559,
     "lon": 49.23003,
     "frp": 2.07,
@@ -2461,6 +2467,22 @@
     "lat": 26.06663,
     "lon": 50.58411,
     "frp": 0.71,
+    "date": "2026-10-30",
+    "time": "2155",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.92957,
+    "lon": 49.70218,
+    "frp": 0.71,
+    "date": "2026-10-30",
+    "time": "2155",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.64,
+    "lon": 49.39673,
+    "frp": 2.55,
     "date": "2026-10-30",
     "time": "2155",
     "confidence": "nominal"
@@ -2714,6 +2736,14 @@
     "confidence": "nominal"
    },
    {
+    "lat": 23.85993,
+    "lon": 47.45568,
+    "frp": 3.76,
+    "date": "2026-10-31",
+    "time": "1051",
+    "confidence": "nominal"
+   },
+   {
     "lat": 24.5271,
     "lon": 39.44419,
     "frp": 3.55,
@@ -2893,6 +2923,14 @@
     "lat": 25.679,
     "lon": 49.51811,
     "frp": 2.31,
+    "date": "2026-10-31",
+    "time": "2318",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.64025,
+    "lon": 49.3959,
+    "frp": 2.58,
     "date": "2026-10-31",
     "time": "2318",
     "confidence": "nominal"
@@ -3106,9 +3144,33 @@
     "confidence": "low"
    },
    {
+    "lat": 23.8635,
+    "lon": 47.45767,
+    "frp": 6.98,
+    "date": "2026-11-01",
+    "time": "1032",
+    "confidence": "low"
+   },
+   {
     "lat": 24.32431,
     "lon": 47.09447,
     "frp": 3.96,
+    "date": "2026-11-01",
+    "time": "1032",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.63797,
+    "lon": 49.39697,
+    "frp": 2.81,
+    "date": "2026-11-01",
+    "time": "1032",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.64249,
+    "lon": 49.39641,
+    "frp": 2.81,
     "date": "2026-11-01",
     "time": "1032",
     "confidence": "nominal"
@@ -3386,9 +3448,33 @@
     "confidence": "nominal"
    },
    {
+    "lat": 25.93268,
+    "lon": 49.701,
+    "frp": 0.5,
+    "date": "2026-11-01",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.92868,
+    "lon": 49.70002,
+    "frp": 0.5,
+    "date": "2026-11-01",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
     "lat": 25.6782,
     "lon": 49.51961,
     "frp": 4.24,
+    "date": "2026-11-01",
+    "time": "2301",
+    "confidence": "nominal"
+   },
+   {
+    "lat": 25.63993,
+    "lon": 49.39743,
+    "frp": 0.96,
     "date": "2026-11-01",
     "time": "2301",
     "confidence": "nominal"
@@ -3448,52 +3534,74 @@
     "date": "2026-11-01",
     "time": "2303",
     "confidence": "nominal"
+   },
+   {
+    "lat": 23.86209,
+    "lon": 47.45622,
+    "frp": 9.88,
+    "date": "2026-11-02",
+    "time": "1013",
+    "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-05T03:26:52Z"
+  "last_ok_at": "2026-11-05T12:11:36Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T03:26:54Z",
+  "fetched_at": "2026-11-05T12:11:37Z",
   "kr": [
    {
-    "date": "2026-11-04",
-    "published": "2026-11-04T00:18:57+00:00",
-    "source": "뉴시스",
-    "title": "후티군 사우디 공항· 군부대 공습.. 사우디는 후티 드론 3대 격추 주장",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MZmE4azREWFhMckV6cndPNmVEdU9QRElHb2V4M0VvSXRyS0pFeGZmalpCVWlJdHV2R096T3JJMmR4U1poOV9adVU2RC1IeHNhcmduQTVCSk9tcFNYdUVPctIBeEFVX3lxTE5IeF9QT1kwZWRSSzFZdWZEazl1YlVZd2RYdzA5dERlakNUT2pyOHdFZkJHWXFnOFVta1AwYVR4LXFtUnJ2WGU5bTgwX0hERmJWb1gybXlvVXZ2MDVNMkpDcGRUd0E1WENKVVkxTnFHZkFLYk9HYm5RWQ?oc=5"
-   },
-   {
-    "date": "2026-11-03",
-    "published": "2026-11-03T15:02:00+00:00",
-    "source": "중앙일보",
-    "title": "미뤄진 사우디 아시안컵, 꼬이는 ‘모레노 스케줄’",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vSTBaYmdla2ZfNnJGY3BCRGlQSzBwWDF4eGVPUlBDNldTdGx4TXNoZkctTnBMWXpKNkwyLWx5eHdjRVFWUXRyQm5Vc1hHenVsYjdRc2Zn?oc=5"
-   },
-   {
-    "date": "2026-11-03",
-    "published": "2026-11-03T11:11:20+00:00",
+    "date": "2026-11-05",
+    "published": "2026-11-05T10:57:20+00:00",
     "source": "뉴스1",
-    "title": "사우디 아람코, 호르무즈 우회 '동서 파이프라인' 확장 착수",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QSEJLU2ZLNUxNTnh3dG4zeDJuQk5FQy1vWWFXQWxLX041azJOc0Z6Z2Q1Z0EyZzNGMlVNYzlIQUpYNmVoNXM2YUMyR2M0d0l2UTBEV1VmRkx1RHpGb2s2T3F3?oc=5"
+    "title": "사우디, 성지 메디나 겨냥한 후티 반군 미사일 요격",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRDlhY3JoU3U4VGhQanB2TC02eTVYSGoyNTNRU3FSdE1qLXhkWWZsODlQNlhhMGRnNkVlQVp3YjRSZ3BNSGxoQ3hKTzg4MVduWjFBUVhnU3IyUFBzTF9RVjNR?oc=5"
    },
    {
-    "date": "2026-11-03",
-    "published": "2026-11-03T09:45:49+00:00",
+    "date": "2026-11-05",
+    "published": "2026-11-05T09:40:00+00:00",
+    "source": "한겨레",
+    "title": "“후티, 공습중단 대가로 68조원 요구”…난처해진 사우디",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWtQNFRzdHNFcjFGX2dkOWVjS05GMXRyN3FMTTJSWVVxNXJSQkswaV9xdE1BUjhJMENYMk9UODlxMUVmUXRHVUlDWEJkTXJMTU8xT29HNmZmRWxzSDZZQTZOYWFYcEZ6WkRhVGlqUk92MWdtXzVCQmcwT1RiNkJhRVh3?oc=5"
+   },
+   {
+    "date": "2026-11-05",
+    "published": "2026-11-05T09:10:29+00:00",
     "source": "뉴시스",
-    "title": "사우디 아람코 분기순익 34% 뛰어 49조원…엑손 20조원 이어",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jcjdaMTdYY3VVV0ItamlSejhTaFIwQzk2WUJFakxfbkxjSEhEYk5NNnhxcGZISkt3Ri1hMGhkNUgyR1lvdnBHa19EbUI2aTBNQ09hZC1ZVjRta3dRY0EzZdIBeEFVX3lxTE1ydnktY2psNWFodUxMa0d1Q1E0SWNyZFh5cDUybkdKdV9WdkM5dEJ0TjdxbklKcC1nRGRJa0NxUmxidWNJSzdaSHdLdXAtd3VvYVhJcHpSUWpjRzJkVlA3Um1LWmV3Zm84ZWJFeV9sTG94QVd1ekFaSg?oc=5"
+    "title": "\"후티, 사우디에 '68조원 보상·정권 정통성 인정시 종전' 제의\" WSJ",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIUlNCdXNna2Q0NTM2eUd0c1FnOXh5NERMN2FmbWFDOFdHcHFvYWdESUU4bU5hTlNVMnZjb0YxQS01d19TUjlCeGJNNjNUSVVyMzgzal9xa2M1WC02TGNELdIBeEFVX3lxTFAza1FaOGRWNnlkWVJSOEduaUEyR3ZzYUo4MDNqYzZVU0dMSHpHT1Y2MzNaalpYbzcyUjEtNUZjS0RFNldkbVRLNE5DSExaN2JsY05nTmJkeGFxenRMLXZMRC1JOHhtcVUwWFd4Zl90OW5Qc1FGWk9nVg?oc=5"
    },
    {
-    "date": "2026-11-03",
-    "published": "2026-11-03T09:34:56+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 아람코, 호르무즈 우회 '동서 송유관' 확장 검토",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GNF8wQmoyMVlHWXBkbGllWUh4MHRlTnE1cklWSEZWR3NLYUxvSTdLRWF6cHFvaDc0N2tyUW1PM1pIbG9LZnBXVS1vWHhmMVZXYWI0UmxPWDJ0cUM0blptd9IBYEFVX3lxTE5GNF8wQmoyMVlHWXBkbGllWUh4MHRlTnE1cklWSEZWR3NLYUxvSTdLRWF6cHFvaDc0N2tyUW1PM1pIbG9LZnBXVS1vWHhmMVZXYWI0UmxPWDJ0cUM0blptdw?oc=5"
+    "date": "2026-11-05",
+    "published": "2026-11-05T08:37:06+00:00",
+    "source": "뉴스1",
+    "title": "\"전쟁 끝내려면 68조 내라\"…후티 반군, 사우디에 종전 청구서 제시",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zUkZhTTRwMURyWGw1V0c4NGp6eUJDdHRQdHBGbVFiVkxwb1dlRlY3M2FhaTN3aVRMVl8zaU9sU2ljam91WFlSR2lhcUtkMWFnZmItQWI3Zk1EVGpQOTN5YTln?oc=5"
+   },
+   {
+    "date": "2026-11-05",
+    "published": "2026-11-05T08:08:00+00:00",
+    "source": "KBS",
+    "title": "후티, 사우디에 종전 대가로 68조원·정권 인정 요구",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DZ045bFVQdk5fYWZyU1BBR19Gc1U1WWYxYV9jcF9sZDB3WWt6aGFlODhrODNxeFNPOXRHOThmdkotUThNb1ZUaGVFalJBOThJLXY5UWdPdUcyU1E?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-11-05",
+    "published": "2026-11-05T11:07:22+00:00",
+    "source": "France 24",
+    "title": "Houthi missiles fired at Medina intercepted, Saudi coalition says",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNclAwYXFkMFBGTlo4dTFsUkVDR0VrckJnSVM0Z2FTMXJkcW9mMVVVSEptYXV0Mm5Xc3NxcEhaR3JjcUs1Y08yMjU0Y2VzLVlVMGR6Yk03ZFdoQUtSY1RhVEdYbmVHcXR0N01jU1VvN2ZZZV9ocWk5TENlNmU2NjNZWmYwN2FkSVNuYWZKVXF2QVNhWHM3T0J0dGRvVVZaQUhYdzZPUmxTREpuSUcxR3BBTkVzbw?oc=5"
+   },
+   {
+    "date": "2026-11-05",
+    "published": "2026-11-05T03:48:54+00:00",
+    "source": "Al Jazeera",
+    "title": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ1R4X0F2ZlVKXzZEUUtLYk9RYzdKb0hWMlhzT3E5UFgtWWVLa3ZlMjBaa25lTTJVMWVBS1hoOW0wUWpIdjJ2VENHckFURGFGeFlDNF9OT1NXeTZ3STJkbk5OczZuY1ZBY2tNLWNnWjhWaDNtLWt6dlRBeE0yZlNFX0hlcDBnVW9ZS0ZBd1BjM1VVZEhBZ1ZtY2FLSTh4SXFwdkVuMjJkVUhHODhpQkHSAbMBQVVfeXFMTVFOd3FDQWN1U1dMMFpfWDJRa1NNVGZSMHVuZTVINVNKMnlUWjQzX1ktcUdHQ3d1QkMzZXZPYUtfUTY2RGt0WUNkWUgxcy1NZk5ERVh1STMyRmNoYmNPWUpvbEw2aXpwczJHM1o3YU9KSzV2TXdRLWFvM1pOWjFJc2ZESG9ScTlIR0l4LWVnVmphdmFUak5BaVRRcWtZT3g5ekJlWVNMOUl5dVVfc0ZyLUhVYkU?oc=5"
+   },
    {
     "date": "2026-11-05",
     "published": "2026-11-05T02:38:45+00:00",
@@ -3510,36 +3618,22 @@
    },
    {
     "date": "2026-11-04",
-    "published": "2026-11-04T14:31:07+00:00",
-    "source": "Arab News",
-    "title": "Turkiye’s parliament set to ratify defense pact with Saudi Arabia, Pakistan as Houthi attacks mount",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWFNpenM1b0VSMW1NTkhaM243SjlIeTl3R1BIS2d0YnNVRzVUTWtOQzBWWXl0cGQ5SnNqZ1FuVGtsTVR5RXJEb1BPWUkyeHJTNGh3X3lyMGZJalBKbEhzSC1XTUFvMU1odU80MDRZSFRtSlJtY3pGRTNDOFdrREVLWmV3d0dpNFI5aE8ySEVWWWhnUGRoMmdyZVJKVlJkZWJRbG9WUU5TQi1HLWVzbkk5Y2tiSkMyVklwcDA1a0N2SHJCNXV2Nk5rbUExYWJ6RHVWRDVuNWlVZ25sZw?oc=5"
-   },
-   {
-    "date": "2026-11-04",
     "published": "2026-11-04T14:30:48+00:00",
     "source": "Al Jazeera",
     "title": "Yemeni government forces claim control of strategic al-Jawf mountain range",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMGQya0FhY1VUWmpxbnpQZmdiLXhpQ3Jndk5mNllOdkRnZUxvSnF3OW0zXzF3Z01RT1RNUkY0WEtpREhqMDlXSWhIR0hXYWQzZllibGhNVXBXeGctcmlRMXJvVFdyQXpCZl9ZaTVDalNxdUhwWUlGZ2FoYi16SHg2clE5Y0ZybFRVcGpaUlJ3X0c5MXBRWTZhUzB4OTl1cjJXTzE4REdxYXpTNjBxT1J1SXJOcy1YUdIBuwFBVV95cUxPNjN0SVFrRXVEQ2plb1prTXl1cVhleXpkVVlMV1dUcjhSV3o3MVJRZklxem1nOG0wdmU0ZEZXRENWOTNfWW9XOTU2c0NCRHRoWHJUOVhxeUlOQ0dQZ0xUclh0NUFlRmY0Wktja250NnZCYmtteWt6R0V6eWlXa2VFbEtvRUl2TGg0a1JhaWFjY3E1ZWVROHdtSEJNQ045ZWUxcXdzbHdEdU00c0lqcXozZGFkMzZ0UnR2ZGtn?oc=5"
-   },
-   {
-    "date": "2026-11-03",
-    "published": "2026-11-03T11:02:00+00:00",
-    "source": "AP News",
-    "title": "Higher oil prices boost Saudi Aramco profits despite disruption from attacks",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNazZTVW42dDRzdTdEYWE1S3piUkRLYWtpa0RoMGF3LXZfc2FBUGZrWHhtQjRqSzVtdHAxc09tdWNwRFFacU1JN2VHbTc5T1I3bDF3djJmMElmajZUQlpGYkNua1Jza0R5UVNTell1UkJFNE1CS3pHWlNzZlVpMnFXTHpsNFA5M0J2TEQzeXk1b0xidVRteWI4THVaRUxtbTZIOWgyYlc5aDRWNjAtMkRr?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-05T03:26:54Z"
+  "last_ok_at": "2026-11-05T12:11:37Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T03:26:56Z",
+  "fetched_at": "2026-11-05T12:11:38Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 26,
-  "baseline": null,
-  "baseline_n": 0,
+  "count": 36,
+  "baseline": 26.5,
+  "baseline_n": 4,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3781,14 +3875,15 @@
    "2026-11-04T09": 21,
    "2026-11-04T17": 27,
    "2026-11-04T22": 32,
-   "2026-11-05T03": 26
+   "2026-11-05T03": 26,
+   "2026-11-05T12": 36
   },
-  "last_ok_at": "2026-11-05T03:26:56Z"
+  "last_ok_at": "2026-11-05T12:11:38Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-05T03:26:56Z",
-  "last_ok_at": "2026-11-05T03:26:56Z"
+  "fetched_at": "2026-11-05T12:11:38Z",
+  "last_ok_at": "2026-11-05T12:11:38Z"
  }
 }
