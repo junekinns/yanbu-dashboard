@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T22:35:45Z",
+ "generated_at": "2026-11-05T03:26:32Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T22:35:45Z",
+  "fetched_at": "2026-11-05T03:26:32Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,15 +183,15 @@
     "summary": "중동전쟁으로 사우디아라비아, 이란, 쿠웨이트, 바레인, 아랍에미리트(UAE), 카타르 등 중동 지역 대부분의 국가에 3단계(출국권고) 또는 4단계(여행금지) 여행경보가 발령되어 있습니다. 최근 사우디아라비아와 후티 반군간 무력 충돌로 사우디아라비아 내 공항이 공격받아 운영이 중단되는 등 위험이 고조되고 있고, 미국 중간선거(11.3) 전후 중동 지역 전반에…"
    }
   ],
-  "last7d": 4,
+  "last7d": 3,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-04T22:35:45Z"
+  "last_ok_at": "2026-11-05T03:26:32Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T22:36:03Z",
+  "fetched_at": "2026-11-05T03:26:51Z",
   "events": [
    {
     "date": "2026-11-03",
@@ -1331,12 +1331,12 @@
   "history_days": 31,
   "history_since": "2026-10-06",
   "today": "2026-11-05",
-  "last_ok_at": "2026-11-04T22:36:03Z"
+  "last_ok_at": "2026-11-05T03:26:51Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T22:36:04Z",
+  "fetched_at": "2026-11-05T03:26:52Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2100,8 +2100,8 @@
    }
   ],
   "mentions7d": {
-   "나즈란": 8,
    "카미스무샤이트": 8,
+   "나즈란": 8,
    "타이프": 7,
    "지잔": 6,
    "리야드": 4,
@@ -2113,12 +2113,12 @@
    "라스타누라": 2,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-04T22:36:04Z"
+  "last_ok_at": "2026-11-05T03:26:52Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T22:36:09Z",
+  "fetched_at": "2026-11-05T03:26:52Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3450,12 +3450,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-04T22:36:09Z"
+  "last_ok_at": "2026-11-05T03:26:52Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T22:36:11Z",
+  "fetched_at": "2026-11-05T03:26:54Z",
   "kr": [
    {
     "date": "2026-11-04",
@@ -3495,25 +3495,11 @@
   ],
   "en": [
    {
-    "date": "2026-11-04",
-    "published": "2026-11-04T20:38:03+00:00",
+    "date": "2026-11-05",
+    "published": "2026-11-05T02:38:45+00:00",
     "source": "The National",
     "title": "Iran war latest: Iranian general warns of Red Sea attacks if fighting resumes",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZUJpWFN1Mk9MR1J5dGYzd0xld25oanpjSXJvcS1jQWhVY2tBUi1iY2Q5Z3RUZW9Ia0hkcURmMHhoM3VvU1ZrMnRzcHM3S093cVNGQzdvR3NoRERIMmkxUWpuYnJaODBHU1pfTFNjNGk2WTdVNFRrVU5jUFJza19TUS1Mb3JWQTk0M0E?oc=5"
-   },
-   {
-    "date": "2026-11-04",
-    "published": "2026-11-04T20:21:44+00:00",
-    "source": "Reuters",
-    "title": "Saudi, Syrian defence ministries sign cooperation agreement, SPA reports",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQmUtR3gzU3paNkVHcE1aTUhvSXZ0YUVRdlpJak41aE1CMDdxLW1DUG5YOWI4cm1ZVTNabWcxR3hQNnlkRW5makZQeVhmRU1XcXZzN0VwMXpTaVQyeWo5SGFjYVQtUHlxXzEzUUxDdFd6WWl6TDNSanVycmhvVFRXTzNEd2lrS2JZSUNPZE5MajdJUEhKY1NjNnBMUzdBcFpnQ2dKTE5KVHJzd2lka3V1RW9KNFFUQkxGNnMyeVg3NDZsQQ?oc=5"
-   },
-   {
-    "date": "2026-11-04",
-    "published": "2026-11-04T18:52:31+00:00",
-    "source": "Arab News",
-    "title": "Saudi crown prince receives Bahrain national security advisor in Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUXVGVmtxQWFJQWRLUi1JQmpDMlI2Sm1sdVBWNTQtdFk3ZFVBSnlKWTVMWGdfRWJYZnVvellrRzJJeTNzUG9IVHRMeHBiTU1CVGxPY0xmcWZCVEE5alBzZnhnRzZmdGw2OHVxMG5KZEFRWmlqVUE5bmhRakFqdHBYdkVJcC03R0NfOE9zYXltQ1pHejdVaVpsRllKdWdXX3k0b1VYRE9iWXAwSlVmelZXNkpXX1VNeGo0?oc=5"
    },
    {
     "date": "2026-11-04",
@@ -3528,18 +3514,32 @@
     "source": "Arab News",
     "title": "Turkiye’s parliament set to ratify defense pact with Saudi Arabia, Pakistan as Houthi attacks mount",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWFNpenM1b0VSMW1NTkhaM243SjlIeTl3R1BIS2d0YnNVRzVUTWtOQzBWWXl0cGQ5SnNqZ1FuVGtsTVR5RXJEb1BPWUkyeHJTNGh3X3lyMGZJalBKbEhzSC1XTUFvMU1odU80MDRZSFRtSlJtY3pGRTNDOFdrREVLWmV3d0dpNFI5aE8ySEVWWWhnUGRoMmdyZVJKVlJkZWJRbG9WUU5TQi1HLWVzbkk5Y2tiSkMyVklwcDA1a0N2SHJCNXV2Nk5rbUExYWJ6RHVWRDVuNWlVZ25sZw?oc=5"
+   },
+   {
+    "date": "2026-11-04",
+    "published": "2026-11-04T14:30:48+00:00",
+    "source": "Al Jazeera",
+    "title": "Yemeni government forces claim control of strategic al-Jawf mountain range",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMGQya0FhY1VUWmpxbnpQZmdiLXhpQ3Jndk5mNllOdkRnZUxvSnF3OW0zXzF3Z01RT1RNUkY0WEtpREhqMDlXSWhIR0hXYWQzZllibGhNVXBXeGctcmlRMXJvVFdyQXpCZl9ZaTVDalNxdUhwWUlGZ2FoYi16SHg2clE5Y0ZybFRVcGpaUlJ3X0c5MXBRWTZhUzB4OTl1cjJXTzE4REdxYXpTNjBxT1J1SXJOcy1YUdIBuwFBVV95cUxPNjN0SVFrRXVEQ2plb1prTXl1cVhleXpkVVlMV1dUcjhSV3o3MVJRZklxem1nOG0wdmU0ZEZXRENWOTNfWW9XOTU2c0NCRHRoWHJUOVhxeUlOQ0dQZ0xUclh0NUFlRmY0Wktja250NnZCYmtteWt6R0V6eWlXa2VFbEtvRUl2TGg0a1JhaWFjY3E1ZWVROHdtSEJNQ045ZWUxcXdzbHdEdU00c0lqcXozZGFkMzZ0UnR2ZGtn?oc=5"
+   },
+   {
+    "date": "2026-11-03",
+    "published": "2026-11-03T11:02:00+00:00",
+    "source": "AP News",
+    "title": "Higher oil prices boost Saudi Aramco profits despite disruption from attacks",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNazZTVW42dDRzdTdEYWE1S3piUkRLYWtpa0RoMGF3LXZfc2FBUGZrWHhtQjRqSzVtdHAxc09tdWNwRFFacU1JN2VHbTc5T1I3bDF3djJmMElmajZUQlpGYkNua1Jza0R5UVNTell1UkJFNE1CS3pHWlNzZlVpMnFXTHpsNFA5M0J2TEQzeXk1b0xidVRteWI4THVaRUxtbTZIOWgyYlc5aDRWNjAtMkRr?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-04T22:36:11Z"
+  "last_ok_at": "2026-11-05T03:26:54Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-04T22:36:12Z",
+  "fetched_at": "2026-11-05T03:26:56Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 32,
-  "baseline": 32,
-  "baseline_n": 13,
+  "count": 26,
+  "baseline": null,
+  "baseline_n": 0,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3780,14 +3780,15 @@
    "2026-11-04T01": 29,
    "2026-11-04T09": 21,
    "2026-11-04T17": 27,
-   "2026-11-04T22": 32
+   "2026-11-04T22": 32,
+   "2026-11-05T03": 26
   },
-  "last_ok_at": "2026-11-04T22:36:12Z"
+  "last_ok_at": "2026-11-05T03:26:56Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-04T22:36:12Z",
-  "last_ok_at": "2026-11-04T22:36:12Z"
+  "fetched_at": "2026-11-05T03:26:56Z",
+  "last_ok_at": "2026-11-05T03:26:56Z"
  }
 }
