@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T20:36:41Z",
+ "generated_at": "2026-11-06T01:29:31Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T20:36:41Z",
+  "fetched_at": "2026-11-06T01:29:31Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,15 +183,15 @@
     "summary": "중동전쟁으로 사우디아라비아, 이란, 쿠웨이트, 바레인, 아랍에미리트(UAE), 카타르 등 중동 지역 대부분의 국가에 3단계(출국권고) 또는 4단계(여행금지) 여행경보가 발령되어 있습니다. 최근 사우디아라비아와 후티 반군간 무력 충돌로 사우디아라비아 내 공항이 공격받아 운영이 중단되는 등 위험이 고조되고 있고, 미국 중간선거(11.3) 전후 중동 지역 전반에…"
    }
   ],
-  "last7d": 3,
-  "baseline": 4.0,
+  "last7d": 2,
+  "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-05T20:36:41Z"
+  "last_ok_at": "2026-11-06T01:29:31Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T20:37:00Z",
+  "fetched_at": "2026-11-06T01:29:47Z",
   "events": [
    {
     "date": "2026-11-05",
@@ -205,7 +205,7 @@
     "title": "사우디, 성지 메디나 겨냥한 후티 반군 미사일 요격",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRDlhY3JoU3U4VGhQanB2TC02eTVYSGoyNTNRU3FSdE1qLXhkWWZsODlQNlhhMGRnNkVlQVp3YjRSZ3BNSGxoQ3hKTzg4MVduWjFBUVhnU3IyUFBzTF9RVjNR?oc=5",
     "source": "뉴스1",
-    "outlets": 5
+    "outlets": 7
    },
    {
     "date": "2026-11-04",
@@ -1186,20 +1186,6 @@
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YRUZlcEtjM180MjJ5OWUxZnoyS3plaEVqZHJ1M1FoVjRoSFVBenVUWFg4OW1iLXZtcXZsaW4tdDRlV1FLZGZENHJ0WWE0eTBpWGJOU0EycDRxMEItaGhycXZn?oc=5",
     "source": "뉴스1",
     "outlets": 2
-   },
-   {
-    "date": "2026-10-06",
-    "time": "00:31",
-    "iso": "2026-10-06T00:31:00+03:00",
-    "city": "리야드",
-    "type": "공습",
-    "weapon": null,
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "[속보] 후티 “공습” 발표 후… 사우디 수도 리야드서 잇단 폭발음",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeExOOU15allDR29IWlNtbURKaFY1WlpUSGF6M1RuZjlKTGcyMzhDR1ZYdmUwWXVDamJFcEplNVg0Tm5DZnlXMk9rcGpITlBSTF9sbWhnZ1Z5OGJ6MU1aRnBjZmNkbTZISHhXUWtmRjYtUjUzMmlVWTZ3TGw0cXFBNVltOHNfYXRH0gFsQVVfeXFMTUROTGR0Sk41dDhIVjFiNUdlUnRQTl8yU3FTMnJfZmFkNUlkU3BRZC1wVzVOUU9lTzhSSkEzNGltMXZtdEkzMGhaVDNhRS1UWS1kNkloOVRyeVVkUU9zaVhteUVNYzNodDh6a01K?oc=5",
-    "source": "국민일보",
-    "outlets": 1
    }
   ],
   "tempo": {
@@ -1223,13 +1209,13 @@
    },
    "메디나": {
     "7d": {
-     "요격": 2
-    },
-    "total7d": 2,
-    "prev7d": {
      "요격": 1
     },
-    "prev_total": 1
+    "total7d": 1,
+    "prev7d": {
+     "요격": 2
+    },
+    "prev_total": 2
    },
    "라비그": {
     "7d": {},
@@ -1245,16 +1231,16 @@
    },
    "메카": {
     "7d": {
-     "요격": 2,
-     "피격": 2
+     "요격": 1,
+     "피격": 1
     },
-    "total7d": 4,
+    "total7d": 2,
     "prev7d": {
-     "피격": 2,
-     "공습": 1,
-     "요격": 2
+     "피격": 3,
+     "요격": 3,
+     "공습": 1
     },
-    "prev_total": 5
+    "prev_total": 7
    },
    "타이프": {
     "7d": {},
@@ -1267,16 +1253,15 @@
    "리야드": {
     "7d": {
      "경보": 1,
-     "요격": 2
+     "요격": 1
     },
-    "total7d": 3,
+    "total7d": 2,
     "prev7d": {
-     "피격": 4,
      "요격": 6,
-     "공습": 1,
-     "경보": 1
+     "피격": 4,
+     "공습": 1
     },
-    "prev_total": 12
+    "prev_total": 11
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1299,14 +1284,12 @@
     "prev_total": 0
    },
    "라스타누라": {
-    "7d": {
-     "피격": 1
-    },
-    "total7d": 1,
+    "7d": {},
+    "total7d": 0,
     "prev7d": {
-     "피격": 1
+     "피격": 2
     },
-    "prev_total": 1
+    "prev_total": 2
    },
    "주아이마": {
     "7d": {},
@@ -1358,14 +1341,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-10-06",
-  "today": "2026-11-05",
-  "last_ok_at": "2026-11-05T20:37:00Z"
+  "history_since": "2026-10-07",
+  "today": "2026-11-06",
+  "last_ok_at": "2026-11-06T01:29:47Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T20:37:01Z",
+  "fetched_at": "2026-11-06T01:29:48Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2112,70 +2095,12 @@
     "text_ar": "مشاهد استهداف تحشيدات وآليات تابعة للعدو السعودي في عدة جبهات بطائرات رجوم المسيرة - 23 أكتوبر 2026م",
     "text_ko": "드론으로 여러 전선에서 사우디 적의 군중과 차량을 노리는 장면 - 2026년 10월 23일",
     "url": "https://t.me/army21ye/3940"
-   },
-   {
-    "time": "2026-10-22 16:08",
-    "iso": "2026-10-22T16:08:21+03:00",
-    "places": [],
-    "text_ar": "مشاهد استهداف التحشيدات والآليات التابعة للعدو السعودي في مأرب بطائرات \"شواظ\" الانقضاضية - 22 أكتوبر 2026م",
-    "text_ko": "\"Shawaz\" 급강하 비행기로 마리브에서 사우디 적의 축적물과 차량을 겨냥하는 장면 - 2026년 10월 22일",
-    "url": "https://t.me/army21ye/3939"
-   },
-   {
-    "time": "2026-10-22 15:01",
-    "iso": "2026-10-22T15:01:30+03:00",
-    "places": [],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ عدد من العمليات العسكرية النوعية داخل العمق السعودي، مع إعلان موقف القوات المسلحة من تهديد العدو السعودي للقبائل اليمنية. جودة متوسطة http://t.me/army21ye",
-    "text_ko": "사우디아라비아 깊이 내에서 다수의 질적 군사 작전 수행에 대한 예멘 군의 성명서, 예멘 부족에 대한 사우디아라비아 적의 위협에 대한 군대의 입장 발표. medium quality http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3935"
-   },
-   {
-    "time": "2026-10-22 15:01",
-    "iso": "2026-10-22T15:01:25+03:00",
-    "places": [
-     "얀부",
-     "리야드",
-     "담맘",
-     "아브하"
-    ],
-    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم شنَّ العدوُّ السعوديُّ المجرمُ خلالَ عدوانِه وتصعيدِه الأخيرِ منذُ 100 يومٍ أكثرَ من 2900 غارةٍ جويةٍ وصاروخٍ استهدفَ بها الأعيانَ المدنيةَ في بلدِنا العزيزِ ومرتکبًا من خلالِها عشراتِ الجرائمِ مخلفًا بذلك أكثرَ من 562 …",
-    "text_ko": "예멘군이 자비로우시고 자애로우신 알라의 이름으로 발표한 성명서에서 다음과 같이 말했습니다. {당신을 폭행한 사람은 당신을 폭행하지 않은 것처럼 그를 폭행했습니다} 위대한 사우디아라비아 적은 100일 전 공격과 최근 격상 과정에서 범죄자를 출동시켰습니다. 친애하는 우리나라의 민간 물체를 겨냥한 2900건 이상의 공중 및 미사일 공습과 수십 건의 범죄를 저질렀고, 따라서 562건 이상의 범죄를 저질렀습니다...",
-    "url": "https://t.me/army21ye/3933"
-   },
-   {
-    "time": "2026-10-22 15:01",
-    "iso": "2026-10-22T15:01:25+03:00",
-    "places": [
-     "얀부",
-     "리야드",
-     "담맘",
-     "아브하"
-    ],
-    "text_ar": "During its recent aggression and escalation over the past 100 days, the criminal Saudi enemy has launched more than 2,900 airstrikes and missile attacks targeting civilian infrastructure in our beloved country, committing dozens of crimes and leaving more than 562 martyrs and wounded, most of whom are women and children. And in response to this aggression and major escalation against our country a…",
-    "text_ko": "지난 100일 동안의 공격과 격상 기간 동안 범죄자인 사우디아라비아 적은 사랑하는 우리나라의 민간 인프라를 겨냥한 2,900회 이상의 공습과 미사일 공격을 감행하여 수십 건의 범죄를 저질렀고 562명 이상의 순교자와 부상자를 남겼으며, 그 중 대부분은 여성과 어린이입니다. 그리고 이러한 침략과 우리나라에 대한 대대적인 확대에 대한 대응으로...",
-    "url": "https://t.me/army21ye/3934"
-   },
-   {
-    "time": "2026-10-22 13:55",
-    "iso": "2026-10-22T13:55:16+03:00",
-    "places": [],
-    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي، مع إعلان موقف من تهديد العدو السعودي للقبائل اليمنية، في تمام الساعة الثالثة عصراً. http://t.me/army21ye",
-    "text_ko": "오후 3시 예멘 부족에 대한 사우디 적의 위협에 대한 입장 발표와 함께 사우디 내부의 여러 질적 인 군사 작전을 발표하기위한 예멘 군대의 중요한 성명서. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3932"
-   },
-   {
-    "time": "2026-10-22 13:05",
-    "iso": "2026-10-22T13:05:29+03:00",
-    "places": [],
-    "text_ar": "العدو السعودي يستهدف يختاً هندياً بالقرب من جزيرة زقر وعلى متنه 14 شخصاً من الجنسية الهندية بحسب المعلومات الأولية. القوات المسلحة اليمنية تقوم بإنقاذهم وستقدم المزيد من التفاصيل لاحقاً، وهذا التصرف الأرعن للعدو السعودي بهذا الاستهداف يهدد الملاحة الدولية في البحر الأحمر وعلى المجتمع الدولي إيقاف العدو السعودي عن هذه التصرفات الطائشة. http://t.me/army21ye",
-    "text_ko": "예비 정보에 따르면 사우디 적군은 인도 국적자 14명이 탑승한 자카르 섬 근처의 인도 요트를 노리고 있다. 예멘 군대가 그들을 구출하고 있으며 나중에 자세한 내용을 제공 할 것입니다. 이 표적에 의한 사우디 적의 이러한 무모한 행동은 홍해의 국제 항해를 위협하고 국제 사회는 사우디 적의 이러한 무모한 행동을 막아야합니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3931"
    }
   ],
   "mentions7d": {
    "카미스무샤이트": 7,
-   "타이프": 6,
    "지잔": 6,
+   "타이프": 6,
    "나즈란": 4,
    "메디나": 3,
    "메카": 3,
@@ -2183,12 +2108,12 @@
    "리야드": 1,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-05T20:37:01Z"
+  "last_ok_at": "2026-11-06T01:29:48Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T20:37:08Z",
+  "fetched_at": "2026-11-06T01:29:48Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3592,13 +3517,20 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-05T20:37:08Z"
+  "last_ok_at": "2026-11-06T01:29:48Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T20:37:09Z",
+  "fetched_at": "2026-11-06T01:29:50Z",
   "kr": [
+   {
+    "date": "2026-11-05",
+    "published": "2026-11-05T22:23:32+00:00",
+    "source": "동아일보",
+    "title": "“전쟁 끝내려면 68조 내라”…후티 반군, 사우디에 종전 청구서 제시",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qdXhJQUk3dEZoTk92aWV6WmFZSGljN0JlQ0wzZEo0M20yUU5hMEMtSGdjYWRNLTM1ZW1OOEMtZ3FYTWFPM0h2ZE1udkt0NTNVd2dhSXd5a1FfWXQ4UHgzdkdheldCcExqaEY1X0tWdGpmUjjSAWZBVV95cUxPYjd0QTk1Q3FfWVcza2tpQ0ZqSnV2aEhYTVZMYXFIMXFWX0tHRDJqZG96VDFSOVRJQ29rSTNKcmJMdllFMWZMeDM3N3dubFpsQWwwN3BXbi1jOVpzTDljWExwMWg0bmc?oc=5"
+   },
    {
     "date": "2026-11-05",
     "published": "2026-11-05T10:57:20+00:00",
@@ -3622,13 +3554,6 @@
    },
    {
     "date": "2026-11-05",
-    "published": "2026-11-05T08:37:06+00:00",
-    "source": "뉴스1",
-    "title": "\"전쟁 끝내려면 68조 내라\"…후티 반군, 사우디에 종전 청구서 제시",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zUkZhTTRwMURyWGw1V0c4NGp6eUJDdHRQdHBGbVFiVkxwb1dlRlY3M2FhaTN3aVRMVl8zaU9sU2ljam91WFlSR2lhcUtkMWFnZmItQWI3Zk1EVGpQOTN5YTln?oc=5"
-   },
-   {
-    "date": "2026-11-05",
     "published": "2026-11-05T08:08:00+00:00",
     "source": "KBS",
     "title": "후티, 사우디에 종전 대가로 68조원·정권 인정 요구",
@@ -3638,10 +3563,10 @@
   "en": [
    {
     "date": "2026-11-05",
-    "published": "2026-11-05T17:04:01+00:00",
-    "source": "The National",
-    "title": "Iran war latest: Iran claims series of Hormuz explosions as talks intensify",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3prTFlUbjIxSUVNV3VDVHNEb1Nkb0ZqSDVTZkJwMng0YmQ2dFhmVDNYdlB4WGlQU1NMU3J5VWg3a1NTcjBoTm9oZ2piVXlKc29ZSTNzcHRHUHFNVmxzRDhRS2ZXUXI2RW1nU1hGZnI5U0RKeXR6NDJ5T2k2a1gtbXRCSFY1VUdJY1NUaXU5V2YzWE0?oc=5"
+    "published": "2026-11-05T20:52:12+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi coalition intercepts missile fired towards Medina",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlozTVc2c0N1andBRHJkTm9DMVh6RFBJMDZUOExPNm5SN255TWUzSHlkNGhOOWNObHdlTUhrRG5IRENNN3RWd1o4bmJuRVBlNV9RWThWYU5nNzJwb3VFc05UTVAzX0xMVWlNM0NWTTZnOHN2TVhxZ0o3bWMyMVFIWi1kVmwxODVkdl9aUTI5YnViYy1sWGdHbjNLZEPSAaIBQVVfeXFMTXF3eS1lSEdCdUlaTWV1RGNQTDZXLXN6MV95VmQtS09XWm12WnBIem4wWERWckRqR2pCVUp0SUVRT2RmcHBvQXJaS3NKSVA4VUlfSmdibDBkNG1tQklIakprQjYtUWNrRzI5MjNURzhwTnZpcTV1OG0zQVhERU91UHZidnB5T2JBczVqMU41WU5ydHhqQV85UXMtNFZZOXlmX1Zn?oc=5"
    },
    {
     "date": "2026-11-05",
@@ -3672,16 +3597,16 @@
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSGZ5eTA1aEhkZlJxM1NGOXB1b2k2TWZPd3lCcV81Rm9WS0dlUTJ6UHRrLWkwYmloTWg0YlFtc2hqLUJDRHF1aXNPNVdFVllvZ1Myc3h0c3pfM2FWMnB6a2NPdEgxbnZ0TzFVNHBmcDhYb3BWOEZNY2R5MFFTNlotU3AtTUl3MTJqMVBDTmhVZEhNWmVaWTg1Z1VXRzJXellLMEZTSmhfTmpyN0dYTjVNTV9XWmV2UdIBuwFBVV95cUxOdm9XdnVudF9QVGZRclFwMkhRd0NTdzFZSHV3aTItY3ZYLWhmdU4zOXFnUDVNdXdUMnpnYmZ3NkZFUElmeTlEcTlhY3owN3l2YVBYcC1vMnp3V1VLNktVS09xaHY5MVNwS0xoTzU3dS1FZ0R2cUtoVTVXVWkwcnJQU2JiQ3BYQ1pkX2V2eTFsZ25idHFNWWlmck1KbmdGc1JkSDh6cTN2RHFlWGlkcTMyajl6dkxEQnFUM0FR?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-05T20:37:09Z"
+  "last_ok_at": "2026-11-06T01:29:50Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-05T20:37:10Z",
+  "fetched_at": "2026-11-06T01:29:51Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 20,
-  "baseline": 21.0,
-  "baseline_n": 14,
+  "count": 25,
+  "baseline": 29,
+  "baseline_n": 17,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3925,14 +3850,15 @@
    "2026-11-04T22": 32,
    "2026-11-05T03": 26,
    "2026-11-05T12": 36,
-   "2026-11-05T20": 20
+   "2026-11-05T20": 20,
+   "2026-11-06T01": 25
   },
-  "last_ok_at": "2026-11-05T20:37:10Z"
+  "last_ok_at": "2026-11-06T01:29:51Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-05T20:37:11Z",
-  "last_ok_at": "2026-11-05T20:37:11Z"
+  "fetched_at": "2026-11-06T01:29:52Z",
+  "last_ok_at": "2026-11-06T01:29:52Z"
  }
 }
