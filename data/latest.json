@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T17:24:52Z",
+ "generated_at": "2026-11-06T23:00:20Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T17:24:52Z",
+  "fetched_at": "2026-11-06T23:00:20Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,17 +186,17 @@
   "last7d": 2,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-06T17:24:52Z"
+  "last_ok_at": "2026-11-06T23:00:20Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T17:25:34Z",
+  "fetched_at": "2026-11-06T23:00:35Z",
   "events": [
    {
     "date": "2026-11-06",
-    "time": "11:13",
-    "iso": "2026-11-06T11:13:54+03:00",
+    "time": "11:12",
+    "iso": "2026-11-06T11:12:31+03:00",
     "city": "메카",
     "type": "요격",
     "weapon": "드론",
@@ -1158,68 +1158,20 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XcGRYOVlYTzUyRWFUY0t1N2VGMS10R1hoZVVfbW5CSDFobXlrMmlwZkM4RVpEYmtEWnYyMHBJUHNwUy1zaDV0TDctWlBieFR6WkVtVi0ydEtNZjA?oc=5",
     "source": "KBS",
     "outlets": 5
-   },
-   {
-    "date": "2026-10-07",
-    "time": "21:39",
-    "iso": "2026-10-07T21:39:35+03:00",
-    "city": "리야드",
-    "type": "공습",
-    "weapon": null,
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "사우디 \"리야드·아브하 공항서 3명 사망\"…후티 잇단 공습 주장(종합)",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5yUEQ2VHlsRlVCZFhzVnZVNnYtTEVmZmtNc3lEbjBudF9jRE83eVJYa3dEdFRqWUpNZFRlOVNTcXhpaTBIRXM3SzJ4emxqM2JxSWFvSC1JUmlZcWgyZzVNSWRkdE1aSklZZ1dvN3lsWUlJbEhE?oc=5",
-    "source": "연합뉴스",
-    "outlets": 3
-   },
-   {
-    "date": "2026-10-07",
-    "time": "09:54",
-    "iso": "2026-10-07T09:54:21+03:00",
-    "city": "리야드",
-    "type": "피격",
-    "weapon": "미사일",
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "[속보] 사우디 항공청 \"리야드·아브하 공항 공격받아 3명 사망\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rOVE5SDU0Mm14UU5vclRyTEtTSEhYQ2p5YUMwUV83aVZtZ3Q4TzYxZExaZl84N3dhVWV3dmpNa3VnS2ZrWndBNzk3Nm1hYVpDVUxnOWd5ZU02LTjSAWBBVV95cUxPMXRtdUFUeDRPRzdsUlNyaFdRckF6YWRJelo4UE9QUjVkZS1ZcTlxb0RUQVM1UEZDZnA1ME4zc1VpOFI4emZ2bkhJRGZZRGQ3VXJnOVc0VlRYZElDR1p6YTA?oc=5",
-    "source": "연합뉴스",
-    "outlets": 3
-   },
-   {
-    "date": "2026-10-07",
-    "time": "09:05",
-    "iso": "2026-10-07T09:05:27+03:00",
-    "city": "리야드",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "사우디 \"후티 탄도미사일 요격\"…후티는 \"리야드 공항 타격 성공\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YRUZlcEtjM180MjJ5OWUxZnoyS3plaEVqZHJ1M1FoVjRoSFVBenVUWFg4OW1iLXZtcXZsaW4tdDRlV1FLZGZENHJ0WWE0eTBpWGJOU0EycDRxMEItaGhycXZn?oc=5",
-    "source": "뉴스1",
-    "outlets": 2
    }
   ],
   "tempo": {
    "얀부": {
     "7d": {},
     "total7d": 0,
-    "prev7d": {
-     "요격": 1,
-     "경보": 1
-    },
-    "prev_total": 2
+    "prev7d": {},
+    "prev_total": 0
    },
    "제다": {
     "7d": {},
     "total7d": 0,
-    "prev7d": {
-     "경보": 1,
-     "요격": 1
-    },
-    "prev_total": 2
+    "prev7d": {},
+    "prev_total": 0
    },
    "메디나": {
     "7d": {
@@ -1245,13 +1197,12 @@
    },
    "메카": {
     "7d": {
-     "요격": 2,
-     "피격": 1
+     "요격": 2
     },
-    "total7d": 3,
+    "total7d": 2,
     "prev7d": {
-     "피격": 3,
-     "요격": 3,
+     "피격": 4,
+     "요격": 2,
      "공습": 1
     },
     "prev_total": 7
@@ -1266,16 +1217,15 @@
    },
    "리야드": {
     "7d": {
-     "경보": 1,
-     "요격": 1
+     "경보": 1
     },
-    "total7d": 2,
+    "total7d": 1,
     "prev7d": {
      "요격": 6,
-     "피격": 4,
+     "피격": 3,
      "공습": 1
     },
-    "prev_total": 11
+    "prev_total": 10
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1355,14 +1305,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-10-07",
-  "today": "2026-11-06",
-  "last_ok_at": "2026-11-06T17:25:34Z"
+  "history_since": "2026-10-08",
+  "today": "2026-11-07",
+  "last_ok_at": "2026-11-06T23:00:35Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T17:25:34Z",
+  "fetched_at": "2026-11-06T23:00:36Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2128,44 +2078,25 @@
     "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي، في تمام الساعة السابعة مساءً. http://t.me/army21ye",
     "text_ko": null,
     "url": "https://t.me/army21ye/3942"
-   },
-   {
-    "time": "2026-10-23 21:43",
-    "iso": "2026-10-23T21:43:27+03:00",
-    "places": [
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 124 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات تعز ولحج وصعدة وحجة والحديدة وعمران والجوف من خلال طائرات \"F-15\" أقلعت من قاعدة خميس مشيط الجوية، والعدوان الصاروخي من نجران، وخلفت شهداء وجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 3024 غارة جوية وصاروخا. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트 공군 기지에서 이륙한 \"F-15\" 항공기와 나지란 미사일 공격을 통해 수도 사나와 타이즈, 라흐즈, 사다, 하지야, 호데이다, 암란, 알자우프 주지사의 민간 물체를 겨냥한 124회의 공습과 미사일 공습을 감행하여 순교자와 부상자를 남겼습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 3,024 회입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3941"
-   },
-   {
-    "time": "2026-10-23 16:40",
-    "iso": "2026-10-23T16:40:58+03:00",
-    "places": [],
-    "text_ar": "مشاهد استهداف تحشيدات وآليات تابعة للعدو السعودي في عدة جبهات بطائرات رجوم المسيرة - 23 أكتوبر 2026م",
-    "text_ko": "드론으로 여러 전선에서 사우디 적의 군중과 차량을 노리는 장면 - 2026년 10월 23일",
-    "url": "https://t.me/army21ye/3940"
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 9,
-   "타이프": 7,
-   "지잔": 6,
-   "나즈란": 5,
-   "메디나": 3,
+   "카미스무샤이트": 8,
+   "타이프": 6,
+   "지잔": 5,
+   "나즈란": 4,
    "담맘": 2,
+   "메디나": 2,
    "메카": 2,
    "리야드": 1,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-06T17:25:34Z"
+  "last_ok_at": "2026-11-06T23:00:36Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T17:25:41Z",
+  "fetched_at": "2026-11-06T23:00:37Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -4129,13 +4060,27 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-11-06T17:25:41Z"
+  "last_ok_at": "2026-11-06T23:00:37Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T17:25:42Z",
+  "fetched_at": "2026-11-06T23:00:39Z",
   "kr": [
+   {
+    "date": "2026-11-06",
+    "published": "2026-11-06T19:17:06+00:00",
+    "source": "MBC",
+    "title": "\"예멘 시장서 공습으로 30명 사망\"‥사우디·후티 책임 공방",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzRXkwcGtfS2FaQUltQ2FmNno3Q1JHcEU3NktsWHJfV2tLVE9NUTIzYV9OakxEdlhGOFJfSmlYYUF1VGJUbnZydnF6VVRROF9hQUZmMnVSMDJxRF9KQ0RFVWF2aktFemZ3YzZsWmxmbWs0TThn0gF0QVVfeXFMUHNFeTBwa19LYVpBSW1DYWY2ejdDUkdwRTc2S2xYcl9Xa0tUT01RMjNhX05qTER2WEY4Ul9KaVhhQXVUYlRudnJ2cXpVVFE4X2FBRmYydVIwMnFEX0pDREVVYXZqS0V6ZndjNmxabGZtazRNOGc?oc=5"
+   },
+   {
+    "date": "2026-11-06",
+    "published": "2026-11-06T18:40:00+00:00",
+    "source": "연합뉴스",
+    "title": "예멘 시장서 30명 숨져…사우디·후티 책임 공방",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMzJjcnlzNFRaNjhpUGxsTlFremlUSmt2cjNoVTA2ZVdZNmluNWw4N1FvWUZ6QkUydF9HR3p1S00zSHhzalU0WFZPOEEyMnNYaEp6X3YzSWJiTjVKMGxqNU9RcFRLLU0?oc=5"
+   },
    {
     "date": "2026-11-06",
     "published": "2026-11-06T12:11:51+00:00",
@@ -4156,29 +4101,22 @@
     "source": "동아일보",
     "title": "“전쟁 끝내려면 68조 내라”…후티 반군, 사우디에 종전 청구서 제시",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qdXhJQUk3dEZoTk92aWV6WmFZSGljN0JlQ0wzZEo0M20yUU5hMEMtSGdjYWRNLTM1ZW1OOEMtZ3FYTWFPM0h2ZE1udkt0NTNVd2dhSXd5a1FfWXQ4UHgzdkdheldCcExqaEY1X0tWdGpmUjjSAWZBVV95cUxPYjd0QTk1Q3FfWVcza2tpQ0ZqSnV2aEhYTVZMYXFIMXFWX0tHRDJqZG96VDFSOVRJQ29rSTNKcmJMdllFMWZMeDM3N3dubFpsQWwwN3BXbi1jOVpzTDljWExwMWg0bmc?oc=5"
-   },
-   {
-    "date": "2026-11-05",
-    "published": "2026-11-05T10:57:20+00:00",
-    "source": "뉴스1",
-    "title": "사우디, 성지 메디나 겨냥한 후티 반군 미사일 요격",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRDlhY3JoU3U4VGhQanB2TC02eTVYSGoyNTNRU3FSdE1qLXhkWWZsODlQNlhhMGRnNkVlQVp3YjRSZ3BNSGxoQ3hKTzg4MVduWjFBUVhnU3IyUFBzTF9RVjNR?oc=5"
-   },
-   {
-    "date": "2026-11-05",
-    "published": "2026-11-05T09:40:00+00:00",
-    "source": "한겨레",
-    "title": "“후티, 공습중단 대가로 68조원 요구”…난처해진 사우디",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWtQNFRzdHNFcjFGX2dkOWVjS05GMXRyN3FMTTJSWVVxNXJSQkswaV9xdE1BUjhJMENYMk9UODlxMUVmUXRHVUlDWEJkTXJMTU8xT29HNmZmRWxzSDZZQTZOYWFYcEZ6WkRhVGlqUk92MWdtXzVCQmcwT1RiNkJhRVh3?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-06",
-    "published": "2026-11-06T16:24:28+00:00",
-    "source": "The New York Times",
-    "title": "Saudi-Led Forces Bombed Yemeni Home, Killing Nine Family Members, Relatives Say",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTUltTW8zc3dCR2ZIbnN5NVZsU3BUTFh4TGFBRnJvbU5iMGI3M2t3Q3RudnZZTEpqR2RJTXpaYzhmUk5pX3JXbFV2cFBPNWI3b2x0OTlubE80MWMtZ1dEbWNBZ3VqT3VJdTR4Vmt2ckt6RnNxekpOdjdNYngyb3JvZnJEemdIcUNUZXlkRWxqRUlrWGJ1MEZ4ZHdPeGdOaWlDdUxRZHl0OA?oc=5"
+    "published": "2026-11-06T19:42:09+00:00",
+    "source": "Arab News",
+    "title": "Notes on a scandal: WSJ’s $51bn Houthi claim unpacked",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMXFIbFB0Tm41Q3dKcy1UU1pmczFHZ1BhODJDVHhLU25CdlkwWkVjUlpuMVJoNE52dlFuSGFLLW1kSHpKRGlDcXh0RnZQU1RTQkNMc0V1T19vb2VwbjBLNG95REFlSnVVVEtuNUhIMUFheHIzaTFJTVZnT0lHd25QbUhCd0dNN2VoOHpvcE5JcXFYdGpObmx1WXpDQQ?oc=5"
+   },
+   {
+    "date": "2026-11-06",
+    "published": "2026-11-06T18:12:53+00:00",
+    "source": "The National",
+    "title": "Iran war latest: UN maritime agency condemns Houthi attacks on international shipping",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
    },
    {
     "date": "2026-11-06",
@@ -4195,13 +4133,6 @@
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX3JIaTBpWDk5SS01NGlJNHBXejg3OGxHWkxXUkx5ZndndEVNSmw2TnhLZjZQNzV4cE1vUEZfTGRuYTUxeVpPcXl3XzZldUtLb01tYjdaZHduSkpGMWNET09pazdfYlBicUFxRFFvR1JSZ3dMenBJaVRJMFNiN1JTM0pMMy0wQnNIRkNRbHNSS0MtQXN4eDJkSGVPQzg0SkVTMlZQZHVUcHItbXhmRk84MXZ0ZW9iZGIyaEF1NUw4TFFhOUVBSWc0MzVRbDdaMEtaUWZtZg?oc=5"
    },
    {
-    "date": "2026-11-06",
-    "published": "2026-11-06T03:07:41+00:00",
-    "source": "The National",
-    "title": "Iran war latest: UN maritime agency condemns Houthi attacks on international shipping",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
-   },
-   {
     "date": "2026-11-05",
     "published": "2026-11-05T20:52:12+00:00",
     "source": "Al Jazeera",
@@ -4209,16 +4140,16 @@
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlozTVc2c0N1andBRHJkTm9DMVh6RFBJMDZUOExPNm5SN255TWUzSHlkNGhOOWNObHdlTUhrRG5IRENNN3RWd1o4bmJuRVBlNV9RWThWYU5nNzJwb3VFc05UTVAzX0xMVWlNM0NWTTZnOHN2TVhxZ0o3bWMyMVFIWi1kVmwxODVkdl9aUTI5YnViYy1sWGdHbjNLZEPSAaIBQVVfeXFMTXF3eS1lSEdCdUlaTWV1RGNQTDZXLXN6MV95VmQtS09XWm12WnBIem4wWERWckRqR2pCVUp0SUVRT2RmcHBvQXJaS3NKSVA4VUlfSmdibDBkNG1tQklIakprQjYtUWNrRzI5MjNURzhwTnZpcTV1OG0zQVhERU91UHZidnB5T2JBczVqMU41WU5ydHhqQV85UXMtNFZZOXlmX1Zn?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-06T17:25:42Z"
+  "last_ok_at": "2026-11-06T23:00:39Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T17:25:43Z",
+  "fetched_at": "2026-11-06T23:00:40Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 28,
-  "baseline": 27.5,
-  "baseline_n": 8,
+  "count": 26,
+  "baseline": 26,
+  "baseline_n": 15,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -4465,14 +4396,15 @@
    "2026-11-05T20": 20,
    "2026-11-06T01": 25,
    "2026-11-06T09": 24,
-   "2026-11-06T17": 28
+   "2026-11-06T17": 28,
+   "2026-11-06T23": 26
   },
-  "last_ok_at": "2026-11-06T17:25:43Z"
+  "last_ok_at": "2026-11-06T23:00:40Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-06T17:25:43Z",
-  "last_ok_at": "2026-11-06T17:25:43Z"
+  "fetched_at": "2026-11-06T23:00:40Z",
+  "last_ok_at": "2026-11-06T23:00:40Z"
  }
 }
