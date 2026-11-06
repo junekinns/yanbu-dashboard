@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T09:16:47Z",
+ "generated_at": "2026-11-06T17:24:52Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T09:16:47Z",
+  "fetched_at": "2026-11-06T17:24:52Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 2,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-06T09:16:47Z"
+  "last_ok_at": "2026-11-06T17:24:52Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T09:17:10Z",
+  "fetched_at": "2026-11-06T17:25:34Z",
   "events": [
+   {
+    "date": "2026-11-06",
+    "time": "11:13",
+    "iso": "2026-11-06T11:13:54+03:00",
+    "city": "메카",
+    "type": "요격",
+    "weapon": "드론",
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "사우디 주도 연합군 \"'이슬람 성지' 메카서 드론 1대 요격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12TUV4WmQ3TFZSQnRzNGZpRkdmcFh6SVVvZHBqbk5fY2I3NkhCbkEwM05IQ0MwTFFxYzhnaDRTaUJ4LVBaTmZsNkRva0dLdDhNZEp0ckxPX3FPYktYVHdJZHV3?oc=5",
+    "source": "뉴스1",
+    "outlets": 4
+   },
    {
     "date": "2026-11-05",
     "time": "13:08",
@@ -1231,10 +1245,10 @@
    },
    "메카": {
     "7d": {
-     "요격": 1,
+     "요격": 2,
      "피격": 1
     },
-    "total7d": 2,
+    "total7d": 3,
     "prev7d": {
      "피격": 3,
      "요격": 3,
@@ -1343,14 +1357,52 @@
   "history_days": 31,
   "history_since": "2026-10-07",
   "today": "2026-11-06",
-  "last_ok_at": "2026-11-06T09:17:10Z"
+  "last_ok_at": "2026-11-06T17:25:34Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T09:17:10Z",
+  "fetched_at": "2026-11-06T17:25:34Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-06 19:37",
+    "iso": "2026-11-06T19:37:45+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 67 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات تعز ولحج وصعدة والجوف ومأرب وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت عشرات الشهداء والجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4264 غارة جوية وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트, 타이프 및 나즈란 미사일 공격 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기를 통해 타이즈, 라즈, 사다, 알자우프 및 마리브 주지사의 민간 물체를 겨냥한 67번의 공중 및 미사일 공습을 시작하여 수십 명의 민간인이 사망하고 부상을 입었습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 4,264 회입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4026"
+   },
+   {
+    "time": "2026-11-06 16:32",
+    "iso": "2026-11-06T16:32:00+03:00",
+    "places": [
+     "카미스무샤이트"
+    ],
+    "text_ar": "عند الساعة 7:10 من صباح اليوم الجمعة أقلعت طائرة \"F-15\" تابعة للعدو السعودي من قاعدة خميس مشيط واستهدفت سوق الحضارة في مديرية الوازعية بمحافظة تعز بثلاث غارات وخلفت عشرات الشهداء والجرحى من المدنيين، وغادرت محافظة تعز الساعة 8:00ص وعادت إلى نفس القاعدة. هذه الجرائم الوحشية لن تمر دون رد وعقاب بإذن الله. http://t.me/army21ye",
+    "text_ko": "금요일 오전 7시 10분에 사우디 적의 \"F-15\" 항공기가 카미스 무샤이트 기지에서 이륙하여 타이즈 주 알와지아 지구의 알-하다라 시장을 3차례 습격하여 수십 명의 순교자와 부상당한 민간인을 남겼습니다. 오전 8시에 타이즈 주를 떠나 같은 기지로 돌아왔습니다. 이러한 잔인한 범죄는 답이 없고 처벌받지 않을 것입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4025"
+   },
+   {
+    "time": "2026-11-06 16:06",
+    "iso": "2026-11-06T16:06:52+03:00",
+    "places": [],
+    "text_ar": "مشاهد نوعية من العمليات الواسعة لطرد التحشيدات التابعة للعدو السعودي بقيادة الضابط السعودي بدر الحربي من عدد من المواقع في سلسلة جبال كهبوب الاستراتيجية شرق باب المندب - 6 نوفمبر 2026م",
+    "text_ko": "바드르 알 하르비 (Badr Al-Harbi) 사우디 장교가 이끄는 사우디 적의 군중을 바브 알 만다브 (Bab Al-Mandab) 동쪽 전략적 카부브 (Kahboub) 산맥의 여러 위치에서 추방하기 위한 대규모 작전의 질적 장면 - 2026년 11월 6일",
+    "url": "https://t.me/army21ye/4024"
+   },
+   {
+    "time": "2026-11-06 13:54",
+    "iso": "2026-11-06T13:54:02+03:00",
+    "places": [],
+    "text_ar": "ترقبوا الرابعة عصرا مشاهد نوعية من العمليات الواسعة لطرد التحشيدات التابعة للعدو السعودي بقيادة الضابط السعودي بدر الحربي من عدد من المواقع في سلسلة جبال كهبوب الاستراتيجية شرق باب المندب",
+    "text_ko": "사우디 장교 바드르 알하르비 (Badr Al-Harbi) 가 이끄는 사우디 적의 군중을 바브 알만다브 (Bab Al-Mandab) 동쪽의 전략적 카부브 (Kahboub) 산맥의 여러 위치에서 추방하기 위한 대규모 작전의 질적 장면이 오후 4시까지 계속 지켜봐 주십시오.",
+    "url": "https://t.me/army21ye/4023"
+   },
    {
     "time": "2026-11-05 19:55",
     "iso": "2026-11-05T19:55:51+03:00",
@@ -2098,22 +2150,22 @@
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 7,
+   "카미스무샤이트": 9,
+   "타이프": 7,
    "지잔": 6,
-   "타이프": 6,
-   "나즈란": 4,
+   "나즈란": 5,
    "메디나": 3,
    "담맘": 2,
    "메카": 2,
    "리야드": 1,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-06T09:17:10Z"
+  "last_ok_at": "2026-11-06T17:25:34Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T09:17:11Z",
+  "fetched_at": "2026-11-06T17:25:41Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -4077,19 +4129,26 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-11-06T09:17:11Z"
+  "last_ok_at": "2026-11-06T17:25:41Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T09:17:12Z",
+  "fetched_at": "2026-11-06T17:25:42Z",
   "kr": [
+   {
+    "date": "2026-11-06",
+    "published": "2026-11-06T12:11:51+00:00",
+    "source": "뉴스1",
+    "title": "사우디 주도 연합군 \"'이슬람 성지' 메카서 드론 1대 요격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12TUV4WmQ3TFZSQnRzNGZpRkdmcFh6SVVvZHBqbk5fY2I3NkhCbkEwM05IQ0MwTFFxYzhnaDRTaUJ4LVBaTmZsNkRva0dLdDhNZEp0ckxPX3FPYktYVHdJZHV3?oc=5"
+   },
    {
     "date": "2026-11-06",
     "published": "2026-11-06T07:30:20+00:00",
     "source": "뉴시스",
     "title": "사우디, '후티, 69조 배상·정권 인정시 종전 제의' 부인…\"날조 보도\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LNGJQVm5YRUlBWUxUU0o2b05zQVBNMldDYVE4V0hJazh4WmFHWmk2M0ZMNnlESE1yaTVsUFBCUmswU3VLRHZxSUYxSkQ4SGRzbThaSHVJTDBwV3B2aUwxeNIBeEFVX3lxTE01T0xYZDBmSnJrcUJkMVZzSnRqLUowUEp1MUlOMm9NQ3RGUmNpOG5wQklGYUpQNm5KeEZSZXdWOWJwZEdVN1o2SjRFc0xjejZ1ZjNWX3U1a1VLVlN1aUlfWVpNOGZvUUIxV3pvdF8tUi1rb0l6dkdDRw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01T0xYZDBmSnJrcUJkMVZzSnRqLUowUEp1MUlOMm9NQ3RGUmNpOG5wQklGYUpQNm5KeEZSZXdWOWJwZEdVN1o2SjRFc0xjejZ1ZjNWX3U1a1VLVlN1aUlfWVpNOGZvUUIxV3pvdF8tUi1rb0l6dkdDR9IBeEFVX3lxTE01T0xYZDBmSnJrcUJkMVZzSnRqLUowUEp1MUlOMm9NQ3RGUmNpOG5wQklGYUpQNm5KeEZSZXdWOWJwZEdVN1o2SjRFc0xjejZ1ZjNWX3U1a1VLVlN1aUlfWVpNOGZvUUIxV3pvdF8tUi1rb0l6dkdDRw?oc=5"
    },
    {
     "date": "2026-11-05",
@@ -4111,16 +4170,23 @@
     "source": "한겨레",
     "title": "“후티, 공습중단 대가로 68조원 요구”…난처해진 사우디",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWtQNFRzdHNFcjFGX2dkOWVjS05GMXRyN3FMTTJSWVVxNXJSQkswaV9xdE1BUjhJMENYMk9UODlxMUVmUXRHVUlDWEJkTXJMTU8xT29HNmZmRWxzSDZZQTZOYWFYcEZ6WkRhVGlqUk92MWdtXzVCQmcwT1RiNkJhRVh3?oc=5"
-   },
-   {
-    "date": "2026-11-05",
-    "published": "2026-11-05T09:10:29+00:00",
-    "source": "뉴시스",
-    "title": "\"후티, 사우디에 '68조원 보상·정권 정통성 인정시 종전' 제의\" WSJ",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIUlNCdXNna2Q0NTM2eUd0c1FnOXh5NERMN2FmbWFDOFdHcHFvYWdESUU4bU5hTlNVMnZjb0YxQS01d19TUjlCeGJNNjNUSVVyMzgzal9xa2M1WC02TGNELdIBeEFVX3lxTFAza1FaOGRWNnlkWVJSOEduaUEyR3ZzYUo4MDNqYzZVU0dMSHpHT1Y2MzNaalpYbzcyUjEtNUZjS0RFNldkbVRLNE5DSExaN2JsY05nTmJkeGFxenRMLXZMRC1JOHhtcVUwWFd4Zl90OW5Qc1FGWk9nVg?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-11-06",
+    "published": "2026-11-06T16:24:28+00:00",
+    "source": "The New York Times",
+    "title": "Saudi-Led Forces Bombed Yemeni Home, Killing Nine Family Members, Relatives Say",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTUltTW8zc3dCR2ZIbnN5NVZsU3BUTFh4TGFBRnJvbU5iMGI3M2t3Q3RudnZZTEpqR2RJTXpaYzhmUk5pX3JXbFV2cFBPNWI3b2x0OTlubE80MWMtZ1dEbWNBZ3VqT3VJdTR4Vmt2ckt6RnNxekpOdjdNYngyb3JvZnJEemdIcUNUZXlkRWxqRUlrWGJ1MEZ4ZHdPeGdOaWlDdUxRZHl0OA?oc=5"
+   },
+   {
+    "date": "2026-11-06",
+    "published": "2026-11-06T14:05:27+00:00",
+    "source": "Bloomberg",
+    "title": "OPEC Output Neared Pre-War Levels on Saudi Rebound, Survey Shows",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWE1BbXVJYjI3RzNPSEtsUV9SU3F3RWxBZWxnMDhfNmtTeGpjZ3Y1Wndzc1ZzeGNrbENLVmsxUUZsb0N5T2E0cGlfRjJMNFQ5a2FUYUNPZlJndFZtcmZlTEpSZnVHYkVnNUIwVFM2bnlHNUozZUxXSHVCcHd5LXJobDBQWnFFWDkzeW9zXzJiLUN5bEIweDktTmNuOVU0OFNabkFlamM3dGpXMWwya3ZmMnZVOGM?oc=5"
+   },
    {
     "date": "2026-11-06",
     "published": "2026-11-06T07:29:45+00:00",
@@ -4129,44 +4195,30 @@
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX3JIaTBpWDk5SS01NGlJNHBXejg3OGxHWkxXUkx5ZndndEVNSmw2TnhLZjZQNzV4cE1vUEZfTGRuYTUxeVpPcXl3XzZldUtLb01tYjdaZHduSkpGMWNET09pazdfYlBicUFxRFFvR1JSZ3dMenBJaVRJMFNiN1JTM0pMMy0wQnNIRkNRbHNSS0MtQXN4eDJkSGVPQzg0SkVTMlZQZHVUcHItbXhmRk84MXZ0ZW9iZGIyaEF1NUw4TFFhOUVBSWc0MzVRbDdaMEtaUWZtZg?oc=5"
    },
    {
+    "date": "2026-11-06",
+    "published": "2026-11-06T03:07:41+00:00",
+    "source": "The National",
+    "title": "Iran war latest: UN maritime agency condemns Houthi attacks on international shipping",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
+   },
+   {
     "date": "2026-11-05",
     "published": "2026-11-05T20:52:12+00:00",
     "source": "Al Jazeera",
     "title": "Saudi coalition intercepts missile fired towards Medina",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlozTVc2c0N1andBRHJkTm9DMVh6RFBJMDZUOExPNm5SN255TWUzSHlkNGhOOWNObHdlTUhrRG5IRENNN3RWd1o4bmJuRVBlNV9RWThWYU5nNzJwb3VFc05UTVAzX0xMVWlNM0NWTTZnOHN2TVhxZ0o3bWMyMVFIWi1kVmwxODVkdl9aUTI5YnViYy1sWGdHbjNLZEPSAaIBQVVfeXFMTXF3eS1lSEdCdUlaTWV1RGNQTDZXLXN6MV95VmQtS09XWm12WnBIem4wWERWckRqR2pCVUp0SUVRT2RmcHBvQXJaS3NKSVA4VUlfSmdibDBkNG1tQklIakprQjYtUWNrRzI5MjNURzhwTnZpcTV1OG0zQVhERU91UHZidnB5T2JBczVqMU41WU5ydHhqQV85UXMtNFZZOXlmX1Zn?oc=5"
-   },
-   {
-    "date": "2026-11-05",
-    "published": "2026-11-05T19:12:32+00:00",
-    "source": "Arab News",
-    "title": "Saudi official denies WSJ report that Houthis demanded $51bn from Kingdom",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY2dSd09ONmtoUEc0RGNsalpCXzZlWmNTSTA5aF84TWxQWFpqQmxjekdheVdVUzdqdno1T2RGZllGTUpHV01NNm9lS3pLUGhqQ3daMEw0OHc4X0RNV0JISFNydlJNSGo4aC1RcU9UT1Z1Rm5MMTh6WXAzYktvMEpSdU9TdVU0RWdVSUVTeXhwakR1dVpIV2kxV2E0VTVIMHYya1NCYVZ0dDVhTDlpYUgzWGtZZWIxWUtPNFE?oc=5"
-   },
-   {
-    "date": "2026-11-05",
-    "published": "2026-11-05T16:37:27+00:00",
-    "source": "Arab News",
-    "title": "Saudi and Iranian foreign ministers discuss regional security amid escalating Houthi attacks",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUDBPdzRhV29nbm1iZjhsSjFhTktnc19POGpvZnlPUWNEdGxOcEdfV0VOczdnOWNSc1hYd1NpS2pVTE9Fejg5djBlU0ZERlByZ0JIREJxRG1QdGJXUWFfdFJ1c1Y0d3VIc0psdkNleTUtd0FmQ0NoclZDb0xUdVVSQ2J4WnVON0RZRG1BU0kxSDhaZU1PRFFOM05HV010ZXVqQjJPQWdNREZkNVdZTmFfTjM3TEdNcGZJOXpCWHlHTjJOc3QxUVh4MFQyWnh5MkdwWUVoUg?oc=5"
-   },
-   {
-    "date": "2026-11-05",
-    "published": "2026-11-05T14:28:00+00:00",
-    "source": "The Guardian",
-    "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTzZOUFhLYVpRZkVXNWdodmNuQVV3YjMyREpaREhpeDBFQ0ZRWlFBVGduVmhTZlZuUkFLQ05vdEVVTWdEb3EzZnp4VzRGTFhZcGtGNEYxREUtdmhwUFFTUFhka1ZLeDhWYkxNY2o5U3RHSzJKMmV4NDNnZ2JrYzhHM0Q4OVZmV2VKMlJmQWpmRVhBa0tGRHZNckJQTjFsZFk?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-06T09:17:12Z"
+  "last_ok_at": "2026-11-06T17:25:42Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T09:17:13Z",
+  "fetched_at": "2026-11-06T17:25:43Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 24,
-  "baseline": 30,
-  "baseline_n": 7,
+  "count": 28,
+  "baseline": 27.5,
+  "baseline_n": 8,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -4412,14 +4464,15 @@
    "2026-11-05T12": 36,
    "2026-11-05T20": 20,
    "2026-11-06T01": 25,
-   "2026-11-06T09": 24
+   "2026-11-06T09": 24,
+   "2026-11-06T17": 28
   },
-  "last_ok_at": "2026-11-06T09:17:13Z"
+  "last_ok_at": "2026-11-06T17:25:43Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-06T09:17:13Z",
-  "last_ok_at": "2026-11-06T09:17:13Z"
+  "fetched_at": "2026-11-06T17:25:43Z",
+  "last_ok_at": "2026-11-06T17:25:43Z"
  }
 }
