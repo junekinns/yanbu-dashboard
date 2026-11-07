@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T23:00:20Z",
+ "generated_at": "2026-11-07T02:42:25Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T23:00:20Z",
+  "fetched_at": "2026-11-07T02:42:25Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 2,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-06T23:00:20Z"
+  "last_ok_at": "2026-11-07T02:42:25Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T23:00:35Z",
+  "fetched_at": "2026-11-07T02:42:45Z",
   "events": [
    {
     "date": "2026-11-06",
@@ -1307,12 +1307,12 @@
   "history_days": 31,
   "history_since": "2026-10-08",
   "today": "2026-11-07",
-  "last_ok_at": "2026-11-06T23:00:35Z"
+  "last_ok_at": "2026-11-07T02:42:45Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T23:00:36Z",
+  "fetched_at": "2026-11-07T02:42:46Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2091,12 +2091,12 @@
    "리야드": 1,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-06T23:00:36Z"
+  "last_ok_at": "2026-11-07T02:42:46Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T23:00:37Z",
+  "fetched_at": "2026-11-07T02:42:46Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -4060,12 +4060,12 @@
     "confidence": "low"
    }
   ],
-  "last_ok_at": "2026-11-06T23:00:37Z"
+  "last_ok_at": "2026-11-07T02:42:46Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T23:00:39Z",
+  "fetched_at": "2026-11-07T02:42:47Z",
   "kr": [
    {
     "date": "2026-11-06",
@@ -4106,17 +4106,17 @@
   "en": [
    {
     "date": "2026-11-06",
-    "published": "2026-11-06T19:42:09+00:00",
-    "source": "Arab News",
-    "title": "Notes on a scandal: WSJ’s $51bn Houthi claim unpacked",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMXFIbFB0Tm41Q3dKcy1UU1pmczFHZ1BhODJDVHhLU25CdlkwWkVjUlpuMVJoNE52dlFuSGFLLW1kSHpKRGlDcXh0RnZQU1RTQkNMc0V1T19vb2VwbjBLNG95REFlSnVVVEtuNUhIMUFheHIzaTFJTVZnT0lHd25QbUhCd0dNN2VoOHpvcE5JcXFYdGpObmx1WXpDQQ?oc=5"
-   },
-   {
-    "date": "2026-11-06",
-    "published": "2026-11-06T18:12:53+00:00",
+    "published": "2026-11-06T16:55:30+00:00",
     "source": "The National",
     "title": "Iran war latest: UN maritime agency condemns Houthi attacks on international shipping",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
+   },
+   {
+    "date": "2026-11-06",
+    "published": "2026-11-06T16:19:44+00:00",
+    "source": "Reuters",
+    "title": "Syria aids Saudi Arabia with military advice and training amid Houthi attacks, sources say",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObFFuV2xuOUtpNDJEVlB0Q0NMYV9BQkNZTzkzRkNVWHBrVGI2TC0xeUk0LTVzdWJrclByYzR3OS1PV2VJaExTT0hud2hzSENNUnlZb0J5cE5yclAtcmljYnlRcFFTOXRuOFVYbUlnbmh3cU5qQTNQSWJ3SEJ1UENMTWFUOXVBZ2xVckpNWjcwOG5meGVBWFBZRlRyZ1Q4ZkNweDlsREhMRWFwX0NrSDctbVoyZDhfdUdzOFAyVmFReUFDNkVBcmc?oc=5"
    },
    {
     "date": "2026-11-06",
@@ -4140,16 +4140,16 @@
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlozTVc2c0N1andBRHJkTm9DMVh6RFBJMDZUOExPNm5SN255TWUzSHlkNGhOOWNObHdlTUhrRG5IRENNN3RWd1o4bmJuRVBlNV9RWThWYU5nNzJwb3VFc05UTVAzX0xMVWlNM0NWTTZnOHN2TVhxZ0o3bWMyMVFIWi1kVmwxODVkdl9aUTI5YnViYy1sWGdHbjNLZEPSAaIBQVVfeXFMTXF3eS1lSEdCdUlaTWV1RGNQTDZXLXN6MV95VmQtS09XWm12WnBIem4wWERWckRqR2pCVUp0SUVRT2RmcHBvQXJaS3NKSVA4VUlfSmdibDBkNG1tQklIakprQjYtUWNrRzI5MjNURzhwTnZpcTV1OG0zQVhERU91UHZidnB5T2JBczVqMU41WU5ydHhqQV85UXMtNFZZOXlmX1Zn?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-06T23:00:39Z"
+  "last_ok_at": "2026-11-07T02:42:47Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-06T23:00:40Z",
+  "fetched_at": "2026-11-07T02:42:48Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 26,
-  "baseline": 26,
-  "baseline_n": 15,
+  "count": 27,
+  "baseline": 35.5,
+  "baseline_n": 4,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -4397,14 +4397,15 @@
    "2026-11-06T01": 25,
    "2026-11-06T09": 24,
    "2026-11-06T17": 28,
-   "2026-11-06T23": 26
+   "2026-11-06T23": 26,
+   "2026-11-07T02": 27
   },
-  "last_ok_at": "2026-11-06T23:00:40Z"
+  "last_ok_at": "2026-11-07T02:42:48Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-06T23:00:40Z",
-  "last_ok_at": "2026-11-06T23:00:40Z"
+  "fetched_at": "2026-11-07T02:42:48Z",
+  "last_ok_at": "2026-11-07T02:42:48Z"
  }
 }
