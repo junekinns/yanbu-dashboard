@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T09:55:57Z",
+ "generated_at": "2026-11-07T16:19:36Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T09:55:57Z",
+  "fetched_at": "2026-11-07T16:19:36Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 2,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-07T09:55:57Z"
+  "last_ok_at": "2026-11-07T16:19:36Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T09:56:12Z",
+  "fetched_at": "2026-11-07T16:19:54Z",
   "events": [
    {
     "date": "2026-11-06",
@@ -1307,14 +1307,55 @@
   "history_days": 31,
   "history_since": "2026-10-08",
   "today": "2026-11-07",
-  "last_ok_at": "2026-11-07T09:56:12Z"
+  "last_ok_at": "2026-11-07T16:19:54Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T09:56:13Z",
+  "fetched_at": "2026-11-07T16:19:55Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-07 18:36",
+    "iso": "2026-11-07T18:36:27+03:00",
+    "places": [
+     "리야드",
+     "나즈란"
+    ],
+    "text_ar": "In response to the brutal Saudi aggression against our country and its heinous crimes, the latest of which was its horrific crime against vendors and shoppers in the Al-Hadara market in Al-Wazi'iyah district of Taiz governorate yesterday morning, Friday, which resulted in dozens of civilian martyrs and wounded, as well as its horrific crime against civilians in their homes in Bani Hashish district…",
+    "text_ko": "우리 나라에 대한 사우디의 잔인한 침략과 그 흉악한 범죄에 대한 대응으로, 그 중 가장 최근의 범죄는 어제 아침, 금요일 타이즈 주 알와지야 지구의 알-하다라 시장에서 상인과 쇼핑객에 대한 끔찍한 범죄였으며, 이로 인해 수십 명의 민간인 순교자와 부상자가 발생했으며, 바니 하시시 지구의 집에서 민간인에 대한 끔찍한 범죄가 발생했습니다...",
+    "url": "https://t.me/army21ye/4032"
+   },
+   {
+    "time": "2026-11-07 18:30",
+    "iso": "2026-11-07T18:30:50+03:00",
+    "places": [
+     "리야드",
+     "나즈란"
+    ],
+    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: {فَمَنِ اعْتَدَى عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ} صدقَ اللهُ العظيم في إطارِ الردِّ على العدوانِ السعوديِّ الغاشمِ على بلدِنا وردًّا على جرائمِه الوحشيةِ والتي كانت آخرُها جريمتُه البشعةُ بحقِّ الباعةِ والمتسوقينَ في سوقِ الحضارةِ بمديريةِ الوازعيةِ بمحافظةِ تعزَ صباحَ أمسِ الجمعةِ والت…",
+    "text_ko": "예멘군이 자비로우시고 자비로우시고 전능하신 알라의 이름으로 발표한 성명서: {당신을 폭행한 사람은 당신을 폭행하지 않은 것처럼 그를 폭행했습니다} 전능하신 알라의 진실은 우리 나라에 대한 사우디의 잔인한 침략에 대응하고 그의 잔인한 범죄에 대응하는 맥락에서입니다. 그 중 가장 최근의 범죄는 어제 아침, 금요일, 타이즈 주 알와지아 국장의 상인과 쇼핑객에 대한 극악무도한 범죄였습니다...",
+    "url": "https://t.me/army21ye/4031"
+   },
+   {
+    "time": "2026-11-07 18:30",
+    "iso": "2026-11-07T18:30:47+03:00",
+    "places": [
+     "리야드",
+     "나즈란"
+    ],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ ست عمليات عسكرية نوعية بعدد كبير من الصواريخ الباليستية والمجنحة والطائرات المسيرة، العملية الأولى استهدفت مطار خالد وخزانات النفط وبرج التقطير التابعة لأرامكو بالرياض، والثانية استهدفت شركة أرامكو في خريص، والثالثة استهدفت محطة الضخ رقم 8 في منطقة الدوادمي، فيما استهدفت العملية الرابعة والخامسة والسادسة تحشيدات العدو السعودي في كل من معسكر الحرس الوطني بنجرا…",
+    "text_ko": "많은 수의 탄도 미사일과 날개 달린 미사일과 드론으로 여섯 가지 질적 군사 작전의 시행에 대한 예멘 군의 성명서. 첫 번째 작전은 칼리드 공항, 석유 탱크 및 리야드 아람코의 증류탑을 목표로했습니다. 두 번째 작전은 쿠라이스의 아람코를 목표로했습니다. 세 번째 작전은 다와드미 지역의 펌핑 스테이션 8 호를 목표로했습니다. 네 번째, 다섯 번째 및 여섯 번째 작전은 방그라의 각 국가 방위군 캠프에서 사우디 적의 동원을 목표로했습니다.",
+    "url": "https://t.me/army21ye/4029"
+   },
+   {
+    "time": "2026-11-07 17:28",
+    "iso": "2026-11-07T17:28:07+03:00",
+    "places": [],
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي، في تمام الساعة 6:30 مساءً. http://t.me/army21ye",
+    "text_ko": "사우디 심층부에서 오후 6시 30 분에 여러 가지 질적 군사 작전을 발표하기위한 예멘 군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4028"
+   },
    {
     "time": "2026-11-06 19:37",
     "iso": "2026-11-06T19:37:45+03:00",
@@ -2082,21 +2123,18 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 8,
+   "나즈란": 7,
    "타이프": 6,
    "지잔": 5,
-   "나즈란": 4,
+   "리야드": 4,
    "담맘": 2,
    "메디나": 2,
    "메카": 2,
-   "리야드": 1,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-07T09:56:13Z"
+  "last_ok_at": "2026-11-07T16:19:55Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-11-07T09:56:13Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3620,63 +3658,81 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-07T09:56:13Z"
+  "last_ok_at": "2026-11-07T09:56:13Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-11-07T16:20:02Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T09:56:15Z",
+  "fetched_at": "2026-11-07T16:21:02Z",
   "kr": [
    {
-    "date": "2026-11-06",
-    "published": "2026-11-06T19:17:06+00:00",
-    "source": "MBC",
-    "title": "\"예멘 시장서 공습으로 30명 사망\"‥사우디·후티 책임 공방",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzRXkwcGtfS2FaQUltQ2FmNno3Q1JHcEU3NktsWHJfV2tLVE9NUTIzYV9OakxEdlhGOFJfSmlYYUF1VGJUbnZydnF6VVRROF9hQUZmMnVSMDJxRF9KQ0RFVWF2aktFemZ3YzZsWmxmbWs0TThn0gF0QVVfeXFMUHNFeTBwa19LYVpBSW1DYWY2ejdDUkdwRTc2S2xYcl9Xa0tUT01RMjNhX05qTER2WEY4Ul9KaVhhQXVUYlRudnJ2cXpVVFE4X2FBRmYydVIwMnFEX0pDREVVYXZqS0V6ZndjNmxabGZtazRNOGc?oc=5"
-   },
-   {
-    "date": "2026-11-06",
-    "published": "2026-11-06T18:40:00+00:00",
-    "source": "연합뉴스",
-    "title": "예멘 시장서 30명 숨져…사우디·후티 책임 공방",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uMzJjcnlzNFRaNjhpUGxsTlFremlUSmt2cjNoVTA2ZVdZNmluNWw4N1FvWUZ6QkUydF9HR3p1S00zSHhzalU0WFZPOEEyMnNYaEp6X3YzSWJiTjVKMGxqNU9RcFRLLU0?oc=5"
-   },
-   {
-    "date": "2026-11-06",
-    "published": "2026-11-06T12:11:51+00:00",
-    "source": "뉴스1",
-    "title": "사우디 주도 연합군 \"'이슬람 성지' 메카서 드론 1대 요격\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12TUV4WmQ3TFZSQnRzNGZpRkdmcFh6SVVvZHBqbk5fY2I3NkhCbkEwM05IQ0MwTFFxYzhnaDRTaUJ4LVBaTmZsNkRva0dLdDhNZEp0ckxPX3FPYktYVHdJZHV3?oc=5"
-   },
-   {
-    "date": "2026-11-06",
-    "published": "2026-11-06T07:30:20+00:00",
+    "date": "2026-11-07",
+    "published": "2026-11-07T15:36:59+00:00",
     "source": "뉴시스",
-    "title": "사우디, '후티, 69조 배상·정권 인정시 종전 제의' 부인…\"날조 보도\"",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01T0xYZDBmSnJrcUJkMVZzSnRqLUowUEp1MUlOMm9NQ3RGUmNpOG5wQklGYUpQNm5KeEZSZXdWOWJwZEdVN1o2SjRFc0xjejZ1ZjNWX3U1a1VLVlN1aUlfWVpNOGZvUUIxV3pvdF8tUi1rb0l6dkdDR9IBeEFVX3lxTE01T0xYZDBmSnJrcUJkMVZzSnRqLUowUEp1MUlOMm9NQ3RGUmNpOG5wQklGYUpQNm5KeEZSZXdWOWJwZEdVN1o2SjRFc0xjejZ1ZjNWX3U1a1VLVlN1aUlfWVpNOGZvUUIxV3pvdF8tUi1rb0l6dkdDRw?oc=5"
+    "title": "후티 \"사우디 공습으로 예멘 수도 인근서 25명 사망\" 주장",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KMEVDMXJNelQ5U3RRbEUxXzZKOUVNOFRKY3FjbEswcG8wS2IzVkVuNXFrTU9mdHhZOUplLTVRb2ZlWlAwQXQxbVdrVnhaT1hoMnB6dGJDcW1YTTNxS25WdQ?oc=5"
    },
    {
-    "date": "2026-11-05",
-    "published": "2026-11-05T22:23:32+00:00",
-    "source": "동아일보",
-    "title": "“전쟁 끝내려면 68조 내라”…후티 반군, 사우디에 종전 청구서 제시",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qdXhJQUk3dEZoTk92aWV6WmFZSGljN0JlQ0wzZEo0M20yUU5hMEMtSGdjYWRNLTM1ZW1OOEMtZ3FYTWFPM0h2ZE1udkt0NTNVd2dhSXd5a1FfWXQ4UHgzdkdheldCcExqaEY1X0tWdGpmUjjSAWZBVV95cUxPYjd0QTk1Q3FfWVcza2tpQ0ZqSnV2aEhYTVZMYXFIMXFWX0tHRDJqZG96VDFSOVRJQ29rSTNKcmJMdllFMWZMeDM3N3dubFpsQWwwN3BXbi1jOVpzTDljWExwMWg0bmc?oc=5"
+    "date": "2026-11-07",
+    "published": "2026-11-07T15:08:28+00:00",
+    "source": "MBC",
+    "title": "후티 \"사우디 공습으로 예멘 수도 인근에서 22명 사망\" 주장",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tUnFtLURvNlVrRFBMQjhqMlA0UFhWS3ZoQkdvVmRpcVEtQnBicDRGWmxwMlIxeUtuazg5WmZwS2Q2Wi14WFJmMWNKclRSWlpkek5HeEszOXFoT3B4cEVmWnc1Zzd4RmFzUS0xMTZ0bUdmLVlD0gF0QVVfeXFMTUI0TUk3TmkyNFB0ZnMtRHJLVThkUGVnVkF1TlZXSnlfQS12VVlzbXhaR2x2MmxhQ3k0c1psNnktdklPQWZrajZGdDNPZU1uUXJjdUlWc1RRcU5XYm9veG9JdXR5Z0owWEM1MFBFSDhNUEV0bTQ?oc=5"
+   },
+   {
+    "date": "2026-11-07",
+    "published": "2026-11-07T14:42:00+00:00",
+    "source": "연합뉴스",
+    "title": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84VlBUZHZPaE43RDMxNUtLcHdBcUpnRFpsVWZvcklyT2ZpX2F2OWJVY0RfdnhENmVoUlNYVkFfSUZQQlRidVhRcEtNLWxtUVNLMmFoNlZmMmVxYWR0QS0tRjVrZGlFQnM?oc=5"
+   },
+   {
+    "date": "2026-11-07",
+    "published": "2026-11-07T14:09:00+00:00",
+    "source": "YTN",
+    "title": "후티 \"사우디 공습으로 예멘 수도 인근 22명 사망\"",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VX21OczNUd3NmZkNzUXB5X1FudjVNSHd6MllhNGNhSUJ3aTE0SHVGbGZ0dFlwMGFvcFk3ZlZlNWR3VTRicHE3cndMNlhXY0UzVmdkRDdCR1NyaDB6bGc?oc=5"
+   },
+   {
+    "date": "2026-11-07",
+    "published": "2026-11-07T13:26:30+00:00",
+    "source": "SBS",
+    "title": "후티 반군 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb18yY1RuXy15WVJMR2R4WDktbmhsMG03OGZOT2U3TDNfRl93S2ZQbkdpbGtxLWlUSGprTEpIdGFOUjJsaERtS1Vaa0ZkMm93cjgwbUczS01oLVNjWFJwSmFLdk1wTUtqRTY0bE1YS2pRRW80dDR0SmpmV1Q1MkNzWHA5NkdkZw?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-07",
-    "published": "2026-11-07T08:20:26+00:00",
+    "published": "2026-11-07T12:42:12+00:00",
+    "source": "ABC News",
+    "title": "An airstrike has killed 22 people near Yemen's capital, Houthi official says",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWWRDRFRaR3d6YkRTajg2X0VsRjd6WjVLQlpQc29PMnBKd2pHNFk4MXlWVlQyQlJHem5kTkRxN3h1NHRGY2dqeXd0RTJIMzdWdWhXZ2FoZmVBRmRaV2d4bEwtVnNRb2ZyV2dhQUpsMFNyWVl6RDVMMy1ITlNqRzhZV19EYVFXOFd0VXEwczk2UmsxeVkzaFMxQW8xMTRuS2p5cHNnNW5LbHBtOUtNR2NTc9IBtgFBVV95cUxOY19xTHBJQ3FRNTZ6M0V4OHpNUnhQSXhzbU10bjY5aDFsWHMyblpDNkp2a0FtdlBzdElsb2ljeURRTHVnRGJGMXd2Ry1MVjNEQXFzdk4xZjZTaTAzVk1yM29MRm9tc2FUV1c1elVmLVFYSWoyOC1nSlBKbXI0YlZnOWVuanJuMzZGQ3hBYVhac2VtajdTTWFNeHVlZG5Sc1FEUjg1S1A0Q2pTVWVObWVZMWs1RmxFUQ?oc=5"
+   },
+   {
+    "date": "2026-11-07",
+    "published": "2026-11-07T11:09:26+00:00",
+    "source": "Arab News",
+    "title": "Saudi air defenses intercept ballistic missile, drone in Riyadh region",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc1VsZU1YMXFnNUxjbWFaOXY1bjZLSVJ6QmJlOHI1RjBIYzNSdEtZZmtlMGRvUElyME11eEgtNGtpaDIyUTRrdXF5QTQwaHpZZ3ljemNmXzlDQ00tYm8wNHRNV25WWWQ5MDFUb3FTRHNBVV9DYVMyRUVuRVBjVGxSMjI0RVdDeHlraHNHdlNjLXFFZWw4VnNKLTM1cHdkbFZtXzVkeFlId2hrZ0lNLXJHdHR0VEpwQQ?oc=5"
+   },
+   {
+    "date": "2026-11-06",
+    "published": "2026-11-06T23:20:45+00:00",
     "source": "The National",
     "title": "Iran war latest: Mediation efforts remain on track, says Qatar",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
    },
    {
-    "date": "2026-11-07",
-    "published": "2026-11-07T06:53:26+00:00",
-    "source": "Al Jazeera",
-    "title": "Yemeni gov’t forces, Houthis trade blame for deadly strikes on Taiz market",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWUFFT1gtN2l4YndNOENnbWhZbE84UWpJM0dsWU1CNzJQbjRFTWZIZFh0b01wb0QxUTVleklRZWVJaEgxcExlVWhDWFFVMEVIaFZhVHF4S3RQOFZTRnNQWXRHRGY4VTZLZkc1Z3hFQVkxTHN6S0hheURfZFJaTjRKdjRlclpwQnU4cDhSNXJCR1RuOVl0N3k5Vlc1Qkt3dGhNY1FMNFhYaXlHRmFsZ0hva0hjRdIBuAFBVV95cUxNUWFDV1ZCNEtVOHVHWXVQbVctNEhueXlfazF3cHk5UnBIWWhLU01wN1UtZTNwcllVdWw5NGpFY2tzcEJDMXIyRXktYVJkcjc1NlV0MndQYnB1a3dHd3Ixc0VqeHNCLXQzc1dUaGpycklSdjNDZ2RfNEs3U1l2Z29NMGVUVFk5cFNRdWhtdjZSa0Zva29tZE5Od3FuOHFVdWVfWnRnZTlIUVFzUlVZcEk5ZnJCUGhtdjNB?oc=5"
+    "date": "2026-11-06",
+    "published": "2026-11-06T16:19:44+00:00",
+    "source": "Reuters",
+    "title": "Syria aids Saudi Arabia with military advice and training amid Houthi attacks, sources say",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObFFuV2xuOUtpNDJEVlB0Q0NMYV9BQkNZTzkzRkNVWHBrVGI2TC0xeUk0LTVzdWJrclByYzR3OS1PV2VJaExTT0hud2hzSENNUnlZb0J5cE5yclAtcmljYnlRcFFTOXRuOFVYbUlnbmh3cU5qQTNQSWJ3SEJ1UENMTWFUOXVBZ2xVckpNWjcwOG5meGVBWFBZRlRyZ1Q4ZkNweDlsREhMRWFwX0NrSDctbVoyZDhfdUdzOFAyVmFReUFDNkVBcmc?oc=5"
    },
    {
     "date": "2026-11-06",
@@ -3684,32 +3740,18 @@
     "source": "Bloomberg",
     "title": "OPEC Output Neared Pre-War Levels on Saudi Rebound, Survey Shows",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWE1BbXVJYjI3RzNPSEtsUV9SU3F3RWxBZWxnMDhfNmtTeGpjZ3Y1Wndzc1ZzeGNrbENLVmsxUUZsb0N5T2E0cGlfRjJMNFQ5a2FUYUNPZlJndFZtcmZlTEpSZnVHYkVnNUIwVFM2bnlHNUozZUxXSHVCcHd5LXJobDBQWnFFWDkzeW9zXzJiLUN5bEIweDktTmNuOVU0OFNabkFlamM3dGpXMWwya3ZmMnZVOGM?oc=5"
-   },
-   {
-    "date": "2026-11-06",
-    "published": "2026-11-06T07:29:45+00:00",
-    "source": "The National",
-    "title": "Saudi Arabia flight cancellations: Which airlines are suspending services and until when?",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX3JIaTBpWDk5SS01NGlJNHBXejg3OGxHWkxXUkx5ZndndEVNSmw2TnhLZjZQNzV4cE1vUEZfTGRuYTUxeVpPcXl3XzZldUtLb01tYjdaZHduSkpGMWNET09pazdfYlBicUFxRFFvR1JSZ3dMenBJaVRJMFNiN1JTM0pMMy0wQnNIRkNRbHNSS0MtQXN4eDJkSGVPQzg0SkVTMlZQZHVUcHItbXhmRk84MXZ0ZW9iZGIyaEF1NUw4TFFhOUVBSWc0MzVRbDdaMEtaUWZtZg?oc=5"
-   },
-   {
-    "date": "2026-11-05",
-    "published": "2026-11-05T20:52:12+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi coalition intercepts missile fired towards Medina",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdlozTVc2c0N1andBRHJkTm9DMVh6RFBJMDZUOExPNm5SN255TWUzSHlkNGhOOWNObHdlTUhrRG5IRENNN3RWd1o4bmJuRVBlNV9RWThWYU5nNzJwb3VFc05UTVAzX0xMVWlNM0NWTTZnOHN2TVhxZ0o3bWMyMVFIWi1kVmwxODVkdl9aUTI5YnViYy1sWGdHbjNLZEPSAaIBQVVfeXFMTXF3eS1lSEdCdUlaTWV1RGNQTDZXLXN6MV95VmQtS09XWm12WnBIem4wWERWckRqR2pCVUp0SUVRT2RmcHBvQXJaS3NKSVA4VUlfSmdibDBkNG1tQklIakprQjYtUWNrRzI5MjNURzhwTnZpcTV1OG0zQVhERU91UHZidnB5T2JBczVqMU41WU5ydHhqQV85UXMtNFZZOXlmX1Zn?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-07T09:56:15Z"
+  "last_ok_at": "2026-11-07T16:21:02Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T09:56:15Z",
+  "fetched_at": "2026-11-07T16:21:03Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 41,
-  "baseline": 28.5,
-  "baseline_n": 8,
+  "count": 31,
+  "baseline": 30,
+  "baseline_n": 11,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3959,14 +4001,15 @@
    "2026-11-06T17": 28,
    "2026-11-06T23": 26,
    "2026-11-07T02": 27,
-   "2026-11-07T09": 41
+   "2026-11-07T09": 41,
+   "2026-11-07T16": 31
   },
-  "last_ok_at": "2026-11-07T09:56:15Z"
+  "last_ok_at": "2026-11-07T16:21:03Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-07T09:56:16Z",
-  "last_ok_at": "2026-11-07T09:56:16Z"
+  "fetched_at": "2026-11-07T16:21:03Z",
+  "last_ok_at": "2026-11-07T16:21:03Z"
  }
 }
