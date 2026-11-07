@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T16:19:36Z",
+ "generated_at": "2026-11-07T20:49:09Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T16:19:36Z",
+  "fetched_at": "2026-11-07T20:49:09Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 2,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-07T16:19:36Z"
+  "last_ok_at": "2026-11-07T20:49:09Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T16:19:54Z",
+  "fetched_at": "2026-11-07T20:49:30Z",
   "events": [
    {
     "date": "2026-11-06",
@@ -1307,14 +1307,27 @@
   "history_days": 31,
   "history_since": "2026-10-08",
   "today": "2026-11-07",
-  "last_ok_at": "2026-11-07T16:19:54Z"
+  "last_ok_at": "2026-11-07T20:49:30Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T16:19:55Z",
+  "fetched_at": "2026-11-07T20:49:31Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-07 20:06",
+    "iso": "2026-11-07T20:06:51+03:00",
+    "places": [
+     "타이프",
+     "지잔",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 105 غارات جوية وصواريخ استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وعمران وحجة وصعدة ومأرب ولحج وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وجيزان، وخلفت عشرات الشهداء والجرحى من المدنيين جلُّهم من النساء والأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِن…",
+    "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 수도 사나와 알자우프, 타이즈, 암란, 하지야, 사다, 마리브, 라흐즈의 주지사에서 카미스 무샤이트, 타이프 기지에서 이륙한 \"F-15\" 및 \"태풍\" 항공기와 나즈란과 지잔의 미사일 공격을 통해 105회의 공습과 미사일을 발사하여 수십 명의 순교자와 부상당한 민간인, 대부분 여성과 어린이를 남겼습니다. 두 국가에 대한 에스컬레이션이 시작된 이후 사우디의 총 공격 횟수...",
+    "url": "https://t.me/army21ye/4035"
+   },
    {
     "time": "2026-11-07 18:36",
     "iso": "2026-11-07T18:36:27+03:00",
@@ -2125,16 +2138,19 @@
    "카미스무샤이트": 8,
    "나즈란": 7,
    "타이프": 6,
-   "지잔": 5,
+   "지잔": 6,
    "리야드": 4,
    "담맘": 2,
    "메디나": 2,
    "메카": 2,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-07T16:19:55Z"
+  "last_ok_at": "2026-11-07T20:49:31Z"
  },
  "firms": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-11-07T20:49:33Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -3658,17 +3674,34 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-07T09:56:13Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-  "fetched_at": "2026-11-07T16:20:02Z",
-  "stale": true
+  "last_ok_at": "2026-11-07T20:49:33Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T16:21:02Z",
+  "fetched_at": "2026-11-07T20:49:34Z",
   "kr": [
+   {
+    "date": "2026-11-07",
+    "published": "2026-11-07T19:24:03+00:00",
+    "source": "SBS",
+    "title": "후티 반군 \"사우디 공습, 예멘 수도 인근서 27명 사망\" 주장",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51V2JxZEpXRFhtMjkzYWJQS1VBVnNwaEo0OHdWNHYzRE9Fckh0dkdpeEJwWmx4cGdsTjBTWjZMSlQzdW44Zzh3TWQ5Rmtic0F4R01ZNjN3Mlo5WWlmMnZ4S0wyMDhtRG0yb3c?oc=5"
+   },
+   {
+    "date": "2026-11-07",
+    "published": "2026-11-07T18:49:11+00:00",
+    "source": "연합뉴스",
+    "title": "후티 \"사우디 공습으로 예멘 수도 인근서 27명 사망\" 주장(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxT2FmcnpsMWFjdFB5NktrbktYUVR3Q09XNWQ1cUdvY2Z3RG51eldoWmFJM3ZZZGJCQTVHQklqYURkcDl4QzhMc09hTXpscm5JY1V3SDA4VGRvR3FTemxjctIBYEFVX3lxTFAxT2FmcnpsMWFjdFB5NktrbktYUVR3Q09XNWQ1cUdvY2Z3RG51eldoWmFJM3ZZZGJCQTVHQklqYURkcDl4QzhMc09hTXpscm5JY1V3SDA4VGRvR3FTemxjcg?oc=5"
+   },
+   {
+    "date": "2026-11-07",
+    "published": "2026-11-07T17:28:56+00:00",
+    "source": "연합뉴스",
+    "title": "시리아군 사우디·예멘 파병설…시리아 정부 측 부인",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zNzJMSzc3YVJtQ3lQZkZqMUZuUmRid28xSjBtX1FPUWVMekluRTRYV1VnNkluSkZnX3ZuQXU1VV8xQ2h3RHFyWHF4X3pGaWZ3YnNZN09xX21USlXSAWBBVV95cUxNSnFoYU5objVGbGRaNTdveWdZOEpWVDl6cDBxMGhReU5LWkRYWllGOGtaanZmM0ZyTFF2bjVKU2l4Q2d0YWp6OFhRV3VHQmRaTVVsWkl0dG1aSHVYODVYUVg?oc=5"
+   },
    {
     "date": "2026-11-07",
     "published": "2026-11-07T15:36:59+00:00",
@@ -3682,76 +3715,55 @@
     "source": "MBC",
     "title": "후티 \"사우디 공습으로 예멘 수도 인근에서 22명 사망\" 주장",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tUnFtLURvNlVrRFBMQjhqMlA0UFhWS3ZoQkdvVmRpcVEtQnBicDRGWmxwMlIxeUtuazg5WmZwS2Q2Wi14WFJmMWNKclRSWlpkek5HeEszOXFoT3B4cEVmWnc1Zzd4RmFzUS0xMTZ0bUdmLVlD0gF0QVVfeXFMTUI0TUk3TmkyNFB0ZnMtRHJLVThkUGVnVkF1TlZXSnlfQS12VVlzbXhaR2x2MmxhQ3k0c1psNnktdklPQWZrajZGdDNPZU1uUXJjdUlWc1RRcU5XYm9veG9JdXR5Z0owWEM1MFBFSDhNUEV0bTQ?oc=5"
-   },
-   {
-    "date": "2026-11-07",
-    "published": "2026-11-07T14:42:00+00:00",
-    "source": "연합뉴스",
-    "title": "후티 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84VlBUZHZPaE43RDMxNUtLcHdBcUpnRFpsVWZvcklyT2ZpX2F2OWJVY0RfdnhENmVoUlNYVkFfSUZQQlRidVhRcEtNLWxtUVNLMmFoNlZmMmVxYWR0QS0tRjVrZGlFQnM?oc=5"
-   },
-   {
-    "date": "2026-11-07",
-    "published": "2026-11-07T14:09:00+00:00",
-    "source": "YTN",
-    "title": "후티 \"사우디 공습으로 예멘 수도 인근 22명 사망\"",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VX21OczNUd3NmZkNzUXB5X1FudjVNSHd6MllhNGNhSUJ3aTE0SHVGbGZ0dFlwMGFvcFk3ZlZlNWR3VTRicHE3cndMNlhXY0UzVmdkRDdCR1NyaDB6bGc?oc=5"
-   },
-   {
-    "date": "2026-11-07",
-    "published": "2026-11-07T13:26:30+00:00",
-    "source": "SBS",
-    "title": "후티 반군 \"사우디 공습으로 예멘 수도 인근서 22명 사망\" 주장",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb18yY1RuXy15WVJMR2R4WDktbmhsMG03OGZOT2U3TDNfRl93S2ZQbkdpbGtxLWlUSGprTEpIdGFOUjJsaERtS1Vaa0ZkMm93cjgwbUczS01oLVNjWFJwSmFLdk1wTUtqRTY0bE1YS2pRRW80dDR0SmpmV1Q1MkNzWHA5NkdkZw?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-07",
-    "published": "2026-11-07T12:42:12+00:00",
-    "source": "ABC News",
-    "title": "An airstrike has killed 22 people near Yemen's capital, Houthi official says",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWWRDRFRaR3d6YkRTajg2X0VsRjd6WjVLQlpQc29PMnBKd2pHNFk4MXlWVlQyQlJHem5kTkRxN3h1NHRGY2dqeXd0RTJIMzdWdWhXZ2FoZmVBRmRaV2d4bEwtVnNRb2ZyV2dhQUpsMFNyWVl6RDVMMy1ITlNqRzhZV19EYVFXOFd0VXEwczk2UmsxeVkzaFMxQW8xMTRuS2p5cHNnNW5LbHBtOUtNR2NTc9IBtgFBVV95cUxOY19xTHBJQ3FRNTZ6M0V4OHpNUnhQSXhzbU10bjY5aDFsWHMyblpDNkp2a0FtdlBzdElsb2ljeURRTHVnRGJGMXd2Ry1MVjNEQXFzdk4xZjZTaTAzVk1yM29MRm9tc2FUV1c1elVmLVFYSWoyOC1nSlBKbXI0YlZnOWVuanJuMzZGQ3hBYVhac2VtajdTTWFNeHVlZG5Sc1FEUjg1S1A0Q2pTVWVObWVZMWs1RmxFUQ?oc=5"
+    "published": "2026-11-07T19:27:23+00:00",
+    "source": "Reuters",
+    "title": "Houthi-run health ministry says airstrikes it blames on Saudi Arabia kill 27 near Yemen capital",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPck9CUTVBTUgyQVJnZUxobTVpZGxIdTBmaGNmOWpHVWt4NUF4SHYyTWlUS1g2QmZ5RUd0YmJHVVpPQUVqa1lzVlJ1SU9HUUpDdzh0SVNFRW9KanJEZDJycDA5cVhxV0NKWnA5TUEtS2tkcDF4MTNjTUstalQwLXg3TVJXb3d1VlpaTUN6N1BFWHFfUk1FNm42QWdBSndJNDdQQUdNNlZKUVlLTUN6RmQ0aXluNHNUQUxYTW9vV0ZfUEFHX2tjXzBwZkpZeXA?oc=5"
    },
    {
     "date": "2026-11-07",
-    "published": "2026-11-07T11:09:26+00:00",
-    "source": "Arab News",
-    "title": "Saudi air defenses intercept ballistic missile, drone in Riyadh region",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc1VsZU1YMXFnNUxjbWFaOXY1bjZLSVJ6QmJlOHI1RjBIYzNSdEtZZmtlMGRvUElyME11eEgtNGtpaDIyUTRrdXF5QTQwaHpZZ3ljemNmXzlDQ00tYm8wNHRNV25WWWQ5MDFUb3FTRHNBVV9DYVMyRUVuRVBjVGxSMjI0RVdDeHlraHNHdlNjLXFFZWw4VnNKLTM1cHdkbFZtXzVkeFlId2hrZ0lNLXJHdHR0VEpwQQ?oc=5"
+    "published": "2026-11-07T17:39:53+00:00",
+    "source": "France 24",
+    "title": "Thousands of Syrian troops to deploy to Yemen, Saudi Arabia: sources to AFP",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNEp6NVBtbHhsbUIxVVRFM25lbmxYLWN0MmlhV1BTYTRZMHhJM0ppSmJhaHJfM05rNWI2UnRQVGEzT0lubW5XemFpd3Jnc1NFeUVrVFNMWUJ6Xzd4dEp1U2ZZLXMzV0VpTDNoWF9FeGFIb1l5TTRmbHhhOGhXblhRcVpVOWJTdktfYVN5b2JURXJ6LWR3U1JzY2tvSmxWbHdQUUVXVWRZUWNlQk1wdTZ2em1heHpLWXBEZTVnRA?oc=5"
    },
    {
-    "date": "2026-11-06",
-    "published": "2026-11-06T23:20:45+00:00",
-    "source": "The National",
-    "title": "Iran war latest: Mediation efforts remain on track, says Qatar",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
+    "date": "2026-11-07",
+    "published": "2026-11-07T16:42:00+00:00",
+    "source": "AP News",
+    "title": "Airstrikes kill more than 2 dozen people near Yemen’s capital, Houthis say",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ2phS1lmT1dSeWRnSGpVanhOVE5iNGVSbldWSTFDMjdLVFAxSW9FcWNTUkVYX1ppMXJ1aFRLYlF2NDY3STIwZGdTaE9lOEtOOEU3ZFZKd1RXbXhhWDVsZ1ZiRGRZU0pEdkx2LXZHUXBKeGVWOEFrT3RMaUx6UUZnZk1tSG13Tzh6VWlOT01tVQ?oc=5"
    },
    {
-    "date": "2026-11-06",
-    "published": "2026-11-06T16:19:44+00:00",
+    "date": "2026-11-07",
+    "published": "2026-11-07T16:39:31+00:00",
+    "source": "The New York Times",
+    "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNlJzUkV3SUJHSzIxbExLcHBYRmFHdm94d0NsMmJWUS00MGdIZ1F6R2VsbmU1SGxMQWkyZGJKN0cwUV9lUmJnUWFkMGhlTTE5ZjhiOXFfdV82dElpQU5QcmdTejlFWlc0c1ZMQmJwaUR5ZXR6ZFZYd19ueDZFTUhpRVZ6bkdjM1B2c3MweUpR?oc=5"
+   },
+   {
+    "date": "2026-11-07",
+    "published": "2026-11-07T16:35:43+00:00",
     "source": "Reuters",
-    "title": "Syria aids Saudi Arabia with military advice and training amid Houthi attacks, sources say",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObFFuV2xuOUtpNDJEVlB0Q0NMYV9BQkNZTzkzRkNVWHBrVGI2TC0xeUk0LTVzdWJrclByYzR3OS1PV2VJaExTT0hud2hzSENNUnlZb0J5cE5yclAtcmljYnlRcFFTOXRuOFVYbUlnbmh3cU5qQTNQSWJ3SEJ1UENMTWFUOXVBZ2xVckpNWjcwOG5meGVBWFBZRlRyZ1Q4ZkNweDlsREhMRWFwX0NrSDctbVoyZDhfdUdzOFAyVmFReUFDNkVBcmc?oc=5"
-   },
-   {
-    "date": "2026-11-06",
-    "published": "2026-11-06T14:05:27+00:00",
-    "source": "Bloomberg",
-    "title": "OPEC Output Neared Pre-War Levels on Saudi Rebound, Survey Shows",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWE1BbXVJYjI3RzNPSEtsUV9SU3F3RWxBZWxnMDhfNmtTeGpjZ3Y1Wndzc1ZzeGNrbENLVmsxUUZsb0N5T2E0cGlfRjJMNFQ5a2FUYUNPZlJndFZtcmZlTEpSZnVHYkVnNUIwVFM2bnlHNUozZUxXSHVCcHd5LXJobDBQWnFFWDkzeW9zXzJiLUN5bEIweDktTmNuOVU0OFNabkFlamM3dGpXMWwya3ZmMnZVOGM?oc=5"
+    "title": "Syria denies plans to send troops to Yemen as Saudi military ties deepen",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWFoalVjYUd5cFBzeWxSX3pKY1o0eG8wczAtaHYtSW5FckxtSkNoTXExWXlUY09ETUM3ZGVGS3lyRGFfeDh4bVJ0eER2YXp3dm1hclg3RzRHaktReWwxb1Zzdl9JWTJ0WVhpYWgxeUd6RWV4SkFUWU5DMDI0N0tYS3hMd1hIQU1kb3dCMUZzdng5VVlBUVhERlFMT0FvSldhcERMQ3ZXNHhPTkprenZKYW5waUxodHFTZFE?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-07T16:21:02Z"
+  "last_ok_at": "2026-11-07T20:49:34Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-07T16:21:03Z",
+  "fetched_at": "2026-11-07T20:49:35Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 31,
-  "baseline": 30,
-  "baseline_n": 11,
+  "count": 27,
+  "baseline": 20,
+  "baseline_n": 15,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -4002,14 +4014,15 @@
    "2026-11-06T23": 26,
    "2026-11-07T02": 27,
    "2026-11-07T09": 41,
-   "2026-11-07T16": 31
+   "2026-11-07T16": 31,
+   "2026-11-07T20": 27
   },
-  "last_ok_at": "2026-11-07T16:21:03Z"
+  "last_ok_at": "2026-11-07T20:49:35Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-07T16:21:03Z",
-  "last_ok_at": "2026-11-07T16:21:03Z"
+  "fetched_at": "2026-11-07T20:49:35Z",
+  "last_ok_at": "2026-11-07T20:49:35Z"
  }
 }
