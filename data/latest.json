@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T19:32:24Z",
+ "generated_at": "2026-11-08T23:38:43Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T19:32:24Z",
+  "fetched_at": "2026-11-08T23:38:43Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 5.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-08T19:32:24Z"
+  "last_ok_at": "2026-11-08T23:38:43Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T19:32:39Z",
+  "fetched_at": "2026-11-08T23:39:03Z",
   "events": [
    {
     "date": "2026-11-08",
@@ -1116,34 +1116,6 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GY0VXOU1BMUI4TGZqaktXcGU4MWxDdVV6blR1QVVmRlpZVEVsNVNkd3ZFblJ4NXFNQWZvT1dudzBQdHVFeGNxV1ZQSWxOWkxiYmxZOVhmbE9OZjE5LWxkWVZ3Y3Zod1NLa3hLZl9yWFpQcFht0gF0QVVfeXFMTmxjRGl6N210NnVmb294WEtadTR2d0RwdzdONWtUYjlkc3AwWDB1Ql9lMTJ4bjBibmlJQTctX1RGMDJNcVYwUk5GeXN0bzg2NVpkZVZDVEE1RjJvZElDQUhlVVl6QnJHSWxLYW02R29fMHo3YUw?oc=5",
     "source": "MBC",
     "outlets": 5
-   },
-   {
-    "date": "2026-10-09",
-    "time": "12:36",
-    "iso": "2026-10-09T12:36:20+03:00",
-    "city": "리야드",
-    "type": "공습",
-    "weapon": null,
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "후티 반군 리야드 공항 공습에 사우디 기장 등 3명 사망",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rMl9QdmtUWERCeHNiM2k2d3hzV0xjTmU1TzZlcldnNjJIZEw3N0VnQUlaRnVOaEhWRTJPSHJRNVFrZDRhUURheEgyTklyMU9QY3dvMmtaYlVqaGVkMVYzUUJ3?oc=5",
-    "source": "뉴스1",
-    "outlets": 1
-   },
-   {
-    "date": "2026-10-09",
-    "time": "00:19",
-    "iso": "2026-10-09T00:19:00+03:00",
-    "city": "리야드",
-    "type": "피격",
-    "weapon": null,
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "이틀 연속 리야드 공항 피격…튀르키예, 사우디에 방공 지원 검토",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16LXRzZktmQ1RrRkNob01uWnA1OGxSWU9mbklUZDk2RW1YMm40ZGpRY01kWkU0c3I4NFFaYzdERVVRdGNkU0JYYmxYOGlld2w5SlJIcG95TlBNVzA?oc=5",
-    "source": "KBS",
-    "outlets": 4
    }
   ],
   "tempo": {
@@ -1209,11 +1181,10 @@
     },
     "total7d": 3,
     "prev7d": {
-     "요격": 5,
-     "피격": 2,
-     "공습": 1
+     "요격": 4,
+     "피격": 1
     },
-    "prev_total": 8
+    "prev_total": 5
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1222,12 +1193,12 @@
     "prev_total": 0
    },
    "담맘": {
-    "7d": {
+    "7d": {},
+    "total7d": 0,
+    "prev7d": {
      "피격": 1
     },
-    "total7d": 1,
-    "prev7d": {},
-    "prev_total": 0
+    "prev_total": 1
    },
    "다란": {
     "7d": {},
@@ -1293,14 +1264,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-10-09",
-  "today": "2026-11-08",
-  "last_ok_at": "2026-11-08T19:32:39Z"
+  "history_since": "2026-10-10",
+  "today": "2026-11-09",
+  "last_ok_at": "2026-11-08T23:39:03Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T19:32:39Z",
+  "fetched_at": "2026-11-08T23:39:04Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1978,94 +1949,6 @@
     "text_ar": "تمكنت قواتنا المسلحة بفضل الله من استهداف مطار خالد الدولي في عاصمة العدو السعودي الرياض بصاروخ باليستي وكانت الإصابة دقيقة. كما تمكنت من تنفيذ عملية استهداف لمحطات ضخ النفط الخام شرق غرب بعدد من الطائرات المسيرة وكانت الإصابات دقيقة بفضل الله. http://t.me/army21ye",
     "text_ko": "알라의 은총으로 우리 군대는 사우디 적 리야드의 수도에 있는 칼리드 국제공항을 탄도 미사일로 겨냥할 수 있었고 부상은 정확했습니다. 또한 여러 대의 드론으로 동서로 원유 펌핑 스테이션의 표적 작전을 수행할 수 있었으며 신 덕분에 부상이 정확했습니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3962"
-   },
-   {
-    "time": "2026-10-25 21:02",
-    "iso": "2026-10-25T21:02:15+03:00",
-    "places": [
-     "리야드",
-     "카미스무샤이트"
-    ],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ ثلاث عمليات عسكرية نوعية بعشرات الصواريخ الباليستية، استهدفت الأولى مطار خالد الدولي بالرياض، واستهدفت الثانية مرابض الطائرات ومخازن التذخير ومراكز التحكم بالطائرات المسيرة وعددا من المواقع المهمة في قاعدة الملك خالد الجوية في خميس مشيط، وقد حققت العمليات أهدافَها بنجاح بفضل الله. جودة متوسطة http://t.me/army21ye",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3959"
-   },
-   {
-    "time": "2026-10-25 21:01",
-    "iso": "2026-10-25T21:01:04+03:00",
-    "places": [
-     "메디나",
-     "메카",
-     "리야드",
-     "지잔",
-     "카미스무샤이트"
-    ],
-    "text_ar": "In response to the brutal Saudi aggression targeting our country and our people, and in retaliation to the massacres committed yesterday in the capital, Sana'a, and the liberated provinces, which left dozens of martyrs and wounded, most of whom were women and children, The Yemeni Armed Forces, with Allah's help, carried out three qualitative military operations using dozens of ballistic missiles. …",
-    "text_ko": "사우디아라비아의 잔인한 침략이 우리나라와 국민을 겨냥하고 어제 수도 사나와 수십 명의 순교자와 부상자를 남긴 해방된 지방에서 자행된 학살에 대한 보복으로 대부분이 여성과 어린이들이었습니다. 예멘군은 알라의 도움으로 수십 개의 탄도 미사일을 사용하여 세 가지 질적인 군사 작전을 수행했습니다.",
-    "url": "https://t.me/army21ye/3957"
-   },
-   {
-    "time": "2026-10-25 21:01",
-    "iso": "2026-10-25T21:01:04+03:00",
-    "places": [
-     "리야드",
-     "카미스무샤이트"
-    ],
-    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ ثلاث عمليات عسكرية نوعية بعشرات الصواريخ الباليستية، استهدفت الأولى مطار خالد الدولي بالرياض، واستهدفت الثانية مرابض الطائرات ومخازن التذخير ومراكز التحكم بالطائرات المسيرة وعددا من المواقع المهمة في قاعدة الملك خالد الجوية في خميس مشيط، وقد حققت العمليات أهدافَها بنجاح بفضل الله. جودة منخفضة http://t.me/army21ye",
-    "text_ko": "수십 개의 탄도 미사일, 리야드의 첫 번째 표적 칼리드 국제 공항, 두 번째 표적 항공기 격납고, 탄약고, 무인 항공기 통제 센터 및 카미스 무샤이트의 킹 칼리드 공군 기지의 여러 중요한 사이트와 함께 3 가지 질적 군사 작전의 구현에 대한 예멘 군대의 성명서. 작전은 하나님 덕분에 성공적으로 목표를 달성했습니다. low quality http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3958"
-   },
-   {
-    "time": "2026-10-25 21:01",
-    "iso": "2026-10-25T21:01:04+03:00",
-    "places": [
-     "메디나",
-     "메카",
-     "리야드",
-     "지잔",
-     "카미스무샤이트"
-    ],
-    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قال تعالى: {{ وَلَمَنِ ٱنتَصَرَ بَعۡدَ ظُلۡمِهِۦ فَأُو۟لَـٰۤىِٕكَ مَا عَلَیۡهِم مِّن سَبِیلٍ } صدق اللهُ العظيم في إطارِ الردِّ على العدوانِ السعوديِّ الغاشمِ الذي يستهدفُ بلدَنا وشعبَنا وردًّا على المجازرِ التي ارتكبَها بالأمسِ في العاصمةِ صنعاءَ والمحافظاتِ الحرةِ والتي خلفت عشراتِ الشهداءِ والجرحى جلُّهم من النساءِ والأطفالِ. ن…",
-    "text_ko": null,
-    "url": "https://t.me/army21ye/3956"
-   },
-   {
-    "time": "2026-10-25 20:10",
-    "iso": "2026-10-25T20:10:12+03:00",
-    "places": [],
-    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي، في تمام الساعة التاسعة مساء، بعد قليل. http://t.me/army21ye",
-    "text_ko": "직후인 저녁 9시에 사우디 심층부 내부의 여러 질적 군사 작전을 발표하기 위한 예멘 군의 중요한 성명서. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3955"
-   },
-   {
-    "time": "2026-10-25 19:34",
-    "iso": "2026-10-25T19:34:06+03:00",
-    "places": [],
-    "text_ar": "مشاهد ضرب التحشيدات التابعة للعدو السعودي وتدمير عدد من آلياته في جبهة الفليحة والردهة جنوب مأرب والتي يشرف عليها الضابط السعودي عميد ركن فارس الشمّري - 25 أكتوبر 2026م",
-    "text_ko": "사우디 장교인 Fares Al-Shammari 준장이 감독하는 플라이하 전선과 마리브 남쪽 로비에서 사우디 적의 군중을 공격하고 여러 대의 차량을 파괴하는 장면 - 서기 2026년 10월 25일",
-    "url": "https://t.me/army21ye/3954"
-   },
-   {
-    "time": "2026-10-25 19:11",
-    "iso": "2026-10-25T19:11:56+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 56 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات حجة ولحج وعمران وصعدة والجوف وتعز وإب من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 3179 غارةً جويةً وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란의 미사일 공격을 통해 하지야, 라흐즈, 암란, 사다, 알자우프, 타이즈, Ibb 주지사의 민간 물체를 겨냥한 56회의 공습과 미사일 공습을 감행했다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 3,179 회입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3953"
-   },
-   {
-    "time": "2026-10-25 00:10",
-    "iso": "2026-10-25T00:10:54+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "تجدد القوات المسلحة اليمنية تحذيرها لجميع شركات الطيران العالمية والإقليمية والمحلية والموظفين والمسافرين من السفر عبر مطار خالد في الرياض لأنه غير آمن كونه هدفاً عسكرياً لقواتنا. ويتحمل النظام السعودي تبعات أي تشغيل للمطار وما سيترتب على ذلك لأن القوات المسلحة ستواصل عملياتها باتجاهه ولن يكون آمنا أبداً. http://t.me/army21ye",
-    "text_ko": "예멘군은 모든 글로벌, 지역 및 지역 항공사, 직원 및 승객에게 리야드의 칼리드 공항을 통해 여행하는 것은 우리 군의 군사 목표이기 때문에 안전하지 않기 때문에 경고를 갱신합니다. 사우디 정권은 공항 운영의 결과와 이것이 수반하는 것을 부담합니다. 왜냐하면 군대는 공항에 대한 운영을 계속할 것이고 결코 안전하지 않을 것이기 때문입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3952"
    }
   ],
   "mentions7d": {
@@ -2080,12 +1963,12 @@
    "메카": 2,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-08T19:32:39Z"
+  "last_ok_at": "2026-11-08T23:39:04Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T19:32:42Z",
+  "fetched_at": "2026-11-08T23:39:04Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2809,13 +2692,27 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-08T19:32:42Z"
+  "last_ok_at": "2026-11-08T23:39:04Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T19:32:43Z",
+  "fetched_at": "2026-11-08T23:39:05Z",
   "kr": [
+   {
+    "date": "2026-11-08",
+    "published": "2026-11-08T21:27:00+00:00",
+    "source": "YTN",
+    "title": "후티 반군, 사우디 '심장부' 금융지구까지 공격",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAta2QzUVphdVJUSUp5bUNPOTA1WHVvLVo3RzFYbS1kbm9FVElHLW85Y1ZqX29wdGhGX1pReHlIQ3R2UEV3dWRWa0ZlRnNiaXdRTWxwc2ZMU3N0MW5CWVE?oc=5"
+   },
+   {
+    "date": "2026-11-08",
+    "published": "2026-11-08T20:04:51+00:00",
+    "source": "연합뉴스",
+    "title": "사우디 금융지구 후티에 피격…아람코 타워도 피해",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lTkMzSkQzZVZ2aDI0NlJUU3E0UkFGd21XdGszVVdlZnVBYVdTVDVtTWZ0ZnFJZDlIbm1wQm5JSnJzYk9SQTlCenp3WmhRYWZBX1ZFUVEtcy0xY1VUSVBtMm03dC1mZnpuRVBEUWZfMEpuSlZn?oc=5"
+   },
    {
     "date": "2026-11-08",
     "published": "2026-11-08T14:27:00+00:00",
@@ -2832,33 +2729,33 @@
    },
    {
     "date": "2026-11-08",
-    "published": "2026-11-08T13:59:22+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 '심장부' 금융지구 피격…\"후티 공격에 아람코타워 파손\"(종합2보)",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOTVZYalFHOEtOMUFrVU56NWU0NUZzOFFkSDNfYlBqTXM3cWRSdGFJX3A0QWJ0YmZmTUhuOG04N0c0cFpjaE5weUFBVU5jdlBEVXZ6SGtMS1hWSXk5bU5IetIBYEFVX3lxTFBOTVZYalFHOEtOMUFrVU56NWU0NUZzOFFkSDNfYlBqTXM3cWRSdGFJX3A0QWJ0YmZmTUhuOG04N0c0cFpjaE5weUFBVU5jdlBEVXZ6SGtMS1hWSXk5bU5Ieg?oc=5"
-   },
-   {
-    "date": "2026-11-08",
     "published": "2026-11-08T13:13:00+00:00",
     "source": "한국일보",
     "title": "후티, 사우디 수도 중심부 금융지구 공격…아람코 타워도 손상",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EdGJjUUxkOEt3dkRkaVhIa2N6a1NfTzBGZW9rbjdoQUl0TkR3eE9sSENsRkZpelI3MFdzTW1kMG5jdkh1b01pOGdrcjBsV3R5Y3JsSnpoeDJMOTk5VnVDeTJCNGNQU1NEVzAzY0RB0gFzQVVfeXFMTzBaSGFEZFdyTWE4X3pueG9kTHhiUXI1ZkFvSGoyRUtvTjd6ZmFocmVDR2N3ZTFoejhQNlJDeW05Ti1UQ0lyY0xRY000OVY5dW01QVluU1dTOUh4c09sTVk3TzFmZlQzb0h3ZXdlQmNOeVZvTQ?oc=5"
-   },
-   {
-    "date": "2026-11-08",
-    "published": "2026-11-08T13:00:00+00:00",
-    "source": "한겨레",
-    "title": "후티, 사우디 금융지구 아람코 건물 공격…사상자는 없어",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRm5mazNfRmlSM3ZJN3M1S1F1MXZIb2E1V2hSUmxYNnRJQldBLXRoRzB1UVoxNFdwOTRlWU9hejd0U09aYmhCaVMxTzhEY0J0Q2RpWmdrOWI5UGlYZDVLTDFSSmhmLUs1T2FDZEJZeTRSQjg1NlM1RWg4Y29UUGs1TVNR?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-08",
-    "published": "2026-11-08T17:35:53+00:00",
+    "published": "2026-11-08T21:37:36+00:00",
+    "source": "BBC",
+    "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VWXVuNjJEM3hfaS13WXVRc05fa3NmSG5fMXNYdEpsZUdtZ0FaTVV4a1dDMmh4akU3WUNTdENNeXBZLXpyMUpGaER5ZHRqRjFzRzN1QUdWSF8zVGsxUHc?oc=5"
+   },
+   {
+    "date": "2026-11-08",
+    "published": "2026-11-08T20:39:47+00:00",
     "source": "The National",
-    "title": "Middle East latest: Saudi Aramco building in Riyadh damaged in attempted attack",
+    "title": "Middle East latest: Trump plays down prospect of new strikes on Iran",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNME42cE40Mk9sODA3dHc5LWNWZTRab1JhY1RmcVA0WklGQ0VOUlRUSkhXc0x2eThQM3lCVE43VlpnSWgwVUFSb29RVW5oZnBPMjFzWXkxYXAxSEUtTHpRcmRFR3pBTUxIX1F4clI5clBrTVNodTRPOHl2c3dlREFqdW9ROWx3R2xoS1JLMWVPSXI?oc=5"
+   },
+   {
+    "date": "2026-11-08",
+    "published": "2026-11-08T19:11:37+00:00",
+    "source": "The National",
+    "title": "Aramco building in Riyadh damaged in attempted attack, ministry says",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOEktSTRVYjlicjNvZFA1ZllFLXJ3NmZJb2RCdElqRGlibmFvdFA0R0JxQXpuNmdmS1U3ZnFnVnFqNnR0QTVqNjNNX3J4U1hEeEp5VGdrVzBUTm1lU2xUNFBKZ2hiQkdPYjZHX0thTUYtOUtWVEV6Zy1mampMV3k1OXdGOFRaNEYwa3pHdEdxWjc2OUVYN0NPLUNWNGVoQmZxYi1INWkxZUo4WXhPNG0xbkIzZFNoZVMwUEppeTlxWWFGN1U?oc=5"
    },
    {
     "date": "2026-11-08",
@@ -2873,32 +2770,18 @@
     "source": "Arab News",
     "title": "Qatar, Bahrain, and Syria condemn Houthi missile attacks on Riyadh",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV05UbWVKZjVxaGx5el9nbUNKWGtPMHhYZ0JWNzR6WDNhSnF3c0hDNFRXV2pFdDlNRTZsb2F4RkZCUDdGQnZ5QThWdVZyOUJzeHVyb2Q4R250SndfS01UTTdITVBIQ0NYVlEtUEhuZmFlZWlKRnhBQTcyU08ydHY5QjlrY2ZBbnBQUmhaRVZUeWdzNTg5cndhYzJLOG1pX1BSdEZ3LWRhdm44SEl6QUE?oc=5"
-   },
-   {
-    "date": "2026-11-08",
-    "published": "2026-11-08T13:28:21+00:00",
-    "source": "NBC News",
-    "title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRkVnbFl5NGk3T1MxTzYtWXRzU3E3bXMwcEpLSGJkaFVyVWNaWDZSZTZOWDF0LUhoYkpQbW4ta0FYWldZVEZ4LTBUTklJbHVmTlh6ZFhVWmtTYzN2T3BTVkozS1FHdUNVTjhiOG5EWEFBTmpUbmRLczBBSXNCOWE2Nk44djE1ZUc1ai1vNzlSdDhLTUZ3Nk1FLWRVV29jY252Wl9EdUx0MVA1OUhlSVVra09ORGsyalNiUExoeFBCbw?oc=5"
-   },
-   {
-    "date": "2026-11-08",
-    "published": "2026-11-08T13:19:35+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-08T19:32:43Z"
+  "last_ok_at": "2026-11-08T23:39:05Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T19:32:44Z",
+  "fetched_at": "2026-11-08T23:39:06Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 28,
-  "baseline": 24,
-  "baseline_n": 11,
+  "count": 39,
+  "baseline": 26.0,
+  "baseline_n": 16,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3154,14 +3037,15 @@
    "2026-11-08T00": 38,
    "2026-11-08T07": 36,
    "2026-11-08T15": 32,
-   "2026-11-08T19": 28
+   "2026-11-08T19": 28,
+   "2026-11-08T23": 39
   },
-  "last_ok_at": "2026-11-08T19:32:44Z"
+  "last_ok_at": "2026-11-08T23:39:06Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-08T19:32:44Z",
-  "last_ok_at": "2026-11-08T19:32:44Z"
+  "fetched_at": "2026-11-08T23:39:06Z",
+  "last_ok_at": "2026-11-08T23:39:06Z"
  }
 }
