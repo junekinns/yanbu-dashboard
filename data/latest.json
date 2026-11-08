@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:01:38Z",
+ "generated_at": "2026-11-08T19:32:24Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T15:01:38Z",
+  "fetched_at": "2026-11-08T19:32:24Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 5.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-08T15:01:38Z"
+  "last_ok_at": "2026-11-08T19:32:24Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T15:01:57Z",
+  "fetched_at": "2026-11-08T19:32:39Z",
   "events": [
    {
     "date": "2026-11-08",
@@ -1295,14 +1295,26 @@
   "history_days": 31,
   "history_since": "2026-10-09",
   "today": "2026-11-08",
-  "last_ok_at": "2026-11-08T15:01:57Z"
+  "last_ok_at": "2026-11-08T19:32:39Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T15:01:58Z",
+  "fetched_at": "2026-11-08T19:32:39Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-08 19:37",
+    "iso": "2026-11-08T19:37:41+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 91 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات صعدة وتعز وحجة والحديدة والجوف ولحج من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4460 غارةً جويةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트, 타이프 및 나즈란의 미사일 공격 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기를 통해 사다, 타이즈, 하자, 호데이다, 알자우프 및 라흐지 주지사의 민간 물체를 겨냥한 91번의 공습과 미사일 공습을 감행하여 민간인이 사망하고 부상을 입었습니다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 4,460 회입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4043"
+   },
    {
     "time": "2026-11-08 16:40",
     "iso": "2026-11-08T16:40:55+03:00",
@@ -2057,23 +2069,23 @@
    }
   ],
   "mentions7d": {
+   "나즈란": 8,
    "카미스무샤이트": 8,
-   "나즈란": 7,
-   "리야드": 6,
-   "지잔": 6,
    "타이프": 6,
+   "리야드": 6,
+   "지잔": 5,
    "아브카이크": 2,
    "담맘": 2,
    "메디나": 2,
    "메카": 2,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-08T15:01:58Z"
+  "last_ok_at": "2026-11-08T19:32:39Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T15:02:02Z",
+  "fetched_at": "2026-11-08T19:32:42Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2797,12 +2809,12 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-08T15:02:02Z"
+  "last_ok_at": "2026-11-08T19:32:42Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T15:02:03Z",
+  "fetched_at": "2026-11-08T19:32:43Z",
   "kr": [
    {
     "date": "2026-11-08",
@@ -2820,6 +2832,13 @@
    },
    {
     "date": "2026-11-08",
+    "published": "2026-11-08T13:59:22+00:00",
+    "source": "연합뉴스",
+    "title": "사우디 '심장부' 금융지구 피격…\"후티 공격에 아람코타워 파손\"(종합2보)",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOTVZYalFHOEtOMUFrVU56NWU0NUZzOFFkSDNfYlBqTXM3cWRSdGFJX3A0QWJ0YmZmTUhuOG04N0c0cFpjaE5weUFBVU5jdlBEVXZ6SGtMS1hWSXk5bU5IetIBYEFVX3lxTFBOTVZYalFHOEtOMUFrVU56NWU0NUZzOFFkSDNfYlBqTXM3cWRSdGFJX3A0QWJ0YmZmTUhuOG04N0c0cFpjaE5weUFBVU5jdlBEVXZ6SGtMS1hWSXk5bU5Ieg?oc=5"
+   },
+   {
+    "date": "2026-11-08",
     "published": "2026-11-08T13:13:00+00:00",
     "source": "한국일보",
     "title": "후티, 사우디 수도 중심부 금융지구 공격…아람코 타워도 손상",
@@ -2831,22 +2850,36 @@
     "source": "한겨레",
     "title": "후티, 사우디 금융지구 아람코 건물 공격…사상자는 없어",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRm5mazNfRmlSM3ZJN3M1S1F1MXZIb2E1V2hSUmxYNnRJQldBLXRoRzB1UVoxNFdwOTRlWU9hejd0U09aYmhCaVMxTzhEY0J0Q2RpWmdrOWI5UGlYZDVLTDFSSmhmLUs1T2FDZEJZeTRSQjg1NlM1RWg4Y29UUGs1TVNR?oc=5"
-   },
-   {
-    "date": "2026-11-08",
-    "published": "2026-11-08T11:46:00+00:00",
-    "source": "조선일보",
-    "title": "후티, 사우디 수도 마천루까지 때렸다 \"아람코 타워 피격\"",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0g0THlSeG1TOEsyZDhBd2xSdmFNcnZpVHNVNmhKc0h3U0phS2ZHRC1lUDBXcFVxSUdibE9RdkdXSVZhRE1qdjB6Qzh0TUdFeV9PWGx5amRhdTByUVZhOTdJdUFTRTVELVdCX0VyYjZKelEzR1BIVUFXS0tWNHVEZnhwd2Q2U3AxZFpaY1FYdmRwOWhHaHg0eWJqYVBldw?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-08",
-    "published": "2026-11-08T14:35:57+00:00",
+    "published": "2026-11-08T17:35:53+00:00",
     "source": "The National",
     "title": "Middle East latest: Saudi Aramco building in Riyadh damaged in attempted attack",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNME42cE40Mk9sODA3dHc5LWNWZTRab1JhY1RmcVA0WklGQ0VOUlRUSkhXc0x2eThQM3lCVE43VlpnSWgwVUFSb29RVW5oZnBPMjFzWXkxYXAxSEUtTHpRcmRFR3pBTUxIX1F4clI5clBrTVNodTRPOHl2c3dlREFqdW9ROWx3R2xoS1JLMWVPSXI?oc=5"
+   },
+   {
+    "date": "2026-11-08",
+    "published": "2026-11-08T17:15:42+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLUpUaXJBZU5CYXNqcDJjZkEtUlc5MWZRcVlsWmFWaWhDcHRJMTNLM05iV25SMEtHTGZyTTZHN3NlaGlGY1dwUFUxQmxXcFNxdmt5R3J1MVJGbmdjblFVMmR0UldtU2M3b0htSGE0YmNBSnNpd1JtVnJHTWlMMnRycHdYUFR1WGN5ck1rdjM0ZmtjNEstR1ZjZjh5X1d2M3g4RUY0bXVoR1VOOUNuWllTVm9qVzJuQQ?oc=5"
+   },
+   {
+    "date": "2026-11-08",
+    "published": "2026-11-08T15:23:07+00:00",
+    "source": "Arab News",
+    "title": "Qatar, Bahrain, and Syria condemn Houthi missile attacks on Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV05UbWVKZjVxaGx5el9nbUNKWGtPMHhYZ0JWNzR6WDNhSnF3c0hDNFRXV2pFdDlNRTZsb2F4RkZCUDdGQnZ5QThWdVZyOUJzeHVyb2Q4R250SndfS01UTTdITVBIQ0NYVlEtUEhuZmFlZWlKRnhBQTcyU08ydHY5QjlrY2ZBbnBQUmhaRVZUeWdzNTg5cndhYzJLOG1pX1BSdEZ3LWRhdm44SEl6QUE?oc=5"
+   },
+   {
+    "date": "2026-11-08",
+    "published": "2026-11-08T13:28:21+00:00",
+    "source": "NBC News",
+    "title": "Saudi Aramco building in Riyadh damaged by falling debris after attempted attack, ministry says",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRkVnbFl5NGk3T1MxTzYtWXRzU3E3bXMwcEpLSGJkaFVyVWNaWDZSZTZOWDF0LUhoYkpQbW4ta0FYWldZVEZ4LTBUTklJbHVmTlh6ZFhVWmtTYzN2T3BTVkozS1FHdUNVTjhiOG5EWEFBTmpUbmRLczBBSXNCOWE2Nk44djE1ZUc1ai1vNzlSdDhLTUZ3Nk1FLWRVV29jY252Wl9EdUx0MVA1OUhlSVVra09ORGsyalNiUExoeFBCbw?oc=5"
    },
    {
     "date": "2026-11-08",
@@ -2854,39 +2887,18 @@
     "source": "Al Jazeera",
     "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5"
-   },
-   {
-    "date": "2026-11-08",
-    "published": "2026-11-08T13:05:01+00:00",
-    "source": "The New York Times",
-    "title": "Saudi Aramco Tower Damaged as Yemen’s Houthis Attack Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNnVZQXBkYXFpSEd2Mk9LUnNxNTRRaVFWaVREQ1NxeXI0enROaGVMX1RKc041WWtaLU9hYjVQSGxLZHlyNUItaWxSRVB3a3lkMWZ5eDFuM3RhYTgzSy03cmVTZGZ2QlB6NTNNTERfRG01Uk1aV0pJUFMzd1BmSURQWnhfcFlNRUxVbjJNbXV2MA?oc=5"
-   },
-   {
-    "date": "2026-11-08",
-    "published": "2026-11-08T12:50:36+00:00",
-    "source": "Bloomberg",
-    "title": "Aramco’s Riyadh Office Suffers Limited Damage After Attack",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU19DajRQTHE4Z25PN1BCcHhpNENBSWZiVHJaOWZXNjBGQldFd0VldkZlY05YUlNTVlp1WEVodFRmdW56T3RFVUI1TlFUY1JrenVRaE8xS091NmVMWE51SmZ3WFV0VE5UUFJTdFVlaFBnTkNNaXIwLU5GWlpCeVMwdERYZHV4QlBVa2ZBNVVBanpqbEpGdFhEVjl4MFdLYUlDUTdvYkt6TnFheGJ0bDY4?oc=5"
-   },
-   {
-    "date": "2026-11-08",
-    "published": "2026-11-08T12:16:02+00:00",
-    "source": "Financial Times",
-    "title": "Saudi Aramco office in Riyadh damaged in latest Houthi strikes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd0pYaTlDYm1VZnZDclFIendYbXdjbUpSbzJIR0dKSXlTUFNaTTZjSFd5T0huLWJZQlc2dGJxTWpUbHVoZ1JJbFhIQ3dOZWtzeWVMbVp6eXZYMlUyTldVc0JIdHVPNndGbEdTOHVOdUhtUHppZHhZVHVhNy14eVJJUHJYazM?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-08T15:02:03Z"
+  "last_ok_at": "2026-11-08T19:32:43Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-08T15:02:04Z",
+  "fetched_at": "2026-11-08T19:32:44Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 32,
-  "baseline": 31.0,
-  "baseline_n": 12,
+  "count": 28,
+  "baseline": 24,
+  "baseline_n": 11,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -3141,14 +3153,15 @@
    "2026-11-07T20": 27,
    "2026-11-08T00": 38,
    "2026-11-08T07": 36,
-   "2026-11-08T15": 32
+   "2026-11-08T15": 32,
+   "2026-11-08T19": 28
   },
-  "last_ok_at": "2026-11-08T15:02:04Z"
+  "last_ok_at": "2026-11-08T19:32:44Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-08T15:02:04Z",
-  "last_ok_at": "2026-11-08T15:02:04Z"
+  "fetched_at": "2026-11-08T19:32:44Z",
+  "last_ok_at": "2026-11-08T19:32:44Z"
  }
 }
