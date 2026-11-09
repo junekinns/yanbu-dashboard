@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T06:05:59Z",
+ "generated_at": "2026-11-09T16:06:03Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-09T06:05:59Z",
+  "fetched_at": "2026-11-09T16:06:03Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 3,
   "baseline": 5.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-09T06:05:59Z"
+  "last_ok_at": "2026-11-09T16:06:03Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-09T06:06:19Z",
+  "fetched_at": "2026-11-09T16:06:19Z",
   "events": [
+   {
+    "date": "2026-11-09",
+    "time": "10:58",
+    "iso": "2026-11-09T10:58:59+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "[영상] 후티 공격에 사우디 리야드 금융지구 '아람코 타워' 파손",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQSHBaLUsyWHh2LTBHLXJHOE54bGVwMUZuT0s2SGxuSzUxS2UyM3doVUR1aUEwelVWdmJWRzdCZHRiWTJpVDFuX09YMmp6RVVtLVBGNkhvNzgyUHPSAWBBVV95cUxPNkVXMUZ2c0ZCQ3BUTGtvMkdhTmZUTjVoNkFjM2YtQVhpTnVpVEs4NVB4NldxbzdDZlU5ekVFMjQtYnhDdVBlVnUwNGhzV0o3a2ZqdmRwSlQ1MHc4Wjd4U1Q?oc=5",
+    "source": "연합뉴스",
+    "outlets": 1
+   },
    {
     "date": "2026-11-08",
     "time": "14:02",
@@ -1175,11 +1189,11 @@
    },
    "리야드": {
     "7d": {
-     "피격": 1,
+     "피격": 2,
      "공습": 1,
      "경보": 1
     },
-    "total7d": 3,
+    "total7d": 4,
     "prev7d": {
      "요격": 4,
      "피격": 1
@@ -1266,12 +1280,12 @@
   "history_days": 31,
   "history_since": "2026-10-10",
   "today": "2026-11-09",
-  "last_ok_at": "2026-11-09T06:06:19Z"
+  "last_ok_at": "2026-11-09T16:06:19Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-09T06:06:20Z",
+  "fetched_at": "2026-11-09T16:06:20Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1963,12 +1977,12 @@
    "메카": 2,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-09T06:06:20Z"
+  "last_ok_at": "2026-11-09T16:06:20Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-09T06:06:21Z",
+  "fetched_at": "2026-11-09T16:06:21Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [
    {
@@ -2004,96 +2018,96 @@
     "confidence": "nominal"
    }
   ],
-  "last_ok_at": "2026-11-09T06:06:21Z"
+  "last_ok_at": "2026-11-09T16:06:21Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-09T06:06:21Z",
+  "fetched_at": "2026-11-09T16:06:22Z",
   "kr": [
+   {
+    "date": "2026-11-09",
+    "published": "2026-11-09T12:59:00+00:00",
+    "source": "KBS",
+    "title": "시리아, 사우디 파병설 부인 “파병 계획도 없어”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhTjVTbzZVUEF1aVpmY0MzTDVmakxHOGhmRF8xSHhmMU1XSlU4NTZndlBwbFVpT1hVVE5Oc3g4cEgtNTZZVUZ6dG9OVU9hY3QyQWJuYnBPVEtuRzg?oc=5"
+   },
+   {
+    "date": "2026-11-09",
+    "published": "2026-11-09T10:29:00+00:00",
+    "source": "채널A",
+    "title": "사우디 ‘경제 심장’ 뚫렸다…아람코 타워 파손",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmbmRiRGVpZ0d5Y1pPUDlJbjlEbGoxQ3ZGWGNQX2NWRDBoNVFocnYwRGJkRTNpakd0dnBUbjhxYzRWdENqNDVNQTdGUmM4cVctYTdvU19rRk9CQnV2ZmNsMzBfc9IBY0FVX3lxTFBmbmRiRGVpZ0d5Y1pPUDlJbjlEbGoxQ3ZGWGNQX2NWRDBoNVFocnYwRGJkRTNpakd0dnBUbjhxYzRWdENqNDVNQTdGUmM4cVctYTdvU19rRk9CQnV2ZmNsMzBfcw?oc=5"
+   },
+   {
+    "date": "2026-11-09",
+    "published": "2026-11-09T08:18:26+00:00",
+    "source": "연합뉴스",
+    "title": "[쇼츠] 후티 공격에 사우디 '아람코 타워' 파손",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KM1V5T0loVFktaGlLMmMtbzJFV3RCSm1TcTM5aVBRa0QteW1EM0ZPLW52Y1U2bEUyS1FoZllJR3lCZ0NwX0cwcnEyUXZUaTFQeHpoWlpkOUpWaUnSAWBBVV95cUxNOFZNd0luVmFta0g5YXk3S1pSU3VmeGNlOVFUZEFKR0hRVzZXR1lRcXJ0R0dyc1lMZEZGMEFKTXladl9Ka29uOHpJX2R5U0RaOHdEQzhNQjVyV3F3cUJrQW4?oc=5"
+   },
+   {
+    "date": "2026-11-09",
+    "published": "2026-11-09T07:58:59+00:00",
+    "source": "연합뉴스",
+    "title": "[영상] 후티 공격에 사우디 리야드 금융지구 '아람코 타워' 파손",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQSHBaLUsyWHh2LTBHLXJHOE54bGVwMUZuT0s2SGxuSzUxS2UyM3doVUR1aUEwelVWdmJWRzdCZHRiWTJpVDFuX09YMmp6RVVtLVBGNkhvNzgyUHPSAWBBVV95cUxPNkVXMUZ2c0ZCQ3BUTGtvMkdhTmZUTjVoNkFjM2YtQVhpTnVpVEs4NVB4NldxbzdDZlU5ekVFMjQtYnhDdVBlVnUwNGhzV0o3a2ZqdmRwSlQ1MHc4Wjd4U1Q?oc=5"
+   },
    {
     "date": "2026-11-09",
     "published": "2026-11-09T02:40:02+00:00",
     "source": "MBC",
     "title": "하루 새 70여명 피살‥이란·사우디 대리전 된 예멘 내전 격화",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zcTB1RHl4TngxME5pWHM3NXJhOWVYUE13LWNha0NlakhxQjlRaVBSMXB2WHVTc3AwRW9IUldIX0JfWFlVcjJoeUdJMWdBV2hFRkJXeHVCTXN4WFhhZFZiRl9qak5ybU1KZTZRUnU4SmY4NGF40gF0QVVfeXFMT0N5Ukh0T0puZkw2RkFPb1FURU1OUE02T28zd2IySEpMd0Jib2JyRjVzZGFuRS0zX0lydUZIRXdCQUwwMENrbzNnVFVobWg4a1MxaVU4SFJlek9JVFllbmxQdlRsejJpR1ZfY2EwTGhNcHY5aTY?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T01:45:00+00:00",
-    "source": "KBS",
-    "title": "시리아, 사우디-후티 전선에 파병 추진…“사우디 경제 지원”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ncDJtZmE3V3FtLW5wUS1LZk1kYUZZTERWMFRBODdqVVV1cmhNU3RINEJxZ21rVllNcFc2VGtVcENtaXV1SWNrNjZXckYwc1VuLVFxOUR0U2ZMMlE?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T01:41:33+00:00",
-    "source": "SBS",
-    "title": "하루 새 70여 명 사망…이란·사우디 대리전 된 예멘 내전 격화",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWEZjZTRtYXpEWFlZd01BTmwzQ2k4V3FGU3ptWHpJSVJiaS03UG5zRTlXTUVnOHQ5c3ZuS2prdFBjbERDY045eUxjcjlmVzdkM1dLU0UxUTh2Y3piZktDNURrVk9Xb1VBYWY4VmQ2NC1KNHVYcUlFSVJicnJwSDBDZkNrdzJwdw?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T01:38:00+00:00",
-    "source": "KBS",
-    "title": "사우디-후티 공방에 예멘 민간인 피해 급증",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xVUVoN25hUDBKeWpLcHNlMHJ2WlBJcThjTzY0T3laQ2dfckw3ZG1rY3prQzc1eDk1OTFxUmtzbUxjQ3pvWlZxdjFHN2d5bHR1SVFPM2VmN253TXc?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T01:28:46+00:00",
-    "source": "연합뉴스",
-    "title": "시리아, 후티와 싸우는 사우디에 경제지원 받고 파병 추진",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Pa1lJSkdudUZzclFsS1ZaWmpiczREV1A3SmN1YWVnZm1tVElHRkFmQ3FlbE5JSVR0a0w1aW9YbTV5RnNnOHZudk5raE4yYjhVMkprUFBtMEdHUkcyTHZkR9IBYEFVX3lxTE1Pa1lJSkdudUZzclFsS1ZaWmpiczREV1A3SmN1YWVnZm1tVElHRkFmQ3FlbE5JSVR0a0w1aW9YbTV5RnNnOHZudk5raE4yYjhVMkprUFBtMEdHUkcyTHZkRw?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-11-09",
+    "published": "2026-11-09T14:41:55+00:00",
+    "source": "The National",
+    "title": "Middle East latest: 'We need both': No choice between deterrence and diplomacy, says Dr Gargash",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5"
+   },
+   {
+    "date": "2026-11-09",
+    "published": "2026-11-09T13:15:54+00:00",
+    "source": "Al Jazeera",
+    "title": "Syria confirms sending troops to Saudi Arabia amid battle against Houthis",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDdTSjlMcUdhQVRNTVB2ZVlSQlNLZ3dLSGJWdXRmNjh0OFlobzNFMFZHUDhZVDc4OENTLUpNZkkzWnpHeEk1eEwtN1lCanlGZDRKX0o5eWVvVGxaWUhxaDhxTnZicU5kLUtJMWhOMWZCTUlENVF3RjBWNDZhMEM4cy1nVXNWUlpzenNMUnNzWW9oTG8ydFNLVDNCckdEeFpOUkZMYWd5aGhTRnljdThPVVVzTkZLNTRLcmfSAb8BQVVfeXFMTnRwWWpRM0YybjRoT3RhZS1CUFhEanRzWlF2cFdtWHJrQktGSWFDOHhWUGI3OEk2NWlQVU9TRDExMGhlbGlNUkc2U2tEelBhdkRCVHFSdWJJVGNjbHZNNHRHM2pjNVFfMmR3cUc0emdDSFZnTk15RWJzeHRkRW5Gd0xZaWFlT3ZfWFg4WlQ1aDh2bk9CR2FSVWcwbExVM1pBS2g5OGdDa3JIMUlvZnFhYXNkRVBPbWk2VWZ5eHJCRk0?oc=5"
+   },
+   {
+    "date": "2026-11-09",
+    "published": "2026-11-09T10:18:03+00:00",
+    "source": "France 24",
+    "title": "Saudi Arabia intercepts Houthi missiles as Riyadh's Aramco building damaged",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2otU0ZLd0JackZ0WU9pajY4Tm9zWWhDMUEzY3hzLVRidWpZcm5uVlVXZTJFLW9QQm5ueHoxNzBLVzhiSS1abnU5VEpEWElTVkJ4NlpIZkhlVVUtU0VDY0xBVXVSeFBoMkw2UnE5UnFpbFJzd2o5bUNNbEhablotRFBUUjV2dmo0WjkzRTVheUxsZ2xaMVhzMWplaFQ3cm43ZmIxd25fVU1ZOHZIUGVXcDVGTU5pOWoxNUE?oc=5"
+   },
+   {
+    "date": "2026-11-09",
+    "published": "2026-11-09T06:50:34+00:00",
+    "source": "Arab News",
+    "title": "Saudi Civil Defense lifts danger warning in Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb29KZVJSUHN1djRoYlBmaUFoeFdFeVExdkVtbllRRHo5eXdUOEhSaU14RGk2RnJZQVp2V1dPbkYxSDF4SFRHVzNFeThfUGduNnJxd1BPeXFGdlB0ZnNyY0JZeHhyQU5wQ195cHM2dGo0Ti0zT0UxMm9sZzQ5ZlBOQWdWQlZhMW53dWY1ZVpGYTU1cDQ1YUxTVzljTnY?oc=5"
+   },
    {
     "date": "2026-11-09",
     "published": "2026-11-09T05:22:00+00:00",
     "source": "Bloomberg",
     "title": "Saudi Aramco Tower Targeted in Rare Strike on Riyadh Finance Hub",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLUpUaXJBZU5CYXNqcDJjZkEtUlc5MWZRcVlsWmFWaWhDcHRJMTNLM05iV25SMEtHTGZyTTZHN3NlaGlGY1dwUFUxQmxXcFNxdmt5R3J1MVJGbmdjblFVMmR0UldtU2M3b0htSGE0YmNBSnNpd1JtVnJHTWlMMnRycHdYUFR1WGN5ck1rdjM0ZmtjNEstR1ZjZjh5X1d2M3g4RUY0bXVoR1VOOUNuWllTVm9qVzJuQQ?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T05:03:30+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Trump plays down prospect of new strikes on Iran",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T03:02:00+00:00",
-    "source": "Bloomberg",
-    "title": "Oil Extends Biggest Weekly Drop Since 2020 With Focus on Iran",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObUNGR2lBYkJramVOVjNteUMtWXNxZVBGWmEteFM5WG5Yb0pPYnpXTUZLM2ZVc280ampyejdfTkgzckNob1gzcUFyY293SnRVbWhlOHJmQ2Rzck05YVRwSlpKb0xXMVZKZUp5MVZjTmVWNjB5cjVSWWQxNmREUjNpTGdlY3FjcFhBY1VKLWhQdHBzaEFYaWNMeDRYUDE?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T02:17:28+00:00",
-    "source": "CNN",
-    "title": "CNN’s Oren Liebermann on missile attack on Riyadh’s financial district",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYUlQMjhEUTVwRy1wODNYMG5SY1ZlVVFPSkFESlBGS2V0cXozQ0ZKVFVXcm9DcDVsdWd3dDJZOXAwY2RST3hBaExvLTBzYkJJajVBZnIwUVJUTl9peGVxWkRjak5TYVJWeHNGOFhiT2ZIMTBDUThUYmEzbUIyd0kydEVOYURUS2NGMDFoOUNKc1lzaXZPdm50SjVLR2s2cEJ6bnRz?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T00:36:45+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi Aramco building in Riyadh damaged in ‘attempted’ attack",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOam9zc1FkUTVXSWFQS0FvbG5pRlRaTjVyRDNrU0pubVYtU1Q2SUM3T0NuVWltenY4VUNXRGh6LW1fLWRxcFVKWEhyY2ZlODZHdEV5UkJiNkhBOHpYUUY2U3FLNnM3RHpkS3o3Tm9jNnEzUEg1VGdCdmlHV0trMDdEX3p5UWp6XzJFTEtyWlBTUFhocldQcXlJeTg1N3d6d0FSMGk4WVdwZW16Q3Q4dlZTdDVoSm_SAboBQVVfeXFMTnlpdEw5V3RCT3NRU2pOUUdmSExLODRyNVY5US1jTnkyWG9POFRpM3JGMVFEb0ZpZ2ZieFBWd1Brd0kyQll0dlBtenRZQjVoQ2J6UDBQSFlCVDhfNU5obnpHM0lLYkpRVHJvUmt6YkRzc3loMnpiSnUtczlrOHdFTm5rNWVmdlJGbWt2RXhnbUxyaDBoRkN2dXBmM3R1T2JTczhaUEpiV3hZbmpVV1ZSSjh3ZUNQRXFNOVJn?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-09T06:06:21Z"
+  "last_ok_at": "2026-11-09T16:06:22Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-09T06:06:22Z",
+  "fetched_at": "2026-11-09T16:06:23Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 25,
-  "baseline": 26.0,
-  "baseline_n": 14,
+  "count": 26,
+  "baseline": 30.0,
+  "baseline_n": 12,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2351,14 +2365,15 @@
    "2026-11-08T15": 32,
    "2026-11-08T19": 28,
    "2026-11-08T23": 39,
-   "2026-11-09T06": 25
+   "2026-11-09T06": 25,
+   "2026-11-09T16": 26
   },
-  "last_ok_at": "2026-11-09T06:06:22Z"
+  "last_ok_at": "2026-11-09T16:06:23Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-09T06:06:22Z",
-  "last_ok_at": "2026-11-09T06:06:22Z"
+  "fetched_at": "2026-11-09T16:06:23Z",
+  "last_ok_at": "2026-11-09T16:06:23Z"
  }
 }
