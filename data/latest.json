@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T16:58:34Z",
+ "generated_at": "2026-11-10T22:18:12Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T16:58:34Z",
+  "fetched_at": "2026-11-10T22:18:12Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 4,
   "baseline": 5.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-10T16:58:34Z"
+  "last_ok_at": "2026-11-10T22:18:12Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T16:58:53Z",
+  "fetched_at": "2026-11-10T22:18:28Z",
   "events": [
    {
     "date": "2026-11-10",
@@ -1130,34 +1130,6 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5BQ2IzZTZSYkpRLXRYbWV2b09Sb3dqeGRlS1FtRFlCcEVCellCbnFnQnVPMFdpN0YwQ1p3amVUWks3M1prMWVuMW1GbmNtYmxxc0pubnAyRnY0LVRJZ09kQllWdjJiZHp3eGxsVkFVTU02V1BN0gF0QVVfeXFMT243OWpOd3cwLWNBSXBuUjAwVmNraDNsbDViY08zTVR6YlR1cWx6dWU2aHhTemtxSl94dmRXSnVUcWpjWmJxUjhPbHotbVNuTG5QWlhKMWdfU2ZLZUxRZTFtbDRvTTdrc2JDTS04TXc1VlI2dEY?oc=5",
     "source": "MBC",
     "outlets": 9
-   },
-   {
-    "date": "2026-10-11",
-    "time": "02:21",
-    "iso": "2026-10-11T02:21:56+03:00",
-    "city": "리야드",
-    "type": "피격",
-    "weapon": "미사일",
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "사우디 리야드 공항 또 공격받아‥“공항 운영 잠정 중단”",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KTU9oQnY3cXEtNlpoZWFTTEEwS0djVkV3dHctT1Z1VzNvLWxtenBwd2ZXenJfRXUwVkdndjRLc3IyUFhlQzlXVXl6bGp1d1FyamVRRnBweVhzM2lmQUNqOXBYd9IBY0FVX3lxTE1KTU9oQnY3cXEtNlpoZWFTTEEwS0djVkV3dHctT1Z1VzNvLWxtenBwd2ZXenJfRXUwVkdndjRLc3IyUFhlQzlXVXl6bGp1d1FyamVRRnBweVhzM2lmQUNqOXBYdw?oc=5",
-    "source": "채널A",
-    "outlets": 12
-   },
-   {
-    "date": "2026-10-11",
-    "time": "01:55",
-    "iso": "2026-10-11T01:55:00+03:00",
-    "city": "리야드",
-    "type": "공습",
-    "weapon": null,
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "리야드 공항 후티 공습에 최소 12명 사망...트럼프, 공격 동참 시사",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83ZXJOSXByOV9mcTZQUU5vU1RwNzJDY2FsZ1B3R3M2Q1ctaUVSTGlxWU9uc0FmZ093cHdfQUI3OXljZHVIaTNUX3FwNGc3MUVnMkV0LU1HNXNOSUU4cWZUeDYxcnhTbnVpcGMzQ1J1aw?oc=5",
-    "source": "YTN",
-    "outlets": 5
    }
   ],
   "tempo": {
@@ -1203,9 +1175,9 @@
     "total7d": 1,
     "prev7d": {
      "요격": 2,
-     "피격": 3
+     "피격": 2
     },
-    "prev_total": 5
+    "prev_total": 4
    },
    "타이프": {
     "7d": {},
@@ -1216,12 +1188,12 @@
    "리야드": {
     "7d": {
      "피격": 3,
-     "공습": 1,
-     "경보": 1
+     "공습": 1
     },
-    "total7d": 5,
+    "total7d": 4,
     "prev7d": {
-     "요격": 3,
+     "경보": 1,
+     "요격": 2,
      "피격": 1
     },
     "prev_total": 4
@@ -1304,14 +1276,14 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-10-11",
-  "today": "2026-11-10",
-  "last_ok_at": "2026-11-10T16:58:53Z"
+  "history_since": "2026-10-12",
+  "today": "2026-11-11",
+  "last_ok_at": "2026-11-10T22:18:28Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T16:58:54Z",
+  "fetched_at": "2026-11-10T22:18:29Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1956,74 +1928,13 @@
     "text_ar": "تدعو قواتنا المسلحة المتواجدين في مطار عدن للإخلاء الفوري للمطار نظرا لوجود طائرة شحن عسكرية تابعة للعدو السعودي تنقل أسلحة لقتل أبناء الشعب اليمني. http://t.me/army21ye",
     "text_ko": "우리 군은 예멘 국민을 죽이기 위해 무기를 수송하는 사우디 적의 군용 화물기가 있기 때문에 아덴 공항에 있는 사람들에게 즉시 공항으로 대피할 것을 요청합니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3975"
-   },
-   {
-    "time": "2026-10-27 19:46",
-    "iso": "2026-10-27T19:46:35+03:00",
-    "places": [
-     "타이프",
-     "지잔",
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 81 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات تعز ولحج وصعدة وحجة وإب من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من جيزان وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 3379 غارة جوية وصاروخا. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트, 타이프 기지에서 이륙한 \"F-15\" 와 \"타이푼\" 항공기를 통해 수도 사나와 타이즈, 라즈, 사다, 하지야, Ibb 주지사의 민간인 물체를 겨냥한 81번의 공습과 미사일 공습을 시작했고, 민간인들은 사망하고 부상을 입었다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 3,379회입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3974"
-   },
-   {
-    "time": "2026-10-27 17:23",
-    "iso": "2026-10-27T17:23:02+03:00",
-    "places": [
-     "아브하"
-    ],
-    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من استهداف مطار أبها الدولي بطائرة مسيرة وكانت الإصابة دقيقة وأدت إلى تعطل حركة الملاحة في المطار. http://t.me/army21ye",
-    "text_ko": "알라 덕분에 우리 군대는 무인 항공기로 아바 국제 공항을 공략할 수 있었습니다. 부상은 정확했고 공항에서 항해가 중단되었습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3972"
-   },
-   {
-    "time": "2026-10-27 16:45",
-    "iso": "2026-10-27T16:45:13+03:00",
-    "places": [
-     "리야드"
-    ],
-    "text_ar": "استهدفت قواتنا المسلحة بفضل الله وزارة الدفاع في عاصمة العدو السعودي الرياض بصاروخ باليستي وكانت الإصابة مباشرة بفضل الله. http://t.me/army21ye",
-    "text_ko": "우리 군은 신 덕분에 사우디 적 리야드의 수도인 국방부를 탄도 미사일로 겨냥했고, 신 덕분에 부상은 직접적이었다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3971"
-   },
-   {
-    "time": "2026-10-27 16:07",
-    "iso": "2026-10-27T16:07:15+03:00",
-    "places": [
-     "카미스무샤이트",
-     "나즈란"
-    ],
-    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من استهداف طائرتي نقل عسكرية بصاروخين بالستيين الأولى في مطار نجران والأخرى في قاعدة خالد الجوية بخميس مشيط وحققت العمليتان أهدافهما بنجاح بفضل الله. http://t.me/army21ye",
-    "text_ko": "신 덕분에 우리 군은 나즈란 공항과 카미스 무샤이트의 칼레드 공군 기지에서 두 대의 탄도 미사일로 두 대의 군용 수송기를 목표로 삼을 수 있었고, 두 작전은 신 덕분에 성공적으로 목표를 달성했습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3970"
-   },
-   {
-    "time": "2026-10-27 15:36",
-    "iso": "2026-10-27T15:36:26+03:00",
-    "places": [],
-    "text_ar": "تصدت قواتنا المسلحة بفضل الله لمحاولة تقدم قامت بها تحشيدات تابعة للعدو السعودي التى يشرف عليها الضابط السعودي بدر الحربي قائد القاعدة العملياتية المتقدمة في عدن من الاتجاه الجنوبي لباب المندب وقد تم استهداف تلك التحشيدات بعدد من الصواريخ الباليستية وبالأسلحة الثقيلة ما أدى إلى سقوط أعداد كبيرة من القتلى والجرحى وهرعت سيارات الإسعاف إلى أماكن الاستهداف. فيما دمر مجاهدو قواتنا المسلحة عددا من الآلي…",
-    "text_ko": "우리 군대는 하나님의 은혜로 바브 알 만다브 남쪽 방향에서 아덴의 첨단 작전 기지 사령관인 사우디 장교 바드르 알 하르비의 감독하에 사우디 적과 제휴한 동원에 의해 전진하려는 시도에 직면했다. 이러한 동원은 다수의 탄도 미사일과 중무기의 표적이 되었고, 이로 인해 많은 사망자와 부상이 발생했고, 구급차는 표적 지점으로 돌진했다. 우리 군대의 무자헤딘이 여러 대의 로봇을 파괴한 동안...",
-    "url": "https://t.me/army21ye/3969"
-   },
-   {
-    "time": "2026-10-27 13:54",
-    "iso": "2026-10-27T13:54:36+03:00",
-    "places": [
-     "라스타누라"
-    ],
-    "text_ar": "تمكنت القوات المسلحة اليمنية بعون الله تعالى من استهداف مصفاة رأس تنورة في المنطقة الشرقية بصاروخ باليستي وكانت الإصابة دقيقة بفضل الله وتسببت في نشوب حرائق ضخمة في الموقع المستهدف. http://t.me/army21ye",
-    "text_ko": "예멘군은 알라의 도움으로 탄도 미사일로 동부 지역의 라스 타누라 정유소를 공략할 수 있었습니다. 알라 덕분에 부상은 정확했고, 목표 위치에서 큰 화재를 일으켰습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3968"
    }
   ],
   "mentions7d": {
    "나즈란": 9,
-   "카미스무샤이트": 8,
    "리야드": 8,
-   "타이프": 7,
+   "카미스무샤이트": 7,
+   "타이프": 6,
    "지잔": 4,
    "아브카이크": 4,
    "메디나": 3,
@@ -2031,21 +1942,28 @@
    "담맘": 1,
    "메카": 1
   },
-  "last_ok_at": "2026-11-10T16:58:54Z"
+  "last_ok_at": "2026-11-10T22:18:29Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T16:59:02Z",
+  "fetched_at": "2026-11-10T22:18:30Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-10T16:59:02Z"
+  "last_ok_at": "2026-11-10T22:18:30Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T16:59:03Z",
+  "fetched_at": "2026-11-10T22:18:30Z",
   "kr": [
+   {
+    "date": "2026-11-10",
+    "published": "2026-11-10T21:06:00+00:00",
+    "source": "SBS",
+    "title": "후티 반군 사우디 리야드 공항·금융가·아람코 타격",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3STZOQ0RzenJUWUIwZzh5eHhrd2NXaUE1X3pSdFR0VkdERnJPYVE2T05ZTjF2eUtvNnBOSXpvY2l2OTltdWZnRlRjMHllUTVMRU9HSFZsajXSAVhBVV95cUxQN0k2TkNEc3pyVFlCMGc4eXh4a3djV2lBNV96UnRUdFZHREZyT2FRNk9OWU4xdnlLbzZwTkl6b2Npdjk5bXVmZ0ZUYzB5ZVE1TEVPR0hWbGo1?oc=5"
+   },
    {
     "date": "2026-11-10",
     "published": "2026-11-10T16:19:55+00:00",
@@ -2059,13 +1977,6 @@
     "source": "MBC",
     "title": "후티 \"사우디 리야드 공항·금융가·아람코 시설 타격\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBEZmZ0OUtPNVVLSDZxOFZuSWJmTEFSMG5JcVJYRGVtTDdaVFhVZ2MwM2dPTVZHNjRERG41cFJNdmY1QjlxOTV5aEEwVGx2dzdxR1FQeTA5RmEyd1VHU1MzRk5ycnVzM0luTElJRGQzZERKRmtR0gF0QVVfeXFMTlNmYWU2TWZOUWJrMVZlbGZDU1VDdXFQREtmb29GVS1IQXBMV1FQa0NPUFBCXzV1dTVLT1V6ejlRNkgwMzZaR0lUekNqdlZiY2dXY3VFUW5TcG1obmhiS2lxM181QS1nX0h1Z1hFTnlqckV6SXM?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:01:00+00:00",
-    "source": "KBS",
-    "title": "후티 반군 “사우디 리야드 공항·금융가·아람코 시설 타격”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oMkdzNGRQeFowX2xmN3Y3RDVXak45cVYwX2pqX29VZjJCcTlqQnJPY2x4TFgzbVBjMElKeUhXN3ktV1JyMnZIZ2hpMDhsamx3aUZieEluckVQbjQ?oc=5"
    },
    {
     "date": "2026-11-10",
@@ -2085,7 +1996,21 @@
   "en": [
    {
     "date": "2026-11-10",
-    "published": "2026-11-10T15:22:30+00:00",
+    "published": "2026-11-10T22:12:28+00:00",
+    "source": "The National",
+    "title": "Why Saudi-Houthi Escalation Will Repeat the Yemen Civil War’s Past Mistakes",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLURvRG5ILTFBS2hFM05YZzBLVUl3NlFNMDQ3NFpnZUcwcnVyX0x6RTZuZk5wUFVpWVAyZGlJMXNQM3lqQWhONVRiZ29UMUFlSXhjUS1pZ2NQUGRYMkFTa0J3ZDdLMTQwY2dUYktheFFNMDhUYXBSS19vVTZVWU0zNzN6M0lyQWhWVE9YZ01EZzRuR0dOZVZwS25xUVRRQ0g5ek5iUE1ZZmV4MFVqX0lieUJoTy11Q3lrVU5NR2Z0TlZzZVVt?oc=5"
+   },
+   {
+    "date": "2026-11-10",
+    "published": "2026-11-10T15:37:46+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Ship attacked in UAE waters, says operator Adnoc",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTMwLTRPRTZsZHJPR0lQTVNtNHdyWWxZNHMydXJzUjEySVZIZzJfUFlvbXZfQWJPc25aSm5kM3lzNmxFMFVMdFl3NTZLZWVjZnZPaTFyWjZtcl9peGd6ZlpDU2hnQmxDVFBLRlF1cVR3U2QwR2R4dWRRNEFDaDBzSTY2YUFWZEsyZ3dIOGQwX2tudV81a1pRRXQtVzl0TWYw?oc=5"
+   },
+   {
+    "date": "2026-11-10",
+    "published": "2026-11-10T15:26:09+00:00",
     "source": "Al Jazeera",
     "title": "Why the GCC is setting up an advanced military command base in Kuwait",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDBXTkt6aGFOYXdNblpCMkdudFRQOVBWdG0xbW1UWldrdkR3VWZFa25LVG1VV3A2SkJuOFZlQkZxWXZTMUI5eUJLd0lDSFAzdGl6YU80Yy1TQjdrNHQtblJHVll2bHl2bDUzcjF6RmV5UHVuUnUwc2dzWFlWT2xxTktfeDc4OXA2dVQzU19FUFRSdGZlanE5NGZCbi16VWJOWUc1WDlhZElZQnJjeU5FRdIBtgFBVV95cUxQRkpXRi1LRHRFWFNZRXVMU2lIVUpHbnlWV3hpajAtZVBiTFB5MFFSNVFHbHpfMzRoQjZ3VVUxWFduOF9CTHp5eHl6QlAyTnhpQWVTSkRwTmlZUTZGMklRNGsxMXNaSVFONGNrQ2hycERkNlFBdXBGMVh6V3RpTUwzYno2MjhVdXg0ZzNOSml0Y2dUakUtNEkxWkQwR25BaFYzM3Y4SE5EQWRmMTRqYkNuY01kVWk1UQ?oc=5"
@@ -2099,36 +2024,22 @@
    },
    {
     "date": "2026-11-10",
-    "published": "2026-11-10T12:57:00+00:00",
-    "source": "The New York Times",
-    "title": "Kenyan Domestic Worker Sentenced to 100 Lashes in Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSDN4eXBBeXprR3M3cC1iQnNmMGV6dU5kYjJVN3czc3FlX0t0eW1oTFZjRkNraHBDUXZiLWZrS3ZCVVl1MVppdEtYeGxHMUJIUmpIN2J0NG5MRllyT2JLMnFoVHEzMFVTZ0ZxU1lJUHpvQkhjTzJDR0pqdTgzTXVyY2Z1U0h1MThiVXFUcXNLMjJWcDRHXzdkTEZWckNjMTAz?oc=5"
-   },
-   {
-    "date": "2026-11-10",
     "published": "2026-11-10T11:02:25+00:00",
     "source": "Reuters",
     "title": "EXCLUSIVE: Saudi PIF weighs fresh fundraising options to generate cash from companies, sources say",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMjE3ajZGdmNvVHI2NXJmM0NQSnRPWHRuQTRGNnZHVFlSc2huTXhaajNiX3M1WjA1M3FJSXVfUEFEZ1lLVEZEenZhSVQyQ2s3OWZsRjhYWjlnX1ZUQmxvOHJpN3lkQ24tRC1iYktjMWtTcFh4Z2hpWF9yaWJlb2hvT3RVVWFtMDVJRm4yMGlIdFpjczBSVk41Rzc3YTh2WXE4RmhDcjUyV3NnMFZxek5Kd19MRFlXc01CenJhcGJDa3BTR1daYUxtS09EVWs?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T01:53:00+00:00",
-    "source": "Reuters",
-    "title": "Saudi-led coalition reports Houthi missile, drone interceptions; Saba reports Saudi strikes on Sanaa",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEFMZHZXSnB4Q1RWMGxYRGJrYUFLdXBsc2ZGcmowbDhlNGVjMWxtOWt6bno5WWZnd2F2NVNncnJKdFM1bm1QU2RGQmNNOFBXampZcHpYLU1mdGxIRFJ4Z0drcHcyNHYtTmhVWEVlY0FldWp1d3ZoWlpoZXljR2w1b1lvb2pSR3owY2tnbUF2MDFYQXZlNUxsUUM1TGdaQ1lJZ3ZSUzl6cVp2czBFeTA3akRSS19vMTR3LW1qcGZGUExhbEJQTlpzSFdfNGc2dw?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-10T16:59:03Z"
+  "last_ok_at": "2026-11-10T22:18:30Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T16:59:04Z",
+  "fetched_at": "2026-11-10T22:18:31Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 26,
-  "baseline": 30,
-  "baseline_n": 13,
+  "count": 24,
+  "baseline": 32.0,
+  "baseline_n": 14,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2390,14 +2301,15 @@
    "2026-11-09T16": 26,
    "2026-11-10T00": 26,
    "2026-11-10T08": 29,
-   "2026-11-10T16": 26
+   "2026-11-10T16": 26,
+   "2026-11-10T22": 24
   },
-  "last_ok_at": "2026-11-10T16:59:04Z"
+  "last_ok_at": "2026-11-10T22:18:31Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-10T16:59:04Z",
-  "last_ok_at": "2026-11-10T16:59:04Z"
+  "fetched_at": "2026-11-10T22:18:31Z",
+  "last_ok_at": "2026-11-10T22:18:31Z"
  }
 }
