@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T00:12:54Z",
+ "generated_at": "2026-11-10T08:18:56Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T00:12:54Z",
+  "fetched_at": "2026-11-10T08:18:56Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 5.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-10T00:12:54Z"
+  "last_ok_at": "2026-11-10T08:18:56Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T00:13:13Z",
+  "fetched_at": "2026-11-10T08:19:12Z",
   "events": [
    {
     "date": "2026-11-10",
@@ -213,13 +213,13 @@
     "iso": "2026-11-10T00:47:00+03:00",
     "city": "메디나",
     "type": "피격",
-    "weapon": null,
+    "weapon": "미사일",
     "lat": 24.47,
     "lon": 39.61,
     "title": "\"동서 송유관 메디나 구간 공격 당해\"…사우디 에너지 인프라 잇단 피격",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEZkNFMFU1NG15N19TMjVJMGtLT2xJS1dtOENyWDQ5U0VJaGpKUXczQmtpbnVYZTNZMV9aQ0s4c0xEdzhaNjRWeVkwY2dPYnVYSDFoYkNOYlNpaWJlVDBGMVpLQlBCempaWWY0ck9uRGVFSXPSAXNBVV95cUxQRGZDRTBVNTRteTdfUzI1STBrS09sSUtXbThDclg0OVNFSWhqSlF3M0JraW51WGUzWTFfWkNLOHNMRHc4WjY0VnlZMGNnT2J1WEgxaGJDTmJTaWliZVQwRjFaS0JQQnpqWllmNHJPbkRlRUlz?oc=5",
     "source": "한국일보",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-11-09",
@@ -1292,12 +1292,12 @@
   "history_days": 31,
   "history_since": "2026-10-11",
   "today": "2026-11-10",
-  "last_ok_at": "2026-11-10T00:13:13Z"
+  "last_ok_at": "2026-11-10T08:19:12Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T00:13:14Z",
+  "fetched_at": "2026-11-10T08:19:13Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1948,54 +1948,35 @@
    "담맘": 1,
    "아브하": 1
   },
-  "last_ok_at": "2026-11-10T00:13:14Z"
+  "last_ok_at": "2026-11-10T08:19:13Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T00:13:17Z",
+  "fetched_at": "2026-11-10T08:19:13Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
-  "hotspots": [
-   {
-    "lat": 23.86209,
-    "lon": 47.45622,
-    "frp": 9.88,
-    "date": "2026-11-02",
-    "time": "1013",
-    "confidence": "nominal"
-   },
-   {
-    "lat": 24.51197,
-    "lon": 46.86078,
-    "frp": 1.86,
-    "date": "2026-11-02",
-    "time": "1013",
-    "confidence": "low"
-   },
-   {
-    "lat": 25.63475,
-    "lon": 49.23337,
-    "frp": 1.33,
-    "date": "2026-11-02",
-    "time": "1013",
-    "confidence": "low"
-   },
-   {
-    "lat": 26.68207,
-    "lon": 50.11368,
-    "frp": 4.12,
-    "date": "2026-11-02",
-    "time": "1013",
-    "confidence": "nominal"
-   }
-  ],
-  "last_ok_at": "2026-11-10T00:13:17Z"
+  "hotspots": [],
+  "last_ok_at": "2026-11-10T08:19:13Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T00:13:18Z",
+  "fetched_at": "2026-11-10T08:19:14Z",
   "kr": [
+   {
+    "date": "2026-11-10",
+    "published": "2026-11-10T00:39:26+00:00",
+    "source": "뉴시스",
+    "title": "사우디 연합군 후티 미사일 파괴…동서송유관 메디나 구간 피격(종합)",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjR1BjRHVhek9GRUx0RGNzbE5BNHkzcW1EOXJ5NDBIcFNEdzgwd3QzNnhGY0FvNXRsRWVXMDlLd2lWQ0RoY2ZOcHdWR2kyNy1hMGtCTnU4TkxHbjd6TTdBY9IBeEFVX3lxTE84ZktaZEZjblhsQUdKc2F3TWd6NFk1c0RDcVc4eVVVbVRiMGVFeG1OTkF3R1JTdFNucFBJVVJ4ZzgyTHNpQUUteWZGVkdZck8waW03VFYzZWVxN09ZZVNjeGc3NW5JLUV6aEc4cUFQN2d5aDUybVdEZw?oc=5"
+   },
+   {
+    "date": "2026-11-10",
+    "published": "2026-11-10T00:26:09+00:00",
+    "source": "뉴시스",
+    "title": "후티군, 사우디 국내 외국기업에 \"폭격 피하려면 명단 내라\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RM2JnaUFrLURQZmVET3ZmNlc1VHg3RktmZEN6c2dKVmlkazB6Z0JHd2pJQXRNbkhlS1kwTEVULXJuNkU0WEt5cDRNalI2d0VuSDA2Qk9MSUF6M0I1YlZCWtIBeEFVX3lxTE5URTNqVXZ5Y1M3cWtWNjFTY25HaXRhcndiZi1mOFNpUEUxaGlES1l1TGJELUw0NW9ieHI4cmdtcUlFV1hEYmRyVk9PLUY1b1QwU1k3TUZKXzFTRDN2R2xpZEhxUnFfYlI4LXpIUlVxVFY5ZHpqdHZOSQ?oc=5"
+   },
    {
     "date": "2026-11-09",
     "published": "2026-11-09T20:22:37+00:00",
@@ -2016,29 +1997,29 @@
     "source": "KBS",
     "title": "“사우디 동서송유관 메디나 구간 피격”",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NcTZYMEljTlhiT2FVUDlLbDF5UExKSTd6a1dWYnE0djlkN2dmbVE1dVN3eFBpUTVpeEZwd3ZyXzhBd29DcGhiN1JYd0hqU2FxYl9kaGVONTVtVlU?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T17:45:35+00:00",
-    "source": "MBC",
-    "title": "\"사우디 동서송유관 메디나 구간 피격‥운영 차질 없어\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmLWVmRzRjTWlvQ24zT181SDdBeUxFb0xPYk5haGswcDRHdnpaRHVkLXUwTGx3SXlFOU13SXh2Q1dVOE1LZlI0d1I1VkJ3Y0s4Y0F1b2tYX2ZTYXRlYlpvaFdyWUhJWTRwZXlicU9aNUFxR3JJ0gF0QVVfeXFMTl9MNWJzV05MVEd0MDFubDkwaGZpT1pMQXBtMVQwSDFORWwzM2NNOU9nU3lSZzF2d3R3WHh3NTRod0JwR2NpM0hITlZhYmFfVk5ZZWVvMEhLUEU2LURNdlQ0UXk3UEYyQWpOUHAxa1N1dUVKN0M?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T12:59:00+00:00",
-    "source": "KBS",
-    "title": "시리아, 사우디 파병설 부인 “파병 계획도 없어”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhTjVTbzZVUEF1aVpmY0MzTDVmakxHOGhmRF8xSHhmMU1XSlU4NTZndlBwbFVpT1hVVE5Oc3g4cEgtNTZZVUZ6dG9OVU9hY3QyQWJuYnBPVEtuRzg?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-11-09",
-    "published": "2026-11-09T23:42:14+00:00",
+    "date": "2026-11-10",
+    "published": "2026-11-10T08:03:30+00:00",
     "source": "The National",
-    "title": "Middle East latest: Attack on Saudi oil pipeline causes fire",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5"
+    "title": "Middle East latest: Saudi coalition intercepts missiles fired at Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVy1acE1PeEpZb3pIWlZYUWYyYmFFdy1QVmpzdDRkaUl3UzJKVDhUYmc0ZmNtMFRzSkJrYjl5enpoOVh0LUd6Z1dJUXE4Z2RHWFd3NjNnNnQyMndWT0NLVDdVMW1HWFJhQlJ6YURNOUktNllWNE9td3A2OGVCTXNpdUR3?oc=5"
+   },
+   {
+    "date": "2026-11-10",
+    "published": "2026-11-10T06:22:45+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaGxFOUdxQ2o5dlYtdVRVY242bW5XLW4wQlhsWk92c3QxM1RneTJqTENuYkFza01ORTRrMTNaT0tqZTFIcHVkc2ZkVGxnWXJXX01lSkpXWkNvbFExSFo4cjZwQ21CQXU2bGU1YWRzOF9uRjBkc1I3TFZxU2lGSk4zeThZZVdtRWpKNU5PRzJUTFdPXzFscExmSDBiYlRLLUFBZkh2RkxPMWJoWEljcnZNY1JYUUxMUGFF0gG-AUFVX3lxTE91Tml0Z0VtT3U5OXlDQzBWTGp2WHdKb0dZVzBoU05aOEh1eXhYQXZZYVVNNUQyUlhicy14dm1KR3JkUWh0aHZNa3hOdENYZTdOd2JmbHluRmM0M2NJSHllNzF0Um1qUElNc0h2Rm83Q2RHaXhpMW1WdWhRYWxCZDRWVlRhOUVvZ1pUNlFPend1Mk5DMUZQX0dNOVhmWnUxeEhEblVqOG0ySFNCV0hxeTcxblMyeWtaQTBHSTBSUHc?oc=5"
+   },
+   {
+    "date": "2026-11-10",
+    "published": "2026-11-10T01:53:00+00:00",
+    "source": "Reuters",
+    "title": "Saudi-led coalition reports Houthi missile, drone interceptions; Saba reports Saudi strikes on Sanaa",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEFMZHZXSnB4Q1RWMGxYRGJrYUFLdXBsc2ZGcmowbDhlNGVjMWxtOWt6bno5WWZnd2F2NVNncnJKdFM1bm1QU2RGQmNNOFBXampZcHpYLU1mdGxIRFJ4Z0drcHcyNHYtTmhVWEVlY0FldWp1d3ZoWlpoZXljR2w1b1lvb2pSR3owY2tnbUF2MDFYQXZlNUxsUUM1TGdaQ1lJZ3ZSUzl6cVp2czBFeTA3akRSS19vMTR3LW1qcGZGUExhbEJQTlpzSFdfNGc2dw?oc=5"
    },
    {
     "date": "2026-11-09",
@@ -2053,32 +2034,18 @@
     "source": "Financial Times",
     "title": "Saudi Arabia’s vital East-West pipeline struck in attack",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYVc1aXVWTlN3MlpidFgtWnZKLUhrQkt3dWJPcVFnc3lyY045aDVrY1hzNzZycjQ3dHg2YUdZV2x4WlZqUkVlTU96WVZ6S243WG5Odmlia0FNS29WRXptdjVQeDdPSUROMTFXTHBWOWFla2tsNnRva3NPdU53RTRrdXdtMjM?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T17:43:45+00:00",
-    "source": "Reuters",
-    "title": "Saudi East-West oil pipeline hit in Medina region, state media reports",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeEtKMGZOdkpGT0I4d1dsaUtDQjlLSlhyV1o4M0Rqcm5KZHV4ZHhXeEdnTUwwV0x5eU1Ldmo1cFk0RG16SnFCMlZ0SkNlQzBmdkxPU2pmdmNqWmYwNEcwWGVVeEVNQVhqTnduTnZYNnVqZ3padlFRRkpGNGpYWHRRYVJsX0h3SXN6OFVaTWI2TGFfUVV2LVpLUGtydXppb0VFaDBNZy1YZ2pXWS1XSUxOTng3ZVpkZ18xd1E?oc=5"
-   },
-   {
-    "date": "2026-11-09",
-    "published": "2026-11-09T13:15:54+00:00",
-    "source": "Al Jazeera",
-    "title": "Syria confirms sending troops to Saudi Arabia amid battle against Houthis",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRDdTSjlMcUdhQVRNTVB2ZVlSQlNLZ3dLSGJWdXRmNjh0OFlobzNFMFZHUDhZVDc4OENTLUpNZkkzWnpHeEk1eEwtN1lCanlGZDRKX0o5eWVvVGxaWUhxaDhxTnZicU5kLUtJMWhOMWZCTUlENVF3RjBWNDZhMEM4cy1nVXNWUlpzenNMUnNzWW9oTG8ydFNLVDNCckdEeFpOUkZMYWd5aGhTRnljdThPVVVzTkZLNTRLcmfSAb8BQVVfeXFMTnRwWWpRM0YybjRoT3RhZS1CUFhEanRzWlF2cFdtWHJrQktGSWFDOHhWUGI3OEk2NWlQVU9TRDExMGhlbGlNUkc2U2tEelBhdkRCVHFSdWJJVGNjbHZNNHRHM2pjNVFfMmR3cUc0emdDSFZnTk15RWJzeHRkRW5Gd0xZaWFlT3ZfWFg4WlQ1aDh2bk9CR2FSVWcwbExVM1pBS2g5OGdDa3JIMUlvZnFhYXNkRVBPbWk2VWZ5eHJCRk0?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-10T00:13:18Z"
+  "last_ok_at": "2026-11-10T08:19:14Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T00:13:19Z",
+  "fetched_at": "2026-11-10T08:19:15Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 26,
-  "baseline": 37,
-  "baseline_n": 17,
+  "count": 29,
+  "baseline": 29,
+  "baseline_n": 7,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2338,14 +2305,15 @@
    "2026-11-08T23": 39,
    "2026-11-09T06": 25,
    "2026-11-09T16": 26,
-   "2026-11-10T00": 26
+   "2026-11-10T00": 26,
+   "2026-11-10T08": 29
   },
-  "last_ok_at": "2026-11-10T00:13:19Z"
+  "last_ok_at": "2026-11-10T08:19:15Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-10T00:13:19Z",
-  "last_ok_at": "2026-11-10T00:13:19Z"
+  "fetched_at": "2026-11-10T08:19:15Z",
+  "last_ok_at": "2026-11-10T08:19:15Z"
  }
 }
