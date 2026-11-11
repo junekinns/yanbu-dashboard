@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T02:43:42Z",
+ "generated_at": "2026-11-11T10:44:16Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-11T02:43:42Z",
+  "fetched_at": "2026-11-11T10:44:16Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -165,6 +165,12 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-11-11",
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321136/detail2?ntnCd=107",
+    "summary": "ㅇ 최근 중동 내 군사적 긴장이 지속되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
+   },
+   {
     "date": "2026-11-10",
     "title": "메디나주 송유관 피격 및 남부지역 미사일 요격 관련 신변 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321135/detail2?ntnCd=107",
@@ -175,23 +181,17 @@
     "title": "중부 및 동부지역 공격 관련 안전 유의(11.8.)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321134/detail2?ntnCd=107",
     "summary": "리야드 시내 중심부에 소재한 KAFD 지구의 아람코 빌딩이 11.8.(일) 오전 후티 반군의 공격으로 추정되는 발사체에 의해 피격되었습니다. 이렇듯 최근 리야드, 담맘·코바 등 사우디아라비아 중부·동부 지역에 대한 미사일·무인기 공격 시도가 지속되는 상황입니다. 이에 사우디아라비아에 체류 중인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. …"
-   },
-   {
-    "date": "2026-11-08",
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항 (11.8)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321133/detail2?ntnCd=107",
-    "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
    }
   ],
-  "last7d": 3,
+  "last7d": 4,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-11T02:43:42Z"
+  "last_ok_at": "2026-11-11T10:44:16Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-11T02:44:01Z",
+  "fetched_at": "2026-11-11T10:44:35Z",
   "events": [
    {
     "date": "2026-11-10",
@@ -206,6 +206,20 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hUl96UkZ4NXBGcVNuXzdPRE0xSWMxbzFJSk5XeExldFYtaERFQzY4eVM1SzlEVTVzRDVsM3RuY2FIZTM5QjJ4dy0wdWpsWDhmNGtoQnRzYndmc1HSAWBBVV95cUxPZlpvbkJpWFc5bmhPX0R4NWNlS0ZDQUFwVUxydENIaEdjcU9qWGJ1OTlmQ2VnRzJOS3VCbkYwSVh2blJVUXl1LTBMRnBZRHFTc1VEOGZtckNSdFJta0JpQnY?oc=5",
     "source": "연합뉴스",
     "outlets": 3
+   },
+   {
+    "date": "2026-11-10",
+    "time": "04:53",
+    "iso": "2026-11-10T04:53:00+03:00",
+    "city": "리야드",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "Saudi-led coalition says it shot down Houthi missiles aimed at Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeEFMZHZXSnB4Q1RWMGxYRGJrYUFLdXBsc2ZGcmowbDhlNGVjMWxtOWt6bno5WWZnd2F2NVNncnJKdFM1bm1QU2RGQmNNOFBXampZcHpYLU1mdGxIRFJ4Z0drcHcyNHYtTmhVWEVlY0FldWp1d3ZoWlpoZXljR2w1b1lvb2pSR3owY2tnbUF2MDFYQXZlNUxsUUM1TGdaQ1lJZ3ZSUzl6cVp2czBFeTA3akRSS19vMTR3LW1qcGZGUExhbEJQTlpzSFdfNGc2dw?oc=5",
+    "source": "Reuters",
+    "outlets": 1
    },
    {
     "date": "2026-11-10",
@@ -1188,9 +1202,10 @@
    "리야드": {
     "7d": {
      "피격": 3,
+     "요격": 1,
      "공습": 1
     },
-    "total7d": 4,
+    "total7d": 5,
     "prev7d": {
      "경보": 1,
      "요격": 2,
@@ -1278,12 +1293,12 @@
   "history_days": 31,
   "history_since": "2026-10-12",
   "today": "2026-11-11",
-  "last_ok_at": "2026-11-11T02:44:01Z"
+  "last_ok_at": "2026-11-11T10:44:35Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-11T02:44:02Z",
+  "fetched_at": "2026-11-11T10:44:36Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1319,6 +1334,14 @@
     "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ أربع عمليات عسكرية نوعية داخل العمق السعودي. http://t.me/army21ye",
     "text_ko": "사우디 깊이 내에서 네 가지 질적 군사 작전의 구현에 대한 예멘 군의 성명. http://t.me/army21ye",
     "url": "https://t.me/army21ye/4050"
+   },
+   {
+    "time": "2026-11-10 16:39",
+    "iso": "2026-11-10T16:39:59+03:00",
+    "places": [],
+    "text_ar": "بيان مهم للقوات المسلحة اليمنية للإعلان عن عدد من العمليات العسكرية النوعية داخل العمق السعودي، في تمام الساعة 5:10مساءً، بعد قليل. http://t.me/army21ye",
+    "text_ko": "얼마 후 오후 5시 10분에 사우디아라비아 내부의 여러 질적 군사 작전을 발표하기 위한 예멘 군의 중요한 성명서. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4048"
    },
    {
     "time": "2026-11-10 16:03",
@@ -1942,20 +1965,20 @@
    "담맘": 1,
    "메카": 1
   },
-  "last_ok_at": "2026-11-11T02:44:02Z"
+  "last_ok_at": "2026-11-11T10:44:36Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-11T02:44:03Z",
+  "fetched_at": "2026-11-11T10:44:38Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-11T02:44:03Z"
+  "last_ok_at": "2026-11-11T10:44:38Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-11T02:44:03Z",
+  "fetched_at": "2026-11-11T10:44:38Z",
   "kr": [
    {
     "date": "2026-11-10",
@@ -1996,50 +2019,50 @@
   "en": [
    {
     "date": "2026-11-11",
-    "published": "2026-11-11T00:38:21+00:00",
+    "published": "2026-11-11T10:05:40+00:00",
+    "source": "Al Jazeera",
+    "title": "US embassy refutes Houthis’ Yemen blockade claims, highlights siege on Taiz",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ1M4ckhiMHZiOXkweTZrSEx3NmtkV0xrTlR5X2xZWEtKd1ZNWWl3WnlBMVJpdDJvY3lUU25GWUxlTUFud0lJMjlBRVhYUmowYk0zeGg3SGJwaVZGZ0hLSExRY2p2RmQzMEFZNW41NFBnMTFZYVQ2VXRBNGlIaGZzNGJJNGl2aVk2dW96eGVUeHo1c2tSS09OQkx3YUhfQmVqWlVNVldHd2NONjd4el8tbTFHZGotQdIBuwFBVV95cUxOcm1QUWZuZXNWbTlPWHRrY2ROTnVIOWFoeEgzUmZoN3NpQzJhc0xJOHBQdjN1RjcwVnlHaHRtcThFWUs5OXdrYTN6Qk9LSENrMTd4S3VFWml6a2RFNjlQdXFxMHFIeVB2ekEtTW5rVEtQX0lmY3R1aHVnLUllZlJZdWpDUnNOS2RXTFVKRDEtLU1oR3NqWFpSMzcxM1UxVDNjUkxYMlZxZE1ZOWFoRnNyUUxvQk1PV1BUQ3Y4?oc=5"
+   },
+   {
+    "date": "2026-11-11",
+    "published": "2026-11-11T09:33:14+00:00",
+    "source": "Arab News",
+    "title": "Riyadh deputy governor inspects damage to Aramco building after Houthi attack",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTGVJWmN4MERaX0t6T3Jka3ZtWTFBWEVLMnIzR1J0ZjF2YnlYVjN1Z2ozTURnS0tlYUNKbmJra0x2Q3pJTnp0d1o4UDV4UmlKR1dQZkRsekR6aklzWnZhX3RFWHozMjI2Y2Y3c216Z3lTZVNGelVCLXotYTNrNFZreDhtQ1R0VnU1N3YzbG01dFdocU95eEc5eHdkdUhiNUFKV2w1VFhscktvZXFmQmpjYmdpOXRDRlZzMzdoLXU0RDU?oc=5"
+   },
+   {
+    "date": "2026-11-11",
+    "published": "2026-11-11T06:34:53+00:00",
     "source": "The National",
     "title": "Middle East latest: Ship attacked in UAE waters, says operator Adnoc",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTMwLTRPRTZsZHJPR0lQTVNtNHdyWWxZNHMydXJzUjEySVZIZzJfUFlvbXZfQWJPc25aSm5kM3lzNmxFMFVMdFl3NTZLZWVjZnZPaTFyWjZtcl9peGd6ZlpDU2hnQmxDVFBLRlF1cVR3U2QwR2R4dWRRNEFDaDBzSTY2YUFWZEsyZ3dIOGQwX2tudV81a1pRRXQtVzl0TWYw?oc=5"
    },
    {
-    "date": "2026-11-10",
-    "published": "2026-11-10T22:17:03+00:00",
+    "date": "2026-11-11",
+    "published": "2026-11-11T06:00:00+00:00",
+    "source": "The Guardian",
+    "title": "Woman in Saudi Arabia sentenced to 100 lashes for giving birth outside marriage",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOblBKZXRtamFaYTV6a1UyRnl4UmozSm1JZmhfVlpRSVlSRVc3Y0lsZUpWZlZtV2tpX2FncjBSMW43NHc4NnlxNEt1dUtmeXlPWEdydkc2UmlIeGNzSzJHeENRZElFbUFyOExoYjRhRVZlTVpTQVdIcEtqMUwtbjB1LURCZWFEWlZsYlBad2pGUWY0SEE4bWcyU21EeGh6WWhYRXF5VWRYMHpTT2cxMlNjUHhvSV9FLUJ2MWVwZklfZTdzcjJsSENiTURfLXhCdENTc1FKTQ?oc=5"
+   },
+   {
+    "date": "2026-11-11",
+    "published": "2026-11-11T04:07:43+00:00",
     "source": "The National",
-    "title": "Why Saudi-Houthi Escalation Will Repeat the Yemen Civil War’s Past Mistakes",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLURvRG5ILTFBS2hFM05YZzBLVUl3NlFNMDQ3NFpnZUcwcnVyX0x6RTZuZk5wUFVpWVAyZGlJMXNQM3lqQWhONVRiZ29UMUFlSXhjUS1pZ2NQUGRYMkFTa0J3ZDdLMTQwY2dUYktheFFNMDhUYXBSS19vVTZVWU0zNzN6M0lyQWhWVE9YZ01EZzRuR0dOZVZwS25xUVRRQ0g5ek5iUE1ZZmV4MFVqX0lieUJoTy11Q3lrVU5NR2Z0TlZzZVVt?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T16:43:59+00:00",
-    "source": "The New York Times",
-    "title": "Syria Weighs Sending Troops to Aid Saudi War With Houthis",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ2F6bl84ZER6M2kweEZJcnk3X3M3emwwdHBtd1o5Zlh2WnRJQXZUSmxObUxFS3hvVW1kaExhZHMweDFuYzdpNFgxTGtUYzRUem1xX1dKV2JKMTI1WE1RYzUwSVFULTJETEhOaV9memI4M2FOTXEzbXBPcW1QN09YaktOR1hXeWhlejlaY28yTnFHTnpmOUV0OVQ2ZXo2eGtzSHRXU3BGUU1ybEVkdUZIR2gwRXg?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T15:26:09+00:00",
-    "source": "Al Jazeera",
-    "title": "Why the GCC is setting up an advanced military command base in Kuwait",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDBXTkt6aGFOYXdNblpCMkdudFRQOVBWdG0xbW1UWldrdkR3VWZFa25LVG1VV3A2SkJuOFZlQkZxWXZTMUI5eUJLd0lDSFAzdGl6YU80Yy1TQjdrNHQtblJHVll2bHl2bDUzcjF6RmV5UHVuUnUwc2dzWFlWT2xxTktfeDc4OXA2dVQzU19FUFRSdGZlanE5NGZCbi16VWJOWUc1WDlhZElZQnJjeU5FRdIBtgFBVV95cUxQRkpXRi1LRHRFWFNZRXVMU2lIVUpHbnlWV3hpajAtZVBiTFB5MFFSNVFHbHpfMzRoQjZ3VVUxWFduOF9CTHp5eHl6QlAyTnhpQWVTSkRwTmlZUTZGMklRNGsxMXNaSVFONGNrQ2hycERkNlFBdXBGMVh6V3RpTUwzYno2MjhVdXg0ZzNOSml0Y2dUakUtNEkxWkQwR25BaFYzM3Y4SE5EQWRmMTRqYkNuY01kVWk1UQ?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T13:39:35+00:00",
-    "source": "Al Jazeera",
-    "title": "Attacks escalate between Saudi-led forces and Yemen’s Iran-backed Houthis",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTzl6Q3J5eC0ybjNiY2IzRVZlaXhwc1BjbDNwcFppcG5aLUhnZTMwWHRhcWJHWjV2SnV0X21LWlBmbHA2X2xuSEl1VjY0cVBBalkzXzlVQ3NsTGhQYm5ISzdyYm9KTmRDejN4eE5mNlJVcmV5VXdDTWZRNlY4dmVkMF9zWmJIb3NOcFZJUm1OSTlBVld1b1VMVE1HVkhpMGJnc0lJMUwwNDBMSXZNemdrQ1Z1R2lqb3JxQjJMYjFGLWhUQdIBxwFBVV95cUxOdi1rZjNlRUZoS2doUDRGYWNyZ1ozcG5nYkpDNFJoR2JjdTE3SlEwTC1sNmpqYXZCd2ZZX3Z6bHg1aXpnNTVKMTNXZkFORVltZjhiZUdQa0dsdDdnUlhvM21TOUtaRTR6cDQ1MzdyQ2NzQkh4cGRUS3BPUFZPbThJcUZvaFkwVDY3LUNLTEprd2VoaEw5alJVQnhwUHprODViVG5sVGxOUWNZZmR5VjI5NklRd05hcl95NjB4YU5lQXB5U2puRmkw?oc=5"
+    "title": "King of Bahrain meets Saudi Crown Prince on visit to Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR29FY2RXSk5SY3NLM0IybVZCZEVfSnlHSHp4RzUyeVZVQWI1c3pBNzJkT21oaURSY2tib3JhRWtNaDBvcEFieU5USGx0T2dxcG5kYzRobHAzaU16R2JkdG5SVXk3T3ZPZm1BZlF6TkVRVGpLbmxKakRoS0NIVGt4Q2NZLVJSak9MamQtZFh3cnVaSFlKVGF4TnRkM1g2ZkdRaFNPaWFkalEzOVM1WTB4WElQTQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-11T02:44:03Z"
+  "last_ok_at": "2026-11-11T10:44:38Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-11T02:44:04Z",
+  "fetched_at": "2026-11-11T10:44:39Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 25,
-  "baseline": 34,
-  "baseline_n": 5,
+  "count": 31,
+  "baseline": 24,
+  "baseline_n": 7,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2303,14 +2326,15 @@
    "2026-11-10T08": 29,
    "2026-11-10T16": 26,
    "2026-11-10T22": 24,
-   "2026-11-11T02": 25
+   "2026-11-11T02": 25,
+   "2026-11-11T10": 31
   },
-  "last_ok_at": "2026-11-11T02:44:04Z"
+  "last_ok_at": "2026-11-11T10:44:39Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-11T02:44:04Z",
-  "last_ok_at": "2026-11-11T02:44:04Z"
+  "fetched_at": "2026-11-11T10:44:40Z",
+  "last_ok_at": "2026-11-11T10:44:40Z"
  }
 }
