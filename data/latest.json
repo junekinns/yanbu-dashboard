@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T22:18:12Z",
+ "generated_at": "2026-11-11T02:43:42Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T22:18:12Z",
+  "fetched_at": "2026-11-11T02:43:42Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,15 +183,15 @@
     "summary": "ㅇ 최근 중동 내 군사적 긴장이 고조되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
    }
   ],
-  "last7d": 4,
-  "baseline": 5.0,
+  "last7d": 3,
+  "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-10T22:18:12Z"
+  "last_ok_at": "2026-11-11T02:43:42Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T22:18:28Z",
+  "fetched_at": "2026-11-11T02:44:01Z",
   "events": [
    {
     "date": "2026-11-10",
@@ -1278,12 +1278,12 @@
   "history_days": 31,
   "history_since": "2026-10-12",
   "today": "2026-11-11",
-  "last_ok_at": "2026-11-10T22:18:28Z"
+  "last_ok_at": "2026-11-11T02:44:01Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T22:18:29Z",
+  "fetched_at": "2026-11-11T02:44:02Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1942,21 +1942,28 @@
    "담맘": 1,
    "메카": 1
   },
-  "last_ok_at": "2026-11-10T22:18:29Z"
+  "last_ok_at": "2026-11-11T02:44:02Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T22:18:30Z",
+  "fetched_at": "2026-11-11T02:44:03Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-10T22:18:30Z"
+  "last_ok_at": "2026-11-11T02:44:03Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T22:18:30Z",
+  "fetched_at": "2026-11-11T02:44:03Z",
   "kr": [
+   {
+    "date": "2026-11-10",
+    "published": "2026-11-10T22:56:08+00:00",
+    "source": "뉴시스",
+    "title": "후티 반군 \"사우디가 가스 시설과 석유회사 건물 공습\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OT1lIdXJnTlloU3RHZk1XN1FxZ3dSVlJwWWNFUm9nRmVjMW1ZMnhMQUNQU0haeHIzcGhHLUtKWnBpbFlEOTBWQ1pFd1V1RGdJMkFvbUd3bDB2M0prME1Fdg?oc=5"
+   },
    {
     "date": "2026-11-10",
     "published": "2026-11-10T21:06:00+00:00",
@@ -1976,14 +1983,7 @@
     "published": "2026-11-10T15:18:43+00:00",
     "source": "MBC",
     "title": "후티 \"사우디 리야드 공항·금융가·아람코 시설 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBEZmZ0OUtPNVVLSDZxOFZuSWJmTEFSMG5JcVJYRGVtTDdaVFhVZ2MwM2dPTVZHNjRERG41cFJNdmY1QjlxOTV5aEEwVGx2dzdxR1FQeTA5RmEyd1VHU1MzRk5ycnVzM0luTElJRGQzZERKRmtR0gF0QVVfeXFMTlNmYWU2TWZOUWJrMVZlbGZDU1VDdXFQREtmb29GVS1IQXBMV1FQa0NPUFBCXzV1dTVLT1V6ejlRNkgwMzZaR0lUekNqdlZiY2dXY3VFUW5TcG1obmhiS2lxM181QS1nX0h1Z1hFTnlqckV6SXM?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T00:39:26+00:00",
-    "source": "뉴시스",
-    "title": "사우디 연합군 후티 미사일 파괴…동서송유관 메디나 구간 피격(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjR1BjRHVhek9GRUx0RGNzbE5BNHkzcW1EOXJ5NDBIcFNEdzgwd3QzNnhGY0FvNXRsRWVXMDlLd2lWQ0RoY2ZOcHdWR2kyNy1hMGtCTnU4TkxHbjd6TTdBY9IBeEFVX3lxTE84ZktaZEZjblhsQUdKc2F3TWd6NFk1c0RDcVc4eVVVbVRiMGVFeG1OTkF3R1JTdFNucFBJVVJ4ZzgyTHNpQUUteWZGVkdZck8waW03VFYzZWVxN09ZZVNjeGc3NW5JLUV6aEc4cUFQN2d5aDUybVdEZw?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TZmFlNk1mTlFiazFWZWxmQ1NVQ3VxUERLZm9vRlUtSEFwTFdRUGtDT1BQQl81dXU1S09Veno5UTZIMDM2WkdJVHpDanZWYmNnV2N1RVFuU3BtaG5oYktpcTNfNUEtZ19IdWdYRU55anJFeklz0gF0QVVfeXFMTlNmYWU2TWZOUWJrMVZlbGZDU1VDdXFQREtmb29GVS1IQXBMV1FQa0NPUFBCXzV1dTVLT1V6ejlRNkgwMzZaR0lUekNqdlZiY2dXY3VFUW5TcG1obmhiS2lxM181QS1nX0h1Z1hFTnlqckV6SXM?oc=5"
    },
    {
     "date": "2026-11-09",
@@ -1995,18 +1995,25 @@
   ],
   "en": [
    {
+    "date": "2026-11-11",
+    "published": "2026-11-11T00:38:21+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Ship attacked in UAE waters, says operator Adnoc",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTMwLTRPRTZsZHJPR0lQTVNtNHdyWWxZNHMydXJzUjEySVZIZzJfUFlvbXZfQWJPc25aSm5kM3lzNmxFMFVMdFl3NTZLZWVjZnZPaTFyWjZtcl9peGd6ZlpDU2hnQmxDVFBLRlF1cVR3U2QwR2R4dWRRNEFDaDBzSTY2YUFWZEsyZ3dIOGQwX2tudV81a1pRRXQtVzl0TWYw?oc=5"
+   },
+   {
     "date": "2026-11-10",
-    "published": "2026-11-10T22:12:28+00:00",
+    "published": "2026-11-10T22:17:03+00:00",
     "source": "The National",
     "title": "Why Saudi-Houthi Escalation Will Repeat the Yemen Civil War’s Past Mistakes",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLURvRG5ILTFBS2hFM05YZzBLVUl3NlFNMDQ3NFpnZUcwcnVyX0x6RTZuZk5wUFVpWVAyZGlJMXNQM3lqQWhONVRiZ29UMUFlSXhjUS1pZ2NQUGRYMkFTa0J3ZDdLMTQwY2dUYktheFFNMDhUYXBSS19vVTZVWU0zNzN6M0lyQWhWVE9YZ01EZzRuR0dOZVZwS25xUVRRQ0g5ek5iUE1ZZmV4MFVqX0lieUJoTy11Q3lrVU5NR2Z0TlZzZVVt?oc=5"
    },
    {
     "date": "2026-11-10",
-    "published": "2026-11-10T15:37:46+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Ship attacked in UAE waters, says operator Adnoc",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTMwLTRPRTZsZHJPR0lQTVNtNHdyWWxZNHMydXJzUjEySVZIZzJfUFlvbXZfQWJPc25aSm5kM3lzNmxFMFVMdFl3NTZLZWVjZnZPaTFyWjZtcl9peGd6ZlpDU2hnQmxDVFBLRlF1cVR3U2QwR2R4dWRRNEFDaDBzSTY2YUFWZEsyZ3dIOGQwX2tudV81a1pRRXQtVzl0TWYw?oc=5"
+    "published": "2026-11-10T16:43:59+00:00",
+    "source": "The New York Times",
+    "title": "Syria Weighs Sending Troops to Aid Saudi War With Houthis",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ2F6bl84ZER6M2kweEZJcnk3X3M3emwwdHBtd1o5Zlh2WnRJQXZUSmxObUxFS3hvVW1kaExhZHMweDFuYzdpNFgxTGtUYzRUem1xX1dKV2JKMTI1WE1RYzUwSVFULTJETEhOaV9memI4M2FOTXEzbXBPcW1QN09YaktOR1hXeWhlejlaY28yTnFHTnpmOUV0OVQ2ZXo2eGtzSHRXU3BGUU1ybEVkdUZIR2gwRXg?oc=5"
    },
    {
     "date": "2026-11-10",
@@ -2021,25 +2028,18 @@
     "source": "Al Jazeera",
     "title": "Attacks escalate between Saudi-led forces and Yemen’s Iran-backed Houthis",
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTzl6Q3J5eC0ybjNiY2IzRVZlaXhwc1BjbDNwcFppcG5aLUhnZTMwWHRhcWJHWjV2SnV0X21LWlBmbHA2X2xuSEl1VjY0cVBBalkzXzlVQ3NsTGhQYm5ISzdyYm9KTmRDejN4eE5mNlJVcmV5VXdDTWZRNlY4dmVkMF9zWmJIb3NOcFZJUm1OSTlBVld1b1VMVE1HVkhpMGJnc0lJMUwwNDBMSXZNemdrQ1Z1R2lqb3JxQjJMYjFGLWhUQdIBxwFBVV95cUxOdi1rZjNlRUZoS2doUDRGYWNyZ1ozcG5nYkpDNFJoR2JjdTE3SlEwTC1sNmpqYXZCd2ZZX3Z6bHg1aXpnNTVKMTNXZkFORVltZjhiZUdQa0dsdDdnUlhvM21TOUtaRTR6cDQ1MzdyQ2NzQkh4cGRUS3BPUFZPbThJcUZvaFkwVDY3LUNLTEprd2VoaEw5alJVQnhwUHprODViVG5sVGxOUWNZZmR5VjI5NklRd05hcl95NjB4YU5lQXB5U2puRmkw?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T11:02:25+00:00",
-    "source": "Reuters",
-    "title": "EXCLUSIVE: Saudi PIF weighs fresh fundraising options to generate cash from companies, sources say",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMjE3ajZGdmNvVHI2NXJmM0NQSnRPWHRuQTRGNnZHVFlSc2huTXhaajNiX3M1WjA1M3FJSXVfUEFEZ1lLVEZEenZhSVQyQ2s3OWZsRjhYWjlnX1ZUQmxvOHJpN3lkQ24tRC1iYktjMWtTcFh4Z2hpWF9yaWJlb2hvT3RVVWFtMDVJRm4yMGlIdFpjczBSVk41Rzc3YTh2WXE4RmhDcjUyV3NnMFZxek5Kd19MRFlXc01CenJhcGJDa3BTR1daYUxtS09EVWs?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-10T22:18:30Z"
+  "last_ok_at": "2026-11-11T02:44:03Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-10T22:18:31Z",
+  "fetched_at": "2026-11-11T02:44:04Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 24,
-  "baseline": 32.0,
-  "baseline_n": 14,
+  "count": 25,
+  "baseline": 34,
+  "baseline_n": 5,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2302,14 +2302,15 @@
    "2026-11-10T00": 26,
    "2026-11-10T08": 29,
    "2026-11-10T16": 26,
-   "2026-11-10T22": 24
+   "2026-11-10T22": 24,
+   "2026-11-11T02": 25
   },
-  "last_ok_at": "2026-11-10T22:18:31Z"
+  "last_ok_at": "2026-11-11T02:44:04Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-10T22:18:31Z",
-  "last_ok_at": "2026-11-10T22:18:31Z"
+  "fetched_at": "2026-11-11T02:44:04Z",
+  "last_ok_at": "2026-11-11T02:44:04Z"
  }
 }
