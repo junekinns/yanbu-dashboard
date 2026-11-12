@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T01:28:30Z",
+ "generated_at": "2026-11-12T09:42:31Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T01:28:30Z",
+  "fetched_at": "2026-11-12T09:42:31Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 4,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-12T01:28:30Z"
+  "last_ok_at": "2026-11-12T09:42:31Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T01:28:45Z",
+  "fetched_at": "2026-11-12T09:42:50Z",
   "events": [
+   {
+    "date": "2026-11-12",
+    "time": "05:03",
+    "iso": "2026-11-12T05:03:00+03:00",
+    "city": "메카",
+    "type": "피격",
+    "weapon": null,
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "사우디, “후티, ‘이슬람 성지’ 메카 잇따라 공격”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PMjd2SGJWR2RGU3JKVy1meGtxTzk5eTZZWjdrNXdFUXhmb0E2dFRhRXloaW9HZkRrN2Riekg5akpYOTRqWjJFc2I3amZXdVlBM1BnaXJLeGI1VWM?oc=5",
+    "source": "KBS",
+    "outlets": 1
+   },
    {
     "date": "2026-11-12",
     "time": "02:43",
@@ -205,7 +219,7 @@
     "title": "Saudi Arabia says debris from intercepted Houthi missiles fell in the Mecca area",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU0tUZXRpaVl3RDllOEhaWm1ReXU5UFNuSU9oNzJLdHphTGduNjd0dzN3M1dtZkJjcnVLcGVUOWNlemlsRlRHVDczcklZemVfdmEyd2liQVM3ekN4QXFFaC1HOFNPa1o4UW5menhFTlpIbnRDYnVEaG1UaHpYVXpxQ2pzejFqaFJTM29ZOEpRM3dJTm5ac1paYlgxSUVDeXFwZlNnUHVQMFJaR2Z5bmxEVm1rY09IdVpOaElyNFNXQVpYTmVs?oc=5",
     "source": "The Times of Israel",
-    "outlets": 3
+    "outlets": 4
    },
    {
     "date": "2026-11-12",
@@ -223,8 +237,8 @@
    },
    {
     "date": "2026-11-11",
-    "time": "23:31",
-    "iso": "2026-11-11T23:31:06+03:00",
+    "time": "22:45",
+    "iso": "2026-11-11T22:45:24+03:00",
     "city": "얀부",
     "type": "경보",
     "weapon": null,
@@ -251,8 +265,8 @@
    },
    {
     "date": "2026-11-11",
-    "time": "19:01",
-    "iso": "2026-11-11T19:01:00+03:00",
+    "time": "17:30",
+    "iso": "2026-11-11T17:30:23+03:00",
     "city": "리야드",
     "type": "요격",
     "weapon": "미사일",
@@ -261,6 +275,20 @@
     "title": "사우디 연합군 \"리야드 겨눈 후티 순항미사일 3기 요격\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGS3JRUWFtXzB0MTVXQ1dWSlZ1QjR5Z0pIeVpvR2p4MW1YRXBSaUtPYjFvY2c4WExqWVpGR2dGTFdPcDI4Mk1HLWxGN2pOTkNGOXFQY1hZYzFXN1R2RXhUeDlR?oc=5",
     "source": "뉴스1",
+    "outlets": 2
+   },
+   {
+    "date": "2026-11-11",
+    "time": "00:06",
+    "iso": "2026-11-11T00:06:00+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "후티 반군 사우디 리야드 공항·금융가·아람코 타격",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNdzM0UnZjUUx0dXFIcVJyRXFWbDR5T3Zta09fZDFGOTNiWG5fQkdJV3BCazlTbWoyd0p1bm9jM3pha3FjSVdldElnSEVleVBzVUpV0gFYQVVfeXFMUDdJNk5DRHN6clRZQjBnOHl4eGt3Y1dpQTVfelJ0VHRWR0RGck9hUTZPTllOMXZ5S282cE5Jem9jaXY5OW11ZmdGVGMweWVRNUxFT0dIVmxqNQ?oc=5",
+    "source": "SBS",
     "outlets": 1
    },
    {
@@ -1199,9 +1227,10 @@
    },
    "메카": {
     "7d": {
+     "피격": 1,
      "요격": 3
     },
-    "total7d": 3,
+    "total7d": 4,
     "prev7d": {
      "요격": 2,
      "피격": 2
@@ -1216,11 +1245,11 @@
    },
    "리야드": {
     "7d": {
-     "피격": 4,
+     "피격": 5,
      "요격": 2,
      "공습": 1
     },
-    "total7d": 7,
+    "total7d": 8,
     "prev7d": {
      "경보": 1,
      "요격": 2
@@ -1307,12 +1336,12 @@
   "history_days": 31,
   "history_since": "2026-10-13",
   "today": "2026-11-12",
-  "last_ok_at": "2026-11-12T01:28:45Z"
+  "last_ok_at": "2026-11-12T09:42:50Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T01:28:47Z",
+  "fetched_at": "2026-11-12T09:42:51Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2009,25 +2038,46 @@
    "메디나": 3,
    "지잔": 2,
    "송유관": 2,
-   "얀부": 1,
    "메카": 1,
+   "얀부": 1,
    "담맘": 1
   },
-  "last_ok_at": "2026-11-12T01:28:47Z"
+  "last_ok_at": "2026-11-12T09:42:51Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T01:28:54Z",
+  "fetched_at": "2026-11-12T09:42:51Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-12T01:28:54Z"
+  "last_ok_at": "2026-11-12T09:42:51Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T01:28:54Z",
+  "fetched_at": "2026-11-12T09:42:51Z",
   "kr": [
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:21:40+00:00",
+    "source": "뉴스1",
+    "title": "사우디 \"후티 반군 탄도미사일 2발 요격…메카 지역에 잔해 낙하\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56WUwwQW5ETlc5d3dVakg1Y1pLVVZlTkp6OTl3d3B1bi1ERGxpb2xfOWtYclI1dFd3N196Mnl3eVpWMGJuRHlhU29kT1BhNmZfRW5CYmdHenhheEtnSERTZ0VB?oc=5"
+   },
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T02:03:00+00:00",
+    "source": "KBS",
+    "title": "사우디, “후티, ‘이슬람 성지’ 메카 잇따라 공격”",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PMjd2SGJWR2RGU3JKVy1meGtxTzk5eTZZWjdrNXdFUXhmb0E2dFRhRXloaW9HZkRrN2Riekg5akpYOTRqWjJFc2I3amZXdVlBM1BnaXJLeGI1VWM?oc=5"
+   },
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T01:55:52+00:00",
+    "source": "연합뉴스",
+    "title": "사우디 \"후티가 메카 때린다\"…성지모독 프레임에 후티 반발",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ia0FjRGQ0Tm05dmVNbUlXLTN0dE03dG04N2RKTElXb1VxUGwxNnVGLVJ2ZnU0QnNoQnVJV1o3RnpKbjQ0QkpaUkRJa2JJa1d6b2dXWV81NWJUay1zM2VDLdIBYEFVX3lxTE1ia0FjRGQ0Tm05dmVNbUlXLTN0dE03dG04N2RKTElXb1VxUGwxNnVGLVJ2ZnU0QnNoQnVJV1o3RnpKbjQ0QkpaUkRJa2JJa1d6b2dXWV81NWJUay1zM2VDLQ?oc=5"
+   },
    {
     "date": "2026-11-11",
     "published": "2026-11-11T22:32:46+00:00",
@@ -2041,30 +2091,23 @@
     "source": "뉴스1",
     "title": "사우디 연합군 \"리야드 겨눈 후티 순항미사일 3기 요격\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGS3JRUWFtXzB0MTVXQ1dWSlZ1QjR5Z0pIeVpvR2p4MW1YRXBSaUtPYjFvY2c4WExqWVpGR2dGTFdPcDI4Mk1HLWxGN2pOTkNGOXFQY1hZYzFXN1R2RXhUeDlR?oc=5"
-   },
-   {
-    "date": "2026-11-11",
-    "published": "2026-11-11T01:40:00+00:00",
-    "source": "SBS",
-    "title": "'이례적'…UAE, 피격유조선 사우디산 원유 대리 판매",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zQzR2Umt6VDhTWExRSzk3NlRwamVkOVJBeFpQZFR1UklnYXQtWHpZMTVlZjlQaE9kLUJFSll3WXBHN0l1TjhpTUh3UlE5Zkh6b29R0gFYQVVfeXFMTi1wb3dVdE5aOWowbEYzTDJjLUZzWjVpOENVMTVrM3FJTkhsUmVTeklPNlpRZ0otMlE2NXhpeGdXaFU3YU5DaE9naWhXMFoweGJaQlRSSVJhLQ?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T22:56:08+00:00",
-    "source": "뉴시스",
-    "title": "후티 반군 \"사우디가 가스 시설과 석유회사 건물 공습\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OT1lIdXJnTlloU3RHZk1XN1FxZ3dSVlJwWWNFUm9nRmVjMW1ZMnhMQUNQU0haeHIzcGhHLUtKWnBpbFlEOTBWQ1pFd1V1RGdJMkFvbUd3bDB2M0prME1Fdg?oc=5"
-   },
-   {
-    "date": "2026-11-10",
-    "published": "2026-11-10T21:06:00+00:00",
-    "source": "SBS",
-    "title": "후티 반군 사우디 리야드 공항·금융가·아람코 타격",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3STZOQ0RzenJUWUIwZzh5eHhrd2NXaUE1X3pSdFR0VkdERnJPYVE2T05ZTjF2eUtvNnBOSXpvY2l2OTltdWZnRlRjMHllUTVMRU9HSFZsajXSAVhBVV95cUxQN0k2TkNEc3pyVFlCMGc4eXh4a3djV2lBNV96UnRUdFZHREZyT2FRNk9OWU4xdnlLbzZwTkl6b2Npdjk5bXVmZ0ZUYzB5ZVE1TEVPR0hWbGo1?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T08:45:14+00:00",
+    "source": "Reuters",
+    "title": "Most Gulf markets dip at open on rising Saudi-Houthi tensions",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGNWY3AteW02UnJ1U3diVGdQLTFOUlJCU1M0UWZhQUdCbzhicnpLWXNpeWhHT1J0NkZWYzRzVm1nMUcxV2Q5MXJGOXNMTm4tT3FHM3F4d0s5VWU3UzZ0ZW1nb1YtTzh4SEIwQXExSU5DX0V3dHNvbWlvMGZKVlppZ0tib2xkOWpoWHljSXVVRnh1b2VneEd0NHhnbVNvQy1QV1pwOEVTTG9OempFYmc?oc=5"
+   },
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T04:43:49+00:00",
+    "source": "Al Jazeera",
+    "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOblNUcC1FYlVmaTQ5VlJIdmFWRG9ubmFQaHVvaWxwUm5WWF9iQ0syNTVZcWk5RXZVWVJHT3BVSndNT000MWVURE1QSTF6dkRFWDlZUWtyNERCbmx6c1VpSmNMaHlUOHEzNkZIM05EYkJXcHo0ZW5xVjAzUzBON1RaVU82WGRqb3Y2ME5wWThpR0lUTnUtcUh5NWNVOGh0aklnWEJGYkdR0gGrAUFVX3lxTE1zVndXa1pmQzQ2TmpPTGx4TERyNkNtYTlTMTFqR1lCYzhRTWZ4ZFpjRlNnUWNoWmQxcnR6MEtCdWczM3JFYS1zeDdESWthRlo2c2F4dG83NURZaVdnSXJ6UGJsMHhneGg5enhGNmg2eENXTUlzbHd6T2FsUVVOVExjNURLNEtpanFfVURqS09ydDQ5RXdVSnNhV2F3ZGFJWXVfV2FIQl9UZEZnYw?oc=5"
+   },
    {
     "date": "2026-11-12",
     "published": "2026-11-12T00:21:00+00:00",
@@ -2074,10 +2117,10 @@
    },
    {
     "date": "2026-11-11",
-    "published": "2026-11-11T20:57:51+00:00",
-    "source": "Reuters",
-    "title": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa0VablB0SWViZWpCRFg4bC0yX2ZTM19HNmFFVUdqVVlwbWRuRjdpSnNXZ3liU04zeTYyZWJPSlhLeEVRTUlMS0N2SnlPdEpINzVHUTJjRXJjd3RKdEZMLS14czdZSlpjcWlJWm95bFpTNHgxblNSVlFyLWhsQ0JncVFZRGRmQ0p6cDZQRGRtNlh6LWxnVXlLRkJyelFzdTFoM285d2tQZTJvS1BkYkRzLVZwUERKc2pHbVBqOUZDSmFRbGJ4TmpmQVExbnEzOTQ?oc=5"
+    "published": "2026-11-11T19:43:02+00:00",
+    "source": "The National",
+    "title": "Middle East latest: IRGC says two supertankers explode in Strait of Hormuz",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1E2VFlpWERDcU1PanZ2RkFFbXN6OFJvZ2ljaUdxVjAzemJXZFlRcTFpMEZyc1FBWE9zQ1JWUy1kUHBpdHZYM2xUbDVWUHRiUEZLRjBFWGtYMUFYeExqQzdXa2lqbWl0clBvLVRXZGZqRzZ2Uk00WmlGT1hnSEZBdWFOa1ljT045RUthemFUcDhjdm1EODNtNDUtdW5SOWxpeFZPMQ?oc=5"
    },
    {
     "date": "2026-11-11",
@@ -2085,32 +2128,18 @@
     "source": "Bloomberg",
     "title": "Saudis Tell OPEC Output Surged 26% to Highest Since War Began",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMU1UZzFGcHVQTS1lNzJZVXZKeFlhS3ltbjcwcDAyVGZOWkZsUkFobUhoT2d6TTMxN2l3Y0NGQ1lsZDJ0Y0Fzcl9lNkR0Q0o5ZmpCRnRERnVBSDhHVnEwNXcxQmJBZy1ZTHEySzh3TkkwMmpmZDRxTkVhUUw0SnNkXzJCd0NsZWpsQzJSRzl0dHpaMU9hQXZ4ZUtqc1FJSVpvbWZlcVpueTByUjk1akZr?oc=5"
-   },
-   {
-    "date": "2026-11-11",
-    "published": "2026-11-11T15:50:35+00:00",
-    "source": "Al Jazeera",
-    "title": "US embassy refutes Houthis’ Yemen blockade claims, highlights siege on Taiz",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ1M4ckhiMHZiOXkweTZrSEx3NmtkV0xrTlR5X2xZWEtKd1ZNWWl3WnlBMVJpdDJvY3lUU25GWUxlTUFud0lJMjlBRVhYUmowYk0zeGg3SGJwaVZGZ0hLSExRY2p2RmQzMEFZNW41NFBnMTFZYVQ2VXRBNGlIaGZzNGJJNGl2aVk2dW96eGVUeHo1c2tSS09OQkx3YUhfQmVqWlVNVldHd2NONjd4el8tbTFHZGotQdIBuwFBVV95cUxOcm1QUWZuZXNWbTlPWHRrY2ROTnVIOWFoeEgzUmZoN3NpQzJhc0xJOHBQdjN1RjcwVnlHaHRtcThFWUs5OXdrYTN6Qk9LSENrMTd4S3VFWml6a2RFNjlQdXFxMHFIeVB2ekEtTW5rVEtQX0lmY3R1aHVnLUllZlJZdWpDUnNOS2RXTFVKRDEtLU1oR3NqWFpSMzcxM1UxVDNjUkxYMlZxZE1ZOWFoRnNyUUxvQk1PV1BUQ3Y4?oc=5"
-   },
-   {
-    "date": "2026-11-11",
-    "published": "2026-11-11T15:19:54+00:00",
-    "source": "France 24",
-    "title": "Yemen security sources report strikes on Aden",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWnhBOXVyQlRla2RBb3ItSUlMLTFZOGhrY2R6SHRHQl9LdFc1aWlBZjJxWVdORW85YnhMMUFoaktjdmR0QmhLeGxtVDJTbnpVV21VUERrYlpNZzB6clJQejdVSl9Tc1duM2lqZURQZTlOWVExUWlyNnFpZGpHUlFVR0tEUkFzVE5neWYtZlpUUFBLUXRZOWVZRzg3SEJxekVGTTh5OUM2WnpWMG5nUnQxT1o5dlB3SzA?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-12T01:28:54Z"
+  "last_ok_at": "2026-11-12T09:42:51Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T01:28:55Z",
+  "fetched_at": "2026-11-12T09:42:52Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 38,
-  "baseline": 29.0,
-  "baseline_n": 18,
+  "count": 39,
+  "baseline": 30,
+  "baseline_n": 9,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2377,14 +2406,15 @@
    "2026-11-11T02": 25,
    "2026-11-11T10": 31,
    "2026-11-11T18": 26,
-   "2026-11-12T01": 38
+   "2026-11-12T01": 38,
+   "2026-11-12T09": 39
   },
-  "last_ok_at": "2026-11-12T01:28:55Z"
+  "last_ok_at": "2026-11-12T09:42:52Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-12T01:28:55Z",
-  "last_ok_at": "2026-11-12T01:28:55Z"
+  "fetched_at": "2026-11-12T09:42:53Z",
+  "last_ok_at": "2026-11-12T09:42:53Z"
  }
 }
