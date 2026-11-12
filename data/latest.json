@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T09:42:31Z",
+ "generated_at": "2026-11-12T18:10:40Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T09:42:31Z",
+  "fetched_at": "2026-11-12T18:10:40Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 4,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-12T09:42:31Z"
+  "last_ok_at": "2026-11-12T18:10:40Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T09:42:50Z",
+  "fetched_at": "2026-11-12T18:10:55Z",
   "events": [
+   {
+    "date": "2026-11-12",
+    "time": "20:34",
+    "iso": "2026-11-12T20:34:26+03:00",
+    "city": "얀부",
+    "type": "피격",
+    "weapon": null,
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "후티 반군 \"사우디 동서 송유관·얀부 석유시설 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KamdIRmdhMXN4MWxZdk1hcTJoYkVkdDZsQ0lHRGNLT1MwOEpNUTZ0b3RKTkFIUWdYVjdKa1B5Y2Y4ZXNsOW16Vk0xTWdWZWRMY083Y0d6cmJCdzI5c01BYlZOcHBGaGNFTUY0UlV2RUNpb0dn?oc=5",
+    "source": "연합뉴스",
+    "outlets": 2
+   },
    {
     "date": "2026-11-12",
     "time": "05:03",
@@ -1191,9 +1205,10 @@
   "tempo": {
    "얀부": {
     "7d": {
+     "피격": 1,
      "경보": 1
     },
-    "total7d": 1,
+    "total7d": 2,
     "prev7d": {},
     "prev_total": 0
    },
@@ -1336,14 +1351,81 @@
   "history_days": 31,
   "history_since": "2026-10-13",
   "today": "2026-11-12",
-  "last_ok_at": "2026-11-12T09:42:50Z"
+  "last_ok_at": "2026-11-12T18:10:55Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T09:42:51Z",
+  "fetched_at": "2026-11-12T18:10:56Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-12 20:53",
+    "iso": "2026-11-12T20:53:05+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة قبل قليل من استهداف شركة أرامكو في عاصمة العدو السعودي الرياض بطائرة مسيرة وحققت العملية هدفها بنجاح بفضل الله http://t.me/army21ye",
+    "text_ko": "우리 군은 방금 전 사우디아라비아 적국의 수도 리야드에 있는 아람코사를 무인기로 공격하는 데 성공했으며, 알라의 은총으로 작전 목표를 성공적으로 달성했습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4072"
+   },
+   {
+    "time": "2026-11-12 20:21",
+    "iso": "2026-11-12T20:21:30+03:00",
+    "places": [
+     "카미스무샤이트"
+    ],
+    "text_ar": "استهدفت القوات المسلحة اليمنية طائرة شحن عسكرية في مطار شرورة وذلك بطائرة مسيرة وحققت العملية هدفها بفضل الله. فيما نفذت عملية أخرى استهدفت قاعدة خميس مشيط الجوية بصاروخ باليستي وكانت الإصابة مباشرة بفضل الله. http://t.me/army21ye",
+    "text_ko": "예멘군은 드론을 사용하여 샤루라 공항에 있는 군용 수송기를 공격했으며, 알라의 은혜로 작전은 목표를 달성했다. 한편, 또 다른 작전이 발사체 미사일로 카미스 무샤이트 공군 기지를 겨냥하여 수행되었으며, 알라의 은총으로 직격탄을 명중시켰다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4071"
+   },
+   {
+    "time": "2026-11-12 20:05",
+    "iso": "2026-11-12T20:05:33+03:00",
+    "places": [
+     "얀부",
+     "메카"
+    ],
+    "text_ar": "نفذت قواتنا المسلحة بعون الله تعالى عمليتين عسكريتين استهدفت العملية الأولى محطة الضخ رقم سبعة في خط شرق غرب بطائرة مسيرة وحققت هدفَها بنجاح بفضل الله، فيما استهدفت العملية الأخرى منشأة ينبع النفطية وذلك بصاروخ باليستي وحققت هدفَها بفضل الله. ما يروج له العدو السعودي المجرم من اعتراض صاروخين فى أجواء مكة المكرمة بهتان عظيم فمع كل عملية ناجحة لقواتنا باتجاه منشآته النفطية وفشله في عمليات الاعتراض ي…",
+    "text_ko": "하나님 Almighty의 도움으로 우리 군대는 두 차례의 군사 작전을 수행했습니다. 첫 번째 작전은 드론을 사용하여 동서선 7번 펌프장을 목표로 하였으며, 하나님의 은혜로 성공적으로 목표를 달성했습니다. 두 번째 작전은 탄도미사일을 사용하여 얀부 석유 시설을 목표로 하였으며, 하나님의 은혜로 목표를 달성했습니다. 사우디아라비아의 범죄자 적이 메카 상공에서 두 발의 미사일을 요격했다고 주장하는 것은 큰 거짓말이다. 우리 군이 사우디아라비아의 석유 시설을 향해 성공적인 작전을 수행할 때마다 사우디아라비아는 요격 작전에 실패하고 있다.",
+    "url": "https://t.me/army21ye/4070"
+   },
+   {
+    "time": "2026-11-12 19:34",
+    "iso": "2026-11-12T19:34:25+03:00",
+    "places": [],
+    "text_ar": "نفذت قواتنا المسلحة بفضل الله ست عمليات استهداف لتحشيدات العدو السعودي التى يشرف عليها الضابط السعودي بدر الحربي في معسكر خرز ومواقع أخرى في رأس العارة وخرز بمحافظة لحج بستة صواريخ بالستية وكانت الإصابات مباشرة بفضل الله وخلفت عشرات القتلى والجرحى. http://t.me/army21ye",
+    "text_ko": "하나님의 은혜로 우리 군대는 사우디아라비아 장교 바드르 알-하르비가 지휘하는 사우디아라비아 적군의 집결지에 대해 6차례의 공격을 수행했습니다. 이 공격은 라흐즈 주에 위치한 카르즈 군사 기지와 라스 알-아라 및 카르즈의 다른 거점들을 대상으로 했으며, 6발의 탄도 미사일이 발사되었습니다. 하나님의 은혜로 공격은 정확히 명중했으며, 그 결과 수십 명의 사상자가 발생했습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4068"
+   },
+   {
+    "time": "2026-11-12 19:23",
+    "iso": "2026-11-12T19:23:09+03:00",
+    "places": [
+     "타이프",
+     "지잔",
+     "카미스무샤이트"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 98 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات لحج وتعز وصعدة والجوف ومأرب وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من جيزان وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4863 غارةً جويةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디아라비아 공군은 F-15와 타이푼 전투기를 동원하여 라흐즈, 타이즈, 사다, 자우프, 마리브 주에 있는 민간 시설을 대상으로 98회의 공습과 미사일 공격을 가했습니다. 이 공격은 카미스 무샤이트와 타이프 기지에서 이륙한 전투기를 통해 이루어졌으며, 지잔에서는 미사일 공격이 가해졌습니다. 이로 인해 민간인 사상자가 발생했습니다. 우리나라에 대한 공격이 격화되기 시작한 이래 사우디아라비아의 침략 공습 총계는 4,863회의 공습과 미사일 공격에 이릅니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4067"
+   },
+   {
+    "time": "2026-11-12 16:10",
+    "iso": "2026-11-12T16:10:38+03:00",
+    "places": [],
+    "text_ar": "مشاهد ضرب تحشيدات للعدو بقيادة الضابط السعودي فارس الشمّري وتدمير عدد من مدرعاتهم وآلياتهم شرق مديرية مدغل بمأرب - 12 نوفمبر 2026م",
+    "text_ko": "2026년 11월 12일 - 사우디아라비아 장교 파리스 알-샴마리의 지휘 하에 적의 집결지를 공격하고 마리브의 마드갈 지구 동쪽에서 적의 장갑차와 차량 여러 대를 파괴하는 장면",
+    "url": "https://t.me/army21ye/4066"
+   },
+   {
+    "time": "2026-11-12 15:36",
+    "iso": "2026-11-12T15:36:23+03:00",
+    "places": [],
+    "text_ar": "ترقبوا عند الساعة الرابعة عصرا مشاهد ضرب تحشيدات للعدو السعودي بقيادة الضابط السعودي فارس الشمّري وتدمير عدد من مدرعاتهم وآلياتهم شرق مديرية مدغل بمحافظة مأرب",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/4065"
+   },
    {
     "time": "2026-11-11 23:12",
     "iso": "2026-11-11T23:12:51+03:00",
@@ -1420,6 +1502,14 @@
     "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 109 غارات جوية وصواريخ استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وعمران وصعدة ومأرب ولحج وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران وجيزان وخلفت عددا كبيرا من الشهداء والجرحى بينهم نساء وأطفال. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4672 غارةً جوية…",
     "text_ko": "지난 24시간 동안 사우디아라비아 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 및 \"타이푼\" 항공기와 나즈란과 지잔의 미사일 공격을 통해 수도 사나와 알자프, 타이즈, 암란, 사다, 마리브, 라즈의 주지사에서 민간인 물체를 겨냥한 109건의 공습과 미사일을 발사했으며, 이는 여성과 어린이를 포함한 많은 순교자와 부상자를 남겼습니다. 우리나라에 대한 공습이 이관된 이후 사우디아라비아의 총 공격 횟수를 4,672회로 늘렸습니다...",
     "url": "https://t.me/army21ye/4055"
+   },
+   {
+    "time": "2026-11-10 17:22",
+    "iso": "2026-11-10T17:22:09+03:00",
+    "places": [],
+    "text_ar": "بيان القوات المسلحة اليمنية بشأن تنفيذ أربع عمليات عسكرية نوعية داخل العمق السعودي. جودة منخفضة http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/4052"
    },
    {
     "time": "2026-11-10 17:20",
@@ -2030,33 +2120,39 @@
    }
   ],
   "mentions7d": {
-   "리야드": 9,
-   "카미스무샤이트": 7,
+   "리야드": 10,
+   "카미스무샤이트": 9,
+   "타이프": 7,
    "나즈란": 7,
-   "타이프": 6,
    "아브카이크": 5,
-   "메디나": 3,
-   "지잔": 2,
-   "송유관": 2,
-   "메카": 1,
-   "얀부": 1,
-   "담맘": 1
+   "지잔": 3,
+   "메카": 2,
+   "얀부": 2,
+   "메디나": 2,
+   "송유관": 2
   },
-  "last_ok_at": "2026-11-12T09:42:51Z"
+  "last_ok_at": "2026-11-12T18:10:56Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T09:42:51Z",
+  "fetched_at": "2026-11-12T18:11:09Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-12T09:42:51Z"
+  "last_ok_at": "2026-11-12T18:11:09Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T09:42:51Z",
+  "fetched_at": "2026-11-12T18:11:10Z",
   "kr": [
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T17:44:14+00:00",
+    "source": "SBS",
+    "title": "후티 반군 \"사우디 동서 송유관·얀부 석유시설 타격\"",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81WDd5aEdCcHYwXzBIX1BCTG14bzNIcERaRmxrcGhOLVZ0RExVVGxJMXI1bnNKMlBhVnFxdkQ5Y3p4UUJEMzNhTW1VM2s5SDRBOUQ5NC1fVFdMZm5CUUd6VzMzeE9hM0N1bEE?oc=5"
+   },
    {
     "date": "2026-11-12",
     "published": "2026-11-12T02:21:40+00:00",
@@ -2084,63 +2180,56 @@
     "source": "뉴시스",
     "title": "예멘 후티군, \"사우디 정유시설과 리야드 공항에 또 미사일· 드론공격\"",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VdEhaaU9pVFJ5cTYyUVlVYlpHa01DVXEtczBQUFJOa2NLaHRyWVVmMXA3UU45Z1JkMXBZM0lsTFJPR0RXd3pCR0FvY2VxWXlBdWd5Mkd5bzZ5TmVQTUJ1SUVVYXRRbDVOU0FKdVVJOUh6S1BJTGVBOdIBeEFVX3lxTE9VdEhaaU9pVFJ5cTYyUVlVYlpHa01DVXEtczBQUFJOa2NLaHRyWVVmMXA3UU45Z1JkMXBZM0lsTFJPR0RXd3pCR0FvY2VxWXlBdWd5Mkd5bzZ5TmVQTUJ1SUVVYXRRbDVOU0FKdVVJOUh6S1BJTGVBOQ?oc=5"
-   },
-   {
-    "date": "2026-11-11",
-    "published": "2026-11-11T16:01:00+00:00",
-    "source": "뉴스1",
-    "title": "사우디 연합군 \"리야드 겨눈 후티 순항미사일 3기 요격\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGS3JRUWFtXzB0MTVXQ1dWSlZ1QjR5Z0pIeVpvR2p4MW1YRXBSaUtPYjFvY2c4WExqWVpGR2dGTFdPcDI4Mk1HLWxGN2pOTkNGOXFQY1hZYzFXN1R2RXhUeDlR?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-12",
-    "published": "2026-11-12T08:45:14+00:00",
+    "published": "2026-11-12T16:04:51+00:00",
     "source": "Reuters",
-    "title": "Most Gulf markets dip at open on rising Saudi-Houthi tensions",
+    "title": "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSnl4RjlVd0VYeWFKTUM1eDh4Y1J4V2RsZXlIYTRDUjZGdzJoeHBJQnZXd0NCYTBXcVhUQjFYZ1JNUnk3SDhVWXBHZWJrbm1EQTREYWJzN2MxU1lkQUg1Y3JyWDV1bU1mN3Fha2VfejBDN3o5ZG5aZWdGMVdZT1NvbDBXM045V01GUHpvWEI5TmFTMTlyTkN6cDZhWmxsTVZxNE5mOW1Wb1lLMG04a0F3RXdRT1o1d0hld1h2Tg?oc=5"
+   },
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T14:14:28+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Trump says US no longer needs Iran deal",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQUlUTHlPaTZjN0NQZnVxYWVlaGZhV3djV24xWWN1a1JTVk5Qc2FkSEI1Y21JZTF4M042WXRhUy1WVU1uSmlSTkNWRGRCbk1DX1N2MTJTTVRqZl9zNWM5ZkU1MkpvV3o5aWZmSERONTRvRzBJLVh0YmVRTGlKbE9HbG94Qkg?oc=5"
+   },
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T13:17:46+00:00",
+    "source": "Reuters",
+    "title": "Abu Dhabi boosts Gulf markets as FAB shares advance",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGNWY3AteW02UnJ1U3diVGdQLTFOUlJCU1M0UWZhQUdCbzhicnpLWXNpeWhHT1J0NkZWYzRzVm1nMUcxV2Q5MXJGOXNMTm4tT3FHM3F4d0s5VWU3UzZ0ZW1nb1YtTzh4SEIwQXExSU5DX0V3dHNvbWlvMGZKVlppZ0tib2xkOWpoWHljSXVVRnh1b2VneEd0NHhnbVNvQy1QV1pwOEVTTG9OempFYmc?oc=5"
    },
    {
     "date": "2026-11-12",
-    "published": "2026-11-12T04:43:49+00:00",
-    "source": "Al Jazeera",
-    "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOblNUcC1FYlVmaTQ5VlJIdmFWRG9ubmFQaHVvaWxwUm5WWF9iQ0syNTVZcWk5RXZVWVJHT3BVSndNT000MWVURE1QSTF6dkRFWDlZUWtyNERCbmx6c1VpSmNMaHlUOHEzNkZIM05EYkJXcHo0ZW5xVjAzUzBON1RaVU82WGRqb3Y2ME5wWThpR0lUTnUtcUh5NWNVOGh0aklnWEJGYkdR0gGrAUFVX3lxTE1zVndXa1pmQzQ2TmpPTGx4TERyNkNtYTlTMTFqR1lCYzhRTWZ4ZFpjRlNnUWNoWmQxcnR6MEtCdWczM3JFYS1zeDdESWthRlo2c2F4dG83NURZaVdnSXJ6UGJsMHhneGg5enhGNmg2eENXTUlzbHd6T2FsUVVOVExjNURLNEtpanFfVURqS09ydDQ5RXdVSnNhV2F3ZGFJWXVfV2FIQl9UZEZnYw?oc=5"
-   },
-   {
-    "date": "2026-11-12",
-    "published": "2026-11-12T00:21:00+00:00",
-    "source": "Reuters",
-    "title": "Saudi Arabia says debris from intercepted missiles falls in Mecca region",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEdmMVduSHJxWEd1UWVkOUtrcF91S3VfSnI0MzlnTjh6NFdHOFNpSTBXU1JpdFk3NHdORlNsck91bFEyNUNLMHdoT1hFZmlqTGdaUDU2c2ZkeXE0Zl82cURaQXZxTS1IMmxqS3FNUEVNU1FRU1NQU01EQkxzNkN0YUhWek1qRm9ZYkNUS1FrWUIyTmFaUFFkTERqZER3UUx6cEN3VVdWNG56R19zSFkzRWphVUl1Z3I1eHc?oc=5"
-   },
-   {
-    "date": "2026-11-11",
-    "published": "2026-11-11T19:43:02+00:00",
-    "source": "The National",
-    "title": "Middle East latest: IRGC says two supertankers explode in Strait of Hormuz",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1E2VFlpWERDcU1PanZ2RkFFbXN6OFJvZ2ljaUdxVjAzemJXZFlRcTFpMEZyc1FBWE9zQ1JWUy1kUHBpdHZYM2xUbDVWUHRiUEZLRjBFWGtYMUFYeExqQzdXa2lqbWl0clBvLVRXZGZqRzZ2Uk00WmlGT1hnSEZBdWFOa1ljT045RUthemFUcDhjdm1EODNtNDUtdW5SOWxpeFZPMQ?oc=5"
+    "published": "2026-11-12T09:48:57+00:00",
+    "source": "Arab News",
+    "title": "Saudi Arabia leads OPEC+ production recovery toward pre-war levels",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV3g4Y0pLUi1DSG9FeHotU1lRUHBmcnBrVjd1cE5Ca3NjcDByM3NKeWpwaWZlSk5oMFkzQTV1TmtEQnA4QVF5dmtaeHJON2JRRzBuTGJ0UDhrQldhbHR3VzZaRFVxSXhnMjJuNUhsVGxlb0VRVmNOVmRqaW5mRUtXbWduMl9vbjJtV2RzdGhwS0htRGlLSnA5LXpPelAzc3lUNDVCNVVWNFA?oc=5"
    },
    {
     "date": "2026-11-11",
     "published": "2026-11-11T16:06:42+00:00",
     "source": "Bloomberg",
-    "title": "Saudis Tell OPEC Output Surged 26% to Highest Since War Began",
+    "title": "Saudi Oil Output Surges to One of Highest Levels in Years",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMU1UZzFGcHVQTS1lNzJZVXZKeFlhS3ltbjcwcDAyVGZOWkZsUkFobUhoT2d6TTMxN2l3Y0NGQ1lsZDJ0Y0Fzcl9lNkR0Q0o5ZmpCRnRERnVBSDhHVnEwNXcxQmJBZy1ZTHEySzh3TkkwMmpmZDRxTkVhUUw0SnNkXzJCd0NsZWpsQzJSRzl0dHpaMU9hQXZ4ZUtqc1FJSVpvbWZlcVpueTByUjk1akZr?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-12T09:42:51Z"
+  "last_ok_at": "2026-11-12T18:11:10Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-12T09:42:52Z",
+  "fetched_at": "2026-11-12T18:11:11Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 39,
-  "baseline": 30,
-  "baseline_n": 9,
-  "tier": "정상",
+  "count": 18,
+  "baseline": 28.0,
+  "baseline_n": 14,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -2407,14 +2496,15 @@
    "2026-11-11T10": 31,
    "2026-11-11T18": 26,
    "2026-11-12T01": 38,
-   "2026-11-12T09": 39
+   "2026-11-12T09": 39,
+   "2026-11-12T18": 18
   },
-  "last_ok_at": "2026-11-12T09:42:52Z"
+  "last_ok_at": "2026-11-12T18:11:11Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-12T09:42:53Z",
-  "last_ok_at": "2026-11-12T09:42:53Z"
+  "fetched_at": "2026-11-12T18:11:11Z",
+  "last_ok_at": "2026-11-12T18:11:11Z"
  }
 }
