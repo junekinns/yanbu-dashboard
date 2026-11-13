@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T00:10:35Z",
+ "generated_at": "2026-11-13T07:49:00Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T00:10:35Z",
+  "fetched_at": "2026-11-13T07:49:00Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 4,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-13T00:10:35Z"
+  "last_ok_at": "2026-11-13T07:49:00Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T00:10:54Z",
+  "fetched_at": "2026-11-13T07:49:15Z",
   "events": [
    {
     "date": "2026-11-13",
@@ -1321,12 +1321,12 @@
   "history_days": 31,
   "history_since": "2026-10-14",
   "today": "2026-11-13",
-  "last_ok_at": "2026-11-13T00:10:54Z"
+  "last_ok_at": "2026-11-13T07:49:15Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T00:10:55Z",
+  "fetched_at": "2026-11-13T07:49:16Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2037,27 +2037,27 @@
    "송유관": 2,
    "메디나": 2
   },
-  "last_ok_at": "2026-11-13T00:10:55Z"
+  "last_ok_at": "2026-11-13T07:49:16Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T00:10:56Z",
+  "fetched_at": "2026-11-13T07:49:16Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-13T00:10:56Z"
+  "last_ok_at": "2026-11-13T07:49:16Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T00:10:56Z",
+  "fetched_at": "2026-11-13T07:49:17Z",
   "kr": [
    {
     "date": "2026-11-12",
     "published": "2026-11-12T21:14:00+00:00",
     "source": "KBS",
     "title": "트럼프 급선회 “이란과 협상 필요없어”…후티는 사우디 석유시설 타격",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rR1ZQVWRsSXkzNVFKamQ4VTRRMmx5Z2dyY2V4NW1TOXF2S2FOY2hoT1ZrVS04RjFUZUNqWlI5U1Y3M1dEVVAxdkZTQnRiWnNLd1VTSVhIRVpvYVI0aDhUeWRWUXhQQQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzM0xVYzc1aUlSS2liS19FUlJ5NXo4bmdZMGpXajQtNkhOeVIzZExyekpNRGUtVFVaNDBTa2dsUWtZNkhzUlNpempTYURLbHhjTVNJWXZ1cTZPNW8?oc=5"
    },
    {
     "date": "2026-11-12",
@@ -2090,6 +2090,27 @@
   ],
   "en": [
    {
+    "date": "2026-11-13",
+    "published": "2026-11-13T04:35:09+00:00",
+    "source": "The National",
+    "title": "Houthi threat and Iran war reshape Saudi Arabia's security priorities",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMGpsYWNNQkhWNEh0dnJCOVYyN3Y0MGVjRWNpbzFvQ3h0Q3lyeUttaVM5VS1OYVJjTHVQMkpKZVBvektBMFNtMElXNWZyMlN5WXFjR1IyYWZ0c0VqMUlmOFJ0OVhLUndtVVEyUFpFbUhZQTgwRHFiTHV1NnJMREU5N053WElUX1Y0MXRQSmczWGRRWktBelFhRENwWWtWUzJtVlNEa0t3eTFZWUhvUG9rbkltQkZ2MzRZN283aWpxdw?oc=5"
+   },
+   {
+    "date": "2026-11-13",
+    "published": "2026-11-13T00:46:35+00:00",
+    "source": "Al Jazeera",
+    "title": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczh4SThZNndlcnhvbjZxLWgzZ0x1Ym5zRUt0WHQ1V1k3dW54dDFGNFFGa015aE9NLVNBanFwNVB6S1JPLWp0ZEswUGpDc1pwRWtTbzJZOFdWQTlXVzA0QlhIZ0xTM1VNTUZzS3RGck80TU1tRmVxclhFLTlJbVBtWmdjVnNkUDB6RGJudDhabHktT1lkYzdlNzdBTUFDY0FjN3FXSTFuWGVxeWxvNkFlTUl30gG3AUFVX3lxTE1TT3FLV3RuLVdWMUR6TXc3UFhRODUxeVdpWDdoeUxnMUtpYTk1bVJJMy1jYnp4S0liVXJlTlB2WXM3M2ZwMktmTi1pbzBPbURfcl9LNDRaM0ZJZ21fOThTQzRtX3kzTUk3cWQ1TzlJb2I2OWFuWDk5ekVsd3JHck04SGpvUUhZU2lJaHhMRGhPNWR1eHJ1VFltYUU1ZzJjLTBLMmM3UVM5ZTFRbHZDSVRUZnlKdlFwbw?oc=5"
+   },
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T20:41:42+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Trump says US no longer needs Iran deal",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQUlUTHlPaTZjN0NQZnVxYWVlaGZhV3djV24xWWN1a1JTVk5Qc2FkSEI1Y21JZTF4M042WXRhUy1WVU1uSmlSTkNWRGRCbk1DX1N2MTJTTVRqZl9zNWM5ZkU1MkpvV3o5aWZmSERONTRvRzBJLVh0YmVRTGlKbE9HbG94Qkg?oc=5"
+   },
+   {
     "date": "2026-11-12",
     "published": "2026-11-12T20:18:21+00:00",
     "source": "Reuters",
@@ -2098,43 +2119,22 @@
    },
    {
     "date": "2026-11-12",
-    "published": "2026-11-12T13:17:46+00:00",
-    "source": "Reuters",
-    "title": "Abu Dhabi boosts Gulf markets as FAB shares advance",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGNWY3AteW02UnJ1U3diVGdQLTFOUlJCU1M0UWZhQUdCbzhicnpLWXNpeWhHT1J0NkZWYzRzVm1nMUcxV2Q5MXJGOXNMTm4tT3FHM3F4d0s5VWU3UzZ0ZW1nb1YtTzh4SEIwQXExSU5DX0V3dHNvbWlvMGZKVlppZ0tib2xkOWpoWHljSXVVRnh1b2VneEd0NHhnbVNvQy1QV1pwOEVTTG9OempFYmc?oc=5"
-   },
-   {
-    "date": "2026-11-12",
-    "published": "2026-11-12T09:48:57+00:00",
-    "source": "Arab News",
-    "title": "Saudi Arabia leads OPEC+ production recovery toward pre-war levels",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV3g4Y0pLUi1DSG9FeHotU1lRUHBmcnBrVjd1cE5Ca3NjcDByM3NKeWpwaWZlSk5oMFkzQTV1TmtEQnA4QVF5dmtaeHJON2JRRzBuTGJ0UDhrQldhbHR3VzZaRFVxSXhnMjJuNUhsVGxlb0VRVmNOVmRqaW5mRUtXbWduMl9vbjJtV2RzdGhwS0htRGlLSnA5LXpPelAzc3lUNDVCNVVWNFA?oc=5"
-   },
-   {
-    "date": "2026-11-11",
-    "published": "2026-11-11T21:13:47+00:00",
-    "source": "Al Jazeera",
-    "title": "Oil production nears pre-Iran war levels, OPEC says",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWVl4QjNFcFhZd1N4V2ZIQlM0ejAwcEVmbUxqXzdmamFJeUE0QXBNU3FoQW9ldGNYdF95QnU2MVZxTGlMX1NiYWZrUVY0S2hKTFlVSGJBZTExY0xfWGl1Q2RobDlQa0M5a1ozU1VYSlBNd2lDYzQwS2FKV0pNNnpJUnNUNDV1RmJYZENBNWVXcVM0R0MyVWfSAZsBQVVfeXFMTVdoNlkwaFM0R0ZuOExoUHowckk2eFNRejVwY1NUM1pnZEp1RDdMdVdGLXM3ZFFCeEJIOE5zdWJZeXJwcTlHLVk5azdLUTV2R0EtaGJ1VHMyb0tiTmp3MHhJVzBZSjBJRURLcF8yWkJvcXhHY2UwTS1wd1JFbkZGMkY1eXcwNk9LTlBkNDh6clNWSUlRRXppdG5QelE?oc=5"
-   },
-   {
-    "date": "2026-11-11",
-    "published": "2026-11-11T13:29:33+00:00",
-    "source": "Financial Times",
-    "title": "Saudi oil production rebounds close to prewar levels",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR2R3YVI3eXRmWWFQMHFxdzQ4ekM1US10TDlYQWJHUXlvZmtYQ25nSnN0MXR3ZFZ3T3JocHJpUDEzcTNfWldBa2Z2MEFWRlQyMEd0Y09SdW1wbnU3MWJIZDdMX2R0dy1LM3liekZlcjg0NjdGSXFsWGpZVl9aRG1iSHo0MU4?oc=5"
+    "published": "2026-11-12T14:04:38+00:00",
+    "source": "CNN",
+    "title": "Yemen’s Houthis hold mass funeral as they call for action to protect civilians",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON1pYX0FiYnJXVm4tV0FZcGhMb0V0Z1hGQW9HUF9yNjVfdUFBQ284Uzl6MDNjbXo4MFktbmJYaE51NFV0NzE0REk2dTlNRmR1TzFGbzBZLWtldWRfSkpjZDVGRHg1SUo4ZEk1VlM1dUYyUzZHZHBXZ2NYdnFZU1RuTW40M203Y0ZBdjgwYnVGdnN0QQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-13T00:10:56Z"
+  "last_ok_at": "2026-11-13T07:49:17Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T00:10:57Z",
+  "fetched_at": "2026-11-13T07:49:18Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 25,
-  "baseline": 33.5,
-  "baseline_n": 18,
+  "count": 22,
+  "baseline": 24.5,
+  "baseline_n": 10,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2404,14 +2404,15 @@
    "2026-11-12T01": 38,
    "2026-11-12T09": 39,
    "2026-11-12T18": 18,
-   "2026-11-13T00": 25
+   "2026-11-13T00": 25,
+   "2026-11-13T07": 22
   },
-  "last_ok_at": "2026-11-13T00:10:57Z"
+  "last_ok_at": "2026-11-13T07:49:18Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-13T00:10:57Z",
-  "last_ok_at": "2026-11-13T00:10:57Z"
+  "fetched_at": "2026-11-13T07:49:18Z",
+  "last_ok_at": "2026-11-13T07:49:18Z"
  }
 }
