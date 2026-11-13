@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T07:49:00Z",
+ "generated_at": "2026-11-13T16:10:29Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T07:49:00Z",
+  "fetched_at": "2026-11-13T16:10:29Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 4,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-13T07:49:00Z"
+  "last_ok_at": "2026-11-13T16:10:29Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T07:49:15Z",
+  "fetched_at": "2026-11-13T16:10:44Z",
   "events": [
    {
     "date": "2026-11-13",
@@ -1321,12 +1321,12 @@
   "history_days": 31,
   "history_since": "2026-10-14",
   "today": "2026-11-13",
-  "last_ok_at": "2026-11-13T07:49:15Z"
+  "last_ok_at": "2026-11-13T16:10:44Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T07:49:16Z",
+  "fetched_at": "2026-11-13T16:10:45Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2027,7 +2027,7 @@
   ],
   "mentions7d": {
    "리야드": 10,
-   "카미스무샤이트": 9,
+   "카미스무샤이트": 8,
    "타이프": 7,
    "나즈란": 7,
    "아브카이크": 5,
@@ -2037,20 +2037,20 @@
    "송유관": 2,
    "메디나": 2
   },
-  "last_ok_at": "2026-11-13T07:49:16Z"
+  "last_ok_at": "2026-11-13T16:10:45Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T07:49:16Z",
+  "fetched_at": "2026-11-13T16:10:46Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-13T07:49:16Z"
+  "last_ok_at": "2026-11-13T16:10:46Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T07:49:17Z",
+  "fetched_at": "2026-11-13T16:10:46Z",
   "kr": [
    {
     "date": "2026-11-12",
@@ -2105,9 +2105,16 @@
    },
    {
     "date": "2026-11-12",
-    "published": "2026-11-12T20:41:42+00:00",
+    "published": "2026-11-12T23:32:20+00:00",
+    "source": "Arab News",
+    "title": "UN Security Council unanimously agrees moves to halt Houthi drone and missile production",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUlBZLTd5ZU9sLWVMaTUxc2llWGdnNEZnemR2VmdEdXpQX0h2RkJ4ajUwNUJaUDlEenl4dFlOb0FBOXRkUWNhNGhUU3RTcUI3YjBtZGNvRG9uVm81SUdGUTF4b01kRVBCdkg5ejFROTVQLTZocVZhN212dmdDYW82VjdibDlzc25lNmJjSVBjRnppelptNEpvTDNBN3BZYUM0U240cHFZeWoyMlNXR0tSTzZPVURQWDNGdEpuVVNHVUlmRFpBTEtKcUpFZ3Rqdw?oc=5"
+   },
+   {
+    "date": "2026-11-12",
+    "published": "2026-11-12T23:21:25+00:00",
     "source": "The National",
-    "title": "Middle East latest: Trump says US no longer needs Iran deal",
+    "title": "Middle East latest: IAEA 'concerned' about underground uranium-enrichment plant at Isfahan",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQUlUTHlPaTZjN0NQZnVxYWVlaGZhV3djV24xWWN1a1JTVk5Qc2FkSEI1Y21JZTF4M042WXRhUy1WVU1uSmlSTkNWRGRCbk1DX1N2MTJTTVRqZl9zNWM5ZkU1MkpvV3o5aWZmSERONTRvRzBJLVh0YmVRTGlKbE9HbG94Qkg?oc=5"
    },
    {
@@ -2116,25 +2123,18 @@
     "source": "Reuters",
     "title": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOHNyWUhKaHR2QmJXUjJ6S0xNdDZnZmpKRzJQak9SWVc3cmttUGVfbk13NzBZclpqNnp5N1JFc0JYakw2Wl9hV3BYdm1mMnJQR3BKRFI2Zzh3cVRhTFFxejBSVWtTMkt2WTRGRUxFSkVocF83aFlIOU10Vk11d29TRERPcnFVWHRJYktFOUlGU0x4c0Q0UWVtT3JkUE91ZVNPQ09NTnhaMGxJajZxQnkwWTFvTzN4WnNpMTBYalNZOHFZdnUtX1VHeUVR?oc=5"
-   },
-   {
-    "date": "2026-11-12",
-    "published": "2026-11-12T14:04:38+00:00",
-    "source": "CNN",
-    "title": "Yemen’s Houthis hold mass funeral as they call for action to protect civilians",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON1pYX0FiYnJXVm4tV0FZcGhMb0V0Z1hGQW9HUF9yNjVfdUFBQ284Uzl6MDNjbXo4MFktbmJYaE51NFV0NzE0REk2dTlNRmR1TzFGbzBZLWtldWRfSkpjZDVGRHg1SUo4ZEk1VlM1dUYyUzZHZHBXZ2NYdnFZU1RuTW40M203Y0ZBdjgwYnVGdnN0QQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-13T07:49:17Z"
+  "last_ok_at": "2026-11-13T16:10:46Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-13T07:49:18Z",
+  "fetched_at": "2026-11-13T16:10:47Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 22,
-  "baseline": 24.5,
-  "baseline_n": 10,
+  "count": 26,
+  "baseline": 29.0,
+  "baseline_n": 14,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2405,14 +2405,15 @@
    "2026-11-12T09": 39,
    "2026-11-12T18": 18,
    "2026-11-13T00": 25,
-   "2026-11-13T07": 22
+   "2026-11-13T07": 22,
+   "2026-11-13T16": 26
   },
-  "last_ok_at": "2026-11-13T07:49:18Z"
+  "last_ok_at": "2026-11-13T16:10:47Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-13T07:49:18Z",
-  "last_ok_at": "2026-11-13T07:49:18Z"
+  "fetched_at": "2026-11-13T16:10:47Z",
+  "last_ok_at": "2026-11-13T16:10:47Z"
  }
 }
