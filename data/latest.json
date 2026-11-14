@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T10:13:37Z",
+ "generated_at": "2026-11-14T16:59:10Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T10:13:37Z",
+  "fetched_at": "2026-11-14T16:59:10Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,9 @@
   "last7d": 4,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-14T10:13:37Z"
+  "last_ok_at": "2026-11-14T16:59:10Z"
  },
  "events": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-11-14T10:13:56Z",
   "events": [
    {
     "date": "2026-11-13",
@@ -1291,14 +1288,36 @@
   "history_days": 31,
   "history_since": "2026-10-15",
   "today": "2026-11-14",
-  "last_ok_at": "2026-11-14T10:13:56Z"
+  "last_ok_at": "2026-11-14T10:13:56Z",
+  "ok": false,
+  "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28intercepted%20OR%20intercepts%20OR%20%22shot%20down%22%20OR%20destroyed%20OR%20strikes%20OR%20struck%20OR%20attack%20OR%20airstrike%20OR%20alert%20OR%20siren%29%20%28Houthi%20OR%20coalition%20OR%20Saudi%29%20%28Yanbu%20OR%20Jeddah%20OR%20Medina%20OR%20Mecca%20OR%20Taif%20OR%20Jazan%20OR%20Abha%20OR%20%22Khamis%20Mushait%22%20OR%20Najran%20OR%20Riyadh%20OR%20Dammam%20OR%20Dhahran%20OR%20Jubail%20OR%20%22Ras%20Tanura%22%20OR%20Abqaiq%20OR%20pipeline%20OR%20Rabigh%29%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
+  "fetched_at": "2026-11-14T16:59:29Z",
+  "stale": true
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T10:13:56Z",
+  "fetched_at": "2026-11-14T16:59:35Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-14 19:20",
+    "iso": "2026-11-14T19:20:19+03:00",
+    "places": [
+     "카미스무샤이트"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 72 غارة جوية استهدف بها الأعيان المدنية في محافظات صعدة وتعز ولحج والجوف وذلك من خلال طائرات \"F-15\" أقلعت من قاعدة خميس مشيط. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 5020 غارةً جويةً وصاروخاً. http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/4081"
+   },
+   {
+    "time": "2026-11-14 16:42",
+    "iso": "2026-11-14T16:42:17+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة من استهداف عدد من تحشيدات العدو السعودي التابعة للضابط السعودي بدر الحربي في منطقة خرز بمحافظة لحج بعدد من الصواريخ الباليستية وكانت الإصابات دقيقة ومباشرة بفضل الله وخلفت عشرات القتلى والجرحى وتدمير عدد كبير من الآليات. http://t.me/army21ye",
+    "text_ko": null,
+    "url": "https://t.me/army21ye/4080"
+   },
    {
     "time": "2026-11-13 23:29",
     "iso": "2026-11-13T23:29:24+03:00",
@@ -1987,31 +2006,28 @@
    }
   ],
   "mentions7d": {
-   "리야드": 11,
-   "카미스무샤이트": 8,
+   "카미스무샤이트": 9,
+   "리야드": 8,
    "타이프": 7,
-   "나즈란": 7,
    "아브카이크": 5,
    "지잔": 4,
-   "얀부": 2,
+   "나즈란": 4,
    "메카": 2,
+   "얀부": 2,
    "송유관": 2,
    "메디나": 2
   },
-  "last_ok_at": "2026-11-14T10:13:56Z"
+  "last_ok_at": "2026-11-14T16:59:35Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T10:13:57Z",
+  "fetched_at": "2026-11-14T16:59:38Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-14T10:13:57Z"
+  "last_ok_at": "2026-11-14T16:59:38Z"
  },
  "news": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-11-14T10:13:57Z",
   "kr": [
    {
     "date": "2026-11-13",
@@ -2086,16 +2102,20 @@
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-14T10:13:57Z"
+  "last_ok_at": "2026-11-14T10:13:57Z",
+  "ok": false,
+  "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%EC%82%AC%EC%9A%B0%EB%94%94%20%28%ED%9B%84%ED%8B%B0%20OR%20%EA%B3%B5%EA%B2%A9%20OR%20%EB%93%9C%EB%A1%A0%20OR%20%EB%AF%B8%EC%82%AC%EC%9D%BC%20OR%20%EA%B5%90%EB%AF%BC%20OR%20%EC%86%A1%EC%9C%A0%EA%B4%80%20OR%20%EC%96%80%EB%B6%80%20OR%20%EC%A0%9C%EB%8B%A4%20OR%20%EB%A6%AC%EC%95%BC%EB%93%9C%20OR%20%EB%8B%B4%EB%A7%98%20OR%20%EC%95%84%EB%9E%8C%EC%BD%94%29%20when%3A7d&hl=ko&gl=KR&ceid=KR:ko",
+  "fetched_at": "2026-11-14T16:59:38Z",
+  "stale": true
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T10:13:58Z",
+  "fetched_at": "2026-11-14T16:59:46Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 35,
-  "baseline": 27.5,
-  "baseline_n": 8,
+  "count": 27,
+  "baseline": 28,
+  "baseline_n": 15,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2370,14 +2390,15 @@
    "2026-11-13T16": 26,
    "2026-11-13T22": 25,
    "2026-11-14T03": 19,
-   "2026-11-14T10": 35
+   "2026-11-14T10": 35,
+   "2026-11-14T16": 27
   },
-  "last_ok_at": "2026-11-14T10:13:58Z"
+  "last_ok_at": "2026-11-14T16:59:46Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-14T10:13:58Z",
-  "last_ok_at": "2026-11-14T10:13:58Z"
+  "fetched_at": "2026-11-14T16:59:46Z",
+  "last_ok_at": "2026-11-14T16:59:46Z"
  }
 }
