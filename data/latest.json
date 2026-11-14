@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T03:05:10Z",
+ "generated_at": "2026-11-14T10:13:37Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T03:05:10Z",
+  "fetched_at": "2026-11-14T10:13:37Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 4,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-14T03:05:10Z"
+  "last_ok_at": "2026-11-14T10:13:37Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T03:05:28Z",
+  "fetched_at": "2026-11-14T10:13:56Z",
   "events": [
    {
     "date": "2026-11-13",
@@ -1291,12 +1291,12 @@
   "history_days": 31,
   "history_since": "2026-10-15",
   "today": "2026-11-14",
-  "last_ok_at": "2026-11-14T03:05:28Z"
+  "last_ok_at": "2026-11-14T10:13:56Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T03:05:29Z",
+  "fetched_at": "2026-11-14T10:13:56Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1989,8 +1989,8 @@
   "mentions7d": {
    "리야드": 11,
    "카미스무샤이트": 8,
-   "나즈란": 7,
    "타이프": 7,
+   "나즈란": 7,
    "아브카이크": 5,
    "지잔": 4,
    "얀부": 2,
@@ -1998,20 +1998,20 @@
    "송유관": 2,
    "메디나": 2
   },
-  "last_ok_at": "2026-11-14T03:05:29Z"
+  "last_ok_at": "2026-11-14T10:13:56Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T03:05:29Z",
+  "fetched_at": "2026-11-14T10:13:57Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-14T03:05:29Z"
+  "last_ok_at": "2026-11-14T10:13:57Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T03:05:29Z",
+  "fetched_at": "2026-11-14T10:13:57Z",
   "kr": [
    {
     "date": "2026-11-13",
@@ -2051,18 +2051,18 @@
   ],
   "en": [
    {
-    "date": "2026-11-13",
-    "published": "2026-11-13T19:02:04+00:00",
-    "source": "NPR",
-    "title": "What's Trump's strategy now with Iran? To keep things as they are",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcXIwbkFRM3dlZktvS0VBdHVLQURXY28xdmxYVnNnUUk3Sy1RRmd0dTNBeFhWS29TVVM1RVh3aGd5cmpObC1naWw4a25qTXRPOTRndFY0REw5UlY4d2tlR1dzMFNhbmlXc0NHSXMwWVpZcFZhOE1vQllfT3ZWZXU1X00wLWhiRnNPdmdnQnI4SUJrb0Q5eHRPRmlKYzg1akt0U0ZnM29LejY?oc=5"
+    "date": "2026-11-14",
+    "published": "2026-11-14T08:48:37+00:00",
+    "source": "The National",
+    "title": "Middle East latest: IRGC says two oil tankers caught fire after hitting sea mines in Hormuz",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXFoNFFYdTBqTjZjZ3pBRTk4bm9QWkRnRUstbndsQV8wd1dhX281Y1hhblZCNjdJT2dZWGZXZWZBWGZTWDBZNXg0bVc1a1hGbjNSWHFNb2FveFY3VjhXRy1ZRU1CVWFUa3B4aGtNdjVwZU5WTmR2VkhHNmJHYjZ1VGg5dXpYWG5JWmVuSExGQ3MwLUE?oc=5"
    },
    {
     "date": "2026-11-13",
-    "published": "2026-11-13T09:11:03+00:00",
+    "published": "2026-11-13T04:35:09+00:00",
     "source": "The National",
-    "title": "Middle East latest: US says it shot down Iranian drones launched toward Bahrain",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHpya1kzWkI5N2YyUmx5cl9nOGJWV1lldzUyN0ZqcVRyQW11LW00TVRJQjA4d2ExS1VGWXduYmxPZjBOclZXamg1TWFHZ3FnSHpDcXRrd3RwUE5mQjhVYWhQdGsxcFBVaXpfdmJmcDc3T052cHFvUGN1RUJqZ1NiZ01WNFFIam1KZlFtRDRJMDRVclRJTmU4?oc=5"
+    "title": "Houthi threat and Iran war reshape Saudi Arabia's security priorities",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMGpsYWNNQkhWNEh0dnJCOVYyN3Y0MGVjRWNpbzFvQ3h0Q3lyeUttaVM5VS1OYVJjTHVQMkpKZVBvektBMFNtMElXNWZyMlN5WXFjR1IyYWZ0c0VqMUlmOFJ0OVhLUndtVVEyUFpFbUhZQTgwRHFiTHV1NnJMREU5N053WElUX1Y0MXRQSmczWGRRWktBelFhRENwWWtWUzJtVlNEa0t3eTFZWUhvUG9rbkltQkZ2MzRZN283aWpxdw?oc=5"
    },
    {
     "date": "2026-11-13",
@@ -2080,22 +2080,22 @@
    },
    {
     "date": "2026-11-12",
-    "published": "2026-11-12T20:18:21+00:00",
+    "published": "2026-11-12T20:09:58+00:00",
     "source": "Reuters",
-    "title": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOHNyWUhKaHR2QmJXUjJ6S0xNdDZnZmpKRzJQak9SWVc3cmttUGVfbk13NzBZclpqNnp5N1JFc0JYakw2Wl9hV3BYdm1mMnJQR3BKRFI2Zzh3cVRhTFFxejBSVWtTMkt2WTRGRUxFSkVocF83aFlIOU10Vk11d29TRERPcnFVWHRJYktFOUlGU0x4c0Q0UWVtT3JkUE91ZVNPQ09NTnhaMGxJajZxQnkwWTFvTzN4WnNpMTBYalNZOHFZdnUtX1VHeUVR?oc=5"
+    "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-14T03:05:29Z"
+  "last_ok_at": "2026-11-14T10:13:57Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-14T03:05:30Z",
+  "fetched_at": "2026-11-14T10:13:58Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 19,
-  "baseline": null,
-  "baseline_n": 1,
+  "count": 35,
+  "baseline": 27.5,
+  "baseline_n": 8,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2369,14 +2369,15 @@
    "2026-11-13T07": 22,
    "2026-11-13T16": 26,
    "2026-11-13T22": 25,
-   "2026-11-14T03": 19
+   "2026-11-14T03": 19,
+   "2026-11-14T10": 35
   },
-  "last_ok_at": "2026-11-14T03:05:30Z"
+  "last_ok_at": "2026-11-14T10:13:58Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-14T03:05:31Z",
-  "last_ok_at": "2026-11-14T03:05:31Z"
+  "fetched_at": "2026-11-14T10:13:58Z",
+  "last_ok_at": "2026-11-14T10:13:58Z"
  }
 }
