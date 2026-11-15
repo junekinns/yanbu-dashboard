@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T16:59:10Z",
+ "generated_at": "2026-11-15T21:41:04Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,6 +8,9 @@
   "담맘"
  ],
  "mofa": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-11-15T21:41:04Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -162,6 +165,12 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-11-13",
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321137/detail2?ntnCd=107",
+    "summary": "ㅇ 최근 중동 내 군사적 긴장이 지속되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
+   },
+   {
     "date": "2026-11-11",
     "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321136/detail2?ntnCd=107",
@@ -172,27 +181,17 @@
     "title": "메디나주 송유관 피격 및 남부지역 미사일 요격 관련 신변 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321135/detail2?ntnCd=107",
     "summary": "ㅇ 사우디 에너지부는 11.9(월) 오후 메디나주를 가로지르는 사우디 동서 파이프라인이 공격을 받아 소규모 화재가 발생했다고 발표했습니다. ㅇ 또한, 사우디 주도 아랍연합군은 11.10(화) 사우디 남부지역(구체 지명 미언급)을 겨냥한 후티 반군의 탄도미사일 1기를 요격했다고 발표했습니다. ㅇ 현재 사우디 전역에 여행경보 3단계(출국권고)가 발령 중입니다.…"
-   },
-   {
-    "date": "2026-11-08",
-    "title": "중부 및 동부지역 공격 관련 안전 유의(11.8.)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321134/detail2?ntnCd=107",
-    "summary": "리야드 시내 중심부에 소재한 KAFD 지구의 아람코 빌딩이 11.8.(일) 오전 후티 반군의 공격으로 추정되는 발사체에 의해 피격되었습니다. 이렇듯 최근 리야드, 담맘·코바 등 사우디아라비아 중부·동부 지역에 대한 미사일·무인기 공격 시도가 지속되는 상황입니다. 이에 사우디아라비아에 체류 중인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. …"
    }
   ],
-  "last7d": 2,
+  "last7d": 3,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-15T09:12:58Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f1e8c4f3800>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
-  "fetched_at": "2026-11-15T16:59:10Z",
-  "stale": true
+  "last_ok_at": "2026-11-15T21:41:04Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T17:00:10Z",
+  "fetched_at": "2026-11-15T21:41:25Z",
   "events": [
    {
     "date": "2026-11-15",
@@ -1103,34 +1102,6 @@
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
     "source": "Reuters",
     "outlets": 1
-   },
-   {
-    "date": "2026-10-16",
-    "time": "10:00",
-    "iso": "2026-10-16T10:00:00+03:00",
-    "city": "얀부",
-    "type": "요격",
-    "weapon": "드론",
-    "lat": 24.09,
-    "lon": 38.06,
-    "title": "후티, 사우디 리야드·얀부 공격…연합군 \"미사일·드론 요격\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MNIBYEFVX3lxTE5IMlhtZkxvNDB0VTVwelVPX29VNHloWkVEcVg2aFhGOEZlSVZCR0ZCcGNId3pCeFdtdDh1Q2ZQYXdLa3hHRVRMd19ZMTFzMExPbXpkNXVHczV2NmFQWG50MA?oc=5",
-    "source": "연합뉴스",
-    "outlets": 5
-   },
-   {
-    "date": "2026-10-16",
-    "time": "00:13",
-    "iso": "2026-10-16T00:13:00+03:00",
-    "city": "리야드",
-    "type": "피격",
-    "weapon": null,
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "후티 반군, 예멘 대통령궁 공격…사우디 “후티, 리야드 공항 20번 겨냥”",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0akU2ZE93QnpHamhUQnd6Q2VNTFRhVV9RU2RsUUljdXFfZmZuaVVTc2c1eWhsX3VQX0Y3bWNuTG1VRGdQeW1LSGF5bzk5Y0ZQcmd5WTVfa3Y2eEk?oc=5",
-    "source": "KBS",
-    "outlets": 3
    }
   ],
   "tempo": {
@@ -1152,13 +1123,14 @@
    "메디나": {
     "7d": {
      "요격": 1,
-     "피격": 2
+     "피격": 1
     },
-    "total7d": 3,
+    "total7d": 2,
     "prev7d": {
+     "피격": 1,
      "요격": 1
     },
-    "prev_total": 1
+    "prev_total": 2
    },
    "라비그": {
     "7d": {},
@@ -1191,16 +1163,16 @@
    },
    "리야드": {
     "7d": {
-     "피격": 4,
+     "피격": 3,
      "요격": 2
     },
-    "total7d": 6,
+    "total7d": 5,
     "prev7d": {
-     "피격": 1,
+     "피격": 2,
      "공습": 1,
      "경보": 1
     },
-    "prev_total": 3
+    "prev_total": 4
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1211,10 +1183,8 @@
    "담맘": {
     "7d": {},
     "total7d": 0,
-    "prev7d": {
-     "피격": 1
-    },
-    "prev_total": 1
+    "prev7d": {},
+    "prev_total": 0
    },
    "다란": {
     "7d": {},
@@ -1278,16 +1248,44 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-10-16",
-  "today": "2026-11-15",
-  "last_ok_at": "2026-11-15T17:00:10Z"
+  "history_since": "2026-10-17",
+  "today": "2026-11-16",
+  "last_ok_at": "2026-11-15T21:41:25Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T17:00:11Z",
+  "fetched_at": "2026-11-15T21:41:26Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-15 21:36",
+    "iso": "2026-11-15T21:36:01+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة من استهداف محطتي ضخ النفط رقم 5 و 6 في خط شرق غرب بمنطقة الرياض بطائرتين مسيرتين وحققت العملية أهدافها بنجاح بفضل الله. http://t.me/army21ye",
+    "text_ko": "우리 군은 드론 2대를 동원하여 리야드 지역의 동서 송유관 5번 및 6번 펌프장을 공격하는 데 성공했으며, 하나님의 은혜로 작전 목표를 성공적으로 달성했습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4090"
+   },
+   {
+    "time": "2026-11-15 20:54",
+    "iso": "2026-11-15T20:54:23+03:00",
+    "places": [
+     "리야드"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من استهداف مطار خالد الدولي والمركز المالي في عاصمة العدو السعودي الرياض بصاروخين بالستيين وحققت العملية هدفها بنجاح بفضل الله. http://t.me/army21ye",
+    "text_ko": "하나님의 은혜로 우리 군대는 사우디아라비아 적국의 수도 리야드에 있는 칼리드 국제공항과 금융센터를 두 발의 탄도미사일로 공격할 수 있었으며, 하나님의 은혜로 작전은 성공적으로 목표를 달성했습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4089"
+   },
+   {
+    "time": "2026-11-15 20:38",
+    "iso": "2026-11-15T20:38:27+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة من استهداف تحشيدات العدو السعودي التابعة للضابط السعودي بدر الحربي في معسكر قعوة ومواقع مجاورة له بمحافظة لحج بستة صواريخ بالستية وكانت الإصابات مباشرة بفضل الله وخلفت عشرات القتلى والجرحى وتدمير عدد كبير من الآليات. http://t.me/army21ye",
+    "text_ko": "우리 군은 라흐즈 주 카와와 그 인근 지역에 있는 사우디아라비아 장교 바드르 알-하르비 휘하의 사우디아라비아 적군 집결지를 6발의 탄도미사일로 공격하는 데 성공했습니다. 알라의 은총으로 공격은 정확히 명중했으며, 그 결과 수십 명이 사망하고 부상당했으며 다수의 차량이 파괴되었습니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4088"
+   },
    {
     "time": "2026-11-15 19:04",
     "iso": "2026-11-15T19:04:37+03:00",
@@ -2014,47 +2012,34 @@
     "text_ar": "تمكنت قواتنا المسلحة بفضل الله وخلال الـ48 ساعة الماضية من استهداف مطار الدمام على مرحلتين بطائرتين مسيرتين وحققت العملية هدفها بنجاح وأدت إلى تعطل حركة الملاحة في المطار، فيما تم استهداف رادار الإنذار المبكر في جيزان بطائرة مسيرة وكانت الإصابة مباشرة، وتم استهداف طائرة نقل عسكرية في مطار جيزان وحققت العملية هدفَها بفضل الله. http://t.me/army21ye",
     "text_ko": "지난 48시간 동안 우리 군은 두 대의 드론으로 두 단계에 걸쳐 담맘 공항을 공략할 수 있었습니다. 이 작전은 성공적으로 목표를 달성하고 공항에서 항행 장애를 초래했으며, 지잔의 조기 경보 레이더는 드론의 목표가 되었고 부상은 직접적인 것이었습니다. 군용 수송기가 지잔 공항을 공략했고 작전은 신의 덕택으로 목표를 달성했습니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/3999"
-   },
-   {
-    "time": "2026-11-01 20:35",
-    "iso": "2026-11-01T20:35:33+03:00",
-    "places": [
-     "타이프",
-     "지잔",
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 75 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات صعدة وتعز وعمران وإب وذمار ولحج والحديدة والجوف من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من جيزان وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 3830 غارةً جويةً وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 와 \"타이푼\" 항공기를 통해 사다, 타이즈, 암란, Ibb, 다마르, 라흐즈, 호데이다, 알자우프 주지사의 민간 물체를 겨냥한 75회의 공습과 미사일 공습, 그리고 지잔의 미사일 공격으로 순교자와 부상당한 민간인을 떠났다. 우리 나라에서 에스컬레이션이 시작된 이후 사우디의 공격 습격 횟수는 총 3,830 회입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/3998"
    }
   ],
   "mentions7d": {
    "카미스무샤이트": 8,
+   "리야드": 7,
    "타이프": 6,
-   "리야드": 5,
    "메카": 3,
    "메디나": 3,
    "나즈란": 3,
    "지잔": 3,
    "얀부": 2,
-   "아브카이크": 2,
-   "송유관": 2
+   "송유관": 2,
+   "아브카이크": 2
   },
-  "last_ok_at": "2026-11-15T17:00:11Z"
+  "last_ok_at": "2026-11-15T21:41:26Z"
  },
  "firms": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-11-15T21:41:32Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-15T09:13:21Z",
-  "ok": false,
-  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-  "fetched_at": "2026-11-15T17:00:19Z",
-  "stale": true
+  "last_ok_at": "2026-11-15T21:41:32Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T17:01:20Z",
+  "fetched_at": "2026-11-15T21:41:32Z",
   "kr": [
    {
     "date": "2026-11-15",
@@ -2082,7 +2067,7 @@
     "published": "2026-11-12T21:14:00+00:00",
     "source": "KBS",
     "title": "트럼프 급선회 “이란과 협상 필요없어”…후티는 사우디 석유시설 타격",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rR1ZQVWRsSXkzNVFKamQ4VTRRMmx5Z2dyY2V4NW1TOXF2S2FOY2hoT1ZrVS04RjFUZUNqWlI5U1Y3M1dEVVAxdkZTQnRiWnNLd1VTSVhIRVpvYVI0aDhUeWRWUXhQQQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzM0xVYzc1aUlSS2liS19FUlJ5NXo4bmdZMGpXajQtNkhOeVIzZExyekpNRGUtVFVaNDBTa2dsUWtZNkhzUlNpempTYURLbHhjTVNJWXZ1cTZPNW8?oc=5"
    },
    {
     "date": "2026-11-12",
@@ -2095,10 +2080,24 @@
   "en": [
    {
     "date": "2026-11-15",
-    "published": "2026-11-15T16:51:29+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Bahrain says it intercepted Iranian aerial attacks after nationwide alert",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5"
+    "published": "2026-11-15T18:59:19+00:00",
+    "source": "Reuters",
+    "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5"
+   },
+   {
+    "date": "2026-11-15",
+    "published": "2026-11-15T18:45:00+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
+   },
+   {
+    "date": "2026-11-15",
+    "published": "2026-11-15T17:39:39+00:00",
+    "source": "Al Jazeera",
+    "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX0xpSGNEdEpuQk5wYUNlODVmNjNjTm1jR1czQ1kzd3R5R2VGRE1SSVZzR1ZsVHhWV2M5YTBKY2JmcXRBc3VUV2ZkN1c0QUZja0t4TTNwU2dOQ0IyNGhROVpDNUdUN1U4UmNLc2pTZE90dGIxV2xJMXlDY2N2amlhTldDaTZMYTVzZk81aXp0MlQtcXlXMlI3dnAtU1gtRFJWUE9LeGlCcW1raUtNenfSAbMBQVVfeXFMTldGWmxyYnNQdGFJdEpQY3pJbnVwUzBjNUw4RWFKdUx4cWpJbVJXRjRtQUNNcUlKaFA0V1FmUTczcTBFQVJZUVlKOFpxNFJEYWZCMktVaEZMbVJkaDNjbTZsMjZ1WUI1NWlRT0xkUEpTdlgwV3p0QU5ONHAtNi1BRVVSSDNCeGRObWlEa3BIRGp5Wk1VY1VpWmVLcE9MbEhCRWVOaVV2TVF1MUpMUVVIbjViczA?oc=5"
    },
    {
     "date": "2026-11-15",
@@ -2109,36 +2108,22 @@
    },
    {
     "date": "2026-11-15",
-    "published": "2026-11-15T13:42:11+00:00",
-    "source": "Arab News",
-    "title": "Coalition forces intercept 2 Houthi missiles, 5 drones targeting Saudi Arabia",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0o5cWFFWWFpMTNWYWduSWxKV3pBaFZaMWhSeWRzOUtYUUt6VmNLOHRPRm43b09wcXYtTkE5ZXA4R0dKbzFYNmlMTmN4SGhMMTE3QjVGOUFSTnNhX2RHMDQ2TC1mY2dYNTIyME1xTEhEQVY5VG1pblYzbDlldXJsRFg2eVBYZDRMOGM2RTNGOHdhSUh3S1NNUW1aTW9uVFBMRnVHYkxMcmkxbE0wT19YLTFNa2FENGVGV0F0WEhVOA?oc=5"
-   },
-   {
-    "date": "2026-11-15",
     "published": "2026-11-15T13:31:43+00:00",
     "source": "Reuters",
     "title": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1U5SnRYV0N6dE01QU1sOFNRWHR0WndCRG05bDl3UEhURE1jR01ZZ2p4dmFpb1llajB6QzdpRmp3WUZYSkhRRmhHT0tKY2hfWjN1b0U3UzJuUkZ3N3ZpWlU1Sk1pOWJvZ3cxcVVRVmhycW9ON2R1Um5nR3ZSQUtzTHE5aHlMb28wM2xyMzQtdnZHNUFfMWR4ZVZwN2pfc2RmcTRMTEtfY0NHbEh0dUo4N0g5UHNGTGJ3c1E?oc=5"
-   },
-   {
-    "date": "2026-11-15",
-    "published": "2026-11-15T13:24:58+00:00",
-    "source": "Reuters",
-    "title": "Yemeni government force retreats from strait in major setback in war against Houthis",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-15T17:01:20Z"
+  "last_ok_at": "2026-11-15T21:41:32Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T17:01:21Z",
+  "fetched_at": "2026-11-15T21:41:33Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 39,
-  "baseline": 28,
-  "baseline_n": 9,
+  "count": 22,
+  "baseline": 26,
+  "baseline_n": 13,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2418,14 +2403,15 @@
    "2026-11-14T21": 22,
    "2026-11-15T01": 32,
    "2026-11-15T09": 23,
-   "2026-11-15T17": 39
+   "2026-11-15T17": 39,
+   "2026-11-15T21": 22
   },
-  "last_ok_at": "2026-11-15T17:01:21Z"
+  "last_ok_at": "2026-11-15T21:41:33Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-15T17:01:21Z",
-  "last_ok_at": "2026-11-15T17:01:21Z"
+  "fetched_at": "2026-11-15T21:41:33Z",
+  "last_ok_at": "2026-11-15T21:41:33Z"
  }
 }
