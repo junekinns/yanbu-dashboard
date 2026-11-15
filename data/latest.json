@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T09:12:58Z",
+ "generated_at": "2026-11-15T16:59:10Z",
  "pinned": [
   "얀부",
   "제다",
@@ -8,9 +8,6 @@
   "담맘"
  ],
  "mofa": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-11-15T09:12:58Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +183,45 @@
   "last7d": 2,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-15T09:12:58Z"
+  "last_ok_at": "2026-11-15T09:12:58Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='www.0404.go.kr', port=443): Max retries exceeded with url: /ntnSafetyInfo/107/detail (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.0404.go.kr', port=443) at 0x7f1e8c4f3800>, 'Connection to www.0404.go.kr timed out. (connect timeout=10)'))",
+  "fetched_at": "2026-11-15T16:59:10Z",
+  "stale": true
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T09:13:16Z",
+  "fetched_at": "2026-11-15T17:00:10Z",
   "events": [
+   {
+    "date": "2026-11-15",
+    "time": "19:21",
+    "iso": "2026-11-15T19:21:36+03:00",
+    "city": "메디나",
+    "type": "요격",
+    "weapon": "드론",
+    "lat": 24.47,
+    "lon": 39.61,
+    "title": "Saudi-led coalition says it intercepted 3 drones over Mecca, Medina amid escalation with Houthis",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYlE5V0gtMHlkTkFsLUlfNjZlMkhTVEJ2ZkdxTG9DRWV3RGF0VHdhbnlVZ2Q4eWY3T1Q3RFZDZndkVjNFZWdDbm00WHZ1OHhKNDNFa0FPZ1V1d3BVTml3cWhfZUZXZS1QTUxOTktYb2c5WnZEUjZGeHJKalZwUG5yVFpyU1FUQWk0ZWk4UDE0RzRsU0FkYjJBV096bHNfZmhJYjc2cTBmOFRHbjZGdWZzYUJjZUVMNVNENmNHUVNjc3JRQnRLbEdxd1VUNzVBQjF3Z2pLcFdnOA?oc=5",
+    "source": "Anadolu",
+    "outlets": 2
+   },
+   {
+    "date": "2026-11-15",
+    "time": "17:31",
+    "iso": "2026-11-15T17:31:36+03:00",
+    "city": "메카",
+    "type": "요격",
+    "weapon": "드론",
+    "lat": 21.39,
+    "lon": 39.86,
+    "title": "Saudi-led coalition says it intercepted 2 Houthi drones over Mecca region",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdndJVi1MdlR4eTlZWlUtRHhVQS1nZFdyTGw3RmpIaGdjNHAtMXVLNGZnM184a1liNEI3YmZkQ1ZLM1djbC1TMG5fSUtfNGI3ekJOQWIyM0pGN25Uc2lHUW1vaDhCQk50by1QTkdLRDM1VXlLWEkyZVp3bVBpckVEVXJhaDJoNndHRTZyWUpRYkV0XzB1SDZQc1JtcjFNdHFma1d3RVlfQmZKMWcyV2ZjQlJsLTBTazU3c3c?oc=5",
+    "source": "Anadolu",
+    "outlets": 1
+   },
    {
     "date": "2026-11-13",
     "time": "01:50",
@@ -1122,9 +1151,10 @@
    },
    "메디나": {
     "7d": {
+     "요격": 1,
      "피격": 2
     },
-    "total7d": 2,
+    "total7d": 3,
     "prev7d": {
      "요격": 1
     },
@@ -1144,10 +1174,10 @@
    },
    "메카": {
     "7d": {
-     "피격": 1,
-     "요격": 2
+     "요격": 3,
+     "피격": 1
     },
-    "total7d": 3,
+    "total7d": 4,
     "prev7d": {
      "요격": 2
     },
@@ -1250,14 +1280,53 @@
   "history_days": 31,
   "history_since": "2026-10-16",
   "today": "2026-11-15",
-  "last_ok_at": "2026-11-15T09:13:16Z"
+  "last_ok_at": "2026-11-15T17:00:10Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T09:13:17Z",
+  "fetched_at": "2026-11-15T17:00:11Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-15 19:04",
+    "iso": "2026-11-15T19:04:37+03:00",
+    "places": [
+     "메디나",
+     "메카"
+    ],
+    "text_ar": "بعد تلقيه صفعات مؤلمة في الميدان يجدد العدو السعودي بهتانه العظيم بالادعاء أنه اعترض مسيرتين في أجواء مكة المكرمة وأخرى في المدينة المنورة وهذا كذب وافتراء، فعملياتنا تستهدف منشآته النفطية وقواعده العسكرية فقط. وعليه تقبل الهزيمة في الميدان دون التستر خلف المقدسات الإسلامية. http://t.me/army21ye",
+    "text_ko": "전장에서 고통스러운 타격을 받은 후, 사우디아라비아 적군은 메카 상공에서 드론 두 대를, 메디나에서 한 대를 요격했다고 주장하며 또다시 터무니없는 거짓말을 하고 있다. 이는 거짓이며 중상이다. 우리의 작전은 오직 석유 시설과 군사 기지만을 목표로 한다. 따라서 사우디는 이슬람 성지를 핑계 삼지 말고 전장에서의 패배를 받아들여야 한다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4087"
+   },
+   {
+    "time": "2026-11-15 18:55",
+    "iso": "2026-11-15T18:55:56+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 75 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات صعدة وتعز ولحج والجوف ومأرب وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف، والعدوان الصاروخي من نجران وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 5095 غارة جوية وصاروخا. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디아라비아 공군은 카미스 무샤이트 및 타이프 기지에서 이륙한 F-15 및 타이푼 전투기를 통해 사다, 타이즈, 라흐즈, 자우프, 마리브 주에 있는 민간 시설을 겨냥한 75회의 공습과 미사일 공격을 감행했으며, 나즈란에서는 미사일 공격이 이루어져 민간인 사상자가 발생했습니다. 우리나라에 대한 공격이 격화되기 시작한 이래 사우디아라비아의 침략 공습 총계는 5,095회의 공습과 미사일 공격에 달한다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4086"
+   },
+   {
+    "time": "2026-11-15 16:12",
+    "iso": "2026-11-15T16:12:23+03:00",
+    "places": [],
+    "text_ar": "مشاهد أولية لطرد تحشيدات العدو السعودي بقيادة الضابط السعودي بدر الحربي من مديرية المضاربة والعارة بمحافظة لحج - 15 نوفمبر 2026م",
+    "text_ko": "사우디아라비아 장교 바드르 알-하르비가 이끄는 사우디아라비아 적군의 집결을 라흐즈 주 무다리바트 알-아라 지구에서 몰아내는 초기 장면 - 2026년 11월 15일",
+    "url": "https://t.me/army21ye/4085"
+   },
+   {
+    "time": "2026-11-15 14:33",
+    "iso": "2026-11-15T14:33:00+03:00",
+    "places": [],
+    "text_ar": "ترقبوا الساعة الرابعة عصرا مشاهد أولية لطرد تحشيدات العدو السعودي بقيادة الضابط السعودي بدر الحربي من مديرية المضاربة والعارة بمحافظة لحج",
+    "text_ko": "오후 4시, 라흐즈 주 무다르바 및 아라 지구에서 사우디아라비아 장교 바드르 알-하르비가 이끄는 사우디아라비아 적군 집결을 격퇴하는 초기 장면을 기대해 주십시오.",
+    "url": "https://t.me/army21ye/4084"
+   },
    {
     "time": "2026-11-15 05:28",
     "iso": "2026-11-15T05:28:38+03:00",
@@ -1961,30 +2030,31 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 8,
-   "리야드": 8,
    "타이프": 6,
-   "아브카이크": 5,
-   "지잔": 3,
+   "리야드": 5,
+   "메카": 3,
+   "메디나": 3,
    "나즈란": 3,
-   "메카": 2,
+   "지잔": 3,
    "얀부": 2,
-   "송유관": 2,
-   "메디나": 2
+   "아브카이크": 2,
+   "송유관": 2
   },
-  "last_ok_at": "2026-11-15T09:13:17Z"
+  "last_ok_at": "2026-11-15T17:00:11Z"
  },
  "firms": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-11-15T09:13:21Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-15T09:13:21Z"
+  "last_ok_at": "2026-11-15T09:13:21Z",
+  "ok": false,
+  "error": "HTTPSConnectionPool(host='firms.modaps.eosdis.nasa.gov', port=443): Max retries exceeded with url: /data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv (Caused by NewConnectionError(\"HTTPSConnection(host='firms.modaps.eosdis.nasa.gov', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+  "fetched_at": "2026-11-15T17:00:19Z",
+  "stale": true
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T09:13:21Z",
+  "fetched_at": "2026-11-15T17:01:20Z",
   "kr": [
    {
     "date": "2026-11-15",
@@ -2012,7 +2082,7 @@
     "published": "2026-11-12T21:14:00+00:00",
     "source": "KBS",
     "title": "트럼프 급선회 “이란과 협상 필요없어”…후티는 사우디 석유시설 타격",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzM0xVYzc1aUlSS2liS19FUlJ5NXo4bmdZMGpXajQtNkhOeVIzZExyekpNRGUtVFVaNDBTa2dsUWtZNkhzUlNpempTYURLbHhjTVNJWXZ1cTZPNW8?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rR1ZQVWRsSXkzNVFKamQ4VTRRMmx5Z2dyY2V4NW1TOXF2S2FOY2hoT1ZrVS04RjFUZUNqWlI5U1Y3M1dEVVAxdkZTQnRiWnNLd1VTSVhIRVpvYVI0aDhUeWRWUXhQQQ?oc=5"
    },
    {
     "date": "2026-11-12",
@@ -2025,50 +2095,50 @@
   "en": [
    {
     "date": "2026-11-15",
-    "published": "2026-11-15T06:18:06+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
-   },
-   {
-    "date": "2026-11-15",
-    "published": "2026-11-15T03:34:58+00:00",
-    "source": "Arab News",
-    "title": "Coalition forces intercept 2 Houthi missiles targeting Riyadh, 3 drones in Eastern Province",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRk4wb1hxcTQ5WURyQV95RXBoUDZ3SGkwOTBfeFNIMXA0Zms2NzIxQkk1ckRPSkZEVFpIem5pWTF4U05Lb1hDcm1yQTE4S2d2NGdac1BzRmJxUHNqblBWbFBvYUx6Q3ZBQW5ISUxaRUJxOWxJQU1CbTE0bXBuWEdISmZoc0tOMXVnZnNyUzRXaHVJZ3pFTkU1WUp2RmJjbHVjWlF2TGl6U3NRNGprX1ZDVXR3UXpmSnNsT2JQRDBHMlVobDdwN0lBZTNXbjZfWFFLZ1E?oc=5"
-   },
-   {
-    "date": "2026-11-15",
-    "published": "2026-11-15T02:58:00+00:00",
-    "source": "Reuters",
-    "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5"
-   },
-   {
-    "date": "2026-11-13",
-    "published": "2026-11-13T20:31:04+00:00",
-    "source": "Arab News",
-    "title": "Analysis: How much firepower do Yemen’s Houthis still possess?",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZU1kWGlwcUdWWHZpeXNJVmdVUWE4ekIyVkgyM0xjbkpfb080VEg0aV9HVEx1STBUcTFrTTRDb1phVktSbldIcGQxaDVyWnBmT2VwaWRjT3NwTDdQSkJiM1R0MGN6RWNUbnJMdVRyUGYxbTVUS2d6QjRKM3IwYzZqeEg1c0IzSmZoSlF6c0UxZG54VXJFSkhDbWNJa05OV3A3UDJKV3lXNA?oc=5"
-   },
-   {
-    "date": "2026-11-13",
-    "published": "2026-11-13T08:00:00+00:00",
+    "published": "2026-11-15T16:51:29+00:00",
     "source": "The National",
-    "title": "Middle East latest: IRGC says two oil tankers caught fire after hitting sea mines in Hormuz",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXFoNFFYdTBqTjZjZ3pBRTk4bm9QWkRnRUstbndsQV8wd1dhX281Y1hhblZCNjdJT2dZWGZXZWZBWGZTWDBZNXg0bVc1a1hGbjNSWHFNb2FveFY3VjhXRy1ZRU1CVWFUa3B4aGtNdjVwZU5WTmR2VkhHNmJHYjZ1VGg5dXpYWG5JWmVuSExGQ3MwLUE?oc=5"
+    "title": "Middle East latest: Bahrain says it intercepted Iranian aerial attacks after nationwide alert",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5"
+   },
+   {
+    "date": "2026-11-15",
+    "published": "2026-11-15T15:42:25+00:00",
+    "source": "The New York Times",
+    "title": "Saudi-Backed Forces in Yemen Retreat From Red Sea as Houthis Advance",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1IwcVF0czdZWmVxeGJhcTV1ZW50R25FMzB5V2pwQTZCVnZVVFA0MGNvdzY1NWlHNkxod3hVZ2xWcUlLWkRvbmhodTJGSVM3cGNQbmRXYlJKX3RndWwzUTVuU1B3UHNzYWxxeE9oemUxZFE0b1pJN1VaeEZIRGVrMmQ4OThwV2ZaRk1jbQ?oc=5"
+   },
+   {
+    "date": "2026-11-15",
+    "published": "2026-11-15T13:42:11+00:00",
+    "source": "Arab News",
+    "title": "Coalition forces intercept 2 Houthi missiles, 5 drones targeting Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0o5cWFFWWFpMTNWYWduSWxKV3pBaFZaMWhSeWRzOUtYUUt6VmNLOHRPRm43b09wcXYtTkE5ZXA4R0dKbzFYNmlMTmN4SGhMMTE3QjVGOUFSTnNhX2RHMDQ2TC1mY2dYNTIyME1xTEhEQVY5VG1pblYzbDlldXJsRFg2eVBYZDRMOGM2RTNGOHdhSUh3S1NNUW1aTW9uVFBMRnVHYkxMcmkxbE0wT19YLTFNa2FENGVGV0F0WEhVOA?oc=5"
+   },
+   {
+    "date": "2026-11-15",
+    "published": "2026-11-15T13:31:43+00:00",
+    "source": "Reuters",
+    "title": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1U5SnRYV0N6dE01QU1sOFNRWHR0WndCRG05bDl3UEhURE1jR01ZZ2p4dmFpb1llajB6QzdpRmp3WUZYSkhRRmhHT0tKY2hfWjN1b0U3UzJuUkZ3N3ZpWlU1Sk1pOWJvZ3cxcVVRVmhycW9ON2R1Um5nR3ZSQUtzTHE5aHlMb28wM2xyMzQtdnZHNUFfMWR4ZVZwN2pfc2RmcTRMTEtfY0NHbEh0dUo4N0g5UHNGTGJ3c1E?oc=5"
+   },
+   {
+    "date": "2026-11-15",
+    "published": "2026-11-15T13:24:58+00:00",
+    "source": "Reuters",
+    "title": "Yemeni government force retreats from strait in major setback in war against Houthis",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVW9oR0pfVGQ2U3NYTWdTRktiZ1Z4TUFnb0UyUHJ0MTJ0ejVtQU12anZRTDg1ZmQ1cGlaS3VaUWYtM3MzdlBEcVRnVVZ1T2RONmtzMVg2SFRHeWRGQXVHb01WR1NCd1pwNXo3R0c3dWRwTHlaSXFYWlctYjhSWlVWb3BXSGNqdEdlMERpYVNQaEVfRUpmRFhWSURlcVFhNmNMekNlMy1XbDNEZVphNDJEQlA4T0pkYmFQZjlHdlBFaEtfYnpBRTE3X0E1elZXQQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-15T09:13:21Z"
+  "last_ok_at": "2026-11-15T17:01:20Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T09:13:22Z",
+  "fetched_at": "2026-11-15T17:01:21Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 23,
-  "baseline": 31.5,
-  "baseline_n": 10,
+  "count": 39,
+  "baseline": 28,
+  "baseline_n": 9,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2347,14 +2417,15 @@
    "2026-11-14T16": 27,
    "2026-11-14T21": 22,
    "2026-11-15T01": 32,
-   "2026-11-15T09": 23
+   "2026-11-15T09": 23,
+   "2026-11-15T17": 39
   },
-  "last_ok_at": "2026-11-15T09:13:22Z"
+  "last_ok_at": "2026-11-15T17:01:21Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-15T09:13:22Z",
-  "last_ok_at": "2026-11-15T09:13:22Z"
+  "fetched_at": "2026-11-15T17:01:21Z",
+  "last_ok_at": "2026-11-15T17:01:21Z"
  }
 }
