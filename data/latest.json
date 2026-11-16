@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T21:41:04Z",
+ "generated_at": "2026-11-16T01:54:00Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T21:41:04Z",
+  "fetched_at": "2026-11-16T01:54:00Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-15T21:41:04Z"
+  "last_ok_at": "2026-11-16T01:54:00Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T21:41:25Z",
+  "fetched_at": "2026-11-16T01:54:21Z",
   "events": [
    {
     "date": "2026-11-15",
@@ -1250,12 +1250,12 @@
   "history_days": 31,
   "history_since": "2026-10-17",
   "today": "2026-11-16",
-  "last_ok_at": "2026-11-15T21:41:25Z"
+  "last_ok_at": "2026-11-16T01:54:21Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T21:41:26Z",
+  "fetched_at": "2026-11-16T01:54:22Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2018,29 +2018,43 @@
    "카미스무샤이트": 8,
    "리야드": 7,
    "타이프": 6,
-   "메카": 3,
    "메디나": 3,
+   "메카": 3,
    "나즈란": 3,
    "지잔": 3,
    "얀부": 2,
    "송유관": 2,
    "아브카이크": 2
   },
-  "last_ok_at": "2026-11-15T21:41:26Z"
+  "last_ok_at": "2026-11-16T01:54:22Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T21:41:32Z",
+  "fetched_at": "2026-11-16T01:54:22Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-15T21:41:32Z"
+  "last_ok_at": "2026-11-16T01:54:22Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T21:41:32Z",
+  "fetched_at": "2026-11-16T01:54:23Z",
   "kr": [
+   {
+    "date": "2026-11-16",
+    "published": "2026-11-16T01:48:51+00:00",
+    "source": "중앙일보",
+    "title": "이란, 두 달만에 바레인 미군 시설 공격…후티, 사우디·예멘 공세",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wSjRLV2xMMkhrMVJKMVlFQi1yZmZxVnpfVVltQVNxay0tM0l0Y0E5ckI5cmJmVVhFU3lUd0xHaW14UWE0QThUZHpaQmwzVWoySWV4Uk5R?oc=5"
+   },
+   {
+    "date": "2026-11-15",
+    "published": "2026-11-15T22:25:57+00:00",
+    "source": "뉴시스",
+    "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TX3NDekdHNlpZV083RldSbG9qWmVfUjExeWhZTDVsUU15YWZPelI3RDNsSXhNSFZ0aHlaTEptLS1pbTdac2hXVHdFX1c4dlZRSllqRFVzZ01iTVJ1SGlCQQ?oc=5"
+   },
    {
     "date": "2026-11-15",
     "published": "2026-11-15T00:48:23+00:00",
@@ -2061,23 +2075,16 @@
     "source": "조선일보",
     "title": "'충격, 추가시간 선제 실점' 너무 답답한 공격! 한국, 사우디아라비아와 전반전 0-1..'모레노 감독, 전술 변화 필요하다'",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSC01eVFTdGRmSV85YVQxYW0zb2tQM1FZUHZKX0VmQi1VOWFvdF9tMi1jRmFYT3FhSkhTU1FFMmQxWi1aU3pDQWowM2FqMjlVc3c1d2djSUVYM05LSnJhVU83NG9OWkRGc3c4aHdtcFo1MHBlNTBtTXdZVWltaU9ua0ZJOA?oc=5"
-   },
-   {
-    "date": "2026-11-12",
-    "published": "2026-11-12T21:14:00+00:00",
-    "source": "KBS",
-    "title": "트럼프 급선회 “이란과 협상 필요없어”…후티는 사우디 석유시설 타격",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzM0xVYzc1aUlSS2liS19FUlJ5NXo4bmdZMGpXajQtNkhOeVIzZExyekpNRGUtVFVaNDBTa2dsUWtZNkhzUlNpempTYURLbHhjTVNJWXZ1cTZPNW8?oc=5"
-   },
-   {
-    "date": "2026-11-12",
-    "published": "2026-11-12T19:46:09+00:00",
-    "source": "뉴시스",
-    "title": "예멘 후티 반군 \"사우디 동서 송유관·아람코 등 공격\" 주장",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNWllLeWhUeEdvdFQ1UXNPRjViMzBJeXkzX3pvRnIycmc2OGtKMnNYcGRmLW1Ub1l6c1lmRmJ5WjJtMlF4Tk5XcTFSV2Itcy05ckQyTVplVmNJaHY2QngwZtIBeEFVX3lxTFBSUnhNMklPMGxmelc1bUZnUXIyMVNBZ254eGpUTVc2QlA3MXpBTWc3Slc0Zk5QNTB2OW5jTXNsbDl2dUhZRzN2aTlfdjF5SE1yX0VEbEF4cTBlWi1lLU9oN3NKbnhQMzN0Qk5aVTJrQVdmZ3NYMHRBRQ?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-11-15",
+    "published": "2026-11-15T21:26:18+00:00",
+    "source": "The New York Times",
+    "title": "Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1IwcVF0czdZWmVxeGJhcTV1ZW50R25FMzB5V2pwQTZCVnZVVFA0MGNvdzY1NWlHNkxod3hVZ2xWcUlLWkRvbmhodTJGSVM3cGNQbmRXYlJKX3RndWwzUTVuU1B3UHNzYWxxeE9oemUxZFE0b1pJN1VaeEZIRGVrMmQ4OThwV2ZaRk1jbQ?oc=5"
+   },
    {
     "date": "2026-11-15",
     "published": "2026-11-15T18:59:19+00:00",
@@ -2087,7 +2094,7 @@
    },
    {
     "date": "2026-11-15",
-    "published": "2026-11-15T18:45:00+00:00",
+    "published": "2026-11-15T18:50:27+00:00",
     "source": "Al Jazeera",
     "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
@@ -2101,30 +2108,23 @@
    },
    {
     "date": "2026-11-15",
-    "published": "2026-11-15T15:42:25+00:00",
-    "source": "The New York Times",
-    "title": "Saudi-Backed Forces in Yemen Retreat From Red Sea as Houthis Advance",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1IwcVF0czdZWmVxeGJhcTV1ZW50R25FMzB5V2pwQTZCVnZVVFA0MGNvdzY1NWlHNkxod3hVZ2xWcUlLWkRvbmhodTJGSVM3cGNQbmRXYlJKX3RndWwzUTVuU1B3UHNzYWxxeE9oemUxZFE0b1pJN1VaeEZIRGVrMmQ4OThwV2ZaRk1jbQ?oc=5"
-   },
-   {
-    "date": "2026-11-15",
     "published": "2026-11-15T13:31:43+00:00",
     "source": "Reuters",
     "title": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1U5SnRYV0N6dE01QU1sOFNRWHR0WndCRG05bDl3UEhURE1jR01ZZ2p4dmFpb1llajB6QzdpRmp3WUZYSkhRRmhHT0tKY2hfWjN1b0U3UzJuUkZ3N3ZpWlU1Sk1pOWJvZ3cxcVVRVmhycW9ON2R1Um5nR3ZSQUtzTHE5aHlMb28wM2xyMzQtdnZHNUFfMWR4ZVZwN2pfc2RmcTRMTEtfY0NHbEh0dUo4N0g5UHNGTGJ3c1E?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-15T21:41:32Z"
+  "last_ok_at": "2026-11-16T01:54:23Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-15T21:41:33Z",
+  "fetched_at": "2026-11-16T01:54:23Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 22,
-  "baseline": 26,
-  "baseline_n": 13,
-  "tier": "정상",
+  "count": 19,
+  "baseline": 29.0,
+  "baseline_n": 20,
+  "tier": "감소",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -2404,14 +2404,15 @@
    "2026-11-15T01": 32,
    "2026-11-15T09": 23,
    "2026-11-15T17": 39,
-   "2026-11-15T21": 22
+   "2026-11-15T21": 22,
+   "2026-11-16T01": 19
   },
-  "last_ok_at": "2026-11-15T21:41:33Z"
+  "last_ok_at": "2026-11-16T01:54:23Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-15T21:41:33Z",
-  "last_ok_at": "2026-11-15T21:41:33Z"
+  "fetched_at": "2026-11-16T01:54:24Z",
+  "last_ok_at": "2026-11-16T01:54:24Z"
  }
 }
