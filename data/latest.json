@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T01:54:00Z",
+ "generated_at": "2026-11-16T09:28:35Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-16T01:54:00Z",
+  "fetched_at": "2026-11-16T09:28:35Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 3,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-16T01:54:00Z"
+  "last_ok_at": "2026-11-16T09:28:35Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-16T01:54:21Z",
+  "fetched_at": "2026-11-16T09:28:53Z",
   "events": [
    {
     "date": "2026-11-15",
@@ -1250,12 +1250,12 @@
   "history_days": 31,
   "history_since": "2026-10-17",
   "today": "2026-11-16",
-  "last_ok_at": "2026-11-16T01:54:21Z"
+  "last_ok_at": "2026-11-16T09:28:53Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-16T01:54:22Z",
+  "fetched_at": "2026-11-16T09:28:54Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2026,20 +2026,20 @@
    "송유관": 2,
    "아브카이크": 2
   },
-  "last_ok_at": "2026-11-16T01:54:22Z"
+  "last_ok_at": "2026-11-16T09:28:54Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-16T01:54:22Z",
+  "fetched_at": "2026-11-16T09:28:55Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-16T01:54:22Z"
+  "last_ok_at": "2026-11-16T09:28:55Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-16T01:54:23Z",
+  "fetched_at": "2026-11-16T09:28:55Z",
   "kr": [
    {
     "date": "2026-11-16",
@@ -2053,7 +2053,7 @@
     "published": "2026-11-15T22:25:57+00:00",
     "source": "뉴시스",
     "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TX3NDekdHNlpZV083RldSbG9qWmVfUjExeWhZTDVsUU15YWZPelI3RDNsSXhNSFZ0aHlaTEptLS1pbTdac2hXVHdFX1c4dlZRSllqRFVzZ01iTVJ1SGlCQQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9yZ1lCRU1CLXZ0MnZaQVB1UVJHWFVCRjVxWkc4ZVBPbW92TTBTTXdVOTItMW1NaS1xYm12XzRldW8xRkF1Z3pZRjRxZDFQSi1KaUVQc0xIbS1XMWMtRzdWZXozdnRkU0dJeWIyaE9rN3BPTWxvYUNQd9IBeEFVX3lxTE9yZ1lCRU1CLXZ0MnZaQVB1UVJHWFVCRjVxWkc4ZVBPbW92TTBTTXdVOTItMW1NaS1xYm12XzRldW8xRkF1Z3pZRjRxZDFQSi1KaUVQc0xIbS1XMWMtRzdWZXozdnRkU0dJeWIyaE9rN3BPTWxvYUNQdw?oc=5"
    },
    {
     "date": "2026-11-15",
@@ -2079,18 +2079,32 @@
   ],
   "en": [
    {
-    "date": "2026-11-15",
-    "published": "2026-11-15T21:26:18+00:00",
-    "source": "The New York Times",
-    "title": "Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1IwcVF0czdZWmVxeGJhcTV1ZW50R25FMzB5V2pwQTZCVnZVVFA0MGNvdzY1NWlHNkxod3hVZ2xWcUlLWkRvbmhodTJGSVM3cGNQbmRXYlJKX3RndWwzUTVuU1B3UHNzYWxxeE9oemUxZFE0b1pJN1VaeEZIRGVrMmQ4OThwV2ZaRk1jbQ?oc=5"
+    "date": "2026-11-16",
+    "published": "2026-11-16T08:49:43+00:00",
+    "source": "Reuters",
+    "title": "Gulf stocks dip as Bahrain attacks, Hormuz security concerns weigh",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZXF3RVZscExSM0xvU2F3MjF0YUNaRHRLZ0xGTXRWSWt6VFZZVENMZGwyOENsTFNkNHEzeE1scDhCaGtTOFJBNXRjT0FVUGhHcWo5SDFYU0Zoc0prTFY5TnllakZmLTlUS0I5RXF6VkM3Q0c2SDB0Q3dJb1UxMldxZ1h6bU96eHR6dm5WalhYaHNJa3NqR3JXMHY2UlR0VER0bUxvT09sczJuaURZQjZXbWtILXJwckU?oc=5"
    },
    {
-    "date": "2026-11-15",
-    "published": "2026-11-15T18:59:19+00:00",
+    "date": "2026-11-16",
+    "published": "2026-11-16T07:37:49+00:00",
+    "source": "The National",
+    "title": "Middle East latest: USS Theodore Roosevelt aircraft carrier arrives in region",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5"
+   },
+   {
+    "date": "2026-11-16",
+    "published": "2026-11-16T07:23:23+00:00",
+    "source": "BBC",
+    "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QSU4xRGwtcXZCcnlOeGhhQzJTLUk2VGx0QkhtTExBbDk5aUdJZkZUQjJlNk4tMW1tX05xUU9xeGRtTkhoQWhEbTgyOVdhX0dRb1NTbGZnc0RMZVk?oc=5"
+   },
+   {
+    "date": "2026-11-16",
+    "published": "2026-11-16T07:00:00+00:00",
     "source": "Reuters",
-    "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5"
+    "title": "COMMENTARY: War-torn present clouds Saudi Arabia's post-oil future",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQek1oaDQwcHhPSlhNTmNsZDhJc1dSQ1BwODVvWDBsdlhpUUxfVUJnUUdlQnNmTUFtYWlhblk4N1c1YWJFdEVqNmIzYjZSWTFsSjRXc1FhRzRIME90alJDb2pMeHlzbjVjWWdYb2FUbGIza3NkWmhLOFE4WHhOeXdhaHh6NjhtS0pENGtzc1RUMmVIZ0t2cnJ2WHA1alNwMzgzWEVZR3RnU0ZJMFVxcWNOWUdwOFRlRXhhQllPZmd6MA?oc=5"
    },
    {
     "date": "2026-11-15",
@@ -2098,33 +2112,19 @@
     "source": "Al Jazeera",
     "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGo3OGMxN1ZNYy1FT1NCeF9OVHEyVjJjTlpJVzJHV2Ezamt3MFJkMDc0aUJlLUp3alBQZ200M2VRNWp3NXNkSllocERrOGxWUVBZNEp5VHkxVHJqcFVGeExLUWk5c2QxbHJsWVZIQnp1RFhULXktVHJQb3Nja3dWcFpkTWNZM1JhUGd3MUdSREpCYlJTSGw3TUl5UFFoR0tqWWxyTTdSZk96Z9IBrwFBVV95cUxOYlBrSExJX0JtT1R4MTlVUzVLVFFlZUllUFZmR29fNnNidkEwaFF3SEpkRDdKTDhsWUlTYURSdHBRd1E2V0pKZGRfbWpLS2hiZlEzUTc0SW1wT0JxMzRaMDlicVVQcXVJeGtRcGl1Y2hodkZ6cC15R095ckpuUU81RUJTd3FwSG5qNTRyN1piRlJPWF9rcjVKTnJwNldseVYyQ0VMYjdDcnZPRXljclo0?oc=5"
-   },
-   {
-    "date": "2026-11-15",
-    "published": "2026-11-15T17:39:39+00:00",
-    "source": "Al Jazeera",
-    "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX0xpSGNEdEpuQk5wYUNlODVmNjNjTm1jR1czQ1kzd3R5R2VGRE1SSVZzR1ZsVHhWV2M5YTBKY2JmcXRBc3VUV2ZkN1c0QUZja0t4TTNwU2dOQ0IyNGhROVpDNUdUN1U4UmNLc2pTZE90dGIxV2xJMXlDY2N2amlhTldDaTZMYTVzZk81aXp0MlQtcXlXMlI3dnAtU1gtRFJWUE9LeGlCcW1raUtNenfSAbMBQVVfeXFMTldGWmxyYnNQdGFJdEpQY3pJbnVwUzBjNUw4RWFKdUx4cWpJbVJXRjRtQUNNcUlKaFA0V1FmUTczcTBFQVJZUVlKOFpxNFJEYWZCMktVaEZMbVJkaDNjbTZsMjZ1WUI1NWlRT0xkUEpTdlgwV3p0QU5ONHAtNi1BRVVSSDNCeGRObWlEa3BIRGp5Wk1VY1VpWmVLcE9MbEhCRWVOaVV2TVF1MUpMUVVIbjViczA?oc=5"
-   },
-   {
-    "date": "2026-11-15",
-    "published": "2026-11-15T13:31:43+00:00",
-    "source": "Reuters",
-    "title": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ1U5SnRYV0N6dE01QU1sOFNRWHR0WndCRG05bDl3UEhURE1jR01ZZ2p4dmFpb1llajB6QzdpRmp3WUZYSkhRRmhHT0tKY2hfWjN1b0U3UzJuUkZ3N3ZpWlU1Sk1pOWJvZ3cxcVVRVmhycW9ON2R1Um5nR3ZSQUtzTHE5aHlMb28wM2xyMzQtdnZHNUFfMWR4ZVZwN2pfc2RmcTRMTEtfY0NHbEh0dUo4N0g5UHNGTGJ3c1E?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-16T01:54:23Z"
+  "last_ok_at": "2026-11-16T09:28:55Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-16T01:54:23Z",
+  "fetched_at": "2026-11-16T09:28:56Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 19,
-  "baseline": 29.0,
-  "baseline_n": 20,
-  "tier": "감소",
+  "count": 30,
+  "baseline": 30,
+  "baseline_n": 11,
+  "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
    "2026-09-16T16": 38,
@@ -2405,14 +2405,15 @@
    "2026-11-15T09": 23,
    "2026-11-15T17": 39,
    "2026-11-15T21": 22,
-   "2026-11-16T01": 19
+   "2026-11-16T01": 19,
+   "2026-11-16T09": 30
   },
-  "last_ok_at": "2026-11-16T01:54:23Z"
+  "last_ok_at": "2026-11-16T09:28:56Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-16T01:54:24Z",
-  "last_ok_at": "2026-11-16T01:54:24Z"
+  "fetched_at": "2026-11-16T09:28:56Z",
+  "last_ok_at": "2026-11-16T09:28:56Z"
  }
 }
