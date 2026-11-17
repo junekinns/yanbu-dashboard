@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T03:42:53Z",
+ "generated_at": "2026-11-17T13:08:53Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T03:42:53Z",
+  "fetched_at": "2026-11-17T13:08:53Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,9 +186,12 @@
   "last7d": 2,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-17T03:42:53Z"
+  "last_ok_at": "2026-11-17T13:08:53Z"
  },
  "events": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-11-17T13:09:15Z",
   "events": [
    {
     "date": "2026-11-16",
@@ -1099,20 +1102,6 @@
     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZ2lLLUVqWDZxMlo0ZXZEWGhHanhOb1hzYWhpZ1piVGEtYm5jRzlsRHlrOXk1UzQ0cWVKMHRaQlQ4OTFMMFl6aVVsTFZuZk9nNVYzX04yT181MTBjbnFwYWhid2JIa1JvSUdhWEdSemQ2QzZubTBsM3NrSzJxVXd0SVBkdnZhdkNpRUlSNDRyM1hGOHFkSVFyWV9HZG8xM29qWnZfZWRMMmtiem80U2EyZERNbTVWU2VzdDJQTTNCYW9ZaThzLVY1N1JMMzAwMTNtc1JWVHF5TlFEelptbDJJUmUyWk5pcXlGRTgw?oc=5",
     "source": "Arab News",
     "outlets": 1
-   },
-   {
-    "date": "2026-10-17",
-    "time": "00:51",
-    "iso": "2026-10-17T00:51:00+03:00",
-    "city": "얀부",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 24.09,
-    "lon": 38.06,
-    "title": "Missiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelJ6OUp1VFpwTmJ0Qm85TzRUS2ppU0swVFMydlJuTDZiS1Q1V2R6M1N4bmpfeTZ0aWNqd29XbGdDMm9IVllmLTZUazAxQWFzX3lsVlJBbHI4TVRfQVFrZlk5MkNqVzVCMU5XYkFwM3Fyb0pkbDk0bGo5N1dwQWJMMEo5aEhIeXpaS1J5TkRLVFZTem93Rl9rM2trUHZlaDQwSzVIQTB4UG1xelRQSU5wZ2I4X1N1V0VPUElsWHBIYVZvckhpYk9RZVhZaw?oc=5",
-    "source": "Reuters",
-    "outlets": 1
    }
   ],
   "tempo": {
@@ -1133,15 +1122,14 @@
    },
    "메디나": {
     "7d": {
-     "요격": 1,
-     "피격": 1
-    },
-    "total7d": 2,
-    "prev7d": {
-     "피격": 1,
      "요격": 1
     },
-    "prev_total": 2
+    "total7d": 1,
+    "prev7d": {
+     "피격": 2,
+     "요격": 1
+    },
+    "prev_total": 3
    },
    "라비그": {
     "7d": {},
@@ -1162,9 +1150,9 @@
     },
     "total7d": 5,
     "prev7d": {
-     "요격": 2
+     "요격": 1
     },
-    "prev_total": 2
+    "prev_total": 1
    },
    "타이프": {
     "7d": {},
@@ -1174,16 +1162,17 @@
    },
    "리야드": {
     "7d": {
-     "피격": 3,
-     "요격": 2
-    },
-    "total7d": 5,
-    "prev7d": {
      "피격": 2,
+     "요격": 1
+    },
+    "total7d": 3,
+    "prev7d": {
+     "피격": 3,
+     "요격": 1,
      "공습": 1,
      "경보": 1
     },
-    "prev_total": 4
+    "prev_total": 6
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1259,20 +1248,40 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-10-17",
-  "today": "2026-11-16",
-  "last_ok_at": "2026-11-16T20:20:02Z",
-  "ok": false,
-  "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%28intercepted%20OR%20intercepts%20OR%20%22shot%20down%22%20OR%20destroyed%20OR%20strikes%20OR%20struck%20OR%20attack%20OR%20airstrike%20OR%20alert%20OR%20siren%29%20%28Houthi%20OR%20coalition%20OR%20Saudi%29%20%28Yanbu%20OR%20Jeddah%20OR%20Medina%20OR%20Mecca%20OR%20Taif%20OR%20Jazan%20OR%20Abha%20OR%20%22Khamis%20Mushait%22%20OR%20Najran%20OR%20Riyadh%20OR%20Dammam%20OR%20Dhahran%20OR%20Jubail%20OR%20%22Ras%20Tanura%22%20OR%20Abqaiq%20OR%20pipeline%20OR%20Rabigh%29%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
-  "fetched_at": "2026-11-17T03:43:09Z",
-  "stale": true
+  "history_since": "2026-10-18",
+  "today": "2026-11-17",
+  "last_ok_at": "2026-11-17T13:09:15Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T03:43:09Z",
+  "fetched_at": "2026-11-17T13:09:16Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-17 16:04",
+    "iso": "2026-11-17T16:04:15+03:00",
+    "places": [],
+    "text_ar": "The criminal Saudi enemy continues its aggression and siege against our people for 12 years, and has increased the pace of its crimes and oppression against our people through aerial bombardment, tightening the siege, committing dozens of massacres, and deploying tens of thousands of its troops to attack the Yemeni people and their armed forces, supporting them with all types of weapons and air co…",
+    "text_ko": "범죄자인 사우디아라비아 적군은 12년 동안 우리 국민에 대한 침략과 포위를 계속하고 있으며, 공습, 포위 강화, 수십 건의 학살, 수만 명의 병력을 배치하여 예멘 국민과 그들의 군대를 공격하고, 모든 종류의 무기와 공중 지원으로 그들을 지원함으로써 우리 국민에 대한 범죄와 억압의 속도를 높이고 있습니다.",
+    "url": "https://t.me/army21ye/4100"
+   },
+   {
+    "time": "2026-11-17 16:00",
+    "iso": "2026-11-17T16:00:01+03:00",
+    "places": [],
+    "text_ar": "بيانٌ صادرٌ عن القواتِ المسلحةِ اليمنيةِ بسمِ اللهِ الرحمنِ الرحيمِ قالَ تعالى: { وَلَمَنِ ٱنتَصَرَ بَعۡدَ ظُلۡمِهِۦ فَأُو۟لَـٰۤىِٕكَ مَا عَلَیۡهِم مِّن سَبِیلٍ } صدقَ اللهُ العظيم يواصلُ العدوُّ السعوديُّ المجرمُ عدوانَه وحصارَه لشعبِنا على مدى 12 عامًا وزادَ من وتيرةِ إجرامهِ وبغيهِ ضدَّ شعبِنا من خلالِ القصفِ الجويِّ وتشديدِ الحصارِ وارتكابِ عشراتِ المجازرِ والدفعِ بعشراتِ الآلافِ من تحشيداتِه …",
+    "text_ko": "예멘군 성명 알라의 이름으로, 자비로우시고 자비로우신 분. 전능하신 알라께서 말씀하시길, \"억압을 당한 후에도 승리한 자들에게는 아무런 죄가 없다.\" 전능하신 알라의 말씀은 진리입니다. 범죄자인 사우디아라비아 적군은 12년 동안 우리 국민에 대한 침략과 봉쇄를 계속하고 있으며, 공습, 봉쇄 강화, 수십 건의 학살, 수만 명의 병력 동원 등을 통해 우리 국민에 대한 범죄와 폭력의 빈도를 높이고 있습니다.",
+    "url": "https://t.me/army21ye/4099"
+   },
+   {
+    "time": "2026-11-17 15:17",
+    "iso": "2026-11-17T15:17:43+03:00",
+    "places": [],
+    "text_ar": "الغارات العدوانية التي نفذها العدو السعودي في محافظة صنعاء وغيرها من المحافظات لن تمر دون رد، وعواقب عناده ستكون وخيمةً عليه وستكون مصالحه ومنشآته ثمناً لذلك. http://t.me/army21ye",
+    "text_ko": "사우디아라비아 적군이 사나 주와 다른 주에서 자행한 공격적인 공습은 응징 없이 지나가지 않을 것이며, 그들의 완고함이 초래할 결과는 심각할 것이고 그 대가는 그들의 이익과 시설이 치르게 될 것입니다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4097"
+   },
    {
     "time": "2026-11-16 19:40",
     "iso": "2026-11-16T19:40:51+03:00",
@@ -2039,24 +2048,34 @@
    "송유관": 2,
    "아브카이크": 2
   },
-  "last_ok_at": "2026-11-17T03:43:09Z"
+  "last_ok_at": "2026-11-17T13:09:16Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T03:43:10Z",
+  "fetched_at": "2026-11-17T13:09:22Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-17T03:43:10Z"
+  "last_ok_at": "2026-11-17T13:09:22Z"
  },
  "news": {
+  "ok": true,
+  "error": null,
+  "fetched_at": "2026-11-17T13:09:22Z",
   "kr": [
+   {
+    "date": "2026-11-17",
+    "published": "2026-11-17T09:11:08+00:00",
+    "source": "뉴시스",
+    "title": "다르 글로벌, 10억 사우디 리얄 규모 신규 제다 개발 사업으로 사우디아라비아 포트폴리오 확대",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84NENzQmJIbGhYVVlJU0d0WXZGbmZRaDRPLUJoczNUSlUtZ0V2Z0NWWDd2YWUySXFwcHdGakdhejFkemRmQW8wSTRhMGVNOEt1bUxheG1fcHVaYi1rTGQ3aw?oc=5"
+   },
    {
     "date": "2026-11-16",
     "published": "2026-11-16T19:13:41+00:00",
     "source": "뉴시스",
     "title": "후티, 예멘 임시수도 아덴 접근…사우디, 연합군 사령관 교체",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Jb0prNDl2TGJxN3dwZXpLUDJrZnJQeXRpVk4wbHlPWWozeTZSRmlWSWMzTVlYNldqVDhaQ1RVSW1VTUtESWpTYXFOOGF2bTVjcE1qdGZTTmxXcHB4VXFBeNIBeEFVX3lxTE14Z0p2X3hMbjdXbGpTMzhwSi13QjlXVUVNMENBbFFDdElxcjhqbkdJLVZXRUVNdXpFb21hTGJIbzd1aTBxajl1a0t3X0U5S2JBSDk0WjlyMEptZ0tqQk1pOGFud0xJODZlQ0FmS2hnUnR4WDhvNEN3RA?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14Z0p2X3hMbjdXbGpTMzhwSi13QjlXVUVNMENBbFFDdElxcjhqbkdJLVZXRUVNdXpFb21hTGJIbzd1aTBxajl1a0t3X0U5S2JBSDk0WjlyMEptZ0tqQk1pOGFud0xJODZlQ0FmS2hnUnR4WDhvNEN3RNIBeEFVX3lxTE14Z0p2X3hMbjdXbGpTMzhwSi13QjlXVUVNMENBbFFDdElxcjhqbkdJLVZXRUVNdXpFb21hTGJIbzd1aTBxajl1a0t3X0U5S2JBSDk0WjlyMEptZ0tqQk1pOGFud0xJODZlQ0FmS2hnUnR4WDhvNEN3RA?oc=5"
    },
    {
     "date": "2026-11-16",
@@ -2067,40 +2086,40 @@
    },
    {
     "date": "2026-11-16",
+    "published": "2026-11-16T14:04:00+00:00",
+    "source": "경향신문",
+    "title": "후티에 고전 중인 사우디, 연합군 사령관 전격 경질",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZV1dQZjRuTm9DU2lhZDU2X0ZUb2xxUHY1a3pZR21JWEtrSUdKbGhLN2ZtNnBHQzgtLW5KaFc4MGhOdHBKMllVZVRlZU9QSXI2RThaeHRnYmNrd9IBX0FVX3lxTE9OTm9ReGZMRjZCdjVvTjAxVkdRVEp6ZVRqRnlzR29IcW1La2xTQkdUUHlWd2Y2c3dmYVRjQVJteEJaNWdHVFA1TlYtV1VHcjlXTXhMMEc0ZmVGOGdSdUZJ?oc=5"
+   },
+   {
+    "date": "2026-11-16",
     "published": "2026-11-16T14:01:17+00:00",
     "source": "MBC",
     "title": "후티에 고전 사우디, 예멘전 지휘 연합군 사령관 전격 경질",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1UYk8yUkMzcjJoSlQ2cDBFd2JpeEJMOFJ4a1ExRVB6ckNicFdPTEhzTzROZ1ItY09CVzBneGVudmV4MWlzX3RnT08xNVBydWQwV0JUM1ExOFQ2b0hQY0xHblJ5akhfTlZQdUZDeGY0T2RpM21R0gF0QVVfeXFMUHlMbUxmbVBZbi1wQTZrWnBxSWdmQUZNUVo0bUU4VkdvYzJPYXlsSkVNYmNuc1psazYxaG94Xzh5YmdEWGpuYXRid2hxNlJUV0ZpQVJCZXB5RGZKSlFWSTlxYWxfcDRvM01XZHA3VUV4OGhWQ1Y?oc=5"
-   },
-   {
-    "date": "2026-11-16",
-    "published": "2026-11-16T01:48:51+00:00",
-    "source": "중앙일보",
-    "title": "이란, 두 달만에 바레인 미군 시설 공격…후티, 사우디·예멘 공세",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wSjRLV2xMMkhrMVJKMVlFQi1yZmZxVnpfVVltQVNxay0tM0l0Y0E5ckI5cmJmVVhFU3lUd0xHaW14UWE0QThUZHpaQmwzVWoySWV4Uk5R?oc=5"
-   },
-   {
-    "date": "2026-11-15",
-    "published": "2026-11-15T22:25:57+00:00",
-    "source": "뉴시스",
-    "title": "후티군, 사우디와 예멘 정부에 대대적 폭격.. 리야드 공항· 금융센터도",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9yZ1lCRU1CLXZ0MnZaQVB1UVJHWFVCRjVxWkc4ZVBPbW92TTBTTXdVOTItMW1NaS1xYm12XzRldW8xRkF1Z3pZRjRxZDFQSi1KaUVQc0xIbS1XMWMtRzdWZXozdnRkU0dJeWIyaE9rN3BPTWxvYUNQd9IBeEFVX3lxTE9yZ1lCRU1CLXZ0MnZaQVB1UVJHWFVCRjVxWkc4ZVBPbW92TTBTTXdVOTItMW1NaS1xYm12XzRldW8xRkF1Z3pZRjRxZDFQSi1KaUVQc0xIbS1XMWMtRzdWZXozdnRkU0dJeWIyaE9rN3BPTWxvYUNQdw?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-11-16",
-    "published": "2026-11-16T19:48:10+00:00",
-    "source": "NBC News",
-    "title": "Saudi-backed forces retreat to defend Aden as Houthis seize more ground in Yemen",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2FWNGduTlpEeXhuVlFxTWFKdElkZ1B5M1hKRWNXcHJ1M3FSdEhWYjJ2MDcxQzdlRDFXeFhxazltRnpFc3ZnMUk0QWd2OU42MmRBWUI0aTRVZUlhdVlCRUNINjdBa1FEMDkyeXZ1ODhWa1lBZTk2S0doZ05DS09YLS1uVUZ6SVlseVRVSnlqX1RzZmpPYUlNcFlaSUZKeUIzUnp2bDlkZ3hKdw?oc=5"
+    "date": "2026-11-17",
+    "published": "2026-11-17T12:13:46+00:00",
+    "source": "Reuters",
+    "title": "Indian companies to buy US LPG in 2027 from Aramco, Chevron, Vitol and Totsa",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDEtVHZ3UWZidDl6dDFPU3UtbXBUakRPT05pQWc0dlBXNGUxaTlrRl9PTERxb0dCRm5vbUR0ajc2S21XLWc5eGxRcElnSkdPOFdUc1dfLWpzZHlmUWZMRTRNNmdzTTc3UDZDbFZLUUpfZUdDTHRYX0xPSnBKVm83Qk0wT0d1TGpPYTJTdnJkZEwzakVGaWtqczJWT0hTMEh3UEM5MEVtMzBXRHJ0UkF2dg?oc=5"
+   },
+   {
+    "date": "2026-11-17",
+    "published": "2026-11-17T04:32:12+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Tanker attacked in Strait of Hormuz off Oman, UKMTO says",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbTl5RWVWNzJOd1BBVC1RZmR6aHBLUFZTaEtvZkFYVEtzV2N4c01TS05Oek15M2U2NS1lZk5MQkI4QU8zSm9va1JlU213c0dwS3doMXJ6N1RSZVA3OWUzbVI3Vk16MGtobTRKVTNQRFJrMTRvQVlNTzFRY2Z3dG82MWRGb21pNjF0djB0VjFGVVplRE9IRVNoY2ZtQjVkRkk?oc=5"
    },
    {
     "date": "2026-11-16",
-    "published": "2026-11-16T19:44:11+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Pakistan awaits US response to latest Iran proposals",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUhsb2pnODdZNmUya1pnTkFma1Rsb0ozYnVkNGRzd0M0Q0VHT2xuVHhkaFc1NlREdnBiT2d0aW1oTjNRXzVOWkxnRmdzX1pvcmx4dWRIQmJySzFSOG52ZHZ3S0FpWTZOcFllRFRaaTg0ZEFsam8zdHlkME9rdFZGbWdxaVZtMDB6THQ2aGdCaEdLZjRMeTZfNURNZEUyWGoycVBkTg?oc=5"
+    "published": "2026-11-16T21:40:07+00:00",
+    "source": "BBC",
+    "title": "Houthi rebel advance in Yemen may further destabilise global economy",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ad2QyN04ybElkdHdXZTBxc0NuZV9vZEtlcFFZX2NpWUhvLUxmWVViZDQ5eXUtLUxJNDhBV3FxbnQxYkdhS1JIcVJrX1VnZ0lRQ1UzQTdVamJfLWdYSHc?oc=5"
    },
    {
     "date": "2026-11-16",
@@ -2111,33 +2130,22 @@
    },
    {
     "date": "2026-11-16",
-    "published": "2026-11-16T15:49:18+00:00",
-    "source": "Reuters",
-    "title": "After Yemen setback, Saudi Arabia replaces military commander",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbllfNkZoYzF4U1ZLdmUtaGE2VnZsblBfeXMyV0xFSEVwcDRya3hzTG1jR2JVS08zYUFBR1laaGhkTVhyZ3hueTl5N1k5ZkFTc3V0blFaUm02WFd0Y2Y2bTR5Rm53XzhTZV8wYy1YWVRNQWo3Vjc5VF9GeXJMaU9zZnhOV3N4aDNkbmcyalJnenlReWFCamtKS0NPZWNLRV9EQ1A3SEVLeU9BNjBvYzd6VzNnQQ?oc=5"
-   },
-   {
-    "date": "2026-11-16",
     "published": "2026-11-16T14:54:28+00:00",
     "source": "PBS",
     "title": "Houthis accuse Saudi Arabia of strikes that killed 3 including a child, and other Mideast news",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQUgwRUxaX2xHbVlybWJPWEtzb3NKdHdiY3FsSDhIeF8tQnBqZEdUdUlCZlVrWkloNGFDYVh4eU5fU3ZhUWZRVlM0cGJVTzlPY1pMTXJUSVhMcEY5bzNteUhpU01ISzlWU0VlblVzRll2TEdILU9rNnptXy1rMzVDb2E1QlhlNEFHYklBOWNDYndpLTcwTUlaVnp1YTJwNFp3eUlfdl90RWhlZC1wZktYNTd2anRuZFEwT09zZmU4X1RIMWktTFJB0gHMAUFVX3lxTFBOVk1kay1tdjlNdVB4NlhGd3EwX1pZcmppZWxESUJTeEZkUE1jdVZzRkZqWWN2RVM5SVZyNld5RjNIS3gtOF9ZcVhQZm9Ecm5sMFhHTHQxWjlqalpoTFpKb2tzZ1c5V1lJaUxVVWxmQVA0WERESHcwWEkzVk0xMG4wNlBRNjU5U3ZYLUx0Vk1MNGFMWnR0NGhjd1l0ZGFqTkRxc2V5OWdJcDIwclp1MzI1ZXlEUXBxTGNkRXZPeW9idGRSYVBYd2lEY1VRbg?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-16T20:20:13Z",
-  "ok": false,
-  "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%EC%82%AC%EC%9A%B0%EB%94%94%20%28%ED%9B%84%ED%8B%B0%20OR%20%EA%B3%B5%EA%B2%A9%20OR%20%EB%93%9C%EB%A1%A0%20OR%20%EB%AF%B8%EC%82%AC%EC%9D%BC%20OR%20%EA%B5%90%EB%AF%BC%20OR%20%EC%86%A1%EC%9C%A0%EA%B4%80%20OR%20%EC%96%80%EB%B6%80%20OR%20%EC%A0%9C%EB%8B%A4%20OR%20%EB%A6%AC%EC%95%BC%EB%93%9C%20OR%20%EB%8B%B4%EB%A7%98%20OR%20%EC%95%84%EB%9E%8C%EC%BD%94%29%20when%3A7d&hl=ko&gl=KR&ceid=KR:ko",
-  "fetched_at": "2026-11-17T03:43:10Z",
-  "stale": true
+  "last_ok_at": "2026-11-17T13:09:22Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T03:43:11Z",
+  "fetched_at": "2026-11-17T13:09:23Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 23,
-  "baseline": null,
-  "baseline_n": 2,
+  "count": 28,
+  "baseline": 33,
+  "baseline_n": 11,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2422,14 +2430,15 @@
    "2026-11-16T01": 19,
    "2026-11-16T09": 30,
    "2026-11-16T20": 27,
-   "2026-11-17T03": 23
+   "2026-11-17T03": 23,
+   "2026-11-17T13": 28
   },
-  "last_ok_at": "2026-11-17T03:43:11Z"
+  "last_ok_at": "2026-11-17T13:09:23Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-17T03:43:11Z",
-  "last_ok_at": "2026-11-17T03:43:11Z"
+  "fetched_at": "2026-11-17T13:09:23Z",
+  "last_ok_at": "2026-11-17T13:09:23Z"
  }
 }
