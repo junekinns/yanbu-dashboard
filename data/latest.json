@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T22:12:01Z",
+ "generated_at": "2026-11-18T04:09:50Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T22:12:01Z",
+  "fetched_at": "2026-11-18T04:09:50Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -183,16 +183,30 @@
     "summary": "ㅇ 사우디 에너지부는 11.9(월) 오후 메디나주를 가로지르는 사우디 동서 파이프라인이 공격을 받아 소규모 화재가 발생했다고 발표했습니다. ㅇ 또한, 사우디 주도 아랍연합군은 11.10(화) 사우디 남부지역(구체 지명 미언급)을 겨냥한 후티 반군의 탄도미사일 1기를 요격했다고 발표했습니다. ㅇ 현재 사우디 전역에 여행경보 3단계(출국권고)가 발령 중입니다.…"
    }
   ],
-  "last7d": 2,
+  "last7d": 1,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-17T22:12:01Z"
+  "last_ok_at": "2026-11-18T04:09:50Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T22:12:20Z",
+  "fetched_at": "2026-11-18T04:10:06Z",
   "events": [
+   {
+    "date": "2026-11-18",
+    "time": "02:08",
+    "iso": "2026-11-18T02:08:40+03:00",
+    "city": "송유관",
+    "type": "피격",
+    "weapon": null,
+    "lat": null,
+    "lon": null,
+    "title": "후티 \"사우디 송유관 타격\"…예멘 내전 격화속 민간인 피해 속출",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4MUN6RGFFWWFkaEprdlg4VG5FWTdwQ0VfcWE5WmNhVnRoV3FLYm5XT3FPS0xlb1RuLVJTU0I1SVhNNHB1X3N0WmE4RXRiRXhOZDZBd2gtcS1Rb1NwS3hUMdIBYEFVX3lxTFA4MUN6RGFFWWFkaEprdlg4VG5FWTdwQ0VfcWE5WmNhVnRoV3FLYm5XT3FPS0xlb1RuLVJTU0I1SVhNNHB1X3N0WmE4RXRiRXhOZDZBd2gtcS1Rb1NwS3hUMQ?oc=5",
+    "source": "연합뉴스",
+    "outlets": 2
+   },
    {
     "date": "2026-11-18",
     "time": "00:41",
@@ -205,7 +219,7 @@
     "title": "후티군 \"사우디 최대 송유관에 공습 시작\".. 사우디 폭격에 보복",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Ma3NPS3Z4cmkzaFVnRF92OHp3TXNTSjZZd3F3QkpnM2xxSjlwdkU1ZlItR0lxekNaazZ0aU1EVHBMekNlbld2SndTcy1NWkwtTVg0VGM1aFhiSFlkSE8xN9IBeEFVX3lxTE9CTG8xRG5RRGwtN1lFbXBGNWJkR01IQklpTnFmWWlhQUNEb2FEMlNPVjJfZlNNR2phYlZIM1UwUFZ0REpjcFl0UERya2hVbDg3SW5CdHZabUNsRFVpUkt2dlF2NkRKUkRySXVtbHZiODU0SndibmJOUg?oc=5",
     "source": "뉴시스",
-    "outlets": 1
+    "outlets": 2
    },
    {
     "date": "2026-11-17",
@@ -1235,12 +1249,12 @@
   "history_days": 31,
   "history_since": "2026-10-19",
   "today": "2026-11-18",
-  "last_ok_at": "2026-11-17T22:12:20Z"
+  "last_ok_at": "2026-11-18T04:10:06Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T22:12:21Z",
+  "fetched_at": "2026-11-18T04:10:07Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -2011,21 +2025,42 @@
    "얀부": 2,
    "메디나": 1
   },
-  "last_ok_at": "2026-11-17T22:12:21Z"
+  "last_ok_at": "2026-11-18T04:10:07Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T22:12:30Z",
+  "fetched_at": "2026-11-18T04:10:07Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-17T22:12:30Z"
+  "last_ok_at": "2026-11-18T04:10:07Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T22:12:30Z",
+  "fetched_at": "2026-11-18T04:10:08Z",
   "kr": [
+   {
+    "date": "2026-11-18",
+    "published": "2026-11-18T01:00:29+00:00",
+    "source": "서울신문",
+    "title": "송유관 뚫리고 ‘홍해 길목’까지 뺏겼다…사우디·예멘 정부군 ‘사면초가’ [밀리터리노트]",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR080QXd1eU52LWJMcnUzRjN3ZVN6UXN1c3dlbWJBZ0hvdDR5TzYxcjNkWTJLQ01HSG1JNHZVMVpjbFdmd18zQ3BPR0tnR0hYRzY3QTBkVV9mVG5NZmZXejJBWW5wRVgtTWVaTERENzhNYnl5LTRUY0F1UnhwdDJ2TlItWkRySnNvNWdDeS1rbw?oc=5"
+   },
+   {
+    "date": "2026-11-18",
+    "published": "2026-11-18T00:26:00+00:00",
+    "source": "중앙일보",
+    "title": "후티 “사우디 최대 송유관에 공습”…사우디 폭격에 보복",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yOS1WaW5CVUFycmVfOFQtaFJWM1pGa01ZVnE2NExRWmh0SjhObmttcWxQU2VOVDEzZk92bUxzOUUzTWVES1ptZlJDUUJHUHpKUTd3eHVjNmJzalhHVzdEU29B?oc=5"
+   },
+   {
+    "date": "2026-11-18",
+    "published": "2026-11-18T00:08:56+00:00",
+    "source": "MBC",
+    "title": "후티 \"사우디 송유관 타격\"‥예멘 내전 격화 속 민간인 피해 속출",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GZUhQVG0xN0pUUjFxRnAycThaVlROZ2tybG1ZeVg3Q1NtMFpDMmtSSmh1eU5uUV93NDBIc2c2SFQ0bk5TTFhaTDMwa2RhaW9MOEtOTkJZMmlnci1XdFYtUHlreV9lc3VKU2xkR1VFOWl6dWJD0gF0QVVfeXFMT0ZlSFBUbTE3SlRSMXFGcDJxOFpWVE5na3JsbVl5WDdDU20wWkMya1JKaHV5Tm5RX3c0MEhzZzZIVDRuTlNMWFpMMzBrZGFpb0w4S05OQlkyaWdyLVd0Vi1QeWt5X2VzdUpTbGRHVUU5aXp1YkM?oc=5"
+   },
    {
     "date": "2026-11-17",
     "published": "2026-11-17T21:41:14+00:00",
@@ -2039,50 +2074,15 @@
     "source": "뉴스1",
     "title": "후티 \"사우디 동서 송유관 드론 공격\"∼피해 여부 확인 안 돼",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13eDZRMXZ4SmJYT2hOWDBrTEZOcFI4LWt0d0Vuc1liWlZzMkdfZm9fTzN4VmtJbHVyM2ZUT3BtUjl3MUNnSzZjbEpPZk5JOVlNSkhaYndsMFY0dEpTY2F6YXNn?oc=5"
-   },
-   {
-    "date": "2026-11-17",
-    "published": "2026-11-17T09:11:08+00:00",
-    "source": "뉴시스",
-    "title": "다르 글로벌, 10억 사우디 리얄 규모 신규 제다 개발 사업으로 사우디아라비아 포트폴리오 확대",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84NENzQmJIbGhYVVlJU0d0WXZGbmZRaDRPLUJoczNUSlUtZ0V2Z0NWWDd2YWUySXFwcHdGakdhejFkemRmQW8wSTRhMGVNOEt1bUxheG1fcHVaYi1rTGQ3aw?oc=5"
-   },
-   {
-    "date": "2026-11-16",
-    "published": "2026-11-16T15:06:17+00:00",
-    "source": "뉴스1",
-    "title": "사우디, 예멘전 연합군 사령관 경질… 바브엘만데브 철수 하루 만",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81ZURSbHMyemdrblo5Snd3TlhrMzdtemFSM0xHc1FNSVBkOWg2c3UwU2tBMTNOUEN1dlUxaHhqZ1FWcjNlcWRqSUZfTEZrdnoweTdfWXVrSzI?oc=5"
-   },
-   {
-    "date": "2026-11-16",
-    "published": "2026-11-16T14:04:00+00:00",
-    "source": "경향신문",
-    "title": "후티에 고전 중인 사우디, 연합군 사령관 전격 경질",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZV1dQZjRuTm9DU2lhZDU2X0ZUb2xxUHY1a3pZR21JWEtrSUdKbGhLN2ZtNnBHQzgtLW5KaFc4MGhOdHBKMllVZVRlZU9QSXI2RThaeHRnYmNrd9IBX0FVX3lxTE9OTm9ReGZMRjZCdjVvTjAxVkdRVEp6ZVRqRnlzR29IcW1La2xTQkdUUHlWd2Y2c3dmYVRjQVJteEJaNWdHVFA1TlYtV1VHcjlXTXhMMEc0ZmVGOGdSdUZJ?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-17",
-    "published": "2026-11-17T21:21:19+00:00",
-    "source": "The National",
-    "title": "Middle East latest: 21 Indians evacuated following strikes on tanker",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1lqMnhfdVg2OGtJamZFSnh3Uzc2YzhteVFUemRxWTNsdjl6cU1nbDJyN2xJTUR4dGsyTEdDVC1YOXYtR0VjemJDSktyTlZFcTJBazM3cGJjRTVSWE8wVHJTaVkxTks2TjhSam95R2lWSWpySW1RclEtcmRQV1V6SVdHNUdkUEhUTGRkZngwcjExdjUwYXBGc3hQNG9KUQ?oc=5"
-   },
-   {
-    "date": "2026-11-17",
-    "published": "2026-11-17T19:49:00+00:00",
-    "source": "Saudi Gazette",
-    "title": "Coalition intercepts Houthi drone in Riyadh region",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR3ZtV1l5dkFITkJvYVRyNUduMHRLS2Z3blVOb1BoV3F6US1acE8yNVV0YkdyR1FhZi1SZFUzMFQ3UnM3cW50a0MxVG83LTlOelJuM0d3d1JhSVBvd09TOVVjLXVDc0J3bGFfMkIyci1abUNSSUd5Q0xfNkIxWnF4ZHotdXpOeGJibXBwazAwYmh0Nmhkc3JGLXI5WHpvV3hCcElNcEJsQmpFQQ?oc=5"
-   },
-   {
-    "date": "2026-11-17",
-    "published": "2026-11-17T18:20:54+00:00",
-    "source": "Reuters",
-    "title": "Yemen's Houthis say they launched drones towards Saudi East-West pipeline",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa1JWbURTTkJ4Z29LYnJBSXgtalBTYm56SVUyU2l2a0tDdnRBQ2hjdHRqZHFiVnFIbG9xUHBzM2EwZ2NINFhJUncxazNCSUMwUlJkRDVDTFlvU1dLR0Z3NktuSWpMRXJkUWZuRFJQRnRRbmxTVEdyZzNQd2lyd2dWbjVhUnNUUGtKVExlMzlIY0dET0NrZ0xpUW1KTWk3YkR3S2loZEpTcWdaOUxfd1FnMzFWWFlsZmJoTFowOW9JZWxYZVVq?oc=5"
+    "published": "2026-11-17T23:32:00+00:00",
+    "source": "AP News",
+    "title": "Saudi-backed forces in Yemen bolster defenses near Aden to deter Houthis, and other Mideast news",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2l1bWc4eTF3NXJ2NktEbGZGWnRzeUJyYzBaQmxBdnpnblVHeEVzaDVZR01ndG1UQVAzTkdtVGxaYlRZcEJ6S3BHRTJuVkRXVjFkZkpOb3lYcGlsc25UVW41QjA1QmgxY1hBaUp0ZWYxQjFZYXhyWklaZFdLMEVEcnFoOWRSR1poMEh4ZWN0ZXlETnlJWU5JdXUycEMtdkszeXAxZEtPa2gwS3MwcDQ0eDRFNUQ?oc=5"
    },
    {
     "date": "2026-11-17",
@@ -2093,22 +2093,36 @@
    },
    {
     "date": "2026-11-17",
-    "published": "2026-11-17T14:20:10+00:00",
-    "source": "Arab News",
-    "title": "2 Saudi patents target solar power systems, hydrogen production",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNUZTQk5MTXJoMGpFcVNaSnk1SW1QZTJkZEh3WXdZdGUwUngyLUpIVzFCakh4ZDVBMTNTRF9zb2xucUVudWd2alF5T3k4U0xhWjBseEZpdnlxd3o4Q25KVXNXajRwdDN5YVg4elJyX0lSY1IxVlM4ZWN5cG5CWEFwc0hvemxOU3lvZFJTMHdxOVRHc0RZRGJ3Qzk5MW1WYlpESnpEdXg5cGFYdGk4?oc=5"
+    "published": "2026-11-17T17:06:23+00:00",
+    "source": "The National",
+    "title": "Middle East latest: 21 Indians evacuated following strikes on tanker",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQjNXWEQxYjQwdW1vQVN6U1hRWldnaXJKSGEyaXJOc3N0UUREdUtFWHJSX29UZDNsbHlBTERxNWNOUG1YSF9CZlJFN3NwRGlZeDFtcUMxWk1vcXQ1VWQ5Y1A2TlBtSHpVQ21oUU1CSHB0Z1lubVRmRGE4U3h2bVlSOGZzSzlyXzBD?oc=5"
+   },
+   {
+    "date": "2026-11-17",
+    "published": "2026-11-17T12:13:46+00:00",
+    "source": "Reuters",
+    "title": "Indian companies to buy US LPG in 2027 from Aramco, Chevron, Vitol and Totsa",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDEtVHZ3UWZidDl6dDFPU3UtbXBUakRPT05pQWc0dlBXNGUxaTlrRl9PTERxb0dCRm5vbUR0ajc2S21XLWc5eGxRcElnSkdPOFdUc1dfLWpzZHlmUWZMRTRNNmdzTTc3UDZDbFZLUUpfZUdDTHRYX0xPSnBKVm83Qk0wT0d1TGpPYTJTdnJkZEwzakVGaWtqczJWT0hTMEh3UEM5MEVtMzBXRHJ0UkF2dg?oc=5"
+   },
+   {
+    "date": "2026-11-17",
+    "published": "2026-11-17T07:21:47+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Bahrain accuses Iran of attacks as Kuwait counters drone attacks",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1lqMnhfdVg2OGtJamZFSnh3Uzc2YzhteVFUemRxWTNsdjl6cU1nbDJyN2xJTUR4dGsyTEdDVC1YOXYtR0VjemJDSktyTlZFcTJBazM3cGJjRTVSWE8wVHJTaVkxTks2TjhSam95R2lWSWpySW1RclEtcmRQV1V6SVdHNUdkUEhUTGRkZngwcjExdjUwYXBGc3hQNG9KUQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-17T22:12:30Z"
+  "last_ok_at": "2026-11-18T04:10:08Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-17T22:12:31Z",
+  "fetched_at": "2026-11-18T04:10:08Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 31,
-  "baseline": 30.5,
-  "baseline_n": 16,
+  "count": 28,
+  "baseline": 18,
+  "baseline_n": 9,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2395,14 +2409,15 @@
    "2026-11-16T20": 27,
    "2026-11-17T03": 23,
    "2026-11-17T13": 28,
-   "2026-11-17T22": 31
+   "2026-11-17T22": 31,
+   "2026-11-18T04": 28
   },
-  "last_ok_at": "2026-11-17T22:12:31Z"
+  "last_ok_at": "2026-11-18T04:10:08Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-17T22:12:31Z",
-  "last_ok_at": "2026-11-17T22:12:31Z"
+  "fetched_at": "2026-11-18T04:10:09Z",
+  "last_ok_at": "2026-11-18T04:10:09Z"
  }
 }
