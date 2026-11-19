@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T21:49:51Z",
+ "generated_at": "2026-11-19T03:13:57Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-18T21:49:51Z",
+  "fetched_at": "2026-11-19T03:13:57Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 1,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-18T21:49:51Z"
+  "last_ok_at": "2026-11-19T03:13:57Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-18T21:50:13Z",
+  "fetched_at": "2026-11-19T03:14:14Z",
   "events": [
    {
     "date": "2026-11-18",
@@ -1233,12 +1233,12 @@
   "history_days": 31,
   "history_since": "2026-10-20",
   "today": "2026-11-19",
-  "last_ok_at": "2026-11-18T21:50:13Z"
+  "last_ok_at": "2026-11-19T03:14:14Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-18T21:50:14Z",
+  "fetched_at": "2026-11-19T03:14:15Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1966,27 +1966,27 @@
    "메디나": 1,
    "얀부": 1
   },
-  "last_ok_at": "2026-11-18T21:50:14Z"
+  "last_ok_at": "2026-11-19T03:14:15Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-18T21:50:19Z",
+  "fetched_at": "2026-11-19T03:14:15Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-18T21:50:19Z"
+  "last_ok_at": "2026-11-19T03:14:15Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-18T21:50:19Z",
+  "fetched_at": "2026-11-19T03:14:18Z",
   "kr": [
    {
-    "date": "2026-11-18",
-    "published": "2026-11-18T14:53:29+00:00",
+    "date": "2026-11-19",
+    "published": "2026-11-19T02:29:59+00:00",
     "source": "뉴스1",
-    "title": "\"사우디, 예멘 후티와 장기전 대비…최대 6개월 지속 예상\"",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SblUxMk55WGpaTjVYX043MUo4bzF3VjhoNXQ3ejcwT29DLW1VQ3g2WG5fcGhsRlNlLXNsY2ZUaW8xUF9BVW1maTVZRm1ybWR4RmZxUHNNUXJaNGcxYVhsRERB?oc=5"
+    "title": "사우디 왕세자, 美중부사령관 면담…후티 대응 군사협력 논의",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41UTNHWkZ6cnJPVVpha21COHZndURnY2R3ejJhdS14ZE5lc0ZpalRNbGFNZGNPeHotU1l4ejZxSXRvS0tLQnIzRThoTmFGY0xLNkg0TXpBZ0k?oc=5"
    },
    {
     "date": "2026-11-18",
@@ -2019,8 +2019,15 @@
   ],
   "en": [
    {
-    "date": "2026-11-18",
-    "published": "2026-11-18T19:20:14+00:00",
+    "date": "2026-11-19",
+    "published": "2026-11-19T03:03:46+00:00",
+    "source": "Arab News",
+    "title": "Coalition forces deal with Houthi missile threat toward Riyadh, debris causes damage",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOFdNUGhSV3FfbEd3eENFaFN1TDd4MG1DanBEV3ktLWZFWGY2bFRyZGVRYlNTZC04a0k3OWJDNENKZHJ4Z3lpR0c1Tzd4cXhZXzhMWF9FdkNBZ1VrdVotT29jS0R3VnJISDZXRUNUalBfUGFEY2ZmRER3MWNtUTFEd3h1S3B1VFhfMjl1Y2RyUUpxS2VERERIYjRZRENTejB3NlM0RXdldXZraHhzb2JobzBodWdlSFZrRzhORkhMbHczc1lXcjFBNg?oc=5"
+   },
+   {
+    "date": "2026-11-19",
+    "published": "2026-11-19T01:13:44+00:00",
     "source": "The National",
     "title": "Middle East latest: Gulf nations condemn 'hostile' Iranian attacks on Bahrain and Kuwait",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdScFFjTlhtU25LQmJvdEp1Vk5qZ3FtTFE3RkdXUzVDZFgtSnY3MkhTeW82UW9QTWVibnVQb2Nyb1RVYWlFTlpyd3JCdjIzVnV1QmVxUEUyTDhzWXdrZUhPN0N6aUxrYWN3NXdWcVNQeUtFVnFPMHRvSURyTFpMY0tvWmxoZ014aS1iWjVsMnRCVHFDeVhjcllvYw?oc=5"
@@ -2045,25 +2052,18 @@
     "source": "Reuters",
     "title": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5"
-   },
-   {
-    "date": "2026-11-18",
-    "published": "2026-11-18T14:37:55+00:00",
-    "source": "Arab News",
-    "title": "PIF’s EV maker CEER signs $692m financing agreement with ANB, Riyadh Bank",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVGtkeXJUUjRKc1BlVEc1MU9WT0FEdnZ1ejRickZKX0Q5UlBxeHFmYjQ2MWVTRnhidERoeVRPSlA3bVV3VkR4LXk3bFFiVExIb1Vhb3lrMHAyalhFVmZSMEpSbXc3cDZpdEdKVlM1cEZVNXY0T2hSTXpzay1Ra2hhcTlIajRUZzlpam5Rb1dCR1J3R3dqU1Z4SUFBRFVjLTVyeFZsV2ZkOEswaEdKREcyVEVR?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-18T21:50:19Z"
+  "last_ok_at": "2026-11-19T03:14:18Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-18T21:50:20Z",
+  "fetched_at": "2026-11-19T03:14:18Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 34,
-  "baseline": 26.0,
-  "baseline_n": 14,
+  "count": 20,
+  "baseline": 23,
+  "baseline_n": 3,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2353,14 +2353,15 @@
    "2026-11-17T22": 31,
    "2026-11-18T04": 28,
    "2026-11-18T13": 24,
-   "2026-11-18T21": 34
+   "2026-11-18T21": 34,
+   "2026-11-19T03": 20
   },
-  "last_ok_at": "2026-11-18T21:50:20Z"
+  "last_ok_at": "2026-11-19T03:14:18Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-18T21:50:20Z",
-  "last_ok_at": "2026-11-18T21:50:20Z"
+  "fetched_at": "2026-11-19T03:14:19Z",
+  "last_ok_at": "2026-11-19T03:14:19Z"
  }
 }
