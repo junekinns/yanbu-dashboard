@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T03:13:57Z",
+ "generated_at": "2026-11-19T12:51:56Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-19T03:13:57Z",
+  "fetched_at": "2026-11-19T12:51:56Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,27 @@
   "last7d": 1,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-19T03:13:57Z"
+  "last_ok_at": "2026-11-19T12:51:56Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-19T03:14:14Z",
+  "fetched_at": "2026-11-19T12:52:11Z",
   "events": [
+   {
+    "date": "2026-11-19",
+    "time": "07:48",
+    "iso": "2026-11-19T07:48:32+03:00",
+    "city": "리야드",
+    "type": "피격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "사우디 연합군 \"후티, 리야드에 미사일 공격…물적 피해 발생\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nd3paU3hNQ0xYdDFRQXBRazZaQnFnWmVVMno2UllOZnloTVc4Q0Q2blY2Zk9UTFluN2xuRXR1cG1hUHJDbzJ3TGdaRk10cGN0aTNqeVpHckdIX25RSFBlUFB3?oc=5",
+    "source": "뉴스1",
+    "outlets": 2
+   },
    {
     "date": "2026-11-18",
     "time": "02:08",
@@ -1148,8 +1162,10 @@
     "prev_total": 0
    },
    "리야드": {
-    "7d": {},
-    "total7d": 0,
+    "7d": {
+     "피격": 1
+    },
+    "total7d": 1,
     "prev7d": {
      "피격": 5,
      "요격": 2,
@@ -1233,12 +1249,12 @@
   "history_days": 31,
   "history_since": "2026-10-20",
   "today": "2026-11-19",
-  "last_ok_at": "2026-11-19T03:14:14Z"
+  "last_ok_at": "2026-11-19T12:52:11Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-19T03:14:15Z",
+  "fetched_at": "2026-11-19T12:52:12Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1966,104 +1982,104 @@
    "메디나": 1,
    "얀부": 1
   },
-  "last_ok_at": "2026-11-19T03:14:15Z"
+  "last_ok_at": "2026-11-19T12:52:12Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-19T03:14:15Z",
+  "fetched_at": "2026-11-19T12:52:13Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-19T03:14:15Z"
+  "last_ok_at": "2026-11-19T12:52:13Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-19T03:14:18Z",
+  "fetched_at": "2026-11-19T12:52:13Z",
   "kr": [
    {
     "date": "2026-11-19",
-    "published": "2026-11-19T02:29:59+00:00",
+    "published": "2026-11-19T10:15:00+00:00",
+    "source": "한국일보",
+    "title": "사우디 리야드 80층 빌딩 피격…빈 살만 왕세자 개혁의 상징이 파손",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01a2FRZjZQOUxBaTREcElETlduT1piOVZ1enhOOTVzOERvbE9LWGsyTkZJdnhuN09mSXhBV0M5WTg4bEpnYks0dnhWTjZ4cUdfY1pEZ3JONmFRMXN1c1dmdHg3WHVtdUM2Y1JaaWU0SDNWTjTSAXNBVV95cUxNNWthUWY2UDlMQWk0RHBJRE5Xbk9aYjlWdXp4Tjk1czhEb2xPS1hrMk5GSXZ4bjdPZkl4QVdDOVk4OGxKZ2JLNHZ4Vk42eHFHX2NaRGdyTjZhUTFzdXNXZnR4N1h1bXVDNmNSWmllNEgzVk40?oc=5"
+   },
+   {
+    "date": "2026-11-19",
+    "published": "2026-11-19T08:42:00+00:00",
+    "source": "연합뉴스",
+    "title": "\"사우디 리야드 80층 빌딩, 후티 미사일에 파손\"",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12aFFwMlBRaVJqa2phU3JIbHp6OHRfM3FYcUhsN2VXTmQ5RkNsM0xRMHl0QVFHV0NtQ0NsWkFkVmtuNmxxM3haVF8tTWdxMFk1Y000Y1pqN2t2RURXbXVXU0FGdThoSTQ?oc=5"
+   },
+   {
+    "date": "2026-11-19",
+    "published": "2026-11-19T08:35:53+00:00",
+    "source": "연합뉴스",
+    "title": "\"리야드 80층 빌딩 후티 미사일에 파손…빈살만 '비전2030' 상징\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aNl9KUVM5TEEyQm1DTzV5T3pKcWpJczRyZkpGSkJVeTBmUkk4UnRqZXRUQWFlV21nbGJtME9BM0dNVEFJTnl3TWpZV3VPUl9yUWcxei0wUE1DRExnQ2w3WNIBYEFVX3lxTE1aNl9KUVM5TEEyQm1DTzV5T3pKcWpJczRyZkpGSkJVeTBmUkk4UnRqZXRUQWFlV21nbGJtME9BM0dNVEFJTnl3TWpZV3VPUl9yUWcxei0wUE1DRExnQ2w3WA?oc=5"
+   },
+   {
+    "date": "2026-11-19",
+    "published": "2026-11-19T08:07:04+00:00",
     "source": "뉴스1",
-    "title": "사우디 왕세자, 美중부사령관 면담…후티 대응 군사협력 논의",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41UTNHWkZ6cnJPVVpha21COHZndURnY2R3ejJhdS14ZE5lc0ZpalRNbGFNZGNPeHotU1l4ejZxSXRvS0tLQnIzRThoTmFGY0xLNkg0TXpBZ0k?oc=5"
+    "title": "후티의 리야드 공격으로 80층짜리 사우디 국부펀드 건물 파손",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3YkdLZ0lnMDJBR2RZMWZJYlM2UzkyVkZxQ0VTa3FoM3FCQ3AtZlRvRWpTejdqS0FuVTNYUzV0eFpVMEZYMS1oRUpwZDVicUxHRTlYUG41ZVNjUUppclBPVFV3?oc=5"
    },
    {
-    "date": "2026-11-18",
-    "published": "2026-11-18T13:59:48+00:00",
-    "source": "연합뉴스",
-    "title": "\"사우디, 후티와 장기전 대비…최대 6개월 더 이어질 것\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OWXpsV2Q0V2V2TDlscm9fMWZFXzZHdU5aTVg1aWhQRDZDRk5IaUN3YUxaTklQaFBqb0JWVTdwSmx0RHhGLWpmTE1vbF9LT2tWb2RVNlo1R1IwU1nSAWBBVV95cUxPS3FfUGp5M0FGMThRTzhremVNcml4UVhBR181UnItNTFmaDN2RTNyd2N3aFNyRHNaR2tfeTlDVjl5NlMya1FuTWZId0RDbGhOdkd1amltZjlDZEYyVzhaN2c?oc=5"
-   },
-   {
-    "date": "2026-11-18",
-    "published": "2026-11-18T09:34:37+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 수도서 폭발음과 연기 목격…\"후티 순항미사일 요격\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EUmtYMkxzeWNYZExMVVgwNlFxcTRidV9iRzRBbmhacWxNdEdnZGdEZGtrS1k4Zjd3dWZNYmVaVTBCQTc2bzF3RVBaeXdjQUY3SDFrSjRucmRFbm_SAWBBVV95cUxQT1RqTDlvZTJ6aEJ0ajhGZlZvS3phak81NEhTNk56eUJ2SmpXTVQ3S2swRDB1RHNrVXpTRU5pZjVyQXJHZ2VLZGlLSHc2Nk1nWFYtQmpJSVJJWnE0dWZTOFQ?oc=5"
-   },
-   {
-    "date": "2026-11-18",
-    "published": "2026-11-18T00:26:00+00:00",
-    "source": "중앙일보",
-    "title": "후티 “사우디 최대 송유관에 공습”…사우디 폭격에 보복",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yOS1WaW5CVUFycmVfOFQtaFJWM1pGa01ZVnE2NExRWmh0SjhObmttcWxQU2VOVDEzZk92bUxzOUUzTWVES1ptZlJDUUJHUHpKUTd3eHVjNmJzalhHVzdEU29B?oc=5"
-   },
-   {
-    "date": "2026-11-18",
-    "published": "2026-11-18T00:08:56+00:00",
-    "source": "MBC",
-    "title": "후티 \"사우디 송유관 타격\"‥예멘 내전 격화 속 민간인 피해 속출",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GZUhQVG0xN0pUUjFxRnAycThaVlROZ2tybG1ZeVg3Q1NtMFpDMmtSSmh1eU5uUV93NDBIc2c2SFQ0bk5TTFhaTDMwa2RhaW9MOEtOTkJZMmlnci1XdFYtUHlreV9lc3VKU2xkR1VFOWl6dWJD0gF0QVVfeXFMT0ZlSFBUbTE3SlRSMXFGcDJxOFpWVE5na3JsbVl5WDdDU20wWkMya1JKaHV5Tm5RX3c0MEhzZzZIVDRuTlNMWFpMMzBrZGFpb0w4S05OQlkyaWdyLVd0Vi1QeWt5X2VzdUpTbGRHVUU5aXp1YkM?oc=5"
+    "date": "2026-11-19",
+    "published": "2026-11-19T04:48:32+00:00",
+    "source": "뉴스1",
+    "title": "사우디 연합군 \"후티, 리야드에 미사일 공격…물적 피해 발생\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nd3paU3hNQ0xYdDFRQXBRazZaQnFnWmVVMno2UllOZnloTVc4Q0Q2blY2Zk9UTFluN2xuRXR1cG1hUHJDbzJ3TGdaRk10cGN0aTNqeVpHckdIX25RSFBlUFB3?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-19",
-    "published": "2026-11-19T03:03:46+00:00",
-    "source": "Arab News",
-    "title": "Coalition forces deal with Houthi missile threat toward Riyadh, debris causes damage",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOFdNUGhSV3FfbEd3eENFaFN1TDd4MG1DanBEV3ktLWZFWGY2bFRyZGVRYlNTZC04a0k3OWJDNENKZHJ4Z3lpR0c1Tzd4cXhZXzhMWF9FdkNBZ1VrdVotT29jS0R3VnJISDZXRUNUalBfUGFEY2ZmRER3MWNtUTFEd3h1S3B1VFhfMjl1Y2RyUUpxS2VERERIYjRZRENTejB3NlM0RXdldXZraHhzb2JobzBodWdlSFZrRzhORkhMbHczc1lXcjFBNg?oc=5"
+    "published": "2026-11-19T12:14:16+00:00",
+    "source": "The New York Times",
+    "title": "Saudi Sovereign Wealth Fund Tower Damaged as Houthis Attack Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdUt2S1FLQ01XdnQwd3NpX3U1Skg0UFAyVWxkWDViVXNWS0V2YWt4LU00WWZmbDZEZk9hb2QzLWpXY3RqTEhHZ255bnNOTEdvWnloUlI1bmszYkNaZlFIZGJlckxjSVk0aHduY0R3OXA3MW14OWRFTFo3V2RlakRvQjFhZW9Oemo1SnJPTzd4RGN5M0xGRzk5SXV3?oc=5"
    },
    {
     "date": "2026-11-19",
-    "published": "2026-11-19T01:13:44+00:00",
+    "published": "2026-11-19T10:19:56+00:00",
     "source": "The National",
-    "title": "Middle East latest: Gulf nations condemn 'hostile' Iranian attacks on Bahrain and Kuwait",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdScFFjTlhtU25LQmJvdEp1Vk5qZ3FtTFE3RkdXUzVDZFgtSnY3MkhTeW82UW9QTWVibnVQb2Nyb1RVYWlFTlpyd3JCdjIzVnV1QmVxUEUyTDhzWXdrZUhPN0N6aUxrYWN3NXdWcVNQeUtFVnFPMHRvSURyTFpMY0tvWmxoZ014aS1iWjVsMnRCVHFDeVhjcllvYw?oc=5"
+    "title": "Saudi Arabia flight cancellations: Which airlines have resumed services?",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU1NibkJYNTVtZktGN1pJU2JyRkV1OGlpLXR0SWJ5WHhGRnZWMTB0TXppc21MazM5X28waGNjWGctc3V1Zi1pTUstNURuTTB6dXpnVEpITlVoS2o3SnB0QWMzcFp1UzdZSmtEb3pTbGw1VFItdVFJVW5fUV9IczYtWUxjLUM2WlFIcktpS0ZiSUxYSzl4ZThzYktCZkZUMHFnMmxsTUc0MEJxSGpCdXkzaVQyeWhaNlNRMVhhVDJ3?oc=5"
    },
    {
-    "date": "2026-11-18",
-    "published": "2026-11-18T18:11:35+00:00",
-    "source": "Arab News",
-    "title": "Saudi air defenses destroy Houthi missiles launched toward Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSGJKcjFIRTlZX2ItdVR4V1VuREtGeV9TY3g3c3lRWlJta3dFMlNsNEd0Qi0zbzNub1lPQzJTdEVILWpvajlVb0lIN0xlWlF5WTluTVZwQ2JkUlpJMzlibnVETW1lcjkyMzhqNjdIdDd6UDZLNnFBcndVRnhfLUI2MUd2cE52bTVOT0YzY0RFei1BSmJXM3l6WW1rU0swNHdaZkpvbnpuR0l6c3NwYUZWYQ?oc=5"
+    "date": "2026-11-19",
+    "published": "2026-11-19T09:59:45+00:00",
+    "source": "The National",
+    "title": "Saudi wealth fund PIF's tower in Riyadh damaged by Houthi strike",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnJpVEVtcm54VjNDYUMwVllhUVJnRElXT1pPLXZ3UllTVzlYV0dPWkJjLWx3X055c0Z6MXNNc0h2OXdkdFh0RVE3Yk96NkZHWHloY0xzS1VzVkJLbkdsamtUWEpOQ1EwWTRjQ3VENXlFVG5DVGVnVTZ0cUpWUEhhR2FlU1Y4cTE0Q0hINzc4WllJVWQ4ZElXSjM1VjlvTGdqTnYtYzlCYlM4emozU2JvaTl4M0pGZDlkQXRiYVA0NA?oc=5"
    },
    {
-    "date": "2026-11-18",
-    "published": "2026-11-18T15:55:41+00:00",
-    "source": "France 24",
-    "title": "Yemen: Why the Houthis may besiege Aden rather than storm it",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQzNxM2VmcTZFMzVBdFJBOWs2bGVWa3dfNEZUVnFzUm5RTDVmMG1JRk5SbU1YWTRTUFAxdGpJOEw5Ti1DWnFFYzViNnVoS1V6RXJhbmh3a3hqZURsM3NKN0ZIdHZzekVzSHJ5dmhqOUpLeTIyTjA4ZGRRR2MzQmd3dkdvcDJoV0Rja2M3UnVYZmdkLUZ3S2s4eTRvMzlPeVJ4ZU5kaUdPTnJLcDhT?oc=5"
+    "date": "2026-11-19",
+    "published": "2026-11-19T09:41:38+00:00",
+    "source": "Financial Times",
+    "title": "Air strike hits Saudi sovereign wealth fund headquarters",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUEotM3kxNzZmYWdFUlVGdm5KVV9GSzBxWTd4NnJtM3dMMGR1U3F6OTJBWFZiZmV2cFFBQm5ybVFxZmNrM3p6cTdmejJSSVNORGJGWW9CaW5HbGdmczVoTVVXdGFybTQ3V0hlb2NsZVNmVFpidHh1MU9GUEpGb2kwOU4zR00?oc=5"
    },
    {
-    "date": "2026-11-18",
-    "published": "2026-11-18T14:43:54+00:00",
-    "source": "Reuters",
-    "title": "EXCLUSIVE: Saudis preparing for Yemen campaign to last well into 2027",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0txUndxQmRJNU1nMUZSVFc5d29OSDkwSWMyOHB5VC1iVVZwY3IwaEs3VlRkbEtHVGRmazVueE1YSjA4N0N4OElZRVdfM0trQ0dnaVptanRtRWVoWERLMWlUUjlac2ozVlRjMWdqMDQ1ODBOZEtPb2FKVFA0UXJpeGdjck1OMDMzdEhhQ2piTDd4QnFXcm12Vlh2MHVKcXNQUTdJWVZlV1E?oc=5"
+    "date": "2026-11-19",
+    "published": "2026-11-19T09:00:42+00:00",
+    "source": "Bloomberg",
+    "title": "Saudi Public Investment Fund’s Riyadh Headquarters Damaged",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbEw3N05iRHRYajhscWVvNGpPMVBKWnVwMXNmVV96X25VeWd4dnI2eW9UdWxIS3F1ZkcyU202Y2J0cm1oX01mQ0VkUXg0Vk9Yb2Frb2otY0oyNWdBNkdLSTItci13R1lFcUh2aUc5Q2NzcXRCTnRQWFpRck9qcFd0MnpQVU1MVlhEeHZ6akl3MndVUC1Lbjh5QXV0QktmcXlGQzE5MUFpck5XODUtREE?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-19T03:14:18Z"
+  "last_ok_at": "2026-11-19T12:52:13Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-19T03:14:18Z",
+  "fetched_at": "2026-11-19T12:52:14Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 20,
-  "baseline": 23,
-  "baseline_n": 3,
+  "count": 31,
+  "baseline": 30,
+  "baseline_n": 5,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2354,14 +2370,15 @@
    "2026-11-18T04": 28,
    "2026-11-18T13": 24,
    "2026-11-18T21": 34,
-   "2026-11-19T03": 20
+   "2026-11-19T03": 20,
+   "2026-11-19T12": 31
   },
-  "last_ok_at": "2026-11-19T03:14:18Z"
+  "last_ok_at": "2026-11-19T12:52:14Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-19T03:14:19Z",
-  "last_ok_at": "2026-11-19T03:14:19Z"
+  "fetched_at": "2026-11-19T12:52:14Z",
+  "last_ok_at": "2026-11-19T12:52:14Z"
  }
 }
