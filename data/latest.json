@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T01:24:01Z",
+ "generated_at": "2026-11-21T09:38:04Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T01:24:01Z",
+  "fetched_at": "2026-11-21T09:38:04Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,13 +186,41 @@
   "last7d": 1,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-21T01:24:01Z"
+  "last_ok_at": "2026-11-21T09:38:04Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T01:24:22Z",
+  "fetched_at": "2026-11-21T09:38:25Z",
   "events": [
+   {
+    "date": "2026-11-21",
+    "time": "04:35",
+    "iso": "2026-11-21T04:35:00+03:00",
+    "city": "리야드",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "리야드 상공서 ‘쾅’ 폭발음…사우디 “후티 탄도미사일 3발 요격”",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95a1JsZVZ0T0JrcmxERzVGNXdDLXcyOGlRQXhNN3hnRlZTd21ZVE9uWklBeE9jbGV3UHZlODNLYURDVVg0bjdYZGhSdGxhc29NaHVPaFhMUTM2cFVRM1BiNEdYR0JRLUpoWTFaWEYxNEN3QVXSAWZBVV95cUxPSDJmc2NnWmJOYUE3NjgwWEZ2Z1NOUHJDb1ZhcWItMnlKaW5ZUWZIR3dueGhfYjJfb0Z3WWo1cWpRcnZtQzZ4YVZZV3Q3NEZWODBfVHA5V0VlTll3cUI2NEZRYVlLRkE?oc=5",
+    "source": "동아일보",
+    "outlets": 1
+   },
+   {
+    "date": "2026-11-21",
+    "time": "04:17",
+    "iso": "2026-11-21T04:17:30+03:00",
+    "city": "리야드",
+    "type": "공습",
+    "weapon": "미사일",
+    "lat": 24.71,
+    "lon": 46.68,
+    "title": "사우디, 예멘 호데이다항 공습…후티는 미사일로 리야드 공격",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42dXlKYWtLSk9mTE9UTTRqeklwUE1NMEd2V1g1akUzWDdJZVU3bURJeE5TREl0TVYzUllMQlRJbzhoYzZCTkViSC1KcjZSQ2Ywem4yNjlacDJhRG5ILXlyd3hR?oc=5",
+    "source": "뉴스1",
+    "outlets": 1
+   },
    {
     "date": "2026-11-19",
     "time": "07:48",
@@ -1119,9 +1147,11 @@
    },
    "리야드": {
     "7d": {
+     "요격": 1,
+     "공습": 1,
      "피격": 1
     },
-    "total7d": 1,
+    "total7d": 3,
     "prev7d": {
      "피격": 5,
      "요격": 2,
@@ -1205,12 +1235,12 @@
   "history_days": 31,
   "history_since": "2026-10-22",
   "today": "2026-11-21",
-  "last_ok_at": "2026-11-21T01:24:22Z"
+  "last_ok_at": "2026-11-21T09:38:25Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T01:24:23Z",
+  "fetched_at": "2026-11-21T09:38:26Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1960,21 +1990,35 @@
    "주베일": 2,
    "제다": 1
   },
-  "last_ok_at": "2026-11-21T01:24:23Z"
+  "last_ok_at": "2026-11-21T09:38:26Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T01:24:24Z",
+  "fetched_at": "2026-11-21T09:38:26Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-21T01:24:24Z"
+  "last_ok_at": "2026-11-21T09:38:26Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T01:24:24Z",
+  "fetched_at": "2026-11-21T09:38:26Z",
   "kr": [
+   {
+    "date": "2026-11-21",
+    "published": "2026-11-21T01:35:00+00:00",
+    "source": "동아일보",
+    "title": "리야드 상공서 ‘쾅’ 폭발음…사우디 “후티 탄도미사일 3발 요격”",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95a1JsZVZ0T0JrcmxERzVGNXdDLXcyOGlRQXhNN3hnRlZTd21ZVE9uWklBeE9jbGV3UHZlODNLYURDVVg0bjdYZGhSdGxhc29NaHVPaFhMUTM2cFVRM1BiNEdYR0JRLUpoWTFaWEYxNEN3QVXSAWZBVV95cUxPSDJmc2NnWmJOYUE3NjgwWEZ2Z1NOUHJDb1ZhcWItMnlKaW5ZUWZIR3dueGhfYjJfb0Z3WWo1cWpRcnZtQzZ4YVZZV3Q3NEZWODBfVHA5V0VlTll3cUI2NEZRYVlLRkE?oc=5"
+   },
+   {
+    "date": "2026-11-21",
+    "published": "2026-11-21T01:17:30+00:00",
+    "source": "뉴스1",
+    "title": "사우디, 예멘 호데이다항 공습…후티는 미사일로 리야드 공격",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42dXlKYWtLSk9mTE9UTTRqeklwUE1NMEd2V1g1akUzWDdJZVU3bURJeE5TREl0TVYzUllMQlRJbzhoYzZCTkViSC1KcjZSQ2Ywem4yNjlacDJhRG5ILXlyd3hR?oc=5"
+   },
    {
     "date": "2026-11-21",
     "published": "2026-11-21T01:06:51+00:00",
@@ -1995,23 +2039,23 @@
     "source": "MBC",
     "title": "사우디 연합군 \"홍해 후티 반군 '무기 밀수 근거지' 타격\"",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JOGVWOWRoRUVxUHlXQVhMTHBnSzFpVDY3YUY0R0MyczZvb21LVkdua2l6NmhYZVhzZDdSWU14NURwOTNSSkF5ajNpSjZsc3RZcDVSNlY3cGd0Nl90b25NNFRzSXpBbEtNa081ZEp0Ty1GTnlv0gF0QVVfeXFMT25mRjc1aE9zUDBXZm1DZTB2djl4V2RIR3ZoWUs0Y1hHZkFZdEtlVnZzNHBfY3pLcWtGRVdVa0gwUGFsMkNWRC1aTy1pV1I0MEZTLVRXajB0TVl5ZkU3dGNXOVNVenVTcGdUOHpYUGdrVjd3bHc?oc=5"
-   },
-   {
-    "date": "2026-11-20",
-    "published": "2026-11-20T14:59:00+00:00",
-    "source": "JTBC",
-    "title": "사우디 80층 타워 공격한 후티, 금융지구·발전소 추가 공격 예고",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ERmJZN01pRll5dE9zQ1N4MFFId0RBNjVPdlJXMkF6T0w4VHRzemVTV200eE5EaXc1YWVOYlFwdlAwYzdfcUdmSlJxallVdEVXM1VVQg?oc=5"
-   },
-   {
-    "date": "2026-11-20",
-    "published": "2026-11-20T14:58:20+00:00",
-    "source": "SBS",
-    "title": "후티 반군, 사우디 금융센터 등 '민간 시설'에 보복 예고",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeWplOGstdVJIeWllV3o1Y1RobDJqMGZsRFlVSkZJNmRZNHdjNWRFN3RlbmZXVTNhcWowRnpsaFk4ZlQ2UWgyaFdpcFAtSXNTTHZRZ1ZJSTczQWwxalVzM3BFckxESWtUVEVhVUtXUS1qZWNQNWpQbjFUWndtbnRucnZ3NUxiOE9xdTlIWU5uUQ?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-11-21",
+    "published": "2026-11-21T04:40:12+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3ZhbEhHbVN4RWdTZWVLWGlFQnl1UlkySGFjTEd3NEJHaHBDeXZuclpCc1ZLNy1Fa0oxSlVJQlRLVmhCV1hkdFpPUVZ6Y2JXcDlhMDExaGpIOHM1RUhHVmlOMmV2SXVydFU3UWtvdVUxalkxUHRNdXg2Q2JZVG1WN3otT1lKaU4yVGwyUUJVVnJ4QkREb0tnVGZCdG5TQTFyUk1SSWZHMEhrclVTeVlUenVR0gG3AUFVX3lxTFBVWGExdVo0WFJQdkYxTTRNRVpBaFdBSzdObGNjOWZQVDJtTVZyNW9yQUEwbGtHU092TW1BY0FSY3dBc25wZVp2QjFIZnRLOE9RMFhLMWpjY0R1TVhUUWhubENJaE44Z1JMdDBXQWJqMDlGNVhzT2pHWEpONXhZUFcwWWE0bUtRb2xZV1VkUXZVS00xVmcwa0x1eWx5dHpES2FwcUQwV043NExycnNQb0ltbWw2QlF6OA?oc=5"
+   },
+   {
+    "date": "2026-11-21",
+    "published": "2026-11-21T00:37:42+00:00",
+    "source": "Arab News",
+    "title": "Coalition air defenses intercept 3 Houthi ballistic missiles targeting Riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaVZWNWUwMnJZemhuNzF4Y0xlWEtKUVRFVzdVbVJzWGt3NERMNnRqX1RaMm1FUGJKaXRWSXVuUnNFY1Vsc0dHUkR1MlNaRlUzNlJQM1liSVlHV2ZoRGV2cktvZlNCdHNXWUt2a0ZqckpaWmtZajRJT0JhN1gyOWlld3czZmdUTEFaQ2dwN01NN1dUTG1BclFKMlY3aXZxVUxlR3pUcHZFaUtfOFlBbHUyZUtpMFp5aG5oVnJPQW1PSzA?oc=5"
+   },
    {
     "date": "2026-11-20",
     "published": "2026-11-20T20:46:00+00:00",
@@ -2032,32 +2076,18 @@
     "source": "Al Jazeera",
     "title": "Saudi coalition and Houthis exchange threats to bomb key ports",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0lyUzFUbGtKdUpJRmQ5eE1DT3c1QmE1RFdHOTdDNjRHNkVQSEIwSTN6eXVtUllIMFJWM3pWd0g0RTRRRUhhazlIVlY1Y29nelc5Sk93X3hyVng0b1BmV3ZOMWN3bnhNU0NNaGJoaV8wWnNRc01lakY2Zy1ZSWRILXdid2U1cW1Kby05ZkxDTW9XWWNJTG0zMVFEdjk1ZGdURktjODJkWdIBrAFBVV95cUxQUzJzcWRXOGZtQU81NmZYaFNzaklQYzhtdHNUZWVWMUFjVHlPa1dmb0RCN1AxSVZEV0plazBYS09oYmhGNXY4WFZvcVZKU05JT1JMekpfR2pFNWpnUVJ5bHpsbl8xZFRreGdtUkhkWkE2cWZnVEYtbmc0X2VpeldEc21LaXdwU0cteVYtaUlSeFk4bmNYekpXYVc5UUdxd01SMVhGXy1BMXhJcXNx?oc=5"
-   },
-   {
-    "date": "2026-11-20",
-    "published": "2026-11-20T14:16:25+00:00",
-    "source": "Arab News",
-    "title": "Saudi Arabia shoots down Houthi drones and missiles",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaXg1WTR6OGo1SmMtNXRGU3RERmNHV1JqQVlkMGtuRDlBWEJXSXJzMGx6MDdRM3JTeVV3STRfYmJhX0gyMXRKd044Z21FSmMwR2VCdUxlb0VFYnlON3V3MVpXdWVFTWxvZjRvbEMzMXN0MVNmazdVSkNJV3lCTHZOVElVT0t3VHpoT3pmdGhtSFViM0NtLXRyYmNwQV9VQQ?oc=5"
-   },
-   {
-    "date": "2026-11-20",
-    "published": "2026-11-20T08:27:07+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Saudi-led coalition targets Houthi weapons smuggling at Hodeidah port",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2s2d2xVNlpZamM1RXpfRURTUFM4eFhHeFBkQVp6TTlLTXZWMjB5WFEwcF8wQ2dqR3U5SDd2VUNKdm1uV2RfV256RHUzUS1ZQWZJdnNlRmJtemxFeUZLR2tLWXhza2EwOVBWUEVPeUJ2VG9aV0R0RjVSWU1wVG8zU3p4RWJQMmhDcjdKOF9XZXBMQQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-21T01:24:24Z"
+  "last_ok_at": "2026-11-21T09:38:26Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T01:24:24Z",
+  "fetched_at": "2026-11-21T09:38:27Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 28,
-  "baseline": 29,
-  "baseline_n": 21,
+  "count": 40,
+  "baseline": 30.0,
+  "baseline_n": 12,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2354,14 +2384,15 @@
    "2026-11-20T03": 24,
    "2026-11-20T11": 25,
    "2026-11-20T20": 29,
-   "2026-11-21T01": 28
+   "2026-11-21T01": 28,
+   "2026-11-21T09": 40
   },
-  "last_ok_at": "2026-11-21T01:24:24Z"
+  "last_ok_at": "2026-11-21T09:38:27Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-21T01:24:25Z",
-  "last_ok_at": "2026-11-21T01:24:25Z"
+  "fetched_at": "2026-11-21T09:38:27Z",
+  "last_ok_at": "2026-11-21T09:38:27Z"
  }
 }
