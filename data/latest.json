@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:38:04Z",
+ "generated_at": "2026-11-21T17:22:57Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T09:38:04Z",
+  "fetched_at": "2026-11-21T17:22:57Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 1,
   "baseline": 3.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-21T09:38:04Z"
+  "last_ok_at": "2026-11-21T17:22:57Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T09:38:25Z",
+  "fetched_at": "2026-11-21T17:23:16Z",
   "events": [
    {
     "date": "2026-11-21",
@@ -293,8 +293,8 @@
    },
    {
     "date": "2026-11-15",
-    "time": "19:21",
-    "iso": "2026-11-15T19:21:36+03:00",
+    "time": "17:31",
+    "iso": "2026-11-15T17:31:55+03:00",
     "city": "메디나",
     "type": "요격",
     "weapon": "드론",
@@ -517,8 +517,8 @@
    },
    {
     "date": "2026-11-09",
-    "time": "19:51",
-    "iso": "2026-11-09T19:51:35+03:00",
+    "time": "11:00",
+    "iso": "2026-11-09T11:00:00+03:00",
     "city": "메디나",
     "type": "피격",
     "weapon": "미사일",
@@ -528,6 +528,20 @@
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xcFZmSGN5WnNBTXozRVBrYkZTWEhLRDFUcUpEZzYyYnl3WEpiUWdhWWNVZDZCN2szQnAyQTZ1cmZJcThNamZPcS1aY2dVWDYwdnB6MHB6bTQxdFHSAWBBVV95cUxNN3JEeHJFekRlbU9ubF83d3dmRWZFeEZrZ1FVY3NHeXU4d3BkX0Q3UzZ3OEpXNTJyTG0tVmpud2hRLTZVRE5UV2dFa01VSkpUXzJXWlpjVndPdmJub1lLLUk?oc=5",
     "source": "연합뉴스",
     "outlets": 6
+   },
+   {
+    "date": "2026-11-09",
+    "time": "11:00",
+    "iso": "2026-11-09T11:00:00+03:00",
+    "city": "송유관",
+    "type": "피격",
+    "weapon": null,
+    "lat": null,
+    "lon": null,
+    "title": "Saudi Arabia reports new attack on key East-West pipeline",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUtUMTUxcHlqWWZsSmNOdkxic1NGY0VKejdJOHVMZWhRZzVWODZDOE1lcC1MQXFlYmZzQnZIQlUwWF9OdDg3UFZFQnBjYnhfZTQ1bVFiVWFGSkFGU3lNYmZQeEJhbGhwRDRHdGVXY3M5V1EtdVFCcUV2dlFiRDRLWG5SYmc2aHhVcGRsQnNYR2dFOVVvNUd0Zm9CY3JzemvSAaQBQVVfeXFMUFdBQWFtVTZqWlVBTXNERjlNVDBZZjI5bldxYU1sanBhNkluVk4tdHYza181cWNnODNhZnREWmpXS2RsdmROdi1UWmgxbk5FNWt0RFZTaXp6Ry0xdXVJZ2tYLUZVNkFCU1dhWmtXQ1AtUHk3X1F2Q1JMNjk4aEM2YmdWVEFUVy1ZTDkzd0FDYjVUWXpzV3A5RGstLUVIUUVfaktTMk8?oc=5",
+    "source": "Al Jazeera",
+    "outlets": 1
    },
    {
     "date": "2026-11-09",
@@ -587,8 +601,8 @@
    },
    {
     "date": "2026-11-05",
-    "time": "13:08",
-    "iso": "2026-11-05T13:08:53+03:00",
+    "time": "11:00",
+    "iso": "2026-11-05T11:00:00+03:00",
     "city": "메디나",
     "type": "요격",
     "weapon": "미사일",
@@ -615,8 +629,8 @@
    },
    {
     "date": "2026-11-03",
-    "time": "12:47",
-    "iso": "2026-11-03T12:47:47+03:00",
+    "time": "11:00",
+    "iso": "2026-11-03T11:00:00+03:00",
     "city": "메카",
     "type": "요격",
     "weapon": "드론",
@@ -1007,20 +1021,6 @@
    },
    {
     "date": "2026-10-24",
-    "time": "12:14",
-    "iso": "2026-10-24T12:14:00+03:00",
-    "city": "얀부",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 24.09,
-    "lon": 38.06,
-    "title": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNURFRks1UnpnOFRlWFRQM1hLbENHTS1NZmg3ajBEc04wMTByampsNnpyTW1HcFJKZktzZzVZTHV3WUdHTndFSjNBYW1GZTg1NUpUYllxMWNMV2lIR0NZUE85YVRCRUZOUGsxcW1kTWdycDZJM3owaE1IUWVJb01veDRGQnh5eUpxallKSEV2dzVTNUE0SkFnN2NlbHhsclBRaDhEUVhWbWlXa0hLR3VmUGRQRzk0NDlkaUhESVhiSVhINXdL?oc=5",
-    "source": "Middle East Eye",
-    "outlets": 2
-   },
-   {
-    "date": "2026-10-24",
     "time": "10:44",
     "iso": "2026-10-24T10:44:00+03:00",
     "city": "얀부",
@@ -1032,6 +1032,20 @@
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTHlwU3hpenhQQWUxbDFkN25VOWNzb2V0bXpETjEzS0liM1JueWtUWVRkdlhLT015dGVmMkNUVWt3azkwVlhGaF9lbkRkRTR6STBTQWxRS012Z0M4R3pTei1BSDBXclA1VEY0NnhSTWZfNjlGMThBb2pVUldYcXdvYUhyYktSdG1rTWVDUkdHLUpidW1pU1hDRTEtaVYzM3BDcU5KMExrZzNONWctVWQyZkpOMlplN213X1dkY0ZzemZyMnBfcE1MekVDQdIB0AFBVV95cUxNeU13N1BzRTQ0X3lTdGl4cG9xeXZIa042dE0tZUlzUUVWbmotM3o3Ui1CUXBXYjFPOFJ6bk9kaGdiWGYzcmJHOW9FdmNoS3M3X0I4YXZPWjZKY2tiVElNa19ZMVRHNXJ4dlBubndoX2loLWx1ZWFVWlhRb3REV1l0cnlUR2dxLXN3Ylg3ZVdXdU9zejVPb0psUGVKbVJzeW42MnJMTEpXV0RMQlUxQWl6RzFmSTBoWHRqRC1XaUh4NlBTamJfNzZ0YUNsZWhPMWhD?oc=5",
     "source": "Al Arabiya",
     "outlets": 1
+   },
+   {
+    "date": "2026-10-24",
+    "time": "10:00",
+    "iso": "2026-10-24T10:00:00+03:00",
+    "city": "얀부",
+    "type": "요격",
+    "weapon": "미사일",
+    "lat": 24.09,
+    "lon": 38.06,
+    "title": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNURFRks1UnpnOFRlWFRQM1hLbENHTS1NZmg3ajBEc04wMTByampsNnpyTW1HcFJKZktzZzVZTHV3WUdHTndFSjNBYW1GZTg1NUpUYllxMWNMV2lIR0NZUE85YVRCRUZOUGsxcW1kTWdycDZJM3owaE1IUWVJb01veDRGQnh5eUpxallKSEV2dzVTNUE0SkFnN2NlbHhsclBRaDhEUVhWbWlXa0hLR3VmUGRQRzk0NDlkaUhESVhiSVhINXdL?oc=5",
+    "source": "Middle East Eye",
+    "outlets": 2
    },
    {
     "date": "2026-10-24",
@@ -1235,14 +1249,34 @@
   "history_days": 31,
   "history_since": "2026-10-22",
   "today": "2026-11-21",
-  "last_ok_at": "2026-11-21T09:38:25Z"
+  "last_ok_at": "2026-11-21T17:23:16Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T09:38:26Z",
+  "fetched_at": "2026-11-21T17:23:17Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-21 19:20",
+    "iso": "2026-11-21T19:20:43+03:00",
+    "places": [
+     "타이프",
+     "지잔",
+     "카미스무샤이트"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 71 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في محافظات البيضاء وعمران وحجة وصعدة ولحج وتعز والجوف ومأرب وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من جيزان، وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 5500 غارة جوية وصاروخا. http://t.me/army21ye",
+    "text_ko": "지난 24시간 동안 사우디아라비아 공군은 카미스 무샤이트 및 타이프 기지에서 이륙한 F-15 및 타이푼 전투기를 통해 바이다, 아마란, 하자, 사아다, 라흐즈, 타이즈, 자우프, 마리브 주에 있는 민간 시설을 대상으로 71회의 공습과 미사일 공격을 가했으며, 지잔에서는 미사일 공격을 가했습니다. 이로 인해 민간인 사상자가 발생했습니다. 우리나라에 대한 공격이 격화되기 시작한 이래 사우디아라비아의 침략 공습 총계는 5,500회의 공습과 미사일 공격에 달한다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4135"
+   },
+   {
+    "time": "2026-11-21 16:29",
+    "iso": "2026-11-21T16:29:32+03:00",
+    "places": [],
+    "text_ar": "مشاهد استهداف تحشيدات وآليات تابعة للعدو السعودي في عدة جبهات بطائرات رجوم المسيرة - 21 نوفمبر 2026م",
+    "text_ko": "11월 21일, 여러 전선에서 사우디 적군의 병력과 차량을 무인 드론으로 공격하는 장면",
+    "url": "https://t.me/army21ye/4134"
+   },
    {
     "time": "2026-11-20 20:56",
     "iso": "2026-11-20T20:56:38+03:00",
@@ -1982,28 +2016,28 @@
   "mentions7d": {
    "카미스무샤이트": 9,
    "리야드": 7,
-   "타이프": 5,
+   "타이프": 6,
+   "지잔": 4,
    "나즈란": 4,
-   "지잔": 3,
-   "메카": 3,
    "메디나": 3,
+   "메카": 3,
    "주베일": 2,
    "제다": 1
   },
-  "last_ok_at": "2026-11-21T09:38:26Z"
+  "last_ok_at": "2026-11-21T17:23:17Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T09:38:26Z",
+  "fetched_at": "2026-11-21T17:23:20Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-21T09:38:26Z"
+  "last_ok_at": "2026-11-21T17:23:20Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T09:38:26Z",
+  "fetched_at": "2026-11-21T17:23:21Z",
   "kr": [
    {
     "date": "2026-11-21",
@@ -2044,24 +2078,24 @@
   "en": [
    {
     "date": "2026-11-21",
-    "published": "2026-11-21T04:40:12+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ3ZhbEhHbVN4RWdTZWVLWGlFQnl1UlkySGFjTEd3NEJHaHBDeXZuclpCc1ZLNy1Fa0oxSlVJQlRLVmhCV1hkdFpPUVZ6Y2JXcDlhMDExaGpIOHM1RUhHVmlOMmV2SXVydFU3UWtvdVUxalkxUHRNdXg2Q2JZVG1WN3otT1lKaU4yVGwyUUJVVnJ4QkREb0tnVGZCdG5TQTFyUk1SSWZHMEhrclVTeVlUenVR0gG3AUFVX3lxTFBVWGExdVo0WFJQdkYxTTRNRVpBaFdBSzdObGNjOWZQVDJtTVZyNW9yQUEwbGtHU092TW1BY0FSY3dBc25wZVp2QjFIZnRLOE9RMFhLMWpjY0R1TVhUUWhubENJaE44Z1JMdDBXQWJqMDlGNVhzT2pHWEpONXhZUFcwWWE0bUtRb2xZV1VkUXZVS00xVmcwa0x1eWx5dHpES2FwcUQwV043NExycnNQb0ltbWw2QlF6OA?oc=5"
-   },
-   {
-    "date": "2026-11-21",
-    "published": "2026-11-21T00:37:42+00:00",
-    "source": "Arab News",
-    "title": "Coalition air defenses intercept 3 Houthi ballistic missiles targeting Riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaVZWNWUwMnJZemhuNzF4Y0xlWEtKUVRFVzdVbVJzWGt3NERMNnRqX1RaMm1FUGJKaXRWSXVuUnNFY1Vsc0dHUkR1MlNaRlUzNlJQM1liSVlHV2ZoRGV2cktvZlNCdHNXWUt2a0ZqckpaWmtZajRJT0JhN1gyOWlld3czZmdUTEFaQ2dwN01NN1dUTG1BclFKMlY3aXZxVUxlR3pUcHZFaUtfOFlBbHUyZUtpMFp5aG5oVnJPQW1PSzA?oc=5"
+    "published": "2026-11-21T09:32:36+00:00",
+    "source": "France 24",
+    "title": "Houthis launch strikes on Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mUmVmcDhLZFlILWJKS1dhWm9JM0ZtT0xselpHTUl6T1JIcFVwejczUDk5SHk3UUZ6Zk9FRm1tcXlNUnNRTWZnRHJ2LWcxcnJxQldGUm5lVWZNUkJ1aEIwZjFmbWtoWF9XbjE1c0tmUWpqdlFT?oc=5"
    },
    {
     "date": "2026-11-20",
-    "published": "2026-11-20T20:46:00+00:00",
-    "source": "AP News",
-    "title": "Trump says Iran wants a deal, Saudi Arabia and Yemen's Houthis exchange fire and other Mideast news",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG11c0t2cHNUVFlEZEwyWHVQRk40anlnM3ltcWtYOE1hV01IaEswQmpnRExZNEk1Z0xGRkZ0T083cWNGTUhvZUd6YUxwWjVwNjA1djJZZWZZQXh4SjI4SGRLVmtBMzN6Q0cxWVJjMFpJOW5DdUFWVlUtNEF5NW5IcU5sMHNwcmNVZTBfeXZVMWRKMk5HV1UwTGVycE1xd0c3TG9HYQ?oc=5"
+    "published": "2026-11-20T22:36:10+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Two tankers struck near Oman, says UKMTO",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2s2d2xVNlpZamM1RXpfRURTUFM4eFhHeFBkQVp6TTlLTXZWMjB5WFEwcF8wQ2dqR3U5SDd2VUNKdm1uV2RfV256RHUzUS1ZQWZJdnNlRmJtemxFeUZLR2tLWXhza2EwOVBWUEVPeUJ2VG9aV0R0RjVSWU1wVG8zU3p4RWJQMmhDcjdKOF9XZXBMQQ?oc=5"
+   },
+   {
+    "date": "2026-11-20",
+    "published": "2026-11-20T19:16:53+00:00",
+    "source": "Reuters",
+    "title": "Saudi-led forces strike Yemen port as Houthis warn airlines off the kingdom",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQUE1UEFGeklRZGtscWJhNkdxRWpyWHkwQ29IcVQ1Umc2VHlkWlJGZzZPTC00SFl2a3J0SXY3TGo0X0t2a3A5ckMzbmtZXy1mYzdoa0F5Vmo1TGFaU1RIbEZHak5iTi1oRXhWWF9CbWZ2QWFLRG1HSG5Rc1dSbHZlaGNNSDlvZ2RiekJzbnpqMC1aektLZU1MSHBWN25PYURzUGduTjhURQ?oc=5"
    },
    {
     "date": "2026-11-20",
@@ -2072,22 +2106,22 @@
    },
    {
     "date": "2026-11-20",
-    "published": "2026-11-20T14:59:12+00:00",
-    "source": "Al Jazeera",
-    "title": "Saudi coalition and Houthis exchange threats to bomb key ports",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0lyUzFUbGtKdUpJRmQ5eE1DT3c1QmE1RFdHOTdDNjRHNkVQSEIwSTN6eXVtUllIMFJWM3pWd0g0RTRRRUhhazlIVlY1Y29nelc5Sk93X3hyVng0b1BmV3ZOMWN3bnhNU0NNaGJoaV8wWnNRc01lakY2Zy1ZSWRILXdid2U1cW1Kby05ZkxDTW9XWWNJTG0zMVFEdjk1ZGdURktjODJkWdIBrAFBVV95cUxQUzJzcWRXOGZtQU81NmZYaFNzaklQYzhtdHNUZWVWMUFjVHlPa1dmb0RCN1AxSVZEV0plazBYS09oYmhGNXY4WFZvcVZKU05JT1JMekpfR2pFNWpnUVJ5bHpsbl8xZFRreGdtUkhkWkE2cWZnVEYtbmc0X2VpeldEc21LaXdwU0cteVYtaUlSeFk4bmNYekpXYVc5UUdxd01SMVhGXy1BMXhJcXNx?oc=5"
+    "published": "2026-11-20T14:16:25+00:00",
+    "source": "Arab News",
+    "title": "Saudi Arabia shoots down Houthi drones and missiles",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaXg1WTR6OGo1SmMtNXRGU3RERmNHV1JqQVlkMGtuRDlBWEJXSXJzMGx6MDdRM3JTeVV3STRfYmJhX0gyMXRKd044Z21FSmMwR2VCdUxlb0VFYnlON3V3MVpXdWVFTWxvZjRvbEMzMXN0MVNmazdVSkNJV3lCTHZOVElVT0t3VHpoT3pmdGhtSFViM0NtLXRyYmNwQV9VQQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-21T09:38:26Z"
+  "last_ok_at": "2026-11-21T17:23:21Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-21T09:38:27Z",
+  "fetched_at": "2026-11-21T17:23:22Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 40,
-  "baseline": 30.0,
-  "baseline_n": 12,
+  "count": 34,
+  "baseline": 28.0,
+  "baseline_n": 10,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2385,14 +2419,15 @@
    "2026-11-20T11": 25,
    "2026-11-20T20": 29,
    "2026-11-21T01": 28,
-   "2026-11-21T09": 40
+   "2026-11-21T09": 40,
+   "2026-11-21T17": 34
   },
-  "last_ok_at": "2026-11-21T09:38:27Z"
+  "last_ok_at": "2026-11-21T17:23:22Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-21T09:38:27Z",
-  "last_ok_at": "2026-11-21T09:38:27Z"
+  "fetched_at": "2026-11-21T17:23:22Z",
+  "last_ok_at": "2026-11-21T17:23:22Z"
  }
 }
