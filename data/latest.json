@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T11:08:46Z",
+ "generated_at": "2026-11-22T19:28:18Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-22T11:08:46Z",
+  "fetched_at": "2026-11-22T19:28:18Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 2,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-22T11:08:46Z"
+  "last_ok_at": "2026-11-22T19:28:18Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-22T11:09:06Z",
+  "fetched_at": "2026-11-22T19:28:33Z",
   "events": [
    {
     "date": "2026-11-21",
@@ -1247,14 +1247,52 @@
   "history_days": 31,
   "history_since": "2026-10-23",
   "today": "2026-11-22",
-  "last_ok_at": "2026-11-22T11:09:06Z"
+  "last_ok_at": "2026-11-22T19:28:33Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-22T11:09:07Z",
+  "fetched_at": "2026-11-22T19:28:34Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-22 20:56",
+    "iso": "2026-11-22T20:56:08+03:00",
+    "places": [
+     "타이프",
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 81 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وصعدة ومأرب ولحج والبيضاء والحديدة وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران، وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 5581 غارة جوية وصاروخا. http://t.m…",
+    "text_ko": "지난 24시간 동안 사우디아라비아 공군은 F-15와 타이푼 전투기를 통해 수도 사나, 조프, 타이즈, 사다, 마리브, 라흐즈, 바이다, 호데이다 주에 있는 민간 시설을 겨냥한 81회의 공습과 미사일 공격을 감행했습니다. 이 공격은 카미스 무샤이트와 타이프 기지에서 이륙한 전투기와 나즈란에서 발사된 미사일에 의한 것이었으며, 이로 인해 민간인 사상자가 발생했습니다. 우리나라에 대한 공격이 격화되기 시작한 이래 사우디아라비아의 침략 공습 총계는 5,581회의 공습과 미사일 공격에 이릅니다. http://t.m…",
+    "url": "https://t.me/army21ye/4140"
+   },
+   {
+    "time": "2026-11-22 19:32",
+    "iso": "2026-11-22T19:32:50+03:00",
+    "places": [
+     "라비그"
+    ],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من تنفيذ عمليتين عسكريتين نوعيتين الأولى استهدفت مصفاة رابغ النفطية وكانت الإصابة مباشرة بفضل الله. والعملية الأخرى استهدفت راداراً في منطقة الدواسر على مرحلتين وحققت العملية هدفها بنجاح بفضل الله. http://t.me/army21ye",
+    "text_ko": "하나님께서 허락하신 덕분에 우리 군대는 두 차례의 정밀 군사 작전을 수행할 수 있었습니다. 첫 번째 작전은 라비그 정유소를 목표로 하였으며, 하나님께서 허락하신 덕분에 직접 타격에 성공했습니다. 다른 작전은 다와시르 지역의 레이더를 2단계로 겨냥했으며, 하나님의 은혜로 작전 목표를 성공적으로 달성했다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4139"
+   },
+   {
+    "time": "2026-11-22 16:17",
+    "iso": "2026-11-22T16:17:04+03:00",
+    "places": [],
+    "text_ar": "مشاهد جانب من مخازن ومستودعات الذخيرة والأسلحة التي اغتنمتها القوات المسلحة في بعض معسكرات التحشيدات التابعة للعدو السعودي في المخا في عملية البأس والتنكيل في الساحل الغربي - 22 نوفمبر 2026م",
+    "text_ko": "2026년 11월 22일, 서부 해안에서 벌어진 '힘과 응징' 작전에서 사우디아라비아 적군의 일부 집결 캠프에서 국군이 노획한 탄약 및 무기 창고와 보관소의 일부 모습.",
+    "url": "https://t.me/army21ye/4138"
+   },
+   {
+    "time": "2026-11-22 14:49",
+    "iso": "2026-11-22T14:49:27+03:00",
+    "places": [],
+    "text_ar": "ترقبوا الساعة الرابعة عصرا مشاهد توثق جانبا من العتاد الحربي المغتنم من معسكرات التحشيدات التابعة للعدو السعودي في الساحل الغربي في معركة البأس والتنكيل",
+    "text_ko": "오후 4시에 강력한 전투와 처벌의 전투에서 서부 해안의 사우디아라비아 적군의 동원 캠프에서 노획한 군사 장비의 일부를 기록한 장면을 기대해 주십시오.",
+    "url": "https://t.me/army21ye/4137"
+   },
    {
     "time": "2026-11-22 00:39",
     "iso": "2026-11-22T00:39:56+03:00",
@@ -1969,30 +2007,45 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 9,
-   "리야드": 7,
    "타이프": 6,
-   "메카": 4,
-   "지잔": 4,
+   "리야드": 5,
    "나즈란": 4,
-   "메디나": 3,
+   "지잔": 4,
+   "메카": 3,
+   "메디나": 2,
    "주베일": 2,
+   "라비그": 1,
    "제다": 1
   },
-  "last_ok_at": "2026-11-22T11:09:07Z"
+  "last_ok_at": "2026-11-22T19:28:34Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-22T11:09:07Z",
+  "fetched_at": "2026-11-22T19:28:42Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-22T11:09:07Z"
+  "last_ok_at": "2026-11-22T19:28:42Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-22T11:09:08Z",
+  "fetched_at": "2026-11-22T19:28:42Z",
   "kr": [
+   {
+    "date": "2026-11-22",
+    "published": "2026-11-22T13:41:13+00:00",
+    "source": "뉴스1",
+    "title": "이란 공격에 바레인서 2명 부상…사우디 \"범죄적 공격\" 규탄",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDeFpkNHcySjdIaEhfVnU5LS1mVzdwc0lPOS1obTN0clpGdEhSN2QzZ3pudk1pRVRUWEJQWFBERW9uQ1MtRjJhUFVOOHN4Q1RDTjFmb2NhQ1dXUnVVR3dXTV9R?oc=5"
+   },
+   {
+    "date": "2026-11-22",
+    "published": "2026-11-22T10:26:05+00:00",
+    "source": "뉴스1",
+    "title": "사우디 동맹군 \"서부 홍해 연안 겨냥 후티 탄도미사일 요격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZN3pqNVlJbDRsVFlqS0ljUkRTMHhxV3pCcUo1UVpDSHpMeVBYZW12NTBkVEI0WHFaZDJ4eElaQ0VHRER1RTE3bU8xMjM0cE9ISE95RTZnbTZXV0xNZ0JCWFd3?oc=5"
+   },
    {
     "date": "2026-11-21",
     "published": "2026-11-21T21:57:46+00:00",
@@ -2013,69 +2066,55 @@
     "source": "동아일보",
     "title": "리야드 상공서 ‘쾅’ 폭발음…사우디 “후티 탄도미사일 3발 요격”",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95a1JsZVZ0T0JrcmxERzVGNXdDLXcyOGlRQXhNN3hnRlZTd21ZVE9uWklBeE9jbGV3UHZlODNLYURDVVg0bjdYZGhSdGxhc29NaHVPaFhMUTM2cFVRM1BiNEdYR0JRLUpoWTFaWEYxNEN3QVXSAWZBVV95cUxPSDJmc2NnWmJOYUE3NjgwWEZ2Z1NOUHJDb1ZhcWItMnlKaW5ZUWZIR3dueGhfYjJfb0Z3WWo1cWpRcnZtQzZ4YVZZV3Q3NEZWODBfVHA5V0VlTll3cUI2NEZRYVlLRkE?oc=5"
-   },
-   {
-    "date": "2026-11-21",
-    "published": "2026-11-21T01:17:30+00:00",
-    "source": "뉴스1",
-    "title": "사우디, 예멘 호데이다항 공습…후티는 미사일로 리야드 공격",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42dXlKYWtLSk9mTE9UTTRqeklwUE1NMEd2V1g1akUzWDdJZVU3bURJeE5TREl0TVYzUllMQlRJbzhoYzZCTkViSC1KcjZSQ2Ywem4yNjlacDJhRG5ILXlyd3hR?oc=5"
-   },
-   {
-    "date": "2026-11-20",
-    "published": "2026-11-20T19:44:58+00:00",
-    "source": "MBC",
-    "title": "사우디 연합군 \"홍해 후티 반군 '무기 밀수 근거지' 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1JOGVWOWRoRUVxUHlXQVhMTHBnSzFpVDY3YUY0R0MyczZvb21LVkdua2l6NmhYZVhzZDdSWU14NURwOTNSSkF5ajNpSjZsc3RZcDVSNlY3cGd0Nl90b25NNFRzSXpBbEtNa081ZEp0Ty1GTnlv0gF0QVVfeXFMT25mRjc1aE9zUDBXZm1DZTB2djl4V2RIR3ZoWUs0Y1hHZkFZdEtlVnZzNHBfY3pLcWtGRVdVa0gwUGFsMkNWRC1aTy1pV1I0MEZTLVRXajB0TVl5ZkU3dGNXOVNVenVTcGdUOHpYUGdrVjd3bHc?oc=5"
    }
   ],
   "en": [
    {
-    "date": "2026-11-20",
-    "published": "2026-11-20T16:24:24+00:00",
-    "source": "The National",
-    "title": "'One-a-night' Houthi missile tactic stretches Saudi defences",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWlBnbmNiV0JuRk93MEUyVEFBYmh2T0lpaUhmT3B1NnZhTTNjVVo4ZmowcjlpcXdNbGlhaGhnSjFxV3kwd1ZSUC10OEVnTlBHRXBSZkVtUVRqRHJudzR0Zi1rVDZERlpROTlicVRJbmE4NkJCQTcxRFBnVXcyTTFod2Q3RmYzaS1aQzVJSEF1RWVwWDdKRXRyOGV4ZHZYTklDSWxONktIdWxVbnZ0N1N5am13?oc=5"
-   },
-   {
-    "date": "2026-11-20",
-    "published": "2026-11-20T14:16:25+00:00",
+    "date": "2026-11-22",
+    "published": "2026-11-22T19:06:05+00:00",
     "source": "Arab News",
-    "title": "Saudi Arabia shoots down Houthi drones and missiles",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaXg1WTR6OGo1SmMtNXRGU3RERmNHV1JqQVlkMGtuRDlBWEJXSXJzMGx6MDdRM3JTeVV3STRfYmJhX0gyMXRKd044Z21FSmMwR2VCdUxlb0VFYnlON3V3MVpXdWVFTWxvZjRvbEMzMXN0MVNmazdVSkNJV3lCTHZOVElVT0t3VHpoT3pmdGhtSFViM0NtLXRyYmNwQV9VQQ?oc=5"
+    "title": "Houthi attacks on economic facilities and Saudi Arabia’s options",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQV9zd01LSVBGbG9vejF3Q2lhV1FueFMyNGttRk92X0M3YVZ5bDFyRGlhMXZRZWszUjlkUy05UFA5SDczeWVhczRlMU5yaVlxbW1KMW5wWnVrTGFFZUtTODMwV2NuZFpNaVlXVnRheDk0ODl2WVZtV192cmltY3hkUzVwYVloNWpncEY0enM2cWxOMFdmMV9WaVpTZzdJR3B1eElJb3J4MA?oc=5"
    },
    {
-    "date": "2026-11-20",
-    "published": "2026-11-20T08:00:00+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Two tankers struck near Oman, says UKMTO",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2s2d2xVNlpZamM1RXpfRURTUFM4eFhHeFBkQVp6TTlLTXZWMjB5WFEwcF8wQ2dqR3U5SDd2VUNKdm1uV2RfV256RHUzUS1ZQWZJdnNlRmJtemxFeUZLR2tLWXhza2EwOVBWUEVPeUJ2VG9aV0R0RjVSWU1wVG8zU3p4RWJQMmhDcjdKOF9XZXBMQQ?oc=5"
+    "date": "2026-11-22",
+    "published": "2026-11-22T13:25:47+00:00",
+    "source": "CNBC",
+    "title": "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWExRdGJVYklFVlRzdFJXOWVHb3NjWFQwYTJTeU1CN1h1YkJ1ckswc29IQ28ydHBtWkhFOV83WEJ6V09RZWk3TkRIbnNYdmVnR3l4OXA4WDFLQnI5bUVzNU5RYnlIZnNQNU4yOXNDT3BVSzgxNlplYWhBaGp2YWVLZ0x6MXJOWm1OZVdVTlN30gGTAUFVX3lxTE04Qy1NVGc0RndjU2tZbS1ubW5uWDBSSUZ5NTQzTFZ5MGtCSk52SFg4YWdVTjVOWmN4S1FzMXFQZFJNekptTi1PVmhVY1dHaDVwZHkzTUxvZnhyaHlQVXNzWno0aVFFdjJMcjdIcGV2dnlvMFlhcHp4WVVZYnJMcWFfdzhNVmdfbjY0SU1sS0MtdXUyTQ?oc=5"
    },
    {
-    "date": "2026-11-19",
-    "published": "2026-11-19T20:14:23+00:00",
+    "date": "2026-11-22",
+    "published": "2026-11-22T13:17:16+00:00",
     "source": "Al Jazeera",
-    "title": "Saudi Arabia says Houthi attack damaged Riyadh tower",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2dSRXcyNzdIa2VEZW4zd1NlS2pyb2gwaTkzVUw1aDQ5VDVsdjJDeFJfekYtekhlNFgzRHE0VnNxVXN6dC1ZNUoxaXA1SDZ5VW9QLUl2REU0d3VDdEpFSXNCWDJIaWZtMUJKanU4amNhWExFY29pZzE0RXpnQmVhbFQySl90STgxdkFzTzllTkNUYnBlWWhGSXdOaWRmS0hQUVFVZkw5S0dNbXpZSXpBd184Yll6QdIBuwFBVV95cUxQYmoxb3ZGV0R2YVcycm1LM3phc2FRaWJoTXhMc19TVjhISWJ1ZERTNE9Ra2Exbjg3QjNuZEJMcGltNWZ6Y2N2cHJ4bUcxcWw0aU04Y1RPV3l4dEh6cXVLRDlxSGJubGloeGVSbGZrUTRJcjk2YlRiWGVTT1Znb19xdmgyYlZHYVZua2NvcXlfNW1TdHJ3YmhEOHRzOVpKMkpObTh4Qkw3RUp5OHBlMDRIZ1ZYTVo0X1dxa2s0?oc=5"
+    "title": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcndOTTl3bzZwNVZ4ZWstZXBZdnVkbUhPanQ5VlhUVEJaSTRVdnc1YzVUdEhEd2M0QXdFVGxzRFVLeThYd0FfaGEzMnQzbWIzemFuZzRqSGJCQ2M5LVBzV0dadVlwUXpXR1hfMTllR2NsWmNuRnk4RmRSVVlraElfS3NjNFlJa0FWTGNRRS1XQTFxM3JoTVRYZEluNkVJUXZSdk1TSmFfWUfSAa4BQVVfeXFMTmplOTVHYzVsandyeWw3aS1QcWJiLWt5NXNnWHhYazFVV1pMZmdWdFdIdWxYSTRXNDJkWlYxdXJpOW1scUJTVUxJOWlqbDVST3VZcmR4U2RSdXVpc3NZczU2RVlZc0Jrd3BFcVQ3djE0TldnZk9KWi1ybXlwM0Ryb2NvWmJCRFZOX19xd0JDT2xPQy1VSDZBQ283ZUF1Z3JRaTRJd0VoYzF1SXVDdktn?oc=5"
    },
    {
-    "date": "2026-11-19",
-    "published": "2026-11-19T19:36:15+00:00",
-    "source": "Reuters",
-    "title": "Riyadh’s tallest skyscraper hit in Houthi strike on Saudi wealth fund HQ",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUUVVMURmUjNxMHVQNThNQkRiUElQbkhnNVJNdkdVejBqLVVIRU1hUl9DWDhpYlFVWUtFZlo5dGNOSnFqTFU5VE93bXdGY3NaOEVmSERoWlJNOWhQN25NN3E1bGF1MEprczBsWFlkOHBDTUVLM21CSFJydjFzUFFaM2ozQU8wSTdnSENadVQ2UTNmSWhOMFBHNE1ZaDB5MURkMFM0cHZuU1BySDl0ZlQ2aDBEUEdmNUE5MnNzTnl2T2VBaV9sWUQ2Zg?oc=5"
+    "date": "2026-11-22",
+    "published": "2026-11-22T11:30:26+00:00",
+    "source": "Bloomberg",
+    "title": "Private Credit’s $100 Billion Saudi Prize Is Proving Hard to Win",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdGJFbFo0ODNjMDNjQmxOTjFOc1VXTHVkVzM4SW4yeXpQcW9oeFU2NlJIcDhQZ2Y1MUFWVjRYWURyTk5BVVRWZEdES290TDlFZkcyMFVmNXlIUk5UOGUzSDBDVU43em01bFZUV1R3VWJ3NC1EU2RfcU9tcGlrSFppOHVEVnBLVTRWTzNkY3VzVUJKdlJ0OUJhZHhkaUl1LW1seC0wbmtZX016a0lWUXVDT0JKNko?oc=5"
+   },
+   {
+    "date": "2026-11-22",
+    "published": "2026-11-22T04:55:45+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Bahrain says two injured after Iranian attack on civilian industrial facility",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-22T11:09:08Z"
+  "last_ok_at": "2026-11-22T19:28:42Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-22T11:09:08Z",
+  "fetched_at": "2026-11-22T19:28:43Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 32,
-  "baseline": 28.5,
-  "baseline_n": 6,
+  "count": 26,
+  "baseline": 26.0,
+  "baseline_n": 12,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2377,14 +2416,15 @@
    "2026-11-21T17": 34,
    "2026-11-21T23": 24,
    "2026-11-22T03": 31,
-   "2026-11-22T11": 32
+   "2026-11-22T11": 32,
+   "2026-11-22T19": 26
   },
-  "last_ok_at": "2026-11-22T11:09:08Z"
+  "last_ok_at": "2026-11-22T19:28:43Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-22T11:09:08Z",
-  "last_ok_at": "2026-11-22T11:09:08Z"
+  "fetched_at": "2026-11-22T19:28:43Z",
+  "last_ok_at": "2026-11-22T19:28:43Z"
  }
 }
