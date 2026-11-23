@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T08:55:40Z",
+ "generated_at": "2026-11-23T21:14:02Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T08:55:40Z",
+  "fetched_at": "2026-11-23T21:14:02Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 2,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-23T08:55:40Z"
+  "last_ok_at": "2026-11-23T21:14:02Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T08:55:56Z",
+  "fetched_at": "2026-11-23T21:14:23Z",
   "events": [
    {
     "date": "2026-11-21",
@@ -976,104 +976,6 @@
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBySjNXbnMtU1B1bHBsei0xTjV4dzFRWG1LQ212QWt1NjRwdmN0SXU3U1NtOGd3NUY1cHBWUUF1bWFSNG1JbFFxZi1KQjk4bHlTXzZUQUV4Mlk3VHR5OTB1aEtlZDgxUQ?oc=5",
     "source": "SBS",
     "outlets": 7
-   },
-   {
-    "date": "2026-10-24",
-    "time": "22:06",
-    "iso": "2026-10-24T22:06:00+03:00",
-    "city": "제다",
-    "type": "경보",
-    "weapon": "미사일",
-    "lat": 21.49,
-    "lon": 39.19,
-    "title": "Saudi Civil Defense reports missile debris falling in Makkah, Jeddah, Taif and Rabigh",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZRlQ2aldRWXFYTFM1YTdJckFLN3JybE1GN0hrT2RFVXpZY3Q5LWJZT2FZZmNpdmZtckprRDN5RF9EN3RzejZtNWJKT0JMcV9Tdlp4Xw?oc=5",
-    "source": "Saudi Gazette",
-    "outlets": 1
-   },
-   {
-    "date": "2026-10-24",
-    "time": "20:39",
-    "iso": "2026-10-24T20:39:19+03:00",
-    "city": "제다",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 21.49,
-    "lon": 39.19,
-    "title": "Debris falls in Makkah, Jeddah, Taif, after interception of Houthi missiles",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb19fbEZVQUZSeHYxMm1sVXJxNnpPMk4tWXBDejM2R0hfbDBfaXg0clp6NS1pbnE2dG9yNGFaVVB0VU1IVWlSQzV4cXN0MWVma0xkY2I5YmVjYVlsc2FtOFJmY19oVjQ1VGRKYU9iNXhZWkt4NDc5cEVnMG5RR1Z0UHpOT3lBQU1rZ20xVzJHcWtPRmJ0LWJYWHAtNHpLSGVhejY2UXBwaUM2NVNfT3NNUV9VUzBNSm1Hc0E?oc=5",
-    "source": "Arab News",
-    "outlets": 1
-   },
-   {
-    "date": "2026-10-24",
-    "time": "20:29",
-    "iso": "2026-10-24T20:29:00+03:00",
-    "city": "메카",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 21.39,
-    "lon": 39.86,
-    "title": "Debris from two intercepted Houthi ballistic missiles falls in Mecca",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZEh6ckZJQmtRcGtaeWF6OTdfYjliNGVWVFh6eFgzTUVxb3J3aXZTbDVvTlRWVW1fVUtPa1ZGeng3TU0zRDd3Uy1KWU9maHU1MDRKRnNLUW05c0FmZXF4LWZTSjB4ajQyN1VsS2FoVS0yMkk5QXFRcWs2VnM0Yk1oRTY5NDV0b2VlNktlRW0ycDZ6M0FZRUFlS2d3YUd3bWJSUy1kS3BjMW5kNy12QjRaSG5ibmIwNzVDYXpDUkhXM3cyUDZZZEHSAcsBQVVfeXFMTlhGamFwUWxvWWgtX1czOWd4Z1h0V1c1ZWxCMENTbi1wMkEyQ1VmNW1vd3J1SnZPaVNxMl83Q2tWOElhVUtNMG9VbUIxNzROaVhoTkJrYWhoN0pqRjVQN3NhME85aXNzeEs5QXlTbFFRbFMwakNHOG1nYWhpbjNvNXRKV3NLYkJvSWk2dU1hMzlNeEZvV1RTZ2FxZG9rc3FrY3R3ZFNrcXNsdGhfcUg3dzVmbHpwV2lFbVhkTEJ3QTVmNFdVMjJLMmJsNDA?oc=5",
-    "source": "Al Arabiya",
-    "outlets": 1
-   },
-   {
-    "date": "2026-10-24",
-    "time": "20:05",
-    "iso": "2026-10-24T20:05:25+03:00",
-    "city": "리야드",
-    "type": "피격",
-    "weapon": null,
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "후티 반군 \"사우디 수도 리야드 공항·동서 송유관 등 타격\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xUnV0REE1dnBsT3RsZHIxUzk1NHFhUmt3RTJ0dFhidmptT2pNZUtscHpLWmNZaDN4ZDNoblllSlh0UGhfdmxiZHF3WW9kbjhnX3h5MEVXMmJyRjTSAWBBVV95cUxQcFYwN0NEeEFyWG1JWWF6cnFVU2V5NnFBVnc1clFlRXVmVzNrM2s0Wmw2anZ0YjB4Ujc0SUtqaHctWjBpSjVWNWtWWWU0LWVBRDlFOEJMa1hwSGVMZEx5TWI?oc=5",
-    "source": "연합뉴스",
-    "outlets": 1
-   },
-   {
-    "date": "2026-10-24",
-    "time": "10:44",
-    "iso": "2026-10-24T10:44:00+03:00",
-    "city": "얀부",
-    "type": "경보",
-    "weapon": "미사일",
-    "lat": 24.09,
-    "lon": 38.06,
-    "title": "Saudi intercepts two missiles aimed at Taif and Yanbu, alerts issued in Mecca and Jeddah",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTHlwU3hpenhQQWUxbDFkN25VOWNzb2V0bXpETjEzS0liM1JueWtUWVRkdlhLT015dGVmMkNUVWt3azkwVlhGaF9lbkRkRTR6STBTQWxRS012Z0M4R3pTei1BSDBXclA1VEY0NnhSTWZfNjlGMThBb2pVUldYcXdvYUhyYktSdG1rTWVDUkdHLUpidW1pU1hDRTEtaVYzM3BDcU5KMExrZzNONWctVWQyZkpOMlplN213X1dkY0ZzemZyMnBfcE1MekVDQdIB0AFBVV95cUxNeU13N1BzRTQ0X3lTdGl4cG9xeXZIa042dE0tZUlzUUVWbmotM3o3Ui1CUXBXYjFPOFJ6bk9kaGdiWGYzcmJHOW9FdmNoS3M3X0I4YXZPWjZKY2tiVElNa19ZMVRHNXJ4dlBubndoX2loLWx1ZWFVWlhRb3REV1l0cnlUR2dxLXN3Ylg3ZVdXdU9zejVPb0psUGVKbVJzeW42MnJMTEpXV0RMQlUxQWl6RzFmSTBoWHRqRC1XaUh4NlBTamJfNzZ0YUNsZWhPMWhD?oc=5",
-    "source": "Al Arabiya",
-    "outlets": 1
-   },
-   {
-    "date": "2026-10-24",
-    "time": "10:00",
-    "iso": "2026-10-24T10:00:00+03:00",
-    "city": "얀부",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 24.09,
-    "lon": 38.06,
-    "title": "Saudi-led coalition says it destroyed Houthi ballistic missiles fired towards Yanbu and Taif",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNURFRks1UnpnOFRlWFRQM1hLbENHTS1NZmg3ajBEc04wMTByampsNnpyTW1HcFJKZktzZzVZTHV3WUdHTndFSjNBYW1GZTg1NUpUYllxMWNMV2lIR0NZUE85YVRCRUZOUGsxcW1kTWdycDZJM3owaE1IUWVJb01veDRGQnh5eUpxallKSEV2dzVTNUE0SkFnN2NlbHhsclBRaDhEUVhWbWlXa0hLR3VmUGRQRzk0NDlkaUhESVhiSVhINXdL?oc=5",
-    "source": "Middle East Eye",
-    "outlets": 2
-   },
-   {
-    "date": "2026-10-24",
-    "time": "01:30",
-    "iso": "2026-10-24T01:30:00+03:00",
-    "city": "리야드",
-    "type": "요격",
-    "weapon": "미사일",
-    "lat": 24.71,
-    "lon": 46.68,
-    "title": "사우디 리야드 겨냥 후티 미사일 요격",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HN2Q0MWZnZ0s1RU9nemxFWENySkNwUHU4eHJfWk5uSDc2eDFnSHI4MkhON1JXZWtCUkNreF92RjZVUGVlcDNsQktGZ18tbV9xUUJV0gFYQVVfeXFMTnFQS3dyY0FabVoyLWxSV3lyal9xSzU3OWNvNW1mdWpkeHdTYU5OSzFUZWZLUDJTUUZFTDgwdWxXeGhUUFpvZ2w4LWpMa2VOa1hKaGxhUk9sWg?oc=5",
-    "source": "SBS",
-    "outlets": 1
    }
   ],
   "tempo": {
@@ -1096,10 +998,9 @@
     "7d": {},
     "total7d": 0,
     "prev7d": {
-     "요격": 1,
-     "피격": 1
+     "요격": 1
     },
-    "prev_total": 2
+    "prev_total": 1
    },
    "라비그": {
     "7d": {},
@@ -1136,10 +1037,10 @@
     },
     "total7d": 4,
     "prev7d": {
-     "피격": 3,
-     "요격": 2
+     "피격": 2,
+     "요격": 1
     },
-    "prev_total": 5
+    "prev_total": 3
    },
    "프린스술탄 공군기지": {
     "7d": {},
@@ -1215,16 +1116,37 @@
    }
   },
   "history_days": 31,
-  "history_since": "2026-10-24",
-  "today": "2026-11-23",
-  "last_ok_at": "2026-11-23T08:55:56Z"
+  "history_since": "2026-10-25",
+  "today": "2026-11-24",
+  "last_ok_at": "2026-11-23T21:14:23Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T08:55:56Z",
+  "fetched_at": "2026-11-23T21:14:23Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-23 19:53",
+    "iso": "2026-11-23T19:53:07+03:00",
+    "places": [
+     "카미스무샤이트",
+     "나즈란"
+    ],
+    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 67 غارةً جويةً وصاروخاً استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات لحج وتعز والحديدة وصعدة وحجة وذلك من خلال طائرات \"F-15\" أقلعت من قاعدة خميس مشيط والعدوان الصاروخي من نجران، وخلفت عشرات الشهداء والجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 5648 غارة جوية وصاروخا. إن الجرائم الوحشية التي ارتكبها العدو…",
+    "text_ko": "지난 24시간 동안 사우디아라비아 공군은 카미스 무샤이트 기지에서 이륙한 F-15 전투기와 나즈란에서 발사된 미사일을 통해 수도 사나, 라흐즈, 타이즈, 호데이다, 사다, 하자 주에 있는 민간인 시설을 겨냥한 67회의 공습과 미사일 공격을 가했으며, 이로 인해 수십 명의 민간인이 순교하고 부상을 입었다. 우리나라에 대한 공격이 격화되기 시작한 이래 사우디아라비아의 공격은 총 5,648회의 공습과 미사일 공격에 달한다. 적군이 저지른 잔혹한 범죄는...",
+    "url": "https://t.me/army21ye/4142"
+   },
+   {
+    "time": "2026-11-23 17:04",
+    "iso": "2026-11-23T17:04:46+03:00",
+    "places": [
+     "카미스무샤이트"
+    ],
+    "text_ar": "في تمام الساعة 11:36صباحاً توجه تشكيل حربي سعودي من نوع \"F-15\" إلى محافظة تعز ولحج بعد إقلاعه من قاعدة خميس مشيط، وعند الساعة 12:40م نفذ عملية استهداف لعدد من الباصات ووسائل نقل بضائع عامة في منطقة معبق بمديرية المقاطرة وذلك بثماني غارات جوية بقنابل أمريكية نوع \"GBU-49\" و \"GBU-12\" مرتكبا جريمة وحشية ومخلفاً عشرات الشهداء والجرحى من المدنيين وغادر منطقة الاستهداف عند الساعة 12:55م وعاد إلى نفس القا…",
+    "text_ko": "오전 11시 36분, 사우디아라비아 F-15 전투기 편대가 카미스 무샤이트 기지에서 이륙한 후 타이즈 주와 라흐즈 주로 향했습니다. 오후 12시 40분, 마카트라 지구 마바크 지역에서 미국제 GBU-49 및 GBU-12 폭탄을 사용한 8차례의 공습으로 여러 대의 버스와 일반 화물 운송 수단을 공격하는 잔혹한 범죄를 저지르고 민간인 수십 명의 사망자와 부상자를 낸 후 오후 12시 55분에 공격 지역을 떠나 같은 기지로 귀환했습니다.",
+    "url": "https://t.me/army21ye/4141"
+   },
    {
     "time": "2026-11-22 20:56",
     "iso": "2026-11-22T20:56:08+03:00",
@@ -1901,30 +1823,11 @@
     "text_ar": "ينشر الإعلام الحربي عند الرابعة عصرا مشاهد نوعية لاستهداف أكثر من 20 مدرعة وآلية تابعة لتحشيدات العدو السعودي وقتل وجرح العشرات منهم بطائرات شواظ الإنقضاضية شرقي محافظة الجوف. http://t.me/army21ye",
     "text_ko": "오후 4시에 군사 언론은 사우디 적의 동원에 속한 20 대 이상의 장갑차와 차량을 목표로 삼고 Al-Jawf Governorate 동쪽의 잠수 그림자 항공기로 수십 명이 사망하고 부상당한 질적 장면을 발표합니다. http://t.me/army21ye",
     "url": "https://t.me/army21ye/4046"
-   },
-   {
-    "time": "2026-11-09 23:50",
-    "iso": "2026-11-09T23:50:58+03:00",
-    "places": [],
-    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من إسقاط طائرة استطلاع مسلح نوع (CH4) تابعة للعدو السعودي أثناء قيامها بتنفيذ أعمال عدائية في أجواء محافظة الجوف، وذلك بسلاح مناسب. وتعدُّ هذه الطائرة هي الرابعة التي تم إسقاطها من هذا النوع منذ بدء التصعيد. http://t.me/army21ye",
-    "text_ko": "알라의 은총으로 우리 군대는 사우디 적의 무장 정찰기 (CH4) 를 격추시킬 수 있었고 알 자우프 총독령의 영공에서 적절한 무기로 적대 행위를 할 수 있었습니다. 이 항공기는 에스컬레이션이 시작된 이후 이 유형의 항공기 중 네 번째로 격추되었습니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/4045"
-   },
-   {
-    "time": "2026-11-09 19:23",
-    "iso": "2026-11-09T19:23:54+03:00",
-    "places": [
-     "타이프",
-     "카미스무샤이트"
-    ],
-    "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 103 غارات جوية استهدف بها الأعيان المدنية في محافظات مأرب وصعدة والحديدة وتعز ولحج والجوف، وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 4563 غارةً جويةً وصاروخاً. http://t.me/army21ye",
-    "text_ko": "지난 24시간 동안 사우디 전투기는 카미스 무샤이트와 타이프 기지에서 이륙한 \"F-15\" 와 \"타이푼\" 항공기를 통해 마리브, 사다, 호데이다, 타이즈, 라즈, 알자프 주에서 민간인 물체를 겨냥한 103회의 공습을 시작하여 순교자와 부상당한 민간인을 남겼다. 우리 나라에서 에스컬레이션이 시작된 이후의 사우디 침략 습격의 총 수는 4,563 건의 공습 및 미사일 습격입니다. http://t.me/army21ye",
-    "url": "https://t.me/army21ye/4044"
    }
   ],
   "mentions7d": {
-   "카미스무샤이트": 9,
-   "타이프": 6,
+   "카미스무샤이트": 10,
+   "타이프": 5,
    "리야드": 5,
    "나즈란": 4,
    "지잔": 4,
@@ -1934,20 +1837,20 @@
    "라비그": 1,
    "제다": 1
   },
-  "last_ok_at": "2026-11-23T08:55:56Z"
+  "last_ok_at": "2026-11-23T21:14:23Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T08:55:57Z",
+  "fetched_at": "2026-11-23T21:14:28Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-23T08:55:57Z"
+  "last_ok_at": "2026-11-23T21:14:28Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T08:55:57Z",
+  "fetched_at": "2026-11-23T21:14:28Z",
   "kr": [
    {
     "date": "2026-11-23",
@@ -1988,6 +1891,20 @@
   "en": [
    {
     "date": "2026-11-23",
+    "published": "2026-11-23T20:29:00+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Eisenkot says no immediate Iran threat requiring Israeli military action",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDlXbXpiU2cwRGZTckR6TUc1RXMyUlBoS1hGd0NBdmEzYTZOQ3hLdElPbkVlU1lfX2g3RGJ4UnZVOFRCY3drMURtdGRBU1FCcDdRVm1RVkNZRS1GRlVUOHhqYmxPRXlvM1FIUzk2ejU4N0xrRW5VOWVZVUVmVFUwTEp3?oc=5"
+   },
+   {
+    "date": "2026-11-23",
+    "published": "2026-11-23T11:16:05+00:00",
+    "source": "The National",
+    "title": "Saudi Arabia flight cancellations: Which airlines have resumed services?",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTnRaR3BqUmR6eTFoTWxldkdOMEJIc3pzMmxBYl9rQUVwWFNMX1hKQkxSdmxSRGZNcEFSTFRRc2RxYnI1OTg1VVZ5NTdaT0dlVkJzeGRmU2pkTnJ2N3lfZ1VVUG1SbUhQdld3Yi1JSUJMQkV5Y0xZdkFLeTR3VWxfeFlQQkRCeDlSUmhDZG9TcGJXRmxmZTZRSkNDM2pJUF9UZ3N5MG5NUGhRREJsMDVzT29INmF2OVhnY0lkLVRR?oc=5"
+   },
+   {
+    "date": "2026-11-23",
     "published": "2026-11-23T08:30:21+00:00",
     "source": "CNBC",
     "title": "Yemen’s Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
@@ -2006,32 +1923,18 @@
     "source": "Arab News",
     "title": "Houthi attacks on economic facilities and Saudi Arabia’s options",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQV9zd01LSVBGbG9vejF3Q2lhV1FueFMyNGttRk92X0M3YVZ5bDFyRGlhMXZRZWszUjlkUy05UFA5SDczeWVhczRlMU5yaVlxbW1KMW5wWnVrTGFFZUtTODMwV2NuZFpNaVlXVnRheDk0ODl2WVZtV192cmltY3hkUzVwYVloNWpncEY0enM2cWxOMFdmMV9WaVpTZzdJR3B1eElJb3J4MA?oc=5"
-   },
-   {
-    "date": "2026-11-22",
-    "published": "2026-11-22T18:18:14+00:00",
-    "source": "France 24",
-    "title": "Iran strike wounds two in Bahrain, Saudi condemns 'criminal' attacks",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ3B0RlN5WnZmMGdZNVJtaTI1QUpoczRJUlhjV1FhOFRqR0ZBTndnS3JHNFJxaXozM3IwNlFiR0RmdlFHUm1Zd0VfWnloRXNOcWtjSWRSSGx4ejcwRDFraUpRam9WU2R5ek5saDI1U1NiNmpUX1E0d3NzeGdsbmROWnE3VHllUl9HTllBM2pMNmhIWXVpcXhMYTlyaVpBcHlBeG55SHF0SlJvenhCYVREYjV3?oc=5"
-   },
-   {
-    "date": "2026-11-22",
-    "published": "2026-11-22T13:25:47+00:00",
-    "source": "CNBC",
-    "title": "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWExRdGJVYklFVlRzdFJXOWVHb3NjWFQwYTJTeU1CN1h1YkJ1ckswc29IQ28ydHBtWkhFOV83WEJ6V09RZWk3TkRIbnNYdmVnR3l4OXA4WDFLQnI5bUVzNU5RYnlIZnNQNU4yOXNDT3BVSzgxNlplYWhBaGp2YWVLZ0x6MXJOWm1OZVdVTlN30gGTAUFVX3lxTE04Qy1NVGc0RndjU2tZbS1ubW5uWDBSSUZ5NTQzTFZ5MGtCSk52SFg4YWdVTjVOWmN4S1FzMXFQZFJNekptTi1PVmhVY1dHaDVwZHkzTUxvZnhyaHlQVXNzWno0aVFFdjJMcjdIcGV2dnlvMFlhcHp4WVVZYnJMcWFfdzhNVmdfbjY0SU1sS0MtdXUyTQ?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-23T08:55:57Z"
+  "last_ok_at": "2026-11-23T21:14:28Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T08:55:58Z",
+  "fetched_at": "2026-11-23T21:14:29Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
   "count": 35,
-  "baseline": 29.0,
-  "baseline_n": 8,
+  "baseline": 26.5,
+  "baseline_n": 16,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2336,14 +2239,15 @@
    "2026-11-22T11": 32,
    "2026-11-22T19": 26,
    "2026-11-23T00": 35,
-   "2026-11-23T08": 35
+   "2026-11-23T08": 35,
+   "2026-11-23T21": 35
   },
-  "last_ok_at": "2026-11-23T08:55:58Z"
+  "last_ok_at": "2026-11-23T21:14:29Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-23T08:55:58Z",
-  "last_ok_at": "2026-11-23T08:55:58Z"
+  "fetched_at": "2026-11-23T21:14:29Z",
+  "last_ok_at": "2026-11-23T21:14:29Z"
  }
 }
