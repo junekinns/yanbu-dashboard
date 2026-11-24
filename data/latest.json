@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T05:56:03Z",
+ "generated_at": "2026-11-24T17:30:50Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-24T05:56:03Z",
+  "fetched_at": "2026-11-24T17:30:50Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -165,6 +165,12 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-11-24",
+    "title": "리야드 시내 공격 관련 안전 유의 안내(11.24.)",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321140/detail2?ntnCd=107",
+    "summary": "사우디 주도 연합군 측은 11.24.(화) 리야드 시내 중심부에 소재한 킹압둘라 금융지구(KAFD) 내 건물에 대한 공격 시도가 있었다고 발표했습니다. 이처럼 예멘 후티 반군의 소행으로 추정되는 미사일·무인기 공격 시도가 리야드 시내를 대상으로 지속되는 상황인바, 사우디아라비아에 체류 중인 우리 국민들께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ…"
+   },
+   {
     "date": "2026-11-21",
     "title": "후티 반군의 홍해 항구 등 공격 경고 관련 신변 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321139/detail2?ntnCd=107",
@@ -175,23 +181,14 @@
     "title": "리야드 시내 공격 관련 안전 유의(11.19.)",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321138/detail2?ntnCd=107",
     "summary": "리야드 시내 중심부에 소재한 KAFD 지구의 사우디 국부펀드(PIF) 건물이 11.19.(목) 오전 후티 반군의 공격으로 추정되는 발사체에 의해 피격되었습니다. 최근 리야드 시내 미사일·무인기 공격 시도가 지속되는 상황인바, 사우디아라비아에 체류 중인 우리 국민께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ 사우디아라비아 전역에 여행경보 3단계(출…"
-   },
-   {
-    "date": "2026-11-13",
-    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321137/detail2?ntnCd=107",
-    "summary": "ㅇ 최근 중동 내 군사적 긴장이 지속되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
    }
   ],
-  "last7d": 2,
+  "last7d": 3,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-24T05:56:03Z"
+  "last_ok_at": "2026-11-24T17:30:50Z"
  },
  "events": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-11-24T05:56:23Z",
   "events": [
    {
     "date": "2026-11-21",
@@ -1118,12 +1115,16 @@
   "history_days": 31,
   "history_since": "2026-10-25",
   "today": "2026-11-24",
-  "last_ok_at": "2026-11-24T05:56:23Z"
+  "last_ok_at": "2026-11-24T05:56:23Z",
+  "ok": false,
+  "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%28intercepted%20OR%20intercepts%20OR%20%22shot%20down%22%20OR%20destroyed%20OR%20strikes%20OR%20struck%20OR%20attack%20OR%20airstrike%20OR%20alert%20OR%20siren%29%20%28Houthi%20OR%20coalition%20OR%20Saudi%29%20%28Yanbu%20OR%20Jeddah%20OR%20Medina%20OR%20Mecca%20OR%20Taif%20OR%20Jazan%20OR%20Abha%20OR%20%22Khamis%20Mushait%22%20OR%20Najran%20OR%20Riyadh%20OR%20Dammam%20OR%20Dhahran%20OR%20Jubail%20OR%20%22Ras%20Tanura%22%20OR%20Abqaiq%20OR%20pipeline%20OR%20Rabigh%29%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
+  "fetched_at": "2026-11-24T17:31:09Z",
+  "stale": true
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-24T05:56:23Z",
+  "fetched_at": "2026-11-24T17:31:10Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1845,20 +1846,17 @@
    "라비그": 1,
    "제다": 1
   },
-  "last_ok_at": "2026-11-24T05:56:23Z"
+  "last_ok_at": "2026-11-24T17:31:10Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-24T05:56:25Z",
+  "fetched_at": "2026-11-24T17:31:10Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-24T05:56:25Z"
+  "last_ok_at": "2026-11-24T17:31:10Z"
  },
  "news": {
-  "ok": true,
-  "error": null,
-  "fetched_at": "2026-11-24T05:56:26Z",
   "kr": [
    {
     "date": "2026-11-23",
@@ -1933,16 +1931,20 @@
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcndOTTl3bzZwNVZ4ZWstZXBZdnVkbUhPanQ5VlhUVEJaSTRVdnc1YzVUdEhEd2M0QXdFVGxzRFVLeThYd0FfaGEzMnQzbWIzemFuZzRqSGJCQ2M5LVBzV0dadVlwUXpXR1hfMTllR2NsWmNuRnk4RmRSVVlraElfS3NjNFlJa0FWTGNRRS1XQTFxM3JoTVRYZEluNkVJUXZSdk1TSmFfWUfSAa4BQVVfeXFMTmplOTVHYzVsandyeWw3aS1QcWJiLWt5NXNnWHhYazFVV1pMZmdWdFdIdWxYSTRXNDJkWlYxdXJpOW1scUJTVUxJOWlqbDVST3VZcmR4U2RSdXVpc3NZczU2RVlZc0Jrd3BFcVQ3djE0TldnZk9KWi1ybXlwM0Ryb2NvWmJCRFZOX19xd0JDT2xPQy1VSDZBQ283ZUF1Z3JRaTRJd0VoYzF1SXVDdktn?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-24T05:56:26Z"
+  "last_ok_at": "2026-11-24T05:56:26Z",
+  "ok": false,
+  "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Saudi%20%28Houthi%20OR%20Yanbu%20OR%20Jeddah%20OR%20Riyadh%20OR%20Dhahran%20OR%20Aramco%20OR%20pipeline%20OR%20drone%20OR%20missile%29%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+  "fetched_at": "2026-11-24T17:31:10Z",
+  "stale": true
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-24T05:56:26Z",
+  "fetched_at": "2026-11-24T17:31:11Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 24,
-  "baseline": 20.5,
-  "baseline_n": 8,
+  "count": 27,
+  "baseline": 28,
+  "baseline_n": 11,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2249,14 +2251,15 @@
    "2026-11-23T00": 35,
    "2026-11-23T08": 35,
    "2026-11-23T21": 35,
-   "2026-11-24T05": 24
+   "2026-11-24T05": 24,
+   "2026-11-24T17": 27
   },
-  "last_ok_at": "2026-11-24T05:56:26Z"
+  "last_ok_at": "2026-11-24T17:31:11Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-24T05:56:26Z",
-  "last_ok_at": "2026-11-24T05:56:26Z"
+  "fetched_at": "2026-11-24T17:31:11Z",
+  "last_ok_at": "2026-11-24T17:31:11Z"
  }
 }
