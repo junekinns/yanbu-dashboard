@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T21:14:02Z",
+ "generated_at": "2026-11-24T05:56:03Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T21:14:02Z",
+  "fetched_at": "2026-11-24T05:56:03Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 2,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-23T21:14:02Z"
+  "last_ok_at": "2026-11-24T05:56:03Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T21:14:23Z",
+  "fetched_at": "2026-11-24T05:56:23Z",
   "events": [
    {
     "date": "2026-11-21",
@@ -699,20 +699,6 @@
    },
    {
     "date": "2026-10-30",
-    "time": "23:07",
-    "iso": "2026-10-30T23:07:17+03:00",
-    "city": "메디나",
-    "type": "요격",
-    "weapon": "드론",
-    "lat": 24.47,
-    "lon": 39.61,
-    "title": "Saudi-led coalition says it destroyed Houthi drone over Medina region",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTJ1aldqaEJHVUQ4NjY5aC12UUxXQkVTWXJQenpCUDVqNVhQc19LWmM2Q0lDQzZleGlSUDRwSld0VHlMb3BkekZSUDBabFV5b2QzZUNRSDVTY05xLVpsQ2NCNkhOYU9VNnJsVkpoVWVqZ1E3U0Y2Tnp2X3F4R2dSNHJsNXhwRGxkMlpmUEVjMnNqd09OYm9WY0pGRWRjYmktdi1BTWk2akZ1aVJlTUdfXzBEdUpVQQ?oc=5",
-    "source": "The Times of Israel",
-    "outlets": 2
-   },
-   {
-    "date": "2026-10-30",
     "time": "19:37",
     "iso": "2026-10-30T19:37:48+03:00",
     "city": "리야드",
@@ -737,6 +723,20 @@
     "title": "\"메카 성지 또 공격\" 사우디 주장에…후티 \"그런 적 없어\"",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fLXp0SlVra0l3YjJwQmZmOTF3QVhsSFc0RTBLYTRKaEEyNXJFbnpWbHA2dVhELXpmbWNjT1ZvdDByNGhMTkRGZHdlN2JRa1NHRWtRR0NIV2hLdlA2d29WdG5n?oc=5",
     "source": "뉴스1",
+    "outlets": 2
+   },
+   {
+    "date": "2026-10-30",
+    "time": "10:00",
+    "iso": "2026-10-30T10:00:00+03:00",
+    "city": "메디나",
+    "type": "요격",
+    "weapon": "드론",
+    "lat": 24.47,
+    "lon": 39.61,
+    "title": "Saudi-led coalition says it destroyed Houthi drone over Medina region",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSTJ1aldqaEJHVUQ4NjY5aC12UUxXQkVTWXJQenpCUDVqNVhQc19LWmM2Q0lDQzZleGlSUDRwSld0VHlMb3BkekZSUDBabFV5b2QzZUNRSDVTY05xLVpsQ2NCNkhOYU9VNnJsVkpoVWVqZ1E3U0Y2Tnp2X3F4R2dSNHJsNXhwRGxkMlpmUEVjMnNqd09OYm9WY0pGRWRjYmktdi1BTWk2akZ1aVJlTUdfXzBEdUpVQQ?oc=5",
+    "source": "The Times of Israel",
     "outlets": 2
    },
    {
@@ -1118,14 +1118,22 @@
   "history_days": 31,
   "history_since": "2026-10-25",
   "today": "2026-11-24",
-  "last_ok_at": "2026-11-23T21:14:23Z"
+  "last_ok_at": "2026-11-24T05:56:23Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T21:14:23Z",
+  "fetched_at": "2026-11-24T05:56:23Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
+   {
+    "time": "2026-11-24 05:57",
+    "iso": "2026-11-24T05:57:09+03:00",
+    "places": [],
+    "text_ar": "تمكنت قواتنا المسلحة بفضل الله من إسقاط طائرة استطلاع مسلح نوع \"وينق لونق 2\" (Wing Loong II) تابعة للعدو السعودي أثناء قيامها بأعمال عدائية في أجواء سواحل محافظة لحج وذلك بسلاح مناسب. وتعد هذه الطائرة هى الحادية عشرة التي يتم إسقاطها من هذا النوع منذ بدء التصعيد. http://t.me/army21ye",
+    "text_ko": "하나님의 은혜로 우리 군대는 사우디아라비아 적군의 '윙룽 II'(Wing Loong II) 무장 정찰기를 라흐즈 주 해안 상공에서 적대 행위를 하던 중 적절한 무기로 격추하는 데 성공했다. 이 드론은 긴장이 고조되기 시작한 이래로 격추된 11번째 드론이다. http://t.me/army21ye",
+    "url": "https://t.me/army21ye/4143"
+   },
    {
     "time": "2026-11-23 19:53",
     "iso": "2026-11-23T19:53:07+03:00",
@@ -1837,20 +1845,20 @@
    "라비그": 1,
    "제다": 1
   },
-  "last_ok_at": "2026-11-23T21:14:23Z"
+  "last_ok_at": "2026-11-24T05:56:23Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T21:14:28Z",
+  "fetched_at": "2026-11-24T05:56:25Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-23T21:14:28Z"
+  "last_ok_at": "2026-11-24T05:56:25Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T21:14:28Z",
+  "fetched_at": "2026-11-24T05:56:26Z",
   "kr": [
    {
     "date": "2026-11-23",
@@ -1891,20 +1899,6 @@
   "en": [
    {
     "date": "2026-11-23",
-    "published": "2026-11-23T20:29:00+00:00",
-    "source": "The National",
-    "title": "Middle East latest: Eisenkot says no immediate Iran threat requiring Israeli military action",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDlXbXpiU2cwRGZTckR6TUc1RXMyUlBoS1hGd0NBdmEzYTZOQ3hLdElPbkVlU1lfX2g3RGJ4UnZVOFRCY3drMURtdGRBU1FCcDdRVm1RVkNZRS1GRlVUOHhqYmxPRXlvM1FIUzk2ejU4N0xrRW5VOWVZVUVmVFUwTEp3?oc=5"
-   },
-   {
-    "date": "2026-11-23",
-    "published": "2026-11-23T11:16:05+00:00",
-    "source": "The National",
-    "title": "Saudi Arabia flight cancellations: Which airlines have resumed services?",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTnRaR3BqUmR6eTFoTWxldkdOMEJIc3pzMmxBYl9rQUVwWFNMX1hKQkxSdmxSRGZNcEFSTFRRc2RxYnI1OTg1VVZ5NTdaT0dlVkJzeGRmU2pkTnJ2N3lfZ1VVUG1SbUhQdld3Yi1JSUJMQkV5Y0xZdkFLeTR3VWxfeFlQQkRCeDlSUmhDZG9TcGJXRmxmZTZRSkNDM2pJUF9UZ3N5MG5NUGhRREJsMDVzT29INmF2OVhnY0lkLVRR?oc=5"
-   },
-   {
-    "date": "2026-11-23",
     "published": "2026-11-23T08:30:21+00:00",
     "source": "CNBC",
     "title": "Yemen’s Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
@@ -1919,22 +1913,36 @@
    },
    {
     "date": "2026-11-22",
-    "published": "2026-11-22T19:06:05+00:00",
+    "published": "2026-11-22T20:06:23+00:00",
     "source": "Arab News",
-    "title": "Houthi attacks on economic facilities and Saudi Arabia’s options",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQV9zd01LSVBGbG9vejF3Q2lhV1FueFMyNGttRk92X0M3YVZ5bDFyRGlhMXZRZWszUjlkUy05UFA5SDczeWVhczRlMU5yaVlxbW1KMW5wWnVrTGFFZUtTODMwV2NuZFpNaVlXVnRheDk0ODl2WVZtV192cmltY3hkUzVwYVloNWpncEY0enM2cWxOMFdmMV9WaVpTZzdJR3B1eElJb3J4MA?oc=5"
+    "title": "Saudi Arabia condemns drone strikes on Sudan’s capital that hit UN building",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZnpMU0FtOV9qajExOFFLdDcwYm5nemV3a0UwbGJGc1NWRzR0dnRaOFNXbEIyWW90MzBzWlJteE5RbUNvRGY4S1Vudk42Y3R2aVNaSlhDWXJuSUhnWWd4ZGpRT0tKSjZxVWFIRlNRX3JmN3dMU3FiY1czelAxa09JVlZDZVNNLWlGNDgxMmU5emFLSTZPQk4xZ2RTb3RiSi0tOTVxdDltS3J2Y3AycmhoTjlyNjZYRjBLZ1Z6MQ?oc=5"
+   },
+   {
+    "date": "2026-11-22",
+    "published": "2026-11-22T13:25:47+00:00",
+    "source": "CNBC",
+    "title": "Saudi Arabia, Bahrain report new attacks as Iran says it remains open to a deal with U.S.",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWExRdGJVYklFVlRzdFJXOWVHb3NjWFQwYTJTeU1CN1h1YkJ1ckswc29IQ28ydHBtWkhFOV83WEJ6V09RZWk3TkRIbnNYdmVnR3l4OXA4WDFLQnI5bUVzNU5RYnlIZnNQNU4yOXNDT3BVSzgxNlplYWhBaGp2YWVLZ0x6MXJOWm1OZVdVTlN30gGTAUFVX3lxTE04Qy1NVGc0RndjU2tZbS1ubW5uWDBSSUZ5NTQzTFZ5MGtCSk52SFg4YWdVTjVOWmN4S1FzMXFQZFJNekptTi1PVmhVY1dHaDVwZHkzTUxvZnhyaHlQVXNzWno0aVFFdjJMcjdIcGV2dnlvMFlhcHp4WVVZYnJMcWFfdzhNVmdfbjY0SU1sS0MtdXUyTQ?oc=5"
+   },
+   {
+    "date": "2026-11-22",
+    "published": "2026-11-22T13:17:16+00:00",
+    "source": "Al Jazeera",
+    "title": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcndOTTl3bzZwNVZ4ZWstZXBZdnVkbUhPanQ5VlhUVEJaSTRVdnc1YzVUdEhEd2M0QXdFVGxzRFVLeThYd0FfaGEzMnQzbWIzemFuZzRqSGJCQ2M5LVBzV0dadVlwUXpXR1hfMTllR2NsWmNuRnk4RmRSVVlraElfS3NjNFlJa0FWTGNRRS1XQTFxM3JoTVRYZEluNkVJUXZSdk1TSmFfWUfSAa4BQVVfeXFMTmplOTVHYzVsandyeWw3aS1QcWJiLWt5NXNnWHhYazFVV1pMZmdWdFdIdWxYSTRXNDJkWlYxdXJpOW1scUJTVUxJOWlqbDVST3VZcmR4U2RSdXVpc3NZczU2RVlZc0Jrd3BFcVQ3djE0TldnZk9KWi1ybXlwM0Ryb2NvWmJCRFZOX19xd0JDT2xPQy1VSDZBQ283ZUF1Z3JRaTRJd0VoYzF1SXVDdktn?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-23T21:14:28Z"
+  "last_ok_at": "2026-11-24T05:56:26Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-23T21:14:29Z",
+  "fetched_at": "2026-11-24T05:56:26Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 35,
-  "baseline": 26.5,
-  "baseline_n": 16,
+  "count": 24,
+  "baseline": 20.5,
+  "baseline_n": 8,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2240,14 +2248,15 @@
    "2026-11-22T19": 26,
    "2026-11-23T00": 35,
    "2026-11-23T08": 35,
-   "2026-11-23T21": 35
+   "2026-11-23T21": 35,
+   "2026-11-24T05": 24
   },
-  "last_ok_at": "2026-11-23T21:14:29Z"
+  "last_ok_at": "2026-11-24T05:56:26Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-23T21:14:29Z",
-  "last_ok_at": "2026-11-23T21:14:29Z"
+  "fetched_at": "2026-11-24T05:56:26Z",
+  "last_ok_at": "2026-11-24T05:56:26Z"
  }
 }
