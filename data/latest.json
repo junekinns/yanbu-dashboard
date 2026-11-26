@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T04:56:08Z",
+ "generated_at": "2026-11-26T15:00:00Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T04:56:08Z",
+  "fetched_at": "2026-11-26T15:00:00Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -165,33 +165,33 @@
   "tracking_since": "2026-09-17T02:02:51Z",
   "notices": [
    {
+    "date": "2026-11-26",
+    "title": "후티 반군의 자잔항, 젯다항 공격 관련 신변 유의",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321143/detail2?ntnCd=107",
+    "summary": "ㅇ 후티 반군이 11.20(금), 11.25(수) 사우디의 홍해 항구에 대한 보복 공격을 경고한 가운데, 사우디 주도 아랍연합군은 11.25(수) 밤 자잔항에 후티 반군의 발사체로 경미한 피해가 발생하였고, 젯다항 인근에서 후티 반군의 드론이 요격되었으며, 두 공격에 따른 인명 피해는 발생하지 않았다고 발표했습니다. - 이후, 아랍연합군은 구체 지명을 언급…"
+   },
+   {
+    "date": "2026-11-26",
+    "title": "사우디 서부, 서남부 지역 공항 이용 주의사항",
+    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321142/detail2?ntnCd=107",
+    "summary": "ㅇ 최근 중동 내 군사적 긴장이 지속되는 가운데, 총영사관 관할지역인 사우디 서부 및 서남부 지역의 공항 운영에도 차질이 발생하고 있습니다. 우리 국민께서는 긴요한 용무가 아닌 한 사우디 방문을 자제하시되, 불가피한 여행 계획 수립시 아래 내용 참고하시고 공항 이동 전 해당 항공사나 사우디 민간항공청(GACA, +966-9200-11233)을 통해 공항 및…"
+   },
+   {
     "date": "2026-11-25",
     "title": "후티 반군의 홍해 항구 공격 재경고 관련 신변 유의",
     "url": "https://www.0404.go.kr/bbs/safetyNtc/1321141/detail2?ntnCd=107",
     "summary": "ㅇ 후티 반군은 지난 11.20(금) 경고에 이어, 11.25(수)에도 호데이다 항이 공격받을 경우 젯다를 비롯한 홍해 연안의 사우디 항구를 보복 공격하겠다고 재차 경고하였습니다. - 한편, 사우디 주도 아랍연합군은 같은 날(11.25) 호데이다 항에 대한 작전을 실시했음을 발표하였습니다. ㅇ 현재 사우디 전역에 여행경보 3단계(출국권고)가 발령 중입니다.…"
-   },
-   {
-    "date": "2026-11-24",
-    "title": "리야드 시내 공격 관련 안전 유의 안내(11.24.)",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321140/detail2?ntnCd=107",
-    "summary": "사우디 주도 연합군 측은 11.24.(화) 리야드 시내 중심부에 소재한 킹압둘라 금융지구(KAFD) 내 건물에 대한 공격 시도가 있었다고 발표했습니다. 이처럼 예멘 후티 반군의 소행으로 추정되는 미사일·무인기 공격 시도가 리야드 시내를 대상으로 지속되는 상황인바, 사우디아라비아에 체류 중인 우리 국민들께서는 아래 사항에 각별히 유의하여 주시기 바랍니다. ㅇ…"
-   },
-   {
-    "date": "2026-11-21",
-    "title": "후티 반군의 홍해 항구 등 공격 경고 관련 신변 유의",
-    "url": "https://www.0404.go.kr/bbs/safetyNtc/1321139/detail2?ntnCd=107",
-    "summary": "ㅇ 예멘 내전이 지속 격화되고 있는 가운데, 11.20(금) 후티 반군은 호데이다 항이 공격받을 경우 젯다를 비롯한 홍해 연안의 사우디 항구를 보복 공격하겠다고 경고하였고, 슈케이크 발전소도 공격 대상이라고 발표하였습니다. - 한편, 사우디 방위군은 11.21(토) 밤 메카주에 경보를 발령하였고, 비슷한 시간대에 사우디 주도 아랍연합군은 사우디 서부지역을 …"
    }
   ],
-  "last7d": 3,
+  "last7d": 5,
   "baseline": 4.0,
   "tier": "평시",
-  "last_ok_at": "2026-11-26T04:56:08Z"
+  "last_ok_at": "2026-11-26T15:00:00Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T04:56:29Z",
+  "fetched_at": "2026-11-26T15:00:19Z",
   "events": [
    {
     "date": "2026-11-26",
@@ -1047,12 +1047,12 @@
   "history_days": 31,
   "history_since": "2026-10-27",
   "today": "2026-11-26",
-  "last_ok_at": "2026-11-26T04:56:29Z"
+  "last_ok_at": "2026-11-26T15:00:19Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T04:56:30Z",
+  "fetched_at": "2026-11-26T15:00:20Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1736,8 +1736,8 @@
   "mentions7d": {
    "카미스무샤이트": 9,
    "리야드": 6,
-   "지잔": 5,
    "제다": 5,
+   "지잔": 5,
    "타이프": 5,
    "나즈란": 4,
    "메카": 3,
@@ -1746,21 +1746,42 @@
    "주베일": 2,
    "라비그": 1
   },
-  "last_ok_at": "2026-11-26T04:56:30Z"
+  "last_ok_at": "2026-11-26T15:00:20Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T04:56:30Z",
+  "fetched_at": "2026-11-26T15:00:20Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-26T04:56:30Z"
+  "last_ok_at": "2026-11-26T15:00:20Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T04:56:30Z",
+  "fetched_at": "2026-11-26T15:00:20Z",
   "kr": [
+   {
+    "date": "2026-11-26",
+    "published": "2026-11-26T10:32:00+00:00",
+    "source": "채널A",
+    "title": "사우디 최대 정유시설 피격…서울만 한 검은 연기",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41em9XSUJwdk9fZ1RUWjFuVUl0Sk1xTy13cllSWnVtdTRNdjE2VHhBdkd4cXVyTFZ5THlpYm5JN1VGMHJOMURTS1dOVm9HSDRCR1AxdVR1cjFieEpOR2JjUFFid9IBY0FVX3lxTE41em9XSUJwdk9fZ1RUWjFuVUl0Sk1xTy13cllSWnVtdTRNdjE2VHhBdkd4cXVyTFZ5THlpYm5JN1VGMHJOMURTS1dOVm9HSDRCR1AxdVR1cjFieEpOR2JjUFFidw?oc=5"
+   },
+   {
+    "date": "2026-11-26",
+    "published": "2026-11-26T09:30:42+00:00",
+    "source": "연합뉴스",
+    "title": "[영상] '검은 연기띠' 사우디 정유시설…후티 \"홍해 항구도 공격\"",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XTjRZYzNzVXBodG0zTWRxUEE3NGNqR2JMTzZuSXVpTm5hZGNVdHY1SHd1b0NQQnh3RzNRbGpxR2xkeTh3djlucTlfV284Q1U2ZUZ3anJ0NHJwVHRBcGZKS9IBYEFVX3lxTE1XTjRZYzNzVXBodG0zTWRxUEE3NGNqR2JMTzZuSXVpTm5hZGNVdHY1SHd1b0NQQnh3RzNRbGpxR2xkeTh3djlucTlfV284Q1U2ZUZ3anJ0NHJwVHRBcGZKSw?oc=5"
+   },
+   {
+    "date": "2026-11-26",
+    "published": "2026-11-26T06:57:50+00:00",
+    "source": "조선일보",
+    "title": "수도 잃고 쫓겨왔는데… 예멘 정부, 親이란 후티에 아덴마저 뚫릴 판",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbVZFc01kNWVsb2E1R1ZRbGEtVWlrRWs3SjUyMGNhU1dLX2FCRnRJMVBLR2hKTmYwWlB3RHczY2lfNkFrdlRkTWhocnFPbzhwZHhjdU1kcUNJLThtOTJ4Y0NIcGhxUTBxNlQyYTI5OXpjbnRqS2k3QS1wQldOcTBkMlZmWElQbHVKS1h5RWx4QUh1bnJkQTJJWkV1Wmg?oc=5"
+   },
    {
     "date": "2026-11-26",
     "published": "2026-11-26T00:47:00+00:00",
@@ -1773,77 +1794,56 @@
     "published": "2026-11-26T00:15:56+00:00",
     "source": "연합뉴스",
     "title": "후티, 아덴 턱밑까지 진격…예멘 정부거점 함락 중대기로",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOMmxCZ3pFS25RallxNHY4cHhNLTRCN3pQTjZTM0xDSlRzOXE3dzdGTVlpLXY2MWRFcUlWaC1ZTXRlcHNBN0U4YXhXTklISGpXVUhLcjhRUVRjallqb0ZLTtIBYEFVX3lxTFBOMmxCZ3pFS25RallxNHY4cHhNLTRCN3pQTjZTM0xDSlRzOXE3dzdGTVlpLXY2MWRFcUlWaC1ZTXRlcHNBN0U4YXhXTklISGpXVUhLcjhRUVRjallqb0ZLTg?oc=5"
-   },
-   {
-    "date": "2026-11-25",
-    "published": "2026-11-25T21:11:30+00:00",
-    "source": "MBC",
-    "title": "국제유가, 후티 사우디 정유시설 공격에 급등‥브렌트 3.5%↑",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xVUpzNEg5c2hoUXExRzAyaUJlQmJDV3hnNFZ2TFROYWFPa19lNUpzZ3lwN3pYV3lLU3lUS0hEdXNESk9yRGk2VnhLNTZVaWNMRTd0Z29UcUVQb0xWQXc5bnlneDA4NUxzeDBXUFhrUE9kN3BM0gF0QVVfeXFMTXFVSnM0SDlzaGhRcTFHMDJpQmVCYkNXeGc0VnZMVE5hYU9rX2U1SnNneXA3elhXeUtTeVRLSER1c0RKT3JEaTZWeEs1NlVpY0xFN3Rnb1RxRVBvTFZBdzlueWd4MDg1THN4MFdQWGtQT2Q3cEw?oc=5"
-   },
-   {
-    "date": "2026-11-25",
-    "published": "2026-11-25T11:46:00+00:00",
-    "source": "경향신문",
-    "title": "빈살만의 ‘자존심’…경보도 없이 당했다",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1US2wzZHNNVkZ5V0FXQ0NWRmxhcjRNMUZkbWFiRlFrUFRncWhIaVgtU0RydElTNDdUQm1KQkIyUlRWa3dDZTBCUllHSTBoWkJtcFA1ZkxrdmwyU05NMENn0gFfQVVfeXFMTVRLbDNkc01WRnlXQVdDQ1ZGbGFyNE0xRmRtYWJGUWtQVGdxaEhpWC1TRHJ0SVM0N1RCbUpCQjJSVFZrd0NlMEJSWUdJMGhaQm1wUDVmTGt2bDJTTk0wQ2c?oc=5"
-   },
-   {
-    "date": "2026-11-25",
-    "published": "2026-11-25T10:33:00+00:00",
-    "source": "채널A",
-    "title": "사우디 최고층 빌딩 또 피격…후티, 아덴까지 위협",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6Sk5SbGpONmVwZVhiYjBqZ1AwUUFWLWhMbi1BT2hvUl85ZEZNUk1HQUNxZDNsaWlUUUFZOVcza2pFWUpvOFJQVzFIU0xLR25FbnExaFVYNkQ4bjc1RHdJZnJNTdIBY0FVX3lxTFB6Sk5SbGpONmVwZVhiYjBqZ1AwUUFWLWhMbi1BT2hvUl85ZEZNUk1HQUNxZDNsaWlUUUFZOVcza2pFWUpvOFJQVzFIU0xLR25FbnExaFVYNkQ4bjc1RHdJZnJNTQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MeEZSa210VEYyOGNqSWN5MTYwdnhzSlN3TU53elRabVh1WVpfMUhCaUdFQV9ITVZTRW91eWdSaFNIR1NMWVdmQ1REZTIybXBVN2VzNU90aUxKMHPSAWBBVV95cUxQTjJsQmd6RUtuUWpZcTR2OHB4TS00Qjd6UE42UzNMQ0pUczlxN3c3Rk1ZaS12NjFkRXFJVmgtWU10ZXBzQTdFOGF4V05JSEhqV1VIS3I4UVFUY2pZam9GS04?oc=5"
    }
   ],
   "en": [
    {
     "date": "2026-11-26",
-    "published": "2026-11-26T03:04:34+00:00",
+    "published": "2026-11-26T12:23:29+00:00",
+    "source": "CNN",
+    "title": "Huge plume of black smoke seen from space after Houthis claim strike on Saudi’s biggest oil refinery",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUFJKcTlSNmZHYWt2WWZqdWxWTzhVX3Vqakhma0tlMlhBOWMtczBfOHdlMllydUdjTldlTlZwcFk3UmJNMGVqaHk3NzUyUEpKTGIzaVJOb0FZN3VBSzAtcW1hT3RCcE1hU1o4bmEwb1B6aGxpa0Q1QUFCbGJIbVdTdUpmcGhCcWZLdzl1OVlCQ0JHVHk2UzMzMl9YOGoxZw?oc=5"
+   },
+   {
+    "date": "2026-11-26",
+    "published": "2026-11-26T12:11:33+00:00",
+    "source": "Al Jazeera",
+    "title": "‘Symbolic’: Why did UK sanction Yemen’s Houthis amid attacks on Saudi?",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMGFNV09TZ3MzTkR6VjMwbFFjN05mRlpYNG9kX3Y0RUt2RTRRYkxZU3I2S05pQ3FwWHZ1WHlZZlVrb2lScHdoQzNQTURyQ0pNT2xtUUIzNDViOFdFbGZPX1RZa3pYS2k4QXoxUk03Q0U2T1hGVEd5Nm54NnZrR3lWc0ZTbDN0QlZVR29VZ2doZjNqZlJ6SHdMVGNCQUFLaElCZERjNEJ4ZzdXRTjSAbABQVVfeXFMTmNOM0tubjJXdkpRZ1hvSEp0aHhQcm1pcklJQ3c1ZXh6Ml9ua21FMGtFd0RJb21SUm5tN3dmdHJLeHZvZUFQcWY5c0s3QVZpT2tkdGs5SmpoS056ckI3MzBfRlpqb3VDTXgzeVBINFJCWFJrejB3RURSYjZYMTBWdWxMQmtnb3dESzlLVXQ3YUwyM2EycVFmQVJCSl90eGhGdllyZ3hNU0RmZTAwVDJELVI?oc=5"
+   },
+   {
+    "date": "2026-11-26",
+    "published": "2026-11-26T08:50:09+00:00",
+    "source": "Reuters",
+    "title": "Most Gulf markets muted on Saudi energy strikes, maritime dangers",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGhLMnhJSlpva0NsUUJkNjhXaFZuUklkNHViOGxUR1daSGduN2xtejdtYnc2WEpfdDVFWS1pY0o3YTBvMWpTdDE3ekwzamhxaUpxSUVKbHVGZXlnOTE1amRuMG1xazZlMlR2RWVqb000NnYwV3VoVWxaSnY2dkFYYklJM3VhZEFKMm9ZbHhRNy01Q09ha2ZpMW9udXRpLUo1RFh6V1FUVTNIRGoxRnN5TEgwbE1udw?oc=5"
+   },
+   {
+    "date": "2026-11-26",
+    "published": "2026-11-26T07:17:09+00:00",
     "source": "The National",
-    "title": "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnZ5TGlIcndkLWs0YmFxMzl1Z1dkVlE2ODFrUnAzejJXNC1tY1AzR3hVTVJ6OW9hSnZIanJpTFZDUDhySXBVZHFicTMweEktY3E1SXBtQ0lvNlctbmlQak9XcjZRYTZGQVd6YTBNeXlpMUotVHB6TXc4NHBIVTJGVmRaUFA1b2trOWRINVV5UVNURi1ZLTJZRjdR?oc=5"
+    "title": "Saudi Arabia intercepts wave of retaliatory Houthi attacks",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZmVwY2FmMlJDd2RBaHByRGZWNDRMU1V1Tk1ZVnZCSWlyNXdiTU4tUXR1RkM1b3c5MDQ3U3Z4MjJleU1Sdmk1ZjVob3kwcFpibmZYX2lqLWFpVE8ta3RJRHlpYjVva3hTTXExd3l1RWdTWHRDOGRWMkhuWl9LUXQ3T0hvbFN5Ni1iNHVuc1dfR2drajJNRjVsODQ2X2wwNU02cHVBeDZoTmlSdWZWaFRDb1FB?oc=5"
    },
    {
-    "date": "2026-11-25",
-    "published": "2026-11-25T23:45:44+00:00",
-    "source": "Bloomberg",
-    "title": "Houthis Launch Retaliatory Attacks on Two Saudi Ports on Red Sea",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR1VYSkV6czVycUFWd0t1bDdZMWhuY05hV3RuYjhjVnhrSXZfdXBfd1VDRjZzaFJOYnlGNDhiWDhIeTBIQV9oMGZOaTJQNmlMdll1a285bDkyYmgyVEVvTkVfcG5XNEV2Nzg5d19VbzBlTmxBeE1YeWgzd0ZwWHR3REYwTzBXS1dyc3l6R3FGUVdxU29objAwM1o3Zl9MdjJBRzN5Y3BBMjVrR0o1TkswQXRxMjkydw?oc=5"
-   },
-   {
-    "date": "2026-11-25",
-    "published": "2026-11-25T23:37:44+00:00",
-    "source": "Al Jazeera",
-    "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdGxhOFVRbGV4VWljWVZrRGUzSlRFN2dkQVc3dkVHWHZQdUlOYmVpbEpKdVdtYkdXRFVQVG11QlJleUZOeXZyVUdCRVg0UWw1YmVNUS02WlREdUJnVnBnRlF2TUJJM2hrUlNUSHUxRmF0YzRqM2QtR01kUUhvSHZHX25XeWRNZjdrMFF0VkRlVnMxbjNQOU1YcTl0cjJCNlZueGlOeXZIONIBrAFBVV95cUxPdEhLc01XWU5iX2xIa2VMdlBiZG1icV9TR1JsTGJJTl85Vkg2N25sY2JQYTJpb0tqYnhVRENFSUN5NkQxM3NBbG45WUQwdzk5UFB1LUFLRGUyeEExUkxlcW9UdUVBU2pteWVwdV9LMDhxbWZsb2lEVExfS0JmU0s5MVVrMVFaSHpoVnpSQTlTN0lSeEROZzFQMl9DemV6MFgxRkp0V1M2M0NoQm5J?oc=5"
-   },
-   {
-    "date": "2026-11-25",
-    "published": "2026-11-25T19:25:31+00:00",
-    "source": "Al Jazeera",
-    "title": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQTZ0SkxLdXhBQmNfOGNMbnEwdjVYSUNVSUoxZ1p6OHB5ampzMFNoRk4zcUJXMUotSm50SjM0dUgzcEJWUGZfMjdHOVBQTHV4aFJKRlJlNnpwd1hkYlhGTTBuaTdRRXdLT1N4Q3lWVDctTklocGNsRWR5UGkxX0hOMkxpVkxqWm8zeWJNSjVOT3ltbkJrMkJETmRoWmp5bkgzS3UyaTZUVlZ3cGRTV3ptdG5TNXLSAboBQVVfeXFMTUw5b1MyREVfTkM2bjJyeloyamtPSXo3MkhDVEllUnMyOTJTOFEtYXBKZHhvQkpveGtwbl81SUh1b0lYNmQ0NVIzMUtvbEl3T2JXdXV3VHRZZS1Yakc2bHBUanoyY09DYUdiUjMtWGJ1dnB1a09jZ2lLRzZoeUFEMFFVWjl4bXB4T1ZUMkdFbDBlbWs0ZFVNWmh5aU5ZcW9VcW9xMkF6WlJpMzY2MGtMQk9IQjFqRW43YjZR?oc=5"
-   },
-   {
-    "date": "2026-11-25",
-    "published": "2026-11-25T13:59:32+00:00",
-    "source": "The New York Times",
-    "title": "How an Iranian Ally Gained the Upper Hand in Yemen’s War",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaDdOQkIyMWZBYUJGd19raENFUlNZRFhGZ0ctSzRyczJfWFloRVMtRXFlWkR4MVprWV9wS0txVDZfYmJYU2NZR0hhRGV3eTdZZlczSlFmR1VnQko4NGpKa3MzSG5VcENhdGw1cVJHMEdYaTQwVHkxV3I5eUhaUDd1ZHhkWW45elNfRk1XUEdGUTdLWWNqd2tv?oc=5"
+    "date": "2026-11-26",
+    "published": "2026-11-26T05:00:19+00:00",
+    "source": "Financial Times",
+    "title": "Saudi Arabia prepares to delay flagship mining conference as attacks continue",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLTNyS0hCUWF1OW00czNJM2lTZTBFVUt4YlNrMlAtb1JXNVpJaHlvNTFmcVg1Rm96bXZKdHZOc3pheEx4UkhuNFlQbkkySnJXYThmUFphc29nT3pEZ0Vxbnh6WGZFX0pWV0dwakt4OW9ZVzRiQXhCdVlpZjlub0ktaEFDazk?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-26T04:56:30Z"
+  "last_ok_at": "2026-11-26T15:00:20Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T04:56:31Z",
+  "fetched_at": "2026-11-26T15:00:22Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 19,
-  "baseline": 21.5,
-  "baseline_n": 10,
+  "count": 52,
+  "baseline": 32,
+  "baseline_n": 13,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2155,14 +2155,15 @@
    "2026-11-25T02": 31,
    "2026-11-25T12": 36,
    "2026-11-25T22": 47,
-   "2026-11-26T04": 19
+   "2026-11-26T04": 19,
+   "2026-11-26T15": 52
   },
-  "last_ok_at": "2026-11-26T04:56:31Z"
+  "last_ok_at": "2026-11-26T15:00:22Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-26T04:56:31Z",
-  "last_ok_at": "2026-11-26T04:56:31Z"
+  "fetched_at": "2026-11-26T15:00:22Z",
+  "last_ok_at": "2026-11-26T15:00:22Z"
  }
 }
