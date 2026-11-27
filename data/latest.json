@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T23:45:00Z",
+ "generated_at": "2026-11-27T08:10:29Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T23:45:00Z",
+  "fetched_at": "2026-11-27T08:10:29Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -184,15 +184,29 @@
    }
   ],
   "last7d": 5,
-  "baseline": 4.0,
+  "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-26T23:45:00Z"
+  "last_ok_at": "2026-11-27T08:10:29Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T23:45:20Z",
+  "fetched_at": "2026-11-27T08:10:43Z",
   "events": [
+   {
+    "date": "2026-11-26",
+    "time": "23:38",
+    "iso": "2026-11-26T23:38:48+03:00",
+    "city": "지잔",
+    "type": "피격",
+    "weapon": null,
+    "lat": 16.89,
+    "lon": 42.57,
+    "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZnZjhfSVBOMkp2VnNxeTh6ZHVxQmQ4X09jMnFmMFg1VUlhQ3RSTlVUN09RZEZpUlZFeV96MlpENFFwTHhoS0dEWTk5Q0U0Y2F0QS1Zb0Q0amNWMkw3cEs3S0d3Rml4QTV0ZExPXzVBaVRaTkZHVUpmYVVIbVk2SGtkcWtJLXVTUkk4Y2gxelVuUGtnU1BxM0gtN2J6ZF92SnJvczdjaGQxQkZad0RzZF9pb9IBuAFBVV95cUxPbDVuYThMckJDbU1vT3VsN21LaEc5ZVVQZVZKUjZzMWQ3UnlhbmxQZlZkVzdFUWZFbzVEZ1FkZ3hJSFMzY1dHRzdkYUF4MDIxOEpNckdiZHpHTXIxWGxQb3hHbFBGZ3VEZjdPZXBPVWJEejNFaHMzaVpBeER5aEZKYzZlVFVWSEVnLWpsSHA3cTBvY0pqM3YySXRNZGxhS1hGN0Z0VEtBb3dPNnFwQ2JXWnA5TFl2dDNX?oc=5",
+    "source": "Al Jazeera",
+    "outlets": 1
+   },
    {
     "date": "2026-11-26",
     "time": "00:42",
@@ -948,8 +962,10 @@
     "prev_total": 0
    },
    "지잔": {
-    "7d": {},
-    "total7d": 0,
+    "7d": {
+     "피격": 1
+    },
+    "total7d": 1,
     "prev7d": {},
     "prev_total": 0
    },
@@ -975,12 +991,12 @@
   "history_days": 31,
   "history_since": "2026-10-28",
   "today": "2026-11-27",
-  "last_ok_at": "2026-11-26T23:45:20Z"
+  "last_ok_at": "2026-11-27T08:10:43Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T23:45:21Z",
+  "fetched_at": "2026-11-27T08:10:44Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -992,7 +1008,7 @@
      "나즈란"
     ],
     "text_ar": "شن الطيران الحربي السعودي خلال الـ24 ساعة الماضية 109 غارات جوية وصواريخ استهدف بها الأعيان المدنية في العاصمة صنعاء ومحافظات الجوف وتعز وعمران وحجة وصعدة والحديدة ولحج والبيضاء ومأرب وذلك من خلال طائرات \"F-15\" و \"تايفون\" أقلعت من قاعدتي خميس مشيط والطائف والعدوان الصاروخي من نجران وخلفت شهداء وجرحى من المدنيين. ليبلغ إجمالي غارات العدوان السعودي منذ بدء التصعيد على بلدِنا 5934 غارة جوية وصاروخا. …",
-    "text_ko": null,
+    "text_ko": "지난 24시간 동안 사우디아라비아 공군은 F-15와 타이푼 전투기를 동원하여 수도 사나, 조프, 타이즈, 이므란, 하자, 사다, 호데이다, 라흐즈, 바이다, 마리브 주에 있는 민간 시설을 대상으로 109회의 공습과 미사일 공격을 가했습니다. 이 공격은 카미스 무샤이트와 타이프 기지에서 이륙한 전투기와 나즈란에서 발사된 미사일에 의해 이루어졌으며, 이로 인해 민간인 사상자가 발생했습니다. 우리나라에 대한 공격이 격화되기 시작한 이래 사우디아라비아의 침략 공습 총계는 5,934회의 공습과 미사일 공격에 달한다. …",
     "url": "https://t.me/army21ye/4168"
    },
    {
@@ -1618,21 +1634,42 @@
    "라비그": 1,
    "메디나": 1
   },
-  "last_ok_at": "2026-11-26T23:45:21Z"
+  "last_ok_at": "2026-11-27T08:10:44Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T23:45:22Z",
+  "fetched_at": "2026-11-27T08:10:47Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-26T23:45:22Z"
+  "last_ok_at": "2026-11-27T08:10:47Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T23:45:22Z",
+  "fetched_at": "2026-11-27T08:10:47Z",
   "kr": [
+   {
+    "date": "2026-11-27",
+    "published": "2026-11-27T07:42:00+00:00",
+    "source": "연합뉴스",
+    "title": "국제유가 3주 하락세 마침표…중동긴장 악화에 공급 우려",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYcy1SUkZ2ckxoMkFLTGN6YzhER0hyMnVEUmNDcTRPT0hYSHhETDQ5X2xLbmhCc05kOGx0YjcwMTFzZV9lcm9OcVp6aGUtYk1UaXR4RktMVXlCdWdVZldmM2xrUW90UVU?oc=5"
+   },
+   {
+    "date": "2026-11-27",
+    "published": "2026-11-27T07:35:12+00:00",
+    "source": "연합뉴스",
+    "title": "국제유가, 중동긴장 악화·공급우려에 3주 하락세 마침표",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00N2hmX1E3NVpWb1ZvSkoycE5BcjhWemxGelV4eURzaEg3czRRVjI1Mk1NVUh2czJ4LWFMYmFPRGJpdUU0b0xrbERKN0FYWGE0cEFDQ3lWcmJqdGPSAWBBVV95cUxOOGxqVEN4N2hWZXdQSEpGdnJReWRCc2FaRWpjcTZhY09vejZnS1l1LXpySGc3WExsVnJSOU1qS2xxMVA4WFUxQUlvQWQzejR6T21kanRNTkowYnYwTnhxOGE?oc=5"
+   },
+   {
+    "date": "2026-11-27",
+    "published": "2026-11-27T00:12:57+00:00",
+    "source": "뉴스1",
+    "title": "\"후티 공격에 사우디 최대 광물 포럼도 차질…내년 1월 개최 미뤄질 듯\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wZG50VXl0Zl9fei0tcVlWblFhc2FjQ1QxczNadmRYZHJnY1FrTzRDemVzbzlBVXRXVms5ZXQwckFnazhPZ0RaeWl6WUVXQXpoTkt3WE5XVnVmczJoMlJJZnRR?oc=5"
+   },
    {
     "date": "2026-11-26",
     "published": "2026-11-26T18:40:58+00:00",
@@ -1642,34 +1679,34 @@
    },
    {
     "date": "2026-11-26",
-    "published": "2026-11-26T18:22:24+00:00",
-    "source": "연합뉴스",
-    "title": "사우디 정유시설 피격으로 1명 사망…가동 일시 중단",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QcmpiV0VOSkVyTTlETVQ4OFJXZUkxeG1JU0RQQlRQOVZEZEN0ZHJkSlNtUnFFM3NZaWhLUmV4NVY4SXlRMkxkMk9pOE1rOWpDZWlIZENLNFdqYjdMbVQ2MtIBYEFVX3lxTE9QcmpiV0VOSkVyTTlETVQ4OFJXZUkxeG1JU0RQQlRQOVZEZEN0ZHJkSlNtUnFFM3NZaWhLUmV4NVY4SXlRMkxkMk9pOE1rOWpDZWlIZENLNFdqYjdMbVQ2Mg?oc=5"
-   },
-   {
-    "date": "2026-11-26",
-    "published": "2026-11-26T09:30:42+00:00",
-    "source": "연합뉴스",
-    "title": "[영상] '검은 연기띠' 사우디 정유시설…후티 \"홍해 항구도 공격\"",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XTjRZYzNzVXBodG0zTWRxUEE3NGNqR2JMTzZuSXVpTm5hZGNVdHY1SHd1b0NQQnh3RzNRbGpxR2xkeTh3djlucTlfV284Q1U2ZUZ3anJ0NHJwVHRBcGZKS9IBYEFVX3lxTE1XTjRZYzNzVXBodG0zTWRxUEE3NGNqR2JMTzZuSXVpTm5hZGNVdHY1SHd1b0NQQnh3RzNRbGpxR2xkeTh3djlucTlfV284Q1U2ZUZ3anJ0NHJwVHRBcGZKSw?oc=5"
-   },
-   {
-    "date": "2026-11-26",
     "published": "2026-11-26T06:57:50+00:00",
     "source": "조선일보",
     "title": "수도 잃고 쫓겨왔는데… 예멘 정부, 親이란 후티에 아덴마저 뚫릴 판",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbVZFc01kNWVsb2E1R1ZRbGEtVWlrRWs3SjUyMGNhU1dLX2FCRnRJMVBLR2hKTmYwWlB3RHczY2lfNkFrdlRkTWhocnFPbzhwZHhjdU1kcUNJLThtOTJ4Y0NIcGhxUTBxNlQyYTI5OXpjbnRqS2k3QS1wQldOcTBkMlZmWElQbHVKS1h5RWx4QUh1bnJkQTJJWkV1Wmg?oc=5"
-   },
-   {
-    "date": "2026-11-26",
-    "published": "2026-11-26T00:47:00+00:00",
-    "source": "YTN",
-    "title": "후티, 아덴 60㎞ 앞까지 진격...함락 중대 기로",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIX01EZFBqZDBEYWxSeXVWcnRFbEl4THIwZmNoQV9xaGhXNUUxdmtNTWRIMmdZZ0o2THRCTFZKbXo1czRlNWgyOFNXaGZqTVVkWEpGYm5ZNElPeWFzY1E?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-11-27",
+    "published": "2026-11-27T07:27:55+00:00",
+    "source": "Al Jazeera",
+    "title": "Can the Mecca pact turn its collective defence promise into real support?",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbkZDZkZudnVZY1pudllWNWQwN3RDbjlKWEFKOC1tV3ltUlpkV21RMmZKMjkyRlNEUTdEbElUU0s3OWFnZWxwSTZsYTFnZWE4WVc0dnNkSjdIS2VFc1ZMOEhrMEhrSzlUSF9BMngxOFFpeVRDN25OamJVbGtLWC1oTXRmSUZNb1Ztcm9CZE5tM0N4WV9TVDdfdjc4cTYwbnNRT29ybEo0QXpqNC0zZXNydFBGb281Y1dtMWRCYWx3elDSAcYBQVVfeXFMTjl4VmFaUTlKRHRqeXZNQmlSd1lGMWR4ejJZWVRmSHg4ZEZNd3RGRnktSF9MNlZ6MW1HNFBWZENVU0h5NG43MVhVWHhVTnVmd0dPVkVDbGJNRmhERHU4S2FSWjhYWUR3a2puRzBkaHhRR3ptdjM0Vm8zalpoT3lJbko2SEtCelppRTBORWpfNDNuX3gybXhvc19QWTJkZ01jb01YbGVORHZkLUVwU3hyVWNveGhZbDFMc2ZTdXduangwSFJaV1RB?oc=5"
+   },
+   {
+    "date": "2026-11-27",
+    "published": "2026-11-27T06:22:57+00:00",
+    "source": "The National",
+    "title": "Middle East latest: Iran warns South Korea over planned naval deployment",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5"
+   },
+   {
+    "date": "2026-11-27",
+    "published": "2026-11-27T01:55:00+00:00",
+    "source": "Reuters",
+    "title": "Oil on track to snap 3-week losing streak over supply fears",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTzVQVzE5aGdzbGVhNEUtVl94M0V3RjN5Rks4UDU0U0plazFDcjFnUTBMMHBvdk9BRzFaVHljSXk1ZFdzSjlRTVRXNGZ0cnRyUWRRbFJaRjBsVWNFbDZqSnQ0cHo0TW5fRDlwMWlKWDI3V2ROcnlXczVET1RqSXR6UGtZSTZ0OTQtY1YwaG1yYTRwQnZ6TW43azNGNTFqMmpkNFhtbVJwRnVkVERhR1NnSlFIMzExZw?oc=5"
+   },
    {
     "date": "2026-11-26",
     "published": "2026-11-26T21:05:21+00:00",
@@ -1683,39 +1720,18 @@
     "source": "Reuters",
     "title": "Attack on Saudi Aramco's Jazan refinery kills worker, halts some operations",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnNINWJlUzU0bDVSQ1Z5TWhtZTl1dzVxa01lbWhiMTg0bjBKZzQtbld6RmpIQ3NOSkctT29wTmdmR3VCcHpMbzdBQUdQSU0wVWItQU1COHhCS1BzYnpoOTJsRzl2TWp0aVNNZWVpZVFhS2cwWXVtNnA0bzRfUXNTRTJRTEVHem5BY2V2SURxZG9Vb3VkT3FNa1RuR3RfZWJQUE15WTdGaVFudnJaeVJIdVhXdE9PcWFuY2c?oc=5"
-   },
-   {
-    "date": "2026-11-26",
-    "published": "2026-11-26T20:38:48+00:00",
-    "source": "Al Jazeera",
-    "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZnZjhfSVBOMkp2VnNxeTh6ZHVxQmQ4X09jMnFmMFg1VUlhQ3RSTlVUN09RZEZpUlZFeV96MlpENFFwTHhoS0dEWTk5Q0U0Y2F0QS1Zb0Q0amNWMkw3cEs3S0d3Rml4QTV0ZExPXzVBaVRaTkZHVUpmYVVIbVk2SGtkcWtJLXVTUkk4Y2gxelVuUGtnU1BxM0gtN2J6ZF92SnJvczdjaGQxQkZad0RzZF9pb9IBuAFBVV95cUxPbDVuYThMckJDbU1vT3VsN21LaEc5ZVVQZVZKUjZzMWQ3UnlhbmxQZlZkVzdFUWZFbzVEZ1FkZ3hJSFMzY1dHRzdkYUF4MDIxOEpNckdiZHpHTXIxWGxQb3hHbFBGZ3VEZjdPZXBPVWJEejNFaHMzaVpBeER5aEZKYzZlVFVWSEVnLWpsSHA3cTBvY0pqM3YySXRNZGxhS1hGN0Z0VEtBb3dPNnFwQ2JXWnA5TFl2dDNX?oc=5"
-   },
-   {
-    "date": "2026-11-26",
-    "published": "2026-11-26T20:14:56+00:00",
-    "source": "Bloomberg",
-    "title": "Oil Extends Gains as Middle East Tensions Fuel Market Jitters",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWM5bTBpVVdXcm1DeXd5eTFMWXRUWVFIalFzYnE5bGVqS3dVbldzMXFralFtOWdoaXZDS0NtbE83ME5ZS3cwZkdaRFJsTFlzcFlhQnhmbGF3a1hSdmVsUU9Dc1VLWXJmV2J2aTlETkhSWXd1dlNCamZOeEdlSnN6dXdCN3p5TUd5bDJsVlVpM0J6UVN3TzNEd2wyQ2ZpQQ?oc=5"
-   },
-   {
-    "date": "2026-11-26",
-    "published": "2026-11-26T13:32:47+00:00",
-    "source": "Reuters",
-    "title": "Most Gulf markets retreat on Saudi energy strikes, maritime dangers",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGhLMnhJSlpva0NsUUJkNjhXaFZuUklkNHViOGxUR1daSGduN2xtejdtYnc2WEpfdDVFWS1pY0o3YTBvMWpTdDE3ekwzamhxaUpxSUVKbHVGZXlnOTE1amRuMG1xazZlMlR2RWVqb000NnYwV3VoVWxaSnY2dkFYYklJM3VhZEFKMm9ZbHhRNy01Q09ha2ZpMW9udXRpLUo1RFh6V1FUVTNIRGoxRnN5TEgwbE1udw?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-26T23:45:22Z"
+  "last_ok_at": "2026-11-27T08:10:47Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-26T23:45:23Z",
+  "fetched_at": "2026-11-27T08:10:48Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 38,
-  "baseline": 26.0,
-  "baseline_n": 18,
+  "count": 31,
+  "baseline": 29,
+  "baseline_n": 9,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -2029,14 +2045,15 @@
    "2026-11-25T22": 47,
    "2026-11-26T04": 19,
    "2026-11-26T15": 52,
-   "2026-11-26T23": 38
+   "2026-11-26T23": 38,
+   "2026-11-27T08": 31
   },
-  "last_ok_at": "2026-11-26T23:45:23Z"
+  "last_ok_at": "2026-11-27T08:10:48Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-26T23:45:23Z",
-  "last_ok_at": "2026-11-26T23:45:23Z"
+  "fetched_at": "2026-11-27T08:10:49Z",
+  "last_ok_at": "2026-11-27T08:10:49Z"
  }
 }
