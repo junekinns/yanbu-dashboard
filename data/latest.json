@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T01:53:28Z",
+ "generated_at": "2026-11-28T10:13:10Z",
  "pinned": [
   "얀부",
   "제다",
@@ -10,7 +10,7 @@
  "mofa": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-28T01:53:28Z",
+  "fetched_at": "2026-11-28T10:13:10Z",
   "source_url": "https://www.0404.go.kr/ntnSafetyInfo/107/detail",
   "advisories": [
    {
@@ -186,12 +186,12 @@
   "last7d": 5,
   "baseline": 4.5,
   "tier": "평시",
-  "last_ok_at": "2026-11-28T01:53:28Z"
+  "last_ok_at": "2026-11-28T10:13:10Z"
  },
  "events": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-28T01:53:44Z",
+  "fetched_at": "2026-11-28T10:13:32Z",
   "events": [
    {
     "date": "2026-11-26",
@@ -963,12 +963,12 @@
   "history_days": 31,
   "history_since": "2026-10-29",
   "today": "2026-11-28",
-  "last_ok_at": "2026-11-28T01:53:44Z"
+  "last_ok_at": "2026-11-28T10:13:32Z"
  },
  "telegram": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-28T01:53:45Z",
+  "fetched_at": "2026-11-28T10:13:33Z",
   "channel": "https://t.me/s/army21ye",
   "messages": [
    {
@@ -1560,8 +1560,8 @@
   ],
   "mentions7d": {
    "카미스무샤이트": 8,
-   "타이프": 6,
    "나즈란": 6,
+   "타이프": 6,
    "제다": 4,
    "지잔": 3,
    "리야드": 3,
@@ -1569,41 +1569,48 @@
    "라비그": 1,
    "메카": 1
   },
-  "last_ok_at": "2026-11-28T01:53:45Z"
+  "last_ok_at": "2026-11-28T10:13:33Z"
  },
  "firms": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-28T01:53:46Z",
+  "fetched_at": "2026-11-28T10:13:33Z",
   "source_url": "https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Global_7d.csv",
   "hotspots": [],
-  "last_ok_at": "2026-11-28T01:53:46Z"
+  "last_ok_at": "2026-11-28T10:13:33Z"
  },
  "news": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-28T01:53:46Z",
+  "fetched_at": "2026-11-28T10:13:34Z",
   "kr": [
+   {
+    "date": "2026-11-28",
+    "published": "2026-11-28T07:30:40+00:00",
+    "source": "뉴스1",
+    "title": "튀르키예·파키스탄, 후티 사우디 공격 규탄…\"집단방위 지원 강화\"",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tUDlJWWxMNFRpc0lDTFV6VTR1TnVPd0UtTVV2LUNvMDNJWTRDaUhiRVBtbzN6b0lCZGEyNk55RmVnMHl4X3dveUhHdUhZZXBWWXpuLU4wd0I2RzExcWZxS1pB?oc=5"
+   },
+   {
+    "date": "2026-11-28",
+    "published": "2026-11-28T01:36:42+00:00",
+    "source": "뉴시스",
+    "title": "파키스탄·튀르키예 \"후티 공격받는 사우디 방어\"…집단방위 재확인",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1pd3pQejdMeXg2R0pUMWR6YllLRS1VUVhUOVJXYU5GOVkzb0p1SDQ5YzE0cEhESlZscjFiSHBmX0ZOcjI4aktLTHdfdFdiN19pQ09ORWRVaXNSMkFTR01kRDZn?oc=5"
+   },
    {
     "date": "2026-11-28",
     "published": "2026-11-28T01:07:57+00:00",
     "source": "연합뉴스",
     "title": "파키스탄·튀르키예, 후티 반군 공격 맞서 사우디 지원 강화",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBV2tCaFJ4MEYzeFFJQ19sc1hjSFFLR1QzZFlSaElMcDRwejJsRjl1cHR5Umdfdkw2eHRreG00R3M1SjU5amhfcEtEbmlyYXd2Ujh1MzlIZzByUm_SAWBBVV95cUxOT2lWTlpGcDlLTmJNNHBPRDN5QktKaUgydFRZbEVLZWpFVzlISDNiRTI4b2xaMVJYcVBxNzQyWGxtUkNoNnJlWnlQY19HVGJkT2VmeWFWQXVsRm9wcFFpckQ?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PaVZOWkZwOUtOYk00cE9EM3lCS0ppSDJ0VFlsRUtlakVXOUhIM2JFMjhvbFoxUlhxUHE3NDJYbG1SQ2g2cmVaeVBjX0dUYmRPZWZ5YVZBdWxGb3BwUWlyRNIBYEFVX3lxTE5PaVZOWkZwOUtOYk00cE9EM3lCS0ppSDJ0VFlsRUtlakVXOUhIM2JFMjhvbFoxUlhxUHE3NDJYbG1SQ2g2cmVaeVBjX0dUYmRPZWZ5YVZBdWxGb3BwUWlyRA?oc=5"
    },
    {
     "date": "2026-11-27",
     "published": "2026-11-27T21:11:14+00:00",
     "source": "연합뉴스",
     "title": "국제유가, 중동발 공급 차질 우려에도 하락…브렌트유 1.2%↓",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IZksta2Q3ZFczWkw1aW5hZXhtU1NVcGFxcENGelY4QVZGU1hLNUZTU3N0amRYYk0zTHoxNXFhdVoyQVAyeHllOWUzdVdhVzdudC0wQWRQSWVBRXRQN2E2bNIBYEFVX3lxTE1IZksta2Q3ZFczWkw1aW5hZXhtU1NVcGFxcENGelY4QVZGU1hLNUZTU3N0amRYYk0zTHoxNXFhdVoyQVAyeHllOWUzdVdhVzdudC0wQWRQSWVBRXRQN2E2bA?oc=5"
-   },
-   {
-    "date": "2026-11-27",
-    "published": "2026-11-27T13:43:57+00:00",
-    "source": "뉴스1",
-    "title": "후티 반군, 영국 겨냥 \"사우디 군사 지원은 참전\" 보복 경고",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDM3BhME50VFpBajB1SVBaMnRFbHBYWlJhWWczLTdYcUlYY0xWb1VCRE9zcFUtaEJmeHdzQWlFVWJOLWRMbUlReFRtenl5Ynctd2lBdE9pR013cnRLdUxxWUZ3?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NX2pYV1R2VmlrWGw0MWxfeGdkUmYzWUJZWHhKRElzYlh5Mi1Ib1pEOUxuWVl3XzBhZHktZnVHbUVCVnMwd3M0TU1acnFBdlZScUxkOGhZOHBFOGPSAWBBVV95cUxNSGZLLWtkN2RXM1pMNWluYWV4bVNTVXBhcXBDRnpWOEFWRlNYSzVGU1NzdGpkWGJNM0x6MTVxYXVaMkFQMnh5ZTllM3VXYVc3bnQtMEFkUEllQUV0UDdhNmw?oc=5"
    },
    {
     "date": "2026-11-27",
@@ -1611,16 +1618,16 @@
     "source": "뉴시스",
     "title": "후티, 사우디 석유인프라 연일 공습…사우디도 후티 항만 등 타격",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rR0hUU3Z5Z2Q3Z2ZhQldZXzByVnpfVklCbFViMmJWVnE3WXJTQklLekhJaDdZQmFDTHRPN0JSd3VhUUhISzd3Vmd3NFN5RHlKUTBLU0wzcXE0ZGZHaWFvU9IBeEFVX3lxTFBvaVRtbnNKYTVfNmlOSjkxdnVsUjA2SEVfWmRoSnFZUzdjMVFUa29JVkZ0RUR1elB3UjdUOTdUMkM5bmZfNllVelctLXJicEhTRU5GVEFmRlZ6ZlVUNmlyaTRDRDRjWVJNRDBQYWxOUlN6ejd6VHo4NQ?oc=5"
-   },
-   {
-    "date": "2026-11-27",
-    "published": "2026-11-27T01:58:00+00:00",
-    "source": "YTN",
-    "title": "쿠웨이트서 드론 공격에 외국인 사망...이란, 외국군 주둔에 경고",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oYmxNcGIxdnp4VS1DY29rQXBRalo5ZkplRnBWZVRQaXdDenNZdGVsa1lUbVlucm9nTy1sN1BsNXdaMlV3RWo0MUJacHltWU15a2NWX0dVbTRtTmx2T3lIakhoTUg2bkZrVHlHbmNzRlRoN2lUZlE?oc=5"
    }
   ],
   "en": [
+   {
+    "date": "2026-11-27",
+    "published": "2026-11-27T23:49:11+00:00",
+    "source": "NBC News",
+    "title": "Pakistan and Turkey pledge to support Saudi Arabia against Houthi attacks under defense pact",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ1BEcElXWm5rWGxTSzI5WFJORGt6UENJVTA3TDdFdWdqRGI2Tkp0bEpWTWxZZjRLdjctbDJuWllDaG9EVjJWWE8wcXM3V0lwR0NCbGlDdGFBYl9pYnhoT3YyZDZ1UXpFU2xNQUtQMVFxUm5EWE5WMVJJNVNsek5idFZRSUo4c0JTeUUwcnlJMWRfa0tjVjBjMU52TjdBZGpwTGF1ckNlckZfLXlaZzljbHVJa2RDbm5BMm00Tg?oc=5"
+   },
    {
     "date": "2026-11-27",
     "published": "2026-11-27T22:20:34+00:00",
@@ -1637,36 +1644,29 @@
    },
    {
     "date": "2026-11-27",
+    "published": "2026-11-27T13:01:46+00:00",
+    "source": "The Washington Post",
+    "title": "Houthis report 11 killed, including children, in an airstrike, and other Mideast news",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOclBnZVlkeUYzNzR4UDBkLTd0N3NyZ3ZoUXFtNzFDU3ZxSlZTVzhjS0VKaTJGdjlwZmxiR3VqRDhTdUlNcS10NTUyVmtPdllvV3NTcGNDcHkyVzZ0QzR5Uk43WHNXS3RMbkE4R3MxdVlmV2d6V3ItbDFVenVnbG9hZ2lGdUNaRDNyT0s0OHp5bFpkTnZiaHdxaHp5M01VOFZWc09MZ1dIQlFlZ0VfNzl1YWVmYmRGaTU4TXltcEMxVmRUeVRka0d3U0xiLVlfUGZWZHJleUl3?oc=5"
+   },
+   {
+    "date": "2026-11-27",
     "published": "2026-11-27T12:14:38+00:00",
     "source": "Al Jazeera",
     "title": "Saudi strike kills ’11 civilians’ in Yemen’s Taiz: Houthi media",
     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdTNuUFdtTUt3XzYtQXpoc0tKS1dHYzgyQ3lUVUpaOUhCQUpiZXRtOHY3VVlMMjNGdU12WWdpWk93Q0Y0dEh2T01zcTNueEJ6QVhUd2pIamllMko3SGhPYUdzS2ZkMlJEMGtuRzVzbGJkWGNQbWVTQXBtRDFvMElyS25meDlqejh6Rld0dzlRTkpJMUgtT2RJVm9reWFBVHczaUgw0gGoAUFVX3lxTFBGZmlMclJkbjEtNFgzNUtEc0V1RVJjU2F1ZTZWMFdKejhwa1h4aG5uSGlyRTdld1FhRS1kelJLeUxnUzVBQ2p1WjdYOTFKX3ZBeE5YcG5XcTNYdkVKVmN3MmpPd1RDLTRkODM3ME9qajZDd3Fpd0JPME5GRXRjVEhxZDh6T0g3c2hmZXVuNDFELXp1eTBkZlEyb2s4VVI1XzNQdWpfMkhETQ?oc=5"
-   },
-   {
-    "date": "2026-11-27",
-    "published": "2026-11-27T06:04:51+00:00",
-    "source": "BBC",
-    "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QVFV5M2FCMHUxZzgwUzZObTFBZEJIWkJRaC1VSjVZYUpxNV82ZUN1Z1pOa1NrYzVPajloWDZ4b1hTWjdOaVBtTHBQMXo3MjNURkRZR3ZBSDV5RUVnTlE?oc=5"
-   },
-   {
-    "date": "2026-11-27",
-    "published": "2026-11-27T01:55:00+00:00",
-    "source": "Reuters",
-    "title": "Oil notches first weekly gain in November on supply fears",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTzVQVzE5aGdzbGVhNEUtVl94M0V3RjN5Rks4UDU0U0plazFDcjFnUTBMMHBvdk9BRzFaVHljSXk1ZFdzSjlRTVRXNGZ0cnRyUWRRbFJaRjBsVWNFbDZqSnQ0cHo0TW5fRDlwMWlKWDI3V2ROcnlXczVET1RqSXR6UGtZSTZ0OTQtY1YwaG1yYTRwQnZ6TW43azNGNTFqMmpkNFhtbVJwRnVkVERhR1NnSlFIMzExZw?oc=5"
    }
   ],
-  "last_ok_at": "2026-11-28T01:53:46Z"
+  "last_ok_at": "2026-11-28T10:13:34Z"
  },
  "flights": {
   "ok": true,
   "error": null,
-  "fetched_at": "2026-11-28T01:53:47Z",
+  "fetched_at": "2026-11-28T10:13:34Z",
   "source_url": "https://data-cloud.flightradar24.com/zones/fcgi/feed.js",
-  "count": 22,
-  "baseline": 29.0,
-  "baseline_n": 22,
+  "count": 32,
+  "baseline": 31,
+  "baseline_n": 9,
   "tier": "정상",
   "history": {
    "2026-09-16T15": 37,
@@ -1983,14 +1983,15 @@
    "2026-11-26T23": 38,
    "2026-11-27T08": 31,
    "2026-11-27T18": 31,
-   "2026-11-28T01": 22
+   "2026-11-28T01": 22,
+   "2026-11-28T10": 32
   },
-  "last_ok_at": "2026-11-28T01:53:47Z"
+  "last_ok_at": "2026-11-28T10:13:34Z"
  },
  "notams": {
   "ok": true,
   "enabled": false,
-  "fetched_at": "2026-11-28T01:53:47Z",
-  "last_ok_at": "2026-11-28T01:53:47Z"
+  "fetched_at": "2026-11-28T10:13:35Z",
+  "last_ok_at": "2026-11-28T10:13:35Z"
  }
 }
